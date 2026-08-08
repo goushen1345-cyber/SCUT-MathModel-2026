@@ -1,0 +1,500 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(C:\Program Files\Latex\tex/latex/ctex\ctexart.cls
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+(C:\Program Files\Latex\tex/latex/ctex/config\ctexbackend.cfg)
+(C:\Program Files\Latex\tex/latex/l3kernel\expl3.sty
+(C:\Program Files\Latex\tex/latex/l3backend\l3backend-xetex.def))
+Document Class: ctexart 2026/07/01 v2.6.1 Chinese adapter for class article (CT
+EX)
+(C:\Program Files\Latex\tex/latex/ctex\ctexhook.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+) (C:\Program Files\Latex\tex/latex/ctex\ctexpatch.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+) (C:\Program Files\Latex\tex/latex/base\fix-cm.sty
+(C:\Program Files\Latex\tex/latex/base\ts1enc.def))
+(C:\Program Files\Latex\tex/latex/ctex/config\ctexopts.cfg)
+(C:\Program Files\Latex\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Program Files\Latex\tex/latex/base\size12.clo))
+(C:\Program Files\Latex\tex/latex/ctex/engine\ctex-engine-xetex.def
+(C:\Program Files\Latex\tex/xelatex/xecjk\xeCJK.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+(C:\Program Files\Latex\tex/latex/l3packages/xtemplate\xtemplate.sty)
+(C:\Program Files\Latex\tex/latex/fontspec\fontspec.sty
+(C:\Program Files\Latex\tex/latex/l3packages/xparse\xparse.sty)
+(C:\Program Files\Latex\tex/latex/fontspec\fontspec-xetex.sty
+(C:\Program Files\Latex\tex/latex/base\fontenc.sty)
+(C:\Program Files\Latex\tex/latex/fontspec\fontspec.cfg)))
+(C:\Program Files\Latex\tex/xelatex/xecjk\xeCJK.cfg)))
+(C:\Program Files\Latex\tex/latex/zhnumber\zhnumber.sty
+(C:\Program Files\Latex\tex/latex/zhnumber\zhnumber-utf8.cfg))
+(C:\Program Files\Latex\tex/latex/ctex/scheme\ctex-scheme-chinese-article.def
+(C:\Program Files\Latex\tex/latex/ctex/config\ctex-name-utf8.cfg))
+(C:\Program Files\Latex\tex/latex/ctex/fontset\ctex-fontset-windows.def))
+(C:\Program Files\Latex\tex/latex/ctex/config\ctex.cfg)
+(C:\Program Files\Latex\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\Latex\tex/latex/amsmath\amstext.sty
+(C:\Program Files\Latex\tex/latex/amsmath\amsgen.sty))
+(C:\Program Files\Latex\tex/latex/amsmath\amsbsy.sty)
+(C:\Program Files\Latex\tex/latex/amsmath\amsopn.sty))
+(C:\Program Files\Latex\tex/latex/amsfonts\amssymb.sty
+(C:\Program Files\Latex\tex/latex/amsfonts\amsfonts.sty))
+(C:\Program Files\Latex\tex/latex/booktabs\booktabs.sty)
+(C:\Program Files\Latex\tex/latex/graphics\graphicx.sty
+(C:\Program Files\Latex\tex/latex/graphics\keyval.sty)
+(C:\Program Files\Latex\tex/latex/graphics\graphics.sty
+(C:\Program Files\Latex\tex/latex/graphics\trig.sty)
+(C:\Program Files\Latex\tex/latex/graphics-cfg\graphics.cfg)
+(C:\Program Files\Latex\tex/latex/graphics-def\xetex.def)))
+(C:\Program Files\Latex\tex/latex/float\float.sty)
+(C:\Program Files\Latex\tex/latex/geometry\geometry.sty
+(C:\Program Files\Latex\tex/generic/iftex\ifvtex.sty
+(C:\Program Files\Latex\tex/generic/iftex\iftex.sty))
+(C:\Program Files\Latex\tex/latex/geometry\geometry.cfg))
+(C:\Program Files\Latex\tex/latex/tools\longtable.sty)
+(C:\Program Files\Latex\tex/latex/tools\array.sty)
+(C:\Program Files\Latex\tex/latex/multirow\multirow.sty)
+(C:\Program Files\Latex\tex/latex/caption\caption.sty
+(C:\Program Files\Latex\tex/latex/caption\caption3.sty)
+(C:\Program Files\Latex\tex/latex/caption\ltcaption.sty))
+(C:\Program Files\Latex\tex/latex/caption\subcaption.sty)
+(C:\Program Files\Latex\tex/latex/enumitem\enumitem.sty)
+(C:\Program Files\Latex\tex/latex/xcolor\xcolor.sty
+(C:\Program Files\Latex\tex/latex/graphics-cfg\color.cfg)
+(C:\Program Files\Latex\tex/latex/graphics\mathcolor.ltx))
+(C:\Program Files\Latex\tex/latex/hyperref\hyperref.sty
+(C:\Program Files\Latex\tex/latex/kvsetkeys\kvsetkeys.sty)
+(C:\Program Files\Latex\tex/generic/kvdefinekeys\kvdefinekeys.sty)
+(C:\Program Files\Latex\tex/generic/pdfescape\pdfescape.sty
+(C:\Program Files\Latex\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Program Files\Latex\tex/generic/pdftexcmds\pdftexcmds.sty
+(C:\Program Files\Latex\tex/generic/infwarerr\infwarerr.sty)))
+(C:\Program Files\Latex\tex/latex/hycolor\hycolor.sty)
+(C:\Program Files\Latex\tex/latex/hyperref\nameref.sty
+(C:\Program Files\Latex\tex/latex/refcount\refcount.sty)
+(C:\Program Files\Latex\tex/generic/gettitlestring\gettitlestring.sty
+(C:\Program Files\Latex\tex/latex/kvoptions\kvoptions.sty)))
+(C:\Program Files\Latex\tex/latex/etoolbox\etoolbox.sty)
+(C:\Program Files\Latex\tex/generic/stringenc\stringenc.sty)
+(C:\Program Files\Latex\tex/latex/hyperref\pd1enc.def)
+(C:\Program Files\Latex\tex/generic/intcalc\intcalc.sty)
+(C:\Program Files\Latex\tex/latex/hyperref\puenc.def)
+(C:\Program Files\Latex\tex/latex/url\url.sty)
+(C:\Program Files\Latex\tex/generic/bitset\bitset.sty
+(C:\Program Files\Latex\tex/generic/bigintcalc\bigintcalc.sty)))
+(C:\Program Files\Latex\tex/latex/hyperref\hxetex.def
+(C:\Program Files\Latex\tex/latex/rerunfilecheck\rerunfilecheck.sty
+(C:\Program Files\Latex\tex/generic/uniquecounter\uniquecounter.sty)))
+(C:\Program Files\Latex\tex/latex/setspace\setspace.sty)
+(C:\Program Files\Latex\tex/latex/algorithms\algorithm.sty
+(C:\Program Files\Latex\tex/latex/base\ifthen.sty))
+(C:\Program Files\Latex\tex/latex/algorithmicx\algpseudocode.sty
+(C:\Program Files\Latex\tex/latex/algorithmicx\algorithmicx.sty
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (C:\Program Files\Latex\tex/latex/fancyhdr\fancyhdr.sty)
+(C:\Program Files\Latex\tex/latex/titlesec\titlesec.sty) (main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(main.out) (main.out)
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(C:\Program Files\Latex\tex/latex/amsfonts\umsa.fd)
+(C:\Program Files\Latex\tex/latex/amsfonts\umsb.fd)
+Overfull \hbox (4.1119pt too wide) in paragraph at lines 41--42
+[]\TU/SimSun(0)/m/n/10.95 问 题 \TU/lmr/m/n/10.95 1 \TU/SimSun(0)/m/n/10.95 方 面，|
+  先 用 分 布 拟 合 与 描 述 统 计 刻 画 销 量 规 律，|  再 以 \TU/lmr/bx/n/10.95 Pearson\TU/lmr/m/
+n/10.95 /\TU/lmr/bx/n/10.95 Spearman
+! Text line contains an invalid character.
+l.43 ...补货\textbf{2000.53}kg，平均加成\textbf{150.00^^@
+                                                  \%}；相对历史加成提升\textbf{145.92...
+
+! Text line contains an invalid character.
+l.43 ...tbf{150.00^^@\%}；相对历史加成提升\textbf{145.92^^@
+                                                  \%}，相对固定\textbf{30\%}加成提升\...
+
+! Text line contains an invalid character.
+l.43 ...\%}，相对固定\textbf{30\%}加成提升\textbf{438.36^^@
+                                                  \%}。其中\textbf{花叶类}周收益最高，约\...
+
+! Text line contains an invalid character.
+l.47 ...tbf{365.95}kg，相对贪心Top收益基线提升\textbf{3.64^^@
+                                                  \%}，并尽量覆盖六大品类需求。
+! Text line contains an invalid character.
+l.49 ...]，不低于基线\textbf{95\%}水平的概率为\textbf{99.50^^@
+                                                  \%}。问题4据此提出客流、天气、实时库存、促销档期...
+
+
+Overfull \hbox (24.4746pt too wide) in paragraph at lines 49--50
+[]\TU/SimSun(0)/m/n/10.95 进 一 步 做 损 耗\TU/lmr/m/n/10.95 /\TU/SimSun(0)/m/n/10.95
+ 加 成\TU/lmr/m/n/10.95 /\TU/SimSun(0)/m/n/10.95 弹 性 \TU/SimSun(0)/b/n/10.95 灵 敏 
+度 分 析 \TU/SimSun(0)/m/n/10.95 与 需 求  |—|  成 本 扰 动 \TU/SimSun(0)/b/n/10.95 蒙 特 卡
+ 洛 鲁 棒 检 验  |\TU/SimSun(0)/m/n/10.95 （\TU/lmr/m/n/10.95 n=\TU/lmr/bx/n/10.95 20
+0\TU/SimSun(0)/m/n/10.95 ） ：|
+[1]
+
+LaTeX Warning: Reference `fig:roadmap' on page 2 undefined on input line 71.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]
+
+LaTeX Warning: Reference `fig:eda1' on page 4 undefined on input line 115.
+
+
+LaTeX Warning: Reference `fig:eda2' on page 4 undefined on input line 115.
+
+
+LaTeX Warning: Reference `fig:eda3' on page 4 undefined on input line 115.
+
+
+LaTeX Warning: Reference `fig:eda4' on page 4 undefined on input line 115.
+
+
+LaTeX Warning: Reference `tab:desc' on page 4 undefined on input line 115.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4]
+
+LaTeX Warning: Reference `fig:loss' on page 5 undefined on input line 170.
+
+
+LaTeX Warning: Reference `fig:pricebox' on page 5 undefined on input line 170.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+
+LaTeX Warning: Reference `tab:dist' on page 6 undefined on input line 218.
+
+
+LaTeX Warning: Reference `fig:dist' on page 6 undefined on input line 218.
+
+
+LaTeX Warning: Reference `fig:corr' on page 6 undefined on input line 218.
+
+
+LaTeX Warning: Reference `fig:lift' on page 6 undefined on input line 218.
+
+
+LaTeX Warning: Reference `fig:toplift' on page 6 undefined on input line 218.
+
+
+LaTeX Warning: Reference `tab:rules' on page 6 undefined on input line 218.
+
+
+LaTeX Warning: Reference `fig:cluster' on page 6 undefined on input line 218.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+
+LaTeX Warning: Reference `fig:scatter' on page 9 undefined on input line 312.
+
+
+LaTeX Warning: Reference `fig:elast' on page 9 undefined on input line 312.
+
+
+LaTeX Warning: Reference `tab:elast' on page 9 undefined on input line 312.
+
+
+LaTeX Warning: Reference `fig:resid' on page 9 undefined on input line 312.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10]
+
+LaTeX Warning: Reference `tab:q2' on page 11 undefined on input line 378.
+
+
+LaTeX Warning: Reference `tab:day' on page 11 undefined on input line 378.
+
+
+LaTeX Warning: Reference `fig:repl' on page 11 undefined on input line 378.
+
+
+LaTeX Warning: Reference `fig:catprofit' on page 11 undefined on input line 378
+.
+
+
+LaTeX Warning: Reference `fig:curve' on page 11 undefined on input line 378.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13]
+
+LaTeX Warning: Reference `tab:q3cmp' on page 14 undefined on input line 478.
+
+
+LaTeX Warning: Reference `fig:q3cmp' on page 14 undefined on input line 478.
+
+
+LaTeX Warning: Reference `tab:cov' on page 14 undefined on input line 478.
+
+
+LaTeX Warning: Reference `fig:cov' on page 14 undefined on input line 478.
+
+
+LaTeX Warning: Reference `tab:plan3' on page 14 undefined on input line 478.
+
+
+LaTeX Warning: Reference `fig:sku' on page 14 undefined on input line 478.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.486 方案 & 单品数 & 总补货量 & 总预期销量 & 总收益 &
+                                      品类覆盖数 \\
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.488 ...化(主模型) & 33 & 365.95 & 333.47 & 1446.34 &
+                                                   6 \\
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.489 ...收益(基线) & 30 & 357.71 & 327.17 & 1395.58 &
+                                                   6 \\
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.490 ...销量(基线) & 30 & 361.18 & 331.40 & 1385.07 &
+                                                   6 \\
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.491 随机30(基线) & 30 & 272.83 & 245.12 & 991.96 &
+                                                 5 \\
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14]
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.510 分类名称 & 单品数 & 补货量 & 预期销量 & 收益 & 需求目标 &
+                                            需求满足率 \\
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.512 ...& 14 & 155.84 & 138.67 & 526.01 & 95.41 &
+                                                   1.45 \\
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.513 花菜类 & 2 & 19.42 & 17.61 & 158.29 & 14.04 &
+                                                 1.25 \\
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.514 水生根茎类 & 3 & 12.85 & 10.78 & 78.71 & 6.78 &
+                                                 1.59 \\
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.515 茄类 & 2 & 26.95 & 25.26 & 141.62 & 18.59 &
+                                                1.36 \\
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.516 辣椒类 & 8 & 94.10 & 85.09 & 324.01 & 83.50 &
+                                                 1.02 \\
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.517 食用菌 & 4 & 56.78 & 56.06 & 217.69 & 36.18 &
+                                                 1.55 \\
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16]
+
+LaTeX Warning: Reference `fig:q4a' on page 17 undefined on input line 590.
+
+
+LaTeX Warning: Reference `fig:q4b' on page 17 undefined on input line 590.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+
+LaTeX Warning: Reference `fig:ablation' on page 18 undefined on input line 611.
+
+
+
+LaTeX Warning: Reference `fig:sens' on page 18 undefined on input line 621.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18]
+
+LaTeX Warning: Reference `fig:mc' on page 19 undefined on input line 631.
+
+
+LaTeX Warning: Reference `fig:mc3' on page 19 undefined on input line 631.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21] (main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)
+Output written on main.pdf (21 pages).
+Transcript written on main.log.
+

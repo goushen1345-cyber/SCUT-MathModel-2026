@@ -1,0 +1,6 @@
+﻿method,overlap_with_entropy_topsis,jaccard
+entropy_topsis,50,1.0
+critic_topsis,46,0.8518518518518519
+grey,34,0.5151515151515151
+pca,45,0.8181818181818182
+total_supply_baseline,46,0.8518518518518519

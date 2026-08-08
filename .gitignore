@@ -1,0 +1,8 @@
+﻿# Exclude large past award papers (keep locally)
+docs/往届资料/高教社杯全国大学生数学建模竞赛优秀论文/
+
+# Common junk
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

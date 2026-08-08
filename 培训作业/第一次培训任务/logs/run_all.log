@@ -1,0 +1,117 @@
+2026-07-21 16:10:46,344 [INFO] === Running 01_eda_preprocess ===
+2026-07-21 16:10:49,183 [ERROR] Step 01_eda_preprocess failed:
+Traceback (most recent call last):
+  File "E:\Projects\2026_全国大学生数学建模竞赛\第一次培训任务\run_all.py", line 123, in main
+    __import__(mod).main()
+    ~~~~~~~~~~^^^^^
+  File "E:\Projects\2026_全国大学生数学建模竞赛\第一次培训任务\code\01_eda_preprocess.py", line 6, in <module>
+    import seaborn as sns
+  File "E:\Anaconda\Lib\site-packages\seaborn\__init__.py", line 12, in <module>
+    from .widgets import *  # noqa: F401,F403
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\Lib\site-packages\seaborn\widgets.py", line 6, in <module>
+    from ipywidgets import interact, FloatSlider, IntSlider
+  File "E:\Anaconda\Lib\site-packages\ipywidgets\__init__.py", line 27, in <module>
+    from IPython import get_ipython
+  File "E:\Anaconda\Lib\site-packages\IPython\__init__.py", line 54, in <module>
+    from .core.application import Application
+  File "E:\Anaconda\Lib\site-packages\IPython\core\application.py", line 26, in <module>
+    from IPython.core import release, crashhandler
+  File "E:\Anaconda\Lib\site-packages\IPython\core\crashhandler.py", line 29, in <module>
+    from IPython.core import ultratb
+  File "E:\Anaconda\Lib\site-packages\IPython\core\ultratb.py", line 111, in <module>
+    from IPython.core import debugger
+  File "E:\Anaconda\Lib\site-packages\IPython\core\debugger.py", line 150, in <module>
+    from pdb import Pdb as OldPdb
+  File "E:\Anaconda\Lib\pdb.py", line 288, in <module>
+    class _PdbInteractiveConsole(code.InteractiveConsole):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'code' has no attribute 'InteractiveConsole' (consider renaming 'E:\Projects\2026_全国大学生数学建模竞赛\第一次培训任务\code\__init__.py' since it has the same name as the standard library module named 'code' and prevents importing that standard library module)
+
+2026-07-21 16:11:19,789 [INFO] === Running 01_eda_preprocess.py ===
+2026-07-21 16:11:21,883 [ERROR] Step 01_eda_preprocess.py failed:
+Traceback (most recent call last):
+  File "E:\Projects\2026_全国大学生数学建模竞赛\第一次培训任务\run_all.py", line 133, in main
+    load_module(fname).main()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\Projects\2026_全国大学生数学建模竞赛\第一次培训任务\code\01_eda_preprocess.py", line 69, in main
+    trans = load_transporter_data()
+  File "E:\Projects\2026_全国大学生数学建模竞赛\第一次培训任务\code\utils.py", line 66, in load_transporter_data
+    df = pd.read_excel(ATTACH2)
+  File "E:\Anaconda\Lib\site-packages\pandas\io\excel\_base.py", line 495, in read_excel
+    io = ExcelFile(
+        io,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "E:\Anaconda\Lib\site-packages\pandas\io\excel\_base.py", line 1550, in __init__
+    ext = inspect_excel_format(
+        content_or_path=path_or_buffer, storage_options=storage_options
+    )
+  File "E:\Anaconda\Lib\site-packages\pandas\io\excel\_base.py", line 1402, in inspect_excel_format
+    with get_handle(
+         ~~~~~~~~~~^
+        content_or_path, "rb", storage_options=storage_options, is_text=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handle:
+    ^
+  File "E:\Anaconda\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\Projects\\2026_全国大学生数学建模竞赛\\第一次培训任务\\data\\附件2 近5家8家转运商的相关数据.xlsx'
+
+2026-07-21 16:11:46,379 [INFO] === Running 01_eda_preprocess.py ===
+2026-07-21 16:11:50,609 [INFO] === Running q1_supplier_importance.py ===
+2026-07-21 16:11:50,611 [ERROR] Step q1_supplier_importance.py failed:
+Traceback (most recent call last):
+  File "E:\Projects\2026_全国大学生数学建模竞赛\第一次培训任务\run_all.py", line 133, in main
+    load_module(fname).main()
+    ~~~~~~~~~~~^^^^^^^
+  File "E:\Projects\2026_全国大学生数学建模竞赛\第一次培训任务\run_all.py", line 21, in load_module
+    spec.loader.exec_module(mod)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "E:\Projects\2026_全国大学生数学建模竞赛\第一次培训任务\code\q1_supplier_importance.py", line 9, in <module>
+    from utils import (
+    ...<7 lines>...
+    )
+ImportError: cannot import name 'build_supplier_features' from 'utils' (E:\Projects\2026_全国大学生数学建模竞赛\第一次培训任务\code\utils.py)
+
+2026-07-21 16:12:09,688 [INFO] === Running 01_eda_preprocess.py ===
+2026-07-21 16:12:12,397 [INFO] === Running q1_supplier_importance.py ===
+2026-07-21 16:12:13,546 [INFO] === Running q2_order_transport.py ===
+2026-07-21 16:12:17,222 [INFO] === Running q3_prefer_a.py ===
+2026-07-21 16:12:18,081 [ERROR] Step q3_prefer_a.py failed:
+Traceback (most recent call last):
+  File "E:\Projects\2026_全国大学生数学建模竞赛\第一次培训任务\run_all.py", line 133, in main
+    load_module(fname).main()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "E:\Projects\2026_全国大学生数学建模竞赛\第一次培训任务\code\q3_prefer_a.py", line 32, in main
+    supplier_ids, n = select_min_suppliers(a_ranked.rename(columns={"rank2": "rank"}), total_raw, buffer=1.2)
+                      ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Projects\2026_全国大学生数学建模竞赛\第一次培训任务\code\optimization.py", line 63, in select_min_suppliers
+    ranked = ranked.sort_values("rank")
+  File "E:\Anaconda\Lib\site-packages\pandas\core\frame.py", line 7189, in sort_values
+    k = self._get_label_or_level_values(by[0], axis=axis)
+  File "E:\Anaconda\Lib\site-packages\pandas\core\generic.py", line 1925, in _get_label_or_level_values
+    raise ValueError(
+        f"The {label_axis_name} label '{key}' is not unique.{multi_message}"
+    )
+ValueError: The column label 'rank' is not unique.
+
+2026-07-21 16:12:37,102 [INFO] === Running 01_eda_preprocess.py ===
+2026-07-21 16:12:40,496 [INFO] === Running q1_supplier_importance.py ===
+2026-07-21 16:12:42,077 [INFO] === Running q2_order_transport.py ===
+2026-07-21 16:12:46,508 [INFO] === Running q3_prefer_a.py ===
+2026-07-21 16:12:51,032 [INFO] === Running q4_capacity.py ===
+2026-07-21 16:12:59,404 [INFO] === Generating LaTeX ===
+2026-07-21 16:12:59,424 [INFO] === Compiling PDF ===
+2026-07-21 16:13:48,495 [INFO] Pipeline done in 71.4s, PDF=True
+2026-07-21 16:26:08,908 [INFO] === Running 01_eda_preprocess.py ===
+2026-07-21 16:26:11,581 [INFO] === Running q1_supplier_importance.py ===
+2026-07-21 16:26:12,693 [INFO] === Running q2_order_transport.py ===
+2026-07-21 16:26:15,947 [INFO] === Running q3_prefer_a.py ===
+2026-07-21 16:26:19,252 [INFO] === Running q4_capacity.py ===
+2026-07-21 16:26:25,236 [INFO] === Generating LaTeX ===
+2026-07-21 16:26:25,248 [INFO] === Compiling PDF ===
+2026-07-21 16:26:30,599 [INFO] Pipeline done in 21.7s, PDF=True

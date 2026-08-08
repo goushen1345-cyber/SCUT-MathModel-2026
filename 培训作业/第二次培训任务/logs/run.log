@@ -1,0 +1,133 @@
+=== EDA & Preprocess ===
+Loading attach2 (sales) — may take a minute...
+Clean: {'raw_rows': 878503, 'clean_rows': 878042, 'dropped': 461, 'drop_rate': 0.0005247563184189467}
+daily_sku=46595, daily_cat=6474
+=== EDA & Preprocess ===
+Loading attach2 (sales) — may take a minute...
+Clean: {'raw_rows': 878503, 'clean_rows': 878042, 'dropped': 461, 'drop_rate': 0.0005247563184189467}
+daily_sku=46595, daily_cat=6474
+=== EDA & Preprocess ===
+Loading attach2 (sales) — may take a minute...
+=== EDA & Preprocess ===
+Loading attach2 (sales) — may take a minute...
+Clean: {'raw_rows': 878503, 'clean_rows': 878042, 'dropped': 461, 'drop_rate': 0.0005247563184189467}
+daily_sku=46595, daily_cat=6474
+EDA done.
+=== Q1 Association ===
+Building category association rules...
+SKU co-occurrence (recent year sample)...
+=== Q1 Association ===
+Building category association rules...
+SKU co-occurrence (recent year sample)...
+=== Q1 Association ===
+Building category association rules...
+SKU co-occurrence (recent year sample)...
+=== Q1 Association ===
+Building category association rules...
+SKU co-occurrence (recent year sample)...
+=== Q1 Association ===
+Building category association rules...
+SKU co-occurrence (recent year sample)...
+Q1 done.
+=== Q2 Category Optimization ===
+=== Q2 Category Optimization ===
+=== Q2 Category Optimization ===
+Q2 done.
+=== Q3 SKU Optimization ===
+Candidates: 49
+Q3 done.
+=== Q4 Recommendations ===
+Q4 done.
+=== Advanced tests ===
+Advanced tests done.
+=== Generate LaTeX & PDF ===
+Abstract bold count: 62
+Wrote E:\Projects\2026_全国大学生数学建模竞赛\第二次培训任务\latex\main.tex, abstract bold=62
+xelatex pass 1
+xelatex failed, see logs
+xelatex pass 2
+xelatex failed, see logs
+=== Generate LaTeX & PDF ===
+Abstract bold count: 62
+Wrote E:\Projects\2026_全国大学生数学建模竞赛\第二次培训任务\latex\main.tex, abstract bold=62
+xelatex pass 1
+xelatex failed, see logs
+xelatex pass 2
+xelatex failed, see logs
+=== Generate LaTeX & PDF ===
+Abstract bold count: 62
+Wrote E:\Projects\2026_全国大学生数学建模竞赛\第二次培训任务\latex\main.tex, abstract bold=62
+xelatex pass 1
+xelatex failed, see logs
+xelatex pass 2
+xelatex failed, see logs
+=== Q2 Category Optimization ===
+Q2 done.
+=== Q3 SKU Optimization ===
+Candidates: 49
+Q3 done.
+=== Advanced tests ===
+Advanced tests done.
+=== Generate LaTeX & PDF ===
+Abstract bold count: 62
+Wrote E:\Projects\2026_全国大学生数学建模竞赛\第二次培训任务\latex\main.tex, abstract bold=62
+xelatex pass 1
+xelatex pass 2
+PDF pages=21
+Wrote E:\Projects\2026_全国大学生数学建模竞赛\第二次培训任务\output\report.docx
+Done. pages=21, pdfs=['E:\\Projects\\2026_全国大学生数学建模竞赛\\第二次培训任务\\output\\report.pdf', 'E:\\Projects\\2026_全国大学生数学建模竞赛\\第二次培训任务\\output\\report_new.pdf', 'E:\\Projects\\2026_全国大学生数学建模竞赛\\第二次培训任务\\output\\report_national.pdf']
+=== Q2 Category Optimization ===
+Q2 done.
+=== Q3 SKU Optimization ===
+Candidates: 49
+Q3 done.
+=== Advanced tests ===
+Advanced tests done.
+=== Generate LaTeX & PDF ===
+Abstract bold count: 62
+Wrote E:\Projects\2026_全国大学生数学建模竞赛\第二次培训任务\latex\main.tex, abstract bold=62
+xelatex pass 1
+xelatex pass 2
+PDF pages=21
+Wrote E:\Projects\2026_全国大学生数学建模竞赛\第二次培训任务\output\report.docx
+Done. pages=21, pdfs=['E:\\Projects\\2026_全国大学生数学建模竞赛\\第二次培训任务\\output\\report.pdf', 'E:\\Projects\\2026_全国大学生数学建模竞赛\\第二次培训任务\\output\\report_new.pdf', 'E:\\Projects\\2026_全国大学生数学建模竞赛\\第二次培训任务\\output\\report_national.pdf']
+=== Generate LaTeX & PDF ===
+Abstract bold count: 62
+Wrote E:\Projects\2026_全国大学生数学建模竞赛\第二次培训任务\latex\main.tex, abstract bold=62
+xelatex pass 1
+xelatex pass 2
+PDF pages=56
+Wrote E:\Projects\2026_全国大学生数学建模竞赛\第二次培训任务\output\report.docx
+Done. pages=56, pdfs=['E:\\Projects\\2026_全国大学生数学建模竞赛\\第二次培训任务\\output\\report.pdf', 'E:\\Projects\\2026_全国大学生数学建模竞赛\\第二次培训任务\\output\\report_new.pdf', 'E:\\Projects\\2026_全国大学生数学建模竞赛\\第二次培训任务\\output\\report_national.pdf']
+=== Generate LaTeX & PDF ===
+Abstract bold count: 62
+Wrote E:\Projects\2026_全国大学生数学建模竞赛\第二次培训任务\latex\main.tex, abstract bold=62
+xelatex pass 1
+xelatex pass 2
+PDF pages=56
+Wrote E:\Projects\2026_全国大学生数学建模竞赛\第二次培训任务\output\report.docx
+Done. pages=56, pdfs=['E:\\Projects\\2026_全国大学生数学建模竞赛\\第二次培训任务\\output\\report.pdf', 'E:\\Projects\\2026_全国大学生数学建模竞赛\\第二次培训任务\\output\\report_new.pdf', 'E:\\Projects\\2026_全国大学生数学建模竞赛\\第二次培训任务\\output\\report_national.pdf']
+=== Q2 Category Optimization ===
+Q2 done.
+=== Q3 SKU Optimization ===
+Candidates: 49
+Q3 done.
+=== Advanced tests ===
+Advanced tests done.
+=== Generate LaTeX & PDF ===
+Abstract bold count: 62
+Wrote E:\Projects\2026_全国大学生数学建模竞赛\第二次培训任务\latex\main.tex, abstract bold=62
+xelatex pass 1
+xelatex pass 2
+PDF pages=26
+Wrote E:\Projects\2026_全国大学生数学建模竞赛\第二次培训任务\output\report.docx
+Done. pages=26, pdfs=['E:\\Projects\\2026_全国大学生数学建模竞赛\\第二次培训任务\\output\\report.pdf', 'E:\\Projects\\2026_全国大学生数学建模竞赛\\第二次培训任务\\output\\report_new.pdf', 'E:\\Projects\\2026_全国大学生数学建模竞赛\\第二次培训任务\\output\\report_national.pdf']
+=== Generate LaTeX & PDF ===
+Abstract bold count: 62
+Wrote E:\Projects\2026_全国大学生数学建模竞赛\第二次培训任务\latex\main.tex, abstract bold=62
+xelatex pass 1
+xelatex pass 2
+PDF pages=26
+copy fail E:\Projects\2026_全国大学生数学建模竞赛\第二次培训任务\output\report.pdf: [WinError 32] 另一个程序正在使用此文件，进程无法访问。
+Wrote E:\Projects\2026_全国大学生数学建模竞赛\第二次培训任务\output\report.docx
+Done. pages=26, pdfs=['E:\\Projects\\2026_全国大学生数学建模竞赛\\第二次培训任务\\output\\report_new.pdf', 'E:\\Projects\\2026_全国大学生数学建模竞赛\\第二次培训任务\\output\\report_national.pdf']

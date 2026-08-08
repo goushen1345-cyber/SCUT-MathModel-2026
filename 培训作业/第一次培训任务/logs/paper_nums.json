@@ -1,0 +1,252 @@
+{
+  "q1_top": [
+    {
+      "supplier_id": "S140",
+      "material": "B",
+      "total_supply": 302047.0,
+      "total_order": 481103.0,
+      "active_weeks": 219,
+      "order_weeks": 220,
+      "mean_supply": 1379.2100456621004,
+      "max_supply": 21293.0,
+      "fill_rate": 1.199825271769538,
+      "stability": 0.2399658570449858,
+      "recent_supply": 30531.0,
+      "recent_active": 22,
+      "importance_score": 0.5990677049024676,
+      "rank": 1
+    },
+    {
+      "supplier_id": "S201",
+      "material": "A",
+      "total_supply": 81989.0,
+      "total_order": 348699.0,
+      "active_weeks": 28,
+      "order_weeks": 49,
+      "mean_supply": 2928.178571428572,
+      "max_supply": 30977.0,
+      "fill_rate": 0.5363411993355803,
+      "stability": 0.5735341172258732,
+      "recent_supply": 0.0,
+      "recent_active": 0,
+      "importance_score": 0.5614483622759219,
+      "rank": 2
+    },
+    {
+      "supplier_id": "S374",
+      "material": "C",
+      "total_supply": 49224.0,
+      "total_order": 48613.0,
+      "active_weeks": 240,
+      "order_weeks": 240,
+      "mean_supply": 205.1,
+      "max_supply": 23695.0,
+      "fill_rate": 1.31215855905766,
+      "stability": 0.102808737276679,
+      "recent_supply": 46547.0,
+      "recent_active": 24,
+      "importance_score": 0.4963063063693213,
+      "rank": 3
+    },
+    {
+      "supplier_id": "S229",
+      "material": "A",
+      "total_supply": 354887.0,
+      "total_order": 359885.0,
+      "active_weeks": 240,
+      "order_weeks": 240,
+      "mean_supply": 1478.6958333333334,
+      "max_supply": 3147.0,
+      "fill_rate": 0.9944260545209254,
+      "stability": 0.7597826506871365,
+      "recent_supply": 35525.0,
+      "recent_active": 24,
+      "importance_score": 0.4911585283402767,
+      "rank": 4
+    },
+    {
+      "supplier_id": "S348",
+      "material": "A",
+      "total_supply": 92421.0,
+      "total_order": 167109.0,
+      "active_weeks": 194,
+      "order_weeks": 199,
+      "mean_supply": 476.39690721649487,
+      "max_supply": 36972.0,
+      "fill_rate": 1.0701331519246136,
+      "stability": 0.1536024765983889,
+      "recent_supply": 906.0,
+      "recent_active": 17,
+      "importance_score": 0.4648688086698837,
+      "rank": 5
+    }
+  ],
+  "agree": [
+    {
+      "method": "entropy_topsis",
+      "overlap_with_entropy_topsis": 50,
+      "jaccard": 1.0
+    },
+    {
+      "method": "critic_topsis",
+      "overlap_with_entropy_topsis": 46,
+      "jaccard": 0.8518518518518519
+    },
+    {
+      "method": "grey",
+      "overlap_with_entropy_topsis": 34,
+      "jaccard": 0.5151515151515151
+    },
+    {
+      "method": "pca",
+      "overlap_with_entropy_topsis": 45,
+      "jaccard": 0.8181818181818182
+    },
+    {
+      "method": "total_supply_baseline",
+      "overlap_with_entropy_topsis": 46,
+      "jaccard": 0.8518518518518519
+    }
+  ],
+  "mc": {
+    "mean_overlap": 49.345,
+    "std_overlap": 0.5072093320638571,
+    "p5_overlap": 49.0,
+    "p95_overlap": 50.0,
+    "mean_jaccard": 0.9743363499245854
+  },
+  "w": [
+    {
+      "indicator": "累计供货",
+      "entropy_weight": 0.2142061950158294,
+      "critic_weight": 0.8197384447372457
+    },
+    {
+      "indicator": "周均供货",
+      "entropy_weight": 0.2013659683283151,
+      "critic_weight": 0.004869390238631
+    },
+    {
+      "indicator": "峰值供货",
+      "entropy_weight": 0.254723595216722,
+      "critic_weight": 0.0762848423219105
+    },
+    {
+      "indicator": "满足率",
+      "entropy_weight": 0.0131165416876326,
+      "critic_weight": 9.534647396314126e-06
+    },
+    {
+      "indicator": "稳定性",
+      "entropy_weight": 0.0027105083897882,
+      "critic_weight": 3.235115499494848e-06
+    },
+    {
+      "indicator": "活跃周",
+      "entropy_weight": 0.0470242572487943,
+      "critic_weight": 0.001488355819574
+    },
+    {
+      "indicator": "近期供货",
+      "entropy_weight": 0.2309072100390463,
+      "critic_weight": 0.0976053573193799
+    },
+    {
+      "indicator": "材料",
+      "entropy_weight": 0.0359457240738717,
+      "critic_weight": 8.398003629266713e-07
+    }
+  ],
+  "q2": {
+    "min_suppliers": 14.0,
+    "total_order_volume": 454270.75992,
+    "total_cost_index": 510596.0220480001,
+    "transport_capacity_violations": 24.0,
+    "weekly_capacity": 28200.0
+  },
+  "q3": {
+    "suppliers": 28.0,
+    "total_order_volume": 407931.253704,
+    "total_cost_index": 473854.3011648,
+    "transport_capacity_violations": 24.0,
+    "weekly_capacity": 28200.0
+  },
+  "q4": {
+    "capacity_multiplier": 2.4996,
+    "original_capacity": 28200.0,
+    "new_capacity_m3": 70488.72,
+    "increase_percent": 149.96,
+    "suppliers_used": 402.0,
+    "total_order_volume": 1657531.1866074998,
+    "total_cost_index": 1833150.3206493503,
+    "transport_capacity_violations": 24.0,
+    "weekly_capacity": 70488.72
+  },
+  "rob": [
+    {
+      "scheme": "Q2",
+      "fill_noise": 0.05,
+      "mean_stockout_weeks": 0.0,
+      "p95_stockout_weeks": 0.0,
+      "mean_min_inventory": 56400.0,
+      "prob_any_stockout": 0.0
+    },
+    {
+      "scheme": "Q2",
+      "fill_noise": 0.1,
+      "mean_stockout_weeks": 0.1375,
+      "p95_stockout_weeks": 1.0,
+      "mean_min_inventory": 56346.5056622526,
+      "prob_any_stockout": 0.075
+    },
+    {
+      "scheme": "Q2",
+      "fill_noise": 0.15,
+      "mean_stockout_weeks": 0.4375,
+      "p95_stockout_weeks": 2.049999999999997,
+      "mean_min_inventory": 56181.02345585897,
+      "prob_any_stockout": 0.2
+    },
+    {
+      "scheme": "Q3",
+      "fill_noise": 0.05,
+      "mean_stockout_weeks": 24.0,
+      "p95_stockout_weeks": 24.0,
+      "mean_min_inventory": 35871.62993601487,
+      "prob_any_stockout": 1.0
+    },
+    {
+      "scheme": "Q3",
+      "fill_noise": 0.1,
+      "mean_stockout_weeks": 23.7625,
+      "p95_stockout_weeks": 24.0,
+      "mean_min_inventory": 35922.711915356034,
+      "prob_any_stockout": 1.0
+    },
+    {
+      "scheme": "Q3",
+      "fill_noise": 0.15,
+      "mean_stockout_weeks": 23.2375,
+      "p95_stockout_weeks": 24.0,
+      "mean_min_inventory": 35794.92437419946,
+      "prob_any_stockout": 1.0
+    }
+  ],
+  "kendall": {
+    "kendall_entropy_critic": 0.7050408803860995
+  },
+  "bn": [
+    {
+      "bottleneck": "供应商供货能力(周)",
+      "raw_m3": 35958.410745366506
+    },
+    {
+      "bottleneck": "转运能力8×6000",
+      "raw_m3": 48000.0
+    },
+    {
+      "bottleneck": "Q4方案周需求(A当量近似)",
+      "raw_m3": 42293.232
+    }
+  ]
+}

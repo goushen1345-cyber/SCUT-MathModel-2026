@@ -1,0 +1,9 @@
+{
+  "week_total_profit": 6655.058994618439,
+  "week_total_replenish": 2606.402418603859,
+  "baseline_hist_profit": 4295.646383055192,
+  "baseline_fixed30_profit": 1960.0244451597582,
+  "lift_vs_hist": 0.5492567127662781,
+  "lift_vs_fixed30": 2.3953959151137,
+  "avg_markup": 0.8065331380578058
+}
