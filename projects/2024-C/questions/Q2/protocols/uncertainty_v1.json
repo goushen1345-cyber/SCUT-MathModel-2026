@@ -1,0 +1,41 @@
+{
+  "protocol": "Q2-UNCERTAINTY-v1",
+  "status": "PROPOSED_AT_A_NOT_APPROVED",
+  "data_version": "G1-v1-base",
+  "purpose": "Create transparent, reproducible future parameter scenarios for candidate comparison; these are modeling assumptions, not forecasts.",
+  "decision_timing": "One fixed 2024-2030 planting plan is chosen before uncertain outcomes are known. Adaptive yearly re-planning is excluded from the trial and may be used only as a later information upper-bound diagnostic.",
+  "normal_sales_base": {
+    "main": "Use Q1 D05 seasonal allocation of the 2023 production proxy as the working baseline.",
+    "stress_tests": ["D0", "D10"],
+    "warning": "No observed sales column exists. D05 is a transparent midpoint allocation convention, not a measured market quantity."
+  },
+  "sale_rule": {
+    "optimization_main": "S2: production above normal-sales capacity is sold at 50% of that scenario-year normal price",
+    "stress_test": "S1: excess production has zero revenue",
+    "warning": "Q2 does not explicitly select one Q1 disposal rule; this convention requires A-point approval."
+  },
+  "random_mechanism": {
+    "distribution": "three-point low/mid/high with probabilities 0.25/0.50/0.25",
+    "independence": "Q2 trial treats crop-year drivers as independent; correlation and substitution/complementarity are reserved for Q3",
+    "wheat_corn_sales": "annual growth draw 5%/7.5%/10%, compounded from the previous year",
+    "other_crop_sales": "annual multiplier -5%/0%/+5% relative to the 2023 baseline, not a random walk",
+    "yield": "crop-year multiplier -10%/0%/+10% around the frozen yield; shared across eligible land types for that crop-year",
+    "cost": "main path compounds 5% per year; 4% and 6% deterministic sensitivity paths",
+    "grain_price": "constant at the frozen midpoint candidate",
+    "vegetable_price": "main path compounds 5% per year; 4% and 6% deterministic sensitivity paths",
+    "edible_fungi_except_morel": "annual decline draw 1%/3%/5%, compounded",
+    "morel_price": "annual decline fixed at 5%, compounded"
+  },
+  "scenario_sets": {
+    "training": {"count": 80, "seed": 20240907, "use": "M1/M2 optimization only"},
+    "comparison": {"count": 240, "seed": 20241007, "use": "A-to-B candidate comparison; not used to fit or tune"},
+    "stress": {"count": 12, "construction": "named combinations of low demand, low yield, high cost and adverse prices", "use": "M3 optimization and all-candidate stress reporting"},
+    "future_holdout": {"count": 500, "seed": 20241107, "use": "reserved for post-B deepening; must not be opened during trial"}
+  },
+  "required_outputs_before_any_model_claim": [
+    "scenario table with every sampled multiplier and source rule",
+    "range and year-by-year sanity checks",
+    "proof that training and comparison seeds/files differ",
+    "unchanged frozen-data hashes"
+  ]
+}

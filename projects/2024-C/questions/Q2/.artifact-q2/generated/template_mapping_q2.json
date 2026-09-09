@@ -1,0 +1,17 @@
+{
+  "protocol": "Q2-DEEPEN-v1",
+  "source": "培训作业/第四次培训作业/附件3/result2.xlsx",
+  "source_sha256": "6a1ba9fc28d14d0a4a795e5f0b7261fb6e32165517afee62bcd1931aba5bee8a",
+  "years": [
+    2024,
+    2025,
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "crop_columns": "crop_id 1..41 maps to C..AQ",
+  "first_block": "all 54 lands in B2:B55; 单季 and 第一季",
+  "second_block": "D1..F4 in B56:B83; 第二季"
+}

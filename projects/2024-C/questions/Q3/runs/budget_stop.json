@@ -1,0 +1,12 @@
+{
+  "protocol": "Q3-TRIAL-v1",
+  "authorization": "U018",
+  "event": "R1_M2_TERMINATED_AT_TOTAL_BUDGET_BOUNDARY",
+  "completed_r1_runs": ["M0-CORR-R1", "M1-NET-R1"],
+  "incomplete_run": "M2-RELROB-R1",
+  "incomplete_directory_has_no_result_files": true,
+  "action": "terminated the running process; did not extend time or start another solve",
+  "selection_effect": "M2-RELROB R0 remains independently verified, but its gap exceeds the 0.1 percent decision threshold; M2 is inconclusive for B selection",
+  "budget_note": "The stop action and final file verification crossed the nominal 50-minute wall boundary. No additional model, sample, parameter, or solve was added.",
+  "human_verification": "pending"
+}

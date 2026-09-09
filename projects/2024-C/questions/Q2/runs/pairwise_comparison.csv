@@ -1,0 +1,5 @@
+﻿candidate,reference,mean_difference_yuan,min_difference_yuan,max_difference_yuan,positive_scenarios,equal_scenarios,negative_scenarios
+M0,B0,210279.148832,38505.687286,374631.618569,240,0,0
+M1,M0,31454.832095,-77850.761767,168148.738778,181,0,59
+M2,M1,0.000000,0.000000,0.000000,0,240,0
+M3,M1,0.000000,0.000000,0.000000,0,240,0

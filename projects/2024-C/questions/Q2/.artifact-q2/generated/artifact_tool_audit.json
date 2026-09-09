@@ -1,0 +1,16 @@
+{
+  "protocol": "Q2-DEEPEN-v1",
+  "source": "E:/Projects/SCUT-MathModel-2026/培训作业/第四次培训作业/附件3/result2.xlsx",
+  "solution": "E:/Projects/SCUT-MathModel-2026/projects/2024-C/questions/Q2/deep_runs/M0-DEEP-v1/solution.csv",
+  "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "renders": [
+    "E:/Projects/SCUT-MathModel-2026/projects/2024-C/questions/Q2/.artifact-q2/generated/render_2024.png",
+    "E:/Projects/SCUT-MathModel-2026/projects/2024-C/questions/Q2/.artifact-q2/generated/render_2025.png",
+    "E:/Projects/SCUT-MathModel-2026/projects/2024-C/questions/Q2/.artifact-q2/generated/render_2026.png",
+    "E:/Projects/SCUT-MathModel-2026/projects/2024-C/questions/Q2/.artifact-q2/generated/render_2027.png",
+    "E:/Projects/SCUT-MathModel-2026/projects/2024-C/questions/Q2/.artifact-q2/generated/render_2028.png",
+    "E:/Projects/SCUT-MathModel-2026/projects/2024-C/questions/Q2/.artifact-q2/generated/render_2029.png",
+    "E:/Projects/SCUT-MathModel-2026/projects/2024-C/questions/Q2/.artifact-q2/generated/render_2030.png"
+  ],
+  "sheets_rendered": 7
+}

@@ -1,0 +1,14 @@
+{
+  "data_version": "G1-v1-base",
+  "status": "FROZEN_BASE_ONLY",
+  "source_candidate_id": "G1-v1",
+  "gate_plan_version": "G2-v1",
+  "authorization_id": "U004",
+  "user_quote": "冻结候选 G1-v1 的基础数据范围，保留销量未知，不进入建模。",
+  "recorded_date": "2026-09-06",
+  "scope": "基础地块、作物、2023年种植、来源参数与明文引用、价格区间及中点候选、历史产量估计、覆盖未知标记、模板映射和来源/变换/核验证据。",
+  "unknowns": "全部59个正常销售上限仍未知；12个无历史种植组合的产量估计为空。价格中点仅候选；轮作空间、管理阈值和销量代理未获批准。",
+  "human_verification": "用户明确批准本范围冻结；未声称逐条人工核验，不把24项工具核验记成人工核验。",
+  "historical_metadata": "manifest.json和validation.json按G2审核时字节保留，其中candidate/not-frozen描述属于生成与核验时状态。本文件与正式state.json记录后续冻结决定。归档scripts用于追溯，不应从归档目录直接执行。",
+  "restriction": "不覆盖冻结文件。任何后续口径或数据变更使用新版本并记录影响；本次不授权进入任何小问建模。"
+}

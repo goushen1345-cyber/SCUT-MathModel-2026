@@ -1,0 +1,29 @@
+{
+  "protocol": "Q1-DEEPEN-v1",
+  "authorization": "U008",
+  "candidate": "PARETO-PROFIT",
+  "scenario": "D0",
+  "sale_case": "S2",
+  "cap": null,
+  "alpha": 0.5,
+  "stage1": {
+    "status": "Optimal",
+    "solution_valid": true,
+    "runtime_seconds": 39.92171789999702,
+    "objective_value": -63407378.75,
+    "recomputed_profit": 63407378.75,
+    "mip_gap": 0.008156191950524994,
+    "mip_dual_bound": -63924541.50216464,
+    "mip_node_count": 1,
+    "simplex_iterations": 84940
+  },
+  "seed": 20240906,
+  "selected_profit": 63407378.75,
+  "selected_revenue": 70034273.75,
+  "selected_cost": 6626895.0,
+  "selected_activations": 700,
+  "precanonical_model_accounting_profit": 63407378.75,
+  "sales_variables_canonicalized_after_solve": true,
+  "model_accounting_profit": 63407378.75,
+  "accounting_difference": 0.0
+}

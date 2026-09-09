@@ -6,3 +6,11 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+
+# Dependencies / local runtimes (do not upload)
+node_modules/
+**/node_modules/
+.pnpm-store/
+*.egg-info/
+.venv/
+venv/

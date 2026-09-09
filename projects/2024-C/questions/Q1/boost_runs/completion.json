@@ -1,0 +1,14 @@
+{
+  "protocol": "Q1-S1-BOOST-v1",
+  "authorization": "U010",
+  "result_version": "Q1-D-v2-candidate",
+  "solver_wall_minutes": 9.540860610000042,
+  "end_to_end_wall_minutes": 12.9505,
+  "budget_minutes": 12,
+  "budget_overrun_minutes": 0.9505,
+  "scope_expanded": false,
+  "additional_solves_after_budget": false,
+  "independent_verification_passed": true,
+  "workbook_verification_passed": true,
+  "status": "COMPLETE_WITH_RECORDED_BUDGET_OVERRUN"
+}

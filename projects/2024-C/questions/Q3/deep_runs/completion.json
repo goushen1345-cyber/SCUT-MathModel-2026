@@ -1,0 +1,71 @@
+{
+  "protocol": "Q3-DEEPEN-v1",
+  "authorization": "U020",
+  "finished_utc": "2026-09-08T10:39:47.682700+00:00",
+  "wall_seconds_before_independent_verification": 622.7441843000124,
+  "runs": [
+    {
+      "candidate": "N0",
+      "protocol": "Q3-DEEPEN-v1",
+      "authorization": "U020",
+      "neighbourhood_k": 0,
+      "time_limit_seconds": 120,
+      "runtime_seconds": 0.6017412000219338,
+      "status": "Optimal",
+      "mip_gap": 0.0,
+      "mip_dual_bound": -67377544.72325127,
+      "objective_value": -67377544.72325207,
+      "solution_valid": true,
+      "selected_activations": 666,
+      "training_mean_profit": 67377544.72325209
+    },
+    {
+      "candidate": "N10",
+      "protocol": "Q3-DEEPEN-v1",
+      "authorization": "U020",
+      "neighbourhood_k": 10,
+      "time_limit_seconds": 240,
+      "runtime_seconds": 178.49853270000312,
+      "status": "Optimal",
+      "mip_gap": 9.34828245058472e-05,
+      "mip_dual_bound": -67430229.67490883,
+      "objective_value": -67423926.69580203,
+      "solution_valid": true,
+      "selected_activations": 672,
+      "training_mean_profit": 67423926.69580203
+    },
+    {
+      "candidate": "N30",
+      "protocol": "Q3-DEEPEN-v1",
+      "authorization": "U020",
+      "neighbourhood_k": 30,
+      "time_limit_seconds": 360,
+      "runtime_seconds": 360.6559937999991,
+      "status": "Time limit reached",
+      "mip_gap": 0.000668065818290279,
+      "mip_dual_bound": -67510090.58442073,
+      "objective_value": -67465019.51095517,
+      "solution_valid": true,
+      "selected_activations": 686,
+      "training_mean_profit": 67465019.51095518
+    }
+  ],
+  "challenger": null,
+  "final_selection": {
+    "challenger": null,
+    "selected": "B0",
+    "replace_pass": false,
+    "reason": "no pre-holdout challenger met the gate"
+  },
+  "m2_rerun": false,
+  "holdout_opened_once": true,
+  "independent_validation": "passed",
+  "valid_local_runs": ["N0", "N10"],
+  "excluded_local_run": {
+    "candidate": "N30",
+    "reason": "Hamming constraint was referenced to N10, producing 40 changes from B0 instead of at most 30",
+    "rerun": false,
+    "why_not_rerun": "holdout had already been opened; the protocol forbids re-solving afterward"
+  },
+  "result_version": "Q3-D-v1-candidate"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "Time limit reached",
+  "solution_valid": true,
+  "runtime_seconds": 120.0378747000068,
+  "objective_value": 670.9999999999985,
+  "mip_gap": 0.14456035767510989,
+  "mip_dual_bound": 574.0,
+  "mip_node_count": 2,
+  "simplex_iterations": 124369
+}

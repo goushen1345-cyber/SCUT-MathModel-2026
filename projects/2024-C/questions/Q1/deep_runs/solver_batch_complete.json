@@ -1,0 +1,15 @@
+{
+  "finished_utc": "2026-09-07T09:26:36.402872+00:00",
+  "solver_outputs": 17,
+  "main_runs": 6,
+  "pareto_runs": 8,
+  "strict_bean_runs": 2,
+  "index_write_error_recovered": true,
+  "execution_completed_utc": "2026-09-07T09:32:44.137581+00:00",
+  "total_execution_wall_seconds": 3221.941305,
+  "total_execution_wall_minutes": 53.69902175,
+  "budget_minutes": 55,
+  "within_budget": true,
+  "csv_validation": "17/17 passed, 0 violations",
+  "workbook_validation": "2/2 passed"
+}

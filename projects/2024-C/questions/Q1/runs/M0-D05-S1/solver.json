@@ -1,0 +1,11 @@
+{
+  "candidate": "M0",
+  "method": "deterministic_profit_order_construct_and_repair",
+  "status": "FEASIBLE_CANDIDATE",
+  "infeasible": [],
+  "runtime_seconds": 0.059552200000325684,
+  "seed": 20240906,
+  "cap": 7,
+  "area_fraction": 1.0,
+  "optimality_claim": "none"
+}

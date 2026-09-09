@@ -1,0 +1,177 @@
+{
+  "candidate_id": "G1-v1",
+  "status": "PASS",
+  "method": "Independent OOXML XML parsing and Decimal arithmetic; no builder import or openpyxl.",
+  "verifier_sha256": "a91f506b6b3d2ad6868e7bd9862b3e3b6664666cff2d7e818e6000ccd6d22a14",
+  "source_hashes": {
+    "C题.pdf": "c7b5e58bff4189b8afba5505f7bff7d4f08280fc291c51ef3f46134ebbf74f9a",
+    "附件1.xlsx": "b799a137294a5c5497fed9667c5dfed6c967f1fb180316c5adc8509cfa6f0932",
+    "附件2.xlsx": "869081a3ab47d3bf8d0955106b622aaf0fd2c068fada7948da69b20ebf1d00ce",
+    "附件3\\result1_1.xlsx": "4f2484c0d70a5c4d047163f2ee6ef486949e813330466f46def4bd7d98af06af",
+    "附件3\\result1_2.xlsx": "6166d43f5a64bf9d1657e80d4aee7f10f54bb1a5695b81a28a0ac5e657297649",
+    "附件3\\result2.xlsx": "6a1ba9fc28d14d0a4a795e5f0b7261fb6e32165517afee62bcd1931aba5bee8a"
+  },
+  "manifest_sha256": "87a04fefb09a0465b6b105a9bf004f19c70cf7f9af9ded8c7670dceac0678650",
+  "checks": [
+    {
+      "check": "all_six_source_hashes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all_candidate_manifest_hashes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "builder_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "expected_row_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lands.csv_no_source_row_loss_or_duplication",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "crops.csv_no_source_row_loss_or_duplication",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "planting_2023.csv_no_source_row_loss_or_duplication",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "parameters_original.csv_no_source_row_loss_or_duplication",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all_raw_values_anchors_and_clean_fields_match_XML",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "unique_land_crop_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "bean_flags_match_source_types",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "125_unique_keys_match_explicit_eligibility",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all_107_original_parameters_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "18_inherited_parameters_have_correct_source_and_note",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_price_endpoints_and_midpoints_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_87_production_estimates_recomputed_from_XML",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2023_year_and_single_season_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all_land_season_areas_equal_land_area",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "physical_area_and_sown_area",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "47_aggregates_and_all_contribution_lineage",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "59_demands_unknown_12_unobserved_not_zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Q1_template_mapping_all_14_sheets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "transform_log_counts",
+      "passed": true,
+      "detail": {
+        "P02_trim_edges": 81,
+        "P02_merged_anchor": 109,
+        "P04_interval_and_midpoint": 107,
+        "P03_explicit_note_reference": 18,
+        "P05_production_estimate": 87
+      }
+    },
+    {
+      "check": "source_hashes_after_verification",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "manual_arithmetic_examples_for_human_review": {
+    "H028": {
+      "source_history_row": 28,
+      "source_parameter_row": 51,
+      "area_mu": "15",
+      "yield_jin_per_mu": "2000",
+      "production_estimate_jin": "30000",
+      "parameter_record_id": "P051"
+    },
+    "H070": {
+      "source_history_row": 70,
+      "source_parameter_row": 79,
+      "area_mu": "0.3",
+      "yield_jin_per_mu": "5000",
+      "production_estimate_jin": "1500.0",
+      "parameter_record_id": "P079"
+    },
+    "H075": {
+      "source_history_row": 75,
+      "source_parameter_row": 81,
+      "area_mu": "0.3",
+      "yield_jin_per_mu": "12000",
+      "production_estimate_jin": "3600.0",
+      "parameter_record_id": "I32"
+    }
+  },
+  "production_total_estimate_jin": "1260505.0",
+  "human_verification": "pending; all checks above executed by AI/tools",
+  "limitations": [
+    "No market-demand inference",
+    "No full rotation/spatial feasibility certification",
+    "No optimization",
+    "No data freeze"
+  ]
+}

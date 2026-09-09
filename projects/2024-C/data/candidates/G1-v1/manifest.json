@@ -1,0 +1,57 @@
+{
+  "candidate_id": "G1-v1",
+  "status": "CANDIDATE_NOT_FROZEN",
+  "authorization_id": "U003",
+  "created_at_utc": "2026-09-06T06:40:17.278301+00:00",
+  "source_directory": "E:\\Projects\\SCUT-MathModel-2026\\培训作业\\第四次培训作业",
+  "source_hashes": {
+    "C题.pdf": "c7b5e58bff4189b8afba5505f7bff7d4f08280fc291c51ef3f46134ebbf74f9a",
+    "附件1.xlsx": "b799a137294a5c5497fed9667c5dfed6c967f1fb180316c5adc8509cfa6f0932",
+    "附件2.xlsx": "869081a3ab47d3bf8d0955106b622aaf0fd2c068fada7948da69b20ebf1d00ce",
+    "附件3\\result1_1.xlsx": "4f2484c0d70a5c4d047163f2ee6ef486949e813330466f46def4bd7d98af06af",
+    "附件3\\result1_2.xlsx": "6166d43f5a64bf9d1657e80d4aee7f10f54bb1a5695b81a28a0ac5e657297649",
+    "附件3\\result2.xlsx": "6a1ba9fc28d14d0a4a795e5f0b7261fb6e32165517afee62bcd1931aba5bee8a"
+  },
+  "builder": {
+    "path": "scripts/build_candidate_g1.py",
+    "sha256": "8d1341dc6b33486d6e90a2f10c5172c494ba084559e0598a40e0b8714327a5df"
+  },
+  "openpyxl_version": "3.1.5",
+  "units": {
+    "area_mu": "亩",
+    "yield_jin_per_mu": "斤/亩",
+    "cost_yuan_per_mu": "元/亩",
+    "prices": "元/斤",
+    "production_estimate_jin": "斤"
+  },
+  "row_counts": {
+    "lands.csv": 54,
+    "crops.csv": 41,
+    "planting_2023.csv": 87,
+    "parameters_original.csv": 107,
+    "parameters_effective.csv": 125,
+    "production_2023.csv": 47,
+    "coverage.csv": 59
+  },
+  "files": {
+    "coverage.csv": "ccf849d1210aaaba75fbcddca5509034b30a068231abba9bcbefd739553fa878",
+    "crops.csv": "2bbf6d98ebe406ad9b6a0d7f89a5a054e3b322ff48ad4389209abaa96f7281cc",
+    "lands.csv": "2ba6006df739876b3e7307c59fc9d58a84b67606856ae5cc13a6f5050c6b9431",
+    "parameters_effective.csv": "1ef861f1aaf9c6ccfe54ca23d2a057b6d93128485d258241f9d63f3e2bd2763a",
+    "parameters_original.csv": "ac610a31f9d5ec4f2a649fa720bad85b4ff5d463766fc7a92fcf2d89dc559cfd",
+    "planting_2023.csv": "36a76aef850968335869c6494854bed1c6d4d27c2c50f80816b31129497a2269",
+    "production_2023.csv": "a463f4754c698a1c1b0211e6e4f6c10f599112323807992d37efb2ceb1e95da3",
+    "template_mapping.json": "399f11c05f101f98d7c8a95797ed93d522f7015012004e7351e0954dd44203f1",
+    "transform_log.jsonl": "7a5b3a417c477b6c593c355b0b4d1966792b1b81f94781f2a1a491bdc320d88b"
+  },
+  "transform_event_count": 402,
+  "load_warnings": [],
+  "unknown_policy": "All 59 normal sales limits unknown. 12 unobserved crop-season production estimates blank. No blank-to-zero conversion.",
+  "boundaries": [
+    "No demand proxy adopted",
+    "No spatial bean-rotation assumptions",
+    "No simulations or optimization",
+    "No source/template writes",
+    "No human verification claimed"
+  ]
+}

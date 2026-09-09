@@ -1,0 +1,42 @@
+{
+  "protocol": "Q1-DEEPEN-v1",
+  "authorization": "U008",
+  "candidate": "PARETO",
+  "scenario": "D0",
+  "sale_case": "S2",
+  "cap": null,
+  "alpha": 0.5,
+  "retention": 0.995,
+  "profit_floor": 63090341.85625,
+  "profit_stage": {
+    "status": "Optimal",
+    "solution_valid": true,
+    "runtime_seconds": 39.92171789999702,
+    "objective_value": -63407378.75,
+    "recomputed_profit": 63407378.75,
+    "mip_gap": 0.008156191950524994,
+    "mip_dual_bound": -63924541.50216464,
+    "mip_node_count": 1,
+    "simplex_iterations": 84940
+  },
+  "management_stage": {
+    "status": "Optimal",
+    "solution_valid": true,
+    "runtime_seconds": 48.846097800007556,
+    "objective_value": 573.0000000000032,
+    "recomputed_profit": 63090341.85625,
+    "mip_gap": 0.0034904013961660945,
+    "mip_dual_bound": 571.0,
+    "mip_node_count": 1,
+    "simplex_iterations": 55875
+  },
+  "seed": 20240906,
+  "selected_profit": 63090451.875,
+  "selected_revenue": 69719211.875,
+  "selected_cost": 6628760.0,
+  "selected_activations": 573,
+  "precanonical_model_accounting_profit": 63090341.85625,
+  "sales_variables_canonicalized_after_solve": true,
+  "model_accounting_profit": 63090451.875,
+  "accounting_difference": 0.0
+}

@@ -1,0 +1,33 @@
+{
+  "protocol_id": "Q1-DEMAND-v1",
+  "authorization_id": "U005",
+  "base_data_version": "G1-v1-base",
+  "status": "APPROVED_FOR_PLANNING_NOT_YET_RUN",
+  "pooling_key": ["crop_id", "year", "season"],
+  "years": [2024, 2025, 2026, 2027, 2028, 2029, 2030],
+  "constant_over_years": true,
+  "scenarios": [
+    {
+      "id": "D0",
+      "name": "历史按季产量基准",
+      "rule": "For each observed crop-season, use its 2023 production estimate as the annual normal-sales limit. For an eligible but unobserved crop-season, use zero only inside this modeling scenario."
+    },
+    {
+      "id": "D05",
+      "name": "未观测季次分配5%",
+      "rule": "For a crop with one observed eligible season and one unobserved eligible season, preserve the crop's D0 annual total and allocate 95% to the observed season and 5% to the unobserved season. Other crop-season limits remain as D0."
+    },
+    {
+      "id": "D10",
+      "name": "未观测季次分配10%",
+      "rule": "For a crop with one observed eligible season and one unobserved eligible season, preserve the crop's D0 annual total and allocate 90% to the observed season and 10% to the unobserved season. Other crop-season limits remain as D0."
+    }
+  ],
+  "boundaries": [
+    "These are explicit Q1 modeling assumptions, not observed demand.",
+    "The frozen coverage.csv remains unchanged and all normal_sales_limit_jin fields stay blank.",
+    "A sales pool is shared by all village plots and land types within the same crop-year-season.",
+    "Sales cannot be carried from one season to another.",
+    "No Q2 stochastic changes are introduced."
+  ]
+}

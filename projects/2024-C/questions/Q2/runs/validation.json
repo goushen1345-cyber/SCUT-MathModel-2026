@@ -1,0 +1,236 @@
+{
+  "protocol": "Q2-TRIAL-v1",
+  "authorization": "U013",
+  "selected_run_ids": {
+    "B0": "B0",
+    "M0": "M0-R1",
+    "M1": "M1-R1",
+    "M2": "M2-R1",
+    "M3": "M3-R1"
+  },
+  "r0_preserved_as_tolerance_diagnostic": true,
+  "method": "independent standard-library reconstruction; imports neither generator nor solver",
+  "source_snapshots_valid": true,
+  "scenario_sets": {
+    "training": 80,
+    "comparison": 240,
+    "stress": 12,
+    "future_holdout_opened": false
+  },
+  "constraint_checks": [
+    {
+      "candidate": "B0",
+      "activations": 662,
+      "max_plots": 7,
+      "violations": 0,
+      "valid": true,
+      "examples": []
+    },
+    {
+      "candidate": "M0",
+      "activations": 666,
+      "max_plots": 7,
+      "violations": 0,
+      "valid": true,
+      "examples": []
+    },
+    {
+      "candidate": "M1",
+      "activations": 691,
+      "max_plots": 7,
+      "violations": 0,
+      "valid": true,
+      "examples": []
+    },
+    {
+      "candidate": "M2",
+      "activations": 691,
+      "max_plots": 7,
+      "violations": 0,
+      "valid": true,
+      "examples": []
+    },
+    {
+      "candidate": "M3",
+      "activations": 691,
+      "max_plots": 7,
+      "violations": 0,
+      "valid": true,
+      "examples": []
+    }
+  ],
+  "accounting_checks": [
+    {
+      "candidate": "M0",
+      "run_id": "M0-R1",
+      "independent_training_mean": "67451088.461284250641968750",
+      "solver_training_mean": 67451088.46128434,
+      "difference_yuan": "-8.9358031250E-8",
+      "passed": true
+    },
+    {
+      "candidate": "M1",
+      "run_id": "M1-R1",
+      "independent_training_mean": "67141436.805958418029221875",
+      "solver_training_mean": 67141436.80595843,
+      "difference_yuan": "-1.1970778125E-8",
+      "passed": true
+    },
+    {
+      "candidate": "M2",
+      "run_id": "M2-R1",
+      "independent_training_mean": "67141436.805958418029221875",
+      "solver_training_mean": 67141436.80595843,
+      "difference_yuan": "-1.1970778125E-8",
+      "passed": true
+    },
+    {
+      "candidate": "M3",
+      "run_id": "M3-R1",
+      "independent_training_mean": "63289106.15704775415347916667",
+      "solver_training_mean": 63289106.15704777,
+      "difference_yuan": "-1.584652083333E-8",
+      "passed": true
+    }
+  ],
+  "small_cvar_check": {
+    "profits": [
+      "100",
+      "80",
+      "20",
+      "0"
+    ],
+    "alpha": "0.25",
+    "manual_worst_tail_mean": "0",
+    "formula_value": "0",
+    "passed": true
+  },
+  "primary_summary": [
+    {
+      "candidate": "B0",
+      "mean_profit_yuan": "66980870.070966",
+      "p10_profit_yuan": "65762703.513583",
+      "worst10_mean_yuan": "65376562.554821",
+      "std_yuan": "908246.317474",
+      "named_stress_min_yuan": "57555267.691178",
+      "underperform_B0_probability": "0.000000",
+      "activations": 662
+    },
+    {
+      "candidate": "M0",
+      "mean_profit_yuan": "67191149.219797",
+      "p10_profit_yuan": "65973499.220119",
+      "worst10_mean_yuan": "65602713.181462",
+      "std_yuan": "904617.177652",
+      "named_stress_min_yuan": "57779974.724617",
+      "underperform_B0_probability": "0.000000",
+      "activations": 666
+    },
+    {
+      "candidate": "M1",
+      "mean_profit_yuan": "67222604.051892",
+      "p10_profit_yuan": "66001990.027728",
+      "worst10_mean_yuan": "65625329.807418",
+      "std_yuan": "903986.468462",
+      "named_stress_min_yuan": "57810677.605770",
+      "underperform_B0_probability": "0.000000",
+      "activations": 691
+    },
+    {
+      "candidate": "M2",
+      "mean_profit_yuan": "67222604.051892",
+      "p10_profit_yuan": "66001990.027728",
+      "worst10_mean_yuan": "65625329.807418",
+      "std_yuan": "903986.468462",
+      "named_stress_min_yuan": "57810677.605770",
+      "underperform_B0_probability": "0.000000",
+      "activations": 691
+    },
+    {
+      "candidate": "M3",
+      "mean_profit_yuan": "67222604.051892",
+      "p10_profit_yuan": "66001990.027728",
+      "worst10_mean_yuan": "65625329.807418",
+      "std_yuan": "903986.468462",
+      "named_stress_min_yuan": "57810677.605770",
+      "underperform_B0_probability": "0.000000",
+      "activations": 691
+    }
+  ],
+  "pairwise_comparison": [
+    {
+      "candidate": "M0",
+      "reference": "B0",
+      "mean_difference_yuan": "210279.148832",
+      "min_difference_yuan": "38505.687286",
+      "max_difference_yuan": "374631.618569",
+      "positive_scenarios": 240,
+      "equal_scenarios": 0,
+      "negative_scenarios": 0
+    },
+    {
+      "candidate": "M1",
+      "reference": "M0",
+      "mean_difference_yuan": "31454.832095",
+      "min_difference_yuan": "-77850.761767",
+      "max_difference_yuan": "168148.738778",
+      "positive_scenarios": 181,
+      "equal_scenarios": 0,
+      "negative_scenarios": 59
+    },
+    {
+      "candidate": "M2",
+      "reference": "M1",
+      "mean_difference_yuan": "0.000000",
+      "min_difference_yuan": "0.000000",
+      "max_difference_yuan": "0.000000",
+      "positive_scenarios": 0,
+      "equal_scenarios": 240,
+      "negative_scenarios": 0
+    },
+    {
+      "candidate": "M3",
+      "reference": "M1",
+      "mean_difference_yuan": "0.000000",
+      "min_difference_yuan": "0.000000",
+      "max_difference_yuan": "0.000000",
+      "positive_scenarios": 0,
+      "equal_scenarios": 240,
+      "negative_scenarios": 0
+    }
+  ],
+  "plan_similarity": [
+    {
+      "candidate": "M0",
+      "reference": "B0",
+      "area_l1_mu": "11490.6",
+      "activation_keys_different": 768
+    },
+    {
+      "candidate": "M1",
+      "reference": "M0",
+      "area_l1_mu": "10167.4",
+      "activation_keys_different": 717
+    },
+    {
+      "candidate": "M2",
+      "reference": "M1",
+      "area_l1_mu": "0.0",
+      "activation_keys_different": 0
+    },
+    {
+      "candidate": "M3",
+      "reference": "M1",
+      "area_l1_mu": "0.0",
+      "activation_keys_different": 0
+    }
+  ],
+  "passed": true,
+  "human_verification": "pending",
+  "limitations": [
+    "Scenario probabilities are modeling assumptions, not estimates",
+    "D05 demand base uses production proxy, not observed sales",
+    "Aggregate bean-area rule has a spatial-coverage limitation",
+    "All MIP claims are limited by recorded solver gaps"
+  ]
+}

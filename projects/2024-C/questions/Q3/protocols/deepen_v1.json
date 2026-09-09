@@ -1,0 +1,106 @@
+{
+  "plan_id": "Q3-DEEPEN-v1",
+  "status": "EXECUTED_U020",
+  "selection": {
+    "authorization": "U019",
+    "initial_main_plan": "B0",
+    "source": "Q2-D-v1-candidate / M0-R1",
+    "comparators": ["M0-CORR-R1", "M1-NET-R1"],
+    "m2_status": "INCONCLUSIVE_NOT_SELECTED_FOR_DEEPEN_SOLVE"
+  },
+  "fixed_inputs": {
+    "data_version": "G1-v1-base",
+    "q2_reference": "Q2-D-v1-candidate",
+    "relationship_protocol": "Q3-RELATION-v1",
+    "primary_case": "D05/S2",
+    "existing_training_underlying_samples": 120,
+    "existing_comparison_underlying_samples": 300,
+    "reserved_holdout_underlying_samples": 500,
+    "reserved_holdout_seed": 20250308
+  },
+  "work_packages": {
+    "W1": {
+      "name": "relationship mechanism decomposition",
+      "runtime_minutes": 3,
+      "actions": [
+        "Using only the existing 300 comparison draws, decompose R0-to-RS and R0-to-RSC profit differences by year, crop, edge and sold-versus-excess component",
+        "Report which synthetic edges affect demand and where production or sales caps make the effect irrelevant",
+        "Do not optimize or generate new randomness"
+      ]
+    },
+    "W2": {
+      "name": "local-neighbourhood challenge to B0",
+      "runtime_minutes": 12,
+      "actions": [
+        "N0: fix the B0 binary planting pattern and optimize only continuous areas and sales for at most 2 minutes",
+        "N10: optimize M1-NET on the existing RSC training set with at most 10 binary activation changes from B0 for at most 4 minutes",
+        "N30: same model with at most 30 binary activation changes for at most 6 minutes",
+        "Warm-start every run from B0; retain all bounds, gaps and failures"
+      ],
+      "purpose": "Test whether the previous global MILP gap hid a useful nearby plan without rerunning the unresolved full M2 model"
+    },
+    "W3": {
+      "name": "relationship-strength and sales-assumption sensitivity",
+      "runtime_minutes": 4,
+      "actions": [
+        "Evaluate fixed valid plans at 0.5x, 1x and 2x cross-price coefficients using the stored comparison draws and the same plus-or-minus 10 percent clip",
+        "Re-evaluate D0, D05 and D10 demand allocations and S1/S2 sales rules without re-solving",
+        "Record ranking reversals as assumption sensitivity"
+      ]
+    },
+    "W4": {
+      "name": "one-time holdout and independent verification",
+      "runtime_minutes": 6,
+      "actions": [
+        "After the pre-holdout candidate is fixed, generate the reserved 500 underlying draws with seed 20250308 and evaluate R0, RS and RSC, for 1500 world evaluations",
+        "Use each underlying draw as one independent paired unit when calculating the mean-difference confidence interval",
+        "Independently reconstruct agricultural constraints, profit, relationship multipliers and all reported metrics without importing the solver or generator",
+        "Do not tune or re-solve after viewing holdout results"
+      ]
+    }
+  },
+  "pre_holdout_challenger_rule": {
+    "hard_requirements": ["zero agricultural hard-constraint violations", "independent profit error <= 0.1 yuan", "complete solver and plan evidence"],
+    "mean_gain_over_B0": ">= 0.1 percent on the existing 900 world evaluations",
+    "worst10_loss_limit": "no more than 0.1 percent",
+    "world_requirement": "RSC mean improves and at least two of R0/RS/RSC have nonnegative mean difference",
+    "management_requirement": "activations <= B0 activations + 10",
+    "tie_rule": "choose the smaller local neighbourhood; otherwise keep B0"
+  },
+  "final_holdout_rule": {
+    "replace_B0_only_if": [
+      "holdout mean gain >= 0.1 percent",
+      "95 percent paired mean-difference interval lower bound > 0",
+      "holdout worst10 mean is not more than 0.1 percent below B0",
+      "zero hard-constraint and accounting failures"
+    ],
+    "sensitivity_rule": "If the choice reverses between 0.5x and 2x relationship strength, keep B0 and report dependence on synthetic strength unless the user later authorizes a different policy",
+    "fallback": "Keep B0 and report that the tested local and sensitivity evidence did not justify changing the Q2 plan"
+  },
+  "budget": {
+    "total_wall_minutes": 25,
+    "W1": 3,
+    "W2": 12,
+    "W3": 4,
+    "W4": 6,
+    "hard_boundary": "Stop unfinished work at 25 minutes; do not borrow time or start another solve"
+  },
+  "forbidden": [
+    "rerun M2-RELROB",
+    "change the synthetic graph, marginal ranges, coefficients or plus-or-minus 10 percent clip after seeing results",
+    "use the 500 holdout before fixing the challenger",
+    "create a Q3 result workbook not specified by the problem",
+    "freeze Q3 or enter paper writing"
+  ],
+  "result": {
+    "version": "Q3-D-v1-candidate",
+    "selected_plan": "B0",
+    "valid_local_results": ["N0", "N10"],
+    "excluded_result": "N30 used N10 rather than B0 as the Hamming reference and is excluded without rerun after holdout access",
+    "pre_holdout_challenger": null,
+    "holdout_opened_once": true,
+    "holdout_world_evaluations": 1500,
+    "independent_validation": "passed",
+    "m2_rerun": false
+  }
+}

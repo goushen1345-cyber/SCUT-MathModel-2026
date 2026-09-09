@@ -1,0 +1,27 @@
+{
+  "plan_id": "Q3-TRIAL-v1",
+  "status": "WAITING_FOR_A_APPROVAL",
+  "relationship_protocol": "Q3-RELATION-v1",
+  "experiments_run": 0,
+  "candidates": {
+    "B0": "evaluate frozen Q2 M0-R1 plan; no optimization",
+    "M0-CORR": "maximize mean profit on 120 R0 correlated training futures",
+    "M1-NET": "maximize mean profit on the same 120 underlying futures under RSC",
+    "M2-RELROB": "maximize 0.5 overall mean plus 0.5 worst relationship-world mean across R0/RS/RSC"
+  },
+  "comparison": "300 unseen underlying futures each evaluated under R0, RS and RSC, plus 18 named stresses",
+  "metrics": [
+    "overall mean profit", "worst 10 percent mean profit", "minimum named-stress profit",
+    "probability below B0", "mean by relationship world", "planting activation count",
+    "maximum plot fragmentation", "L1 area change from Q2"
+  ],
+  "counterchecks": ["evaluate M1-NET plan under R0", "evaluate M0-CORR plan under RSC"],
+  "selection_thresholds": {
+    "M1_over_M0": "overall mean gain >=0.1%; worst-10% loss <=0.1%; RSC mean improves; management cost acceptable",
+    "M2_preferred": "worst-world mean gain >=0.1% over best nonrobust candidate; overall mean loss <=0.5%",
+    "fallback": "retain B0 if M0-CORR does not stably improve it"
+  },
+  "wall_clock_budget_minutes": 50,
+  "budget_parts_minutes": {"generation_and_audit": 7, "M0-CORR": 8, "M1-NET": 12, "M2-RELROB": 15, "comparison_and_independent_verification": 8},
+  "forbidden_before_next_approval": ["generate or inspect reserved 500 holdout", "freeze Q3", "enter paper stage", "invent Q3 output template"]
+}

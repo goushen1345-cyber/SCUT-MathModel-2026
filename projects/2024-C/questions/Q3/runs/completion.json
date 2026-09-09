@@ -1,0 +1,19 @@
+{
+  "protocol": "Q3-TRIAL-v1",
+  "authorization": "U018",
+  "status": "COMPLETED_TO_B_WITH_INCONCLUSIVE_M2_REFINEMENT",
+  "selected_for_comparison": {
+    "B0": "B0",
+    "M0-CORR": "M0-CORR-R1",
+    "M1-NET": "M1-NET-R1",
+    "M2-RELROB": "M2-RELROB"
+  },
+  "initial_runs_preserved": true,
+  "r1_reason": "Initial 0.5 percent gap accepted the common warm start and could not support the registered 0.1 percent decision threshold.",
+  "r1_result": "M0-CORR and M1-NET again returned the B0 planting plan at their time limits; M2-RELROB-R1 stopped without a result at the total budget boundary.",
+  "independent_validation": "runs/validation.json passed",
+  "recommended_initial_model": "B0",
+  "interpretation": "No tested candidate produced evidence strong enough to justify replacing the frozen Q2 plan. This does not prove the models are mathematically equivalent.",
+  "future_holdout_opened": false,
+  "human_verification": "pending"
+}

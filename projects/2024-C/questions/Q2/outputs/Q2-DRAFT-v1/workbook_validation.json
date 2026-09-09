@@ -1,0 +1,22 @@
+{
+  "protocol": "Q2-DEEPEN-v1",
+  "method": "independent zipfile/XML; imports neither artifact builder nor solver",
+  "source_sha256": "6a1ba9fc28d14d0a4a795e5f0b7261fb6e32165517afee62bcd1931aba5bee8a",
+  "output_sha256": "d0fc2e6d2b99fdd436d63a9ef1895354cda45181dfccf3b343a8644358b2f69a",
+  "sheets": 7,
+  "nonzero_cells_checked": 666,
+  "labels_and_notes_preserved": true,
+  "csv_values_exact": true,
+  "formula_error_scan_passed": true,
+  "render_files": [
+    "render_2024.png",
+    "render_2025.png",
+    "render_2026.png",
+    "render_2027.png",
+    "render_2028.png",
+    "render_2029.png",
+    "render_2030.png"
+  ],
+  "passed": true,
+  "human_verification": "pending"
+}

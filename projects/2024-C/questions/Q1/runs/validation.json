@@ -1,0 +1,317 @@
+{
+  "protocol": "Q1-TRIAL-v1",
+  "verifier_sha256": "e337e5aaf8ae29ed603f8c648741c3fc71e62bf94d8726ed563df3ec763dde54",
+  "checks": [
+    {
+      "run_id": "batch",
+      "check": "demand_D0",
+      "passed": true,
+      "detail": "59 rows"
+    },
+    {
+      "run_id": "batch",
+      "check": "demand_D05",
+      "passed": true,
+      "detail": "59 rows"
+    },
+    {
+      "run_id": "batch",
+      "check": "demand_D10",
+      "passed": true,
+      "detail": "59 rows"
+    },
+    {
+      "run_id": "M0-D0-S1",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1-D0-S1",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1-D0-S1",
+      "check": "model_accounting_profit_not_above_export_profit",
+      "passed": true,
+      "detail": "{'model_profit': '28899222.0', 'export_profit': '28899222.000', 'unused_sales_auxiliary_slack': '0.000'}"
+    },
+    {
+      "run_id": "M1R-D0-S1",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1R-D0-S1",
+      "check": "model_accounting_profit_not_above_export_profit",
+      "passed": true,
+      "detail": "{'model_profit': '37476850.25', 'export_profit': '37476850.250', 'unused_sales_auxiliary_slack': '0.000'}"
+    },
+    {
+      "run_id": "LP-D0-S1",
+      "check": "lp_is_upper_bound",
+      "passed": true,
+      "detail": "{'lp': 41174668.59005709, 'solutions': ['37476850.250000', '28899222.000000', '37476850.250000']}"
+    },
+    {
+      "run_id": "M0-D0-S2",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1-D0-S2",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1-D0-S2",
+      "check": "model_accounting_profit_not_above_export_profit",
+      "passed": true,
+      "detail": "{'model_profit': '61683124.375', 'export_profit': '61683124.3750', 'unused_sales_auxiliary_slack': '0.0000'}"
+    },
+    {
+      "run_id": "M1R-D0-S2",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1R-D0-S2",
+      "check": "model_accounting_profit_not_above_export_profit",
+      "passed": true,
+      "detail": "{'model_profit': '61528434.6875', 'export_profit': '61528434.6875', 'unused_sales_auxiliary_slack': '0.0000'}"
+    },
+    {
+      "run_id": "LP-D0-S2",
+      "check": "lp_is_upper_bound",
+      "passed": true,
+      "detail": "{'lp': 62054117.290579356, 'solutions': ['60706053.750000', '61683124.375000', '61528434.687500']}"
+    },
+    {
+      "run_id": "M0-D05-S1",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1-D05-S1",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1-D05-S1",
+      "check": "model_accounting_profit_not_above_export_profit",
+      "passed": true,
+      "detail": "{'model_profit': '38195865.55000002', 'export_profit': '38215941.5500', 'unused_sales_auxiliary_slack': '20075.99999998'}"
+    },
+    {
+      "run_id": "M1R-D05-S1",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1R-D05-S1",
+      "check": "model_accounting_profit_not_above_export_profit",
+      "passed": true,
+      "detail": "{'model_profit': '39261824.54999999', 'export_profit': '39261824.5500', 'unused_sales_auxiliary_slack': '1E-8'}"
+    },
+    {
+      "run_id": "LP-D05-S1",
+      "check": "lp_is_upper_bound",
+      "passed": true,
+      "detail": "{'lp': 41033702.04451172, 'solutions': ['37354848.800000', '38215941.550000', '39261824.550000']}"
+    },
+    {
+      "run_id": "M0-D05-S2",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1-D05-S2",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1-D05-S2",
+      "check": "model_accounting_profit_not_above_export_profit",
+      "passed": true,
+      "detail": "{'model_profit': '60096365.602875', 'export_profit': '60101261.12500', 'unused_sales_auxiliary_slack': '4895.522125'}"
+    },
+    {
+      "run_id": "M1R-D05-S2",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1R-D05-S2",
+      "check": "model_accounting_profit_not_above_export_profit",
+      "passed": true,
+      "detail": "{'model_profit': '60655950.75', 'export_profit': '60655950.75000', 'unused_sales_auxiliary_slack': '0.00000'}"
+    },
+    {
+      "run_id": "LP-D05-S2",
+      "check": "lp_is_upper_bound",
+      "passed": true,
+      "detail": "{'lp': 62006196.93869848, 'solutions': ['60655950.750000', '60101261.125000', '60655950.750000']}"
+    },
+    {
+      "run_id": "M0-D10-S1",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1-D10-S1",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1-D10-S1",
+      "check": "model_accounting_profit_not_above_export_profit",
+      "passed": true,
+      "detail": "{'model_profit': '22491053.3', 'export_profit': '22675853.3000', 'unused_sales_auxiliary_slack': '184800.0000'}"
+    },
+    {
+      "run_id": "M1R-D10-S1",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1R-D10-S1",
+      "check": "model_accounting_profit_not_above_export_profit",
+      "passed": true,
+      "detail": "{'model_profit': '37178562.34999998', 'export_profit': '37178562.3500', 'unused_sales_auxiliary_slack': '2E-8'}"
+    },
+    {
+      "run_id": "LP-D10-S1",
+      "check": "lp_is_upper_bound",
+      "passed": true,
+      "detail": "{'lp': 40844698.23877921, 'solutions': ['37178562.350000', '22675853.300000', '37178562.350000']}"
+    },
+    {
+      "run_id": "M0-D10-S2",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1-D10-S2",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1-D10-S2",
+      "check": "model_accounting_profit_not_above_export_profit",
+      "passed": true,
+      "detail": "{'model_profit': '38178759.598425', 'export_profit': '38568092.12500', 'unused_sales_auxiliary_slack': '389332.526575'}"
+    },
+    {
+      "run_id": "M1R-D10-S2",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1R-D10-S2",
+      "check": "model_accounting_profit_not_above_export_profit",
+      "passed": true,
+      "detail": "{'model_profit': '60652283.75', 'export_profit': '60652283.75000', 'unused_sales_auxiliary_slack': '0.00000'}"
+    },
+    {
+      "run_id": "LP-D10-S2",
+      "check": "lp_is_upper_bound",
+      "passed": true,
+      "detail": "{'lp': 61957398.40499943, 'solutions': ['60652283.750000', '38568092.125000', '60652283.750000']}"
+    },
+    {
+      "run_id": "DIAG-alpha25-D0-S1",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "DIAG-alpha25-D0-S1",
+      "check": "model_accounting_profit_not_above_export_profit",
+      "passed": true,
+      "detail": "{'model_profit': '23221908.5', 'export_profit': '23221908.500', 'unused_sales_auxiliary_slack': '0.000'}"
+    },
+    {
+      "run_id": "DIAG-cap10-D0-S1",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "DIAG-cap10-D0-S1",
+      "check": "model_accounting_profit_not_above_export_profit",
+      "passed": true,
+      "detail": "{'model_profit': '21762027.5', 'export_profit': '21762027.500', 'unused_sales_auxiliary_slack': '0.000'}"
+    },
+    {
+      "run_id": "DIAG-alpha25-D0-S2",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "DIAG-alpha25-D0-S2",
+      "check": "model_accounting_profit_not_above_export_profit",
+      "passed": true,
+      "detail": "{'model_profit': '61717628.4278464', 'export_profit': '61717628.42771628000', 'unused_sales_auxiliary_slack': '-0.00013012000'}"
+    },
+    {
+      "run_id": "DIAG-cap10-D0-S2",
+      "check": "all_hard_constraints_and_recalculation",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "DIAG-cap10-D0-S2",
+      "check": "model_accounting_profit_not_above_export_profit",
+      "passed": true,
+      "detail": "{'model_profit': '62516846.87500001', 'export_profit': '62516846.8750', 'unused_sales_auxiliary_slack': '-1E-8'}"
+    },
+    {
+      "run_id": "small",
+      "check": "sales_piecewise",
+      "passed": true,
+      "detail": "{'S1': '200', 'S2': '220.0'}"
+    },
+    {
+      "run_id": "small",
+      "check": "water_exclusive_mode",
+      "passed": true,
+      "detail": "[(0, 1, 1), (1, 0, 0)]"
+    },
+    {
+      "run_id": "small",
+      "check": "rotation_and_first_bean_window",
+      "passed": true,
+      "detail": "[{'sequence': 'BB', 'feasible': False}, {'sequence': 'BN', 'feasible': True}, {'sequence': 'NB', 'feasible': True}, {'sequence': 'NN', 'feasible': False}]"
+    }
+  ],
+  "passed": 50,
+  "failed": 0,
+  "violations": [],
+  "source_snapshot_valid": true,
+  "human_verification": "pending",
+  "limitations": [
+    "Demand scenarios are assumptions",
+    "Bean requirement uses aggregate area proxy",
+    "No claim of global optimality unless a solver status and gap support it",
+    "CSV outputs only; result templates not yet authored"
+  ]
+}

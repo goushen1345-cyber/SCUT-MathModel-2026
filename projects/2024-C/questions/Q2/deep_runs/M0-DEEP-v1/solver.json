@@ -1,0 +1,51 @@
+{
+  "protocol": "Q2-DEEPEN-v1",
+  "authorization": "U015",
+  "candidate": "M0-DEEP-v1",
+  "baseline": {
+    "run_id": "M0-R1",
+    "profit": 67451088.46128432,
+    "activations": 666
+  },
+  "stage1": {
+    "status": "Time limit reached",
+    "solution_valid": true,
+    "runtime_seconds": 300.08621850000054,
+    "objective_value": -67459106.65184334,
+    "mip_gap": 0.002796975272876387,
+    "mip_dual_bound": -67647788.10507888,
+    "mip_node_count": 585,
+    "simplex_iterations": 671784,
+    "profit": 67459106.6518434,
+    "activations": 671
+  },
+  "stage2": {
+    "status": "Time limit reached",
+    "solution_valid": true,
+    "runtime_seconds": 120.0378747000068,
+    "objective_value": 670.9999999999985,
+    "mip_gap": 0.14456035767510989,
+    "mip_dual_bound": 574.0,
+    "mip_node_count": 2,
+    "simplex_iterations": 124369,
+    "profit_floor": 67391647.54519156,
+    "activations": 671
+  },
+  "stage3": {
+    "status": "Time limit reached",
+    "solution_valid": true,
+    "runtime_seconds": 60.03178590000607,
+    "objective_value": -67459106.65184334,
+    "mip_gap": 0.002939790080457697,
+    "mip_dual_bound": -67657422.26441497,
+    "mip_node_count": 0,
+    "simplex_iterations": 94705,
+    "profit": 67459106.6518434,
+    "activations": 671
+  },
+  "selected_stage": "M0-R1",
+  "selected_profit": 67451088.46128432,
+  "selected_activations": 666,
+  "selection_rule": "within 0.1% of best independently reconstructable model profit, prefer fewer activations",
+  "optimality_claim": "Only as supported by recorded status, bound and gap."
+}

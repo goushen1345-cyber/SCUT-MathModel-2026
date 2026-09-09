@@ -1,0 +1,41 @@
+{
+  "candidate": "M1R",
+  "repair_of": "M1-D0-S1",
+  "reason": "M1 feasible region contains M0; inject M0 as incumbent for fair comparison",
+  "scenario": "D0",
+  "sale_case": "S1",
+  "alpha": 0.5,
+  "cap": 7,
+  "stage1": {
+    "status": "Time limit reached",
+    "solution_valid": true,
+    "runtime_seconds": 45.03428140000142,
+    "objective_value": -37476850.25,
+    "recomputed_profit": 37476850.25,
+    "mip_gap": 0.09820627537117775,
+    "mip_dual_bound": -41157312.12569589,
+    "mip_node_count": 0,
+    "simplex_iterations": 88755
+  },
+  "stage2": {
+    "status": "Time limit reached",
+    "solution_valid": true,
+    "runtime_seconds": 45.308940700000676,
+    "objective_value": 574.0,
+    "recomputed_profit": 37476850.25,
+    "mip_gap": 0.050522648083623695,
+    "mip_dual_bound": 545.0,
+    "mip_node_count": 0,
+    "simplex_iterations": 43579
+  },
+  "selected_model_profit": 37476850.25,
+  "selected_profit": 37476850.25,
+  "selected_activations": 574,
+  "model_size": {
+    "columns": 15337,
+    "rows": 20009
+  },
+  "seed": 20240906,
+  "time_limit_each_stage_seconds": 45,
+  "optimality_claim": "Only as supported by status, bound and gap."
+}

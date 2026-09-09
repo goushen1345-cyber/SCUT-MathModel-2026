@@ -1,0 +1,45 @@
+[
+  {
+    "phase": "source_sheets",
+    "ndjson": "{\"kind\":\"sheet\",\"id\":\"ws/es3p8g\",\"name\":\"2024\",\"index\":0,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}\n{\"kind\":\"sheet\",\"id\":\"ws/g6oxis\",\"name\":\"2025\",\"index\":1,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}\n{\"kind\":\"sheet\",\"id\":\"ws/w5yxeh\",\"name\":\"2026\",\"index\":2,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}\n{\"kind\":\"sheet\",\"id\":\"ws/ichf7s\",\"name\":\"2027\",\"index\":3,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}\n{\"kind\":\"sheet\",\"id\":\"ws/6wouma\",\"name\":\"2028\",\"index\":4,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}\n{\"kind\":\"sheet\",\"id\":\"ws/ate0zs\",\"name\":\"2029\",\"index\":5,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}\n{\"kind\":\"sheet\",\"id\":\"ws/pzqz2g\",\"name\":\"2030\",\"index\":6,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}"
+  },
+  {
+    "phase": "saved_table",
+    "year": 2024,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2024\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "phase": "saved_table",
+    "year": 2025,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2025\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "phase": "saved_table",
+    "year": 2026,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2026\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "phase": "saved_table",
+    "year": 2027,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2027\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "phase": "saved_table",
+    "year": 2028,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2028\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "phase": "saved_table",
+    "year": 2029,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2029\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "phase": "saved_table",
+    "year": 2030,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2030\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "phase": "formula_error_scan",
+    "ndjson": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  }
+]

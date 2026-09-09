@@ -1,0 +1,15 @@
+{
+  "candidate": "N10",
+  "protocol": "Q3-DEEPEN-v1",
+  "authorization": "U020",
+  "neighbourhood_k": 10,
+  "time_limit_seconds": 240,
+  "runtime_seconds": 178.49853270000312,
+  "status": "Optimal",
+  "mip_gap": 9.34828245058472e-05,
+  "mip_dual_bound": -67430229.67490883,
+  "objective_value": -67423926.69580203,
+  "solution_valid": true,
+  "selected_activations": 672,
+  "training_mean_profit": 67423926.69580203
+}

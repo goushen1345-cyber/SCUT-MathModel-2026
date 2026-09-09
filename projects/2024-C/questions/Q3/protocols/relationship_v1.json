@@ -1,0 +1,45 @@
+{
+  "protocol_id": "Q3-RELATION-v1",
+  "status": "PROPOSED_NOT_RUN",
+  "data_version": "G1-v1-base",
+  "q2_reference": "Q2-D-v1-candidate",
+  "decision_timing": "one fixed 2024-2030 plan chosen before all simulated futures",
+  "primary_case": {"demand_baseline": "D05", "surplus_rule": "S2"},
+  "stress_cases": {"demand_baselines": ["D0", "D10"], "surplus_rule": "S1"},
+  "marginals": "inherit Q2-UNCERTAINTY-v1 ranges, trends and discrete levels",
+  "dependence": {
+    "method": "Gaussian copula latent factors followed by Q2 marginal mapping",
+    "target_rank_correlations": {
+      "demand_price_within_market_group": 0.35,
+      "price_cost": 0.40,
+      "yield_within_crop_group": 0.30
+    },
+    "verification": "export realized Pearson and Spearman correlations; targets are assumptions, not estimates"
+  },
+  "network": {
+    "features": ["2023 candidate price midpoint", "yield", "cost"],
+    "restriction": "same sales pool and crop class",
+    "construction": "two nearest neighbours by standardized distance, then symmetrize",
+    "worlds": {
+      "R0": "correlation only, no cross-price response",
+      "RS": "both neighbour edges substitutes",
+      "RSC": "nearest edge substitute, second-nearest edge complement"
+    },
+    "substitute_cross_price_coefficient": 0.15,
+    "complement_cross_price_coefficient": -0.10,
+    "demand_multiplier_clip": [0.90, 1.10],
+    "interpretation": "synthetic scenario assumptions, not measured market relationships"
+  },
+  "sampling": {
+    "training_underlying_samples": 120,
+    "training_seed": 20250108,
+    "comparison_underlying_samples": 300,
+    "comparison_seed": 20250208,
+    "relationship_worlds_per_comparison_sample": ["R0", "RS", "RSC"],
+    "named_stress_cases": 18,
+    "common_random_numbers": true,
+    "reserved_future_holdout_samples": 500,
+    "reserved_future_holdout_seed": 20250308,
+    "holdout_access": "forbidden before a later C approval"
+  }
+}

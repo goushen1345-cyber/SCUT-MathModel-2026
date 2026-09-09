@@ -1,0 +1,91 @@
+{
+  "protocol": "Q1-S1-BOOST-v1",
+  "authorization": "U010",
+  "candidate": "M1R3-S1-BOOST",
+  "scenario": "D0",
+  "sale_case": "S1",
+  "alpha": 0.5,
+  "cap": 7,
+  "seed": 20240906,
+  "source_incumbent": "M1R3-D05-S1",
+  "source_incumbent_target_profit": 39677985.875,
+  "profit_floor": 39668121.171,
+  "activation_cap_from_stage2": 758,
+  "stage1": {
+    "status": "Time limit reached",
+    "solution_valid": true,
+    "runtime_seconds": 180.19622069998877,
+    "objective_value": -39699534.0,
+    "recomputed_profit": 39699534.0,
+    "mip_gap": 0.03659792752106738,
+    "mip_dual_bound": -41152454.66795215,
+    "mip_node_count": 2,
+    "simplex_iterations": 363371
+  },
+  "stage2": {
+    "status": "Time limit reached",
+    "solution_valid": true,
+    "runtime_seconds": 60.75001249999332,
+    "objective_value": 758.0,
+    "recomputed_profit": 39707829.0,
+    "mip_gap": 0.27440633245382584,
+    "mip_dual_bound": 550.0,
+    "mip_node_count": 0,
+    "simplex_iterations": 52933
+  },
+  "stage3": {
+    "status": "Time limit reached",
+    "solution_valid": true,
+    "runtime_seconds": 45.028782800000045,
+    "objective_value": -39707829.0,
+    "recomputed_profit": 39707829.0,
+    "mip_gap": 0.036382277297681696,
+    "mip_dual_bound": -41152490.24556693,
+    "mip_node_count": 0,
+    "simplex_iterations": 119527
+  },
+  "selected_stage": "transferred_D05",
+  "candidate_metrics": [
+    {
+      "stage": "transferred_D05",
+      "profit": 39677985.875,
+      "revenue": 45344122.875,
+      "cost": 5666137.0,
+      "activations": 738
+    },
+    {
+      "stage": "stage1",
+      "profit": 39707829.0,
+      "revenue": 45369997.0,
+      "cost": 5662168.0,
+      "activations": 758
+    },
+    {
+      "stage": "stage2",
+      "profit": 39707829.0,
+      "revenue": 45369997.0,
+      "cost": 5662168.0,
+      "activations": 758
+    },
+    {
+      "stage": "stage3",
+      "profit": 39707829.0,
+      "revenue": 45369997.0,
+      "cost": 5662168.0,
+      "activations": 758
+    }
+  ],
+  "selected_profit": 39677985.875,
+  "selected_revenue": 45344122.875,
+  "selected_cost": 5666137.0,
+  "selected_activations": 738,
+  "model_accounting_profit": 39677985.875,
+  "accounting_difference": 0.0,
+  "time_limits_seconds": [
+    180,
+    60,
+    45
+  ],
+  "selection_rule": "Among candidates within 0.1% of maximum independently recomputed profit, minimize activations; then maximize profit.",
+  "optimality_claim": "Time-limited incumbent only; use recorded bound and gap."
+}

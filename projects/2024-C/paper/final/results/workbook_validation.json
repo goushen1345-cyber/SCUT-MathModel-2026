@@ -1,0 +1,77 @@
+{
+  "protocol": "PAPER-FINAL-v1-workbook-review",
+  "method": "byte-for-byte frozen-source copy plus independent openpyxl readback; no solver or workbook builder imported",
+  "files": [
+    {
+      "file": "result1_1.xlsx",
+      "source": "questions/Q1/outputs/Q1-DRAFT-v2/result1_1_Q1-DRAFT-v2.xlsx",
+      "source_sha256": "95c39da4f37fa7f164eea28c3f838e0f770dee6c73db94399b5c6ac99e87808b",
+      "copy_sha256": "95c39da4f37fa7f164eea28c3f838e0f770dee6c73db94399b5c6ac99e87808b",
+      "byte_identical_to_frozen_source": true,
+      "sheet_names": [
+        "2024",
+        "2025",
+        "2026",
+        "2027",
+        "2028",
+        "2029",
+        "2030"
+      ],
+      "seven_year_sheets": true,
+      "nonzero_numeric_cells": 738,
+      "expected_nonzero_from_prior_independent_check": 738,
+      "nonzero_matches_prior": true,
+      "formula_errors": [],
+      "prior_independent_validation_passed": true,
+      "passed": true
+    },
+    {
+      "file": "result1_2.xlsx",
+      "source": "questions/Q1/outputs/Q1-DRAFT-v1/result1_2_Q1-DRAFT-v1.xlsx",
+      "source_sha256": "92abe652f36ae4172de4ffc654d81d12e192d847f7bb029be9c6b6ef3613e8ff",
+      "copy_sha256": "92abe652f36ae4172de4ffc654d81d12e192d847f7bb029be9c6b6ef3613e8ff",
+      "byte_identical_to_frozen_source": true,
+      "sheet_names": [
+        "2024",
+        "2025",
+        "2026",
+        "2027",
+        "2028",
+        "2029",
+        "2030"
+      ],
+      "seven_year_sheets": true,
+      "nonzero_numeric_cells": 662,
+      "expected_nonzero_from_prior_independent_check": 662,
+      "nonzero_matches_prior": true,
+      "formula_errors": [],
+      "prior_independent_validation_passed": true,
+      "passed": true
+    },
+    {
+      "file": "result2.xlsx",
+      "source": "questions/Q2/outputs/Q2-DRAFT-v1/result2_Q2-DRAFT-v1.xlsx",
+      "source_sha256": "d0fc2e6d2b99fdd436d63a9ef1895354cda45181dfccf3b343a8644358b2f69a",
+      "copy_sha256": "d0fc2e6d2b99fdd436d63a9ef1895354cda45181dfccf3b343a8644358b2f69a",
+      "byte_identical_to_frozen_source": true,
+      "sheet_names": [
+        "2024",
+        "2025",
+        "2026",
+        "2027",
+        "2028",
+        "2029",
+        "2030"
+      ],
+      "seven_year_sheets": true,
+      "nonzero_numeric_cells": 666,
+      "expected_nonzero_from_prior_independent_check": 666,
+      "nonzero_matches_prior": true,
+      "formula_errors": [],
+      "prior_independent_validation_passed": true,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "human_verification": "pending"
+}

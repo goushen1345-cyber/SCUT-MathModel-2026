@@ -1,0 +1,15 @@
+{
+  "finished_utc": "2026-09-07T15:33:14.762827+00:00",
+  "wall_seconds": 482.3514656000043,
+  "wall_minutes": 8.039191093333406,
+  "holdout": {
+    "count": 500,
+    "seed": 20241107,
+    "opened": true
+  },
+  "sensitivity": {
+    "count_each": 240,
+    "common_uniform_seed": 20241207
+  },
+  "w1_selected_stage": "M0-R1"
+}

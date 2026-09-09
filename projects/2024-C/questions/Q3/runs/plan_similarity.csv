@@ -1,0 +1,5 @@
+﻿candidate,reference,area_l1_mu,activation_keys_different
+M0-CORR,B0,0.0,0
+M1-NET,M0-CORR,0.0,0
+M2-RELROB,M0-CORR,0.0,0
+M2-RELROB,M1-NET,0.0,0

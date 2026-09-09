@@ -1,0 +1,214 @@
+{
+  "protocol": "Q3-TRIAL-v1",
+  "authorization": "U018",
+  "selected_run_ids": {
+    "B0": "B0",
+    "M0-CORR": "M0-CORR-R1",
+    "M1-NET": "M1-NET-R1",
+    "M2-RELROB": "M2-RELROB"
+  },
+  "method": "independent standard-library reconstruction; imports neither generator nor solver",
+  "source_snapshots_valid": true,
+  "scenario_sets": {
+    "training_world_scenarios": 360,
+    "comparison_world_scenarios": 900,
+    "stress": 18,
+    "future_holdout_opened": false
+  },
+  "constraint_checks": [
+    {
+      "candidate": "B0",
+      "activations": 666,
+      "max_plots": 7,
+      "violations": 0,
+      "valid": true,
+      "examples": []
+    },
+    {
+      "candidate": "M0-CORR",
+      "activations": 666,
+      "max_plots": 7,
+      "violations": 0,
+      "valid": true,
+      "examples": []
+    },
+    {
+      "candidate": "M1-NET",
+      "activations": 666,
+      "max_plots": 7,
+      "violations": 0,
+      "valid": true,
+      "examples": []
+    },
+    {
+      "candidate": "M2-RELROB",
+      "activations": 666,
+      "max_plots": 7,
+      "violations": 0,
+      "valid": true,
+      "examples": []
+    }
+  ],
+  "accounting_checks": [
+    {
+      "candidate": "M0-CORR",
+      "run_id": "M0-CORR-R1",
+      "independent_training_mean": "67377634.3532957596408421875",
+      "solver_training_mean": 67377634.35329577,
+      "difference_yuan": "-1.03591578125E-8",
+      "passed": true
+    },
+    {
+      "candidate": "M1-NET",
+      "run_id": "M1-NET-R1",
+      "independent_training_mean": "67377544.72325207708314609873",
+      "solver_training_mean": 67377544.72325209,
+      "difference_yuan": "-1.291685390127E-8",
+      "passed": true
+    },
+    {
+      "candidate": "M2-RELROB",
+      "run_id": "M2-RELROB",
+      "independent_training_mean": "67377284.37027843173497450208",
+      "solver_training_mean": 67377284.37027845,
+      "difference_yuan": "-1.826502549792E-8",
+      "passed": true
+    }
+  ],
+  "relationship_checks": {
+    "r0_multiplier_exactly_one": true,
+    "multiplier_within_clip": true,
+    "demand_factorizes": true,
+    "future_holdout_absent": true
+  },
+  "primary_summary": [
+    {
+      "candidate": "B0",
+      "mean_profit_yuan": "67130698.845207",
+      "p10_profit_yuan": "65810680.639447",
+      "worst10_mean_yuan": "65288953.006938",
+      "std_yuan": "1087571.273188",
+      "named_stress_min_yuan": "57711063.448685",
+      "underperform_B0_probability": "0.000000",
+      "worst_world_mean_yuan": "67129486.596833",
+      "activations": 666
+    },
+    {
+      "candidate": "M0-CORR",
+      "mean_profit_yuan": "67130698.845207",
+      "p10_profit_yuan": "65810680.639447",
+      "worst10_mean_yuan": "65288953.006938",
+      "std_yuan": "1087571.273188",
+      "named_stress_min_yuan": "57711063.448685",
+      "underperform_B0_probability": "0.000000",
+      "worst_world_mean_yuan": "67129486.596833",
+      "activations": 666
+    },
+    {
+      "candidate": "M1-NET",
+      "mean_profit_yuan": "67130698.845207",
+      "p10_profit_yuan": "65810680.639447",
+      "worst10_mean_yuan": "65288953.006938",
+      "std_yuan": "1087571.273188",
+      "named_stress_min_yuan": "57711063.448685",
+      "underperform_B0_probability": "0.000000",
+      "worst_world_mean_yuan": "67129486.596833",
+      "activations": 666
+    },
+    {
+      "candidate": "M2-RELROB",
+      "mean_profit_yuan": "67130698.845207",
+      "p10_profit_yuan": "65810680.639447",
+      "worst10_mean_yuan": "65288953.006938",
+      "std_yuan": "1087571.273188",
+      "named_stress_min_yuan": "57711063.448685",
+      "underperform_B0_probability": "0.000000",
+      "worst_world_mean_yuan": "67129486.596833",
+      "activations": 666
+    }
+  ],
+  "pairwise_comparison": [
+    {
+      "candidate": "M0-CORR",
+      "reference": "B0",
+      "mean_difference_yuan": "0.000000",
+      "min_difference_yuan": "0.000000",
+      "max_difference_yuan": "0.000000",
+      "positive_scenarios": 0,
+      "equal_scenarios": 900,
+      "negative_scenarios": 0
+    },
+    {
+      "candidate": "M1-NET",
+      "reference": "M0-CORR",
+      "mean_difference_yuan": "0.000000",
+      "min_difference_yuan": "0.000000",
+      "max_difference_yuan": "0.000000",
+      "positive_scenarios": 0,
+      "equal_scenarios": 900,
+      "negative_scenarios": 0
+    },
+    {
+      "candidate": "M2-RELROB",
+      "reference": "M0-CORR",
+      "mean_difference_yuan": "0.000000",
+      "min_difference_yuan": "0.000000",
+      "max_difference_yuan": "0.000000",
+      "positive_scenarios": 0,
+      "equal_scenarios": 900,
+      "negative_scenarios": 0
+    },
+    {
+      "candidate": "M2-RELROB",
+      "reference": "M1-NET",
+      "mean_difference_yuan": "0.000000",
+      "min_difference_yuan": "0.000000",
+      "max_difference_yuan": "0.000000",
+      "positive_scenarios": 0,
+      "equal_scenarios": 900,
+      "negative_scenarios": 0
+    }
+  ],
+  "plan_similarity": [
+    {
+      "candidate": "M0-CORR",
+      "reference": "B0",
+      "area_l1_mu": "0.0",
+      "activation_keys_different": 0
+    },
+    {
+      "candidate": "M1-NET",
+      "reference": "M0-CORR",
+      "area_l1_mu": "0.0",
+      "activation_keys_different": 0
+    },
+    {
+      "candidate": "M2-RELROB",
+      "reference": "M0-CORR",
+      "area_l1_mu": "0.0",
+      "activation_keys_different": 0
+    },
+    {
+      "candidate": "M2-RELROB",
+      "reference": "M1-NET",
+      "area_l1_mu": "0.0",
+      "activation_keys_different": 0
+    }
+  ],
+  "selection": {
+    "M1_over_M0_pass": false,
+    "M2_over_best_nonrobust_pass": false,
+    "M2_evidence_status": "INCONCLUSIVE_R1_BUDGET_STOP; R0 independently checked but gap exceeds 0.1% decision threshold",
+    "M0_over_B0_pass": false,
+    "best_nonrobust": "M0-CORR",
+    "recommended_initial_model": "B0"
+  },
+  "passed": true,
+  "human_verification": "pending",
+  "limitations": [
+    "All correlations and relationship edges are synthetic assumptions, not estimates",
+    "D05 demand base uses production proxy, not observed sales",
+    "Aggregate bean-area rule has a spatial-coverage limitation",
+    "All MIP claims are limited by recorded solver gaps"
+  ]
+}

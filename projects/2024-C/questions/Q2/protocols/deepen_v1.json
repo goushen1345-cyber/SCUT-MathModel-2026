@@ -1,0 +1,103 @@
+{
+  "protocol": "Q2-DEEPEN-v1",
+  "status": "PROPOSED_AT_C_NOT_APPROVED",
+  "design_authorization": "U014",
+  "data_version": "G1-v1-base",
+  "uncertainty_protocol": "Q2-UNCERTAINTY-v1",
+  "trial_result": "Q2-B-v1",
+  "selected_initial_model": "M0-R1",
+  "fallback": "B0",
+  "fixed_comparator": "M1-R1",
+  "purpose": "Test whether the simple midpoint plan remains preferable after tighter optimization, one untouched holdout examination, distribution sensitivity and final export verification.",
+  "work_packages": [
+    {
+      "id": "W1",
+      "name": "refine M0 without changing its model",
+      "budget_minutes": 8,
+      "steps": [
+        "Warm-start from M0-R1 and maximize D05/S2 midpoint-path profit for at most 300 seconds with a 0.1% target gap.",
+        "Require at least 99.9% of the better independently recalculated profit from M0-R1 and the first stage, then minimize activation count for at most 120 seconds.",
+        "Fix the selected activation count, maximize profit and canonicalize sales variables for at most 60 seconds."
+      ],
+      "selection_rule": "Only zero-violation solutions with profit discrepancy at most 0.1 yuan are eligible. Keep the higher independently recalculated midpoint profit; when profits differ by no more than 0.1%, prefer fewer activations. A refined solution cannot replace M0-R1 merely because the solver reports a better internal objective.",
+      "expected_contribution": "Separate a real model difference from the remaining 0.289% solver gap and avoid claiming that a time-limited incumbent is exact.",
+      "no_scope_expansion": "Do not alter D05, S2, prices, agricultural constraints, model structure or management thresholds."
+    },
+    {
+      "id": "W2",
+      "name": "open the reserved holdout once",
+      "budget_minutes": 7,
+      "steps": [
+        "Generate exactly 500 future scenarios with seed 20241107 using Q2-UNCERTAINTY-v1 only after C approval; validate ranges and confirm no overlap with training or comparison IDs.",
+        "Evaluate B0, the W1-selected M0 and unchanged M1-R1 on the same scenarios. D05/S2 is primary; D05/S1 and D0/D10 are prespecified stress views.",
+        "Report paired mean difference, worst-10% mean difference, win/loss counts and a paired Monte Carlo 95% interval for the mean difference. Label the interval as simulation error under the assumed generator, not real-world confidence."
+      ],
+      "holdout_rule": "The 500 scenarios may be opened only once. No parameter, model or plan may be tuned after viewing them. If an implementation defect invalidates them, preserve the failed files and return to C rather than silently regenerate with another seed.",
+      "m1_switch_rule": "M1 may displace M0 only if, on D05/S2 holdout, both mean and worst-10% mean improve by at least 0.1%, the paired mean-difference interval has lower bound above zero, D05/S1 worst-10% mean is no more than 0.1% worse, and its observed activation increase relative to the W1-selected M0 is explicitly accepted as a management trade-off. Otherwise retain M0."
+    },
+    {
+      "id": "W3",
+      "name": "assumption sensitivity and ranking explanation",
+      "budget_minutes": 4,
+      "steps": [
+        "Without re-optimizing, evaluate B0, selected M0 and M1-R1 under low/mid/high weights 0.10/0.80/0.10 and 0.40/0.20/0.40. For each setting create 240 diagnostic scenarios from the same underlying uniform draws with seed 20241207, mapping those draws through the two alternative probability thresholds; keep both sets separate from training, comparison and holdout evidence.",
+        "Evaluate deterministic cost and vegetable-price trend pairs 4%/4% and 6%/6%, D0/D10 demand bases, and both S1/S2 sales rules.",
+        "Break the M1-minus-M0 difference down by crop, year, excess-production volume and discounted-revenue share to explain why S1/S2 can reverse the ranking.",
+        "Check the selected plan against the stricter whole-plot bean interpretation as a diagnostic only; a failure is reported as a limitation and does not get repaired without a new C plan."
+      ],
+      "interpretation_boundary": "Weights are sensitivity settings, not estimated probabilities. Crop contributions explain model accounting under the assumed rules and do not establish causal substitution or complementarity; those mechanisms belong to Q3."
+    },
+    {
+      "id": "W4",
+      "name": "independent verification and draft deliverable",
+      "budget_minutes": 6,
+      "steps": [
+        "Independently read every final CSV and frozen input, recompute agricultural constraints, scenario profit and the selection metrics without importing the optimizer implementation.",
+        "If a final Q2 candidate is selected, copy the read-only source template into a project-only draft, build a candidate result2 mapping, write the 2024-2030 areas and read every written cell back.",
+        "Verify the source template SHA-256 6a1ba9fc28d14d0a4a795e5f0b7261fb6e32165517afee62bcd1931aba5bee8a, all seven year sheets, labels, formulas, nonzero cells and rendered sheets."
+      ],
+      "draft_path": "questions/Q2/outputs/Q2-DRAFT-v1/result2_Q2-DRAFT-v1.xlsx",
+      "deliverable_boundary": "The workbook is a project draft for review, not a frozen or submitted answer."
+    }
+  ],
+  "comparison_controls": {
+    "common_random_numbers": true,
+    "fixed_models": ["B0", "W1-selected M0", "M1-R1"],
+    "primary_sales_base": "D05",
+    "primary_sale_rule": "S2",
+    "stress_sales_bases": ["D0", "D10"],
+    "stress_sale_rule": "S1",
+    "no_new_candidates": true,
+    "no_q3_mechanisms": true
+  },
+  "sensitivity_scenarios": {
+    "count_per_weight_setting": 240,
+    "common_uniform_seed": 20241207,
+    "weight_settings": {
+      "midpoint_heavy": [0.1, 0.8, 0.1],
+      "endpoint_heavy": [0.4, 0.2, 0.4]
+    },
+    "use": "fixed-plan sensitivity only; never optimization, model selection tuning or holdout evidence"
+  },
+  "budget_minutes": {
+    "W1": 8,
+    "W2": 7,
+    "W3": 4,
+    "W4": 6,
+    "total_wall": 25
+  },
+  "acceptance": [
+    "Frozen G1-v1-base and Q1-D-v2-candidate hashes remain valid.",
+    "All final candidate CSVs have zero independently detected hard-constraint violations and profit discrepancy no more than 0.1 yuan.",
+    "Scenario counts, seeds, ranges, identities and set separation match the protocol.",
+    "Solver status, bound, gap, wall time, failed attempts and any fallback are retained.",
+    "Every claim states the applicable demand base, sale rule, probability setting and optimization-status boundary.",
+    "Any draft workbook passes independent cell-level and rendered-sheet verification."
+  ],
+  "stop_conditions": [
+    "Stop on frozen-input hash mismatch, holdout leakage or regeneration need, scenario range/seed mismatch, hard-constraint violation, profit discrepancy above 0.1 yuan, workbook mapping/source mismatch or total wall time above 25 minutes.",
+    "A holdout contradiction is reported; do not tune toward it or force M0 to remain selected.",
+    "Do not re-solve M1, add M2/M3, introduce correlation/substitution/complementarity, freeze Q2 or enter Q3.",
+    "After execution and independent verification stop at D."
+  ]
+}

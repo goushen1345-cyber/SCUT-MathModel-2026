@@ -1,0 +1,5 @@
+﻿candidate,reference,mean_difference_yuan,min_difference_yuan,max_difference_yuan,positive_scenarios,equal_scenarios,negative_scenarios
+M0-CORR,B0,0.000000,0.000000,0.000000,0,900,0
+M1-NET,M0-CORR,0.000000,0.000000,0.000000,0,900,0
+M2-RELROB,M0-CORR,0.000000,0.000000,0.000000,0,900,0
+M2-RELROB,M1-NET,0.000000,0.000000,0.000000,0,900,0

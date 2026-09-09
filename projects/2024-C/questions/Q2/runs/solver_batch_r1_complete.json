@@ -1,0 +1,40 @@
+{
+  "protocol": "Q2-TRIAL-v1",
+  "authorization": "U013",
+  "reason": "R0 all identical because 1% tolerance accepted the common warm start",
+  "mip_relative_gap_target": 0.001,
+  "finished_utc": "2026-09-07T14:44:01.559192+00:00",
+  "wall_seconds": 2173.3373078000004,
+  "wall_minutes": 36.22228846333334,
+  "runs": [
+    {
+      "candidate": "M0",
+      "run_id": "M0-R1",
+      "status": "Time limit reached",
+      "runtime_seconds": 270.0307351999945,
+      "gap": 0.002892552493183956
+    },
+    {
+      "candidate": "M1",
+      "run_id": "M1-R1",
+      "status": "Time limit reached",
+      "runtime_seconds": 541.6907558999956,
+      "gap": 0.00232715784465877
+    },
+    {
+      "candidate": "M2",
+      "run_id": "M2-R1",
+      "status": "Time limit reached",
+      "runtime_seconds": 810.8593497999973,
+      "gap": 0.0024909317989584875
+    },
+    {
+      "candidate": "M3",
+      "run_id": "M3-R1",
+      "status": "Time limit reached",
+      "runtime_seconds": 545.9643966000003,
+      "gap": 0.004951067716499363
+    }
+  ],
+  "original_runs_preserved": true
+}

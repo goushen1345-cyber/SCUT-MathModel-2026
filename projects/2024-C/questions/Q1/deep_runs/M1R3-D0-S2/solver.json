@@ -1,0 +1,62 @@
+{
+  "protocol": "Q1-DEEPEN-v1",
+  "authorization": "U008",
+  "candidate": "M1R3",
+  "scenario": "D0",
+  "sale_case": "S2",
+  "alpha": 0.5,
+  "cap": 7,
+  "initial_incumbent": "M1",
+  "initial_profit": 61683124.375,
+  "profit_floor": 61621441.250625,
+  "activation_cap_from_stage2": 662,
+  "stage1": {
+    "status": "Optimal",
+    "solution_valid": true,
+    "runtime_seconds": 0.7244034000032116,
+    "objective_value": -61683124.375,
+    "recomputed_profit": 61683124.375,
+    "mip_gap": 0.006014496174414256,
+    "mip_dual_bound": -62054117.290579356,
+    "mip_node_count": 1,
+    "simplex_iterations": 4339
+  },
+  "stage2": {
+    "status": "Time limit reached",
+    "solution_valid": true,
+    "runtime_seconds": 90.03575490000367,
+    "objective_value": 662.0,
+    "recomputed_profit": 61683124.375,
+    "mip_gap": 0.13444108761329304,
+    "mip_dual_bound": 573.0,
+    "mip_node_count": 2,
+    "simplex_iterations": 75069
+  },
+  "stage3": {
+    "status": "Time limit reached",
+    "solution_valid": true,
+    "runtime_seconds": 60.02496209999663,
+    "objective_value": -61683124.375,
+    "recomputed_profit": 61683124.375,
+    "mip_gap": 0.005859964894149905,
+    "mip_dual_bound": -62044585.31839898,
+    "mip_node_count": 0,
+    "simplex_iterations": 144800
+  },
+  "selected_stage": "stage3",
+  "seed": 20240906,
+  "time_limits_seconds": [
+    180,
+    90,
+    60
+  ],
+  "optimality_claim": "Only as supported by status, bound and gap.",
+  "selected_profit": 61683124.375,
+  "selected_revenue": 68472614.375,
+  "selected_cost": 6789490.0,
+  "selected_activations": 662,
+  "precanonical_model_accounting_profit": 61683124.375,
+  "sales_variables_canonicalized_after_solve": true,
+  "model_accounting_profit": 61683124.375,
+  "accounting_difference": 0.0
+}

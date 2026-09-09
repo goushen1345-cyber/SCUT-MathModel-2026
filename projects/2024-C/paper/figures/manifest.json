@@ -1,0 +1,69 @@
+{
+  "figures": [
+    {
+      "file": "paper/figures/fig01_framework.png",
+      "sources": [
+        "report.md",
+        "state/state.json"
+      ],
+      "sha256": "1730ec2a6f55c8977404901a3a58fc87886f17977b3e87afd90817b2ebb40ef2"
+    },
+    {
+      "file": "paper/figures/fig02_land_structure.png",
+      "sources": [
+        "data/frozen/G1-v1-base/lands.csv"
+      ],
+      "sha256": "300808c038f8fb8d36183423c3f428391a7f85efb96d3c871c1113ba22ab1380"
+    },
+    {
+      "file": "paper/figures/fig03_q1_profit.png",
+      "sources": [
+        "questions/Q1/deep_runs/main_comparison.csv",
+        "questions/Q1/boost_runs/comparison.csv"
+      ],
+      "sha256": "d7752051bc01eb6dfbf860f0ef4555ac85f1e134958cfb92614cc81e15c0e8ce"
+    },
+    {
+      "file": "paper/figures/fig04_q1_pareto.png",
+      "sources": [
+        "questions/Q1/deep_runs/pareto.csv"
+      ],
+      "sha256": "e4bffb3706ea5c9cb4736c131ad29049c66ee60f3895acab157ac753c28bee01"
+    },
+    {
+      "file": "paper/figures/fig05_q2_holdout.png",
+      "sources": [
+        "questions/Q2/deep_runs/holdout_summary.csv"
+      ],
+      "sha256": "91f41b534085b9a6eea35efe487fcbd3f6999e8070915526ec31b8dea5bd0979"
+    },
+    {
+      "file": "paper/figures/fig06_q2_pairwise.png",
+      "sources": [
+        "questions/Q2/deep_runs/holdout_pairwise.csv"
+      ],
+      "sha256": "16e9393b892f24e6bf6137bf1b9db17f043163e2f9f709a759707cc0e33b87cf"
+    },
+    {
+      "file": "paper/figures/fig07_q2_sensitivity.png",
+      "sources": [
+        "questions/Q2/deep_runs/sensitivity_summary.csv"
+      ],
+      "sha256": "f812ff978839a15be5848fa45ac3241995c5f108db19e9a85924902c87307df4"
+    },
+    {
+      "file": "paper/figures/fig08_q3_relation.png",
+      "sources": [
+        "questions/Q3/protocols/relationship_v1.json"
+      ],
+      "sha256": "d452884110e2f2914f554be385410dad65bbb5496daf323aaf394feff55540b3"
+    },
+    {
+      "file": "paper/figures/fig09_q3_strength.png",
+      "sources": [
+        "questions/Q3/deep_runs/sensitivity_summary.csv"
+      ],
+      "sha256": "239558625e8ff85414ec0f592db5526d5c09ef5f7efb9f3f0383ba81e4d3a98b"
+    }
+  ]
+}

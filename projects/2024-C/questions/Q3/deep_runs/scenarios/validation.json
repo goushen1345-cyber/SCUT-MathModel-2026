@@ -1,0 +1,9 @@
+{
+  "seed": 20250308,
+  "underlying": 500,
+  "world_scenarios": 1500,
+  "rows": 430500,
+  "generated_after_challenger_fixed": true,
+  "challenger": null,
+  "passed": true
+}

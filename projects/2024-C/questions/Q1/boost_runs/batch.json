@@ -1,0 +1,25 @@
+{
+  "protocol": "Q1-S1-BOOST-v1",
+  "authorization": "U010",
+  "started_utc": "2026-09-07T10:03:37.215179+00:00",
+  "seed": 20240906,
+  "data_version": "G1-v1-base",
+  "source_hashes": {
+    "data/frozen/G1-v1-base/coverage.csv": "ccf849d1210aaaba75fbcddca5509034b30a068231abba9bcbefd739553fa878",
+    "data/frozen/G1-v1-base/crops.csv": "2bbf6d98ebe406ad9b6a0d7f89a5a054e3b322ff48ad4389209abaa96f7281cc",
+    "data/frozen/G1-v1-base/freeze_record.json": "04bd32009330a1f5d1d161cc86ea636bc784ba3c6172241e922220b900112369",
+    "data/frozen/G1-v1-base/lands.csv": "2ba6006df739876b3e7307c59fc9d58a84b67606856ae5cc13a6f5050c6b9431",
+    "data/frozen/G1-v1-base/manifest.json": "87a04fefb09a0465b6b105a9bf004f19c70cf7f9af9ded8c7670dceac0678650",
+    "data/frozen/G1-v1-base/parameters_effective.csv": "1ef861f1aaf9c6ccfe54ca23d2a057b6d93128485d258241f9d63f3e2bd2763a",
+    "data/frozen/G1-v1-base/parameters_original.csv": "ac610a31f9d5ec4f2a649fa720bad85b4ff5d463766fc7a92fcf2d89dc559cfd",
+    "data/frozen/G1-v1-base/planting_2023.csv": "36a76aef850968335869c6494854bed1c6d4d27c2c50f80816b31129497a2269",
+    "data/frozen/G1-v1-base/production_2023.csv": "a463f4754c698a1c1b0211e6e4f6c10f599112323807992d37efb2ceb1e95da3",
+    "data/frozen/G1-v1-base/scripts/build_candidate_g1.py": "8d1341dc6b33486d6e90a2f10c5172c494ba084559e0598a40e0b8714327a5df",
+    "data/frozen/G1-v1-base/scripts/verify_candidate_g1.py": "a91f506b6b3d2ad6868e7bd9862b3e3b6664666cff2d7e818e6000ccd6d22a14",
+    "data/frozen/G1-v1-base/template_mapping.json": "399f11c05f101f98d7c8a95797ed93d522f7015012004e7351e0954dd44203f1",
+    "data/frozen/G1-v1-base/transform_log.jsonl": "7a5b3a417c477b6c593c355b0b4d1966792b1b81f94781f2a1a491bdc320d88b",
+    "data/frozen/G1-v1-base/validation.json": "98eaba67b503a2a14af4b43f41880258f519bde9562c01b49c6d1715c1d01fb2"
+  },
+  "runner_sha256": "e072c4d329669900f436b87861e86ea21a75a96d449c40bbb1a62945fcac4b64",
+  "locked_manifest_sha256": "55211961c66fe85d19b1b4abe99b8f280c45504507d6910031bae85155388d4a"
+}

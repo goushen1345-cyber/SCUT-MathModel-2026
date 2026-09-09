@@ -1,0 +1,9 @@
+{
+  "protocol": "Q2-TRIAL-v1",
+  "authorization": "U013",
+  "finished_utc": "2026-09-07T14:03:36.971208+00:00",
+  "wall_seconds": 33.75263139999879,
+  "wall_minutes": 0.5625438566666465,
+  "candidate_solves": 4,
+  "solve_budget_minutes": 40
+}

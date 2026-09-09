@@ -1,0 +1,3 @@
+﻿run_id,scenario,selected_stage,profit,activations,transfer_profit,stage1_status,stage1_gap,stage2_status,stage3_status
+BOOST-D0-S1,D0,transferred_D05,39677985.875,738,39677985.875,Time limit reached,0.03659792752106738,Time limit reached,Time limit reached
+BOOST-D10-S1,D10,stage1,39476840.375,738,39476840.375,Time limit reached,0.03358825312758958,Time limit reached,Time limit reached

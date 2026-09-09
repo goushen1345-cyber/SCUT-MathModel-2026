@@ -1,0 +1,30 @@
+{
+  "protocol": "Q1-DEEPEN-v1",
+  "authorization": "U008",
+  "candidate": "BEAN-STRICT",
+  "scenario": "D0",
+  "sale_case": "S2",
+  "bean_mode": "strict_full_plot",
+  "alpha": 0.5,
+  "cap": 7,
+  "stage1": {
+    "status": "Optimal",
+    "solution_valid": true,
+    "runtime_seconds": 56.67606759999762,
+    "objective_value": -61617063.125,
+    "recomputed_profit": 61617063.125,
+    "mip_gap": 0.006957681395499989,
+    "mip_dual_bound": -62045775.01875016,
+    "mip_node_count": 1,
+    "simplex_iterations": 159681
+  },
+  "seed": 20240906,
+  "selected_profit": 61617063.125,
+  "selected_revenue": 68418128.125,
+  "selected_cost": 6801065.0,
+  "selected_activations": 654,
+  "precanonical_model_accounting_profit": 61617063.125,
+  "sales_variables_canonicalized_after_solve": true,
+  "model_accounting_profit": 61617063.125,
+  "accounting_difference": 0.0
+}

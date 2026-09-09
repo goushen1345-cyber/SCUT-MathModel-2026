@@ -1,0 +1,106 @@
+[
+  {
+    "file": "result1_1.xlsx",
+    "phase": "source_sheets",
+    "ndjson": "{\"kind\":\"sheet\",\"id\":\"ws/vbykgf\",\"name\":\"2024\",\"index\":0,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}\n{\"kind\":\"sheet\",\"id\":\"ws/urdtgj\",\"name\":\"2025\",\"index\":1,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}\n{\"kind\":\"sheet\",\"id\":\"ws/9fi3j0\",\"name\":\"2026\",\"index\":2,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}\n{\"kind\":\"sheet\",\"id\":\"ws/9pzhot\",\"name\":\"2027\",\"index\":3,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}\n{\"kind\":\"sheet\",\"id\":\"ws/fiugwx\",\"name\":\"2028\",\"index\":4,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}\n{\"kind\":\"sheet\",\"id\":\"ws/dzqua2\",\"name\":\"2029\",\"index\":5,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}\n{\"kind\":\"sheet\",\"id\":\"ws/du8cfi\",\"name\":\"2030\",\"index\":6,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}"
+  },
+  {
+    "file": "result1_1_Q1-DRAFT-v1.xlsx",
+    "phase": "saved_table",
+    "year": 2024,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2024\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "file": "result1_1_Q1-DRAFT-v1.xlsx",
+    "phase": "saved_table",
+    "year": 2025,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2025\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "file": "result1_1_Q1-DRAFT-v1.xlsx",
+    "phase": "saved_table",
+    "year": 2026,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2026\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "file": "result1_1_Q1-DRAFT-v1.xlsx",
+    "phase": "saved_table",
+    "year": 2027,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2027\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "file": "result1_1_Q1-DRAFT-v1.xlsx",
+    "phase": "saved_table",
+    "year": 2028,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2028\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "file": "result1_1_Q1-DRAFT-v1.xlsx",
+    "phase": "saved_table",
+    "year": 2029,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2029\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "file": "result1_1_Q1-DRAFT-v1.xlsx",
+    "phase": "saved_table",
+    "year": 2030,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2030\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "file": "result1_1_Q1-DRAFT-v1.xlsx",
+    "phase": "formula_error_scan",
+    "ndjson": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  },
+  {
+    "file": "result1_2.xlsx",
+    "phase": "source_sheets",
+    "ndjson": "{\"kind\":\"sheet\",\"id\":\"ws/dawtco\",\"name\":\"2024\",\"index\":0,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}\n{\"kind\":\"sheet\",\"id\":\"ws/2qqwv3\",\"name\":\"2025\",\"index\":1,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}\n{\"kind\":\"sheet\",\"id\":\"ws/7p58cd\",\"name\":\"2026\",\"index\":2,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}\n{\"kind\":\"sheet\",\"id\":\"ws/zv9br3\",\"name\":\"2027\",\"index\":3,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}\n{\"kind\":\"sheet\",\"id\":\"ws/0kto26\",\"name\":\"2028\",\"index\":4,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}\n{\"kind\":\"sheet\",\"id\":\"ws/o0vxnb\",\"name\":\"2029\",\"index\":5,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}\n{\"kind\":\"sheet\",\"id\":\"ws/vwtyev\",\"name\":\"2030\",\"index\":6,\"range\":\"A1:AQ87\",\"address\":\"A1:AQ87\"}"
+  },
+  {
+    "file": "result1_2_Q1-DRAFT-v1.xlsx",
+    "phase": "saved_table",
+    "year": 2024,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2024\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "file": "result1_2_Q1-DRAFT-v1.xlsx",
+    "phase": "saved_table",
+    "year": 2025,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2025\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "file": "result1_2_Q1-DRAFT-v1.xlsx",
+    "phase": "saved_table",
+    "year": 2026,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2026\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "file": "result1_2_Q1-DRAFT-v1.xlsx",
+    "phase": "saved_table",
+    "year": 2027,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2027\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "file": "result1_2_Q1-DRAFT-v1.xlsx",
+    "phase": "saved_table",
+    "year": 2028,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2028\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "file": "result1_2_Q1-DRAFT-v1.xlsx",
+    "phase": "saved_table",
+    "year": 2029,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2029\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "file": "result1_2_Q1-DRAFT-v1.xlsx",
+    "phase": "saved_table",
+    "year": 2030,
+    "ndjson": "{\"kind\":\"table\",\"sheet\":\"2030\",\"address\":\"A1:AQ83\",\"values\":[[null]],\"valuesTruncated\":true}"
+  },
+  {
+    "file": "result1_2_Q1-DRAFT-v1.xlsx",
+    "phase": "formula_error_scan",
+    "ndjson": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  }
+]

@@ -1,0 +1,1749 @@
+{
+  "scope": "Read-only structural and quality audit; diagnostic normalization is not an adopted data treatment.",
+  "source_directory": "E:\\Projects\\SCUT-MathModel-2026\\培训作业\\第四次培训作业",
+  "source_hashes_before": {
+    "C题.pdf": "c7b5e58bff4189b8afba5505f7bff7d4f08280fc291c51ef3f46134ebbf74f9a",
+    "附件1.xlsx": "b799a137294a5c5497fed9667c5dfed6c967f1fb180316c5adc8509cfa6f0932",
+    "附件2.xlsx": "869081a3ab47d3bf8d0955106b622aaf0fd2c068fada7948da69b20ebf1d00ce",
+    "附件3\\result1_1.xlsx": "4f2484c0d70a5c4d047163f2ee6ef486949e813330466f46def4bd7d98af06af",
+    "附件3\\result1_2.xlsx": "6166d43f5a64bf9d1657e80d4aee7f10f54bb1a5695b81a28a0ac5e657297649",
+    "附件3\\result2.xlsx": "6a1ba9fc28d14d0a4a795e5f0b7261fb6e32165517afee62bcd1931aba5bee8a"
+  },
+  "openpyxl_version": "3.1.5",
+  "books": {
+    "附件1.xlsx": {
+      "sheets": {
+        "乡村的现有耕地": {
+          "dimensions": [
+            55,
+            4
+          ],
+          "merged_ranges": [
+            "D2:D55"
+          ],
+          "nonempty_cells": 167,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "D1",
+              "value": "说明 "
+            },
+            {
+              "cell": "D2",
+              "value": "(1) 平旱地、梯田和山坡地每年都只能种植一季作物。\n\n(2) 水浇地每年可以种植一季也可以种植两季作物。\n\n(3) 大棚能够在一定程度上起保温作用，每年都可以种植两季作物。\n \n(4) 智慧大棚主要是在冬季利用太阳能自动调节棚内温度，保证作物的正常生长。\n\n\n "
+            },
+            {
+              "cell": "B36",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "B37",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "B38",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "B39",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "B40",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "B41",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "B42",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "B43",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "B44",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "B45",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "B46",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "B47",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "B48",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "B49",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "B50",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "B51",
+              "value": "普通大棚 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "乡村种植的农作物": {
+          "dimensions": [
+            46,
+            5
+          ],
+          "merged_ranges": [
+            "D18:D35",
+            "D2:D16",
+            "D36:D38",
+            "D39:D42",
+            "E2:E42"
+          ],
+          "nonempty_cells": 138,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "D2",
+              "value": "平旱地\n\n梯田\n\n山坡地\n"
+            },
+            {
+              "cell": "E2",
+              "value": "(1) 平旱地、梯田和山坡地每年适宜单季种植粮食类作物（水稻除外）。\n\n(2) 水浇地每年可以单季种植水稻或两季种植蔬菜作物。\n\n(3) 若在某块水浇地种植两季蔬菜，第一季可种植多种蔬菜（大白菜、白萝卜和红萝卜除外）；第二季只能种植大白菜、白萝卜和红萝卜中的一种（便于管理）。\n\n(4) 根据季节性要求，大白菜、白萝卜和红萝卜只能在水浇地的第二季种植。\n\n(5) 普通大棚每年种植两季作物，第一季可种植多种蔬菜（大白菜、白萝卜和红萝卜除外），第二季只能种植食用菌。\n\n(6) 因食用菌类适应在较低且适宜的温度和湿度环境中生长，所以只能在秋冬季的普通大棚里种植。\n\n(7) 智慧大棚每年都可种植两季蔬菜（大白菜、白萝卜和红萝卜除外）。\n"
+            },
+            {
+              "cell": "D18",
+              "value": "水浇地    第一季\n\n普通大棚  第一季\n\n智慧大棚  第一季、第二季\n"
+            },
+            {
+              "cell": "B24",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "B31",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        }
+      },
+      "load_warnings": []
+    },
+    "附件2.xlsx": {
+      "sheets": {
+        "2023年的农作物种植情况": {
+          "dimensions": [
+            88,
+            6
+          ],
+          "merged_ranges": [
+            "A28:A29",
+            "A30:A31",
+            "A32:A33",
+            "A34:A35",
+            "A36:A37",
+            "A38:A39",
+            "A42:A43",
+            "A44:A45",
+            "A46:A47",
+            "A48:A49",
+            "A50:A51",
+            "A52:A53",
+            "A54:A55",
+            "A56:A57",
+            "A58:A59",
+            "A60:A61",
+            "A62:A63",
+            "A64:A65",
+            "A66:A67",
+            "A68:A69",
+            "A70:A72",
+            "A73:A74",
+            "A75:A78",
+            "A79:A82",
+            "A83:A85",
+            "A86:A88"
+          ],
+          "nonempty_cells": 495,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "D28",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D29",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D30",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D31",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D32",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D33",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D34",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D35",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D37",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D39",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D44",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D46",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D48",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D50",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D52",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D64",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D66",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D68",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D70",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D71",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D73",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D75",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D76",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D77",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D78",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D79",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D80",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D81",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D82",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D84",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "C85",
+              "value": "生菜 "
+            },
+            {
+              "cell": "D85",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "D87",
+              "value": "蔬菜 "
+            },
+            {
+              "cell": "C88",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "D88",
+              "value": "蔬菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "2023年统计的相关数据": {
+          "dimensions": [
+            111,
+            10
+          ],
+          "merged_ranges": [],
+          "nonempty_cells": 867,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "C54",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "C61",
+              "value": "生菜 "
+            },
+            {
+              "cell": "D66",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "D67",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "D68",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "D69",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "D70",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "D71",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "C72",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "D72",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "D73",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "D74",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "D75",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "D76",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "D77",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "D78",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "C79",
+              "value": "生菜 "
+            },
+            {
+              "cell": "D79",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "D80",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "D81",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "D82",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "D83",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "D87",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "D88",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "D89",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "D90",
+              "value": "普通大棚 "
+            },
+            {
+              "cell": "C97",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "C104",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        }
+      },
+      "load_warnings": []
+    },
+    "附件3\\result1_1.xlsx": {
+      "sheets": {
+        "2024": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "2025": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "2026": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "2027": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "2028": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "2029": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "2030": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        }
+      },
+      "load_warnings": [
+        "Cannot parse header or footer so it will be ignored"
+      ]
+    },
+    "附件3\\result1_2.xlsx": {
+      "sheets": {
+        "2024": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "2025": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "2026": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "2027": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "2028": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "2029": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "2030": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        }
+      },
+      "load_warnings": [
+        "Cannot parse header or footer so it will be ignored"
+      ]
+    },
+    "附件3\\result2.xlsx": {
+      "sheets": {
+        "2024": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "2025": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "2026": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "2027": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "2028": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "2029": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        },
+        "2030": {
+          "dimensions": [
+            87,
+            45
+          ],
+          "merged_ranges": [
+            "A2:A55",
+            "A56:A83"
+          ],
+          "nonempty_cells": 130,
+          "formulas": [],
+          "errors": [],
+          "whitespace_cells": [
+            {
+              "cell": "Y1",
+              "value": "菠菜 "
+            },
+            {
+              "cell": "AF1",
+              "value": "生菜 "
+            }
+          ],
+          "comments": [],
+          "hidden_rows": [],
+          "hidden_columns": []
+        }
+      },
+      "load_warnings": [
+        "Cannot parse header or footer so it will be ignored"
+      ]
+    }
+  },
+  "land": {
+    "count": 54,
+    "duplicate_ids": {},
+    "by_type": {
+      "平旱地": {
+        "count": 6,
+        "area_sum": 365,
+        "min_area": 35,
+        "max_area": 80
+      },
+      "梯田": {
+        "count": 14,
+        "area_sum": 619,
+        "min_area": 20,
+        "max_area": 86
+      },
+      "山坡地": {
+        "count": 6,
+        "area_sum": 108,
+        "min_area": 13,
+        "max_area": 27
+      },
+      "水浇地": {
+        "count": 8,
+        "area_sum": 109,
+        "min_area": 6,
+        "max_area": 22
+      },
+      "普通大棚": {
+        "count": 16,
+        "area_sum": 9.6,
+        "min_area": 0.6,
+        "max_area": 0.6
+      },
+      "智慧大棚": {
+        "count": 4,
+        "area_sum": 2.4,
+        "min_area": 0.6,
+        "max_area": 0.6
+      }
+    },
+    "nonpositive_area": []
+  },
+  "crops": {
+    "count": 41,
+    "duplicate_ids": {},
+    "by_type": {
+      "粮食（豆类）": 5,
+      "粮食": 11,
+      "蔬菜（豆类）": 3,
+      "蔬菜": 18,
+      "食用菌": 4
+    }
+  },
+  "planting": {
+    "record_count": 87,
+    "blank_land_cells": [
+      {
+        "cell": "A29",
+        "anchor_value_for_diagnosis": "D1"
+      },
+      {
+        "cell": "A31",
+        "anchor_value_for_diagnosis": "D2"
+      },
+      {
+        "cell": "A33",
+        "anchor_value_for_diagnosis": "D3"
+      },
+      {
+        "cell": "A35",
+        "anchor_value_for_diagnosis": "D4"
+      },
+      {
+        "cell": "A37",
+        "anchor_value_for_diagnosis": "D5"
+      },
+      {
+        "cell": "A39",
+        "anchor_value_for_diagnosis": "D6"
+      },
+      {
+        "cell": "A43",
+        "anchor_value_for_diagnosis": "E1"
+      },
+      {
+        "cell": "A45",
+        "anchor_value_for_diagnosis": "E2"
+      },
+      {
+        "cell": "A47",
+        "anchor_value_for_diagnosis": "E3"
+      },
+      {
+        "cell": "A49",
+        "anchor_value_for_diagnosis": "E4"
+      },
+      {
+        "cell": "A51",
+        "anchor_value_for_diagnosis": "E5"
+      },
+      {
+        "cell": "A53",
+        "anchor_value_for_diagnosis": "E6"
+      },
+      {
+        "cell": "A55",
+        "anchor_value_for_diagnosis": "E7"
+      },
+      {
+        "cell": "A57",
+        "anchor_value_for_diagnosis": "E8"
+      },
+      {
+        "cell": "A59",
+        "anchor_value_for_diagnosis": "E9"
+      },
+      {
+        "cell": "A61",
+        "anchor_value_for_diagnosis": "E10"
+      },
+      {
+        "cell": "A63",
+        "anchor_value_for_diagnosis": "E11"
+      },
+      {
+        "cell": "A65",
+        "anchor_value_for_diagnosis": "E12"
+      },
+      {
+        "cell": "A67",
+        "anchor_value_for_diagnosis": "E13"
+      },
+      {
+        "cell": "A69",
+        "anchor_value_for_diagnosis": "E14"
+      },
+      {
+        "cell": "A71",
+        "anchor_value_for_diagnosis": "E15"
+      },
+      {
+        "cell": "A72",
+        "anchor_value_for_diagnosis": "E15"
+      },
+      {
+        "cell": "A74",
+        "anchor_value_for_diagnosis": "E16"
+      },
+      {
+        "cell": "A76",
+        "anchor_value_for_diagnosis": "F1"
+      },
+      {
+        "cell": "A77",
+        "anchor_value_for_diagnosis": "F1"
+      },
+      {
+        "cell": "A78",
+        "anchor_value_for_diagnosis": "F1"
+      },
+      {
+        "cell": "A80",
+        "anchor_value_for_diagnosis": "F2"
+      },
+      {
+        "cell": "A81",
+        "anchor_value_for_diagnosis": "F2"
+      },
+      {
+        "cell": "A82",
+        "anchor_value_for_diagnosis": "F2"
+      },
+      {
+        "cell": "A84",
+        "anchor_value_for_diagnosis": "F3"
+      },
+      {
+        "cell": "A85",
+        "anchor_value_for_diagnosis": "F3"
+      },
+      {
+        "cell": "A87",
+        "anchor_value_for_diagnosis": "F4"
+      },
+      {
+        "cell": "A88",
+        "anchor_value_for_diagnosis": "F4"
+      }
+    ],
+    "problems": [],
+    "duplicate_land_crop_season_keys": {},
+    "season_counts": {
+      "单季": 28,
+      "第一季": 29,
+      "第二季": 30
+    },
+    "area_sum_by_season": {
+      "单季": 1134,
+      "第一季": 79.0,
+      "第二季": 79.0
+    },
+    "land_season_area_mismatches": [],
+    "mixed_land_seasons": [
+      {
+        "land": "E15",
+        "season": "第一季",
+        "crop_count": 2
+      },
+      {
+        "land": "F1",
+        "season": "第一季",
+        "crop_count": 2
+      },
+      {
+        "land": "F1",
+        "season": "第二季",
+        "crop_count": 2
+      },
+      {
+        "land": "F2",
+        "season": "第一季",
+        "crop_count": 2
+      },
+      {
+        "land": "F2",
+        "season": "第二季",
+        "crop_count": 2
+      },
+      {
+        "land": "F3",
+        "season": "第二季",
+        "crop_count": 2
+      },
+      {
+        "land": "F4",
+        "season": "第二季",
+        "crop_count": 2
+      }
+    ],
+    "min_planted_area": 0.3,
+    "max_planted_area": 86
+  },
+  "parameters": {
+    "record_count": 107,
+    "duplicate_crop_land_season_keys": {},
+    "label_mismatches": [],
+    "nonpositive_yield_cost": [],
+    "price_parse_failures": [],
+    "multiple_price_ranges_per_crop": {
+      "17": [
+        "7.00-9.00",
+        "8.40-10.80"
+      ],
+      "18": [
+        "5.50-8.00",
+        "6.60-9.60"
+      ],
+      "19": [
+        "5.00-8.00",
+        "6.00-9.60"
+      ],
+      "20": [
+        "3.00-4.50",
+        "3.60-5.40"
+      ],
+      "21": [
+        "5.00-7.50",
+        "6.00-9.00"
+      ],
+      "22": [
+        "5.00-6.00",
+        "6.00-7.20"
+      ],
+      "23": [
+        "4.80-6.70",
+        "5.80-8.00"
+      ],
+      "24": [
+        "4.00-6.50",
+        "5.80-7.80"
+      ],
+      "25": [
+        "5.00-6.00",
+        "6.00-7.20"
+      ],
+      "26": [
+        "5.50-7.50",
+        "6.60-9.00"
+      ],
+      "27": [
+        "4.00-6.00",
+        "4.80-7.20"
+      ],
+      "28": [
+        "5.00-6.50",
+        "6.00-7.80"
+      ],
+      "29": [
+        "6.00-8.00",
+        "7.20-9.60"
+      ],
+      "30": [
+        "4.50-6.00",
+        "5.40-7.20"
+      ],
+      "31": [
+        "6.00-8.50",
+        "7.20-10.20"
+      ],
+      "32": [
+        "3.00-6.00",
+        "3.60-7.20"
+      ],
+      "33": [
+        "4.00-5.00",
+        "4.80-6.00"
+      ],
+      "34": [
+        "3.20-4.80",
+        "3.80-5.80"
+      ]
+    },
+    "observed_planting_match_counts": {
+      "direct": 81,
+      "explicit_note_equivalence": 6
+    },
+    "unmatched_planting_records": [],
+    "explicit_note_equivalences": [
+      {
+        "planting_row": 75,
+        "source_parameter_row": 81,
+        "note": "2023年统计的相关数据!B111"
+      },
+      {
+        "planting_row": 76,
+        "source_parameter_row": 82,
+        "note": "2023年统计的相关数据!B111"
+      },
+      {
+        "planting_row": 79,
+        "source_parameter_row": 74,
+        "note": "2023年统计的相关数据!B111"
+      },
+      {
+        "planting_row": 80,
+        "source_parameter_row": 75,
+        "note": "2023年统计的相关数据!B111"
+      },
+      {
+        "planting_row": 83,
+        "source_parameter_row": 66,
+        "note": "2023年统计的相关数据!B111"
+      },
+      {
+        "planting_row": 86,
+        "source_parameter_row": 68,
+        "note": "2023年统计的相关数据!B111"
+      }
+    ],
+    "yield_range": [
+      100,
+      15000
+    ],
+    "cost_range": [
+      350,
+      10000
+    ],
+    "demand_field_in_headers": false
+  },
+  "eligible_parameter_coverage_diagnostic": {
+    "eligible_type_crop_season_count": 125,
+    "direct_count": 107,
+    "explicit_note_count": 18,
+    "unresolved": [],
+    "parameter_keys_outside_explicit_rules": [],
+    "planting_records_outside_explicit_rules": []
+  },
+  "demand_identifiability": {
+    "eligible_crop_season_pairs": 59,
+    "observed_crop_season_pairs": 47,
+    "unobserved_eligible_pairs": [
+      {
+        "crop_id": 17,
+        "crop": "豇豆",
+        "season": "第二季"
+      },
+      {
+        "crop_id": 18,
+        "crop": "刀豆",
+        "season": "第二季"
+      },
+      {
+        "crop_id": 19,
+        "crop": "芸豆",
+        "season": "第二季"
+      },
+      {
+        "crop_id": 20,
+        "crop": "土豆",
+        "season": "第二季"
+      },
+      {
+        "crop_id": 23,
+        "crop": "菠菜",
+        "season": "第一季"
+      },
+      {
+        "crop_id": 25,
+        "crop": "菜花",
+        "season": "第二季"
+      },
+      {
+        "crop_id": 26,
+        "crop": "包菜",
+        "season": "第二季"
+      },
+      {
+        "crop_id": 27,
+        "crop": "油麦菜",
+        "season": "第二季"
+      },
+      {
+        "crop_id": 31,
+        "crop": "辣椒",
+        "season": "第二季"
+      },
+      {
+        "crop_id": 32,
+        "crop": "空心菜",
+        "season": "第二季"
+      },
+      {
+        "crop_id": 33,
+        "crop": "黄心菜",
+        "season": "第二季"
+      },
+      {
+        "crop_id": 34,
+        "crop": "芹菜",
+        "season": "第一季"
+      }
+    ],
+    "interpretation": "No historical planting is not evidence of zero market demand. No demand values are constructed in this audit.",
+    "same_crop_season_price_disagreements": {}
+  },
+  "independent_ooxml_verification": {
+    "land_count": 54,
+    "physical_area": "1213.0",
+    "crop_count": 41,
+    "planting_count": 87,
+    "sown_season_area": "1292.0",
+    "parameter_count": 107,
+    "agrees_with_openpyxl": true
+  },
+  "templates": {
+    "result1_1.xlsx": {
+      "years": [
+        "2024",
+        "2025",
+        "2026",
+        "2027",
+        "2028",
+        "2029",
+        "2030"
+      ],
+      "labels_consistent_across_years": true,
+      "by_year": {
+        "2024": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        },
+        "2025": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        },
+        "2026": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        },
+        "2027": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        },
+        "2028": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        },
+        "2029": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        },
+        "2030": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        }
+      }
+    },
+    "result1_2.xlsx": {
+      "years": [
+        "2024",
+        "2025",
+        "2026",
+        "2027",
+        "2028",
+        "2029",
+        "2030"
+      ],
+      "labels_consistent_across_years": true,
+      "by_year": {
+        "2024": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        },
+        "2025": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        },
+        "2026": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        },
+        "2027": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        },
+        "2028": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        },
+        "2029": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        },
+        "2030": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        }
+      }
+    },
+    "result2.xlsx": {
+      "years": [
+        "2024",
+        "2025",
+        "2026",
+        "2027",
+        "2028",
+        "2029",
+        "2030"
+      ],
+      "labels_consistent_across_years": true,
+      "by_year": {
+        "2024": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        },
+        "2025": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        },
+        "2026": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        },
+        "2027": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        },
+        "2028": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        },
+        "2029": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        },
+        "2030": {
+          "nonempty_result_cells": 0,
+          "examples": [],
+          "header_crop_names_match": true,
+          "validation_count": 0,
+          "result_style_ids": {
+            "8": 1681,
+            "9": 1681
+          }
+        }
+      }
+    }
+  },
+  "source_hashes_after": {
+    "C题.pdf": "c7b5e58bff4189b8afba5505f7bff7d4f08280fc291c51ef3f46134ebbf74f9a",
+    "附件1.xlsx": "b799a137294a5c5497fed9667c5dfed6c967f1fb180316c5adc8509cfa6f0932",
+    "附件2.xlsx": "869081a3ab47d3bf8d0955106b622aaf0fd2c068fada7948da69b20ebf1d00ce",
+    "附件3\\result1_1.xlsx": "4f2484c0d70a5c4d047163f2ee6ef486949e813330466f46def4bd7d98af06af",
+    "附件3\\result1_2.xlsx": "6166d43f5a64bf9d1657e80d4aee7f10f54bb1a5695b81a28a0ac5e657297649",
+    "附件3\\result2.xlsx": "6a1ba9fc28d14d0a4a795e5f0b7261fb6e32165517afee62bcd1931aba5bee8a"
+  },
+  "source_unchanged": true
+}

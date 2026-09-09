@@ -1,0 +1,21 @@
+{
+  "status": "Optimal",
+  "solution_valid": true,
+  "runtime_seconds": 11.859882499993546,
+  "objective_value": -67377544.72325207,
+  "mip_gap": 0.0029228006675232872,
+  "mip_dual_bound": -67574475.85594527,
+  "mip_node_count": 1,
+  "simplex_iterations": 46284,
+  "model_columns": 64484,
+  "model_rows": 69155,
+  "candidate": "M1-NET",
+  "protocol": "Q3-TRIAL-v1",
+  "authorization": "U018",
+  "training_scenario_count": 120,
+  "training_mean_profit": 67377544.72325209,
+  "training_p10_profit": 65996824.94551537,
+  "training_worst10_mean": 65557617.62652687,
+  "selected_activations": 666,
+  "optimality_claim": "Only as supported by recorded status, bound and gap."
+}

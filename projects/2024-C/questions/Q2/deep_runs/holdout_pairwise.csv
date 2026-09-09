@@ -1,0 +1,3 @@
+﻿candidate,reference,mean_difference_yuan,ci95_low_yuan,ci95_high_yuan,positive,equal,negative,min_difference_yuan,max_difference_yuan,interpretation
+M0,B0,221431.7506673571,216476.7902415679,226386.71109314627,500,0,0,31821.62220221758,392393.99092398584,"Monte Carlo error under Q2-UNCERTAINTY-v1, not real-world confidence"
+M1,M0,27532.511035760745,23936.959692701366,31128.062378820123,379,0,121,-88480.940436095,166150.5016244948,"Monte Carlo error under Q2-UNCERTAINTY-v1, not real-world confidence"

@@ -1,0 +1,139 @@
+{
+  "protocol": "PAPER-FINAL-v1",
+  "method": "independent file/hash, DOCX structure, PDF text/page, workbook and frozen-evidence review; no solver imported",
+  "frozen_files_checked": 288,
+  "frozen_mismatches": [],
+  "docx": {
+    "path": "paper/final/2024-C-paper.docx",
+    "sha256": "622c9bda9177ce770ed21723c0bbfb8509b419bdfa58fc2e9b1bbbc632b60dda",
+    "tables": 8,
+    "figures": 9
+  },
+  "pdf": {
+    "path": "paper/final/2024-C-paper.pdf",
+    "sha256": "209a0e300d419498699e08fc1cac6acd24d0b0a03b092613d3dce2ec42d6c920",
+    "pages": 17,
+    "min_page_characters": 138
+  },
+  "workbooks": [
+    {
+      "file": "result1_1.xlsx",
+      "source": "questions/Q1/outputs/Q1-DRAFT-v2/result1_1_Q1-DRAFT-v2.xlsx",
+      "source_sha256": "95c39da4f37fa7f164eea28c3f838e0f770dee6c73db94399b5c6ac99e87808b",
+      "copy_sha256": "95c39da4f37fa7f164eea28c3f838e0f770dee6c73db94399b5c6ac99e87808b",
+      "byte_identical_to_frozen_source": true,
+      "sheet_names": [
+        "2024",
+        "2025",
+        "2026",
+        "2027",
+        "2028",
+        "2029",
+        "2030"
+      ],
+      "seven_year_sheets": true,
+      "nonzero_numeric_cells": 738,
+      "expected_nonzero_from_prior_independent_check": 738,
+      "nonzero_matches_prior": true,
+      "formula_errors": [],
+      "prior_independent_validation_passed": true,
+      "passed": true
+    },
+    {
+      "file": "result1_2.xlsx",
+      "source": "questions/Q1/outputs/Q1-DRAFT-v1/result1_2_Q1-DRAFT-v1.xlsx",
+      "source_sha256": "92abe652f36ae4172de4ffc654d81d12e192d847f7bb029be9c6b6ef3613e8ff",
+      "copy_sha256": "92abe652f36ae4172de4ffc654d81d12e192d847f7bb029be9c6b6ef3613e8ff",
+      "byte_identical_to_frozen_source": true,
+      "sheet_names": [
+        "2024",
+        "2025",
+        "2026",
+        "2027",
+        "2028",
+        "2029",
+        "2030"
+      ],
+      "seven_year_sheets": true,
+      "nonzero_numeric_cells": 662,
+      "expected_nonzero_from_prior_independent_check": 662,
+      "nonzero_matches_prior": true,
+      "formula_errors": [],
+      "prior_independent_validation_passed": true,
+      "passed": true
+    },
+    {
+      "file": "result2.xlsx",
+      "source": "questions/Q2/outputs/Q2-DRAFT-v1/result2_Q2-DRAFT-v1.xlsx",
+      "source_sha256": "d0fc2e6d2b99fdd436d63a9ef1895354cda45181dfccf3b343a8644358b2f69a",
+      "copy_sha256": "d0fc2e6d2b99fdd436d63a9ef1895354cda45181dfccf3b343a8644358b2f69a",
+      "byte_identical_to_frozen_source": true,
+      "sheet_names": [
+        "2024",
+        "2025",
+        "2026",
+        "2027",
+        "2028",
+        "2029",
+        "2030"
+      ],
+      "seven_year_sheets": true,
+      "nonzero_numeric_cells": 666,
+      "expected_nonzero_from_prior_independent_check": 666,
+      "nonzero_matches_prior": true,
+      "formula_errors": [],
+      "prior_independent_validation_passed": true,
+      "passed": true
+    }
+  ],
+  "checks": {
+    "state_is_paper_active": true,
+    "all_questions_frozen_valid": true,
+    "frozen_hashes_unchanged": true,
+    "workbooks_passed": true,
+    "figures_planned_and_present": true,
+    "figure_manifest_present": true,
+    "docx_has_8_tables": true,
+    "docx_has_9_figures": true,
+    "docx_has_8_sections": true,
+    "docx_has_all_key_claims": true,
+    "pdf_has_17_pages": true,
+    "pdf_no_blank_pages": true,
+    "pdf_has_8_sections": true,
+    "pdf_has_key_values": true,
+    "manuscript_has_9_figure_markers": true,
+    "manuscript_has_8_table_markers": true,
+    "no_unresolved_markers_in_docx": true,
+    "references_present": true,
+    "ai_statement_present": true
+  },
+  "passed": true,
+  "visual_review": {
+    "pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "overflow_or_clipping_found": false,
+    "overlap_found": false,
+    "blank_pages_found": false,
+    "note": "All 17 PDF pages were rasterized and visually reviewed; PDF was exported directly from the final DOCX with Microsoft Word."
+  },
+  "experiments_added": 0,
+  "frozen_conclusions_modified": false,
+  "human_verification": "pending"
+}

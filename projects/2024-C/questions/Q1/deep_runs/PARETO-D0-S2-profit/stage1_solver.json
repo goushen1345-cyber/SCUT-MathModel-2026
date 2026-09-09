@@ -1,0 +1,11 @@
+{
+  "status": "Optimal",
+  "solution_valid": true,
+  "runtime_seconds": 39.92171789999702,
+  "objective_value": -63407378.75,
+  "recomputed_profit": 63407378.75,
+  "mip_gap": 0.008156191950524994,
+  "mip_dual_bound": -63924541.50216464,
+  "mip_node_count": 1,
+  "simplex_iterations": 84940
+}

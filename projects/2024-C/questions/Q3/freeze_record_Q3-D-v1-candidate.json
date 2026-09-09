@@ -1,0 +1,27 @@
+{
+  "version": "Q3-D-v1-candidate",
+  "authorization": "U021",
+  "status": "FROZEN_BY_USER",
+  "data_version": "G1-v1-base",
+  "q2_reference": "Q2-D-v1-candidate",
+  "selected_plan": "questions/Q3/runs/B0/solution.csv",
+  "selected_plan_identity": "Q2 frozen M0-R1 plan evaluated as Q3 B0",
+  "valid_local_comparators": [
+    "N0",
+    "N10"
+  ],
+  "excluded_evidence": {
+    "candidate": "N30",
+    "reason": "Hamming constraint referenced N10 and produced 40 changes from B0, exceeding the approved limit of 30",
+    "rerun": false
+  },
+  "limitations": [
+    "Relationship graph and coefficients are synthetic assumptions rather than estimates from the attachments.",
+    "D05 normal sales use a production-based proxy because observed sales are unavailable.",
+    "N30 is invalid for selection and was not rerun after holdout access.",
+    "B0 is a validated time-limited feasible plan, not a proven global optimum.",
+    "The aggregate bean-area rule does not prove strict whole-plot bean rotation coverage."
+  ],
+  "human_verification": "User authorized freezing the named version with disclosed limitations; item-by-item manual recalculation is not claimed.",
+  "paper_stage": "NOT_AUTHORIZED"
+}

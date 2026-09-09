@@ -1,0 +1,413 @@
+{
+  "protocol": "Q2-DEEPEN-v1",
+  "authorization": "U015",
+  "method": "independent standard-library reconstruction; imports neither generator nor optimizer",
+  "source_snapshots_valid": true,
+  "scenario_checks": [
+    {
+      "label": "holdout",
+      "rows": 143500,
+      "scenarios": 500,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "label": "midpoint_heavy",
+      "rows": 68880,
+      "scenarios": 240,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "label": "endpoint_heavy",
+      "rows": 68880,
+      "scenarios": 240,
+      "issues": [],
+      "passed": true
+    }
+  ],
+  "set_separation": true,
+  "scenario_hashes": {
+    "holdout_drivers.csv": "680cd3d3e6fa024e615f7b1733e32eb45dc3445f80ef26c4ddd9226ad104c758",
+    "sensitivity_endpoint_heavy.csv": "db1fee30f4457e328db41c5d62a6e2791662ab76455a1501c8b36d1fac67c4c3",
+    "sensitivity_midpoint_heavy.csv": "6fdafca89a03267d40ad287aed831e6e22de9175c30e3346aef3adf2b4fcb4dd"
+  },
+  "constraint_checks": [
+    {
+      "candidate": "B0",
+      "activations": 662,
+      "max_plots": 7,
+      "violations": 0,
+      "valid": true,
+      "examples": []
+    },
+    {
+      "candidate": "M0",
+      "activations": 666,
+      "max_plots": 7,
+      "violations": 0,
+      "valid": true,
+      "examples": []
+    },
+    {
+      "candidate": "M1",
+      "activations": 691,
+      "max_plots": 7,
+      "violations": 0,
+      "valid": true,
+      "examples": []
+    }
+  ],
+  "strict_bean_diagnostic": {
+    "B0": {
+      "passed": false,
+      "violations": 24,
+      "examples": [
+        {
+          "land_id": "A3",
+          "window_end": 2025
+        },
+        {
+          "land_id": "A3",
+          "window_end": 2026
+        },
+        {
+          "land_id": "A3",
+          "window_end": 2027
+        },
+        {
+          "land_id": "A3",
+          "window_end": 2028
+        },
+        {
+          "land_id": "A3",
+          "window_end": 2029
+        },
+        {
+          "land_id": "A3",
+          "window_end": 2030
+        },
+        {
+          "land_id": "B12",
+          "window_end": 2025
+        },
+        {
+          "land_id": "B12",
+          "window_end": 2026
+        },
+        {
+          "land_id": "B12",
+          "window_end": 2027
+        },
+        {
+          "land_id": "B12",
+          "window_end": 2028
+        },
+        {
+          "land_id": "B12",
+          "window_end": 2029
+        },
+        {
+          "land_id": "B12",
+          "window_end": 2030
+        },
+        {
+          "land_id": "B14",
+          "window_end": 2025
+        },
+        {
+          "land_id": "B14",
+          "window_end": 2026
+        },
+        {
+          "land_id": "B14",
+          "window_end": 2027
+        },
+        {
+          "land_id": "B14",
+          "window_end": 2028
+        },
+        {
+          "land_id": "B14",
+          "window_end": 2029
+        },
+        {
+          "land_id": "B14",
+          "window_end": 2030
+        },
+        {
+          "land_id": "C5",
+          "window_end": 2025
+        },
+        {
+          "land_id": "C5",
+          "window_end": 2026
+        }
+      ],
+      "role": "diagnostic only"
+    },
+    "M0": {
+      "passed": false,
+      "violations": 23,
+      "examples": [
+        {
+          "land_id": "A3",
+          "window_end": 2025
+        },
+        {
+          "land_id": "A3",
+          "window_end": 2026
+        },
+        {
+          "land_id": "A3",
+          "window_end": 2027
+        },
+        {
+          "land_id": "A3",
+          "window_end": 2028
+        },
+        {
+          "land_id": "A3",
+          "window_end": 2029
+        },
+        {
+          "land_id": "A3",
+          "window_end": 2030
+        },
+        {
+          "land_id": "B4",
+          "window_end": 2026
+        },
+        {
+          "land_id": "B4",
+          "window_end": 2027
+        },
+        {
+          "land_id": "B5",
+          "window_end": 2026
+        },
+        {
+          "land_id": "B5",
+          "window_end": 2027
+        },
+        {
+          "land_id": "B5",
+          "window_end": 2028
+        },
+        {
+          "land_id": "B5",
+          "window_end": 2029
+        },
+        {
+          "land_id": "B5",
+          "window_end": 2030
+        },
+        {
+          "land_id": "B10",
+          "window_end": 2030
+        },
+        {
+          "land_id": "C4",
+          "window_end": 2025
+        },
+        {
+          "land_id": "C4",
+          "window_end": 2026
+        },
+        {
+          "land_id": "C4",
+          "window_end": 2027
+        },
+        {
+          "land_id": "C4",
+          "window_end": 2028
+        },
+        {
+          "land_id": "C4",
+          "window_end": 2029
+        },
+        {
+          "land_id": "C4",
+          "window_end": 2030
+        }
+      ],
+      "role": "diagnostic only"
+    },
+    "M1": {
+      "passed": false,
+      "violations": 30,
+      "examples": [
+        {
+          "land_id": "A3",
+          "window_end": 2025
+        },
+        {
+          "land_id": "A3",
+          "window_end": 2026
+        },
+        {
+          "land_id": "A3",
+          "window_end": 2027
+        },
+        {
+          "land_id": "A3",
+          "window_end": 2028
+        },
+        {
+          "land_id": "A3",
+          "window_end": 2029
+        },
+        {
+          "land_id": "A3",
+          "window_end": 2030
+        },
+        {
+          "land_id": "B6",
+          "window_end": 2025
+        },
+        {
+          "land_id": "B6",
+          "window_end": 2026
+        },
+        {
+          "land_id": "B6",
+          "window_end": 2027
+        },
+        {
+          "land_id": "B6",
+          "window_end": 2028
+        },
+        {
+          "land_id": "B6",
+          "window_end": 2029
+        },
+        {
+          "land_id": "B6",
+          "window_end": 2030
+        },
+        {
+          "land_id": "B13",
+          "window_end": 2025
+        },
+        {
+          "land_id": "B13",
+          "window_end": 2026
+        },
+        {
+          "land_id": "B13",
+          "window_end": 2027
+        },
+        {
+          "land_id": "B13",
+          "window_end": 2028
+        },
+        {
+          "land_id": "B13",
+          "window_end": 2029
+        },
+        {
+          "land_id": "B13",
+          "window_end": 2030
+        },
+        {
+          "land_id": "C2",
+          "window_end": 2025
+        },
+        {
+          "land_id": "C2",
+          "window_end": 2026
+        }
+      ],
+      "role": "diagnostic only"
+    }
+  },
+  "primary_metrics": {
+    "B0": {
+      "mean": 66951849.965247326,
+      "median": 66915116.12724842,
+      "p10": 65807851.53362242,
+      "worst10_mean": 65391815.59768293,
+      "std": 865778.2551939853,
+      "min": 64329135.581459425,
+      "max": 69655136.18973415
+    },
+    "M0": {
+      "mean": 67173281.71591468,
+      "median": 67131936.52146117,
+      "p10": 66044318.856780425,
+      "worst10_mean": 65618964.03887606,
+      "std": 865229.1003187511,
+      "min": 64618452.502427354,
+      "max": 69860534.71845171
+    },
+    "M1": {
+      "mean": 67200814.22695044,
+      "median": 67157065.2416085,
+      "p10": 66075549.56305366,
+      "worst10_mean": 65645652.03294258,
+      "std": 863253.0721499284,
+      "min": 64639598.27963974,
+      "max": 69962359.43623853
+    }
+  },
+  "holdout_pairwise": [
+    {
+      "candidate": "M0",
+      "reference": "B0",
+      "mean_difference_yuan": 221431.7506673571,
+      "ci95_low_yuan": 216476.7902415679,
+      "ci95_high_yuan": 226386.71109314627,
+      "positive": 500,
+      "equal": 0,
+      "negative": 0,
+      "min_difference_yuan": 31821.62220221758,
+      "max_difference_yuan": 392393.99092398584,
+      "interpretation": "Monte Carlo error under Q2-UNCERTAINTY-v1, not real-world confidence"
+    },
+    {
+      "candidate": "M1",
+      "reference": "M0",
+      "mean_difference_yuan": 27532.511035760745,
+      "ci95_low_yuan": 23936.959692701366,
+      "ci95_high_yuan": 31128.062378820123,
+      "positive": 379,
+      "equal": 0,
+      "negative": 121,
+      "min_difference_yuan": -88480.940436095,
+      "max_difference_yuan": 166150.5016244948,
+      "interpretation": "Monte Carlo error under Q2-UNCERTAINTY-v1, not real-world confidence"
+    }
+  ],
+  "m1_switch_tests": {
+    "mean_gain": 0.00040987294847666015,
+    "worst10_gain": 0.0004067116032296728,
+    "paired_ci_low_positive": true,
+    "s1_worst10_change": -0.0016039213072672274,
+    "eligible": false
+  },
+  "selected_candidate": "M0-R1",
+  "contribution_reconciliation": [
+    {
+      "sale_case": "S2",
+      "component_sum": "27532.511035760910027625",
+      "direct_mean_difference": "27532.511036",
+      "difference": "2.7625E-14",
+      "passed": true
+    },
+    {
+      "sale_case": "S1",
+      "component_sum": "-41718.00227067323662475",
+      "direct_mean_difference": "-41718.002271",
+      "difference": "-2.62475E-12",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "human_verification": "pending",
+  "limitations": [
+    "Scenario probabilities are modeling assumptions, not estimates",
+    "D05 demand uses a production proxy",
+    "Strict whole-plot bean compliance is diagnostic",
+    "MIP claims retain recorded gaps"
+  ]
+}

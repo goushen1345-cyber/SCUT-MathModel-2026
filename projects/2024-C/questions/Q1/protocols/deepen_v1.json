@@ -1,0 +1,72 @@
+{
+  "protocol": "Q1-DEEPEN-v1",
+  "status": "PROPOSED_AT_C_NOT_RUN",
+  "selected_initial_model": "M1R",
+  "fallback_and_warm_start": "M0",
+  "data_version": "G1-v1-base",
+  "demand_protocol": "Q1-DEMAND-v1",
+  "primary_demand_scenario": "D0",
+  "sensitivity_demand_scenarios": ["D05", "D10"],
+  "sale_cases": ["S1", "S2"],
+  "price_policy": "frozen midpoint candidate",
+  "random_seed": 20240906,
+  "work_packages": [
+    {
+      "id": "W1",
+      "name": "M1R3 three-stage solve and accounting repair",
+      "instances": 6,
+      "stage1": "maximize seven-year profit; warm start from the best valid M0/M1/M1R incumbent; 180 seconds; target relative MIP gap 1%",
+      "stage2": "require at least 99.9% of the stage-1 incumbent and minimize activation count; 90 seconds",
+      "stage3": "fix the best stage-2 activation count and maximize profit again; 60 seconds; use this exported solution",
+      "purpose": "retain a known feasible baseline, improve bounds, and remove unused sales-variable slack from the final export",
+      "maximum_solver_minutes": 33
+    },
+    {
+      "id": "W2",
+      "name": "management Pareto diagnostic",
+      "instances": "D0/S1 and D0/S2 only",
+      "design": "remove the hard cap of seven plots while retaining the 50% minimum selected area; find a profit incumbent for 120 seconds, then minimize activations at 99.9%, 99.5%, and 99.0% retained profit for 60 seconds each",
+      "comparators": "cap7 M1R3 and the existing cap10 diagnostic",
+      "purpose": "show the amount of profit exchanged for a simpler planting plan instead of treating seven plots as a fact",
+      "maximum_solver_minutes": 10
+    },
+    {
+      "id": "W3",
+      "name": "strict bean-coverage diagnostic",
+      "instances": "D0/S1 and D0/S2",
+      "design": "replace the aggregate bean-area proxy with the sufficient condition that every rolling three-year window contains at least one full-plot bean season; include a 2023 full-plot bean season only when the source area equals the plot area",
+      "purpose": "measure the cost of a conservative rule that really guarantees spatial coverage; do not silently make it the main rule",
+      "maximum_solver_minutes": 4
+    },
+    {
+      "id": "W4",
+      "name": "scenario stability, independent verification, and draft export",
+      "design": "cross-evaluate each valid plan under D0/D05/D10 with the same sale rule; compute profit regret, area L1 change, activation Jaccard similarity, and crop-area changes; independently verify every chosen CSV and the two D0 workbook copies",
+      "maximum_wall_minutes": 8
+    }
+  ],
+  "total_wall_budget_minutes": 55,
+  "hard_constraints": "same as Q1-TRIAL-v1 unless a run is explicitly labeled as a management or bean diagnostic",
+  "primary_outputs": [
+    "six M1R3 run directories and comparison tables",
+    "D0 management Pareto table",
+    "D0 strict-bean diagnostic table",
+    "cross-scenario stability and regret table",
+    "independent validation report",
+    "draft copies of result1_1.xlsx and result1_2.xlsx only if the selected D0 solutions pass CSV and workbook verification"
+  ],
+  "success_rules": [
+    "Every retained main solution has zero independently detected hard-constraint violations",
+    "No retained main solution has lower attainable profit than its M0 fallback",
+    "Report solver status, bound, gap, and time; a time-limited solution is not called globally optimal",
+    "Stage-3 internal profit and independently recomputed export profit agree within 0.1 yuan",
+    "Any claimed improvement is compared on identical data, demand scenario, sale rule, and hard constraints",
+    "Management and strict-bean relaxations or strengthenings remain diagnostics and are not promoted automatically"
+  ],
+  "stop_conditions": [
+    "Stop immediately on a frozen-data hash mismatch, new semantic conflict, missing valid fallback, hard-constraint violation, or objective discrepancy above 0.1 yuan",
+    "Stop starting new solves when the 55-minute wall budget is reached and preserve completed evidence",
+    "If a proposed improvement does not beat the incumbent reliably, retain M1R/M0 and report the failed improvement",
+    "After reporting and independent verification, stop at D; do not freeze Q1 or enter Q2 without a new explicit user decision"
+  ]
+}

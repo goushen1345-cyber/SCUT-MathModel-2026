@@ -1,0 +1,33 @@
+{
+  "protocol": "Q1-DEEPEN-v1",
+  "method": "independent zipfile/XML; does not import workbook builder or solver",
+  "checks": [
+    {
+      "source": "result1_1.xlsx",
+      "source_sha256": "4f2484c0d70a5c4d047163f2ee6ef486949e813330466f46def4bd7d98af06af",
+      "output": "result1_1_Q1-DRAFT-v1.xlsx",
+      "output_sha256": "1560b5a64dc6af57113f49d2b764aba22fc3591006e6b551b21f1a6d26bece26",
+      "sheets": 7,
+      "nonzero_cells_checked": 768,
+      "labels_A_B_preserved": true,
+      "csv_values_exact": true
+    },
+    {
+      "source": "result1_2.xlsx",
+      "source_sha256": "6166d43f5a64bf9d1657e80d4aee7f10f54bb1a5695b81a28a0ac5e657297649",
+      "output": "result1_2_Q1-DRAFT-v1.xlsx",
+      "output_sha256": "92abe652f36ae4172de4ffc654d81d12e192d847f7bb029be9c6b6ef3613e8ff",
+      "sheets": 7,
+      "nonzero_cells_checked": 662,
+      "labels_A_B_preserved": true,
+      "csv_values_exact": true
+    }
+  ],
+  "artifact_formula_error_scans": 2,
+  "visual_renders_reviewed": [
+    "result1_1 2024",
+    "result1_2 2024"
+  ],
+  "passed": true,
+  "human_verification": "pending"
+}

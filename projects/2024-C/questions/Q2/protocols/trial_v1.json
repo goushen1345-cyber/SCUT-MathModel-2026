@@ -1,0 +1,56 @@
+{
+  "protocol": "Q2-TRIAL-v1",
+  "status": "PROPOSED_AT_A_NOT_APPROVED",
+  "entry_authorization": "U012",
+  "data_version": "G1-v1-base",
+  "uncertainty_protocol": "Q2-UNCERTAINTY-v1",
+  "deliverable": "Recommend an initial Q2 model for one fixed 2024-2030 planting plan; do not create result2.xlsx during the trial.",
+  "shared_constraints": {
+    "source": "Q1-D-v2-candidate agricultural model",
+    "minimum_area_fraction": 0.5,
+    "crop_season_plot_cap": 7,
+    "bean_rule": "aggregate rolling-three-year area proxy, with the known spatial-coverage limitation",
+    "note": "These management settings are inherited for fair comparison, not stated numerical requirements in the problem."
+  },
+  "candidates": [
+    {"id": "B0", "name": "frozen Q1 S2 plan", "method": "evaluate only", "role": "simple no-uncertainty reference", "solve_minutes": 0},
+    {"id": "M0", "name": "deterministic midpoint MILP", "method": "replace every uncertain driver by its middle path and maximize seven-year profit", "role": "explainable optimization baseline", "solve_minutes": 5},
+    {"id": "M1", "name": "risk-neutral sample-average MILP", "method": "one planting plan maximizes mean profit across 80 training scenarios", "role": "tests whether using many futures improves average performance", "solve_minutes": 10},
+    {"id": "M2", "name": "mean-CVaR MILP", "method": "maximize 0.5 times mean profit plus 0.5 times the average of the worst 10% scenario profits", "role": "explicit average-versus-bad-future trade-off", "solve_minutes": 15},
+    {"id": "M3", "name": "stress-robust maximin MILP", "method": "maximize the lowest profit among 12 named stress scenarios", "role": "conservative reference and failure-boundary check", "solve_minutes": 10}
+  ],
+  "common_comparison": {
+    "scenario_set": "240 untouched Q2 comparison scenarios plus 12 named stresses",
+    "metrics": [
+      "mean seven-year profit",
+      "median and 10th-percentile profit",
+      "average of worst 10% profits",
+      "minimum named-stress profit",
+      "standard deviation",
+      "probability of underperforming B0",
+      "activation count and maximum plots per crop-season",
+      "solver status, bound, gap and wall time"
+    ],
+    "eligibility": "zero independently detected agricultural-constraint violations and profit accounting discrepancy no more than 0.1 yuan",
+    "recommendation_rule": "First exclude invalid candidates. Recommend M2 only if it materially improves the worst-10% average over M1 without losing more than 1% mean profit. Otherwise recommend M1 when it improves mean profit over M0; retain M0 if stochastic models show no reliable benefit. M3 is selected only if its stress protection is substantial and its mean-profit cost is explicit.",
+    "no_global_optimum_claim": "Time-limited MIP solutions are reported with their bounds and gaps."
+  },
+  "diagnostics": [
+    "evaluate every candidate under both S2 main and S1 excess-disposal stress rules",
+    "repeat evaluation with D0 and D10 seasonal-demand bases",
+    "small hand-check of a two-crop one-year CVaR example",
+    "independent final-CSV constraint and scenario-profit recalculation"
+  ],
+  "budget_minutes": {
+    "scenario_generation_and_checks": 5,
+    "candidate_solves": 40,
+    "independent_comparison_and_reporting": 10,
+    "total_wall": 55
+  },
+  "stop_conditions": [
+    "Stop on frozen Q1/data hash mismatch, scenario-range error, training/comparison leakage, infeasible reference plan or profit-accounting mismatch.",
+    "Do not open the 500-scenario future holdout during A-to-B trials.",
+    "Do not add correlations, crop substitution/complementarity or new parameter sources; those belong to Q3 or a newly approved Q2 plan.",
+    "After trial comparison stop at B. Do not select a final model, deepen, write result2.xlsx, freeze Q2 or enter Q3 without new authorization."
+  ]
+}

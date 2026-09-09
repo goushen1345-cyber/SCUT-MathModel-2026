@@ -1,0 +1,8 @@
+{
+  "candidate": "B0",
+  "method": "frozen Q2 M0-R1 plan; evaluation only",
+  "source": "questions\\Q2\\runs\\M0-R1\\solution.csv",
+  "source_sha256": "b06b61b90651d4555766ba611ae2c821f7adb29e06b19d9d1325814e70fddd55",
+  "runtime_seconds": 0,
+  "optimality_claim": "none"
+}

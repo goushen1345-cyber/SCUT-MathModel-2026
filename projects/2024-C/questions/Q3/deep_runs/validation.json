@@ -1,0 +1,140 @@
+{
+  "protocol": "Q3-DEEPEN-v1",
+  "authorization": "U020",
+  "method": "independent standard-library reconstruction; imports neither generator nor solver",
+  "source_snapshots_valid": true,
+  "constraint_checks": [
+    {
+      "candidate": "B0",
+      "activations": 666,
+      "max_plots": 7,
+      "violations": 0,
+      "valid": true,
+      "examples": []
+    },
+    {
+      "candidate": "N0",
+      "activations": 666,
+      "max_plots": 7,
+      "violations": 0,
+      "valid": true,
+      "examples": []
+    },
+    {
+      "candidate": "N10",
+      "activations": 672,
+      "max_plots": 7,
+      "violations": 0,
+      "valid": true,
+      "examples": []
+    },
+    {
+      "candidate": "N30",
+      "activations": 686,
+      "max_plots": 7,
+      "violations": 0,
+      "valid": true,
+      "examples": []
+    }
+  ],
+  "accounting_checks": [
+    {
+      "candidate": "N0",
+      "independent_training_mean": 67377544.72325207,
+      "reported_training_mean": 67377544.72325209,
+      "difference_yuan": -1.4901161193847656e-08,
+      "hamming_changes_from_B0": 0,
+      "limit": 0,
+      "passed": true,
+      "evidence_status": "VALID"
+    },
+    {
+      "candidate": "N10",
+      "independent_training_mean": 67423926.69580203,
+      "reported_training_mean": 67423926.69580203,
+      "difference_yuan": 0.0,
+      "hamming_changes_from_B0": 10,
+      "limit": 10,
+      "passed": true,
+      "evidence_status": "VALID"
+    },
+    {
+      "candidate": "N30",
+      "independent_training_mean": 67465019.51095518,
+      "reported_training_mean": 67465019.51095518,
+      "difference_yuan": 0.0,
+      "hamming_changes_from_B0": 40,
+      "limit": 30,
+      "passed": false,
+      "evidence_status": "EXCLUDED_WRONG_REFERENCE"
+    }
+  ],
+  "preholdout_summary_checks": [
+    {
+      "candidate": "B0",
+      "passed": true,
+      "max_error_yuan": 3.8743019104003906e-07
+    },
+    {
+      "candidate": "N0",
+      "passed": true,
+      "max_error_yuan": 3.8743019104003906e-07
+    },
+    {
+      "candidate": "N10",
+      "passed": true,
+      "max_error_yuan": 3.129243850708008e-07
+    },
+    {
+      "candidate": "N30",
+      "passed": true,
+      "max_error_yuan": 5.21540641784668e-07
+    }
+  ],
+  "selection_check": {
+    "independent_eligible": [],
+    "reported_challenger": null,
+    "passed": true
+  },
+  "mechanism_check": {
+    "rows": 202,
+    "sum_RS_minus_R0": -2463.845076,
+    "direct_RS_minus_R0": -2463.84507329762,
+    "sum_RSC_minus_R0": -1290.945028,
+    "direct_RSC_minus_R0": -1290.945025190711,
+    "passed": true
+  },
+  "sensitivity_check": {
+    "rows": 72,
+    "expected_rows": 72,
+    "strengths": [
+      "0.5",
+      "1.0",
+      "2.0"
+    ],
+    "complete_cells": true,
+    "passed": true
+  },
+  "holdout_check": {
+    "scenario_count": 1500,
+    "underlying_count": 500,
+    "reported_mean_error_yuan": 5.960464477539063e-08,
+    "reported_worst10_error_yuan": -5.140900611877441e-07,
+    "passed": true
+  },
+  "final_selection": {
+    "challenger": null,
+    "selected": "B0",
+    "replace_pass": false,
+    "reason": "no pre-holdout challenger met the gate"
+  },
+  "m2_rerun_absent": true,
+  "passed": true,
+  "human_verification": "pending",
+  "limitations": [
+    "Relationship graph and coefficients are synthetic assumptions",
+    "D05 uses production proxy rather than observed sales",
+    "Aggregate bean-area rule does not prove strict whole-plot coverage",
+    "N30 used N10 as its Hamming reference, changed 40 B0 activations, and is excluded; it was not rerun after holdout access"
+  ]
+}

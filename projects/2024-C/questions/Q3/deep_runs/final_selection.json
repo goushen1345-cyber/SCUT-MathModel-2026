@@ -1,0 +1,6 @@
+{
+  "challenger": null,
+  "selected": "B0",
+  "replace_pass": false,
+  "reason": "no pre-holdout challenger met the gate"
+}

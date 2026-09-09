@@ -1,0 +1,22 @@
+{
+  "protocol": "Q2-DEEPEN-v1",
+  "authorization": "U015",
+  "finished_utc": "2026-09-07T15:48:36.414745+00:00",
+  "wall_seconds": 1404.003555,
+  "wall_minutes": 23.40005925,
+  "budget_minutes": 25,
+  "within_budget": true,
+  "selected_candidate": "M0-R1",
+  "holdout_opened_once": true,
+  "independent_validation_passed": true,
+  "workbook_validation_passed": true,
+  "visual_reviewed_sheets": [
+    "2024",
+    "2025",
+    "2026",
+    "2027",
+    "2028",
+    "2029",
+    "2030"
+  ]
+}

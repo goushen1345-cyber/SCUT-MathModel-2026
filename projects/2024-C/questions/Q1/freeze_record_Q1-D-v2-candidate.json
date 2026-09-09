@@ -1,0 +1,18 @@
+{
+  "version": "Q1-D-v2-candidate",
+  "authorization": "U011",
+  "status": "FROZEN_BY_USER",
+  "data_version": "G1-v1-base",
+  "final_s1": "boost_runs/BOOST-D0-S1/solution.csv",
+  "final_s2": "deep_runs/M1R3-D0-S2/solution.csv",
+  "output_s1": "outputs/Q1-DRAFT-v2/result1_1_Q1-DRAFT-v2.xlsx",
+  "output_s2": "outputs/Q1-DRAFT-v1/result1_2_Q1-DRAFT-v1.xlsx",
+  "limitations": [
+    "Demand values are scenario assumptions rather than observed sales.",
+    "Prices use interval midpoint candidates.",
+    "S1 is a time-limited feasible solution and is not proven globally optimal.",
+    "The aggregate bean-area rule does not prove within-plot spatial coverage.",
+    "The final boost batch exceeded its 12-minute end-to-end budget by about 0.95 minute; solver scope was unchanged."
+  ],
+  "human_verification": "User authorized freezing the named version; item-by-item manual recalculation is not claimed."
+}

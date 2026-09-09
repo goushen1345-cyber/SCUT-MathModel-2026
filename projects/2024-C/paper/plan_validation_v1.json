@@ -1,0 +1,87 @@
+{
+  "plan_version": "PAPER-PLAN-v1",
+  "method": "standard-library source and frozen-evidence cross-check; no model execution",
+  "checks": [
+    {
+      "name": "all_questions_frozen_valid",
+      "passed": true,
+      "detail": {
+        "Q1": {
+          "status": "FROZEN",
+          "validity": "VALID"
+        },
+        "Q2": {
+          "status": "FROZEN",
+          "validity": "VALID"
+        },
+        "Q3": {
+          "status": "FROZEN",
+          "validity": "VALID"
+        }
+      }
+    },
+    {
+      "name": "Q1_snapshot",
+      "passed": true,
+      "detail": {
+        "files": 129,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "Q2_snapshot",
+      "passed": true,
+      "detail": {
+        "files": 85,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "Q3_snapshot",
+      "passed": true,
+      "detail": {
+        "files": 60,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "evidence_sources_exist",
+      "passed": true,
+      "detail": {
+        "claims": 20,
+        "missing": []
+      }
+    },
+    {
+      "name": "q1_key_metrics",
+      "passed": true,
+      "detail": "Q1 S1/S2 frozen D0 metrics"
+    },
+    {
+      "name": "q2_key_metrics",
+      "passed": true,
+      "detail": "Q2 holdout and paired metrics"
+    },
+    {
+      "name": "q3_key_metrics",
+      "passed": true,
+      "detail": "Q3 holdout metrics and N30 exclusion"
+    },
+    {
+      "name": "limitations_present",
+      "passed": true,
+      "detail": [
+        "销量",
+        "价格中点",
+        "合成假设",
+        "全局最优",
+        "严格整块豆类",
+        "N30"
+      ]
+    }
+  ],
+  "passed": true,
+  "full_draft_created": false,
+  "new_experiments_run": false,
+  "human_verification": "pending"
+}

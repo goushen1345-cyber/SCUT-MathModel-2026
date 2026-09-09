@@ -1,0 +1,3 @@
+﻿scenario,profit_yuan,revenue_yuan,cost_yuan,activations,max_plots,violations,valid,M0_profit_yuan,old_M1R3_profit_yuan,transferred_D05_profit_yuan,gain_vs_old_yuan,gain_vs_transfer_yuan
+D0,39677985.875,45344122.875,5666137.0,738,7,[],True,37476850.250,39159935.875,39677985.875,518050.000,0.000
+D10,39476840.3750,45142977.3750,5666137.0,738,7,[],True,37178562.3500,37178562.3500,39476840.3750,2298278.0250,0.0000

@@ -1,0 +1,206 @@
+{
+  "protocol": "Q1-DEEPEN-v1",
+  "authorization": "U008",
+  "verifier_sha256": "5acb77c1415071c288655b63ce10a7b68556560fc9ee6fde4072fb43cd078536",
+  "source_snapshot_valid": true,
+  "checks": [
+    {
+      "run_id": "M1R3-D0-S1",
+      "check": "independent_constraints_and_profit",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1R3-D0-S2",
+      "check": "independent_constraints_and_profit",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1R3-D05-S1",
+      "check": "independent_constraints_and_profit",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1R3-D05-S2",
+      "check": "independent_constraints_and_profit",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1R3-D10-S1",
+      "check": "independent_constraints_and_profit",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "M1R3-D10-S2",
+      "check": "independent_constraints_and_profit",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "PARETO-D0-S1-profit",
+      "check": "independent_constraints_and_profit",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "PARETO-D0-S1-0p999",
+      "check": "independent_constraints_and_profit",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "PARETO-D0-S1-0p995",
+      "check": "independent_constraints_and_profit",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "PARETO-D0-S1-0p99",
+      "check": "independent_constraints_and_profit",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "PARETO-D0-S2-profit",
+      "check": "independent_constraints_and_profit",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "PARETO-D0-S2-0p999",
+      "check": "independent_constraints_and_profit",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "PARETO-D0-S2-0p995",
+      "check": "independent_constraints_and_profit",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "PARETO-D0-S2-0p99",
+      "check": "independent_constraints_and_profit",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "PARETO-D0-S2-0p99-R1",
+      "check": "independent_constraints_and_profit",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "BEAN-STRICT-D0-S1",
+      "check": "independent_constraints_and_profit",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "run_id": "BEAN-STRICT-D0-S2",
+      "check": "independent_constraints_and_profit",
+      "passed": true,
+      "detail": "[]"
+    }
+  ],
+  "passed": 17,
+  "failed": 0,
+  "violations": [],
+  "main_comparison": [
+    {
+      "scenario": "D0",
+      "sale_case": "S1",
+      "M0_profit_yuan": "37476850.250000",
+      "M1R_profit_yuan": "37476850.250000",
+      "M1R3_profit_yuan": "39159935.875000",
+      "M1R3_minus_M0_yuan": "1683085.625000",
+      "M1R3_minus_M1R_yuan": "1683085.625000",
+      "improvement_over_M0_percent": "4.491001",
+      "activations": 768,
+      "stage1_status": "Time limit reached",
+      "stage1_mip_gap": 0.05119827438424776,
+      "selected_stage": "stage3"
+    },
+    {
+      "scenario": "D0",
+      "sale_case": "S2",
+      "M0_profit_yuan": "60706053.750000",
+      "M1R_profit_yuan": "61528434.687500",
+      "M1R3_profit_yuan": "61683124.375000",
+      "M1R3_minus_M0_yuan": "977070.625000",
+      "M1R3_minus_M1R_yuan": "154689.687500",
+      "improvement_over_M0_percent": "1.609511",
+      "activations": 662,
+      "stage1_status": "Optimal",
+      "stage1_mip_gap": 0.006014496174414256,
+      "selected_stage": "stage3"
+    },
+    {
+      "scenario": "D05",
+      "sale_case": "S1",
+      "M0_profit_yuan": "37354848.800000",
+      "M1R_profit_yuan": "39261824.550000",
+      "M1R3_profit_yuan": "39674293.925000",
+      "M1R3_minus_M0_yuan": "2319445.125000",
+      "M1R3_minus_M1R_yuan": "412469.375000",
+      "improvement_over_M0_percent": "6.209221",
+      "activations": 738,
+      "stage1_status": "Time limit reached",
+      "stage1_mip_gap": 0.03404514655059514,
+      "selected_stage": "stage3"
+    },
+    {
+      "scenario": "D05",
+      "sale_case": "S2",
+      "M0_profit_yuan": "60655950.750000",
+      "M1R_profit_yuan": "60655950.750000",
+      "M1R3_profit_yuan": "61591696.687500",
+      "M1R3_minus_M0_yuan": "935745.937500",
+      "M1R3_minus_M1R_yuan": "935745.937500",
+      "improvement_over_M0_percent": "1.542711",
+      "activations": 673,
+      "stage1_status": "Optimal",
+      "stage1_mip_gap": 0.006585567847521455,
+      "selected_stage": "stage3"
+    },
+    {
+      "scenario": "D10",
+      "sale_case": "S1",
+      "M0_profit_yuan": "37178562.350000",
+      "M1R_profit_yuan": "37178562.350000",
+      "M1R3_profit_yuan": "37178562.350000",
+      "M1R3_minus_M0_yuan": "0.000000",
+      "M1R3_minus_M1R_yuan": "0.000000",
+      "improvement_over_M0_percent": "0.000000",
+      "activations": 574,
+      "stage1_status": "Time limit reached",
+      "stage1_mip_gap": 0.09748237942604557,
+      "selected_stage": "stage3"
+    },
+    {
+      "scenario": "D10",
+      "sale_case": "S2",
+      "M0_profit_yuan": "60652283.750000",
+      "M1R_profit_yuan": "60652283.750000",
+      "M1R3_profit_yuan": "61609928.687500",
+      "M1R3_minus_M0_yuan": "957644.937500",
+      "M1R3_minus_M1R_yuan": "957644.937500",
+      "improvement_over_M0_percent": "1.578910",
+      "activations": 673,
+      "stage1_status": "Optimal",
+      "stage1_mip_gap": 0.006473770512479236,
+      "selected_stage": "stage3"
+    }
+  ],
+  "human_verification": "pending",
+  "limitations": [
+    "D0/D05/D10 demand values are assumptions, not observations",
+    "Midpoint prices are candidate values",
+    "Aggregate bean rule does not prove within-plot spatial coverage",
+    "Time-limited MIP solutions are not globally optimal unless their recorded gap supports it"
+  ]
+}

@@ -1,0 +1,4 @@
+﻿sale_case,scenario_a,scenario_b,area_l1_mu,area_l1_share_of_plan_a_percent,activation_jaccard
+S1,D0,D05,0.000000,0.000000,1.000000
+S1,D0,D10,0.000000,0.000000,1.000000
+S1,D05,D10,0.000000,0.000000,1.000000

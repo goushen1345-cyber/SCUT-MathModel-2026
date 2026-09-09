@@ -1,0 +1,21 @@
+{
+  "status": "Time limit reached",
+  "solution_valid": true,
+  "runtime_seconds": 545.9643966000003,
+  "objective_value": -57810677.60576991,
+  "mip_gap": 0.004951067716499363,
+  "mip_dual_bound": -58096902.18533279,
+  "mip_node_count": 0,
+  "simplex_iterations": 121796,
+  "model_columns": 19881,
+  "model_rows": 24563,
+  "candidate": "M3-R1",
+  "protocol": "Q2-TRIAL-v1",
+  "authorization": "U013",
+  "training_scenario_count": 12,
+  "training_mean_profit": 63289106.15704777,
+  "training_p10_profit": 58846167.689995155,
+  "training_worst10_mean": 58247060.90626587,
+  "selected_activations": 691,
+  "optimality_claim": "Only as supported by recorded status, bound and gap."
+}

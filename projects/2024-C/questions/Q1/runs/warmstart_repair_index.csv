@@ -1,0 +1,7 @@
+﻿run_id,scenario,sale_case,stage1_status,stage1_gap,stage2_status,export_profit,activations
+M1R-D0-S1,D0,S1,Time limit reached,0.09820627537117775,Time limit reached,37476850.25,574
+M1R-D0-S2,D0,S2,Time limit reached,0.008315067841510438,Time limit reached,61528434.6875,684
+M1R-D05-S1,D05,S1,Time limit reached,0.04494345824616256,Time limit reached,39261824.54999999,739
+M1R-D05-S2,D05,S2,Time limit reached,0.02211513911362705,Time limit reached,60655950.75,574
+M1R-D10-S1,D10,S1,Time limit reached,0.09751404171658187,Time limit reached,37178562.34999998,574
+M1R-D10-S2,D10,S2,Time limit reached,0.021336656078239258,Time limit reached,60652283.75,574

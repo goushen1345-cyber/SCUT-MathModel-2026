@@ -1,0 +1,38 @@
+{
+  "candidate": "M1",
+  "scenario": "D0",
+  "sale_case": "S1",
+  "alpha": 0.5,
+  "cap": 7,
+  "stage1": {
+    "status": "Time limit reached",
+    "solution_valid": true,
+    "runtime_seconds": 120.04608899999948,
+    "objective_value": -28267614.25,
+    "recomputed_profit": 28267614.25,
+    "mip_gap": 0.45581805495268307,
+    "mip_dual_bound": -41152503.19558775,
+    "mip_node_count": 2,
+    "simplex_iterations": 270250
+  },
+  "stage2": {
+    "status": "Optimal",
+    "solution_valid": true,
+    "runtime_seconds": 62.09858470000108,
+    "objective_value": 545.0,
+    "recomputed_profit": 28831182.0,
+    "mip_gap": 0.0018348623845223727,
+    "mip_dual_bound": 544.0000000004353,
+    "mip_node_count": 1,
+    "simplex_iterations": 38194
+  },
+  "selected_profit": 28899222.0,
+  "selected_activations": 545,
+  "model_size": {
+    "columns": 15337,
+    "rows": "see rebuilt model; exact stage2 may include one extra row"
+  },
+  "seed": 20240906,
+  "recovered_after_json_serialization_error": true,
+  "optimality_claim": "Only as supported by status, bound and gap."
+}

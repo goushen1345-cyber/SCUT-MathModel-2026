@@ -1,0 +1,18 @@
+{
+  "version": "Q2-D-v1-candidate",
+  "authorization": "U016",
+  "status": "FROZEN_BY_USER",
+  "data_version": "G1-v1-base",
+  "q1_reference": "Q1-D-v2-candidate",
+  "selected_plan": "runs/M0-R1/solution.csv",
+  "validated_plan_copy": "deep_runs/M0-DEEP-v1/solution.csv",
+  "output": "outputs/Q2-DRAFT-v1/result2_Q2-DRAFT-v1.xlsx",
+  "limitations": [
+    "D05 normal sales are a production-based proxy, not observed sales.",
+    "S2 half-price excess sales are the main interpretation; S1 can change model ranking.",
+    "Scenario probabilities and independence structure are modeling assumptions, not estimates.",
+    "The selected M0-R1 is a time-limited feasible solution, not proven globally optimal.",
+    "The aggregate bean-area rule is accepted for this version; the strict whole-plot diagnostic has 23 violating land-window pairs."
+  ],
+  "human_verification": "User authorized freezing the named version; item-by-item manual recalculation is not claimed."
+}

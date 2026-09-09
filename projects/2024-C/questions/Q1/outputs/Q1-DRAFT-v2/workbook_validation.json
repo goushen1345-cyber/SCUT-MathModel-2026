@@ -1,0 +1,14 @@
+{
+  "protocol": "Q1-S1-BOOST-v1",
+  "method": "independent zipfile/XML; imports neither workbook builder nor solver",
+  "source_sha256": "4f2484c0d70a5c4d047163f2ee6ef486949e813330466f46def4bd7d98af06af",
+  "output_sha256": "95c39da4f37fa7f164eea28c3f838e0f770dee6c73db94399b5c6ac99e87808b",
+  "sheets": 7,
+  "nonzero_cells_checked": 738,
+  "labels_A_B_preserved": true,
+  "csv_values_exact": true,
+  "formula_error_scan_passed": true,
+  "s2_workbook_unchanged": true,
+  "passed": true,
+  "human_verification": "pending"
+}

@@ -1,0 +1,38 @@
+{
+  "protocol": "Q3-RELATION-v1",
+  "authorization": "U018",
+  "created_utc": "2026-09-08T05:13:08.455555+00:00",
+  "counts": {
+    "edges": 61,
+    "training_underlying": 120,
+    "training_world_scenarios": 360,
+    "comparison_underlying": 300,
+    "comparison_world_scenarios": 900,
+    "named_stress": 18
+  },
+  "dependence_audit": {
+    "demand_price": {
+      "target": 0.35,
+      "pearson": 0.34964643774170234,
+      "spearman": 0.33719882797194894
+    },
+    "price_cost": {
+      "target": 0.4,
+      "pearson": 0.40216190699149224,
+      "spearman": 0.385315380482039
+    },
+    "yield_within_group": {
+      "target": 0.3,
+      "pearson": 0.3085377081155625,
+      "spearman": 0.29998286295629323
+    }
+  },
+  "relationship_multiplier_range": [
+    0.951406110421,
+    1.05145146436
+  ],
+  "future_holdout_generated": false,
+  "source_snapshots_valid": true,
+  "passed": true,
+  "human_verification": "pending"
+}

@@ -1,0 +1,56 @@
+{
+  "protocol": "Q1-S1-BOOST-v1",
+  "status": "PROPOSED_AT_NEW_C_NOT_RUN",
+  "parent_result": "Q1-D-v1-candidate",
+  "authorization_for_plan_only": "U009",
+  "data_version": "G1-v1-base",
+  "demand_protocol": "Q1-DEMAND-v1",
+  "sale_case": "S1",
+  "target_scenarios": ["D0", "D10"],
+  "unchanged": ["D05/S1", "all S2 runs", "result1_2_Q1-DRAFT-v1.xlsx"],
+  "cross_scenario_incumbent": {
+    "source": "M1R3-D05-S1/solution.csv",
+    "D0_profit_yuan": 39677985.875,
+    "D10_profit_yuan": 39476840.375,
+    "activations": 738,
+    "rule": "Recalculate sales auxiliary variables under the target demand before use; planting areas and hard agricultural constraints are unchanged."
+  },
+  "work_packages": [
+    {
+      "id": "B1",
+      "name": "two targeted three-stage solves",
+      "per_target": {
+        "stage1": "maximize target-scenario S1 profit, warm-started by the D05/S1 planting plan; 180 seconds; target relative MIP gap 1%",
+        "stage2": "retain at least 99.9% of the better of the transferred incumbent and stage-1 incumbent, then minimize activation count; 60 seconds",
+        "stage3": "fix the best stage-2 activation count, maximize profit, and canonicalize full-sales variables; 45 seconds"
+      },
+      "solver_budget_minutes": 9.5
+    },
+    {
+      "id": "B2",
+      "name": "selection, independent verification, and S1 draft update",
+      "selection": "For each target, retain only a zero-violation solution. Prefer higher independently recomputed target profit; when profit differs by at most 0.1%, prefer fewer activations.",
+      "checks": [
+        "independent target-scenario revenue and cost recalculation",
+        "all Q1 hard constraints and frozen hashes",
+        "comparison with M0, old M1R3, and the transferred D05 incumbent",
+        "D0/D05/D10 S1 cross-evaluation and scenario-similarity refresh"
+      ],
+      "draft_rule": "Create result1_1_Q1-DRAFT-v2.xlsx only if the selected D0/S1 planting plan changes; independently re-read all seven sheets and compare every nonzero cell with CSV. Do not edit or regenerate the S2 workbook.",
+      "wall_budget_minutes": 2.5
+    }
+  ],
+  "total_wall_budget_minutes": 12,
+  "seed": 20240906,
+  "success_and_fallback": [
+    "A retained target solution must have zero independently detected hard-constraint violations and accounting discrepancy no more than 0.1 yuan.",
+    "Never retain a target solution with lower target-scenario profit than the transferred D05 incumbent unless applying the explicit within-0.1% management tie rule.",
+    "If no reliable improvement is found, retain the transferred incumbent or existing valid solution and report the failed search.",
+    "Report MIP status, bound, gap, time, activation count, and maximum plots per crop-season; do not claim global optimality beyond the recorded gap."
+  ],
+  "stop_conditions": [
+    "Stop on frozen-hash mismatch, infeasible warm start, hard-constraint violation, or profit discrepancy above 0.1 yuan.",
+    "Do not start another solve when the 12-minute wall budget would be exceeded; preserve completed evidence.",
+    "After verification stop at D. Do not freeze Q1 or enter Q2 without a new explicit user decision."
+  ]
+}

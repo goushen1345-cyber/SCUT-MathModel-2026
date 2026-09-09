@@ -1,0 +1,14 @@
+{
+  "protocol": "Q2-TRIAL-v1",
+  "authorization": "U013",
+  "result_version": "Q2-B-v1",
+  "wall_minutes": 51.150440466666666,
+  "budget_minutes": 55,
+  "within_budget": true,
+  "future_holdout_opened": false,
+  "result2_created": false,
+  "independent_validation_passed": true,
+  "recommended_initial_model": "M0",
+  "fallback": "B0",
+  "deepen_comparator": "M1"
+}

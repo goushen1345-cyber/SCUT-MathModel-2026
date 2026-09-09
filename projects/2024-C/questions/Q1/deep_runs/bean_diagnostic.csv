@@ -1,0 +1,3 @@
+﻿activations,cost_yuan,kind,main_profit_yuan,max_plots,profit_yuan,revenue_yuan,run_id,sale_case,scenario,strict_change_percent,strict_minus_main_yuan,valid
+574,6318188.000000,strict_bean,39159935.875000,7,37476850.250000,43795038.250000,BEAN-STRICT-D0-S1,S1,D0,-4.297979,-1683085.625000,True
+654,6801065.000000,strict_bean,61683124.375000,7,61617063.125000,68418128.125000,BEAN-STRICT-D0-S2,S2,D0,-0.107098,-66061.250000,True

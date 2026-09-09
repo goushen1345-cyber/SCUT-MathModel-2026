@@ -1,0 +1,15 @@
+{
+  "candidate": "N30",
+  "protocol": "Q3-DEEPEN-v1",
+  "authorization": "U020",
+  "neighbourhood_k": 30,
+  "time_limit_seconds": 360,
+  "runtime_seconds": 360.6559937999991,
+  "status": "Time limit reached",
+  "mip_gap": 0.000668065818290279,
+  "mip_dual_bound": -67510090.58442073,
+  "objective_value": -67465019.51095517,
+  "solution_valid": true,
+  "selected_activations": 686,
+  "training_mean_profit": 67465019.51095518
+}

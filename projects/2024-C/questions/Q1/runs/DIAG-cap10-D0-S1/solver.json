@@ -1,0 +1,27 @@
+{
+  "candidate": "M1-cap10",
+  "scenario": "D0",
+  "sale_case": "S1",
+  "alpha": 0.5,
+  "cap": 10,
+  "stage1": {
+    "status": "Time limit reached",
+    "solution_valid": true,
+    "runtime_seconds": 90.03433660000155,
+    "objective_value": -21762027.5,
+    "recomputed_profit": 21762027.5,
+    "mip_gap": 0.891238487362964,
+    "mip_dual_bound": -41157183.97105122,
+    "mip_node_count": 0,
+    "simplex_iterations": 165079
+  },
+  "stage2": null,
+  "selected_profit": 21762027.5,
+  "selected_activations": 574,
+  "model_size": {
+    "columns": 15337,
+    "rows": 20008
+  },
+  "seed": 20240906,
+  "optimality_claim": "Only as supported by status, bound and gap."
+}
