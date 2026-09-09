@@ -1,0 +1,11 @@
+{
+  "RF_vs_SVM": 1.0,
+  "RF_vs_规则": 1.0,
+  "n": 8,
+  "n_high_k": 3,
+  "n_pb_ba": 5,
+  "mean_confidence": 0.9333333333333333,
+  "min_confidence": 0.84,
+  "mean_flip_rate": 0.0,
+  "mean_loo_stability": 1.0
+}

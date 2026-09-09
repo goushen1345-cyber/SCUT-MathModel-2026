@@ -1,0 +1,85 @@
+=== EDA preprocess start ===
+EDA done: valid=67, invalid=2
+=== Q1 start ===
+Q1 done
+=== Q2 start ===
+Q2 done
+=== Q3 start ===
+Q3 done
+=== Q4 start ===
+Q4 done
+=== Advanced tests ===
+Advanced done
+Abstract bold count: 94
+Wrote E:\Projects\SCUT-MathModel-2026\培训作业\第三次培训作业\latex\main.tex
+xelatex pass 1 failed, code=1
+ed on input line 532.
+
+
+LaTeX Warning: Reference `fig:subhk' on page 13 undefined on input line 532.
+
+
+LaTeX Warning: Reference `fig:dendpb' on page 13 undefined on input line 532.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13]
+
+LaTeX Warning: Reference `fig:thr' on page 14 undefined on input line 588.
+
+
+LaTeX Warning: Reference `fig:noise' on page 14 undefined on input line 588.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14]
+
+LaTeX Warning: Reference `tab:pred3' on page 15 undefined on input line 621.
+
+
+LaTeX Warning: Reference `fig:proba' on page 15 undefined on input line 621.
+
+
+LaTeX Warning: Reference `fig:plane' on page 15 undefined on input line 621.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
+
+LaTeX Warning: Reference `tab:flip' on page 16 undefined on input line 666.
+
+
+LaTeX Warning: Reference `fig:flip' on page 16 undefined on input line 666.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.675 文物编号 & 最终判定 & 置信度 & 翻转次数\_噪声5pct\_100次 &
+                                               翻转率 \\
+Output written on main.pdf (15 pages).
+Transcript written on main.log.
+
+Wrote E:\Projects\SCUT-MathModel-2026\培训作业\第三次培训作业\output\report.docx
+PDF pages=22, abstract_bold=94, compile_ok=True
+Abstract bold count: 94
+Wrote E:\Projects\SCUT-MathModel-2026\培训作业\第三次培训作业\latex\main.tex
+Copied to E:\Projects\SCUT-MathModel-2026\培训作业\第三次培训作业\output\report.pdf
+Copied to E:\Projects\SCUT-MathModel-2026\培训作业\第三次培训作业\output\report_new.pdf
+Copied to E:\Projects\SCUT-MathModel-2026\培训作业\第三次培训作业\output\report_national.pdf
+Wrote E:\Projects\SCUT-MathModel-2026\培训作业\第三次培训作业\output\report.docx
+PDF pages=23, abstract_bold=94, compile_ok=True

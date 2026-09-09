@@ -1,0 +1,47 @@
+{
+  "best_method": "化学阈值规则",
+  "best_loo_acc": 1.0,
+  "best_f1": 1.0,
+  "rule_acc": 1.0,
+  "top_features": [
+    "PbO",
+    "BaO",
+    "SiO2",
+    "K2O",
+    "CaO"
+  ],
+  "subclass": {
+    "高钾": {
+      "best_k": 2,
+      "silhouette": 0.4922754194296925,
+      "features": [
+        "SiO2",
+        "K2O",
+        "CaO",
+        "Al2O3",
+        "Fe2O3",
+        "CuO"
+      ],
+      "n": 18
+    },
+    "铅钡": {
+      "best_k": 4,
+      "silhouette": 0.39406421754162624,
+      "features": [
+        "SiO2",
+        "PbO",
+        "BaO",
+        "P2O5",
+        "CuO",
+        "Al2O3"
+      ],
+      "n": 49
+    }
+  },
+  "pca_var": [
+    0.3475837411222354,
+    0.2185444985016908
+  ],
+  "noise_acc_at_0": 1.0,
+  "noise_acc_at_0.1": 1.0
+}

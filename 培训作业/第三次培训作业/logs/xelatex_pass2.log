@@ -1,0 +1,322 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(C:\Program Files\Latex\tex/latex/ctex\ctexart.cls
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+(C:\Program Files\Latex\tex/latex/ctex/config\ctexbackend.cfg)
+(C:\Program Files\Latex\tex/latex/l3kernel\expl3.sty
+(C:\Program Files\Latex\tex/latex/l3backend\l3backend-xetex.def))
+Document Class: ctexart 2026/07/01 v2.6.1 Chinese adapter for class article (CT
+EX)
+(C:\Program Files\Latex\tex/latex/ctex\ctexhook.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+) (C:\Program Files\Latex\tex/latex/ctex\ctexpatch.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+) (C:\Program Files\Latex\tex/latex/base\fix-cm.sty
+(C:\Program Files\Latex\tex/latex/base\ts1enc.def))
+(C:\Program Files\Latex\tex/latex/ctex/config\ctexopts.cfg)
+(C:\Program Files\Latex\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Program Files\Latex\tex/latex/base\size12.clo))
+(C:\Program Files\Latex\tex/latex/ctex/engine\ctex-engine-xetex.def
+(C:\Program Files\Latex\tex/xelatex/xecjk\xeCJK.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+(C:\Program Files\Latex\tex/latex/l3packages/xtemplate\xtemplate.sty)
+(C:\Program Files\Latex\tex/latex/fontspec\fontspec.sty
+(C:\Program Files\Latex\tex/latex/l3packages/xparse\xparse.sty)
+(C:\Program Files\Latex\tex/latex/fontspec\fontspec-xetex.sty
+(C:\Program Files\Latex\tex/latex/base\fontenc.sty)
+(C:\Program Files\Latex\tex/latex/fontspec\fontspec.cfg)))
+(C:\Program Files\Latex\tex/xelatex/xecjk\xeCJK.cfg)))
+(C:\Program Files\Latex\tex/latex/zhnumber\zhnumber.sty
+(C:\Program Files\Latex\tex/latex/zhnumber\zhnumber-utf8.cfg))
+(C:\Program Files\Latex\tex/latex/ctex/scheme\ctex-scheme-chinese-article.def
+(C:\Program Files\Latex\tex/latex/ctex/config\ctex-name-utf8.cfg))
+(C:\Program Files\Latex\tex/latex/ctex/fontset\ctex-fontset-windows.def))
+(C:\Program Files\Latex\tex/latex/ctex/config\ctex.cfg)
+(C:\Program Files\Latex\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\Latex\tex/latex/amsmath\amstext.sty
+(C:\Program Files\Latex\tex/latex/amsmath\amsgen.sty))
+(C:\Program Files\Latex\tex/latex/amsmath\amsbsy.sty)
+(C:\Program Files\Latex\tex/latex/amsmath\amsopn.sty))
+(C:\Program Files\Latex\tex/latex/amsfonts\amssymb.sty
+(C:\Program Files\Latex\tex/latex/amsfonts\amsfonts.sty))
+(C:\Program Files\Latex\tex/latex/booktabs\booktabs.sty)
+(C:\Program Files\Latex\tex/latex/graphics\graphicx.sty
+(C:\Program Files\Latex\tex/latex/graphics\keyval.sty)
+(C:\Program Files\Latex\tex/latex/graphics\graphics.sty
+(C:\Program Files\Latex\tex/latex/graphics\trig.sty)
+(C:\Program Files\Latex\tex/latex/graphics-cfg\graphics.cfg)
+(C:\Program Files\Latex\tex/latex/graphics-def\xetex.def)))
+(C:\Program Files\Latex\tex/latex/float\float.sty)
+(C:\Program Files\Latex\tex/latex/geometry\geometry.sty
+(C:\Program Files\Latex\tex/generic/iftex\ifvtex.sty
+(C:\Program Files\Latex\tex/generic/iftex\iftex.sty))
+(C:\Program Files\Latex\tex/latex/geometry\geometry.cfg))
+(C:\Program Files\Latex\tex/latex/tools\longtable.sty)
+(C:\Program Files\Latex\tex/latex/tools\array.sty)
+(C:\Program Files\Latex\tex/latex/multirow\multirow.sty)
+(C:\Program Files\Latex\tex/latex/caption\caption.sty
+(C:\Program Files\Latex\tex/latex/caption\caption3.sty)
+(C:\Program Files\Latex\tex/latex/caption\ltcaption.sty))
+(C:\Program Files\Latex\tex/latex/caption\subcaption.sty)
+(C:\Program Files\Latex\tex/latex/enumitem\enumitem.sty)
+(C:\Program Files\Latex\tex/latex/xcolor\xcolor.sty
+(C:\Program Files\Latex\tex/latex/graphics-cfg\color.cfg)
+(C:\Program Files\Latex\tex/latex/graphics\mathcolor.ltx))
+(C:\Program Files\Latex\tex/latex/hyperref\hyperref.sty
+(C:\Program Files\Latex\tex/latex/kvsetkeys\kvsetkeys.sty)
+(C:\Program Files\Latex\tex/generic/kvdefinekeys\kvdefinekeys.sty)
+(C:\Program Files\Latex\tex/generic/pdfescape\pdfescape.sty
+(C:\Program Files\Latex\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Program Files\Latex\tex/generic/pdftexcmds\pdftexcmds.sty
+(C:\Program Files\Latex\tex/generic/infwarerr\infwarerr.sty)))
+(C:\Program Files\Latex\tex/latex/hycolor\hycolor.sty)
+(C:\Program Files\Latex\tex/latex/hyperref\nameref.sty
+(C:\Program Files\Latex\tex/latex/refcount\refcount.sty)
+(C:\Program Files\Latex\tex/generic/gettitlestring\gettitlestring.sty
+(C:\Program Files\Latex\tex/latex/kvoptions\kvoptions.sty)))
+(C:\Program Files\Latex\tex/latex/etoolbox\etoolbox.sty)
+(C:\Program Files\Latex\tex/generic/stringenc\stringenc.sty)
+(C:\Program Files\Latex\tex/latex/hyperref\pd1enc.def)
+(C:\Program Files\Latex\tex/generic/intcalc\intcalc.sty)
+(C:\Program Files\Latex\tex/latex/hyperref\puenc.def)
+(C:\Program Files\Latex\tex/latex/url\url.sty)
+(C:\Program Files\Latex\tex/generic/bitset\bitset.sty
+(C:\Program Files\Latex\tex/generic/bigintcalc\bigintcalc.sty)))
+(C:\Program Files\Latex\tex/latex/hyperref\hxetex.def
+(C:\Program Files\Latex\tex/latex/rerunfilecheck\rerunfilecheck.sty
+(C:\Program Files\Latex\tex/generic/uniquecounter\uniquecounter.sty)))
+(C:\Program Files\Latex\tex/latex/setspace\setspace.sty)
+(C:\Program Files\Latex\tex/latex/algorithms\algorithm.sty
+(C:\Program Files\Latex\tex/latex/base\ifthen.sty))
+(C:\Program Files\Latex\tex/latex/algorithmicx\algpseudocode.sty
+(C:\Program Files\Latex\tex/latex/algorithmicx\algorithmicx.sty
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (C:\Program Files\Latex\tex/latex/fancyhdr\fancyhdr.sty)
+(C:\Program Files\Latex\tex/latex/listings\listings.sty
+(C:\Program Files\Latex\tex/latex/listings\lstpatch.sty)
+(C:\Program Files\Latex\tex/latex/listings\lstmisc.sty)
+(C:\Program Files\Latex\tex/latex/listings\listings.cfg))
+(C:\Program Files\Latex\tex/xelatex/xecjk\xeCJK-listings.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+)
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(C:\Program Files\Latex\tex/latex/listings\lstlang1.sty) (main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(main.out) (main.out)
+Missing character: There is no ∈ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no σ in font [lmroman10-regular]:mapping=tex-text;!
+[1] (C:\Program Files\Latex\tex/latex/amsfonts\umsa.fd)
+(C:\Program Files\Latex\tex/latex/amsfonts\umsb.fd)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20]
+Overfull \hbox (72.25502pt too wide) in paragraph at lines 888--889
+[]\TU/SimSun(0)/m/n/12 决 策 树  |（深 度 \TU/lmr/m/n/12 3\TU/SimSun(0)/m/n/12 ）|  导 
+出 的 分 割 规 则 保 存 于 配 套 文 件 \TU/lmtt/m/n/12 output/tables/q2_decision_tree_rules.
+txt\TU/SimSun(0)/m/n/12 ，|
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23] (main.aux) )
+(see the transcript file for additional information)
+Output written on main.pdf (23 pages).
+Transcript written on main.log.
+

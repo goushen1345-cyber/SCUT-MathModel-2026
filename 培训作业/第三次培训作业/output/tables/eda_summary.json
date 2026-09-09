@@ -1,0 +1,12 @@
+{
+  "n_artifacts": 58,
+  "n_high_k": 18,
+  "n_pb_ba": 40,
+  "n_weathered": 34,
+  "n_unweathered": 24,
+  "n_comp_all": 69,
+  "n_comp_valid": 67,
+  "n_comp_invalid": 2,
+  "n_unknown": 8,
+  "n_unknown_valid": 8
+}
