@@ -1,0 +1,29 @@
+{
+  "version": "UNDERSTANDING-20260910-v2",
+  "protected_files_checked": 313,
+  "changed_protected_files": [],
+  "pdf_pages": 4,
+  "section_lengths_including_tables_and_markup": {
+    "1 问题背景": 173,
+    "2 问题重述": 1182,
+    "3 问题分析": 1725,
+    "4 总体思路": 353,
+    "5 符号说明框架": 229
+  },
+  "layout_errors": [],
+  "five_sections_in_pdf": true,
+  "figure_in_pdf": true,
+  "artifacts": {
+    "paper/front_matter_understanding_v2.md": "71204d5d3b270cc8a44de7384ded0bfdd70d57d29e1a2979649cf72b03f9ad70",
+    "paper/understanding_v2/build_paper.py": "1273289f921b621cea4b7396b76a505509dc6a35212f8961ce9435ec0b2915da",
+    "paper/understanding_v2/front_matter_understanding_v2.tex": "e2a007e2294bde73ca9aa4fe6eb1ca0882364c23d7a30c893dae83923dac7fcd",
+    "paper/understanding_v2/front_matter_understanding_v2.pdf": "abd0ce6cd85700691c267000b88121f550e02521280db6891c24ae7070ae73f3"
+  },
+  "visual_review": {
+    "pages_1_4": "root AI viewed final rendered pages 1 and 4; final symbol section spacing revision viewed and clear",
+    "pages_2_3": "source_review AI viewed; no clipping/overlap/missing glyphs, table2 caption with table",
+    "human_review": "not performed",
+    "scope": "All 4 final PDF pages covered. No visible clipping, overlaps, glyph loss or orphaned captions. Figure at about 15.36cm width in page4. No timed human reading test."
+  },
+  "scope": "Only source reading, conceptual reasoning, writing, code figure generation and document QA. No preprocessing, EDA, modeling, scenarios or experiments."
+}

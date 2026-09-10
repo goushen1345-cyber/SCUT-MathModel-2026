@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "revision": 42,
+  "revision": 49,
   "stage": "WAIT_FINAL",
   "execution_status": "WAITING",
   "active_question": "Q3",
   "data_version": "G1-v1-base",
   "pending_gate": {
     "id": "FINAL",
-    "plan_version": "PAPER-FINAL-v1",
+    "plan_version": "FIG-MODEL-03-v1",
     "scope": "PAPER",
-    "summary": "已完成17页DOCX/PDF、9图8表及三本最终命名结果表；冻结哈希、数值、文档结构、工作簿和逐页版面核验全部通过，等待最终人工确认。",
-    "allowed_actions": "只读查看、解释和审查PAPER-FINAL-v1；可按用户明确意见修订论文展示。未经明确授权不得重开模型、补实验、修改冻结结论、上传或提交。",
-    "budget": "全文执行已完成；FINAL点前无实验预算。",
-    "stop_condition": "收到用户最终确认或具体修订意见前停止。"
+    "summary": "用户已确认模型结构v3；总模型图的TikZ/PDF/SVG/PNG、最终配文及17cm页宽样张已交付，代码复现与只读完整性核对通过。现有18页论文未替换，三问冻结结果保留。",
+    "allowed_actions": "可审阅和解释已交付图文；后续按用户明确请求进行表达调整或论文嵌入。不得自动进入研究、补实验、改变冻结结论或对外提交。",
+    "budget": "本轮只代码制图与图文排版，无研究实验预算。",
+    "stop_condition": "图文交付后停FINAL；不把结构确认或AI图形核对记为用户已批准最终论文。"
   },
   "questions": {
     "Q1": {
@@ -604,6 +604,58 @@
       "confirmed_by": "user",
       "recorded_date": "2026-09-08",
       "boundary": "按八部分结构写全文并制作计划图表，复核三本结果表，生成DOCX/PDF并独立核验后停FINAL；不得补实验、修改冻结结论或对外提交。"
+    },
+    {
+      "id": "U024",
+      "from_stage": "WAIT_FINAL",
+      "to_stage": "WAIT_FINAL",
+      "scope": "PAPER",
+      "plan_version": "FIG-OVERALL-v1",
+      "user_quote": "基于当前项目中已经存在的真实研究内容，整理并生成一张完整、准确、可直接用于论文正文的“总体建模框架图”。\n如果发现当前论文与真实项目内容存在冲突：\n不要为了画图强行选一个。\n先列出冲突并停止，请我确认。",
+      "message_ref": "当前任务用户关于总体建模框架图的完整请求；以上摘录绘图范围与明确停止条件",
+      "confirmed_by": "user",
+      "recorded_date": "2026-09-09",
+      "boundary": "只使用既有真实研究，先核对来源和节点/边，冲突时停止；不得重新建模、新增实验、改变冻结结论。"
+    },
+    {
+      "id": "U025",
+      "from_stage": "WAIT_FINAL",
+      "to_stage": "WAIT_FINAL",
+      "scope": "PAPER",
+      "plan_version": "PAPER-CORRECTION-v1",
+      "user_quote": "那就按照你推荐的来吧",
+      "message_ref": "本任务2026-09-09用户回复；明确承接上一轮FG-C01—FG-C03推荐修订及“另存论文修订版并核对对应表述，再继续总体框架图；不改冻结模型、不补实验”建议。原图任务发现新冲突须先停的条件继续适用。",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "U026",
+      "from_stage": "WAIT_FINAL",
+      "to_stage": "WAIT_FINAL",
+      "scope": "PAPER",
+      "plan_version": "PAPER-CONTENT-CHECK-v2",
+      "user_quote": "同意披露上述偏差和限制，合并此前三项修订，再继续总体框架图；不改模型、不补实验",
+      "message_ref": "本任务2026-09-09最新用户明确批准FG-C04—06偏差/限制披露，合并FG-C01—03修订，并恢复总体框架图；保留不改模型、不补实验及新冲突先停边界。",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "U027",
+      "from_stage": "WAIT_FINAL",
+      "to_stage": "WAIT_FINAL",
+      "scope": "PAPER",
+      "plan_version": "FIG-MODEL-03-STRUCTURE-v1",
+      "user_quote": "请基于当前项目中已经存在的真实研究内容，重新绘制一张**总模型框架图**。\n我确认逻辑后，再生成最终图。",
+      "message_ref": "2026-09-10 本任务用户消息《任务：基于当前2024 C题完整项目，重新生成“总模型框架图”》；引文为首段和第八部分原句节选",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "U028",
+      "from_stage": "WAIT_FINAL",
+      "to_stage": "WAIT_FINAL",
+      "scope": "PAPER",
+      "plan_version": "FIG-MODEL-03-STRUCTURE-v1",
+      "user_quote": "确认模型结构v3，按此生成代码图和配文。",
+      "message_ref": "2026-09-10 本任务用户最新明确结构确认，授权按已交付v3结构代码制图与配文；不扩展研究或代替最终论文确认",
+      "confirmed_by": "user"
     }
   ],
   "history": [
@@ -1166,6 +1218,97 @@
         "state/decisions.md",
         "state/ai_usage_log.md"
       ]
+    },
+    {
+      "date": "2026-09-09",
+      "from_stage": "WAIT_FINAL",
+      "to_stage": "WAIT_FINAL",
+      "authorization_id": "U024",
+      "reason": "用户授权总体框架图且要求论文—研究冲突时先停。静态核对确认FG-C01—FG-C03，标记BLOCKED并保留FINAL关口；无图形生成、论文修改、实验或冻结版本变化。 仅待确认事项版本更新为PAPER-FINAL-v1-CONTENT-CHECK以登记新发现，论文实体仍为PAPER-FINAL-v1。",
+      "artifacts": [
+        "report.md",
+        "state/decisions.md",
+        "state/ai_usage_log.md"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "from_stage": "WAIT_FINAL",
+      "to_stage": "WAIT_FINAL",
+      "authorization_id": "U025",
+      "reason": "用户批准原三项推荐修订和后续框架图；恢复核对确认FG-C04—06新冲突，按原有停止条件保持BLOCKED。原三项未实施但授权保留；只追加定位证据与建议，无论文/图形生成、实验或冻结修改。",
+      "artifacts": [
+        "report.md",
+        "state/decisions.md",
+        "state/ai_usage_log.md"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "from_stage": "WAIT_FINAL",
+      "to_stage": "WAIT_FINAL",
+      "authorization_id": "U025",
+      "reason": "收尾精确行号校验将FG-C06论文定位从133更正为127；发现及处理建议、授权范围、阻断和冻结状态不变。",
+      "artifacts": [
+        "report.md"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "from_stage": "WAIT_FINAL",
+      "to_stage": "WAIT_FINAL",
+      "authorization_id": "U026",
+      "reason": "用户明确批准六项合并修订与偏差/限制披露，恢复总体框架图。开始现有证据表达与制图，不改研究；受影响主张在修订核验后才关闭。",
+      "artifacts": []
+    },
+    {
+      "date": "2026-09-09",
+      "from_stage": "WAIT_FINAL",
+      "to_stage": "WAIT_FINAL",
+      "authorization_id": "U026",
+      "reason": "完成六项修订及限制披露、总体图与图8代码生成和复现；17项针对性核验及18页视觉核对通过。关闭受影响论文表达阻断，保留实际研究限制，停FINAL待用户审阅。",
+      "artifacts": [
+        "paper/manuscript_v2.md",
+        "paper/final_v2/2024-C-paper-v2.docx",
+        "paper/final_v2/2024-C-paper-v2.pdf",
+        "paper/final_v2/validation.json",
+        "paper/corrections_v2.json",
+        "paper/figures/overall_v2/content_review.md",
+        "paper/figures/overall_v2/render/overall_framework.pdf",
+        "paper/figures/overall_v2/render/overall_framework.svg",
+        "paper_evidence/figure_registry.md"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "from_stage": "WAIT_FINAL",
+      "to_stage": "WAIT_FINAL",
+      "authorization_id": "U027",
+      "reason": "用户要求总模型组成图，先交结构再等确认。完成真实来源重读及共享骨架/实际增量核对，保存20组件和容器标题的审定稿及配文草案；未生成图或改论文，研究冻结状态不变。",
+      "artifacts": [
+        "paper/figures/model_structure_v3/content_review.md",
+        "paper_evidence/figure_registry.md",
+        "report.md"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "from_stage": "WAIT_FINAL",
+      "to_stage": "WAIT_FINAL",
+      "authorization_id": "U028",
+      "reason": "依据用户对模型结构v3的明确批准，完成共享模型组成图、TikZ矢量输出、配文及单页论文尺寸样张。源码/SVG/PNG独立复现一致，288项冻结哈希和现有论文保持不变；仅完成图形表达核对，不补实验、不改结论，未替换全稿或取得最终人工验收。",
+      "artifacts": [
+        "paper/figures/model_structure_v3/build_figure.py",
+        "paper/figures/model_structure_v3/final_v2/model_framework.tex",
+        "paper/figures/model_structure_v3/final_v2/model_framework.pdf",
+        "paper/figures/model_structure_v3/final_v2/model_framework.svg",
+        "paper/figures/model_structure_v3/final_v2/model_framework.png",
+        "paper/figures/model_structure_v3/handoff.md",
+        "paper/figures/model_structure_v3/placement_check.pdf",
+        "paper/figures/model_structure_v3/source_manifest.json",
+        "paper/figures/model_structure_v3/validation.json",
+        "paper_evidence/figure_registry.md"
+      ]
     }
   ],
   "blockers": [],
@@ -1286,7 +1429,7 @@
   },
   "paper_protocol": {
     "version": "PAPER-PLAN-v1",
-    "status": "WAITING_FOR_FINAL_CONFIRMATION",
+    "status": "COMPLETE_PENDING_FINAL",
     "authorization": "U022",
     "frozen_inputs": {
       "data": "G1-v1-base",
@@ -1306,12 +1449,12 @@
     "plan_validation": "PASSED",
     "paper_authorization": "U023",
     "external_submission_authorized": false,
-    "final_version": "PAPER-FINAL-v1",
-    "paper_validation": "PASSED",
+    "final_version": "PAPER-FINAL-v2",
+    "paper_validation": "TARGETED_CORRECTIONS_REPRODUCTION_AND_18_PAGE_VISUAL_CHECK_PASSED",
     "workbook_validation": "PASSED",
-    "docx": "paper/final/2024-C-paper.docx",
-    "pdf": "paper/final/2024-C-paper.pdf",
-    "page_count": 17,
+    "docx": "paper/final_v2/2024-C-paper-v2.docx",
+    "pdf": "paper/final_v2/2024-C-paper-v2.pdf",
+    "page_count": 18,
     "figures": 9,
     "tables": 8,
     "result_workbooks": [
@@ -1321,6 +1464,110 @@
     ],
     "frozen_files_revalidated": 288,
     "new_experiments_run": 0,
-    "frozen_conclusions_modified": false
+    "frozen_conclusions_modified": false,
+    "correction_authorization": "U026",
+    "correction_status": "ALL_SIX_CORRECTED_OR_DISCLOSED",
+    "content_check_version": "PAPER-CONTENT-CHECK-v2",
+    "resolved_content_issues": [
+      {
+        "id": "FG-C01",
+        "scope": "PAPER",
+        "status": "PAPER_CORRECTED_OR_LIMITATION_DISCLOSED",
+        "summary": "论文销量分配50%/100%与实际协议/代码5%/10%冲突；总体框架图参数节点待确认。",
+        "evidence": "report.md#总体框架图前置核对--2026-09-09--fig-overall-v1因内容冲突暂停",
+        "authorization_id": "U026",
+        "resolution_evidence": [
+          "paper/corrections_v2.json",
+          "paper/final_v2/validation.json",
+          "paper/figures/overall_v2/content_review.md"
+        ],
+        "research_deviation_cured": "not_applicable"
+      },
+      {
+        "id": "FG-C02",
+        "scope": "PAPER",
+        "status": "PAPER_CORRECTED_OR_LIMITATION_DISCLOSED",
+        "summary": "论文将交叉价格响应写成需求同向/反向；总体框架图关系边语义待确认。",
+        "evidence": "questions/Q3/scenario_core_deepen.py:133-142; paper/manuscript_v1.md:177",
+        "authorization_id": "U026",
+        "resolution_evidence": [
+          "paper/corrections_v2.json",
+          "paper/final_v2/validation.json",
+          "paper/figures/overall_v2/content_review.md"
+        ],
+        "research_deviation_cured": "not_applicable"
+      },
+      {
+        "id": "FG-C03",
+        "scope": "PAPER",
+        "status": "PAPER_CORRECTED_OR_LIMITATION_DISCLOSED",
+        "summary": "论文Q3结果将旧比较集差值和留出集均值混用；需区分评价样本。",
+        "evidence": "questions/Q3/deep_runs/holdout_summary.csv; paper/manuscript_v1.md:189",
+        "authorization_id": "U026",
+        "resolution_evidence": [
+          "paper/corrections_v2.json",
+          "paper/final_v2/validation.json",
+          "paper/figures/overall_v2/content_review.md"
+        ],
+        "research_deviation_cured": "not_applicable"
+      },
+      {
+        "id": "FG-C04",
+        "scope": "PAPER",
+        "status": "PAPER_CORRECTED_OR_LIMITATION_DISCLOSED",
+        "summary": "Q3实际将成本和菜价趋势随机化，与仅改变相关、继承Q2边际的概括不一致；Q2共享粮食增长也需限定独立性表述。研究设定偏差待披露范围确认。",
+        "evidence": "questions/Q2/protocols/uncertainty_v1.json; questions/Q2/generate_scenarios.py:38-45; questions/Q3/scenario_core_deepen.py:109-111; report.md#总体框架图恢复核对--2026-09-09--paper-content-check-v2",
+        "authorization_id": "U026",
+        "resolution_evidence": [
+          "paper/corrections_v2.json",
+          "paper/final_v2/validation.json",
+          "paper/figures/overall_v2/content_review.md"
+        ],
+        "research_deviation_cured": false
+      },
+      {
+        "id": "FG-C05",
+        "scope": "PAPER",
+        "status": "PAPER_CORRECTED_OR_LIMITATION_DISCLOSED",
+        "summary": "Q3相关校验仅为训练潜在变量层Pearson，不能支持最终离散参数或秩相关目标已验证的概括；论文式9及验证对象需对应实际实现。",
+        "evidence": "paper/manuscript_v1.md:169-175; questions/Q3/scenario_core_deepen.py:182-193; questions/Q3/generate_scenarios.py:208-209",
+        "authorization_id": "U026",
+        "resolution_evidence": [
+          "paper/corrections_v2.json",
+          "paper/final_v2/validation.json",
+          "paper/figures/overall_v2/content_review.md"
+        ],
+        "research_deviation_cured": false
+      },
+      {
+        "id": "FG-C06",
+        "scope": "PAPER",
+        "status": "PAPER_CORRECTED_OR_LIMITATION_DISCLOSED",
+        "summary": "Q1严格豆类差168.31万元对照补强前主方案，论文未标明旧基准；相对最终方案的现存收益算术差为220.11万元，诊断未重跑。",
+        "evidence": "questions/Q1/deep_runs/bean_diagnostic.csv:2; questions/Q1/boost_runs/comparison.csv:2; paper/manuscript_v1.md:127",
+        "authorization_id": "U026",
+        "resolution_evidence": [
+          "paper/corrections_v2.json",
+          "paper/final_v2/validation.json",
+          "paper/figures/overall_v2/content_review.md"
+        ],
+        "research_deviation_cured": "not_applicable"
+      }
+    ],
+    "prior_paper_version": {
+      "version": "PAPER-FINAL-v1",
+      "docx": "paper/final/2024-C-paper.docx",
+      "pdf": "paper/final/2024-C-paper.pdf",
+      "page_count": 17,
+      "preserved": true
+    },
+    "numbered_equations": 11,
+    "validation_report": "paper/final_v2/validation.json",
+    "figure_ids": [
+      "FIG-OVERALL-02",
+      "FIG-Q3-RELATION-02"
+    ],
+    "framework_handoff": "paper/figures/model_structure_v3/handoff.md",
+    "human_final_approval": false
   }
 }

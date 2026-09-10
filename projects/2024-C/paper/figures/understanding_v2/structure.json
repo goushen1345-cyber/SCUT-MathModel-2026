@@ -1,0 +1,59 @@
+{
+  "version": "UNDERSTANDING-20260910-v2",
+  "figure_id": "FIG-UNDERSTANDING-02",
+  "title": "统一种植决策与三问扩展的模型框架（建模要素草图）",
+  "maturity": "仅题意支持的要素和关系；未建立最终数学模型；未获本轮G0内容确认",
+  "authorization": "2026-09-10当前用户明确请求重新执行第一阶段并生成代码模型框架图，完成即停止",
+  "logic_review": "主执行者先重新读取原题全文、附件1规则及季历、附件2表头和B110:B111、原模板说明；下列关系仅表达这些材料与任务要求，未调用下游模型或结果",
+  "sources": {
+    "S0": "培训作业/第四次培训作业/C题.pdf，第1页",
+    "S1": "培训作业/第四次培训作业/附件1.xlsx，乡村种植的农作物!E2及B44:B46；乡村的现有耕地!A1:D55",
+    "S2": "培训作业/第四次培训作业/附件2.xlsx，两表表头、2023年统计的相关数据!B110:B111",
+    "S3": "培训作业/第四次培训作业/附件3/result1_1.xlsx，2024!B85:B87；三本模板年度名称"
+  },
+  "nodes": [
+    {"id":"constraints","label":"农业与管理约束\n面积·适种·季次\n重茬·豆类覆盖·适度集中","meaning":"题面定性要求，未设具体轮作公式或管理阈值","source":"S0农业段；S1规则","layer":"shared"},
+    {"id":"decision","label":"种植决策\n各地块·各年·各季\n种什么、种多少亩","meaning":"唯一已由任务确定的决策对象；不预定义启用变量、整数性或算法","source":"S0三问；S3","layer":"shared"},
+    {"id":"yield","label":"亩产量","meaning":"产量换算参数，按适用地类、季次、作物匹配","source":"S2统计表F列","layer":"parameter"},
+    {"id":"production","label":"产量\n面积×亩产\n按作物与销售季汇总","meaning":"不在本阶段执行计算；跨地块共享同一市场口径","source":"S0问题1；S2单位","layer":"shared"},
+    {"id":"demand","label":"正常销售上限*","meaning":"任务必需输入，但原附件未直接列出独立预期销售量字段","source":"S0问题1；S2表头","layer":"parameter"},
+    {"id":"sales","label":"销售划分\n正常部分／超额部分","meaning":"同作物同销售季总产量与相应预期销售量比较；不发明跨季库存","source":"S0问题1","layer":"shared"},
+    {"id":"pricing","label":"价格与超额处置*","meaning":"Q1明确两种处置；Q2/Q3处置口径待定；价格区间取值未定","source":"S0问题1、2；S2 H列","layer":"parameter"},
+    {"id":"revenue","label":"销售收入\n两部分分别计价","meaning":"Q1滞销超额收入为零；半价仅适用于超额部分","source":"S0问题1","layer":"shared"},
+    {"id":"unitcost","label":"亩种植成本","meaning":"单位为元/亩","source":"S2 G列","layer":"parameter"},
+    {"id":"cost","label":"种植成本\n面积×亩成本","meaning":"种植即发生的成本，不因滞销消失","source":"S0问题1及S2单位","layer":"shared"},
+    {"id":"value","label":"七年收益评价\n销售收入−种植成本","meaning":"自然经济核算关系；风险如何参与决策尚未选定，不预设单一风险目标","source":"S0背景与三问的最优种植要求；经济量定义","layer":"shared"},
+    {"id":"q1","label":"Q1：稳定条件\n超额滞销／半价","meaning":"固定参数下分别形成两套面积方案","source":"S0问题1","layer":"delta"},
+    {"id":"q2","label":"Q2：未来变化\n参数波动·种植风险","meaning":"在共同决策对象上增加未来变化与风险评价，未选分布或风险度量","source":"S0问题2","layer":"delta"},
+    {"id":"q3","label":"Q3：相互关系\n替代互补·经济量相关","meaning":"在Q2基础上明确模拟关系并与Q2比较；不预设价格弹性等具体机制","source":"S0问题3","layer":"delta"}
+  ],
+  "edges": [
+    ["constraints","decision","限定可行安排"],
+    ["decision","production","面积参与计算"],
+    ["yield","production","乘以适用亩产"],
+    ["production","sales","提供同一市场口径的总产量"],
+    ["demand","sales","划分正常与超额部分"],
+    ["sales","revenue","两部分数量参与计价"],
+    ["pricing","revenue","规定两部分价格"],
+    ["decision","cost","面积参与计算"],
+    ["unitcost","cost","乘以适用亩成本"],
+    ["revenue","value","计入收入"],
+    ["cost","value","扣除成本"],
+    ["q1","pricing","规定两种超额处置；其余参数保持稳定"],
+    ["q2","yield","加入未来变化"],
+    ["q2","demand","加入未来变化"],
+    ["q2","pricing","加入价格变化，处置规则仍待定"],
+    ["q2","unitcost","加入未来变化"],
+    ["q2","value","增加风险评价要求，不表示风险已写入某一目标函数"],
+    ["q3","demand","加入作物关系与经济量联合关系，模拟形式未定"],
+    ["q3","pricing","价格参与联合关系，因果方向未定"],
+    ["q3","unitcost","成本参与联合关系，因果方向未定"]
+  ],
+  "comparison_relation": "Q3以Q2方案为比较基准；Q1面积不固定传入Q2，Q2面积不固定传入Q3",
+  "footnotes": [
+    "*销售上限的来源、价格取值及Q2/Q3超额处置口径待定。",
+    "图示为题意层面的建模要素，决策变量仅按种植面积这一现实含义表示，未选最终数学形式或算法。",
+    "Q3以Q2为比较基准，关系为建模对象，不表示已估计因果或已获得改进。"
+  ],
+  "render_guidance": "中心突出共同农业决策与产量—销售—收入—成本关系；三问增量用短标签连到实际作用组件。允许用分组括号/总线表达同义多边，记录映射，避免20条交叉箭头。不得变成研究步骤图。黑字白底，矢量PDF及PNG，最终约16cm宽可读。"
+}

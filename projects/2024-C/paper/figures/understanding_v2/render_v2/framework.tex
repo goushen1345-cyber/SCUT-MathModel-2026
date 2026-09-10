@@ -1,0 +1,60 @@
+\documentclass[border=2mm]{standalone}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\setCJKmainfont[BoldFont=SimHei]{SimSun}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,backgrounds}
+\tikzset{
+ box/.style={draw=black,fill=white,text=black,line width=.65pt,align=center,inner sep=4pt,font=\fontsize{10}{13}\selectfont},
+ delta/.style={box,rounded corners=2pt,line width=.85pt},
+ arrow/.style={-{Stealth[length=1.8mm,width=1.4mm]},line width=.7pt,draw=black},
+ ext/.style={arrow,dashed},
+ label/.style={fill=white,text=black,inner sep=2pt,font=\fontsize{8.8}{11}\selectfont,align=center},
+ group/.style={draw=black,dashed,line width=.55pt,rounded corners=2pt},
+}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+
+\draw[group] (9.7,.78) rectangle (14.35,7.35);
+\draw[group] (10.0,.98) rectangle (14.0,5.6);
+\node[label,anchor=south] at (12,7.35) {四类参数};
+\node[label,anchor=south] at (12,5.6) {销售、价格与成本关系};
+\node[box,text width=3.7cm,minimum height=1.2cm] (constraints) at (2.5,8.25) {\textbf{农业与管理约束}\\面积·适种·季次\\重茬·豆类覆盖\\适度集中};
+\node[box,line width=1.1pt,text width=3.7cm,minimum height=1.2cm] (decision) at (6.65,8.25) {\textbf{种植决策}\\各地块·各年·各季\\种什么、种多少亩};
+\node[box,text width=3.0cm,minimum height=0.7cm] (yield) at (12.0,6.55) {\textbf{亩产量}};
+\node[box,text width=3.5cm,minimum height=1.1cm] (production) at (6.65,6.55) {\textbf{产量}\\面积$\times$亩产\\按作物与销售季汇总};
+\node[box,text width=3.0cm,minimum height=0.7cm] (demand) at (12.0,4.85) {\textbf{正常销售上限*}};
+\node[box,text width=3.5cm,minimum height=0.9cm] (sales) at (6.65,4.85) {\textbf{销售划分}\\正常部分／超额部分};
+\node[box,text width=3.0cm,minimum height=0.7cm] (pricing) at (12.0,1.45) {\textbf{价格与超额处置*}};
+\node[box,text width=3.5cm,minimum height=0.9cm] (revenue) at (6.65,1.45) {\textbf{销售收入}\\两部分分别计价};
+\node[box,text width=3.0cm,minimum height=0.7cm] (unitcost) at (12.0,3.15) {\textbf{亩种植成本}};
+\node[box,text width=3.3cm,minimum height=0.9cm] (cost) at (2.5,3.15) {\textbf{种植成本}\\面积$\times$亩成本};
+\node[box,text width=3.5cm,minimum height=1.0cm] (value) at (6.65,-0.35) {\textbf{七年收益评价}\\销售收入$-$种植成本};
+\node[delta,text width=3.4cm,minimum height=1.0cm] (q1) at (12.0,-0.35) {\textbf{Q1：稳定条件}\\超额滞销／基年半价};
+\node[delta,text width=4.0cm,minimum height=1.0cm] (q2) at (5.0,10.25) {\textbf{Q2：未来变化}\\参数波动·种植风险};
+\node[delta,text width=4.0cm,minimum height=1.0cm] (q3) at (12.0,10.25) {\textbf{Q3：相互关系}\\替代互补·经济量相关};
+\draw[arrow] (constraints.east) -- (decision.west);
+\draw[arrow] (decision.south) -- (production.north);
+\draw[arrow] (yield.west) -- (production.east);
+\draw[arrow] (production.south) -- (sales.north);
+\draw[arrow] (demand.west) -- (sales.east);
+\draw[arrow] (sales.south) -- (revenue.north);
+\draw[arrow,preaction={draw=white,line width=3pt}] (unitcost.west) -- (cost.east);
+\draw[arrow] (decision.south west) -- (4.55,7.38) -- (4.55,3.62) -- (cost.north east);
+\node[label,rotate=90] at (4.55,5.5) {种植面积};
+\draw[arrow] (pricing.west) -- (revenue.east);
+\draw[arrow] (revenue.south) -- (value.north);
+\draw[arrow] (cost.south) -- (2.5,-.35) -- node[label,above] {扣除} (value.west);
+\draw[ext] (q1.north) -- (pricing.south);
+\draw[ext] (q2.south) -- (5,9.35) -- (12,9.35) -- (12,7.65);
+\node[label,above] at (8.4,9.35) {参数随未来变化};
+\draw[ext] (q3.east) -- (15,10.25) -- (15,5.6) -- (14.0,5.6);
+\node[label,rotate=90] at (15,7.75) {替代互补与联合变化};
+\draw[ext] (q2.west) -- (.3,10.25) -- (.3,-1.45) -- (6.65,-1.45) -- (value.south);
+\node[label,above] at (3.45,-1.45) {Q2 另增种植风险评价};
+\node[label,anchor=west] at (.6,-2.05) {实线：约束与核算关系\qquad 虚线：各问新增条件或评价要求};
+\node[label,anchor=west,font=\fontsize{9}{11}\selectfont] at (.6,-2.55) {*销售上限来源、价格取值及Q2/Q3超额处置口径待定。};
+\node[label,anchor=west,font=\fontsize{9}{11}\selectfont] at (.6,-3.02) {题意要素草图，数学形式未定；基年为2023年。};
+\end{tikzpicture}
+\end{document}

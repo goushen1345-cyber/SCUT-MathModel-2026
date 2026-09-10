@@ -1,0 +1,16 @@
+{
+  "figure_id": "FIG-OVERALL-02",
+  "structure_sha256": "9a1cbe14fd46a5fa1842086bae6ba9b9dd573f4d24dfa8e5c10fc818be86a6d9",
+  "artifacts": {
+    "overall_framework.pdf": "105ac187966ec13363d72b9d8b37b9e655821f2e419da5324ecb5a40057986f2",
+    "overall_framework.png": "4544dca429c01d02b2a3ed6895f9ef911aa75446c58247ece20604e9d5546e6f",
+    "overall_framework.svg": "32152e2fbd4dd1a166b6feb26ad49cda06e978f691f9799bbf9f19c3441334b7",
+    "overall_framework.tex": "d08274752b08f41c233c3a12f3754e19c32ce42ddb05b821e79c3604976a75fa",
+    "q3_relationship.pdf": "5b6d31c9a319771bf2a2eda7ace3ec8bc98191cb84196cb8a8d09438fd31bc45",
+    "q3_relationship.png": "e990e3fdf5e2326ada4bc897f9f53c40ea14fb454b8fcdd5b457ab263159c972",
+    "q3_relationship.svg": "8a96335444fac1ed096eec88b3788902b0f43578fbdf37ce7828dd071c7958d8",
+    "q3_relationship.tex": "4589347caa12e3e8175d8e88aa4d9311ef308d82bd0f55491cbfa380306e2c1f"
+  },
+  "commands": "XeLaTeX --disable-installer -no-pdf; xdvipdfmx; pdftocairo -svg; pdftoppm -r 180",
+  "engine": "MiKTeX-XeTeX 4.16 (MiKTeX 25.12)"
+}

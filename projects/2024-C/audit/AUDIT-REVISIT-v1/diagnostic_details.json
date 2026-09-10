@@ -1,0 +1,4060 @@
+{
+  "whitespace": [
+    {
+      "source": "乡村的现有耕地!B36",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "乡村的现有耕地!B37",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "乡村的现有耕地!B38",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "乡村的现有耕地!B39",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "乡村的现有耕地!B40",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "乡村的现有耕地!B41",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "乡村的现有耕地!B42",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "乡村的现有耕地!B43",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "乡村的现有耕地!B44",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "乡村的现有耕地!B45",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "乡村的现有耕地!B46",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "乡村的现有耕地!B47",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "乡村的现有耕地!B48",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "乡村的现有耕地!B49",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "乡村的现有耕地!B50",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "乡村的现有耕地!B51",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "乡村种植的农作物!D2",
+      "raw": "平旱地\n\n梯田\n\n山坡地\n",
+      "stripped_for_comparison_only": "平旱地\n\n梯田\n\n山坡地"
+    },
+    {
+      "source": "乡村种植的农作物!D18",
+      "raw": "水浇地    第一季\n\n普通大棚  第一季\n\n智慧大棚  第一季、第二季\n",
+      "stripped_for_comparison_only": "水浇地    第一季\n\n普通大棚  第一季\n\n智慧大棚  第一季、第二季"
+    },
+    {
+      "source": "乡村种植的农作物!B24",
+      "raw": "菠菜 ",
+      "stripped_for_comparison_only": "菠菜"
+    },
+    {
+      "source": "乡村种植的农作物!B31",
+      "raw": "生菜 ",
+      "stripped_for_comparison_only": "生菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D28",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D29",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D30",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D31",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D32",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D33",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D34",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D35",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D37",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D39",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D44",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D46",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D48",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D50",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D52",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D64",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D66",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D68",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D70",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D71",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D73",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D75",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D76",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D77",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D78",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D79",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D80",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D81",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D82",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D84",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!C85",
+      "raw": "生菜 ",
+      "stripped_for_comparison_only": "生菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D85",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D87",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!C88",
+      "raw": "菠菜 ",
+      "stripped_for_comparison_only": "菠菜"
+    },
+    {
+      "source": "2023年的农作物种植情况!D88",
+      "raw": "蔬菜 ",
+      "stripped_for_comparison_only": "蔬菜"
+    },
+    {
+      "source": "2023年统计的相关数据!C54",
+      "raw": "菠菜 ",
+      "stripped_for_comparison_only": "菠菜"
+    },
+    {
+      "source": "2023年统计的相关数据!C61",
+      "raw": "生菜 ",
+      "stripped_for_comparison_only": "生菜"
+    },
+    {
+      "source": "2023年统计的相关数据!D66",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!D67",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!D68",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!D69",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!D70",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!D71",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!C72",
+      "raw": "菠菜 ",
+      "stripped_for_comparison_only": "菠菜"
+    },
+    {
+      "source": "2023年统计的相关数据!D72",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!D73",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!D74",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!D75",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!D76",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!D77",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!D78",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!C79",
+      "raw": "生菜 ",
+      "stripped_for_comparison_only": "生菜"
+    },
+    {
+      "source": "2023年统计的相关数据!D79",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!D80",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!D81",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!D82",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!D83",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!D87",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!D88",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!D89",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!D90",
+      "raw": "普通大棚 ",
+      "stripped_for_comparison_only": "普通大棚"
+    },
+    {
+      "source": "2023年统计的相关数据!C97",
+      "raw": "菠菜 ",
+      "stripped_for_comparison_only": "菠菜"
+    },
+    {
+      "source": "2023年统计的相关数据!C104",
+      "raw": "生菜 ",
+      "stripped_for_comparison_only": "生菜"
+    }
+  ],
+  "blank_sources": [
+    {
+      "source": "乡村种植的农作物!D3",
+      "anchor": "D2",
+      "merged_range": "D2:D16",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D4",
+      "anchor": "D2",
+      "merged_range": "D2:D16",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D5",
+      "anchor": "D2",
+      "merged_range": "D2:D16",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D6",
+      "anchor": "D2",
+      "merged_range": "D2:D16",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D7",
+      "anchor": "D2",
+      "merged_range": "D2:D16",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D8",
+      "anchor": "D2",
+      "merged_range": "D2:D16",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D9",
+      "anchor": "D2",
+      "merged_range": "D2:D16",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D10",
+      "anchor": "D2",
+      "merged_range": "D2:D16",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D11",
+      "anchor": "D2",
+      "merged_range": "D2:D16",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D12",
+      "anchor": "D2",
+      "merged_range": "D2:D16",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D13",
+      "anchor": "D2",
+      "merged_range": "D2:D16",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D14",
+      "anchor": "D2",
+      "merged_range": "D2:D16",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D15",
+      "anchor": "D2",
+      "merged_range": "D2:D16",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D16",
+      "anchor": "D2",
+      "merged_range": "D2:D16",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D19",
+      "anchor": "D18",
+      "merged_range": "D18:D35",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D20",
+      "anchor": "D18",
+      "merged_range": "D18:D35",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D21",
+      "anchor": "D18",
+      "merged_range": "D18:D35",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D22",
+      "anchor": "D18",
+      "merged_range": "D18:D35",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D23",
+      "anchor": "D18",
+      "merged_range": "D18:D35",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D24",
+      "anchor": "D18",
+      "merged_range": "D18:D35",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D25",
+      "anchor": "D18",
+      "merged_range": "D18:D35",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D26",
+      "anchor": "D18",
+      "merged_range": "D18:D35",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D27",
+      "anchor": "D18",
+      "merged_range": "D18:D35",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D28",
+      "anchor": "D18",
+      "merged_range": "D18:D35",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D29",
+      "anchor": "D18",
+      "merged_range": "D18:D35",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D30",
+      "anchor": "D18",
+      "merged_range": "D18:D35",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D31",
+      "anchor": "D18",
+      "merged_range": "D18:D35",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D32",
+      "anchor": "D18",
+      "merged_range": "D18:D35",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D33",
+      "anchor": "D18",
+      "merged_range": "D18:D35",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D34",
+      "anchor": "D18",
+      "merged_range": "D18:D35",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D35",
+      "anchor": "D18",
+      "merged_range": "D18:D35",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D37",
+      "anchor": "D36",
+      "merged_range": "D36:D38",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D38",
+      "anchor": "D36",
+      "merged_range": "D36:D38",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D40",
+      "anchor": "D39",
+      "merged_range": "D39:D42",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D41",
+      "anchor": "D39",
+      "merged_range": "D39:D42",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "乡村种植的农作物!D42",
+      "anchor": "D39",
+      "merged_range": "D39:D42",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A29",
+      "anchor": "A28",
+      "merged_range": "A28:A29",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A31",
+      "anchor": "A30",
+      "merged_range": "A30:A31",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A33",
+      "anchor": "A32",
+      "merged_range": "A32:A33",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A35",
+      "anchor": "A34",
+      "merged_range": "A34:A35",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A37",
+      "anchor": "A36",
+      "merged_range": "A36:A37",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A39",
+      "anchor": "A38",
+      "merged_range": "A38:A39",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A43",
+      "anchor": "A42",
+      "merged_range": "A42:A43",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A45",
+      "anchor": "A44",
+      "merged_range": "A44:A45",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A47",
+      "anchor": "A46",
+      "merged_range": "A46:A47",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A49",
+      "anchor": "A48",
+      "merged_range": "A48:A49",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A51",
+      "anchor": "A50",
+      "merged_range": "A50:A51",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A53",
+      "anchor": "A52",
+      "merged_range": "A52:A53",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A55",
+      "anchor": "A54",
+      "merged_range": "A54:A55",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A57",
+      "anchor": "A56",
+      "merged_range": "A56:A57",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A59",
+      "anchor": "A58",
+      "merged_range": "A58:A59",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A61",
+      "anchor": "A60",
+      "merged_range": "A60:A61",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A63",
+      "anchor": "A62",
+      "merged_range": "A62:A63",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A65",
+      "anchor": "A64",
+      "merged_range": "A64:A65",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A67",
+      "anchor": "A66",
+      "merged_range": "A66:A67",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A69",
+      "anchor": "A68",
+      "merged_range": "A68:A69",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A71",
+      "anchor": "A70",
+      "merged_range": "A70:A72",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A72",
+      "anchor": "A70",
+      "merged_range": "A70:A72",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A74",
+      "anchor": "A73",
+      "merged_range": "A73:A74",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A76",
+      "anchor": "A75",
+      "merged_range": "A75:A78",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A77",
+      "anchor": "A75",
+      "merged_range": "A75:A78",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A78",
+      "anchor": "A75",
+      "merged_range": "A75:A78",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A80",
+      "anchor": "A79",
+      "merged_range": "A79:A82",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A81",
+      "anchor": "A79",
+      "merged_range": "A79:A82",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A82",
+      "anchor": "A79",
+      "merged_range": "A79:A82",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A84",
+      "anchor": "A83",
+      "merged_range": "A83:A85",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A85",
+      "anchor": "A83",
+      "merged_range": "A83:A85",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A87",
+      "anchor": "A86",
+      "merged_range": "A86:A88",
+      "anchor_nonempty": true
+    },
+    {
+      "source": "2023年的农作物种植情况!A88",
+      "anchor": "A86",
+      "merged_range": "A86:A88",
+      "anchor_nonempty": true
+    }
+  ],
+  "price_interval_checks": [
+    {
+      "source": "2023年统计的相关数据!H2",
+      "raw": "2.50-4.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H3",
+      "raw": "6.50-8.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H4",
+      "raw": "7.50-9.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H5",
+      "raw": "6.00-8.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H6",
+      "raw": "6.00-7.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H7",
+      "raw": "3.00-4.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H8",
+      "raw": "2.50-3.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H9",
+      "raw": "6.00-7.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H10",
+      "raw": "5.50-6.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H11",
+      "raw": "6.50-8.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H12",
+      "raw": "30.00-50.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H13",
+      "raw": "1.00-2.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H14",
+      "raw": "2.50-4.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H15",
+      "raw": "5.00-6.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H16",
+      "raw": "3.00-4.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H17",
+      "raw": "2.50-4.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H18",
+      "raw": "6.50-8.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H19",
+      "raw": "7.50-9.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H20",
+      "raw": "6.00-8.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H21",
+      "raw": "6.00-7.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H22",
+      "raw": "3.00-4.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H23",
+      "raw": "2.50-3.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H24",
+      "raw": "6.00-7.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H25",
+      "raw": "5.50-6.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H26",
+      "raw": "6.50-8.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H27",
+      "raw": "30.00-50.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H28",
+      "raw": "1.00-2.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H29",
+      "raw": "2.50-4.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H30",
+      "raw": "5.00-6.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H31",
+      "raw": "3.00-4.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H32",
+      "raw": "2.50-4.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H33",
+      "raw": "6.50-8.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H34",
+      "raw": "7.50-9.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H35",
+      "raw": "6.00-8.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H36",
+      "raw": "6.00-7.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H37",
+      "raw": "3.00-4.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H38",
+      "raw": "2.50-3.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H39",
+      "raw": "6.00-7.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H40",
+      "raw": "5.50-6.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H41",
+      "raw": "6.50-8.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H42",
+      "raw": "30.00-50.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H43",
+      "raw": "1.00-2.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H44",
+      "raw": "2.50-4.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H45",
+      "raw": "5.00-6.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H46",
+      "raw": "3.00-4.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H47",
+      "raw": "6.00-8.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H48",
+      "raw": "7.00-9.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H49",
+      "raw": "5.50-8.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H50",
+      "raw": "5.00-8.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H51",
+      "raw": "3.00-4.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H52",
+      "raw": "5.00-7.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H53",
+      "raw": "5.00-6.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H54",
+      "raw": "4.80-6.70",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H55",
+      "raw": "4.00-6.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H56",
+      "raw": "5.00-6.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H57",
+      "raw": "5.50-7.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H58",
+      "raw": "4.00-6.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H59",
+      "raw": "5.00-6.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H60",
+      "raw": "6.00-8.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H61",
+      "raw": "4.50-6.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H62",
+      "raw": "6.00-8.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H63",
+      "raw": "3.00-6.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H64",
+      "raw": "4.00-5.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H65",
+      "raw": "3.20-4.80",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H66",
+      "raw": "7.00-9.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H67",
+      "raw": "5.50-8.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H68",
+      "raw": "5.00-8.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H69",
+      "raw": "3.00-4.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H70",
+      "raw": "5.00-7.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H71",
+      "raw": "5.00-6.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H72",
+      "raw": "4.80-6.70",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H73",
+      "raw": "4.00-6.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H74",
+      "raw": "5.00-6.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H75",
+      "raw": "5.50-7.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H76",
+      "raw": "4.00-6.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H77",
+      "raw": "5.00-6.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H78",
+      "raw": "6.00-8.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H79",
+      "raw": "4.50-6.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H80",
+      "raw": "6.00-8.50",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H81",
+      "raw": "3.00-6.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H82",
+      "raw": "4.00-5.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H83",
+      "raw": "3.20-4.80",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H84",
+      "raw": "2.00-3.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H85",
+      "raw": "2.00-3.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H86",
+      "raw": "2.50-4.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H87",
+      "raw": "50.00-65.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H88",
+      "raw": "18.00-20.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H89",
+      "raw": "14.00-18.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H90",
+      "raw": "80.00-120.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H91",
+      "raw": "8.40-10.80",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H92",
+      "raw": "6.60-9.60",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H93",
+      "raw": "6.00-9.60",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H94",
+      "raw": "3.60-5.40",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H95",
+      "raw": "6.00-9.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H96",
+      "raw": "6.00-7.20",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H97",
+      "raw": "5.80-8.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H98",
+      "raw": "5.80-7.80",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H99",
+      "raw": "6.00-7.20",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H100",
+      "raw": "6.60-9.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H101",
+      "raw": "4.80-7.20",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H102",
+      "raw": "6.00-7.80",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H103",
+      "raw": "7.20-9.60",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H104",
+      "raw": "5.40-7.20",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H105",
+      "raw": "7.20-10.20",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H106",
+      "raw": "3.60-7.20",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H107",
+      "raw": "4.80-6.00",
+      "valid_positive_ordered_interval": true
+    },
+    {
+      "source": "2023年统计的相关数据!H108",
+      "raw": "3.80-5.80",
+      "valid_positive_ordered_interval": true
+    }
+  ],
+  "history_key_checks": [
+    {
+      "source": "2023年的农作物种植情况!A2:F2",
+      "land_anchor": "A2",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        7
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A3:F3",
+      "land_anchor": "A3",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        8
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A4:F4",
+      "land_anchor": "A4",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        8
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A5:F5",
+      "land_anchor": "A5",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        2
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A6:F6",
+      "land_anchor": "A6",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        5
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A7:F7",
+      "land_anchor": "A7",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        9
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A8:F8",
+      "land_anchor": "A8",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        22
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A9:F9",
+      "land_anchor": "A9",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        18
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A10:F10",
+      "land_anchor": "A10",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        19
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A11:F11",
+      "land_anchor": "A11",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        20
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A12:F12",
+      "land_anchor": "A12",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        21
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A13:F13",
+      "land_anchor": "A13",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        24
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A14:F14",
+      "land_anchor": "A14",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        22
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A15:F15",
+      "land_anchor": "A15",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        24
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A16:F16",
+      "land_anchor": "A16",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        25
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A17:F17",
+      "land_anchor": "A17",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        26
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A18:F18",
+      "land_anchor": "A18",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        17
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A19:F19",
+      "land_anchor": "A19",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        23
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A20:F20",
+      "land_anchor": "A20",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        30
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A21:F21",
+      "land_anchor": "A21",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        31
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A22:F22",
+      "land_anchor": "A22",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        42
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A23:F23",
+      "land_anchor": "A23",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        43
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A24:F24",
+      "land_anchor": "A24",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        32
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A25:F25",
+      "land_anchor": "A25",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        44
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A26:F26",
+      "land_anchor": "A26",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        37
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A27:F27",
+      "land_anchor": "A27",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        34
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A28:F28",
+      "land_anchor": "A28",
+      "merge": "A28:A29",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        51
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A29:F29",
+      "land_anchor": "A28",
+      "merge": "A28:A29",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        85
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A30:F30",
+      "land_anchor": "A30",
+      "merge": "A30:A31",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        59
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A31:F31",
+      "land_anchor": "A30",
+      "merge": "A30:A31",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        84
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A32:F32",
+      "land_anchor": "A32",
+      "merge": "A32:A33",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        52
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A33:F33",
+      "land_anchor": "A32",
+      "merge": "A32:A33",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        84
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A34:F34",
+      "land_anchor": "A34",
+      "merge": "A34:A35",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        53
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A35:F35",
+      "land_anchor": "A34",
+      "merge": "A34:A35",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        84
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A36:F36",
+      "land_anchor": "A36",
+      "merge": "A36:A37",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        48
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A37:F37",
+      "land_anchor": "A36",
+      "merge": "A36:A37",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        85
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A38:F38",
+      "land_anchor": "A38",
+      "merge": "A38:A39",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        49
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A39:F39",
+      "land_anchor": "A38",
+      "merge": "A38:A39",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        86
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A40:F40",
+      "land_anchor": "A40",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        47
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A41:F41",
+      "land_anchor": "A41",
+      "merge": null,
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        47
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A42:F42",
+      "land_anchor": "A42",
+      "merge": "A42:A43",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        67
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A43:F43",
+      "land_anchor": "A42",
+      "merge": "A42:A43",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        87
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A44:F44",
+      "land_anchor": "A44",
+      "merge": "A44:A45",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        73
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A45:F45",
+      "land_anchor": "A44",
+      "merge": "A44:A45",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        87
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A46:F46",
+      "land_anchor": "A46",
+      "merge": "A46:A47",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        74
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A47:F47",
+      "land_anchor": "A46",
+      "merge": "A46:A47",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        87
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A48:F48",
+      "land_anchor": "A48",
+      "merge": "A48:A49",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        75
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A49:F49",
+      "land_anchor": "A48",
+      "merge": "A48:A49",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        88
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A50:F50",
+      "land_anchor": "A50",
+      "merge": "A50:A51",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        77
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A51:F51",
+      "land_anchor": "A50",
+      "merge": "A50:A51",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        88
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A52:F52",
+      "land_anchor": "A52",
+      "merge": "A52:A53",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        76
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A53:F53",
+      "land_anchor": "A52",
+      "merge": "A52:A53",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        88
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A54:F54",
+      "land_anchor": "A54",
+      "merge": "A54:A55",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        68
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A55:F55",
+      "land_anchor": "A54",
+      "merge": "A54:A55",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        89
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A56:F56",
+      "land_anchor": "A56",
+      "merge": "A56:A57",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        68
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A57:F57",
+      "land_anchor": "A56",
+      "merge": "A56:A57",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        89
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A58:F58",
+      "land_anchor": "A58",
+      "merge": "A58:A59",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        67
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A59:F59",
+      "land_anchor": "A58",
+      "merge": "A58:A59",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        89
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A60:F60",
+      "land_anchor": "A60",
+      "merge": "A60:A61",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        66
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A61:F61",
+      "land_anchor": "A60",
+      "merge": "A60:A61",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        90
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A62:F62",
+      "land_anchor": "A62",
+      "merge": "A62:A63",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        66
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A63:F63",
+      "land_anchor": "A62",
+      "merge": "A62:A63",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        90
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A64:F64",
+      "land_anchor": "A64",
+      "merge": "A64:A65",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        71
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A65:F65",
+      "land_anchor": "A64",
+      "merge": "A64:A65",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        90
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A66:F66",
+      "land_anchor": "A66",
+      "merge": "A66:A67",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        70
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A67:F67",
+      "land_anchor": "A66",
+      "merge": "A66:A67",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        90
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A68:F68",
+      "land_anchor": "A68",
+      "merge": "A68:A69",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        78
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A69:F69",
+      "land_anchor": "A68",
+      "merge": "A68:A69",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        90
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A70:F70",
+      "land_anchor": "A70",
+      "merge": "A70:A72",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        79
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A71:F71",
+      "land_anchor": "A70",
+      "merge": "A70:A72",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        76
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A72:F72",
+      "land_anchor": "A70",
+      "merge": "A70:A72",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        90
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A73:F73",
+      "land_anchor": "A73",
+      "merge": "A73:A74",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        80
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A74:F74",
+      "land_anchor": "A73",
+      "merge": "A73:A74",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        90
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A75:F75",
+      "land_anchor": "A75",
+      "merge": "A75:A78",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [],
+      "rule_parameter_rows": [
+        81
+      ],
+      "rule_source": "2023年统计的相关数据!B111"
+    },
+    {
+      "source": "2023年的农作物种植情况!A76:F76",
+      "land_anchor": "A75",
+      "merge": "A75:A78",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [],
+      "rule_parameter_rows": [
+        82
+      ],
+      "rule_source": "2023年统计的相关数据!B111"
+    },
+    {
+      "source": "2023年的农作物种植情况!A77:F77",
+      "land_anchor": "A75",
+      "merge": "A75:A78",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        98
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A78:F78",
+      "land_anchor": "A75",
+      "merge": "A75:A78",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        95
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A79:F79",
+      "land_anchor": "A79",
+      "merge": "A79:A82",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [],
+      "rule_parameter_rows": [
+        74
+      ],
+      "rule_source": "2023年统计的相关数据!B111"
+    },
+    {
+      "source": "2023年的农作物种植情况!A80:F80",
+      "land_anchor": "A79",
+      "merge": "A79:A82",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [],
+      "rule_parameter_rows": [
+        75
+      ],
+      "rule_source": "2023年统计的相关数据!B111"
+    },
+    {
+      "source": "2023年的农作物种植情况!A81:F81",
+      "land_anchor": "A79",
+      "merge": "A79:A82",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        96
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A82:F82",
+      "land_anchor": "A79",
+      "merge": "A79:A82",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        103
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A83:F83",
+      "land_anchor": "A83",
+      "merge": "A83:A85",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [],
+      "rule_parameter_rows": [
+        66
+      ],
+      "rule_source": "2023年统计的相关数据!B111"
+    },
+    {
+      "source": "2023年的农作物种植情况!A84:F84",
+      "land_anchor": "A83",
+      "merge": "A83:A85",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        102
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A85:F85",
+      "land_anchor": "A83",
+      "merge": "A83:A85",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        104
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A86:F86",
+      "land_anchor": "A86",
+      "merge": "A86:A88",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [],
+      "rule_parameter_rows": [
+        68
+      ],
+      "rule_source": "2023年统计的相关数据!B111"
+    },
+    {
+      "source": "2023年的农作物种植情况!A87:F87",
+      "land_anchor": "A86",
+      "merge": "A86:A88",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        108
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    },
+    {
+      "source": "2023年的农作物种植情况!A88:F88",
+      "land_anchor": "A86",
+      "merge": "A86:A88",
+      "land_known": true,
+      "crop_known": true,
+      "name_type_match": true,
+      "suitable": true,
+      "direct_parameter_rows": [
+        97
+      ],
+      "rule_parameter_rows": [],
+      "rule_source": null
+    }
+  ],
+  "area_capacity_checks": [
+    {
+      "land": "A1",
+      "season": "单季",
+      "source_rows": [
+        2
+      ],
+      "sum_original_area_mu": "80",
+      "capacity_mu": "80",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "A2",
+      "season": "单季",
+      "source_rows": [
+        3
+      ],
+      "sum_original_area_mu": "55",
+      "capacity_mu": "55",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "A3",
+      "season": "单季",
+      "source_rows": [
+        4
+      ],
+      "sum_original_area_mu": "35",
+      "capacity_mu": "35",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "A4",
+      "season": "单季",
+      "source_rows": [
+        5
+      ],
+      "sum_original_area_mu": "72",
+      "capacity_mu": "72",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "A5",
+      "season": "单季",
+      "source_rows": [
+        6
+      ],
+      "sum_original_area_mu": "68",
+      "capacity_mu": "68",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "A6",
+      "season": "单季",
+      "source_rows": [
+        7
+      ],
+      "sum_original_area_mu": "55",
+      "capacity_mu": "55",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "B1",
+      "season": "单季",
+      "source_rows": [
+        8
+      ],
+      "sum_original_area_mu": "60",
+      "capacity_mu": "60",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "B2",
+      "season": "单季",
+      "source_rows": [
+        9
+      ],
+      "sum_original_area_mu": "46",
+      "capacity_mu": "46",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "B3",
+      "season": "单季",
+      "source_rows": [
+        10
+      ],
+      "sum_original_area_mu": "40",
+      "capacity_mu": "40",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "B4",
+      "season": "单季",
+      "source_rows": [
+        11
+      ],
+      "sum_original_area_mu": "28",
+      "capacity_mu": "28",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "B5",
+      "season": "单季",
+      "source_rows": [
+        12
+      ],
+      "sum_original_area_mu": "25",
+      "capacity_mu": "25",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "B6",
+      "season": "单季",
+      "source_rows": [
+        13
+      ],
+      "sum_original_area_mu": "86",
+      "capacity_mu": "86",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "B7",
+      "season": "单季",
+      "source_rows": [
+        14
+      ],
+      "sum_original_area_mu": "55",
+      "capacity_mu": "55",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "B8",
+      "season": "单季",
+      "source_rows": [
+        15
+      ],
+      "sum_original_area_mu": "44",
+      "capacity_mu": "44",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "B9",
+      "season": "单季",
+      "source_rows": [
+        16
+      ],
+      "sum_original_area_mu": "50",
+      "capacity_mu": "50",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "B10",
+      "season": "单季",
+      "source_rows": [
+        17
+      ],
+      "sum_original_area_mu": "25",
+      "capacity_mu": "25",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "B11",
+      "season": "单季",
+      "source_rows": [
+        18
+      ],
+      "sum_original_area_mu": "60",
+      "capacity_mu": "60",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "B12",
+      "season": "单季",
+      "source_rows": [
+        19
+      ],
+      "sum_original_area_mu": "45",
+      "capacity_mu": "45",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "B13",
+      "season": "单季",
+      "source_rows": [
+        20
+      ],
+      "sum_original_area_mu": "35",
+      "capacity_mu": "35",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "B14",
+      "season": "单季",
+      "source_rows": [
+        21
+      ],
+      "sum_original_area_mu": "20",
+      "capacity_mu": "20",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "C1",
+      "season": "单季",
+      "source_rows": [
+        22
+      ],
+      "sum_original_area_mu": "15",
+      "capacity_mu": "15",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "C2",
+      "season": "单季",
+      "source_rows": [
+        23
+      ],
+      "sum_original_area_mu": "13",
+      "capacity_mu": "13",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "C3",
+      "season": "单季",
+      "source_rows": [
+        24
+      ],
+      "sum_original_area_mu": "15",
+      "capacity_mu": "15",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "C4",
+      "season": "单季",
+      "source_rows": [
+        25
+      ],
+      "sum_original_area_mu": "18",
+      "capacity_mu": "18",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "C5",
+      "season": "单季",
+      "source_rows": [
+        26
+      ],
+      "sum_original_area_mu": "27",
+      "capacity_mu": "27",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "C6",
+      "season": "单季",
+      "source_rows": [
+        27
+      ],
+      "sum_original_area_mu": "20",
+      "capacity_mu": "20",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "D1",
+      "season": "第一季",
+      "source_rows": [
+        28
+      ],
+      "sum_original_area_mu": "15",
+      "capacity_mu": "15",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "D1",
+      "season": "第二季",
+      "source_rows": [
+        29
+      ],
+      "sum_original_area_mu": "15",
+      "capacity_mu": "15",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "D2",
+      "season": "第一季",
+      "source_rows": [
+        30
+      ],
+      "sum_original_area_mu": "10",
+      "capacity_mu": "10",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "D2",
+      "season": "第二季",
+      "source_rows": [
+        31
+      ],
+      "sum_original_area_mu": "10",
+      "capacity_mu": "10",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "D3",
+      "season": "第一季",
+      "source_rows": [
+        32
+      ],
+      "sum_original_area_mu": "14",
+      "capacity_mu": "14",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "D3",
+      "season": "第二季",
+      "source_rows": [
+        33
+      ],
+      "sum_original_area_mu": "14",
+      "capacity_mu": "14",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "D4",
+      "season": "第一季",
+      "source_rows": [
+        34
+      ],
+      "sum_original_area_mu": "6",
+      "capacity_mu": "6",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "D4",
+      "season": "第二季",
+      "source_rows": [
+        35
+      ],
+      "sum_original_area_mu": "6",
+      "capacity_mu": "6",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "D5",
+      "season": "第一季",
+      "source_rows": [
+        36
+      ],
+      "sum_original_area_mu": "10",
+      "capacity_mu": "10",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "D5",
+      "season": "第二季",
+      "source_rows": [
+        37
+      ],
+      "sum_original_area_mu": "10",
+      "capacity_mu": "10",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "D6",
+      "season": "第一季",
+      "source_rows": [
+        38
+      ],
+      "sum_original_area_mu": "12",
+      "capacity_mu": "12",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "D6",
+      "season": "第二季",
+      "source_rows": [
+        39
+      ],
+      "sum_original_area_mu": "12",
+      "capacity_mu": "12",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "D7",
+      "season": "单季",
+      "source_rows": [
+        40
+      ],
+      "sum_original_area_mu": "22",
+      "capacity_mu": "22",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "D8",
+      "season": "单季",
+      "source_rows": [
+        41
+      ],
+      "sum_original_area_mu": "20",
+      "capacity_mu": "20",
+      "difference_mu": "0",
+      "over_capacity": false
+    },
+    {
+      "land": "E1",
+      "season": "第一季",
+      "source_rows": [
+        42
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E1",
+      "season": "第二季",
+      "source_rows": [
+        43
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E2",
+      "season": "第一季",
+      "source_rows": [
+        44
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E2",
+      "season": "第二季",
+      "source_rows": [
+        45
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E3",
+      "season": "第一季",
+      "source_rows": [
+        46
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E3",
+      "season": "第二季",
+      "source_rows": [
+        47
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E4",
+      "season": "第一季",
+      "source_rows": [
+        48
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E4",
+      "season": "第二季",
+      "source_rows": [
+        49
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E5",
+      "season": "第一季",
+      "source_rows": [
+        50
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E5",
+      "season": "第二季",
+      "source_rows": [
+        51
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E6",
+      "season": "第一季",
+      "source_rows": [
+        52
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E6",
+      "season": "第二季",
+      "source_rows": [
+        53
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E7",
+      "season": "第一季",
+      "source_rows": [
+        54
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E7",
+      "season": "第二季",
+      "source_rows": [
+        55
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E8",
+      "season": "第一季",
+      "source_rows": [
+        56
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E8",
+      "season": "第二季",
+      "source_rows": [
+        57
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E9",
+      "season": "第一季",
+      "source_rows": [
+        58
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E9",
+      "season": "第二季",
+      "source_rows": [
+        59
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E10",
+      "season": "第一季",
+      "source_rows": [
+        60
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E10",
+      "season": "第二季",
+      "source_rows": [
+        61
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E11",
+      "season": "第一季",
+      "source_rows": [
+        62
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E11",
+      "season": "第二季",
+      "source_rows": [
+        63
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E12",
+      "season": "第一季",
+      "source_rows": [
+        64
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E12",
+      "season": "第二季",
+      "source_rows": [
+        65
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E13",
+      "season": "第一季",
+      "source_rows": [
+        66
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E13",
+      "season": "第二季",
+      "source_rows": [
+        67
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E14",
+      "season": "第一季",
+      "source_rows": [
+        68
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E14",
+      "season": "第二季",
+      "source_rows": [
+        69
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E15",
+      "season": "第一季",
+      "source_rows": [
+        70,
+        71
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E15",
+      "season": "第二季",
+      "source_rows": [
+        72
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E16",
+      "season": "第一季",
+      "source_rows": [
+        73
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "E16",
+      "season": "第二季",
+      "source_rows": [
+        74
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "F1",
+      "season": "第一季",
+      "source_rows": [
+        75,
+        76
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "F1",
+      "season": "第二季",
+      "source_rows": [
+        77,
+        78
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "F2",
+      "season": "第一季",
+      "source_rows": [
+        79,
+        80
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "F2",
+      "season": "第二季",
+      "source_rows": [
+        81,
+        82
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "F3",
+      "season": "第一季",
+      "source_rows": [
+        83
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "F3",
+      "season": "第二季",
+      "source_rows": [
+        84,
+        85
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "F4",
+      "season": "第一季",
+      "source_rows": [
+        86
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    },
+    {
+      "land": "F4",
+      "season": "第二季",
+      "source_rows": [
+        87,
+        88
+      ],
+      "sum_original_area_mu": "0.6",
+      "capacity_mu": "0.6",
+      "difference_mu": "0.0",
+      "over_capacity": false
+    }
+  ],
+  "raw_extreme_review": [
+    {
+      "field": "亩产量/斤",
+      "kind": "min",
+      "value": 100,
+      "rows": [
+        {
+          "source": "2023年统计的相关数据!B42:H42",
+          "crop": "荞麦",
+          "land_type": "山坡地",
+          "season": "单季"
+        }
+      ],
+      "status": "raw_extreme_for_context_review_not_error_label"
+    },
+    {
+      "field": "亩产量/斤",
+      "kind": "max",
+      "value": 15000,
+      "rows": [
+        {
+          "source": "2023年统计的相关数据!B78:H78",
+          "crop": "黄瓜",
+          "land_type": "普通大棚 ",
+          "season": "第一季"
+        }
+      ],
+      "status": "raw_extreme_for_context_review_not_error_label"
+    },
+    {
+      "field": "种植成本/(元/亩)",
+      "kind": "min",
+      "value": 350,
+      "rows": [
+        {
+          "source": "2023年统计的相关数据!B4:H4",
+          "crop": "红豆",
+          "land_type": "平旱地",
+          "season": "单季"
+        },
+        {
+          "source": "2023年统计的相关数据!B5:H5",
+          "crop": "绿豆",
+          "land_type": "平旱地",
+          "season": "单季"
+        },
+        {
+          "source": "2023年统计的相关数据!B6:H6",
+          "crop": "爬豆",
+          "land_type": "平旱地",
+          "season": "单季"
+        },
+        {
+          "source": "2023年统计的相关数据!B12:H12",
+          "crop": "荞麦",
+          "land_type": "平旱地",
+          "season": "单季"
+        },
+        {
+          "source": "2023年统计的相关数据!B16:H16",
+          "crop": "大麦",
+          "land_type": "平旱地",
+          "season": "单季"
+        },
+        {
+          "source": "2023年统计的相关数据!B19:H19",
+          "crop": "红豆",
+          "land_type": "梯田",
+          "season": "单季"
+        },
+        {
+          "source": "2023年统计的相关数据!B20:H20",
+          "crop": "绿豆",
+          "land_type": "梯田",
+          "season": "单季"
+        },
+        {
+          "source": "2023年统计的相关数据!B21:H21",
+          "crop": "爬豆",
+          "land_type": "梯田",
+          "season": "单季"
+        },
+        {
+          "source": "2023年统计的相关数据!B27:H27",
+          "crop": "荞麦",
+          "land_type": "梯田",
+          "season": "单季"
+        },
+        {
+          "source": "2023年统计的相关数据!B31:H31",
+          "crop": "大麦",
+          "land_type": "梯田",
+          "season": "单季"
+        },
+        {
+          "source": "2023年统计的相关数据!B34:H34",
+          "crop": "红豆",
+          "land_type": "山坡地",
+          "season": "单季"
+        },
+        {
+          "source": "2023年统计的相关数据!B35:H35",
+          "crop": "绿豆",
+          "land_type": "山坡地",
+          "season": "单季"
+        },
+        {
+          "source": "2023年统计的相关数据!B36:H36",
+          "crop": "爬豆",
+          "land_type": "山坡地",
+          "season": "单季"
+        },
+        {
+          "source": "2023年统计的相关数据!B42:H42",
+          "crop": "荞麦",
+          "land_type": "山坡地",
+          "season": "单季"
+        },
+        {
+          "source": "2023年统计的相关数据!B46:H46",
+          "crop": "大麦",
+          "land_type": "山坡地",
+          "season": "单季"
+        }
+      ],
+      "status": "raw_extreme_for_context_review_not_error_label"
+    },
+    {
+      "field": "种植成本/(元/亩)",
+      "kind": "max",
+      "value": 10000,
+      "rows": [
+        {
+          "source": "2023年统计的相关数据!B89:H89",
+          "crop": "白灵菇",
+          "land_type": "普通大棚 ",
+          "season": "第二季"
+        },
+        {
+          "source": "2023年统计的相关数据!B90:H90",
+          "crop": "羊肚菌",
+          "land_type": "普通大棚 ",
+          "season": "第二季"
+        }
+      ],
+      "status": "raw_extreme_for_context_review_not_error_label"
+    }
+  ],
+  "template_checks": [
+    {
+      "file": "附件3\\result1_1.xlsx",
+      "sheet": "2024",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result1_1.xlsx",
+      "sheet": "2025",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result1_1.xlsx",
+      "sheet": "2026",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result1_1.xlsx",
+      "sheet": "2027",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result1_1.xlsx",
+      "sheet": "2028",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result1_1.xlsx",
+      "sheet": "2029",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result1_1.xlsx",
+      "sheet": "2030",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result1_2.xlsx",
+      "sheet": "2024",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result1_2.xlsx",
+      "sheet": "2025",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result1_2.xlsx",
+      "sheet": "2026",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result1_2.xlsx",
+      "sheet": "2027",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result1_2.xlsx",
+      "sheet": "2028",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result1_2.xlsx",
+      "sheet": "2029",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result1_2.xlsx",
+      "sheet": "2030",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result2.xlsx",
+      "sheet": "2024",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result2.xlsx",
+      "sheet": "2025",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result2.xlsx",
+      "sheet": "2026",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result2.xlsx",
+      "sheet": "2027",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result2.xlsx",
+      "sheet": "2028",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result2.xlsx",
+      "sheet": "2029",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    },
+    {
+      "file": "附件3\\result2.xlsx",
+      "sheet": "2030",
+      "year_set_correct": true,
+      "same_structure_as_first_year": true,
+      "crop_headers_match": true,
+      "row_count": 82,
+      "unknown_lands": [],
+      "season_counts": {
+        "第一季": 54,
+        "第二季": 28
+      },
+      "duplicate_land_season": [],
+      "nonempty_result_cells": [],
+      "notes": [
+        "(1) 表格中填写各种农作物每季种植的亩数。",
+        "(2) 单季农作物的种植亩数填在第一季相应的单元格中。",
+        "(3) 不要对表格的形式作任何修改。"
+      ]
+    }
+  ],
+  "source_notes": {
+    "乡村的现有耕地!D2": "(1) 平旱地、梯田和山坡地每年都只能种植一季作物。\n\n(2) 水浇地每年可以种植一季也可以种植两季作物。\n\n(3) 大棚能够在一定程度上起保温作用，每年都可以种植两季作物。\n \n(4) 智慧大棚主要是在冬季利用太阳能自动调节棚内温度，保证作物的正常生长。\n\n\n ",
+    "乡村种植的农作物!E2": "(1) 平旱地、梯田和山坡地每年适宜单季种植粮食类作物（水稻除外）。\n\n(2) 水浇地每年可以单季种植水稻或两季种植蔬菜作物。\n\n(3) 若在某块水浇地种植两季蔬菜，第一季可种植多种蔬菜（大白菜、白萝卜和红萝卜除外）；第二季只能种植大白菜、白萝卜和红萝卜中的一种（便于管理）。\n\n(4) 根据季节性要求，大白菜、白萝卜和红萝卜只能在水浇地的第二季种植。\n\n(5) 普通大棚每年种植两季作物，第一季可种植多种蔬菜（大白菜、白萝卜和红萝卜除外），第二季只能种植食用菌。\n\n(6) 因食用菌类适应在较低且适宜的温度和湿度环境中生长，所以只能在秋冬季的普通大棚里种植。\n\n(7) 智慧大棚每年都可种植两季蔬菜（大白菜、白萝卜和红萝卜除外）。\n",
+    "乡村种植的农作物!B44": "(1) 水浇地的第一季通常是在每年的3月至6月前后，第二季是在7月至10月前后。",
+    "乡村种植的农作物!B45": "(2) 普通大棚的第一季通常是在每年的5月至9月前后，第二季是在9月至下一年4月前后。",
+    "乡村种植的农作物!B46": "(3) 智慧大棚的第一季通常是在每年的3月至7月前后，第二季是在8月至下一年的2月前后。",
+    "2023年统计的相关数据!B110": "(1) 该数据是2023年根据近几年的相应数据统计所得。",
+    "2023年统计的相关数据!B111": "(2) 智慧大棚第一季可种植的蔬菜作物及其亩产量、种植成本和销售价格均与普通大棚相同，表中省略。"
+  }
+}

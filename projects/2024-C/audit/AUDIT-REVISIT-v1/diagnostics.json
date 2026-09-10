@@ -1,0 +1,420 @@
+{
+  "land_records": 54,
+  "crop_records": 41,
+  "history_records": 87,
+  "original_parameter_records": 107,
+  "blank_cells_in_selected_fields": 69,
+  "merged_blanks_with_nonempty_anchor": 69,
+  "unexplained_blank_cells": [],
+  "whitespace_cells": 83,
+  "duplicate_land_keys": [],
+  "duplicate_crop_keys": [],
+  "duplicate_history_keys": [],
+  "duplicate_parameter_keys": [],
+  "parameter_crop_name_mismatches": [],
+  "parameter_invalid_suitability": [],
+  "missing_direct_parameter_keys": [
+    [
+      17,
+      "智慧大棚",
+      "第一季"
+    ],
+    [
+      18,
+      "智慧大棚",
+      "第一季"
+    ],
+    [
+      19,
+      "智慧大棚",
+      "第一季"
+    ],
+    [
+      20,
+      "智慧大棚",
+      "第一季"
+    ],
+    [
+      21,
+      "智慧大棚",
+      "第一季"
+    ],
+    [
+      22,
+      "智慧大棚",
+      "第一季"
+    ],
+    [
+      23,
+      "智慧大棚",
+      "第一季"
+    ],
+    [
+      24,
+      "智慧大棚",
+      "第一季"
+    ],
+    [
+      25,
+      "智慧大棚",
+      "第一季"
+    ],
+    [
+      26,
+      "智慧大棚",
+      "第一季"
+    ],
+    [
+      27,
+      "智慧大棚",
+      "第一季"
+    ],
+    [
+      28,
+      "智慧大棚",
+      "第一季"
+    ],
+    [
+      29,
+      "智慧大棚",
+      "第一季"
+    ],
+    [
+      30,
+      "智慧大棚",
+      "第一季"
+    ],
+    [
+      31,
+      "智慧大棚",
+      "第一季"
+    ],
+    [
+      32,
+      "智慧大棚",
+      "第一季"
+    ],
+    [
+      33,
+      "智慧大棚",
+      "第一季"
+    ],
+    [
+      34,
+      "智慧大棚",
+      "第一季"
+    ]
+  ],
+  "history_direct_parameter_matches": 81,
+  "history_rule_parameter_matches": 6,
+  "history_failed_checks": [],
+  "area_groups_checked": 80,
+  "area_over_capacity": [],
+  "area_not_equal_capacity": [],
+  "price_interval_count": 107,
+  "invalid_price_intervals": [],
+  "invalid_numeric_cells": [],
+  "legal_crop_output_season_pairs": 59,
+  "observed_crop_output_season_pairs": 47,
+  "unobserved_legal_pairs": [
+    {
+      "crop_id": 17,
+      "crop": "豇豆",
+      "template_season": "第二季",
+      "meaning": "not planted in 2023 records, not zero demand"
+    },
+    {
+      "crop_id": 18,
+      "crop": "刀豆",
+      "template_season": "第二季",
+      "meaning": "not planted in 2023 records, not zero demand"
+    },
+    {
+      "crop_id": 19,
+      "crop": "芸豆",
+      "template_season": "第二季",
+      "meaning": "not planted in 2023 records, not zero demand"
+    },
+    {
+      "crop_id": 20,
+      "crop": "土豆",
+      "template_season": "第二季",
+      "meaning": "not planted in 2023 records, not zero demand"
+    },
+    {
+      "crop_id": 23,
+      "crop": "菠菜",
+      "template_season": "第一季",
+      "meaning": "not planted in 2023 records, not zero demand"
+    },
+    {
+      "crop_id": 25,
+      "crop": "菜花",
+      "template_season": "第二季",
+      "meaning": "not planted in 2023 records, not zero demand"
+    },
+    {
+      "crop_id": 26,
+      "crop": "包菜",
+      "template_season": "第二季",
+      "meaning": "not planted in 2023 records, not zero demand"
+    },
+    {
+      "crop_id": 27,
+      "crop": "油麦菜",
+      "template_season": "第二季",
+      "meaning": "not planted in 2023 records, not zero demand"
+    },
+    {
+      "crop_id": 31,
+      "crop": "辣椒",
+      "template_season": "第二季",
+      "meaning": "not planted in 2023 records, not zero demand"
+    },
+    {
+      "crop_id": 32,
+      "crop": "空心菜",
+      "template_season": "第二季",
+      "meaning": "not planted in 2023 records, not zero demand"
+    },
+    {
+      "crop_id": 33,
+      "crop": "黄心菜",
+      "template_season": "第二季",
+      "meaning": "not planted in 2023 records, not zero demand"
+    },
+    {
+      "crop_id": 34,
+      "crop": "芹菜",
+      "template_season": "第一季",
+      "meaning": "not planted in 2023 records, not zero demand"
+    }
+  ],
+  "template_sheets_checked": 21,
+  "frozen_source_comparisons": [
+    {
+      "file": "lands.csv",
+      "records": 54,
+      "source_fields_compared": 162,
+      "mismatches": []
+    },
+    {
+      "file": "crops.csv",
+      "records": 41,
+      "source_fields_compared": 164,
+      "mismatches": []
+    },
+    {
+      "file": "planting_2023.csv",
+      "records": 87,
+      "source_fields_compared": 522,
+      "mismatches": []
+    },
+    {
+      "file": "parameters_original.csv",
+      "records": 107,
+      "source_fields_compared": 856,
+      "mismatches": []
+    }
+  ],
+  "frozen_rule_parameter_checks": [
+    {
+      "record_id": "I17",
+      "crop_id": 17,
+      "target_land": "智慧大棚",
+      "season": "第一季",
+      "ordinary_source_rows": [
+        66
+      ],
+      "raw_parameter_values_match": true,
+      "declared_rule_source": "附件2.xlsx/2023年统计的相关数据!B111"
+    },
+    {
+      "record_id": "I18",
+      "crop_id": 18,
+      "target_land": "智慧大棚",
+      "season": "第一季",
+      "ordinary_source_rows": [
+        67
+      ],
+      "raw_parameter_values_match": true,
+      "declared_rule_source": "附件2.xlsx/2023年统计的相关数据!B111"
+    },
+    {
+      "record_id": "I19",
+      "crop_id": 19,
+      "target_land": "智慧大棚",
+      "season": "第一季",
+      "ordinary_source_rows": [
+        68
+      ],
+      "raw_parameter_values_match": true,
+      "declared_rule_source": "附件2.xlsx/2023年统计的相关数据!B111"
+    },
+    {
+      "record_id": "I20",
+      "crop_id": 20,
+      "target_land": "智慧大棚",
+      "season": "第一季",
+      "ordinary_source_rows": [
+        69
+      ],
+      "raw_parameter_values_match": true,
+      "declared_rule_source": "附件2.xlsx/2023年统计的相关数据!B111"
+    },
+    {
+      "record_id": "I21",
+      "crop_id": 21,
+      "target_land": "智慧大棚",
+      "season": "第一季",
+      "ordinary_source_rows": [
+        70
+      ],
+      "raw_parameter_values_match": true,
+      "declared_rule_source": "附件2.xlsx/2023年统计的相关数据!B111"
+    },
+    {
+      "record_id": "I22",
+      "crop_id": 22,
+      "target_land": "智慧大棚",
+      "season": "第一季",
+      "ordinary_source_rows": [
+        71
+      ],
+      "raw_parameter_values_match": true,
+      "declared_rule_source": "附件2.xlsx/2023年统计的相关数据!B111"
+    },
+    {
+      "record_id": "I23",
+      "crop_id": 23,
+      "target_land": "智慧大棚",
+      "season": "第一季",
+      "ordinary_source_rows": [
+        72
+      ],
+      "raw_parameter_values_match": true,
+      "declared_rule_source": "附件2.xlsx/2023年统计的相关数据!B111"
+    },
+    {
+      "record_id": "I24",
+      "crop_id": 24,
+      "target_land": "智慧大棚",
+      "season": "第一季",
+      "ordinary_source_rows": [
+        73
+      ],
+      "raw_parameter_values_match": true,
+      "declared_rule_source": "附件2.xlsx/2023年统计的相关数据!B111"
+    },
+    {
+      "record_id": "I25",
+      "crop_id": 25,
+      "target_land": "智慧大棚",
+      "season": "第一季",
+      "ordinary_source_rows": [
+        74
+      ],
+      "raw_parameter_values_match": true,
+      "declared_rule_source": "附件2.xlsx/2023年统计的相关数据!B111"
+    },
+    {
+      "record_id": "I26",
+      "crop_id": 26,
+      "target_land": "智慧大棚",
+      "season": "第一季",
+      "ordinary_source_rows": [
+        75
+      ],
+      "raw_parameter_values_match": true,
+      "declared_rule_source": "附件2.xlsx/2023年统计的相关数据!B111"
+    },
+    {
+      "record_id": "I27",
+      "crop_id": 27,
+      "target_land": "智慧大棚",
+      "season": "第一季",
+      "ordinary_source_rows": [
+        76
+      ],
+      "raw_parameter_values_match": true,
+      "declared_rule_source": "附件2.xlsx/2023年统计的相关数据!B111"
+    },
+    {
+      "record_id": "I28",
+      "crop_id": 28,
+      "target_land": "智慧大棚",
+      "season": "第一季",
+      "ordinary_source_rows": [
+        77
+      ],
+      "raw_parameter_values_match": true,
+      "declared_rule_source": "附件2.xlsx/2023年统计的相关数据!B111"
+    },
+    {
+      "record_id": "I29",
+      "crop_id": 29,
+      "target_land": "智慧大棚",
+      "season": "第一季",
+      "ordinary_source_rows": [
+        78
+      ],
+      "raw_parameter_values_match": true,
+      "declared_rule_source": "附件2.xlsx/2023年统计的相关数据!B111"
+    },
+    {
+      "record_id": "I30",
+      "crop_id": 30,
+      "target_land": "智慧大棚",
+      "season": "第一季",
+      "ordinary_source_rows": [
+        79
+      ],
+      "raw_parameter_values_match": true,
+      "declared_rule_source": "附件2.xlsx/2023年统计的相关数据!B111"
+    },
+    {
+      "record_id": "I31",
+      "crop_id": 31,
+      "target_land": "智慧大棚",
+      "season": "第一季",
+      "ordinary_source_rows": [
+        80
+      ],
+      "raw_parameter_values_match": true,
+      "declared_rule_source": "附件2.xlsx/2023年统计的相关数据!B111"
+    },
+    {
+      "record_id": "I32",
+      "crop_id": 32,
+      "target_land": "智慧大棚",
+      "season": "第一季",
+      "ordinary_source_rows": [
+        81
+      ],
+      "raw_parameter_values_match": true,
+      "declared_rule_source": "附件2.xlsx/2023年统计的相关数据!B111"
+    },
+    {
+      "record_id": "I33",
+      "crop_id": 33,
+      "target_land": "智慧大棚",
+      "season": "第一季",
+      "ordinary_source_rows": [
+        82
+      ],
+      "raw_parameter_values_match": true,
+      "declared_rule_source": "附件2.xlsx/2023年统计的相关数据!B111"
+    },
+    {
+      "record_id": "I34",
+      "crop_id": 34,
+      "target_land": "智慧大棚",
+      "season": "第一季",
+      "ordinary_source_rows": [
+        83
+      ],
+      "raw_parameter_values_match": true,
+      "declared_rule_source": "附件2.xlsx/2023年统计的相关数据!B111"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "method": "Original OOXML/Decimal; source rules explicitly encoded from attachment1 E2, not derived from EDA mapping",
+  "checked": "6 land groups,41 crop history groups,30 history category cells,410 coverage cells,107x4 parameter values,bean/mixed groups",
+  "failures": [],
+  "protected_files": 423,
+  "protected_mismatches": [],
+  "independent_human_verification": false
+}

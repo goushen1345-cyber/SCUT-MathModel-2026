@@ -1,0 +1,81 @@
+\documentclass[border=3mm]{standalone}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\setCJKmainfont[BoldFont=SimHei]{SimSun}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,fit,backgrounds}
+\definecolor{basefill}{HTML}{F1F3F5}
+\definecolor{qone}{HTML}{EFF4F0}
+\definecolor{qtwo}{HTML}{EDF2F6}
+\definecolor{qthree}{HTML}{F5F1EA}
+\tikzset{box/.style={draw=black!65,line width=.55pt,rounded corners=1.1pt,fill=white,align=center,inner xsep=3pt,inner ysep=4pt,text=black,font=\fontsize{8.6}{12}\selectfont},
+ arrow/.style={-{Stealth[length=1.7mm,width=1.4mm]},line width=.55pt,draw=black!75},
+ line/.style={line width=.55pt,draw=black!75},
+ ext/.style={arrow,dashed},
+ heading/.style={anchor=west,text=black,font=\fontsize{10}{12}\selectfont\bfseries},
+ note/.style={text=black,font=\fontsize{7.3}{9}\selectfont,align=center,fill=white,inner sep=1.5pt}}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+
+\node[heading] at (0,1.2) {1\quad 输入与问题};
+\node[heading] at (0,-1.25) {2\quad 数据与参数};
+\node[heading] at (0,-3.75) {3\quad 统一混合整数规划骨架};
+\node[heading] at (0,-7.02) {4\quad 三问扩展};
+\node[box,text width=7.5cm,minimum height=1.45cm,fill=white] (I1) at (3.95,0) {\shortstack[c]{\textbf{2024—2030年种植决策}\\逐地块、逐年、逐季、逐作物面积\\提高七年收益，兼顾风险与田间管理}};
+\node[box,text width=7.5cm,minimum height=1.45cm,fill=white] (I2) at (12.45,0) {\shortstack[c]{\textbf{附件1：耕地与作物信息}\\附件2：2023年种植及统计参数\\附件3：问题一、二的三本结果模板}};
+\node[box,text width=4.65cm,minimum height=1.7cm,fill=white] (D1) at (2.65,-2.5) {\shortstack[c]{\textbf{土地与作物参数}\\地类、面积、合法作物—季次\\豆类标识与设施种植规则}};
+\node[box,text width=4.65cm,minimum height=1.7cm,fill=white] (D2) at (8.2,-2.5) {\shortstack[c]{\textbf{生产与经济参数}\\2023种植及历史轮作边界\\亩产、亩成本、价格区间$\rightarrow$中点}};
+\node[box,text width=4.65cm,minimum height=1.7cm,fill=white] (D3) at (13.75,-2.5) {\shortstack[c]{\textbf{正常销量代理}\\2023产量估计；真实销量未知\\未观测季分配0\%／5\%／10\%\\年度代理总量保持不变}};
+\node[box,text width=4.65cm,minimum height=1.85cm,fill=basefill] (UV) at (2.65,-5.3) {\shortstack[c]{\textbf{变量、销售与目标}\\面积／启用／模式；分段销售\\正常销售$\leq$产量、销量额度\\七年销售收入$-$种植成本}};
+\node[box,text width=4.65cm,minimum height=1.85cm,fill=basefill] (UA) at (8.2,-5.3) {\shortstack[c]{\textbf{土地与生产约束}\\容量与启用季满额种植约定\\作物—地类适配；设施季次\\水稻／两季蔬菜模式互斥}};
+\node[box,text width=4.65cm,minimum height=1.85cm,fill=basefill] (UT) at (13.75,-5.3) {\shortstack[c]{\textbf{跨年轮作与管理}\\相邻茬避重茬；衔接2023年\\三年豆类累计面积代理\\最小面积50\%；每作物每季$\leq$7块}};
+\node[box,text width=4.65cm,minimum height=1.9cm,fill=qone] (Q1A) at (2.65,-9.0) {\shortstack[c]{\textbf{问题一：基础种植优化}\\参数稳定；三种销量分配情形\\超额滞销／正常价格50\%出售\\收益与种植启用项数权衡}};
+\node[box,text width=4.65cm,minimum height=1.9cm,fill=qone] (Q1B) at (2.65,-11.55) {\shortstack[c]{\textbf{求解与管理诊断}\\可行构造；利润—管理三阶段\\热启动补强与跨销量情形计价\\管理阈值、豆类口径诊断}};
+\node[box,text width=4.65cm,minimum height=1.45cm,fill=qone] (Q1C) at (2.65,-13.95) {\shortstack[c]{\textbf{两种销售规则各一套种植表}\\七年收益、启用项数\\销量敏感性与最优性间隙}};
+\node[box,text width=4.65cm,minimum height=1.9cm,fill=qtwo] (Q2A) at (8.2,-9.0) {\shortstack[c]{\textbf{问题二：未来参数变化}\\销量、亩产及菌价随机波动\\成本／菜价主路径年增5\%\\三点分布；概率为模拟设定}};
+\node[box,text width=4.65cm,minimum height=1.9cm,fill=qtwo] (Q2B) at (8.2,-11.55) {\shortstack[c]{\textbf{候选比较与风险评价}\\参考／中间趋势／多情景均值\\均值—尾部风险／压力保底\\留出均值、最差10\%及敏感性}};
+\node[box,text width=4.65cm,minimum height=1.45cm,fill=qtwo] (Q2C) at (8.2,-13.95) {\shortstack[c]{\textbf{保留确定性中间趋势方案}\\输出七年种植表\\比较收益、尾部风险与可行性}};
+\node[box,text width=4.65cm,minimum height=1.9cm,fill=qthree] (Q3A) at (13.75,-9.0) {\shortstack[c]{\textbf{问题三：作物关系扩展}\\市场／通胀／天气潜在因子\\替代／互补：相对价格$\rightarrow$需求\\成本／菜价档位另行随机化}};
+\node[box,text width=4.65cm,minimum height=1.9cm,fill=qthree] (Q3B) at (13.75,-11.55) {\shortstack[c]{\textbf{候选与三世界比较}\\相关底层：无／替代／混合响应\\基准／相关／网络／风险候选\\局部改种、强度敏感性与留出}};
+\node[box,text width=4.65cm,minimum height=1.45cm,fill=qthree] (Q3C) at (13.75,-13.95) {\shortstack[c]{\textbf{有效挑战者未达替换门槛}\\保留问题二种植方案\\给出关系影响及适用条件}};
+\node[box,text width=15.7cm,minimum height=1.3cm,fill=white] (R1) at (8.2,-16.0) {\shortstack[c]{\textbf{综合结果与决策建议}\\七年种植方案与收益｜尾部风险｜启用项与分散程度\\补充实际销量、更新经济参数、建立地块轮作台账}};
+\node[box,text width=15.7cm,minimum height=1.3cm,fill=white] (R2) at (8.2,-17.85) {\shortstack[c]{\textbf{解释边界}\\销量、概率及关系均为设定；关系风险候选证据不足\\相关核验限训练潜在层；豆类为累计面积代理；未证全局最优}};
+\begin{scope}[on background layer]
+\node[draw=black!70,line width=.65pt,rounded corners=2pt,fit=(UV)(UA)(UT),inner sep=5pt] (G) {};
+\end{scope}
+\draw[line] (I1.south) -- (3.95,-1.02);
+\draw[line] (I2.south) -- node[note,right]{附件1、2} (12.45,-1.02);
+\draw[line] (2.65,-1.02) -- (13.75,-1.02);
+\draw[arrow] (2.65,-1.02) -- (D1.north);
+\draw[line] (D1.south) -- (2.65,-3.55);
+\draw[arrow] (8.2,-1.02) -- (D2.north);
+\draw[line] (D2.south) -- (8.2,-3.55);
+\draw[arrow] (13.75,-1.02) -- (D3.north);
+\draw[line] (D3.south) -- (13.75,-3.55);
+\draw[line] (2.65,-3.55) -- (13.75,-3.55);
+\draw[arrow] (8.2,-3.55) -- (G.north);
+\draw[line] (G.south) -- (8.2,-6.55);
+\draw[line] (2.65,-6.55) -- (13.75,-6.55);
+\draw[arrow] (2.65,-6.55) -- (Q1A.north);
+\draw[arrow] (8.2,-6.55) -- (Q2A.north);
+\draw[arrow] (13.75,-6.55) -- (Q3A.north);
+\draw[ext] (4.2,-8.03) -- (4.2,-7.7) -- node[note,above]{增加参数不确定性} (6.65,-7.7) -- (6.65,-8.03);
+\draw[ext] (9.75,-8.03) -- (9.75,-7.7) -- node[note,above]{增加作物关系\\并披露额外随机设定} (12.2,-7.7) -- (12.2,-8.03);
+\draw[arrow] (Q1A.south) -- (Q1B.north);
+\draw[arrow] (Q1B.south) -- (Q1C.north);
+\draw[arrow] (Q2A.south) -- (Q2B.north);
+\draw[arrow] (Q2B.south) -- (Q2C.north);
+\draw[arrow] (Q3A.south) -- (Q3B.north);
+\draw[arrow] (Q3B.south) -- (Q3C.north);
+\draw[arrow] (Q1C.east) -- (5.425,-13.95) -- node[note,rotate=90]{半价参考方案} (5.425,-11.55) -- (Q2B.west);
+\draw[arrow] (Q2C.east) -- (10.975,-13.95) -- node[note,rotate=90]{问题二基准方案} (10.975,-11.55) -- (Q3B.west);
+\draw[line] (Q1C.south) -- (2.65,-15.05);
+\draw[line] (Q2C.south) -- (8.2,-15.05);
+\draw[line] (Q3C.south) -- (13.75,-15.05);
+\draw[line] (2.65,-15.05) -- (13.75,-15.05);
+\draw[arrow] (8.2,-15.05) -- (R1.north);
+\draw[arrow] (R1.south) -- (R2.north);
+\node[note,anchor=west] at (0,-18.85) {实线：输入、求解与结果传递\qquad 虚线：新增现实因素\qquad 侧向箭头：参考方案参与比较};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,13 @@
+{
+  "version": "AUDIT-REVISIT-v1",
+  "authorization": "U029",
+  "started_utc": "2026-09-10T07:29:49+00:00",
+  "diagnostics_finished_utc": "2026-09-10T07:34:02.028734+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "source_code_sha256": "3cb4995ba4bcc518b26a4701de04ff5243b3ca9c1c3dad4f82816362e20dbdf2",
+  "protected_files": 423,
+  "changed_protected_files": [],
+  "scope": "diagnostic only; no input export, cleaning, EDA, production/demand/revenue/midpoint computation, model or experiment",
+  "budget_seconds": 1800,
+  "command": "bundled Python audit/AUDIT-REVISIT-v1/audit_readonly.py"
+}

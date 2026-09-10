@@ -1,0 +1,4949 @@
+{
+  "data_version": "G1-v1-base",
+  "land_types": [
+    "平旱地",
+    "梯田",
+    "山坡地",
+    "水浇地",
+    "普通大棚",
+    "智慧大棚"
+  ],
+  "categories": [
+    "粮食（豆类）",
+    "粮食",
+    "蔬菜（豆类）",
+    "蔬菜",
+    "食用菌"
+  ],
+  "lands": [
+    {
+      "land_id": "A1",
+      "land_type": "平旱地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "2",
+      "area": 80.0
+    },
+    {
+      "land_id": "A2",
+      "land_type": "平旱地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "3",
+      "area": 55.0
+    },
+    {
+      "land_id": "A3",
+      "land_type": "平旱地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "4",
+      "area": 35.0
+    },
+    {
+      "land_id": "A4",
+      "land_type": "平旱地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "5",
+      "area": 72.0
+    },
+    {
+      "land_id": "A5",
+      "land_type": "平旱地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "6",
+      "area": 68.0
+    },
+    {
+      "land_id": "A6",
+      "land_type": "平旱地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "7",
+      "area": 55.0
+    },
+    {
+      "land_id": "B1",
+      "land_type": "梯田",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "8",
+      "area": 60.0
+    },
+    {
+      "land_id": "B2",
+      "land_type": "梯田",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "9",
+      "area": 46.0
+    },
+    {
+      "land_id": "B3",
+      "land_type": "梯田",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "10",
+      "area": 40.0
+    },
+    {
+      "land_id": "B4",
+      "land_type": "梯田",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "11",
+      "area": 28.0
+    },
+    {
+      "land_id": "B5",
+      "land_type": "梯田",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "12",
+      "area": 25.0
+    },
+    {
+      "land_id": "B6",
+      "land_type": "梯田",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "13",
+      "area": 86.0
+    },
+    {
+      "land_id": "B7",
+      "land_type": "梯田",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "14",
+      "area": 55.0
+    },
+    {
+      "land_id": "B8",
+      "land_type": "梯田",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "15",
+      "area": 44.0
+    },
+    {
+      "land_id": "B9",
+      "land_type": "梯田",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "16",
+      "area": 50.0
+    },
+    {
+      "land_id": "B10",
+      "land_type": "梯田",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "17",
+      "area": 25.0
+    },
+    {
+      "land_id": "B11",
+      "land_type": "梯田",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "18",
+      "area": 60.0
+    },
+    {
+      "land_id": "B12",
+      "land_type": "梯田",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "19",
+      "area": 45.0
+    },
+    {
+      "land_id": "B13",
+      "land_type": "梯田",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "20",
+      "area": 35.0
+    },
+    {
+      "land_id": "B14",
+      "land_type": "梯田",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "21",
+      "area": 20.0
+    },
+    {
+      "land_id": "C1",
+      "land_type": "山坡地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "22",
+      "area": 15.0
+    },
+    {
+      "land_id": "C2",
+      "land_type": "山坡地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "23",
+      "area": 13.0
+    },
+    {
+      "land_id": "C3",
+      "land_type": "山坡地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "24",
+      "area": 15.0
+    },
+    {
+      "land_id": "C4",
+      "land_type": "山坡地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "25",
+      "area": 18.0
+    },
+    {
+      "land_id": "C5",
+      "land_type": "山坡地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "26",
+      "area": 27.0
+    },
+    {
+      "land_id": "C6",
+      "land_type": "山坡地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "27",
+      "area": 20.0
+    },
+    {
+      "land_id": "D1",
+      "land_type": "水浇地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "28",
+      "area": 15.0
+    },
+    {
+      "land_id": "D2",
+      "land_type": "水浇地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "29",
+      "area": 10.0
+    },
+    {
+      "land_id": "D3",
+      "land_type": "水浇地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "30",
+      "area": 14.0
+    },
+    {
+      "land_id": "D4",
+      "land_type": "水浇地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "31",
+      "area": 6.0
+    },
+    {
+      "land_id": "D5",
+      "land_type": "水浇地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "32",
+      "area": 10.0
+    },
+    {
+      "land_id": "D6",
+      "land_type": "水浇地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "33",
+      "area": 12.0
+    },
+    {
+      "land_id": "D7",
+      "land_type": "水浇地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "34",
+      "area": 22.0
+    },
+    {
+      "land_id": "D8",
+      "land_type": "水浇地",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "35",
+      "area": 20.0
+    },
+    {
+      "land_id": "E1",
+      "land_type": "普通大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "36",
+      "area": 0.6
+    },
+    {
+      "land_id": "E2",
+      "land_type": "普通大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "37",
+      "area": 0.6
+    },
+    {
+      "land_id": "E3",
+      "land_type": "普通大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "38",
+      "area": 0.6
+    },
+    {
+      "land_id": "E4",
+      "land_type": "普通大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "39",
+      "area": 0.6
+    },
+    {
+      "land_id": "E5",
+      "land_type": "普通大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "40",
+      "area": 0.6
+    },
+    {
+      "land_id": "E6",
+      "land_type": "普通大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "41",
+      "area": 0.6
+    },
+    {
+      "land_id": "E7",
+      "land_type": "普通大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "42",
+      "area": 0.6
+    },
+    {
+      "land_id": "E8",
+      "land_type": "普通大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "43",
+      "area": 0.6
+    },
+    {
+      "land_id": "E9",
+      "land_type": "普通大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "44",
+      "area": 0.6
+    },
+    {
+      "land_id": "E10",
+      "land_type": "普通大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "45",
+      "area": 0.6
+    },
+    {
+      "land_id": "E11",
+      "land_type": "普通大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "46",
+      "area": 0.6
+    },
+    {
+      "land_id": "E12",
+      "land_type": "普通大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "47",
+      "area": 0.6
+    },
+    {
+      "land_id": "E13",
+      "land_type": "普通大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "48",
+      "area": 0.6
+    },
+    {
+      "land_id": "E14",
+      "land_type": "普通大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "49",
+      "area": 0.6
+    },
+    {
+      "land_id": "E15",
+      "land_type": "普通大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "50",
+      "area": 0.6
+    },
+    {
+      "land_id": "E16",
+      "land_type": "普通大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "51",
+      "area": 0.6
+    },
+    {
+      "land_id": "F1",
+      "land_type": "智慧大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "52",
+      "area": 0.6
+    },
+    {
+      "land_id": "F2",
+      "land_type": "智慧大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "53",
+      "area": 0.6
+    },
+    {
+      "land_id": "F3",
+      "land_type": "智慧大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "54",
+      "area": 0.6
+    },
+    {
+      "land_id": "F4",
+      "land_type": "智慧大棚",
+      "source_file": "附件1.xlsx",
+      "source_sheet": "乡村的现有耕地",
+      "source_row": "55",
+      "area": 0.6
+    }
+  ],
+  "land_stats": [
+    {
+      "type": "平旱地",
+      "count": 6,
+      "area": 365.0,
+      "share_percent": 30.09068425391591,
+      "min": 35.0,
+      "median": 61.5,
+      "max": 80.0
+    },
+    {
+      "type": "梯田",
+      "count": 14,
+      "area": 619.0,
+      "share_percent": 51.03050288540808,
+      "min": 20.0,
+      "median": 44.5,
+      "max": 86.0
+    },
+    {
+      "type": "山坡地",
+      "count": 6,
+      "area": 108.0,
+      "share_percent": 8.903544929925804,
+      "min": 13.0,
+      "median": 16.5,
+      "max": 27.0
+    },
+    {
+      "type": "水浇地",
+      "count": 8,
+      "area": 109.0,
+      "share_percent": 8.98598516075845,
+      "min": 6.0,
+      "median": 13.0,
+      "max": 22.0
+    },
+    {
+      "type": "普通大棚",
+      "count": 16,
+      "area": 9.6,
+      "share_percent": 0.7914262159934047,
+      "min": 0.6,
+      "median": 0.6,
+      "max": 0.6
+    },
+    {
+      "type": "智慧大棚",
+      "count": 4,
+      "area": 2.4,
+      "share_percent": 0.19785655399835117,
+      "min": 0.6,
+      "median": 0.6,
+      "max": 0.6
+    }
+  ],
+  "history": [
+    {
+      "land": "A1",
+      "crop": 6,
+      "category": "粮食",
+      "land_type": "平旱地",
+      "season": "单季",
+      "area": 80.0,
+      "source_row": "2"
+    },
+    {
+      "land": "A2",
+      "crop": 7,
+      "category": "粮食",
+      "land_type": "平旱地",
+      "season": "单季",
+      "area": 55.0,
+      "source_row": "3"
+    },
+    {
+      "land": "A3",
+      "crop": 7,
+      "category": "粮食",
+      "land_type": "平旱地",
+      "season": "单季",
+      "area": 35.0,
+      "source_row": "4"
+    },
+    {
+      "land": "A4",
+      "crop": 1,
+      "category": "粮食（豆类）",
+      "land_type": "平旱地",
+      "season": "单季",
+      "area": 72.0,
+      "source_row": "5"
+    },
+    {
+      "land": "A5",
+      "crop": 4,
+      "category": "粮食（豆类）",
+      "land_type": "平旱地",
+      "season": "单季",
+      "area": 68.0,
+      "source_row": "6"
+    },
+    {
+      "land": "A6",
+      "crop": 8,
+      "category": "粮食",
+      "land_type": "平旱地",
+      "season": "单季",
+      "area": 55.0,
+      "source_row": "7"
+    },
+    {
+      "land": "B1",
+      "crop": 6,
+      "category": "粮食",
+      "land_type": "梯田",
+      "season": "单季",
+      "area": 60.0,
+      "source_row": "8"
+    },
+    {
+      "land": "B2",
+      "crop": 2,
+      "category": "粮食（豆类）",
+      "land_type": "梯田",
+      "season": "单季",
+      "area": 46.0,
+      "source_row": "9"
+    },
+    {
+      "land": "B3",
+      "crop": 3,
+      "category": "粮食（豆类）",
+      "land_type": "梯田",
+      "season": "单季",
+      "area": 40.0,
+      "source_row": "10"
+    },
+    {
+      "land": "B4",
+      "crop": 4,
+      "category": "粮食（豆类）",
+      "land_type": "梯田",
+      "season": "单季",
+      "area": 28.0,
+      "source_row": "11"
+    },
+    {
+      "land": "B5",
+      "crop": 5,
+      "category": "粮食（豆类）",
+      "land_type": "梯田",
+      "season": "单季",
+      "area": 25.0,
+      "source_row": "12"
+    },
+    {
+      "land": "B6",
+      "crop": 8,
+      "category": "粮食",
+      "land_type": "梯田",
+      "season": "单季",
+      "area": 86.0,
+      "source_row": "13"
+    },
+    {
+      "land": "B7",
+      "crop": 6,
+      "category": "粮食",
+      "land_type": "梯田",
+      "season": "单季",
+      "area": 55.0,
+      "source_row": "14"
+    },
+    {
+      "land": "B8",
+      "crop": 8,
+      "category": "粮食",
+      "land_type": "梯田",
+      "season": "单季",
+      "area": 44.0,
+      "source_row": "15"
+    },
+    {
+      "land": "B9",
+      "crop": 9,
+      "category": "粮食",
+      "land_type": "梯田",
+      "season": "单季",
+      "area": 50.0,
+      "source_row": "16"
+    },
+    {
+      "land": "B10",
+      "crop": 10,
+      "category": "粮食",
+      "land_type": "梯田",
+      "season": "单季",
+      "area": 25.0,
+      "source_row": "17"
+    },
+    {
+      "land": "B11",
+      "crop": 1,
+      "category": "粮食（豆类）",
+      "land_type": "梯田",
+      "season": "单季",
+      "area": 60.0,
+      "source_row": "18"
+    },
+    {
+      "land": "B12",
+      "crop": 7,
+      "category": "粮食",
+      "land_type": "梯田",
+      "season": "单季",
+      "area": 45.0,
+      "source_row": "19"
+    },
+    {
+      "land": "B13",
+      "crop": 14,
+      "category": "粮食",
+      "land_type": "梯田",
+      "season": "单季",
+      "area": 35.0,
+      "source_row": "20"
+    },
+    {
+      "land": "B14",
+      "crop": 15,
+      "category": "粮食",
+      "land_type": "梯田",
+      "season": "单季",
+      "area": 20.0,
+      "source_row": "21"
+    },
+    {
+      "land": "C1",
+      "crop": 11,
+      "category": "粮食",
+      "land_type": "山坡地",
+      "season": "单季",
+      "area": 15.0,
+      "source_row": "22"
+    },
+    {
+      "land": "C2",
+      "crop": 12,
+      "category": "粮食",
+      "land_type": "山坡地",
+      "season": "单季",
+      "area": 13.0,
+      "source_row": "23"
+    },
+    {
+      "land": "C3",
+      "crop": 1,
+      "category": "粮食（豆类）",
+      "land_type": "山坡地",
+      "season": "单季",
+      "area": 15.0,
+      "source_row": "24"
+    },
+    {
+      "land": "C4",
+      "crop": 13,
+      "category": "粮食",
+      "land_type": "山坡地",
+      "season": "单季",
+      "area": 18.0,
+      "source_row": "25"
+    },
+    {
+      "land": "C5",
+      "crop": 6,
+      "category": "粮食",
+      "land_type": "山坡地",
+      "season": "单季",
+      "area": 27.0,
+      "source_row": "26"
+    },
+    {
+      "land": "C6",
+      "crop": 3,
+      "category": "粮食（豆类）",
+      "land_type": "山坡地",
+      "season": "单季",
+      "area": 20.0,
+      "source_row": "27"
+    },
+    {
+      "land": "D1",
+      "crop": 20,
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "area": 15.0,
+      "source_row": "28"
+    },
+    {
+      "land": "D1",
+      "crop": 36,
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第二季",
+      "area": 15.0,
+      "source_row": "29"
+    },
+    {
+      "land": "D2",
+      "crop": 28,
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "area": 10.0,
+      "source_row": "30"
+    },
+    {
+      "land": "D2",
+      "crop": 35,
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第二季",
+      "area": 10.0,
+      "source_row": "31"
+    },
+    {
+      "land": "D3",
+      "crop": 21,
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "area": 14.0,
+      "source_row": "32"
+    },
+    {
+      "land": "D3",
+      "crop": 35,
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第二季",
+      "area": 14.0,
+      "source_row": "33"
+    },
+    {
+      "land": "D4",
+      "crop": 22,
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "area": 6.0,
+      "source_row": "34"
+    },
+    {
+      "land": "D4",
+      "crop": 35,
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第二季",
+      "area": 6.0,
+      "source_row": "35"
+    },
+    {
+      "land": "D5",
+      "crop": 17,
+      "category": "蔬菜（豆类）",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "area": 10.0,
+      "source_row": "36"
+    },
+    {
+      "land": "D5",
+      "crop": 36,
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第二季",
+      "area": 10.0,
+      "source_row": "37"
+    },
+    {
+      "land": "D6",
+      "crop": 18,
+      "category": "蔬菜（豆类）",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "area": 12.0,
+      "source_row": "38"
+    },
+    {
+      "land": "D6",
+      "crop": 37,
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第二季",
+      "area": 12.0,
+      "source_row": "39"
+    },
+    {
+      "land": "D7",
+      "crop": 16,
+      "category": "粮食",
+      "land_type": "水浇地",
+      "season": "单季",
+      "area": 22.0,
+      "source_row": "40"
+    },
+    {
+      "land": "D8",
+      "crop": 16,
+      "category": "粮食",
+      "land_type": "水浇地",
+      "season": "单季",
+      "area": 20.0,
+      "source_row": "41"
+    },
+    {
+      "land": "E1",
+      "crop": 18,
+      "category": "蔬菜（豆类）",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "area": 0.6,
+      "source_row": "42"
+    },
+    {
+      "land": "E1",
+      "crop": 38,
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "area": 0.6,
+      "source_row": "43"
+    },
+    {
+      "land": "E2",
+      "crop": 24,
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "area": 0.6,
+      "source_row": "44"
+    },
+    {
+      "land": "E2",
+      "crop": 38,
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "area": 0.6,
+      "source_row": "45"
+    },
+    {
+      "land": "E3",
+      "crop": 25,
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "area": 0.6,
+      "source_row": "46"
+    },
+    {
+      "land": "E3",
+      "crop": 38,
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "area": 0.6,
+      "source_row": "47"
+    },
+    {
+      "land": "E4",
+      "crop": 26,
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "area": 0.6,
+      "source_row": "48"
+    },
+    {
+      "land": "E4",
+      "crop": 39,
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "area": 0.6,
+      "source_row": "49"
+    },
+    {
+      "land": "E5",
+      "crop": 28,
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "area": 0.6,
+      "source_row": "50"
+    },
+    {
+      "land": "E5",
+      "crop": 39,
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "area": 0.6,
+      "source_row": "51"
+    },
+    {
+      "land": "E6",
+      "crop": 27,
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "area": 0.6,
+      "source_row": "52"
+    },
+    {
+      "land": "E6",
+      "crop": 39,
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "area": 0.6,
+      "source_row": "53"
+    },
+    {
+      "land": "E7",
+      "crop": 19,
+      "category": "蔬菜（豆类）",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "area": 0.6,
+      "source_row": "54"
+    },
+    {
+      "land": "E7",
+      "crop": 40,
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "area": 0.6,
+      "source_row": "55"
+    },
+    {
+      "land": "E8",
+      "crop": 19,
+      "category": "蔬菜（豆类）",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "area": 0.6,
+      "source_row": "56"
+    },
+    {
+      "land": "E8",
+      "crop": 40,
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "area": 0.6,
+      "source_row": "57"
+    },
+    {
+      "land": "E9",
+      "crop": 18,
+      "category": "蔬菜（豆类）",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "area": 0.6,
+      "source_row": "58"
+    },
+    {
+      "land": "E9",
+      "crop": 40,
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "area": 0.6,
+      "source_row": "59"
+    },
+    {
+      "land": "E10",
+      "crop": 17,
+      "category": "蔬菜（豆类）",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "area": 0.6,
+      "source_row": "60"
+    },
+    {
+      "land": "E10",
+      "crop": 41,
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "area": 0.6,
+      "source_row": "61"
+    },
+    {
+      "land": "E11",
+      "crop": 17,
+      "category": "蔬菜（豆类）",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "area": 0.6,
+      "source_row": "62"
+    },
+    {
+      "land": "E11",
+      "crop": 41,
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "area": 0.6,
+      "source_row": "63"
+    },
+    {
+      "land": "E12",
+      "crop": 22,
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "area": 0.6,
+      "source_row": "64"
+    },
+    {
+      "land": "E12",
+      "crop": 41,
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "area": 0.6,
+      "source_row": "65"
+    },
+    {
+      "land": "E13",
+      "crop": 21,
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "area": 0.6,
+      "source_row": "66"
+    },
+    {
+      "land": "E13",
+      "crop": 41,
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "area": 0.6,
+      "source_row": "67"
+    },
+    {
+      "land": "E14",
+      "crop": 29,
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "area": 0.6,
+      "source_row": "68"
+    },
+    {
+      "land": "E14",
+      "crop": 41,
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "area": 0.6,
+      "source_row": "69"
+    },
+    {
+      "land": "E15",
+      "crop": 30,
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "area": 0.3,
+      "source_row": "70"
+    },
+    {
+      "land": "E15",
+      "crop": 27,
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "area": 0.3,
+      "source_row": "71"
+    },
+    {
+      "land": "E15",
+      "crop": 41,
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "area": 0.6,
+      "source_row": "72"
+    },
+    {
+      "land": "E16",
+      "crop": 31,
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "area": 0.6,
+      "source_row": "73"
+    },
+    {
+      "land": "E16",
+      "crop": 41,
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "area": 0.6,
+      "source_row": "74"
+    },
+    {
+      "land": "F1",
+      "crop": 32,
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第一季",
+      "area": 0.3,
+      "source_row": "75"
+    },
+    {
+      "land": "F1",
+      "crop": 33,
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第一季",
+      "area": 0.3,
+      "source_row": "76"
+    },
+    {
+      "land": "F1",
+      "crop": 24,
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "area": 0.3,
+      "source_row": "77"
+    },
+    {
+      "land": "F1",
+      "crop": 21,
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "area": 0.3,
+      "source_row": "78"
+    },
+    {
+      "land": "F2",
+      "crop": 25,
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第一季",
+      "area": 0.3,
+      "source_row": "79"
+    },
+    {
+      "land": "F2",
+      "crop": 26,
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第一季",
+      "area": 0.3,
+      "source_row": "80"
+    },
+    {
+      "land": "F2",
+      "crop": 22,
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "area": 0.3,
+      "source_row": "81"
+    },
+    {
+      "land": "F2",
+      "crop": 29,
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "area": 0.3,
+      "source_row": "82"
+    },
+    {
+      "land": "F3",
+      "crop": 17,
+      "category": "蔬菜（豆类）",
+      "land_type": "智慧大棚",
+      "season": "第一季",
+      "area": 0.6,
+      "source_row": "83"
+    },
+    {
+      "land": "F3",
+      "crop": 28,
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "area": 0.3,
+      "source_row": "84"
+    },
+    {
+      "land": "F3",
+      "crop": 30,
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "area": 0.3,
+      "source_row": "85"
+    },
+    {
+      "land": "F4",
+      "crop": 19,
+      "category": "蔬菜（豆类）",
+      "land_type": "智慧大棚",
+      "season": "第一季",
+      "area": 0.6,
+      "source_row": "86"
+    },
+    {
+      "land": "F4",
+      "crop": 34,
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "area": 0.3,
+      "source_row": "87"
+    },
+    {
+      "land": "F4",
+      "crop": 23,
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "area": 0.3,
+      "source_row": "88"
+    }
+  ],
+  "history_by_type": [
+    {
+      "type": "平旱地",
+      "areas": {
+        "粮食（豆类）": 140.0,
+        "粮食": 225.0,
+        "蔬菜（豆类）": 0,
+        "蔬菜": 0,
+        "食用菌": 0
+      }
+    },
+    {
+      "type": "梯田",
+      "areas": {
+        "粮食（豆类）": 199.0,
+        "粮食": 420.0,
+        "蔬菜（豆类）": 0,
+        "蔬菜": 0,
+        "食用菌": 0
+      }
+    },
+    {
+      "type": "山坡地",
+      "areas": {
+        "粮食（豆类）": 35.0,
+        "粮食": 73.0,
+        "蔬菜（豆类）": 0,
+        "蔬菜": 0,
+        "食用菌": 0
+      }
+    },
+    {
+      "type": "水浇地",
+      "areas": {
+        "粮食（豆类）": 0,
+        "粮食": 42.0,
+        "蔬菜（豆类）": 22.0,
+        "蔬菜": 112.0,
+        "食用菌": 0
+      }
+    },
+    {
+      "type": "普通大棚",
+      "areas": {
+        "粮食（豆类）": 0,
+        "粮食": 0,
+        "蔬菜（豆类）": 3.5999999999999996,
+        "蔬菜": 6.0,
+        "食用菌": 9.6
+      }
+    },
+    {
+      "type": "智慧大棚",
+      "areas": {
+        "粮食（豆类）": 0,
+        "粮食": 0,
+        "蔬菜（豆类）": 1.2,
+        "蔬菜": 3.5999999999999996,
+        "食用菌": 0
+      }
+    }
+  ],
+  "crop_history": [
+    {
+      "crop": 1,
+      "name": "黄豆",
+      "category": "粮食（豆类）",
+      "area": 147.0,
+      "plots": 3,
+      "records": 3
+    },
+    {
+      "crop": 2,
+      "name": "黑豆",
+      "category": "粮食（豆类）",
+      "area": 46.0,
+      "plots": 1,
+      "records": 1
+    },
+    {
+      "crop": 3,
+      "name": "红豆",
+      "category": "粮食（豆类）",
+      "area": 60.0,
+      "plots": 2,
+      "records": 2
+    },
+    {
+      "crop": 4,
+      "name": "绿豆",
+      "category": "粮食（豆类）",
+      "area": 96.0,
+      "plots": 2,
+      "records": 2
+    },
+    {
+      "crop": 5,
+      "name": "爬豆",
+      "category": "粮食（豆类）",
+      "area": 25.0,
+      "plots": 1,
+      "records": 1
+    },
+    {
+      "crop": 6,
+      "name": "小麦",
+      "category": "粮食",
+      "area": 222.0,
+      "plots": 4,
+      "records": 4
+    },
+    {
+      "crop": 7,
+      "name": "玉米",
+      "category": "粮食",
+      "area": 135.0,
+      "plots": 3,
+      "records": 3
+    },
+    {
+      "crop": 8,
+      "name": "谷子",
+      "category": "粮食",
+      "area": 185.0,
+      "plots": 3,
+      "records": 3
+    },
+    {
+      "crop": 9,
+      "name": "高粱",
+      "category": "粮食",
+      "area": 50.0,
+      "plots": 1,
+      "records": 1
+    },
+    {
+      "crop": 10,
+      "name": "黍子",
+      "category": "粮食",
+      "area": 25.0,
+      "plots": 1,
+      "records": 1
+    },
+    {
+      "crop": 11,
+      "name": "荞麦",
+      "category": "粮食",
+      "area": 15.0,
+      "plots": 1,
+      "records": 1
+    },
+    {
+      "crop": 12,
+      "name": "南瓜",
+      "category": "粮食",
+      "area": 13.0,
+      "plots": 1,
+      "records": 1
+    },
+    {
+      "crop": 13,
+      "name": "红薯",
+      "category": "粮食",
+      "area": 18.0,
+      "plots": 1,
+      "records": 1
+    },
+    {
+      "crop": 14,
+      "name": "莜麦",
+      "category": "粮食",
+      "area": 35.0,
+      "plots": 1,
+      "records": 1
+    },
+    {
+      "crop": 15,
+      "name": "大麦",
+      "category": "粮食",
+      "area": 20.0,
+      "plots": 1,
+      "records": 1
+    },
+    {
+      "crop": 16,
+      "name": "水稻",
+      "category": "粮食",
+      "area": 42.0,
+      "plots": 2,
+      "records": 2
+    },
+    {
+      "crop": 17,
+      "name": "豇豆",
+      "category": "蔬菜（豆类）",
+      "area": 11.8,
+      "plots": 4,
+      "records": 4
+    },
+    {
+      "crop": 18,
+      "name": "刀豆",
+      "category": "蔬菜（豆类）",
+      "area": 13.2,
+      "plots": 3,
+      "records": 3
+    },
+    {
+      "crop": 19,
+      "name": "芸豆",
+      "category": "蔬菜（豆类）",
+      "area": 1.7999999999999998,
+      "plots": 3,
+      "records": 3
+    },
+    {
+      "crop": 20,
+      "name": "土豆",
+      "category": "蔬菜",
+      "area": 15.0,
+      "plots": 1,
+      "records": 1
+    },
+    {
+      "crop": 21,
+      "name": "西红柿",
+      "category": "蔬菜",
+      "area": 14.9,
+      "plots": 3,
+      "records": 3
+    },
+    {
+      "crop": 22,
+      "name": "茄子",
+      "category": "蔬菜",
+      "area": 6.9,
+      "plots": 3,
+      "records": 3
+    },
+    {
+      "crop": 23,
+      "name": "菠菜",
+      "category": "蔬菜",
+      "area": 0.3,
+      "plots": 1,
+      "records": 1
+    },
+    {
+      "crop": 24,
+      "name": "青椒",
+      "category": "蔬菜",
+      "area": 0.8999999999999999,
+      "plots": 2,
+      "records": 2
+    },
+    {
+      "crop": 25,
+      "name": "菜花",
+      "category": "蔬菜",
+      "area": 0.8999999999999999,
+      "plots": 2,
+      "records": 2
+    },
+    {
+      "crop": 26,
+      "name": "包菜",
+      "category": "蔬菜",
+      "area": 0.8999999999999999,
+      "plots": 2,
+      "records": 2
+    },
+    {
+      "crop": 27,
+      "name": "油麦菜",
+      "category": "蔬菜",
+      "area": 0.8999999999999999,
+      "plots": 2,
+      "records": 2
+    },
+    {
+      "crop": 28,
+      "name": "小青菜",
+      "category": "蔬菜",
+      "area": 10.9,
+      "plots": 3,
+      "records": 3
+    },
+    {
+      "crop": 29,
+      "name": "黄瓜",
+      "category": "蔬菜",
+      "area": 0.8999999999999999,
+      "plots": 2,
+      "records": 2
+    },
+    {
+      "crop": 30,
+      "name": "生菜",
+      "category": "蔬菜",
+      "area": 0.6,
+      "plots": 2,
+      "records": 2
+    },
+    {
+      "crop": 31,
+      "name": "辣椒",
+      "category": "蔬菜",
+      "area": 0.6,
+      "plots": 1,
+      "records": 1
+    },
+    {
+      "crop": 32,
+      "name": "空心菜",
+      "category": "蔬菜",
+      "area": 0.3,
+      "plots": 1,
+      "records": 1
+    },
+    {
+      "crop": 33,
+      "name": "黄心菜",
+      "category": "蔬菜",
+      "area": 0.3,
+      "plots": 1,
+      "records": 1
+    },
+    {
+      "crop": 34,
+      "name": "芹菜",
+      "category": "蔬菜",
+      "area": 0.3,
+      "plots": 1,
+      "records": 1
+    },
+    {
+      "crop": 35,
+      "name": "大白菜",
+      "category": "蔬菜",
+      "area": 30.0,
+      "plots": 3,
+      "records": 3
+    },
+    {
+      "crop": 36,
+      "name": "白萝卜",
+      "category": "蔬菜",
+      "area": 25.0,
+      "plots": 2,
+      "records": 2
+    },
+    {
+      "crop": 37,
+      "name": "红萝卜",
+      "category": "蔬菜",
+      "area": 12.0,
+      "plots": 1,
+      "records": 1
+    },
+    {
+      "crop": 38,
+      "name": "榆黄菇",
+      "category": "食用菌",
+      "area": 1.7999999999999998,
+      "plots": 3,
+      "records": 3
+    },
+    {
+      "crop": 39,
+      "name": "香菇",
+      "category": "食用菌",
+      "area": 1.7999999999999998,
+      "plots": 3,
+      "records": 3
+    },
+    {
+      "crop": 40,
+      "name": "白灵菇",
+      "category": "食用菌",
+      "area": 1.7999999999999998,
+      "plots": 3,
+      "records": 3
+    },
+    {
+      "crop": 41,
+      "name": "羊肚菌",
+      "category": "食用菌",
+      "area": 4.2,
+      "plots": 7,
+      "records": 7
+    }
+  ],
+  "parameters": [
+    {
+      "crop": 1,
+      "name": "黄豆",
+      "category": "粮食（豆类）",
+      "land_type": "平旱地",
+      "season": "单季",
+      "yield": 400.0,
+      "cost": 400.0,
+      "price_low": 2.5,
+      "price_high": 4.0,
+      "source_row": "2"
+    },
+    {
+      "crop": 2,
+      "name": "黑豆",
+      "category": "粮食（豆类）",
+      "land_type": "平旱地",
+      "season": "单季",
+      "yield": 500.0,
+      "cost": 400.0,
+      "price_low": 6.5,
+      "price_high": 8.5,
+      "source_row": "3"
+    },
+    {
+      "crop": 3,
+      "name": "红豆",
+      "category": "粮食（豆类）",
+      "land_type": "平旱地",
+      "season": "单季",
+      "yield": 400.0,
+      "cost": 350.0,
+      "price_low": 7.5,
+      "price_high": 9.0,
+      "source_row": "4"
+    },
+    {
+      "crop": 4,
+      "name": "绿豆",
+      "category": "粮食（豆类）",
+      "land_type": "平旱地",
+      "season": "单季",
+      "yield": 350.0,
+      "cost": 350.0,
+      "price_low": 6.0,
+      "price_high": 8.0,
+      "source_row": "5"
+    },
+    {
+      "crop": 5,
+      "name": "爬豆",
+      "category": "粮食（豆类）",
+      "land_type": "平旱地",
+      "season": "单季",
+      "yield": 415.0,
+      "cost": 350.0,
+      "price_low": 6.0,
+      "price_high": 7.5,
+      "source_row": "6"
+    },
+    {
+      "crop": 6,
+      "name": "小麦",
+      "category": "粮食",
+      "land_type": "平旱地",
+      "season": "单季",
+      "yield": 800.0,
+      "cost": 450.0,
+      "price_low": 3.0,
+      "price_high": 4.0,
+      "source_row": "7"
+    },
+    {
+      "crop": 7,
+      "name": "玉米",
+      "category": "粮食",
+      "land_type": "平旱地",
+      "season": "单季",
+      "yield": 1000.0,
+      "cost": 500.0,
+      "price_low": 2.5,
+      "price_high": 3.5,
+      "source_row": "8"
+    },
+    {
+      "crop": 8,
+      "name": "谷子",
+      "category": "粮食",
+      "land_type": "平旱地",
+      "season": "单季",
+      "yield": 400.0,
+      "cost": 360.0,
+      "price_low": 6.0,
+      "price_high": 7.5,
+      "source_row": "9"
+    },
+    {
+      "crop": 9,
+      "name": "高粱",
+      "category": "粮食",
+      "land_type": "平旱地",
+      "season": "单季",
+      "yield": 630.0,
+      "cost": 400.0,
+      "price_low": 5.5,
+      "price_high": 6.5,
+      "source_row": "10"
+    },
+    {
+      "crop": 10,
+      "name": "黍子",
+      "category": "粮食",
+      "land_type": "平旱地",
+      "season": "单季",
+      "yield": 525.0,
+      "cost": 360.0,
+      "price_low": 6.5,
+      "price_high": 8.5,
+      "source_row": "11"
+    },
+    {
+      "crop": 11,
+      "name": "荞麦",
+      "category": "粮食",
+      "land_type": "平旱地",
+      "season": "单季",
+      "yield": 110.0,
+      "cost": 350.0,
+      "price_low": 30.0,
+      "price_high": 50.0,
+      "source_row": "12"
+    },
+    {
+      "crop": 12,
+      "name": "南瓜",
+      "category": "粮食",
+      "land_type": "平旱地",
+      "season": "单季",
+      "yield": 3000.0,
+      "cost": 1000.0,
+      "price_low": 1.0,
+      "price_high": 2.0,
+      "source_row": "13"
+    },
+    {
+      "crop": 13,
+      "name": "红薯",
+      "category": "粮食",
+      "land_type": "平旱地",
+      "season": "单季",
+      "yield": 2200.0,
+      "cost": 2000.0,
+      "price_low": 2.5,
+      "price_high": 4.0,
+      "source_row": "14"
+    },
+    {
+      "crop": 14,
+      "name": "莜麦",
+      "category": "粮食",
+      "land_type": "平旱地",
+      "season": "单季",
+      "yield": 420.0,
+      "cost": 400.0,
+      "price_low": 5.0,
+      "price_high": 6.0,
+      "source_row": "15"
+    },
+    {
+      "crop": 15,
+      "name": "大麦",
+      "category": "粮食",
+      "land_type": "平旱地",
+      "season": "单季",
+      "yield": 525.0,
+      "cost": 350.0,
+      "price_low": 3.0,
+      "price_high": 4.0,
+      "source_row": "16"
+    },
+    {
+      "crop": 1,
+      "name": "黄豆",
+      "category": "粮食（豆类）",
+      "land_type": "梯田",
+      "season": "单季",
+      "yield": 380.0,
+      "cost": 400.0,
+      "price_low": 2.5,
+      "price_high": 4.0,
+      "source_row": "17"
+    },
+    {
+      "crop": 2,
+      "name": "黑豆",
+      "category": "粮食（豆类）",
+      "land_type": "梯田",
+      "season": "单季",
+      "yield": 475.0,
+      "cost": 400.0,
+      "price_low": 6.5,
+      "price_high": 8.5,
+      "source_row": "18"
+    },
+    {
+      "crop": 3,
+      "name": "红豆",
+      "category": "粮食（豆类）",
+      "land_type": "梯田",
+      "season": "单季",
+      "yield": 380.0,
+      "cost": 350.0,
+      "price_low": 7.5,
+      "price_high": 9.0,
+      "source_row": "19"
+    },
+    {
+      "crop": 4,
+      "name": "绿豆",
+      "category": "粮食（豆类）",
+      "land_type": "梯田",
+      "season": "单季",
+      "yield": 330.0,
+      "cost": 350.0,
+      "price_low": 6.0,
+      "price_high": 8.0,
+      "source_row": "20"
+    },
+    {
+      "crop": 5,
+      "name": "爬豆",
+      "category": "粮食（豆类）",
+      "land_type": "梯田",
+      "season": "单季",
+      "yield": 395.0,
+      "cost": 350.0,
+      "price_low": 6.0,
+      "price_high": 7.5,
+      "source_row": "21"
+    },
+    {
+      "crop": 6,
+      "name": "小麦",
+      "category": "粮食",
+      "land_type": "梯田",
+      "season": "单季",
+      "yield": 760.0,
+      "cost": 450.0,
+      "price_low": 3.0,
+      "price_high": 4.0,
+      "source_row": "22"
+    },
+    {
+      "crop": 7,
+      "name": "玉米",
+      "category": "粮食",
+      "land_type": "梯田",
+      "season": "单季",
+      "yield": 950.0,
+      "cost": 500.0,
+      "price_low": 2.5,
+      "price_high": 3.5,
+      "source_row": "23"
+    },
+    {
+      "crop": 8,
+      "name": "谷子",
+      "category": "粮食",
+      "land_type": "梯田",
+      "season": "单季",
+      "yield": 380.0,
+      "cost": 360.0,
+      "price_low": 6.0,
+      "price_high": 7.5,
+      "source_row": "24"
+    },
+    {
+      "crop": 9,
+      "name": "高粱",
+      "category": "粮食",
+      "land_type": "梯田",
+      "season": "单季",
+      "yield": 600.0,
+      "cost": 400.0,
+      "price_low": 5.5,
+      "price_high": 6.5,
+      "source_row": "25"
+    },
+    {
+      "crop": 10,
+      "name": "黍子",
+      "category": "粮食",
+      "land_type": "梯田",
+      "season": "单季",
+      "yield": 500.0,
+      "cost": 360.0,
+      "price_low": 6.5,
+      "price_high": 8.5,
+      "source_row": "26"
+    },
+    {
+      "crop": 11,
+      "name": "荞麦",
+      "category": "粮食",
+      "land_type": "梯田",
+      "season": "单季",
+      "yield": 105.0,
+      "cost": 350.0,
+      "price_low": 30.0,
+      "price_high": 50.0,
+      "source_row": "27"
+    },
+    {
+      "crop": 12,
+      "name": "南瓜",
+      "category": "粮食",
+      "land_type": "梯田",
+      "season": "单季",
+      "yield": 2850.0,
+      "cost": 1000.0,
+      "price_low": 1.0,
+      "price_high": 2.0,
+      "source_row": "28"
+    },
+    {
+      "crop": 13,
+      "name": "红薯",
+      "category": "粮食",
+      "land_type": "梯田",
+      "season": "单季",
+      "yield": 2100.0,
+      "cost": 2000.0,
+      "price_low": 2.5,
+      "price_high": 4.0,
+      "source_row": "29"
+    },
+    {
+      "crop": 14,
+      "name": "莜麦",
+      "category": "粮食",
+      "land_type": "梯田",
+      "season": "单季",
+      "yield": 400.0,
+      "cost": 400.0,
+      "price_low": 5.0,
+      "price_high": 6.0,
+      "source_row": "30"
+    },
+    {
+      "crop": 15,
+      "name": "大麦",
+      "category": "粮食",
+      "land_type": "梯田",
+      "season": "单季",
+      "yield": 500.0,
+      "cost": 350.0,
+      "price_low": 3.0,
+      "price_high": 4.0,
+      "source_row": "31"
+    },
+    {
+      "crop": 1,
+      "name": "黄豆",
+      "category": "粮食（豆类）",
+      "land_type": "山坡地",
+      "season": "单季",
+      "yield": 360.0,
+      "cost": 400.0,
+      "price_low": 2.5,
+      "price_high": 4.0,
+      "source_row": "32"
+    },
+    {
+      "crop": 2,
+      "name": "黑豆",
+      "category": "粮食（豆类）",
+      "land_type": "山坡地",
+      "season": "单季",
+      "yield": 450.0,
+      "cost": 400.0,
+      "price_low": 6.5,
+      "price_high": 8.5,
+      "source_row": "33"
+    },
+    {
+      "crop": 3,
+      "name": "红豆",
+      "category": "粮食（豆类）",
+      "land_type": "山坡地",
+      "season": "单季",
+      "yield": 360.0,
+      "cost": 350.0,
+      "price_low": 7.5,
+      "price_high": 9.0,
+      "source_row": "34"
+    },
+    {
+      "crop": 4,
+      "name": "绿豆",
+      "category": "粮食（豆类）",
+      "land_type": "山坡地",
+      "season": "单季",
+      "yield": 315.0,
+      "cost": 350.0,
+      "price_low": 6.0,
+      "price_high": 8.0,
+      "source_row": "35"
+    },
+    {
+      "crop": 5,
+      "name": "爬豆",
+      "category": "粮食（豆类）",
+      "land_type": "山坡地",
+      "season": "单季",
+      "yield": 375.0,
+      "cost": 350.0,
+      "price_low": 6.0,
+      "price_high": 7.5,
+      "source_row": "36"
+    },
+    {
+      "crop": 6,
+      "name": "小麦",
+      "category": "粮食",
+      "land_type": "山坡地",
+      "season": "单季",
+      "yield": 720.0,
+      "cost": 450.0,
+      "price_low": 3.0,
+      "price_high": 4.0,
+      "source_row": "37"
+    },
+    {
+      "crop": 7,
+      "name": "玉米",
+      "category": "粮食",
+      "land_type": "山坡地",
+      "season": "单季",
+      "yield": 900.0,
+      "cost": 500.0,
+      "price_low": 2.5,
+      "price_high": 3.5,
+      "source_row": "38"
+    },
+    {
+      "crop": 8,
+      "name": "谷子",
+      "category": "粮食",
+      "land_type": "山坡地",
+      "season": "单季",
+      "yield": 360.0,
+      "cost": 360.0,
+      "price_low": 6.0,
+      "price_high": 7.5,
+      "source_row": "39"
+    },
+    {
+      "crop": 9,
+      "name": "高粱",
+      "category": "粮食",
+      "land_type": "山坡地",
+      "season": "单季",
+      "yield": 570.0,
+      "cost": 400.0,
+      "price_low": 5.5,
+      "price_high": 6.5,
+      "source_row": "40"
+    },
+    {
+      "crop": 10,
+      "name": "黍子",
+      "category": "粮食",
+      "land_type": "山坡地",
+      "season": "单季",
+      "yield": 475.0,
+      "cost": 360.0,
+      "price_low": 6.5,
+      "price_high": 8.5,
+      "source_row": "41"
+    },
+    {
+      "crop": 11,
+      "name": "荞麦",
+      "category": "粮食",
+      "land_type": "山坡地",
+      "season": "单季",
+      "yield": 100.0,
+      "cost": 350.0,
+      "price_low": 30.0,
+      "price_high": 50.0,
+      "source_row": "42"
+    },
+    {
+      "crop": 12,
+      "name": "南瓜",
+      "category": "粮食",
+      "land_type": "山坡地",
+      "season": "单季",
+      "yield": 2700.0,
+      "cost": 1000.0,
+      "price_low": 1.0,
+      "price_high": 2.0,
+      "source_row": "43"
+    },
+    {
+      "crop": 13,
+      "name": "红薯",
+      "category": "粮食",
+      "land_type": "山坡地",
+      "season": "单季",
+      "yield": 2000.0,
+      "cost": 2000.0,
+      "price_low": 2.5,
+      "price_high": 4.0,
+      "source_row": "44"
+    },
+    {
+      "crop": 14,
+      "name": "莜麦",
+      "category": "粮食",
+      "land_type": "山坡地",
+      "season": "单季",
+      "yield": 380.0,
+      "cost": 400.0,
+      "price_low": 5.0,
+      "price_high": 6.0,
+      "source_row": "45"
+    },
+    {
+      "crop": 15,
+      "name": "大麦",
+      "category": "粮食",
+      "land_type": "山坡地",
+      "season": "单季",
+      "yield": 475.0,
+      "cost": 350.0,
+      "price_low": 3.0,
+      "price_high": 4.0,
+      "source_row": "46"
+    },
+    {
+      "crop": 16,
+      "name": "水稻",
+      "category": "粮食",
+      "land_type": "水浇地",
+      "season": "单季",
+      "yield": 500.0,
+      "cost": 680.0,
+      "price_low": 6.0,
+      "price_high": 8.0,
+      "source_row": "47"
+    },
+    {
+      "crop": 17,
+      "name": "豇豆",
+      "category": "蔬菜（豆类）",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "yield": 3000.0,
+      "cost": 2000.0,
+      "price_low": 7.0,
+      "price_high": 9.0,
+      "source_row": "48"
+    },
+    {
+      "crop": 18,
+      "name": "刀豆",
+      "category": "蔬菜（豆类）",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "yield": 2000.0,
+      "cost": 1000.0,
+      "price_low": 5.5,
+      "price_high": 8.0,
+      "source_row": "49"
+    },
+    {
+      "crop": 19,
+      "name": "芸豆",
+      "category": "蔬菜（豆类）",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "yield": 3000.0,
+      "cost": 2000.0,
+      "price_low": 5.0,
+      "price_high": 8.0,
+      "source_row": "50"
+    },
+    {
+      "crop": 20,
+      "name": "土豆",
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "yield": 2000.0,
+      "cost": 2000.0,
+      "price_low": 3.0,
+      "price_high": 4.5,
+      "source_row": "51"
+    },
+    {
+      "crop": 21,
+      "name": "西红柿",
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "yield": 2400.0,
+      "cost": 2000.0,
+      "price_low": 5.0,
+      "price_high": 7.5,
+      "source_row": "52"
+    },
+    {
+      "crop": 22,
+      "name": "茄子",
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "yield": 6400.0,
+      "cost": 2000.0,
+      "price_low": 5.0,
+      "price_high": 6.0,
+      "source_row": "53"
+    },
+    {
+      "crop": 23,
+      "name": "菠菜",
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "yield": 2700.0,
+      "cost": 2300.0,
+      "price_low": 4.8,
+      "price_high": 6.7,
+      "source_row": "54"
+    },
+    {
+      "crop": 24,
+      "name": "青椒",
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "yield": 2400.0,
+      "cost": 1600.0,
+      "price_low": 4.0,
+      "price_high": 6.5,
+      "source_row": "55"
+    },
+    {
+      "crop": 25,
+      "name": "菜花",
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "yield": 3300.0,
+      "cost": 2400.0,
+      "price_low": 5.0,
+      "price_high": 6.0,
+      "source_row": "56"
+    },
+    {
+      "crop": 26,
+      "name": "包菜",
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "yield": 3700.0,
+      "cost": 2900.0,
+      "price_low": 5.5,
+      "price_high": 7.5,
+      "source_row": "57"
+    },
+    {
+      "crop": 27,
+      "name": "油麦菜",
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "yield": 4100.0,
+      "cost": 1600.0,
+      "price_low": 4.0,
+      "price_high": 6.0,
+      "source_row": "58"
+    },
+    {
+      "crop": 28,
+      "name": "小青菜",
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "yield": 3200.0,
+      "cost": 1600.0,
+      "price_low": 5.0,
+      "price_high": 6.5,
+      "source_row": "59"
+    },
+    {
+      "crop": 29,
+      "name": "黄瓜",
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "yield": 12000.0,
+      "cost": 2900.0,
+      "price_low": 6.0,
+      "price_high": 8.0,
+      "source_row": "60"
+    },
+    {
+      "crop": 30,
+      "name": "生菜",
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "yield": 4100.0,
+      "cost": 1600.0,
+      "price_low": 4.5,
+      "price_high": 6.0,
+      "source_row": "61"
+    },
+    {
+      "crop": 31,
+      "name": "辣椒",
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "yield": 1600.0,
+      "cost": 1000.0,
+      "price_low": 6.0,
+      "price_high": 8.5,
+      "source_row": "62"
+    },
+    {
+      "crop": 32,
+      "name": "空心菜",
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "yield": 10000.0,
+      "cost": 4100.0,
+      "price_low": 3.0,
+      "price_high": 6.0,
+      "source_row": "63"
+    },
+    {
+      "crop": 33,
+      "name": "黄心菜",
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "yield": 5000.0,
+      "cost": 2000.0,
+      "price_low": 4.0,
+      "price_high": 5.0,
+      "source_row": "64"
+    },
+    {
+      "crop": 34,
+      "name": "芹菜",
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第一季",
+      "yield": 5500.0,
+      "cost": 900.0,
+      "price_low": 3.2,
+      "price_high": 4.8,
+      "source_row": "65"
+    },
+    {
+      "crop": 17,
+      "name": "豇豆",
+      "category": "蔬菜（豆类）",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "yield": 3600.0,
+      "cost": 2400.0,
+      "price_low": 7.0,
+      "price_high": 9.0,
+      "source_row": "66"
+    },
+    {
+      "crop": 18,
+      "name": "刀豆",
+      "category": "蔬菜（豆类）",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "yield": 2400.0,
+      "cost": 1200.0,
+      "price_low": 5.5,
+      "price_high": 8.0,
+      "source_row": "67"
+    },
+    {
+      "crop": 19,
+      "name": "芸豆",
+      "category": "蔬菜（豆类）",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "yield": 3600.0,
+      "cost": 2400.0,
+      "price_low": 5.0,
+      "price_high": 8.0,
+      "source_row": "68"
+    },
+    {
+      "crop": 20,
+      "name": "土豆",
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "yield": 2400.0,
+      "cost": 2400.0,
+      "price_low": 3.0,
+      "price_high": 4.5,
+      "source_row": "69"
+    },
+    {
+      "crop": 21,
+      "name": "西红柿",
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "yield": 3000.0,
+      "cost": 2400.0,
+      "price_low": 5.0,
+      "price_high": 7.5,
+      "source_row": "70"
+    },
+    {
+      "crop": 22,
+      "name": "茄子",
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "yield": 8000.0,
+      "cost": 2400.0,
+      "price_low": 5.0,
+      "price_high": 6.0,
+      "source_row": "71"
+    },
+    {
+      "crop": 23,
+      "name": "菠菜",
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "yield": 3300.0,
+      "cost": 2700.0,
+      "price_low": 4.8,
+      "price_high": 6.7,
+      "source_row": "72"
+    },
+    {
+      "crop": 24,
+      "name": "青椒",
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "yield": 3000.0,
+      "cost": 2000.0,
+      "price_low": 4.0,
+      "price_high": 6.5,
+      "source_row": "73"
+    },
+    {
+      "crop": 25,
+      "name": "菜花",
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "yield": 4000.0,
+      "cost": 3000.0,
+      "price_low": 5.0,
+      "price_high": 6.0,
+      "source_row": "74"
+    },
+    {
+      "crop": 26,
+      "name": "包菜",
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "yield": 4500.0,
+      "cost": 3500.0,
+      "price_low": 5.5,
+      "price_high": 7.5,
+      "source_row": "75"
+    },
+    {
+      "crop": 27,
+      "name": "油麦菜",
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "yield": 5000.0,
+      "cost": 2000.0,
+      "price_low": 4.0,
+      "price_high": 6.0,
+      "source_row": "76"
+    },
+    {
+      "crop": 28,
+      "name": "小青菜",
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "yield": 4000.0,
+      "cost": 2000.0,
+      "price_low": 5.0,
+      "price_high": 6.5,
+      "source_row": "77"
+    },
+    {
+      "crop": 29,
+      "name": "黄瓜",
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "yield": 15000.0,
+      "cost": 3500.0,
+      "price_low": 6.0,
+      "price_high": 8.0,
+      "source_row": "78"
+    },
+    {
+      "crop": 30,
+      "name": "生菜",
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "yield": 5000.0,
+      "cost": 2000.0,
+      "price_low": 4.5,
+      "price_high": 6.0,
+      "source_row": "79"
+    },
+    {
+      "crop": 31,
+      "name": "辣椒",
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "yield": 2000.0,
+      "cost": 1200.0,
+      "price_low": 6.0,
+      "price_high": 8.5,
+      "source_row": "80"
+    },
+    {
+      "crop": 32,
+      "name": "空心菜",
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "yield": 12000.0,
+      "cost": 5000.0,
+      "price_low": 3.0,
+      "price_high": 6.0,
+      "source_row": "81"
+    },
+    {
+      "crop": 33,
+      "name": "黄心菜",
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "yield": 6000.0,
+      "cost": 2500.0,
+      "price_low": 4.0,
+      "price_high": 5.0,
+      "source_row": "82"
+    },
+    {
+      "crop": 34,
+      "name": "芹菜",
+      "category": "蔬菜",
+      "land_type": "普通大棚",
+      "season": "第一季",
+      "yield": 6600.0,
+      "cost": 1100.0,
+      "price_low": 3.2,
+      "price_high": 4.8,
+      "source_row": "83"
+    },
+    {
+      "crop": 35,
+      "name": "大白菜",
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第二季",
+      "yield": 5000.0,
+      "cost": 2000.0,
+      "price_low": 2.0,
+      "price_high": 3.0,
+      "source_row": "84"
+    },
+    {
+      "crop": 36,
+      "name": "白萝卜",
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第二季",
+      "yield": 4000.0,
+      "cost": 500.0,
+      "price_low": 2.0,
+      "price_high": 3.0,
+      "source_row": "85"
+    },
+    {
+      "crop": 37,
+      "name": "红萝卜",
+      "category": "蔬菜",
+      "land_type": "水浇地",
+      "season": "第二季",
+      "yield": 3000.0,
+      "cost": 500.0,
+      "price_low": 2.5,
+      "price_high": 4.0,
+      "source_row": "86"
+    },
+    {
+      "crop": 38,
+      "name": "榆黄菇",
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "yield": 5000.0,
+      "cost": 3000.0,
+      "price_low": 50.0,
+      "price_high": 65.0,
+      "source_row": "87"
+    },
+    {
+      "crop": 39,
+      "name": "香菇",
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "yield": 4000.0,
+      "cost": 2000.0,
+      "price_low": 18.0,
+      "price_high": 20.0,
+      "source_row": "88"
+    },
+    {
+      "crop": 40,
+      "name": "白灵菇",
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "yield": 10000.0,
+      "cost": 10000.0,
+      "price_low": 14.0,
+      "price_high": 18.0,
+      "source_row": "89"
+    },
+    {
+      "crop": 41,
+      "name": "羊肚菌",
+      "category": "食用菌",
+      "land_type": "普通大棚",
+      "season": "第二季",
+      "yield": 1000.0,
+      "cost": 10000.0,
+      "price_low": 80.0,
+      "price_high": 120.0,
+      "source_row": "90"
+    },
+    {
+      "crop": 17,
+      "name": "豇豆",
+      "category": "蔬菜（豆类）",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "yield": 3200.0,
+      "cost": 2640.0,
+      "price_low": 8.4,
+      "price_high": 10.8,
+      "source_row": "91"
+    },
+    {
+      "crop": 18,
+      "name": "刀豆",
+      "category": "蔬菜（豆类）",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "yield": 2200.0,
+      "cost": 1320.0,
+      "price_low": 6.6,
+      "price_high": 9.6,
+      "source_row": "92"
+    },
+    {
+      "crop": 19,
+      "name": "芸豆",
+      "category": "蔬菜（豆类）",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "yield": 3200.0,
+      "cost": 2640.0,
+      "price_low": 6.0,
+      "price_high": 9.6,
+      "source_row": "93"
+    },
+    {
+      "crop": 20,
+      "name": "土豆",
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "yield": 2200.0,
+      "cost": 2640.0,
+      "price_low": 3.6,
+      "price_high": 5.4,
+      "source_row": "94"
+    },
+    {
+      "crop": 21,
+      "name": "西红柿",
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "yield": 2700.0,
+      "cost": 2640.0,
+      "price_low": 6.0,
+      "price_high": 9.0,
+      "source_row": "95"
+    },
+    {
+      "crop": 22,
+      "name": "茄子",
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "yield": 7200.0,
+      "cost": 2640.0,
+      "price_low": 6.0,
+      "price_high": 7.2,
+      "source_row": "96"
+    },
+    {
+      "crop": 23,
+      "name": "菠菜",
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "yield": 3000.0,
+      "cost": 3000.0,
+      "price_low": 5.8,
+      "price_high": 8.0,
+      "source_row": "97"
+    },
+    {
+      "crop": 24,
+      "name": "青椒",
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "yield": 2700.0,
+      "cost": 2200.0,
+      "price_low": 5.8,
+      "price_high": 7.8,
+      "source_row": "98"
+    },
+    {
+      "crop": 25,
+      "name": "菜花",
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "yield": 3600.0,
+      "cost": 3300.0,
+      "price_low": 6.0,
+      "price_high": 7.2,
+      "source_row": "99"
+    },
+    {
+      "crop": 26,
+      "name": "包菜",
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "yield": 4100.0,
+      "cost": 3850.0,
+      "price_low": 6.6,
+      "price_high": 9.0,
+      "source_row": "100"
+    },
+    {
+      "crop": 27,
+      "name": "油麦菜",
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "yield": 4500.0,
+      "cost": 2200.0,
+      "price_low": 4.8,
+      "price_high": 7.2,
+      "source_row": "101"
+    },
+    {
+      "crop": 28,
+      "name": "小青菜",
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "yield": 3600.0,
+      "cost": 2200.0,
+      "price_low": 6.0,
+      "price_high": 7.8,
+      "source_row": "102"
+    },
+    {
+      "crop": 29,
+      "name": "黄瓜",
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "yield": 13500.0,
+      "cost": 3850.0,
+      "price_low": 7.2,
+      "price_high": 9.6,
+      "source_row": "103"
+    },
+    {
+      "crop": 30,
+      "name": "生菜",
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "yield": 4500.0,
+      "cost": 2200.0,
+      "price_low": 5.4,
+      "price_high": 7.2,
+      "source_row": "104"
+    },
+    {
+      "crop": 31,
+      "name": "辣椒",
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "yield": 1800.0,
+      "cost": 1300.0,
+      "price_low": 7.2,
+      "price_high": 10.2,
+      "source_row": "105"
+    },
+    {
+      "crop": 32,
+      "name": "空心菜",
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "yield": 11000.0,
+      "cost": 5500.0,
+      "price_low": 3.6,
+      "price_high": 7.2,
+      "source_row": "106"
+    },
+    {
+      "crop": 33,
+      "name": "黄心菜",
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "yield": 5400.0,
+      "cost": 2750.0,
+      "price_low": 4.8,
+      "price_high": 6.0,
+      "source_row": "107"
+    },
+    {
+      "crop": 34,
+      "name": "芹菜",
+      "category": "蔬菜",
+      "land_type": "智慧大棚",
+      "season": "第二季",
+      "yield": 6000.0,
+      "cost": 1200.0,
+      "price_low": 3.8,
+      "price_high": 5.8,
+      "source_row": "108"
+    }
+  ],
+  "parameter_stats": [
+    {
+      "category": "粮食（豆类）",
+      "records": 15,
+      "yield_min": 315.0,
+      "yield_max": 500.0,
+      "cost_min": 350.0,
+      "cost_max": 400.0,
+      "price_min": 2.5,
+      "price_max": 9.0
+    },
+    {
+      "category": "粮食",
+      "records": 31,
+      "yield_min": 100.0,
+      "yield_max": 3000.0,
+      "cost_min": 350.0,
+      "cost_max": 2000.0,
+      "price_min": 1.0,
+      "price_max": 50.0
+    },
+    {
+      "category": "蔬菜（豆类）",
+      "records": 9,
+      "yield_min": 2000.0,
+      "yield_max": 3600.0,
+      "cost_min": 1000.0,
+      "cost_max": 2640.0,
+      "price_min": 5.0,
+      "price_max": 10.8
+    },
+    {
+      "category": "蔬菜",
+      "records": 48,
+      "yield_min": 1600.0,
+      "yield_max": 15000.0,
+      "cost_min": 500.0,
+      "cost_max": 5500.0,
+      "price_min": 2.0,
+      "price_max": 10.2
+    },
+    {
+      "category": "食用菌",
+      "records": 4,
+      "yield_min": 1000.0,
+      "yield_max": 10000.0,
+      "cost_min": 2000.0,
+      "cost_max": 10000.0,
+      "price_min": 14.0,
+      "price_max": 120.0
+    }
+  ],
+  "price_intervals": [
+    {
+      "crop": 1,
+      "name": "黄豆",
+      "category": "粮食（豆类）",
+      "intervals": [
+        {
+          "low": 2.5,
+          "high": 4.0,
+          "sources": [
+            {
+              "land_type": "平旱地",
+              "season": "单季",
+              "source_row": "2"
+            },
+            {
+              "land_type": "梯田",
+              "season": "单季",
+              "source_row": "17"
+            },
+            {
+              "land_type": "山坡地",
+              "season": "单季",
+              "source_row": "32"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 2,
+      "name": "黑豆",
+      "category": "粮食（豆类）",
+      "intervals": [
+        {
+          "low": 6.5,
+          "high": 8.5,
+          "sources": [
+            {
+              "land_type": "平旱地",
+              "season": "单季",
+              "source_row": "3"
+            },
+            {
+              "land_type": "梯田",
+              "season": "单季",
+              "source_row": "18"
+            },
+            {
+              "land_type": "山坡地",
+              "season": "单季",
+              "source_row": "33"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 3,
+      "name": "红豆",
+      "category": "粮食（豆类）",
+      "intervals": [
+        {
+          "low": 7.5,
+          "high": 9.0,
+          "sources": [
+            {
+              "land_type": "平旱地",
+              "season": "单季",
+              "source_row": "4"
+            },
+            {
+              "land_type": "梯田",
+              "season": "单季",
+              "source_row": "19"
+            },
+            {
+              "land_type": "山坡地",
+              "season": "单季",
+              "source_row": "34"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 4,
+      "name": "绿豆",
+      "category": "粮食（豆类）",
+      "intervals": [
+        {
+          "low": 6.0,
+          "high": 8.0,
+          "sources": [
+            {
+              "land_type": "平旱地",
+              "season": "单季",
+              "source_row": "5"
+            },
+            {
+              "land_type": "梯田",
+              "season": "单季",
+              "source_row": "20"
+            },
+            {
+              "land_type": "山坡地",
+              "season": "单季",
+              "source_row": "35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 5,
+      "name": "爬豆",
+      "category": "粮食（豆类）",
+      "intervals": [
+        {
+          "low": 6.0,
+          "high": 7.5,
+          "sources": [
+            {
+              "land_type": "平旱地",
+              "season": "单季",
+              "source_row": "6"
+            },
+            {
+              "land_type": "梯田",
+              "season": "单季",
+              "source_row": "21"
+            },
+            {
+              "land_type": "山坡地",
+              "season": "单季",
+              "source_row": "36"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 6,
+      "name": "小麦",
+      "category": "粮食",
+      "intervals": [
+        {
+          "low": 3.0,
+          "high": 4.0,
+          "sources": [
+            {
+              "land_type": "平旱地",
+              "season": "单季",
+              "source_row": "7"
+            },
+            {
+              "land_type": "梯田",
+              "season": "单季",
+              "source_row": "22"
+            },
+            {
+              "land_type": "山坡地",
+              "season": "单季",
+              "source_row": "37"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 7,
+      "name": "玉米",
+      "category": "粮食",
+      "intervals": [
+        {
+          "low": 2.5,
+          "high": 3.5,
+          "sources": [
+            {
+              "land_type": "平旱地",
+              "season": "单季",
+              "source_row": "8"
+            },
+            {
+              "land_type": "梯田",
+              "season": "单季",
+              "source_row": "23"
+            },
+            {
+              "land_type": "山坡地",
+              "season": "单季",
+              "source_row": "38"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 8,
+      "name": "谷子",
+      "category": "粮食",
+      "intervals": [
+        {
+          "low": 6.0,
+          "high": 7.5,
+          "sources": [
+            {
+              "land_type": "平旱地",
+              "season": "单季",
+              "source_row": "9"
+            },
+            {
+              "land_type": "梯田",
+              "season": "单季",
+              "source_row": "24"
+            },
+            {
+              "land_type": "山坡地",
+              "season": "单季",
+              "source_row": "39"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 9,
+      "name": "高粱",
+      "category": "粮食",
+      "intervals": [
+        {
+          "low": 5.5,
+          "high": 6.5,
+          "sources": [
+            {
+              "land_type": "平旱地",
+              "season": "单季",
+              "source_row": "10"
+            },
+            {
+              "land_type": "梯田",
+              "season": "单季",
+              "source_row": "25"
+            },
+            {
+              "land_type": "山坡地",
+              "season": "单季",
+              "source_row": "40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 10,
+      "name": "黍子",
+      "category": "粮食",
+      "intervals": [
+        {
+          "low": 6.5,
+          "high": 8.5,
+          "sources": [
+            {
+              "land_type": "平旱地",
+              "season": "单季",
+              "source_row": "11"
+            },
+            {
+              "land_type": "梯田",
+              "season": "单季",
+              "source_row": "26"
+            },
+            {
+              "land_type": "山坡地",
+              "season": "单季",
+              "source_row": "41"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 11,
+      "name": "荞麦",
+      "category": "粮食",
+      "intervals": [
+        {
+          "low": 30.0,
+          "high": 50.0,
+          "sources": [
+            {
+              "land_type": "平旱地",
+              "season": "单季",
+              "source_row": "12"
+            },
+            {
+              "land_type": "梯田",
+              "season": "单季",
+              "source_row": "27"
+            },
+            {
+              "land_type": "山坡地",
+              "season": "单季",
+              "source_row": "42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 12,
+      "name": "南瓜",
+      "category": "粮食",
+      "intervals": [
+        {
+          "low": 1.0,
+          "high": 2.0,
+          "sources": [
+            {
+              "land_type": "平旱地",
+              "season": "单季",
+              "source_row": "13"
+            },
+            {
+              "land_type": "梯田",
+              "season": "单季",
+              "source_row": "28"
+            },
+            {
+              "land_type": "山坡地",
+              "season": "单季",
+              "source_row": "43"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 13,
+      "name": "红薯",
+      "category": "粮食",
+      "intervals": [
+        {
+          "low": 2.5,
+          "high": 4.0,
+          "sources": [
+            {
+              "land_type": "平旱地",
+              "season": "单季",
+              "source_row": "14"
+            },
+            {
+              "land_type": "梯田",
+              "season": "单季",
+              "source_row": "29"
+            },
+            {
+              "land_type": "山坡地",
+              "season": "单季",
+              "source_row": "44"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 14,
+      "name": "莜麦",
+      "category": "粮食",
+      "intervals": [
+        {
+          "low": 5.0,
+          "high": 6.0,
+          "sources": [
+            {
+              "land_type": "平旱地",
+              "season": "单季",
+              "source_row": "15"
+            },
+            {
+              "land_type": "梯田",
+              "season": "单季",
+              "source_row": "30"
+            },
+            {
+              "land_type": "山坡地",
+              "season": "单季",
+              "source_row": "45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 15,
+      "name": "大麦",
+      "category": "粮食",
+      "intervals": [
+        {
+          "low": 3.0,
+          "high": 4.0,
+          "sources": [
+            {
+              "land_type": "平旱地",
+              "season": "单季",
+              "source_row": "16"
+            },
+            {
+              "land_type": "梯田",
+              "season": "单季",
+              "source_row": "31"
+            },
+            {
+              "land_type": "山坡地",
+              "season": "单季",
+              "source_row": "46"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 16,
+      "name": "水稻",
+      "category": "粮食",
+      "intervals": [
+        {
+          "low": 6.0,
+          "high": 8.0,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "单季",
+              "source_row": "47"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 17,
+      "name": "豇豆",
+      "category": "蔬菜（豆类）",
+      "intervals": [
+        {
+          "low": 7.0,
+          "high": 9.0,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第一季",
+              "source_row": "48"
+            },
+            {
+              "land_type": "普通大棚",
+              "season": "第一季",
+              "source_row": "66"
+            }
+          ]
+        },
+        {
+          "low": 8.4,
+          "high": 10.8,
+          "sources": [
+            {
+              "land_type": "智慧大棚",
+              "season": "第二季",
+              "source_row": "91"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 18,
+      "name": "刀豆",
+      "category": "蔬菜（豆类）",
+      "intervals": [
+        {
+          "low": 5.5,
+          "high": 8.0,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第一季",
+              "source_row": "49"
+            },
+            {
+              "land_type": "普通大棚",
+              "season": "第一季",
+              "source_row": "67"
+            }
+          ]
+        },
+        {
+          "low": 6.6,
+          "high": 9.6,
+          "sources": [
+            {
+              "land_type": "智慧大棚",
+              "season": "第二季",
+              "source_row": "92"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 19,
+      "name": "芸豆",
+      "category": "蔬菜（豆类）",
+      "intervals": [
+        {
+          "low": 5.0,
+          "high": 8.0,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第一季",
+              "source_row": "50"
+            },
+            {
+              "land_type": "普通大棚",
+              "season": "第一季",
+              "source_row": "68"
+            }
+          ]
+        },
+        {
+          "low": 6.0,
+          "high": 9.6,
+          "sources": [
+            {
+              "land_type": "智慧大棚",
+              "season": "第二季",
+              "source_row": "93"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 20,
+      "name": "土豆",
+      "category": "蔬菜",
+      "intervals": [
+        {
+          "low": 3.0,
+          "high": 4.5,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第一季",
+              "source_row": "51"
+            },
+            {
+              "land_type": "普通大棚",
+              "season": "第一季",
+              "source_row": "69"
+            }
+          ]
+        },
+        {
+          "low": 3.6,
+          "high": 5.4,
+          "sources": [
+            {
+              "land_type": "智慧大棚",
+              "season": "第二季",
+              "source_row": "94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 21,
+      "name": "西红柿",
+      "category": "蔬菜",
+      "intervals": [
+        {
+          "low": 5.0,
+          "high": 7.5,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第一季",
+              "source_row": "52"
+            },
+            {
+              "land_type": "普通大棚",
+              "season": "第一季",
+              "source_row": "70"
+            }
+          ]
+        },
+        {
+          "low": 6.0,
+          "high": 9.0,
+          "sources": [
+            {
+              "land_type": "智慧大棚",
+              "season": "第二季",
+              "source_row": "95"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 22,
+      "name": "茄子",
+      "category": "蔬菜",
+      "intervals": [
+        {
+          "low": 5.0,
+          "high": 6.0,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第一季",
+              "source_row": "53"
+            },
+            {
+              "land_type": "普通大棚",
+              "season": "第一季",
+              "source_row": "71"
+            }
+          ]
+        },
+        {
+          "low": 6.0,
+          "high": 7.2,
+          "sources": [
+            {
+              "land_type": "智慧大棚",
+              "season": "第二季",
+              "source_row": "96"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 23,
+      "name": "菠菜",
+      "category": "蔬菜",
+      "intervals": [
+        {
+          "low": 4.8,
+          "high": 6.7,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第一季",
+              "source_row": "54"
+            },
+            {
+              "land_type": "普通大棚",
+              "season": "第一季",
+              "source_row": "72"
+            }
+          ]
+        },
+        {
+          "low": 5.8,
+          "high": 8.0,
+          "sources": [
+            {
+              "land_type": "智慧大棚",
+              "season": "第二季",
+              "source_row": "97"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 24,
+      "name": "青椒",
+      "category": "蔬菜",
+      "intervals": [
+        {
+          "low": 4.0,
+          "high": 6.5,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第一季",
+              "source_row": "55"
+            },
+            {
+              "land_type": "普通大棚",
+              "season": "第一季",
+              "source_row": "73"
+            }
+          ]
+        },
+        {
+          "low": 5.8,
+          "high": 7.8,
+          "sources": [
+            {
+              "land_type": "智慧大棚",
+              "season": "第二季",
+              "source_row": "98"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 25,
+      "name": "菜花",
+      "category": "蔬菜",
+      "intervals": [
+        {
+          "low": 5.0,
+          "high": 6.0,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第一季",
+              "source_row": "56"
+            },
+            {
+              "land_type": "普通大棚",
+              "season": "第一季",
+              "source_row": "74"
+            }
+          ]
+        },
+        {
+          "low": 6.0,
+          "high": 7.2,
+          "sources": [
+            {
+              "land_type": "智慧大棚",
+              "season": "第二季",
+              "source_row": "99"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 26,
+      "name": "包菜",
+      "category": "蔬菜",
+      "intervals": [
+        {
+          "low": 5.5,
+          "high": 7.5,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第一季",
+              "source_row": "57"
+            },
+            {
+              "land_type": "普通大棚",
+              "season": "第一季",
+              "source_row": "75"
+            }
+          ]
+        },
+        {
+          "low": 6.6,
+          "high": 9.0,
+          "sources": [
+            {
+              "land_type": "智慧大棚",
+              "season": "第二季",
+              "source_row": "100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 27,
+      "name": "油麦菜",
+      "category": "蔬菜",
+      "intervals": [
+        {
+          "low": 4.0,
+          "high": 6.0,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第一季",
+              "source_row": "58"
+            },
+            {
+              "land_type": "普通大棚",
+              "season": "第一季",
+              "source_row": "76"
+            }
+          ]
+        },
+        {
+          "low": 4.8,
+          "high": 7.2,
+          "sources": [
+            {
+              "land_type": "智慧大棚",
+              "season": "第二季",
+              "source_row": "101"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 28,
+      "name": "小青菜",
+      "category": "蔬菜",
+      "intervals": [
+        {
+          "low": 5.0,
+          "high": 6.5,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第一季",
+              "source_row": "59"
+            },
+            {
+              "land_type": "普通大棚",
+              "season": "第一季",
+              "source_row": "77"
+            }
+          ]
+        },
+        {
+          "low": 6.0,
+          "high": 7.8,
+          "sources": [
+            {
+              "land_type": "智慧大棚",
+              "season": "第二季",
+              "source_row": "102"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 29,
+      "name": "黄瓜",
+      "category": "蔬菜",
+      "intervals": [
+        {
+          "low": 6.0,
+          "high": 8.0,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第一季",
+              "source_row": "60"
+            },
+            {
+              "land_type": "普通大棚",
+              "season": "第一季",
+              "source_row": "78"
+            }
+          ]
+        },
+        {
+          "low": 7.2,
+          "high": 9.6,
+          "sources": [
+            {
+              "land_type": "智慧大棚",
+              "season": "第二季",
+              "source_row": "103"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 30,
+      "name": "生菜",
+      "category": "蔬菜",
+      "intervals": [
+        {
+          "low": 4.5,
+          "high": 6.0,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第一季",
+              "source_row": "61"
+            },
+            {
+              "land_type": "普通大棚",
+              "season": "第一季",
+              "source_row": "79"
+            }
+          ]
+        },
+        {
+          "low": 5.4,
+          "high": 7.2,
+          "sources": [
+            {
+              "land_type": "智慧大棚",
+              "season": "第二季",
+              "source_row": "104"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 31,
+      "name": "辣椒",
+      "category": "蔬菜",
+      "intervals": [
+        {
+          "low": 6.0,
+          "high": 8.5,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第一季",
+              "source_row": "62"
+            },
+            {
+              "land_type": "普通大棚",
+              "season": "第一季",
+              "source_row": "80"
+            }
+          ]
+        },
+        {
+          "low": 7.2,
+          "high": 10.2,
+          "sources": [
+            {
+              "land_type": "智慧大棚",
+              "season": "第二季",
+              "source_row": "105"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 32,
+      "name": "空心菜",
+      "category": "蔬菜",
+      "intervals": [
+        {
+          "low": 3.0,
+          "high": 6.0,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第一季",
+              "source_row": "63"
+            },
+            {
+              "land_type": "普通大棚",
+              "season": "第一季",
+              "source_row": "81"
+            }
+          ]
+        },
+        {
+          "low": 3.6,
+          "high": 7.2,
+          "sources": [
+            {
+              "land_type": "智慧大棚",
+              "season": "第二季",
+              "source_row": "106"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 33,
+      "name": "黄心菜",
+      "category": "蔬菜",
+      "intervals": [
+        {
+          "low": 4.0,
+          "high": 5.0,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第一季",
+              "source_row": "64"
+            },
+            {
+              "land_type": "普通大棚",
+              "season": "第一季",
+              "source_row": "82"
+            }
+          ]
+        },
+        {
+          "low": 4.8,
+          "high": 6.0,
+          "sources": [
+            {
+              "land_type": "智慧大棚",
+              "season": "第二季",
+              "source_row": "107"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 34,
+      "name": "芹菜",
+      "category": "蔬菜",
+      "intervals": [
+        {
+          "low": 3.2,
+          "high": 4.8,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第一季",
+              "source_row": "65"
+            },
+            {
+              "land_type": "普通大棚",
+              "season": "第一季",
+              "source_row": "83"
+            }
+          ]
+        },
+        {
+          "low": 3.8,
+          "high": 5.8,
+          "sources": [
+            {
+              "land_type": "智慧大棚",
+              "season": "第二季",
+              "source_row": "108"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 35,
+      "name": "大白菜",
+      "category": "蔬菜",
+      "intervals": [
+        {
+          "low": 2.0,
+          "high": 3.0,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第二季",
+              "source_row": "84"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 36,
+      "name": "白萝卜",
+      "category": "蔬菜",
+      "intervals": [
+        {
+          "low": 2.0,
+          "high": 3.0,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第二季",
+              "source_row": "85"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 37,
+      "name": "红萝卜",
+      "category": "蔬菜",
+      "intervals": [
+        {
+          "low": 2.5,
+          "high": 4.0,
+          "sources": [
+            {
+              "land_type": "水浇地",
+              "season": "第二季",
+              "source_row": "86"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 38,
+      "name": "榆黄菇",
+      "category": "食用菌",
+      "intervals": [
+        {
+          "low": 50.0,
+          "high": 65.0,
+          "sources": [
+            {
+              "land_type": "普通大棚",
+              "season": "第二季",
+              "source_row": "87"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 39,
+      "name": "香菇",
+      "category": "食用菌",
+      "intervals": [
+        {
+          "low": 18.0,
+          "high": 20.0,
+          "sources": [
+            {
+              "land_type": "普通大棚",
+              "season": "第二季",
+              "source_row": "88"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 40,
+      "name": "白灵菇",
+      "category": "食用菌",
+      "intervals": [
+        {
+          "low": 14.0,
+          "high": 18.0,
+          "sources": [
+            {
+              "land_type": "普通大棚",
+              "season": "第二季",
+              "source_row": "89"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "crop": 41,
+      "name": "羊肚菌",
+      "category": "食用菌",
+      "intervals": [
+        {
+          "low": 80.0,
+          "high": 120.0,
+          "sources": [
+            {
+              "land_type": "普通大棚",
+              "season": "第二季",
+              "source_row": "90"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "paired_grain": [
+    {
+      "crop": 1,
+      "name": "黄豆",
+      "yield_dry": 400.0,
+      "yield_terrace": 380.0,
+      "yield_slope": 360.0,
+      "cost_equal": true,
+      "price_equal": true
+    },
+    {
+      "crop": 2,
+      "name": "黑豆",
+      "yield_dry": 500.0,
+      "yield_terrace": 475.0,
+      "yield_slope": 450.0,
+      "cost_equal": true,
+      "price_equal": true
+    },
+    {
+      "crop": 3,
+      "name": "红豆",
+      "yield_dry": 400.0,
+      "yield_terrace": 380.0,
+      "yield_slope": 360.0,
+      "cost_equal": true,
+      "price_equal": true
+    },
+    {
+      "crop": 4,
+      "name": "绿豆",
+      "yield_dry": 350.0,
+      "yield_terrace": 330.0,
+      "yield_slope": 315.0,
+      "cost_equal": true,
+      "price_equal": true
+    },
+    {
+      "crop": 5,
+      "name": "爬豆",
+      "yield_dry": 415.0,
+      "yield_terrace": 395.0,
+      "yield_slope": 375.0,
+      "cost_equal": true,
+      "price_equal": true
+    },
+    {
+      "crop": 6,
+      "name": "小麦",
+      "yield_dry": 800.0,
+      "yield_terrace": 760.0,
+      "yield_slope": 720.0,
+      "cost_equal": true,
+      "price_equal": true
+    },
+    {
+      "crop": 7,
+      "name": "玉米",
+      "yield_dry": 1000.0,
+      "yield_terrace": 950.0,
+      "yield_slope": 900.0,
+      "cost_equal": true,
+      "price_equal": true
+    },
+    {
+      "crop": 8,
+      "name": "谷子",
+      "yield_dry": 400.0,
+      "yield_terrace": 380.0,
+      "yield_slope": 360.0,
+      "cost_equal": true,
+      "price_equal": true
+    },
+    {
+      "crop": 9,
+      "name": "高粱",
+      "yield_dry": 630.0,
+      "yield_terrace": 600.0,
+      "yield_slope": 570.0,
+      "cost_equal": true,
+      "price_equal": true
+    },
+    {
+      "crop": 10,
+      "name": "黍子",
+      "yield_dry": 525.0,
+      "yield_terrace": 500.0,
+      "yield_slope": 475.0,
+      "cost_equal": true,
+      "price_equal": true
+    },
+    {
+      "crop": 11,
+      "name": "荞麦",
+      "yield_dry": 110.0,
+      "yield_terrace": 105.0,
+      "yield_slope": 100.0,
+      "cost_equal": true,
+      "price_equal": true
+    },
+    {
+      "crop": 12,
+      "name": "南瓜",
+      "yield_dry": 3000.0,
+      "yield_terrace": 2850.0,
+      "yield_slope": 2700.0,
+      "cost_equal": true,
+      "price_equal": true
+    },
+    {
+      "crop": 13,
+      "name": "红薯",
+      "yield_dry": 2200.0,
+      "yield_terrace": 2100.0,
+      "yield_slope": 2000.0,
+      "cost_equal": true,
+      "price_equal": true
+    },
+    {
+      "crop": 14,
+      "name": "莜麦",
+      "yield_dry": 420.0,
+      "yield_terrace": 400.0,
+      "yield_slope": 380.0,
+      "cost_equal": true,
+      "price_equal": true
+    },
+    {
+      "crop": 15,
+      "name": "大麦",
+      "yield_dry": 525.0,
+      "yield_terrace": 500.0,
+      "yield_slope": 475.0,
+      "cost_equal": true,
+      "price_equal": true
+    }
+  ],
+  "coverage_columns": [
+    [
+      "平旱地",
+      "单季"
+    ],
+    [
+      "梯田",
+      "单季"
+    ],
+    [
+      "山坡地",
+      "单季"
+    ],
+    [
+      "水浇地",
+      "单季"
+    ],
+    [
+      "水浇地",
+      "第一季"
+    ],
+    [
+      "水浇地",
+      "第二季"
+    ],
+    [
+      "普通大棚",
+      "第一季"
+    ],
+    [
+      "普通大棚",
+      "第二季"
+    ],
+    [
+      "智慧大棚",
+      "第一季"
+    ],
+    [
+      "智慧大棚",
+      "第二季"
+    ]
+  ],
+  "coverage_matrix": [
+    [
+      2,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      2,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      2,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      2,
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      2,
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      2,
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ]
+  ],
+  "crop_names": [
+    "黄豆",
+    "黑豆",
+    "红豆",
+    "绿豆",
+    "爬豆",
+    "小麦",
+    "玉米",
+    "谷子",
+    "高粱",
+    "黍子",
+    "荞麦",
+    "南瓜",
+    "红薯",
+    "莜麦",
+    "大麦",
+    "水稻",
+    "豇豆",
+    "刀豆",
+    "芸豆",
+    "土豆",
+    "西红柿",
+    "茄子",
+    "菠菜",
+    "青椒",
+    "菜花",
+    "包菜",
+    "油麦菜",
+    "小青菜",
+    "黄瓜",
+    "生菜",
+    "辣椒",
+    "空心菜",
+    "黄心菜",
+    "芹菜",
+    "大白菜",
+    "白萝卜",
+    "红萝卜",
+    "榆黄菇",
+    "香菇",
+    "白灵菇",
+    "羊肚菌"
+  ],
+  "summary": {
+    "land_total": 1213.0,
+    "history_area_mu_times": 1292.0,
+    "land_season_groups": 80,
+    "mixed_groups": 7,
+    "max_crops_per_land_season": 2,
+    "bean_plots": 19,
+    "bean_area_mu_times": 400.8,
+    "legal_parameter_combinations": 125,
+    "observed_parameter_combinations": 64,
+    "unobserved_legal_combinations": 61,
+    "distinct_price_intervals": 59
+  },
+  "definitions": {
+    "coverage": "0=ineligible by source rules;1=eligible but no2023 record;2=eligible and observed. Not a demand matrix.",
+    "price": "Each line is an original interval; identical intervals within crop grouped for display, all source rows retained. No midpoint.",
+    "history_area": "Sum of historical planted area over crop/season records, mu-times across seasons; unique plots count physical IDs.",
+    "parameters": "107 source statistical rows, not independent empirical samples; no18 referenced duplicates in distribution.",
+    "preprocessing": "Reuse confirmed normalization, merged-anchor provenance and explicit rule references. No numerical edits."
+  },
+  "input_sha256": {
+    "lands.csv": "2ba6006df739876b3e7307c59fc9d58a84b67606856ae5cc13a6f5050c6b9431",
+    "crops.csv": "2bbf6d98ebe406ad9b6a0d7f89a5a054e3b322ff48ad4389209abaa96f7281cc",
+    "planting_2023.csv": "36a76aef850968335869c6494854bed1c6d4d27c2c50f80816b31129497a2269",
+    "parameters_original.csv": "ac610a31f9d5ec4f2a649fa720bad85b4ff5d463766fc7a92fcf2d89dc559cfd",
+    "template_mapping.json": "399f11c05f101f98d7c8a95797ed93d522f7015012004e7351e0954dd44203f1"
+  },
+  "code_sha256": "d0ae6bb4c329cd3532e4638f4370a4491414d970590c0f7f0c3e5fd7e1f7344d",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  }
+}

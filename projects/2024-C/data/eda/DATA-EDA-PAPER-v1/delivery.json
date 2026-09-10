@@ -1,0 +1,174 @@
+{
+  "version": "DATA-EDA-PAPER-v1",
+  "pending_gate": "DATA-EDA-PAPER-G2-v1",
+  "completed_utc": "2026-09-10T08:22:24.947930+00:00",
+  "authorizations": [
+    "U032",
+    "U033"
+  ],
+  "data_version": "G1-v1-base",
+  "state_revision": 58,
+  "stage": "WAIT_G2",
+  "protected_files": 423,
+  "protected_mismatches": [],
+  "source_numeric_edits": 0,
+  "source_row_edits": 0,
+  "new_frozen_data_version": false,
+  "eda_executed": true,
+  "modeling_executed": false,
+  "new_paper_pages": 6,
+  "main_pages": 4,
+  "appendix_pages": 2,
+  "figures_main": 4,
+  "figures_appendix": 2,
+  "tables": 3,
+  "visual_review": {
+    "reviewer": "current AI agent",
+    "rendered_pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "figures_reviewed": 6,
+    "actual_human_review": false,
+    "findings": "Fixed small labels, invalid glyph/log tick, weak interval contrast, and paragraph/caption parsing. Final six pages legible without clipping; old full paper not modified."
+  },
+  "technical_checks": {
+    "analysis_reproduction_equal": true,
+    "figure_reproduction": [
+      {
+        "name": "01_land",
+        "png_identical": true,
+        "pdf_identical": true
+      },
+      {
+        "name": "02_coverage",
+        "png_identical": true,
+        "pdf_identical": true
+      },
+      {
+        "name": "03_history_structure",
+        "png_identical": true,
+        "pdf_identical": true
+      },
+      {
+        "name": "04_yield_cost",
+        "png_identical": true,
+        "pdf_identical": true
+      },
+      {
+        "name": "05_crop_history",
+        "png_identical": true,
+        "pdf_identical": true
+      },
+      {
+        "name": "06_price_intervals",
+        "png_identical": true,
+        "pdf_identical": true
+      }
+    ],
+    "pdf_pages": [
+      {
+        "page": 1,
+        "chars": 967,
+        "text_colors": [
+          "(0.0,)"
+        ],
+        "outside_page_chars": 0
+      },
+      {
+        "page": 2,
+        "chars": 887,
+        "text_colors": [
+          "(0.0,)"
+        ],
+        "outside_page_chars": 0
+      },
+      {
+        "page": 3,
+        "chars": 643,
+        "text_colors": [
+          "(0.0,)"
+        ],
+        "outside_page_chars": 0
+      },
+      {
+        "page": 4,
+        "chars": 1036,
+        "text_colors": [
+          "(0.0,)"
+        ],
+        "outside_page_chars": 0
+      },
+      {
+        "page": 5,
+        "chars": 464,
+        "text_colors": [
+          "(0.0,)"
+        ],
+        "outside_page_chars": 0
+      },
+      {
+        "page": 6,
+        "chars": 292,
+        "text_colors": [
+          "(0.0,)"
+        ],
+        "outside_page_chars": 0
+      }
+    ]
+  },
+  "scope_limits": [
+    "Demand/price representative/rotation/calendar choices remain unresolved",
+    "No time-series/probability/causal claims from statistical parameter rows",
+    "No Q1 candidates or model execution",
+    "Training chapter only, not final contest submission package"
+  ],
+  "artifact_sha256": {
+    "data/eda/DATA-EDA-PAPER-v1/analyze.py": "d0ae6bb4c329cd3532e4638f4370a4491414d970590c0f7f0c3e5fd7e1f7344d",
+    "data/eda/DATA-EDA-PAPER-v1/plot.py": "55ee45124ccaafeca9625eef54cd7bdd793107bf8bf9de7ac1d519661409b8a7",
+    "data/eda/DATA-EDA-PAPER-v1/verify.py": "391be35a400240d1dc5e6cc199c244b02732905e69ad77cafbfbb3bdb99b6385",
+    "data/eda/DATA-EDA-PAPER-v1/verification.json": "4db4ebad6a58077117dd93c1156525f92f9effbc9ec666e20a7a569dbbc8f9c4",
+    "data/eda/DATA-EDA-PAPER-v1/technical_checks.json": "7e22cbf4b28dfaaa8fcfe9eae4f17705022eabf60a7277407969f62bc7546af8",
+    "data/eda/DATA-EDA-PAPER-v1/README.md": "ab3c4b7d8407092ba555bde0e0c88c622f74377db25514b121c0652028f3611e",
+    "paper/data_eda_v1/chapter.md": "9b872dc6d51426730d4f04713335c6dc31b49bec618b8ef6b5dc647a5a83b536",
+    "paper/data_eda_v1/chapter.tex": "5bc2c43f5156d73e19729571324c81220a1e75cbf894290f99187f2e1493ccaa",
+    "paper/data_eda_v1/chapter.pdf": "bcc92d53e0cf41a9453417db4c69f46b48e87fcf60ac5e937183edf256d9297a",
+    "paper/data_eda_v1/build.py": "36c42921ad97120e6e381268f32f429e20ed7aeaae6ff28250ae79bbcd3e1314",
+    "paper/data_eda_v1/README.md": "3584a4e1a095c8cc6693965e89b7a3e25af5979a6bb6c6b297112db35264e6a7",
+    "paper/data_eda_v1/data_figures.zip": "34e04ae86db2c2e7f0955793f2e3135dffa7a686ea2b31c15f7efebd3397f336",
+    "report.md": "3b057f3394a0b253c6290611351aeeae44ee6a62473d9d19d003a858eea4dd1a",
+    "paper_evidence/data.md": "c447acfeb2c0f0f0ce842ef816dfa76fccac840044e36daef8ceca3a46d4aa67",
+    "paper_evidence/figure_registry.md": "0438a4db7b896fb38b563aab557d4fc1099fec7441cbe34bc10948ace8b6a738",
+    "state/state.json": "8486a90da1bde729449abf6a27fe13795004281f16a963bc183f49964f358c44",
+    "state/decisions.md": "ca39b7758ec016f4f7bd67e3a6daba74dd62192bb17c6da281a75ea4ecd78c77",
+    "state/ai_usage_log.md": "5b1a59a7703f6e1b77c4ba78c98bf4371398f1c2aa64e2f210c337c310956689",
+    "data/eda/DATA-EDA-PAPER-v1/results/crop_history.csv": "64972e43170b0add0d66266f6cb346e5fb948412e0e500a095bf890979cee59e",
+    "data/eda/DATA-EDA-PAPER-v1/results/eda.json": "3bff54c6e326f93e7c9e90d6da84fb3bde50a06a62bdc5cf12f748223d08a699",
+    "data/eda/DATA-EDA-PAPER-v1/results/land_summary.csv": "c454627a235ca5d3c2c4efbc3b499efe0c4c1d945ee90809ebd1f36b380ba338",
+    "data/eda/DATA-EDA-PAPER-v1/results/paired_grain.csv": "d15fd7cf5e80e751ad79c5269156d47ef885bb1b70643650d89c80772dfca6d8",
+    "data/eda/DATA-EDA-PAPER-v1/results/parameter_ranges.csv": "a45784884ca001d4f76c83a039ce8d7e5670eb3adffb26fd4b1c9fc41988f764",
+    "data/eda/DATA-EDA-PAPER-v1/figures_final/01_land.pdf": "95a4e4d3a93299e35864ee5c69c334d9f1b9592896c45e1008ab773c518c08df",
+    "data/eda/DATA-EDA-PAPER-v1/figures_final/01_land.png": "1fb127478fb05f974906f6d47f90692b0b5d82e5e41ada7da249e965d6291cd3",
+    "data/eda/DATA-EDA-PAPER-v1/figures_final/01_land.svg": "e9ae27e1eaa5923888ed5f9eef3f5c3743df3fe8ea21f7355f566cac4fa14d2d",
+    "data/eda/DATA-EDA-PAPER-v1/figures_final/02_coverage.pdf": "b20e335db17df44693ee71366c6c70d117e40bd9123ce6fcf946f08f154c26f0",
+    "data/eda/DATA-EDA-PAPER-v1/figures_final/02_coverage.png": "94840c84612e7314fff9a613b6b06bd5edb539fba99c57cc8e4ea2612a2ffd27",
+    "data/eda/DATA-EDA-PAPER-v1/figures_final/02_coverage.svg": "b99c2ba92ef59594011404820834e94e024f0393e86d7867580fd79afb994ef4",
+    "data/eda/DATA-EDA-PAPER-v1/figures_final/03_history_structure.pdf": "0df81a51810c1600db78c9c0613ebfed470bf370cab07752efb38077c8b39864",
+    "data/eda/DATA-EDA-PAPER-v1/figures_final/03_history_structure.png": "d73cead13fa50cf93f9cd520fcd63ca3d68360c18b84921b871b0b470dd6515a",
+    "data/eda/DATA-EDA-PAPER-v1/figures_final/03_history_structure.svg": "b3d0c155431e661baf1bbb708a89a829a2a8ce7dd3cce35a8364b549725c1b31",
+    "data/eda/DATA-EDA-PAPER-v1/figures_final/04_yield_cost.pdf": "82294dbaa06f85cf5d76b47971e4ddf70783744dc64e405117a0986d2e0a56d2",
+    "data/eda/DATA-EDA-PAPER-v1/figures_final/04_yield_cost.png": "c7dc14cea0d8f304b26532e508e4f7dd67f2d564c569ecdbd67b97576e6774a8",
+    "data/eda/DATA-EDA-PAPER-v1/figures_final/04_yield_cost.svg": "228f2d1c950eaf00297eeb13e4ef35618d12cbc3394bad951a974a3384ce4e27",
+    "data/eda/DATA-EDA-PAPER-v1/figures_final/05_crop_history.pdf": "352d879d8af397dc76c4a5b265c145f081ec776a7b7a936ee71478e2db705ee9",
+    "data/eda/DATA-EDA-PAPER-v1/figures_final/05_crop_history.png": "91c5c99670bceac0512c924f7687084bce28b72aebece3bf90d83957c61defee",
+    "data/eda/DATA-EDA-PAPER-v1/figures_final/05_crop_history.svg": "28cef9bc84aca64b3bd5c0ab67832436dab901e3019ce0197d8ca9169d6c145b",
+    "data/eda/DATA-EDA-PAPER-v1/figures_final/06_price_intervals.pdf": "93fb792adbe13407206c50d435a0377db759966bc95052f59797f3dd39083f87",
+    "data/eda/DATA-EDA-PAPER-v1/figures_final/06_price_intervals.png": "4883969170077d59a8e690cf3800992c0a96c9604025777514e5aa727e9a18fb",
+    "data/eda/DATA-EDA-PAPER-v1/figures_final/06_price_intervals.svg": "230c8acb9e24ffd60e97d6a9b8a4cf681dd67f4ab297f4ed4a0528af87a821aa",
+    "data/eda/DATA-EDA-PAPER-v1/figures_final/manifest.json": "e36b5c8e4e1432aa44794ec97232c8fb8118e58d85c0feaef175d5aee635b5de"
+  }
+}

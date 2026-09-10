@@ -14,3 +14,9 @@ node_modules/
 *.egg-info/
 .venv/
 venv/
+
+# Local TeX toolchain cache and LaTeX intermediates
+**/.miktex-config/
+**/.miktex-data/
+*.aux
+*.xdv

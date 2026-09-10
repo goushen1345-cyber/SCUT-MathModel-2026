@@ -1,0 +1,241 @@
+{
+  "xml_land_count": 54,
+  "xml_crop_count": 41,
+  "xml_history_rows": 87,
+  "xml_area_groups": 80,
+  "xml_matches_openpyxl_area_groups": true,
+  "xml_area_groups_over_capacity": [],
+  "xml_price_interval_failures": [],
+  "xml_template_checks": [
+    {
+      "file": "result1_1.xlsx",
+      "year": "2024",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result1_1.xlsx",
+      "year": "2025",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result1_1.xlsx",
+      "year": "2026",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result1_1.xlsx",
+      "year": "2027",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result1_1.xlsx",
+      "year": "2028",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result1_1.xlsx",
+      "year": "2029",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result1_1.xlsx",
+      "year": "2030",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result1_2.xlsx",
+      "year": "2024",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result1_2.xlsx",
+      "year": "2025",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result1_2.xlsx",
+      "year": "2026",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result1_2.xlsx",
+      "year": "2027",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result1_2.xlsx",
+      "year": "2028",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result1_2.xlsx",
+      "year": "2029",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result1_2.xlsx",
+      "year": "2030",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result2.xlsx",
+      "year": "2024",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result2.xlsx",
+      "year": "2025",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result2.xlsx",
+      "year": "2026",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result2.xlsx",
+      "year": "2027",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result2.xlsx",
+      "year": "2028",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result2.xlsx",
+      "year": "2029",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    },
+    {
+      "file": "result2.xlsx",
+      "year": "2030",
+      "first_season_exact_land_set": true,
+      "second_season_exact_land_set": true,
+      "all_crop_columns_order_match": true,
+      "notes_present": true,
+      "sheet_state": "visible"
+    }
+  ],
+  "raw_sources_match_first_stage_v2": [
+    {
+      "path": "培训作业/第四次培训作业/C题.pdf",
+      "matches_v2_reading_source": true
+    },
+    {
+      "path": "培训作业/第四次培训作业/附件1.xlsx",
+      "matches_v2_reading_source": true
+    },
+    {
+      "path": "培训作业/第四次培训作业/附件2.xlsx",
+      "matches_v2_reading_source": true
+    },
+    {
+      "path": "培训作业/第四次培训作业/附件3/result1_1.xlsx",
+      "matches_v2_reading_source": true
+    },
+    {
+      "path": "培训作业/第四次培训作业/附件3/result1_2.xlsx",
+      "matches_v2_reading_source": true
+    },
+    {
+      "path": "培训作业/第四次培训作业/附件3/result2.xlsx",
+      "matches_v2_reading_source": true
+    }
+  ],
+  "old_coverage_rows": 59,
+  "old_sales_upper_limits_blank": 59,
+  "sales_related_source_cells": [
+    {
+      "sheet": "2023年统计的相关数据",
+      "cell": "H1",
+      "text": "销售单价/(元/斤)"
+    },
+    {
+      "sheet": "2023年统计的相关数据",
+      "cell": "B111",
+      "text": "(2) 智慧大棚第一季可种植的蔬菜作物及其亩产量、种植成本和销售价格均与普通大棚相同，表中省略。"
+    }
+  ],
+  "method": "Independent XML of source workbooks; old coverage fields read, no production/midpoint recomputation."
+}

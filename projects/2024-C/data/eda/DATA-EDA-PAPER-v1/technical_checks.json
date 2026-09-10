@@ -1,0 +1,85 @@
+{
+  "analysis_reproduction_equal": true,
+  "figure_reproduction": [
+    {
+      "name": "01_land",
+      "png_identical": true,
+      "pdf_identical": true
+    },
+    {
+      "name": "02_coverage",
+      "png_identical": true,
+      "pdf_identical": true
+    },
+    {
+      "name": "03_history_structure",
+      "png_identical": true,
+      "pdf_identical": true
+    },
+    {
+      "name": "04_yield_cost",
+      "png_identical": true,
+      "pdf_identical": true
+    },
+    {
+      "name": "05_crop_history",
+      "png_identical": true,
+      "pdf_identical": true
+    },
+    {
+      "name": "06_price_intervals",
+      "png_identical": true,
+      "pdf_identical": true
+    }
+  ],
+  "pdf_pages": [
+    {
+      "page": 1,
+      "chars": 967,
+      "text_colors": [
+        "(0.0,)"
+      ],
+      "outside_page_chars": 0
+    },
+    {
+      "page": 2,
+      "chars": 887,
+      "text_colors": [
+        "(0.0,)"
+      ],
+      "outside_page_chars": 0
+    },
+    {
+      "page": 3,
+      "chars": 643,
+      "text_colors": [
+        "(0.0,)"
+      ],
+      "outside_page_chars": 0
+    },
+    {
+      "page": 4,
+      "chars": 1036,
+      "text_colors": [
+        "(0.0,)"
+      ],
+      "outside_page_chars": 0
+    },
+    {
+      "page": 5,
+      "chars": 464,
+      "text_colors": [
+        "(0.0,)"
+      ],
+      "outside_page_chars": 0
+    },
+    {
+      "page": 6,
+      "chars": 292,
+      "text_colors": [
+        "(0.0,)"
+      ],
+      "outside_page_chars": 0
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+\documentclass[border=3mm]{standalone}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\setCJKmainfont[BoldFont=SimHei]{SimSun}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,fit,backgrounds}
+\definecolor{basefill}{HTML}{F1F3F5}
+\definecolor{qone}{HTML}{EFF4F0}
+\definecolor{qtwo}{HTML}{EDF2F6}
+\definecolor{qthree}{HTML}{F5F1EA}
+\tikzset{box/.style={draw=black!65,line width=.55pt,rounded corners=1.1pt,fill=white,align=center,inner xsep=3pt,inner ysep=4pt,text=black,font=\fontsize{8.6}{12}\selectfont},
+ arrow/.style={-{Stealth[length=1.7mm,width=1.4mm]},line width=.55pt,draw=black!75},
+ line/.style={line width=.55pt,draw=black!75},
+ ext/.style={arrow,dashed},
+ heading/.style={anchor=west,text=black,font=\fontsize{10}{12}\selectfont\bfseries},
+ note/.style={text=black,font=\fontsize{7.3}{9}\selectfont,align=center,fill=white,inner sep=1.5pt}}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+
+\node[box,text width=7.2cm,minimum height=1.6cm,fill=basefill] (F) at (4,0) {\shortstack[c]{\textbf{市场、通胀与天气潜在因子}\\相关潜在量$\rightarrow$离散参数档位\\成本／菜价另采用随机趋势档位}};
+\node[box,text width=7.2cm,minimum height=1.6cm,fill=basefill] (P) at (12.2,0) {\shortstack[c]{\textbf{同类、同季次作物的合成关系图}\\价格中点、亩产、成本的特征距离\\邻作物相对当年参考价格$\rightarrow$需求修正}};
+\node[box,text width=15.4cm,minimum height=1.65cm,fill=basefill] (L) at (8.1,-2.6) {\shortstack[c]{\textbf{同一批相关底层参数，三个需求响应设定}\\无额外响应：乘子为1；替代：邻边系数＋0.15\\替代与互补：系数＋0.15／$-$0.10；额外乘子限0.90—1.10}};
+\node[box,text width=15.4cm,minimum height=1.6cm,fill=basefill] (O) at (8.1,-5.0) {\shortstack[c]{\textbf{在共同情景上评价同一候选种植方案}\\正常销售=min（产量，基准需求×额外关系乘子）\\比较三世界收益、尾部表现及关系强度敏感性}};
+\node[box,text width=15.4cm,minimum height=1.4cm,fill=basefill] (B) at (8.1,-7.1) {\shortstack[c]{\textbf{边界}\\关系图与系数为模拟设定；相关检查仅覆盖训练潜在层\\不证明现实因果关系，也不识别问题二到问题三的纯相关收益}};
+\draw[arrow] (F.south) -- (4,-1.35) -| (L.north);
+\draw[arrow] (P.south) -- (12.2,-1.35) -| (L.north);
+\draw[arrow] (L.south) -- (O.north);
+\draw[arrow] (O.south) -- (B.north);
+\end{tikzpicture}
+\end{document}

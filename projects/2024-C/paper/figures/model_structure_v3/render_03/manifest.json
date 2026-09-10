@@ -1,0 +1,49 @@
+{
+  "figure_id": "FIG-MODEL-03",
+  "approved_structure": "FIG-MODEL-03-STRUCTURE-v1",
+  "builder_sha256": "ced27d99b65e3878f2c7ca85f7f451baf38b5cc973c0ba43b7806cbcbb0690f9",
+  "approval_structure_sha256": "49dc901bf3c8d211b064a9418a49f0f18639d62dd23705682d81f4b29cd23574",
+  "commands": [
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.exe",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "model_framework.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xdvipdfmx.exe",
+      "-q",
+      "-o",
+      "model_framework.pdf",
+      "model_framework.xdv"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\pdftocairo.exe",
+      "-svg",
+      "model_framework.pdf",
+      "model_framework.svg"
+    ],
+    [
+      "C:\\Users\\Rog\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+      "-png",
+      "-r",
+      "180",
+      "-singlefile",
+      "model_framework.pdf",
+      "model_framework"
+    ]
+  ],
+  "fonts": [
+    "SimSun",
+    "SimHei",
+    "Times New Roman"
+  ],
+  "artifacts": {
+    "model_framework.pdf": "b593fc180882f0166111355a4f992949d327e71afd5e9e1c45705a275eef3482",
+    "model_framework.png": "c019c982848f8cba6944b8cbca0f1dd00914e108266321108fa31266eb2b978a",
+    "model_framework.svg": "dd9f6c9844b06969efcf7132c1aa5aa12cc42dfecae81214b85c7d2e86984d1e",
+    "model_framework.tex": "449941266cbceca7a31c8870bc42bdeba434843b79aaca3d9fd2e12ed9b8962f"
+  }
+}

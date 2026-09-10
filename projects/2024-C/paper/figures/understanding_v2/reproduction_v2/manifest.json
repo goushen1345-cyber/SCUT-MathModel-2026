@@ -1,0 +1,53 @@
+{
+  "figure_id": "FIG-UNDERSTANDING-02",
+  "structure_sha256": "cd8d60fd81dcf765305d1ff3c9939556fb23e3ea96b9cbef0d0b502ba8267a9c",
+  "builder_sha256": "0b8295befb42b927646251f1806ff7260b43f2b64ff528ae04130cad9619d97e",
+  "artifacts": {
+    "framework.pdf": "26a05c4b91c77d320404f3b9cc96e2f20cb97bba902a4aae9dda725e94e7c9a5",
+    "framework.png": "ef15cda1e22ba9af1a214f17b93cb31279d845e304ce084e718659b0fe5a17c3",
+    "framework.tex": "3e43077f72b5acadede6223471870ee0f8ddc703de9ebe3c4ff4f4d556de993f"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "engine": "MiKTeX-XeTeX 4.16 (MiKTeX 25.12)",
+  "fonts": [
+    "SimSun",
+    "SimHei",
+    "Times New Roman"
+  ],
+  "data_processing_or_experiments": false,
+  "collapsed_edges": {
+    "Q2_parameter_group": [
+      [
+        "q2",
+        "yield"
+      ],
+      [
+        "q2",
+        "demand"
+      ],
+      [
+        "q2",
+        "pricing"
+      ],
+      [
+        "q2",
+        "unitcost"
+      ]
+    ],
+    "Q3_joint_group": [
+      [
+        "q3",
+        "demand"
+      ],
+      [
+        "q3",
+        "pricing"
+      ],
+      [
+        "q3",
+        "unitcost"
+      ]
+    ]
+  },
+  "Q2_risk": "Separate dashed arrow to seven-year evaluation; no risk metric or objective selected."
+}

@@ -1,0 +1,88 @@
+\documentclass[border=2mm]{standalone}
+\usepackage{fontspec,xeCJK,amsmath}
+\setmainfont{Times New Roman}
+\setCJKmainfont[BoldFont=SimHei]{SimSun}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,backgrounds,fit}
+\definecolor{inputfill}{HTML}{F2F3F3}
+\definecolor{corefill}{HTML}{F8FAFC}
+\definecolor{qone}{HTML}{EEF2EC}
+\definecolor{qtwo}{HTML}{EDF2F7}
+\definecolor{qthree}{HTML}{F5F0E8}
+\tikzset{
+ box/.style={draw=black!65,line width=.55pt,fill=white,text=black,align=center,inner sep=3pt,font=\fontsize{9.3}{12.8}\selectfont},
+ input/.style={box,fill=inputfill},
+ arr/.style={-{Stealth[length=1.7mm,width=1.3mm]},line width=.6pt,draw=black!80},
+ wire/.style={line width=.6pt,draw=black!80},
+ delta/.style={arr,dashed},
+ note/.style={text=black,font=\fontsize{8.2}{10.5}\selectfont,align=center,fill=white,inner sep=1.2pt},
+ small/.style={text=black,font=\fontsize{8.2}{10.5}\selectfont,align=left,inner sep=0pt},
+ heading/.style={text=black,font=\fontsize{11}{14}\selectfont\bfseries,align=center},
+ bridge/.style={preaction={draw=white,line width=2.4pt}}
+}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+
+\filldraw[fill=corefill,draw=black!75,line width=.85pt] (0,-1.25) rectangle (13.25,-12.1);
+\node[heading] at (6.6,-1.75) {2024—2030年农作物种植优化：共享混合整数规划};
+\node[input,text width=3.7cm,minimum height=1.0cm] (land) at (2.2,0) {\shortstack[c]{\textbf{土地与适种条件}\\面积／地类／设施季次}};
+\node[input,text width=3.7cm,minimum height=1.0cm] (history) at (7.0,0) {\shortstack[c]{\textbf{2023年种植记录}\\历史面积／轮作起点}};
+\node[box,text width=3.6cm,minimum height=1.4cm] (agri) at (2.2,-2.9) {\shortstack[c]{\textbf{土地与季次约束}\\适种／季次／水浇模式\\启用季满额种植*}};
+\node[box,text width=3.6cm,minimum height=1.4cm] (rotation) at (6.65,-2.9) {\shortstack[c]{\textbf{跨年轮作}\\相邻茬不重种\\三年豆类面积代理*}};
+\node[box,text width=3.6cm,minimum height=1.4cm] (manage) at (11.05,-2.9) {\shortstack[c]{\textbf{管理约束*}\\单项面积$\geq$地块50\%\\每作物同期$\leq$7块}};
+\node[box,text width=3.6cm,minimum height=1.65cm] (decision) at (2.2,-6.2) {\shortstack[c]{\textbf{种植决策}\\面积 $x\geq0$\\启用 $y$、模式 $z\in\{0,1\}$}};
+\node[input,text width=2.8cm,minimum height=0.6cm] (yieldparam) at (6.5,-4.95) {\shortstack[c]{\textbf{亩产 $v$（斤/亩）}}};
+\node[input,text width=3.8cm,minimum height=1.0cm] (quota) at (10.9,-4.9) {\shortstack[c]{\textbf{正常销售额度 $L$*}\\2023面积$\times$基期亩产\\按作物与季次汇总}};
+\node[box,text width=3.35cm,minimum height=1.05cm] (production) at (6.5,-6.2) {\shortstack[c]{\textbf{作物产量 $Q$}\\$\displaystyle Q=\sum_i vx$}};
+\node[box,text width=3.8cm,minimum height=1.05cm] (sales) at (10.9,-6.2) {\shortstack[c]{\textbf{正常销售 $q=\min(Q,L)$}\\超额部分 $e=Q-q$}};
+\node[input,text width=2.8cm,minimum height=0.6cm] (costparam) at (6.5,-7.45) {\shortstack[c]{\textbf{亩成本 $c$（元/亩）}}};
+\node[box,text width=3.35cm,minimum height=1.0cm] (cost) at (6.5,-8.5) {\shortstack[c]{\textbf{种植支出}\\$\displaystyle C=\sum cx$}};
+\node[box,text width=3.8cm,minimum height=1.0cm] (revenue) at (10.9,-8.5) {\shortstack[c]{\textbf{销售收入}\\$\displaystyle R=\sum p(q+\beta e)$}};
+\node[input,text width=3.1cm,minimum height=1.0cm] (priceparam) at (15.15,-8.5) {\shortstack[c]{\textbf{价格 $p$（元/斤）}\\基期取区间中点}};
+\node[box,text width=3.6cm,minimum height=1.35cm] (plan) at (2.2,-11.0) {\shortstack[c]{\textbf{七年种植方案}\\逐地块／作物／年／季面积\\问题三沿用问题二方案}};
+\node[box,text width=3.5cm,minimum height=1.35cm] (results) at (15.35,-11.0) {\shortstack[c]{\textbf{方案表现与建议}\\收益／尾部风险／管理\\参数更新／轮作台账}};
+\filldraw[fill=white,draw=black!70,line width=.7pt] (4.35,-9.65) rectangle (13.0,-11.95);
+\node[heading,font=\fontsize{10.5}{13}\selectfont\bfseries] at (8.675,-10.12) {七年净收益 $\Pi=R-C$};
+\node[box,text width=3.7cm,minimum height=1.0cm] (opt) at (6.5,-11.0) {\shortstack[c]{\textbf{优化：$\max\Pi$}\\选择种植面积}};
+\node[box,text width=3.7cm,minimum height=1.0cm] (eval) at (10.9,-11.0) {\shortstack[c]{\textbf{评价：$\Pi(x,\omega)$}\\固定面积，按情景计价}};
+\node[small,anchor=west] at (9.3,-3.92) {收益相近时少启用};
+\draw[arr] (land.south) -- (agri.north);
+\draw[arr] (history.south) -- (7,-.85) -| (rotation.north);
+\draw[arr] (history.east) -- (13.65,0) -- (13.65,-4.9) -- (quota.east);
+\node[note,rotate=90] at (13.65,-2.0) {定义基期额度};
+\draw[wire] (agri.south) -- (2.2,-4.25) -- (11.05,-4.25) -- (manage.south);
+\draw[wire] (rotation.south) -- (6.65,-4.25);
+\draw[arr] (2.2,-4.25) -- node[note]{限定} (decision.north);
+\draw[arr] (decision.east) -- node[note]{$x$} (production.west);
+\draw[arr] (yieldparam.south) -- (production.north);
+\draw[arr] (production.east) -- (sales.west);
+\draw[arr] (quota.south) -- (sales.north);
+\draw[arr] (decision.south) -- (2.2,-8.5) -- node[note]{$x$} (cost.west);
+\draw[arr] (costparam.south) -- (cost.north);
+\draw[arr] (sales.south) -- node[note]{销售数量} (revenue.north);
+\draw[arr] (priceparam.west) -- (revenue.east);
+\draw[arr] (cost.south) -- node[note]{$-C$} (6.5,-9.65);
+\draw[arr] (revenue.south) -- node[note]{$+R$} (10.9,-9.65);
+\draw[arr] (opt.west) -- (plan.east);
+\draw[arr] (eval.east) -- node[note]{收益／风险} (results.west);
+\draw[arr] (2.2,-8.5) -- node[note]{面积表} (plan.north);
+\draw[arr] (plan.south) -- (2.2,-12.5) -- node[note]{固定种植面积；问题二、三仅对情景重新计价} (10.9,-12.5) -- (eval.south);
+\node[input,text width=7.4cm,minimum height=0.72cm] (planning) at (4.4,-13.75) {\shortstack[c]{\textbf{确定方案参数：$L,v,c,p,\beta$}}};
+\node[input,text width=7.4cm,minimum height=0.72cm] (scenario) at (13.05,-13.75) {\shortstack[c]{\textbf{固定方案评价参数：$L^\omega,v^\omega,c^\omega,p^\omega$}}};
+\draw[delta,bridge] (planning.north) -- (4.4,-12.85) -| (opt.south);
+\draw[delta,bridge] (scenario.north) -- (13.05,-12.82) -- (12.4,-12.82) -- (12.4,-11.8) -- (eval.south east);
+\node[small,anchor=west] at (0,-13.0) {同名参数接口作用于上方对应产销组件；情景参数不进入“优化”接口。};
+\node[box,fill=qone,text width=4.7cm,minimum height=1.15cm] (qone) at (2.65,-15.25) {\shortstack[c]{\textbf{问题一：稳定条件}\\$L,v,c,p$ 保持基期\\超额计价 $\beta=0$／$0.5$}};
+\node[box,fill=qtwo,text width=4.7cm,minimum height=1.15cm] (qtwoplan) at (8.0,-15.25) {\shortstack[c]{\textbf{问题二：年度趋势}\\$L,c,p$ 用中间趋势定方案\\亩产取基期}};
+\node[box,fill=qtwo,text width=4.7cm,minimum height=1.15cm] (qtwoeval) at (8.0,-17.05) {\shortstack[c]{\textbf{问题二：参数波动}\\销量／亩产／部分菌价\\固定面积评价收益与风险}};
+\node[box,fill=qthree,text width=5.3cm,minimum height=1.15cm] (qthreecorr) at (14.2,-15.25) {\shortstack[c]{\textbf{问题三：参数关联*}\\市场／通胀／天气因子\\成本／菜价另增随机趋势}};
+\node[box,fill=qthree,text width=5.3cm,minimum height=1.15cm] (qthreeresponse) at (14.2,-17.05) {\shortstack[c]{\textbf{问题三：替代与互补*}\\邻作物相对价格 $\to L^\omega$\\只修正销售额度}};
+\draw[delta] (qone.north) -- (2.65,-14.1);
+\draw[delta] (qtwoplan.north) -- (8,-14.1);
+\draw[delta] (qtwoeval.east) -- (10.65,-17.05) -- (10.65,-14.1);
+\draw[delta] (qthreecorr.north) -- (14.2,-14.1);
+\draw[delta] (qthreeresponse.east) -- (17.3,-17.05) -- (17.3,-13.75) -- (scenario.east);
+\node[small,anchor=north west,text width=5.1cm] at (.1,-16.3) {问题二、三主销售规则：$\beta=0.5$。\\经济参数按地类、作物及季次匹配；\\正常销售额度按全村作物—年—季共享。};
+\node[small,anchor=north west,text width=17cm] at (.1,-18.05) {* 销售额度为历史产量代理，真实销量未知；豆类采用累计面积代理。\\* 满种、50\%及7块为模型约定（同期指同年同季）；关系和概率为模拟设定。\\* 问题三另改变成本、菜价趋势设定，不能解释为纯相关效应；相关核验范围见正文。};
+\end{tikzpicture}
+\end{document}

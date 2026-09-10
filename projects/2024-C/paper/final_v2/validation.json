@@ -1,0 +1,287 @@
+{
+  "version": "PAPER-FINAL-v2-targeted-verification",
+  "date_utc": "2026-09-09T12:48:23.419379+00:00",
+  "method": "Static sources, hashes, Decimal arithmetic, document readback and figure reproduction comparison; no research code imported",
+  "state_revision_at_check": 46,
+  "checks": [
+    {
+      "check": "frozen_sources_unchanged",
+      "passed": true,
+      "details": {
+        "counts": {
+          "G1-v1-base": 14,
+          "Q1": 129,
+          "Q2": 85,
+          "Q3": 60
+        },
+        "mismatches": []
+      }
+    },
+    {
+      "check": "original_paper_preserved",
+      "passed": true,
+      "details": {
+        "final/2024-C-paper.docx": true,
+        "final/2024-C-paper.pdf": true,
+        "manuscript_v1.md": true
+      }
+    },
+    {
+      "check": "three_result_workbooks_unchanged",
+      "passed": true,
+      "details": {
+        "result1_1.xlsx": true,
+        "result1_2.xlsx": true,
+        "result2.xlsx": true
+      }
+    },
+    {
+      "check": "unknown_sales_preserved",
+      "passed": true,
+      "details": {
+        "rows": 59,
+        "all_sales_unknown": true
+      }
+    },
+    {
+      "check": "holdout_differences_from_unrounded_values",
+      "passed": true,
+      "details": {
+        "RS_minus_R0_yuan": "-1916.070086",
+        "RSC_minus_R0_yuan": "-605.608423",
+        "sample": "500 shared base scenarios; 3 worlds"
+      }
+    },
+    {
+      "check": "historical_bean_baseline",
+      "passed": true,
+      "details": {
+        "old_main_yuan": "39159935.875000",
+        "old_strict_yuan": "37476850.250000",
+        "old_difference_yuan": "1683085.625000",
+        "diagnostic_rerun": false
+      }
+    },
+    {
+      "check": "six_corrections_present_in_all_formats",
+      "passed": true,
+      "details": {
+        "5%和10%": {
+          "md": true,
+          "docx": true,
+          "pdf": true
+        },
+        "年度代理总量不变": {
+          "md": true,
+          "docx": true,
+          "pdf": true
+        },
+        "交叉价格响应": {
+          "md": true,
+          "docx": true,
+          "pdf": true
+        },
+        "额外关系乘子": {
+          "md": true,
+          "docx": true,
+          "pdf": true
+        },
+        "−1916.07": {
+          "md": true,
+          "docx": true,
+          "pdf": true
+        },
+        "−605.61": {
+          "md": true,
+          "docx": true,
+          "pdf": true
+        },
+        "成本和蔬菜价格": {
+          "md": true,
+          "docx": true,
+          "pdf": true
+        },
+        "偏离了原方案": {
+          "md": true,
+          "docx": true,
+          "pdf": true
+        },
+        "训练样本的潜在变量层": {
+          "md": true,
+          "docx": true,
+          "pdf": true
+        },
+        "最终参数层秩相关目标": {
+          "md": true,
+          "docx": true,
+          "pdf": true
+        },
+        "补强前": {
+          "md": true,
+          "docx": true,
+          "pdf": true
+        },
+        "严格诊断未重新求解": {
+          "md": true,
+          "docx": true,
+          "pdf": true
+        }
+      }
+    },
+    {
+      "check": "manuscript_hash_registered",
+      "passed": true,
+      "details": "8c62298664b9c27de518471aa5f7d4ee277f4c8ba73a3136852fe6e0e04abf15"
+    },
+    {
+      "check": "paper_structure",
+      "passed": true,
+      "details": {
+        "figures": 9,
+        "tables": 8,
+        "pages": 18,
+        "numbered_equations": 11,
+        "math_objects": 33
+      }
+    },
+    {
+      "check": "corrected_table6_numbers",
+      "passed": true,
+      "details": [
+        [
+          "关系设定",
+          "七年平均利润/万元",
+          "相对R0的平均差/元"
+        ],
+        [
+          "R0：无额外需求响应",
+          "6727.36",
+          "0.00"
+        ],
+        [
+          "RS：替代响应",
+          "6727.17",
+          "−1916.07"
+        ],
+        [
+          "RSC：替代与互补响应",
+          "6727.30",
+          "−605.61"
+        ],
+        [
+          "三个世界合并评价",
+          "6727.28",
+          "不适用"
+        ]
+      ]
+    },
+    {
+      "check": "black_text_white_tables",
+      "passed": true,
+      "details": {
+        "colors": [
+          "000000"
+        ],
+        "fills": [
+          "FFFFFF"
+        ]
+      }
+    },
+    {
+      "check": "native_vector_figures_embedded",
+      "passed": true,
+      "details": [
+        "word/media/figure_vector_0.svg",
+        "word/media/figure_vector_7.svg"
+      ]
+    },
+    {
+      "check": "figure_structure_and_public_labels",
+      "passed": true,
+      "details": {
+        "nodes": 19,
+        "edge_records": 18,
+        "shared_group_members": [
+          "UV",
+          "UA",
+          "UT"
+        ]
+      }
+    },
+    {
+      "check": "figure_sources_traceable",
+      "passed": true,
+      "details": {
+        "sources": 33,
+        "stale": []
+      }
+    },
+    {
+      "check": "render_manifest_current",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "two_figures_reproduced_as_vectors",
+      "passed": true,
+      "details": {
+        "overall_framework": {
+          "tex_identical": true,
+          "svg_identical": true,
+          "png_pixels_identical": true,
+          "pdf_one_page": true,
+          "svg_has_vector_paths": true,
+          "svg_has_no_raster_images": true
+        },
+        "q3_relationship": {
+          "tex_identical": true,
+          "svg_identical": true,
+          "png_pixels_identical": true,
+          "pdf_one_page": true,
+          "svg_has_vector_paths": true,
+          "svg_has_no_raster_images": true
+        }
+      }
+    },
+    {
+      "check": "all_final_pdf_pages_rendered",
+      "passed": true,
+      "details": {
+        "pages": 18,
+        "dpi": 150
+      }
+    }
+  ],
+  "passed": true,
+  "new_experiments_run": 0,
+  "visual_review": {
+    "pages": "01—18",
+    "source": "qa_pages_final, actual PDF at 150 dpi",
+    "method": "Two read-only AI subtasks viewed all 18 pages, root viewed corrected figure/math pages",
+    "resolved": [
+      "figure title glyph overlap",
+      "table5 separated header",
+      "short isolated paragraph page",
+      "raw formula notation"
+    ],
+    "remaining_minor": [
+      "page6 whitespace below table2",
+      "unchanged old figure4 small annotations/no axis ticks"
+    ],
+    "human_review_claimed": false
+  },
+  "limits": [
+    "Targeted correction and rendering audit, not a new full scientific validation",
+    "Protocol/implementation deviation remains disclosed, not retrospectively cured",
+    "Final economic-parameter correlation targets remain unverified",
+    "AI agreement is not proof or participant approval"
+  ],
+  "artifact_sha256": {
+    "paper/final_v2/2024-C-paper-v2.docx": "d8b00f3cb717781016bd050e1977a6da31d2e7f1e8771d26888e9e8a0e6ecb1f",
+    "paper/final_v2/2024-C-paper-v2.pdf": "ab5a28110cd85c3d0f866847c02f9b0bfcdd4724636b92a76e64fe758f2620c7",
+    "paper/manuscript_v2.md": "8c62298664b9c27de518471aa5f7d4ee277f4c8ba73a3136852fe6e0e04abf15",
+    "paper/figures/overall_v2/structure.json": "9a1cbe14fd46a5fa1842086bae6ba9b9dd573f4d24dfa8e5c10fc818be86a6d9",
+    "paper/build_paper_v2.py": "bf4324f475f39729441ff3860f17ee45a5fb4e887ec69a413be9be02d87c852d",
+    "paper/verify_revision_v2.py": "34a0662a5fba24e05139e21d4efa019efa19616d36f15d3eba8460196599cd72"
+  }
+}

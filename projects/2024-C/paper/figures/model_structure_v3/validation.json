@@ -1,0 +1,59 @@
+{
+  "status": "PASSED",
+  "kind": "figure_rendering_and_read_only_integrity_checks_not_new_research",
+  "python": "3.12.14",
+  "state_revision": 49,
+  "source_files": 51,
+  "frozen_files_checked": 288,
+  "frozen_hash_mismatches": [],
+  "existing_paper_unchanged": true,
+  "approved_structure_unchanged": true,
+  "new_research_experiments": 0,
+  "frozen_conclusions_modified": false,
+  "reproduction_byte_equality": {
+    "tex": true,
+    "svg": true,
+    "png": true
+  },
+  "png_pixels_equal": true,
+  "png_size": [
+    1257,
+    1416
+  ],
+  "pdf_pages": 1,
+  "pdf_raster_images": 0,
+  "pdf_width_cm": 17.725319444444445,
+  "placement_width_cm": 17,
+  "normal_text_pt_at_placement": 8.919444329086689,
+  "placement_proof_pages": 1,
+  "full_paper_replaced_or_reexported": false,
+  "short_box_count": 25,
+  "max_box_lines": 3,
+  "public_workflow_terms_found": [],
+  "visual_check": {
+    "method": "AI visual inspection of final PNG and actual A4 placement proof",
+    "inspected": [
+      "model center",
+      "parameter directions",
+      "optimization versus fixed-plan evaluation",
+      "model deltas",
+      "Chinese and equations",
+      "line crossing",
+      "cropping",
+      "local boundaries"
+    ],
+    "human_timed_reading_test": false,
+    "human_final_approval_claimed": false
+  },
+  "limitations": [
+    "PDF byte identity not required because metadata can differ",
+    "The full paper embedding/pagination is not changed or revalidated",
+    "No scientific model claim is newly validated by this figure check"
+  ],
+  "final_artifacts": {
+    "model_framework.pdf": "1e8fc9367a4062be16565083fa0eb8a45db22fd71a59f801f685cb757e1d3576",
+    "model_framework.png": "c48c8147c54de90396ff3e012e872c2163ca98e8fc47d2e79f7ac854a59ffa7d",
+    "model_framework.svg": "195d2c2ee90c13e81c2384b9373f0c4959c93c1310171517cc0876718ea09ec4",
+    "model_framework.tex": "a76d9b16586f4667017e83990b33c80f200344374875dc4d16f7049448838f3d"
+  }
+}

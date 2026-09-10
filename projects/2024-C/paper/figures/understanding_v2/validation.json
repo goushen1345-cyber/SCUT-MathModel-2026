@@ -1,0 +1,71 @@
+{
+  "figure_id": "FIG-UNDERSTANDING-02",
+  "structure_sha256": "cd8d60fd81dcf765305d1ff3c9939556fb23e3ea96b9cbef0d0b502ba8267a9c",
+  "builder_sha256": "0b8295befb42b927646251f1806ff7260b43f2b64ff528ae04130cad9619d97e",
+  "pages": 1,
+  "page_size_points": [
+    434.43,
+    409.13
+  ],
+  "page_size_cm": [
+    15.325724999999998,
+    14.433197222222223
+  ],
+  "figure_size_at_16cm_width_cm": [
+    16,
+    15.06820431369841
+  ],
+  "independent_reproduction": {
+    "same_tex_bytes": true,
+    "same_png_bytes": true,
+    "same_rendered_pixels": true,
+    "same_pdf_bytes": false,
+    "pdf_metadata_difference_expected": true,
+    "rendered_pixel_size": [
+      1328,
+      1251
+    ]
+  },
+  "visual_review": {
+    "reviewer": "independent figure assistant (AI), not human verification",
+    "viewed_files": [
+      "render_v2/framework.png",
+      "render_v2/preview_16cm_96dpi.png"
+    ],
+    "checked": [
+      "black text on white background",
+      "Chinese glyphs",
+      "no clipping or node overlap",
+      "node information budget",
+      "clear area to production and cost branches",
+      "sales quantity and cost lines separated at crossing",
+      "separate Q2 risk arrow",
+      "self-contained 9pt footnotes",
+      "2023 price baseline explicit",
+      "topic-sketch maturity explicit"
+    ],
+    "initial_issues_fixed": [
+      "awkward line break within bean-coverage phrase",
+      "inner parameter group almost touched node borders",
+      "starred quantities lacked a self-contained footnote",
+      "half-price wording now preserves the 2023 price baseline"
+    ],
+    "final_result": "No visible clipping, overlapping text, missing glyphs or ambiguous connected crossing observed.",
+    "quick_read": "AI looked at a 605px preview equivalent to 16cm at 96dpi and could identify common planting area decisions, constraints, production-sales-revenue-cost relationships, Q1 treatment, Q2 changing parameters and risk, Q3 relationship group. Not a timed human-reader test.",
+    "human_10_20_second_read_test": "not performed",
+    "final_manuscript_embedding": "Main author viewed final 4-page manuscript page4 at approx 15.36cm figure width; caption, footnotes, diagram labels and following prose readable, no clipping or overlap. Figure predecessor inspection retained in record."
+  },
+  "scope": {
+    "data_processing": false,
+    "eda": false,
+    "models_or_experiments": false,
+    "shared_state_writes": false,
+    "human_G0_approval_claimed": false
+  },
+  "final_output": "render_v2/framework.pdf",
+  "independent_output": "reproduction_v2/framework.pdf",
+  "changes_from_structure_labels": {
+    "constraints": "reflow only",
+    "q1": "half-price displayed as baseline half-price; 2023 defined in figure footnote as requested by main author"
+  }
+}

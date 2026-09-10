@@ -1,0 +1,56 @@
+{
+  "figures": [
+    {
+      "name": "01_land",
+      "size_inches": [
+        8.2,
+        3.4
+      ],
+      "input": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2024-C\\data\\eda\\DATA-EDA-PAPER-v1\\results\\eda.json"
+    },
+    {
+      "name": "02_coverage",
+      "size_inches": [
+        8.2,
+        8.8
+      ],
+      "input": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2024-C\\data\\eda\\DATA-EDA-PAPER-v1\\results\\eda.json"
+    },
+    {
+      "name": "03_history_structure",
+      "size_inches": [
+        8.2,
+        3.5
+      ],
+      "input": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2024-C\\data\\eda\\DATA-EDA-PAPER-v1\\results\\eda.json"
+    },
+    {
+      "name": "04_yield_cost",
+      "size_inches": [
+        8.2,
+        3.1
+      ],
+      "input": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2024-C\\data\\eda\\DATA-EDA-PAPER-v1\\results\\eda.json"
+    },
+    {
+      "name": "05_crop_history",
+      "size_inches": [
+        8.2,
+        8.7
+      ],
+      "input": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2024-C\\data\\eda\\DATA-EDA-PAPER-v1\\results\\eda.json"
+    },
+    {
+      "name": "06_price_intervals",
+      "size_inches": [
+        8.2,
+        8.7
+      ],
+      "input": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2024-C\\data\\eda\\DATA-EDA-PAPER-v1\\results\\eda.json"
+    }
+  ],
+  "matplotlib": "3.11.1",
+  "font": "C:\\Windows\\Fonts\\simsun.ttc",
+  "input_sha256": "3bff54c6e326f93e7c9e90d6da84fb3bde50a06a62bdc5cf12f748223d08a699",
+  "code_sha256": "55ee45124ccaafeca9625eef54cd7bdd793107bf8bf9de7ac1d519661409b8a7"
+}

@@ -1,0 +1,49 @@
+{
+  "authorization_id": "U030",
+  "approved_plan": "G1-REVISIT-v1",
+  "delivery_plan": "G2-REVISIT-v1",
+  "started_utc": "2026-09-10T07:49:11+00:00",
+  "completed_utc": "2026-09-10T07:54:08.026289+00:00",
+  "elapsed_seconds": 297.03,
+  "budget_seconds": 600,
+  "within_budget": true,
+  "data_version": "G1-v1-base",
+  "state_revision": 53,
+  "stage": "WAIT_G2",
+  "protected_files_checked": 423,
+  "protected_mismatches": [],
+  "prior_audit_artifacts_checked": 10,
+  "prior_audit_artifact_mismatches": [],
+  "documentation_presence_checks": {
+    "six_actions_documented": true,
+    "units_documented": true,
+    "calendar_sources_documented": true,
+    "statistical_and_rule_sources_documented": true,
+    "unresolved_questions_preserved": true,
+    "five_evidence_claims_documented": true
+  },
+  "semantic_review": "AI compared field units and recorded source notes B44:B46/B110:B111 with handoff text; presence checks alone do not prove semantic correctness.",
+  "numerical_values_changed": 0,
+  "data_rows_changed": 0,
+  "new_data_version_created": false,
+  "audit_rerun": false,
+  "eda_executed": false,
+  "modeling_executed": false,
+  "paper_modified": false,
+  "human_verification": "User approved scope only; cell-by-cell human verification and G2 confirmation not received.",
+  "limitations": [
+    "Old derived production and price midpoint not recalculated or certified",
+    "No sales-pool, rotation, probability or relationship assumptions selected",
+    "No new EDA findings or data figures",
+    "Protected hashes show preservation, not scientific correctness"
+  ],
+  "source_audit_delivery_sha256": "c49727fd1bc96d71082fb9ea2ab1e6c8e432335ca53031885bbc36b484fd2b0c",
+  "handoff_files_sha256": {
+    "report.md": "320b99315cfc8460ddde1e3a5b778d92363e05b8bcb97bc12e8eece5e6015a22",
+    "paper_evidence/data.md": "5f4e93a47e1d4e0ee7f5e383b7437206500b01a2fee8540d7ea3abd6426aa989",
+    "state/decisions.md": "1b09f38f7652a85383555d9f530c9cebd91a1cb8b21f5532dcc665f76d9b5870",
+    "state/ai_usage_log.md": "289d7affab0738f7c6d2056a2a47a378a16124d6e03232e42414eb063921fe7c",
+    "state/state.json": "d017b47ccad6a823d8ae09bdd11c8667a33965bf9859a6a38c7341f33561949e",
+    "state/state.md": "12b6c3f1333686fd3392f3d28c5bcb3b22861011af4917e9075cbbf6a70461ff"
+  }
+}
