@@ -1,0 +1,59 @@
+\documentclass[12pt,a4paper]{ctexart}
+\usepackage{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\usepackage{enumitem} % 新增，放在导言区，hyperref前面
+\usepackage{hyperref}
+% 页面边距设置
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+
+\linespread{1.5}
+
+% 页眉全局配置
+\pagestyle{fancy}
+\fancyhf{} % 清空所有默认页眉页脚
+\fancyfoot[C]{\thepage} % 仅底部居中保留页码，左右页眉留空
+\renewcommand{\headrulewidth}{0pt} % 隐藏页眉横线
+% 章节首页样式：清空页眉、保留页码
+
+% 全局设置enumerate，让列表和正文行距完全一致
+\setlist[enumerate]{
+    topsep=0pt,    % 列表上方空白
+    partopsep=0pt,
+    itemsep=0pt,   % 条目之间额外间距
+    parsep=0pt,    % 条目内部段落间距
+}
+
+\setlist[itemize]{
+    topsep=0pt,    % 列表上方空白
+    partopsep=0pt,
+    itemsep=0pt,   % 条目之间额外间距
+    parsep=0pt,    % 条目内部段落间距
+}
+
+
+
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \fancyfoot[C]{\thepage}
+    \renewcommand{\headrulewidth}{0pt}
+}
+\begin{document}
+
+\input{sections/sec_0_abstract.tex}
+\input{sections/sec_1_problem_review.tex}
+\input{sections/sec_2_problem_analysis.tex}
+\input{sections/sec_3_model_assumption.tex}
+\input{sections/sec_4_data_preprocessing.tex}
+\input{sections/sec_5_q1.tex}
+\input{sections/sec_6_q2.tex}
+\input{sections/sec_7_q3.tex}
+\input{sections/sec_8_q4.tex}
+\input{sections/sec_9_create.tex}
+
+\end{document}

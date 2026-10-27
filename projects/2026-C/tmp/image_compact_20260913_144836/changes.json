@@ -1,0 +1,13 @@
+{
+  "scope": "image-led compression; original and compressed editions unchanged; appendix excluded per user and preserved",
+  "removed_figures": [
+    "Removed figure fig:tsxfx_1",
+    "Removed figure fig:tsxfx_2",
+    "Removed figure fig:tsxfx_3",
+    "Removed figure fig:tsxfx_4",
+    "Removed figure fig:q2_monthly_cost",
+    "Removed figure fig:q2_specified_days",
+    "Removed figure fig:q4_model_test"
+  ],
+  "source": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\图像压缩版"
+}

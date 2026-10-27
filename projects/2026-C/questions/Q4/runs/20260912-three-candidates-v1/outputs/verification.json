@@ -1,0 +1,44 @@
+{
+  "status": "verified_by_independent_readback_not_human_review",
+  "research_recomputed": {
+    "price_fits": 0,
+    "lp_calls": 0
+  },
+  "checked": {
+    "strategies": 6,
+    "days": 2004,
+    "intervals": 288576,
+    "saved_solver_records": 5010,
+    "saved_price_models": 208
+  },
+  "max_residuals": {
+    "balance": 2.2737367544323206e-13,
+    "storage": 9.094947017729282e-13,
+    "cost": 0.0,
+    "daily": 1.4551915228366852e-11,
+    "unused_order": 0.0,
+    "unused_pv": 0.0,
+    "prefix": 0.0
+  },
+  "source_sha256": {
+    "data/prepared-v1/actual_price.csv": "a94fc43685bf5bb00d9d9d6fe2a06d977cc6070d12a248221275c2a926a6b4e9",
+    "data/prepared-v1/actual_power.csv": "7aa15018b683a494d276b06cf46c7f98897f5ace7cbcf8df87c4b7ffe935c441",
+    "data/prepared-v1/day_reference.csv": "e8fef67536b1c65f28ce4aca2c638cff072e7cc85292122993c696df130515b8",
+    "data/prepared-v1/pv_forecasts.csv": "6c38d11cb6544279278f4dd59d6c4e5756a11709e110919ff311ed03889cc22b",
+    "questions/Q1/runs/20260911-compare-v1/outputs/schedules/C04.csv": "d48f8ed12d777ebe2a143be42657a9cb5271433ae5d8408a6dcad533eac8fc7c",
+    "questions/Q2/runs/20260911-annual-validation-v1/core.py": "161d4c0e0a8ebf482a5aa52aefbec7cb722998f0c65a8b568fc299b5841be114",
+    "questions/Q3/runs/20260911-four-candidates-v1/outputs/sources.npz": "1739b45bf65bb653daa8e9f98e87108746ee339814ef55188488706f85b387b7",
+    "questions/Q3/runs/20260911-four-candidates-v1/outputs/forecasts.npz": "f63519932a9999d95264c02b198bc2ce25c7baa675c11f1b7c61ed3070b925ce",
+    "questions/Q3/runs/20260911-parameter-interpretability-v1/outputs/margins/q60_b070_w28_h03.npz": "bb3b294f1b5ebbf3632858c64fe0ded87884577e39b7c15403b362916f21c179"
+  },
+  "main_protocol_sha256": "07703e604013de540b9d1bdb964e493d466f5538427f1d147afbe82c9e860544",
+  "control_protocol_sha256": "8cbadd82c5c4592755644025e81f4b83618d5859fd8a911ed8a38c264b6622f8",
+  "run_code_sha256": "60078da1b1817a8bd21c36ebb0dc6e7f888c55bae45f44c32324ab2b42b97a05",
+  "control_code_sha256": "5d84578f3de610989817334e6dd0660579816072a9573606a0cc5e73df30773a",
+  "verification_code_sha256": "f530571f8793ba7fd5939e13ef79ebcfed24c2026bfd5a3772333047e92fcd86",
+  "selection": {
+    "Q4-2": "P3",
+    "Q4-3": "P3"
+  },
+  "boundary": "Checks saved arithmetic, physical feasibility, billing, order-prefix locking, source hashes and causal cutoffs; does not create an external-year generalization test or human approval."
+}

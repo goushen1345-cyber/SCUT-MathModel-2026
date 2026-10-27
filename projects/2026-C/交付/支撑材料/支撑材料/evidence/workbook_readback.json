@@ -1,0 +1,30 @@
+{
+  "result2": {
+    "orders_exact": true,
+    "dates_complete": true,
+    "charge_groups": 2004,
+    "endpoints": 668,
+    "emergency_total_exact": true
+  },
+  "result3": {
+    "orders_exact": true,
+    "dates_complete": true,
+    "charge_groups": 2004,
+    "endpoints": 668,
+    "emergency_total_exact": true
+  },
+  "result4-2": {
+    "orders_exact": true,
+    "dates_complete": true,
+    "charge_groups": 2004,
+    "endpoints": 668,
+    "emergency_total_exact": true
+  },
+  "result4-3": {
+    "orders_exact": true,
+    "dates_complete": true,
+    "charge_groups": 2004,
+    "endpoints": 668,
+    "emergency_total_exact": true
+  }
+}

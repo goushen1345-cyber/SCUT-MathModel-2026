@@ -1,0 +1,28 @@
+{
+  "label": "FINAL_SCALE_1",
+  "family": "final_release_scale_recheck",
+  "total_cost": 13568729.391012438,
+  "ordinary_cost": 12813250.1773279,
+  "emergency_cost": 755479.2136845393,
+  "emergency_kwh": 123740.06671072885,
+  "unused_order_kwh": 372069.90292953176,
+  "unused_pv_kwh": 1125986.1790834782,
+  "reduced_kwh": 613673.6443877316,
+  "increased_kwh": 222193.4602595406,
+  "days": 334,
+  "initial": 8592.693560925925,
+  "final": 8509.587117245372,
+  "emergency_days": 247,
+  "lp_calls": 1336,
+  "floor_ratio": 0.0,
+  "release_scale": [
+    1,
+    0.75,
+    0.5,
+    0.25
+  ],
+  "max_residual": 1.8189894035458565e-12,
+  "max_dual_gap": 1.3096723705530167e-10,
+  "trace": "outputs\\strategies\\FINAL_SCALE_1.npz",
+  "daily_csv": "outputs\\strategies\\FINAL_SCALE_1.daily.csv"
+}

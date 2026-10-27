@@ -1,0 +1,58 @@
+{
+  "events": [
+    {
+      "date": "2025-03-20",
+      "interval": "20:40--20:50",
+      "emergency_kwh": 329.5210609940428,
+      "emergency_cost": 2298.7389214944424
+    },
+    {
+      "date": "2025-09-23",
+      "interval": "20:30--20:40",
+      "emergency_kwh": 6.375,
+      "emergency_cost": 42.996187500000005
+    }
+  ],
+  "daily_emergency_kwh": {
+    "2025-03-20": 329.5210609940428,
+    "2025-06-21": 0.0,
+    "2025-09-23": 6.375,
+    "2025-12-21": 0.0
+  },
+  "checks": {
+    "complete_334_days": true,
+    "each_selected_day_144_sorted_slots": true,
+    "matches_saved_specified_table": true,
+    "matches_selected_daily": true,
+    "new_fits": 0,
+    "new_solves": 0,
+    "only_placement_changed": true,
+    "fixed_H_placement": true
+  },
+  "sources": [
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q2\\runs\\20260911-annual-validation-v1\\delivery_data\\selected_execution.csv.gz",
+      "sha256": "fdf18ad222afeb58436d12814e994c841bd1ecb828bddfe7b6335ca45a714bf0"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q2\\runs\\20260911-annual-validation-v1\\delivery_data\\specified_table3.csv",
+      "sha256": "aa7c0f06e95a2d3af39cd0e1d0a87aaf0b8776e41b1f35fc70c8ba03eac6f4e7"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q2\\runs\\20260911-annual-validation-v1\\delivery_data\\selected_daily.csv",
+      "sha256": "b8cc5033e8ecf44b3391a76847a303650bcd40a86331755b7d58a90790682269"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q2\\runs\\20260911-annual-validation-v1\\delivery_verification.json",
+      "sha256": "6f681f389777a3e68888573c9028dc71926fa14d487796a1a17cd8bcaf398f39"
+    }
+  ],
+  "output": {
+    "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\tables\\q2_emergency.tex",
+    "sha256": "5f0b1a8897ea7b099e1baa8c355e19470c47e43545364c6a8000c3295d371b65"
+  },
+  "code": {
+    "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\scripts\\restore_q2_emergency_table.py",
+    "sha256": "fb8c76b57aa3aafcc70b71c0ebc6fc4426ef5d7b918a780611ccf9af2ecac633"
+  }
+}

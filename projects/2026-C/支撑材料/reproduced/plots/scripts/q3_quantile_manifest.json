@@ -1,0 +1,11 @@
+{
+  "source": "scripts/derived_values.json",
+  "source_sha256": "4088af4da94b911ca59479eac6f4117fdf27cb345383fa894adc339a755d311c",
+  "data_key": "q3_quantile_comparison",
+  "script": "scripts/draw_q3_quantile.py",
+  "outputs": [
+    "fig/q3_final_quantile.pdf",
+    "fig/q3_final_quantile.png"
+  ],
+  "scope": "Existing result visualization only; no new modeling or validation."
+}

@@ -1,0 +1,97 @@
+\documentclass{article}
+\usepackage[paperwidth=198mm,paperheight=238mm,margin=3mm]{geometry}
+\usepackage[UTF8]{ctex}
+\usepackage{fontspec,amsmath,tikz}
+\setmainfont{Times New Roman}
+\setCJKmainfont{SimSun}[BoldFont=SimHei]
+\usetikzlibrary{arrows.meta}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\linespread{1.0}\selectfont
+\begin{document}
+\centering
+\begin{tikzpicture}[x=1cm,y=1cm,
+ every node/.style={font=\fontsize{9.5}{13}\selectfont,align=center,inner sep=2pt,text=black},
+ panel/.style={draw=black,line width=.9pt,fill=white},
+ box/.style={draw=black,line width=.6pt,fill=white,minimum height=1.65cm,text width=3.7cm},
+ core/.style={box,line width=1.15pt},
+ arr/.style={-{Stealth[length=1.7mm,width=1.3mm]},line width=.7pt},
+ head/.style={font=\fontsize{11}{14}\selectfont\bfseries,anchor=west},
+ note/.style={font=\fontsize{9}{12}\selectfont}]
+\path[use as bounding box] (0,0) rectangle (19.1,23);
+
+% Four equal-width rectangular panels; heights follow content needs.
+\draw[panel] (0,18.35) rectangle (19.1,23);
+\draw[panel] (0,12.65) rectangle (19.1,17.65);
+\draw[panel] (0,6.95) rectangle (19.1,11.95);
+\draw[panel] (0,0) rectangle (19.1,6.25);
+\foreach \yt in {23,17.65,11.95,6.25}{\draw[line width=.5pt] (0,\yt-.72)--(19.1,\yt-.72);}
+
+\node[head] at (.27,22.63) {问题一\quad 全时段电量流线性规划模型};
+\node[box] (a1) at (2.35,20.94) {\textbf{已知代表日}\\电价、负载、光伏曲线\\每段10分钟};
+\node[box] (a2) at (7.12,20.94) {\textbf{供需分解}\\光伏先供负载\\算出剩余缺口与光伏富余};
+\node[core] (a3) at (11.91,20.94) {\textbf{全时段线性规划}\\决定购电、充电、放电\\目标：当天购电费最低};
+\node[box] (a4) at (16.7,20.94) {\textbf{代表日调度结果}\\144段购电与充放电量\\各时段储电量、全天费用};
+\foreach \from/\to in {a1/a2,a2/a3,a3/a4}{\draw[arr] (\from.east)--(\to.west);}
+\node[draw,line width=.5pt,text width=17.8cm,minimum height=1.0cm] (common) at (9.55,19.18) {
+\textbf{共同物理约束：逐段供电满足负载；储电量随充放电连续变化}\\
+充电、放电效率各90\%；储电量1200--10800 kWh；充、放电功率各不超过5000 kW\\
+\textbf{问题一另加：0:00与24:00储电量相等}};
+\draw[arr] (common.north -| a3.south)--(a3.south);
+
+\draw[arr] (9.55,18.35)--(9.55,17.65);
+\node[note,fill=white,anchor=east] at (9.30,18.0) {继承供需与储能约束};
+\node[note,fill=white,anchor=west] at (9.80,18.0) {新增：供需未知、跨日运行与紧急购电};
+
+\node[head] at (.27,17.28) {问题二\quad 周期预测—近期加权准备—跨日线性规划模型};
+\node[box] (b1) at (2.35,15.59) {\textbf{零点可用信息}\\此前负载与光伏实测\\固定电价、当前储电量};
+\node[box] (b2) at (7.12,15.59) {\textbf{负载、光伏分别预测}\\负载：过去四周同星期\\光伏：最近七天同刻};
+\node[box] (b3) at (11.91,15.59) {\textbf{近期加权误差准备}\\从历史误差估计额外缺口\\近期权重更高，预留电量};
+\node[core] (b4) at (16.7,15.59) {\textbf{跨日线性规划}\\统筹两天购电与储能\\只固定当天普通订单};
+\foreach \from/\to in {b1/b2,b2/b3,b3/b4}{\draw[arr] (\from.east)--(\to.west);}
+\node[note] at (11.91,14.28) {28天误差、4小时分组\\0.70分位；日期衰减0.7};
+\node[note] at (16.7,14.28) {目标：预计购电费减去\\期末余电参考价值最小};
+\node[draw,line width=.5pt,text width=17.8cm,minimum height=.72cm] (bex) at (9.55,13.31) {
+\textbf{实际运行与输出：}普通订单全天不改；电池按实际供需补缺，仍不足则按5倍电价补购\\
+记录普通订单、实际充放电、紧急电量与费用；次日继承余电，不要求每日首尾相等};
+\draw[arr] (b4.east)--(18.9,15.59)--(18.9,13.31)--(bex.east);
+
+\draw[arr] (9.55,12.65)--(9.55,11.95);
+\node[note,fill=white,anchor=east] at (9.30,12.30) {继承负载预测、误差准备与跨日储能};
+\node[note,fill=white,anchor=west] at (9.80,12.30) {新增：光伏预报更新、有代价的改单};
+
+\node[head] at (.27,11.58) {问题三\quad 历史融合预报—动态安全准备—日内滚动规划模型};
+\node[box] (c1) at (2.35,9.89) {\textbf{0、6、12、18点新信息}\\当时已发布的光伏预报\\已发生供需、当前储电量};
+\node[box] (c2) at (7.12,9.89) {\textbf{历史融合光伏预报}\\整点预报插值至10分钟\\按历史误差融合近期参考};
+\node[box] (c3) at (11.91,9.89) {\textbf{动态安全准备}\\重估未来净需求误差\\每次更新均保留准备量};
+\node[core] (c4) at (16.7,9.89) {\textbf{日内滚动线性规划}\\调整未来订单与储能\\已执行时段保持不变};
+\foreach \from/\to in {c1/c2,c2/c3,c3/c4}{\draw[arr] (\from.east)--(\to.west);}
+\node[note] at (7.12,8.58) {负载仍沿用问题二预测};
+\node[note] at (11.91,8.58) {28天误差、3小时分组\\0.60分位；日期衰减0.7};
+\node[note] at (16.7,8.58) {权衡普通、调整、紧急费用\\并保留期末余电参考价值};
+\node[draw,line width=.5pt,text width=17.8cm,minimum height=.72cm] (cex) at (9.55,7.61) {
+\textbf{输出与评价：}零点订单、调整订单、实际储能与费用；以同条件对照评价后发预报价值\\
+调整费按最终订单相对零点订单的净变化结算一次；有新预报，不等于每次都需改单};
+\draw[arr] (c4.east)--(18.9,9.89)--(18.9,7.61)--(cex.east);
+
+\draw[arr] (9.55,6.95)--(9.55,6.25);
+\node[note,fill=white,anchor=east] at (9.30,6.60) {分别扩展问题二、问题三的调度结构};
+\node[note,fill=white,anchor=west] at (9.80,6.60) {新增：未来电价未知，先预测再调度};
+
+\node[head] at (.27,5.88) {问题四\quad 波动电价下的两条并列模型分支};
+\node[anchor=west,font=\fontsize{10}{13}\selectfont\bfseries] at (.27,5.17) {问题四-2：滚动提升树—零点线性规划模型（沿用问题二权限）};
+\node[box,minimum height=1.42cm] (d1) at (2.35,4.19) {\textbf{零点以前的历史信息}\\历史价格、星期与季节\\当时可得的预测净负荷};
+\node[core,minimum height=1.42cm] (d2) at (7.12,4.19) {\textbf{梯度提升树预测电价}\\利用非线性组合关系\\得到未来分时电价预测};
+\node[core,minimum height=1.42cm] (d3) at (11.91,4.19) {\textbf{零点线性规划}\\沿用问题二供需与准备\\按预测价格安排购电储能};
+\node[box,minimum height=1.42cm] (d4) at (16.7,4.19) {\textbf{一次订电方案}\\白天不调整普通订单\\不足时仍需紧急补购};
+\foreach \from/\to in {d1/d2,d2/d3,d3/d4}{\draw[arr] (\from.east)--(\to.west);}
+\draw[dashed,line width=.5pt] (.27,3.25)--(18.83,3.25);
+\node[anchor=west,font=\fontsize{10}{13}\selectfont\bfseries] at (.27,2.96) {问题四-3：滚动岭回归—日内调整线性规划模型（沿用问题三权限）};
+\node[box,minimum height=1.42cm] (e1) at (2.35,1.98) {\textbf{历史与当日新增信息}\\历史价格、预测净负荷\\加入当天已发生价格偏差};
+\node[core,minimum height=1.42cm] (e2) at (7.12,1.98) {\textbf{岭回归预测电价}\\限制相关特征系数过大\\稳定修正后续价格判断};
+\node[core,minimum height=1.42cm] (e3) at (11.91,1.98) {\textbf{日内调整线性规划}\\沿用问题三融合与准备\\按更新价格权衡是否改单};
+\node[box,minimum height=1.42cm] (e4) at (16.7,1.98) {\textbf{日内调整方案}\\0、6、12、18点决策\\输出订单、储能与补购};
+\foreach \from/\to in {e1/e2,e2/e3,e3/e4}{\draw[arr] (\from.east)--(\to.west);}
+\node[note] at (9.55,.48) {两条分支分别运行：供需及储能约束不变，预测价格进入费用目标；最终按真实供需和实际电价结算};
+\end{tikzpicture}
+\end{document}

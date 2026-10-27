@@ -1,0 +1,10 @@
+{
+  "lp_calls": 14362,
+  "price_model_fits": 490,
+  "elapsed_seconds": 195.6989408999798,
+  "limits": {
+    "lp_calls": 18000,
+    "price_model_fits": 600,
+    "seconds": 1800
+  }
+}

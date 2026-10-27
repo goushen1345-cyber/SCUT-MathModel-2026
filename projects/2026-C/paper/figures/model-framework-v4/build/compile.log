@@ -1,0 +1,153 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(framework.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(C:\Program Files\Latex\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Program Files\Latex\tex/latex/base\size10.clo))
+(C:\Program Files\Latex\tex/latex/geometry\geometry.sty
+(C:\Program Files\Latex\tex/latex/graphics\keyval.sty)
+(C:\Program Files\Latex\tex/generic/iftex\ifvtex.sty
+(C:\Program Files\Latex\tex/generic/iftex\iftex.sty))
+(C:\Program Files\Latex\tex/latex/geometry\geometry.cfg))
+(C:\Program Files\Latex\tex/latex/ctex\ctex.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+(C:\Program Files\Latex\tex/latex/l3kernel\expl3.sty
+(C:\Program Files\Latex\tex/latex/l3backend\l3backend-xetex.def))
+(C:\Program Files\Latex\tex/latex/ctex\ctexhook.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+) (C:\Program Files\Latex\tex/latex/ctex\ctexpatch.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+) (C:\Program Files\Latex\tex/latex/base\fix-cm.sty
+(C:\Program Files\Latex\tex/latex/base\ts1enc.def))
+(C:\Program Files\Latex\tex/latex/ctex/config\ctexopts.cfg)
+(C:\Program Files\Latex\tex/latex/ctex/engine\ctex-engine-xetex.def
+(C:\Program Files\Latex\tex/xelatex/xecjk\xeCJK.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+(C:\Program Files\Latex\tex/latex/l3packages/xtemplate\xtemplate.sty)
+(C:\Program Files\Latex\tex/latex/fontspec\fontspec.sty
+(C:\Program Files\Latex\tex/latex/l3packages/xparse\xparse.sty)
+(C:\Program Files\Latex\tex/latex/fontspec\fontspec-xetex.sty
+(C:\Program Files\Latex\tex/latex/base\fontenc.sty)
+(C:\Program Files\Latex\tex/latex/fontspec\fontspec.cfg)))
+(C:\Program Files\Latex\tex/xelatex/xecjk\xeCJK.cfg)))
+(C:\Program Files\Latex\tex/latex/zhnumber\zhnumber.sty
+(C:\Program Files\Latex\tex/latex/zhnumber\zhnumber-utf8.cfg))
+(C:\Program Files\Latex\tex/latex/ctex/scheme\ctex-scheme-chinese.def
+(C:\Program Files\Latex\tex/latex/ctex/config\ctex-name-utf8.cfg))
+(C:\Program Files\Latex\tex/latex/tools\indentfirst.sty)
+(C:\Program Files\Latex\tex/latex/ctex\ctex-c5size.clo)
+(C:\Program Files\Latex\tex/latex/ctex/fontset\ctex-fontset-windows.def))
+(C:\Program Files\Latex\tex/latex/ctex/config\ctex.cfg)
+(C:\Program Files\Latex\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\Latex\tex/latex/amsmath\amstext.sty
+(C:\Program Files\Latex\tex/latex/amsmath\amsgen.sty))
+(C:\Program Files\Latex\tex/latex/amsmath\amsbsy.sty)
+(C:\Program Files\Latex\tex/latex/amsmath\amsopn.sty))
+(C:\Program Files\Latex\tex/latex/pgf/frontendlayer\tikz.sty
+(C:\Program Files\Latex\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Program Files\Latex\tex/latex/pgf/utilities\pgfrcs.sty
+(C:\Program Files\Latex\tex/generic/pgf/utilities\pgfutil-common.tex)
+(C:\Program Files\Latex\tex/generic/pgf/utilities\pgfutil-latex.def)
+(C:\Program Files\Latex\tex/generic/pgf/utilities\pgfrcs.code.tex
+(C:\Program Files\Latex\tex/generic/pgf\pgf.revision.tex)))
+(C:\Program Files\Latex\tex/latex/pgf/basiclayer\pgfcore.sty
+(C:\Program Files\Latex\tex/latex/graphics\graphicx.sty
+(C:\Program Files\Latex\tex/latex/graphics\graphics.sty
+(C:\Program Files\Latex\tex/latex/graphics\trig.sty)
+(C:\Program Files\Latex\tex/latex/graphics-cfg\graphics.cfg)
+(C:\Program Files\Latex\tex/latex/graphics-def\xetex.def)))
+(C:\Program Files\Latex\tex/latex/pgf/systemlayer\pgfsys.sty
+(C:\Program Files\Latex\tex/generic/pgf/systemlayer\pgfsys.code.tex
+(C:\Program Files\Latex\tex/generic/pgf/utilities\pgfkeys.code.tex
+(C:\Program Files\Latex\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.t
+ex)) (C:\Program Files\Latex\tex/generic/pgf/systemlayer\pgf.cfg)
+(C:\Program Files\Latex\tex/generic/pgf/systemlayer\pgfsys-xetex.def
+(C:\Program Files\Latex\tex/generic/pgf/systemlayer\pgfsys-dvipdfmx.def
+(C:\Program Files\Latex\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def))))
+(C:\Program Files\Latex\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex))
+(C:\Program Files\Latex\tex/latex/xcolor\xcolor.sty
+(C:\Program Files\Latex\tex/latex/graphics-cfg\color.cfg)
+(C:\Program Files\Latex\tex/latex/graphics\mathcolor.ltx))
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcore.code.tex
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmath.code.tex
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathutil.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathparser.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfunctions.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfunctions.trigonometric.cod
+e.tex)
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfunctions.comparison.code.t
+ex) (C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfunctions.base.code.tex
+) (C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfunctions.integerarithmetic
+s.code.tex) (C:\Program Files\Latex\tex/generic/pgf/math\pgfmathcalc.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfloat.code.tex))
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfint.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.te
+x) (C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+) (C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcoretransformations.code.
+tex) (C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorequick.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.t
+ex) (C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+) (C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex)))
+(C:\Program Files\Latex\tex/generic/pgf/modules\pgfmoduleshapes.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/modules\pgfmoduleplot.code.tex)
+(C:\Program Files\Latex\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty)
+(C:\Program Files\Latex\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty))
+(C:\Program Files\Latex\tex/latex/pgf/utilities\pgffor.sty
+(C:\Program Files\Latex\tex/latex/pgf/utilities\pgfkeys.sty
+(C:\Program Files\Latex\tex/generic/pgf/utilities\pgfkeys.code.tex))
+(C:\Program Files\Latex\tex/latex/pgf/math\pgfmath.sty
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmath.code.tex))
+(C:\Program Files\Latex\tex/generic/pgf/utilities\pgffor.code.tex))
+(C:\Program Files\Latex\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+(C:\Program Files\Latex\tex/generic/pgf/libraries\pgflibraryplothandlers.code.t
+ex) (C:\Program Files\Latex\tex/generic/pgf/modules\pgfmodulematrix.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrar
+ytopaths.code.tex)))
+
+Package xeCJK Warning: Redefining CJKfamily `\CJKrmdefault' (SimSun(0)).
+
+
+(C:\Program Files\Latex\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.te
+x)
+No file framework.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+[1]
+(E:\Projects\SCUT-MathModel-2026\projects\2026-C\paper\figures\model-framework-
+v4\build\framework.aux) )
+Output written on E:\Projects\SCUT-MathModel-2026\projects\2026-C\paper\figures
+\model-framework-v4\build\framework.xdv (1 page, 35660 bytes).
+Transcript written on E:\Projects\SCUT-MathModel-2026\projects\2026-C\paper\fig
+ures\model-framework-v4\build\framework.log.

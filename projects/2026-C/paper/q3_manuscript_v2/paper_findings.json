@@ -1,0 +1,165 @@
+{
+  "selected": {
+    "label": "M_q60_b070_w28_h03",
+    "family": "three_hour_parameter_recheck",
+    "total_cost": 13146535.488467809,
+    "ordinary_cost": 12943484.518950751,
+    "emergency_cost": 203050.96951705834,
+    "emergency_kwh": 35685.11784540901,
+    "unused_order_kwh": 443358.0957384138,
+    "unused_pv_kwh": 1133209.9626611746,
+    "reduced_kwh": 458320.27037501766,
+    "increased_kwh": 293697.6183555784,
+    "days": 334,
+    "initial": 8592.693560925925,
+    "final": 8514.40795037037,
+    "emergency_days": 164,
+    "lp_calls": 1336,
+    "floor_ratio": 0.0,
+    "release_scale": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "max_residual": 1.8189894035458565e-12,
+    "max_dual_gap": 1.3096723705530167e-10,
+    "trace": "outputs\\strategies\\M_q60_b070_w28_h03.npz",
+    "daily_csv": "outputs\\strategies\\M_q60_b070_w28_h03.daily.csv",
+    "history_days": 28,
+    "block_hours": 3,
+    "q": 0.6,
+    "beta": 0.7,
+    "source": "new_run"
+  },
+  "initial_fused": {
+    "original_plan_cost": 12183514.784046937,
+    "ordinary_cost": 12763647.862915963,
+    "emergency_cost": 1325057.8015112984,
+    "total_cost": 14088705.664427262,
+    "net_adjustment": 580133.0788690269,
+    "increased_order_cost": 677334.9082673823,
+    "reduction_penalty": 97201.82939835545,
+    "original_order_kwh": 20144742.459727764,
+    "final_order_kwh": 20361305.197698157,
+    "increased_final_kwh": 545742.2960023833,
+    "reduced_final_kwh": 329179.55803198623,
+    "emergency_kwh": 234613.33011072828,
+    "unused_order_kwh": 307725.41517094185,
+    "unused_pv_kwh": 1099276.338012753,
+    "grid_charge_kwh": 4620315.107570569,
+    "pv_charge_kwh": 1958883.5781872468,
+    "discharge_kwh": 5329235.7027659565,
+    "label": "S2_fused",
+    "prediction_key": "fused",
+    "margin_index": null,
+    "mode": "full",
+    "days": 334,
+    "start": "2025-02-01",
+    "end": "2025-12-31",
+    "initial": 8592.693560925925,
+    "final": 8498.507669675926,
+    "emergency_days": 282,
+    "max_daily_cost": 81098.27137725565,
+    "max_emergency_run": 270,
+    "trace": "outputs\\annual\\S2_fused.npz",
+    "daily_csv": "outputs\\annual\\S2_fused.daily.csv",
+    "lp_calls": 1336,
+    "max_primal_residual": 1.8189894035458565e-12,
+    "max_dual_gap": 1.3096723705530167e-10,
+    "planned_simultaneous": 0
+  },
+  "saving_vs_initial_fused": 942170.175959453,
+  "ordinary_change_vs_initial_fused": 179836.65603478812,
+  "emergency_saving_vs_initial_fused": 1122006.8319942402,
+  "emergency_kwh_reduction_pct": 84.78981657667659,
+  "saving_vs_q2": 437275.3528971337,
+  "cheaper_months_vs_initial": 11,
+  "dearer_months_vs_initial": 0,
+  "cheaper_days_vs_initial": 250,
+  "dearer_days_vs_initial": 59,
+  "equal_days_vs_initial": 25,
+  "best_day_vs_initial": {
+    "date": "2025-07-07 00:00:00",
+    "saving": "23360.464054814955"
+  },
+  "worst_day_vs_initial": {
+    "date": "2025-06-29 00:00:00",
+    "saving": "-1041.7288858721586"
+  },
+  "specified_emergency_kwh": {
+    "2025-03-20": 95.58513744444213,
+    "2025-06-21": 14.635809756967864,
+    "2025-09-23": 6.375,
+    "2025-12-21": 45.46540687274482
+  },
+  "plotted_dates": [
+    "2025-03-20",
+    "2025-09-23"
+  ],
+  "specified_daily": {
+    "2025-03-20": {
+      "ordinary_cost": 39587.59692647655,
+      "emergency_cost": 666.8019188124283,
+      "total_cost": 40254.39884528898,
+      "emergency_kwh": 95.58513744444213
+    },
+    "2025-06-21": {
+      "ordinary_cost": 21816.588042435844,
+      "emergency_cost": 58.338337691273914,
+      "total_cost": 21874.92638012712,
+      "emergency_kwh": 14.635809756967864
+    },
+    "2025-09-23": {
+      "ordinary_cost": 43609.00340613222,
+      "emergency_cost": 42.996187500000005,
+      "total_cost": 43651.99959363222,
+      "emergency_kwh": 6.375
+    },
+    "2025-12-21": {
+      "ordinary_cost": 62120.519348885944,
+      "emergency_cost": 198.32085365637556,
+      "total_cost": 62318.84020254232,
+      "emergency_kwh": 45.46540687274482
+    }
+  },
+  "emergency_rows": [
+    {
+      "date": "2025-03-20",
+      "interval": "20:40--20:50",
+      "kwh": 95.58513744444213,
+      "cost": 666.8019188124283
+    },
+    {
+      "date": "2025-06-21",
+      "interval": "07:20--07:30",
+      "kwh": 14.635809756967864,
+      "cost": 58.338337691273914
+    },
+    {
+      "date": "2025-09-23",
+      "interval": "20:30--20:40",
+      "kwh": 6.375,
+      "cost": 42.996187500000005
+    },
+    {
+      "date": "2025-12-21",
+      "interval": "08:00--08:10",
+      "kwh": 9.201297601191072,
+      "cost": 53.44573711651834
+    },
+    {
+      "date": "2025-12-21",
+      "interval": "10:50--11:00",
+      "kwh": 36.26410927155375,
+      "cost": 144.87511653985723
+    }
+  ],
+  "information_value": {
+    "total_intraday": 1972832.7220196016,
+    "feedback_and_adjustment": 1755056.6090577133,
+    "new_forecasts": 217776.1129618883,
+    "new_forecasts_pct": 1.5130794308325852,
+    "scope": "raw-forecast strategy only; differences conditional on this ordered control design, not independent additive causal effects"
+  }
+}

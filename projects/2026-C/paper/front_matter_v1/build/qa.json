@@ -1,0 +1,91 @@
+{
+  "source_sha256": "d35546cdf2ab0611199eb0a378f4b4e86b1d4bee86b9e9ac46185e53b2f539f5",
+  "pdf_sha256": "2ed4a253a91ac89101e36d74a9aaf92bf6be96dc724c29bffa7cee54b1cae200",
+  "pages": [
+    {
+      "page": 1,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "characters": 1142,
+      "colors": [
+        "(0.0,)"
+      ],
+      "outside_page": [],
+      "nonblack_count": 0
+    },
+    {
+      "page": 2,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "characters": 1020,
+      "colors": [
+        "(0.0,)"
+      ],
+      "outside_page": [],
+      "nonblack_count": 0
+    },
+    {
+      "page": 3,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "characters": 1196,
+      "colors": [
+        "(0.0,)"
+      ],
+      "outside_page": [],
+      "nonblack_count": 0
+    },
+    {
+      "page": 4,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "characters": 885,
+      "colors": [
+        "(0.0,)"
+      ],
+      "outside_page": [],
+      "nonblack_count": 0
+    }
+  ],
+  "fonts_embedded": {
+    "/FNWFHY+TimesNewRomanPS-BoldMT": true,
+    "/BLYNJL+SimHei": true,
+    "/SLOPLS+SimSun": true,
+    "/VGPEWA+TimesNewRomanPSMT": true,
+    "/UNMQAS+LMMono10-Regular": true,
+    "/NZXIJY+CMR10": true,
+    "/ZTWXTA+CMSY10": true,
+    "/UUZUOK+CMMI10": true
+  },
+  "excluded_terms_found": [],
+  "latex_layout_or_missing_glyph_warnings": [],
+  "raw_files_unchanged": {
+    "data/raw/C题/C题.pdf": true,
+    "data/raw/C题/附件/附件1.xlsx": true,
+    "data/raw/C题/附件/附件2.xlsx": true,
+    "data/raw/C题/附件/附件3.xlsx": true,
+    "data/raw/C题/附件/附件4.xlsx": true,
+    "data/raw/C题/附件/附件5/result1.xlsx": true,
+    "data/raw/C题/附件/附件5/result2.xlsx": true,
+    "data/raw/C题/附件/附件5/result3.xlsx": true,
+    "data/raw/C题/附件/附件5/result4-2.xlsx": true,
+    "data/raw/C题/附件/附件5/result4-3.xlsx": true
+  },
+  "state_sha256_before": "722c3ed29b83cbc3c6c3861ab5f5f8b9978c1441c1a58b9724bff0973f46833b",
+  "state_sha256_after": "722c3ed29b83cbc3c6c3861ab5f5f8b9978c1441c1a58b9724bff0973f46833b",
+  "state_byte_identical": true,
+  "source_references": {
+    "tmp\\problem-analysis\\source_text.txt": "726dd095bf66fd00d4b8e312c715b36f8d65a339c87873021bdd60f143d25dc4",
+    "state\\decisions.md": "1b559349ce79fec799bfd9cd3f0efceac83c10c43b36bf12471e97f43d1baded",
+    "data\\prepared-v1\\manifest.json": "092f02f27b47c03940470b8698bd671cd081e5bd7979d89c5e40a9dc62e3882c"
+  },
+  "checker": "AI document checks, not human review or model validation"
+}

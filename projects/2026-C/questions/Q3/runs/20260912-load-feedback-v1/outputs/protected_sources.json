@@ -1,0 +1,16 @@
+{
+  "questions\\Q3\\runs\\20260911-four-candidates-v1\\outputs\\sources.npz": "1739b45bf65bb653daa8e9f98e87108746ee339814ef55188488706f85b387b7",
+  "questions\\Q3\\runs\\20260911-four-candidates-v1\\outputs\\forecasts.npz": "f63519932a9999d95264c02b198bc2ce25c7baa675c11f1b7c61ed3070b925ce",
+  "questions\\Q3\\runs\\20260912-final-information-v1\\run.py": "621d71813b718777278f6efcf0e6670449ecbd96177c36a7e6d5598db452a677",
+  "questions\\Q3\\runs\\20260912-final-information-v1\\outputs\\forecasts.npz": "7f591f5593a46814a85a1689d206ae5f63eb3e218bb685a719d83c526c07fcf0",
+  "questions\\Q3\\runs\\20260912-final-information-v1\\outputs\\verification.json": "68ad1a93af3be1f3cb30fc6edfdc4b4241bfdc48c553bc9391170374e029e068",
+  "questions\\Q3\\runs\\20260912-final-information-v1\\outputs\\strategies\\F2_full.npz": "532fe8246238c6823079222958c14dbfad79659461a20602df38072e348089ee",
+  "questions\\Q3\\runs\\20260912-final-information-v1\\outputs\\strategies\\F2_full.summary.json": "d31816e7c34c8067f4c39ce088ab42f3a7bfec163ee40c91011725d7958cd959",
+  "questions\\Q3\\runs\\20260911-s2-deepening-v1\\deepen.py": "9749c5a33225e7217d79a336db5f3ed36f87db0d4f3100a12c22c3f33a2708c0",
+  "questions\\Q3\\runs\\20260911-four-candidates-v1\\core.py": "e2638e5becbe6e62c539edf181102623ec82a90a07f5555396f31d921c8fc376",
+  "state\\state.json": "f16287cf2993f135c8fd892f63e3ba4988dd6cc6c093c4aa9cec98a025150749",
+  "data\\prepared-v1\\day_reference.csv": "e8fef67536b1c65f28ce4aca2c638cff072e7cc85292122993c696df130515b8",
+  "data\\prepared-v1\\actual_power.csv": "7aa15018b683a494d276b06cf46c7f98897f5ace7cbcf8df87c4b7ffe935c441",
+  "data\\prepared-v1\\actual_price.csv": "a94fc43685bf5bb00d9d9d6fe2a06d977cc6070d12a248221275c2a926a6b4e9",
+  "data\\prepared-v1\\pv_forecasts.csv": "6c38d11cb6544279278f4dd59d6c4e5756a11709e110919ff311ed03889cc22b"
+}

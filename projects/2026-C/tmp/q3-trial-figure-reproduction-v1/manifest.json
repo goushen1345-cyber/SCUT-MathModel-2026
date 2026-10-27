@@ -1,0 +1,23 @@
+{
+  "code_sha256": "c5c2352f72c49a8b31667c6a268f96fc36c66dec959fa223ef1a3023b3f4229b",
+  "sources": {
+    "outputs\\summary.json": "f504a027eda93a594771269eb13a3c99a4658d1c5c15d1107ea4bb1e7fb57ecc",
+    "outputs\\verification.json": "06ea5ef5237ff7170ca486b608485eed50f1063f53b7e246a02c499b73bd54a7",
+    "interpretation\\monthly_comparison.csv": "a08fd4a1b8968a7037757e76c453aad91aab99e4b00c9e680f30d7be0c9b1c02"
+  },
+  "outputs": {
+    "01_candidate_costs_and_months.png": "7fab35cadc61d831010f99705a793d909b6dbdffef1d62032a4b5eef042a3ce4",
+    "01_candidate_costs_and_months.svg": "9cc2dc2b9773d617cf3b9b1284b69efcdc337aecb94daa45fcce851d0fb31fdb",
+    "01_candidate_costs_and_months.pdf": "af446a1401291434de4121c8dc4c747053a191f1d43a25f437807989e9f0143d",
+    "02_information_value.png": "25d34b8279fb79c84d4472ad5500058e7643f1aebd58f0885fb1cddab59d24af",
+    "02_information_value.svg": "22b5ac92f47e31bf7d6c27b60b1367a43f314becff02eb69a5d0dcee12fcb81f",
+    "02_information_value.pdf": "1ec5e9249dd70089431e81b33f3179de212dd9deba77124d18332ebc4519bbcc"
+  },
+  "matplotlib": "3.11.1",
+  "font": "SimSun",
+  "font_file": "C:\\Windows\\Fonts\\simsun.ttc",
+  "dpi": 200,
+  "colors": "ordinary blue; emergency orange; monthly negative orange; text black",
+  "status": "generated_pending_visual_inspection",
+  "not_embedded_in_manuscript": true
+}

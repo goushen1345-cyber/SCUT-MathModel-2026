@@ -1,0 +1,15 @@
+{
+  "code_sha256": "d69c4446240355c590aa56c513e36c10dcc011407138c6ce5f2f9c886fe830f1",
+  "sources": {
+    "questions\\Q3\\runs\\20260911-s2-deepening-v1\\outputs\\summary.json": "40391d197fa9ab21dc2c874e95ac67988c1081301a8a584c7f4f13aa1eca1dab",
+    "questions\\Q3\\runs\\20260911-s2-deepening-v1\\outputs\\verification.json": "16de7c74c1af2b6eb59a32101c815a449355e67c12398aca49954a00ae60fca6",
+    "questions\\Q2\\runs\\20260911-annual-validation-v1\\delivery_data\\summary.json": "8ea80b90a324f0a02aa06d6b15a81fc8f7225d4be7d6bf14a8703bb653cd6245"
+  },
+  "outputs": {
+    "daily.csv": "c1803b55cb7756dc44166fcf169764f06f68e97a1095c8d8ef420cbbafda1eed",
+    "monthly.csv": "dd15fac170b61cb3f8430f55ea11606cc6897118739b161e7b838ea4ea769c46",
+    "quantile_sensitivity.csv": "291deefa073e1e46d8d2fa750477313f815a286e521ac608d66e8124a2a39cf6",
+    "summary.json": "7d769382d4a3319a44fc49aee499d498c90de896796d83cc0b45b0e77ab371e2"
+  },
+  "no_new_fit_or_optimization": true
+}

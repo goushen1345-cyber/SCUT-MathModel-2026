@@ -1,0 +1,57 @@
+{
+  "scope": "local_writing_only",
+  "commands": [
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.exe",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q1_manuscript_v1\\build",
+      "paper.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.exe",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q1_manuscript_v1\\build",
+      "paper.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xdvipdfmx.exe",
+      "-q",
+      "-o",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q1_manuscript_v1\\paper.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q1_manuscript_v1\\build\\paper.xdv"
+    ],
+    [
+      "C:\\Users\\Rog\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+      "-r",
+      "120",
+      "-png",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q1_manuscript_v1\\paper.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q1_manuscript_v1\\preview\\page"
+    ]
+  ],
+  "input_sha256": {
+    "figures\\energy_paths.tex": "cc2a2cc3b76cccf70f3304fa6fb45c1ec99d11be4f565b1df2aa161fcd4699b2",
+    "paper.tex": "b0ea76eaf691ad4c4655e5e9b4622e3b353b5b59323fcfa48a5e68fde9ff60d1",
+    "result_values.tex": "b4fd149de9aa5faa1d1f9568929bd2d45f7e5ff4fc0087328aa117826ac64df1",
+    "sections\\assumptions.tex": "7a0cd87f6cad6793e510ddb17fdf1af1a276542ebab7d137d60f762f81e53b50",
+    "sections\\data.tex": "27d297dadc35c268214fc7a2e3a063b4ffa378ded5477e3c43c51a088e36f4d7",
+    "sections\\front.tex": "d667b36b3b81c87bf16dd80351d965b384f6cec54e2c5849d95d2dddc79ac70d",
+    "sections\\question1.tex": "06f7376e0e3ecb95d959b39cd3853bb818288e263dbd34917eee8e98dbdfb742",
+    "sections\\symbols.tex": "f4c5c7509b2834842c41382d8b16864427acb6f6daa5cd509660d2688240a913",
+    "prepare.py": "552b38c0dd169cf79ad31d43d5d21ab20539518dadc7f604dd759e51aabad57e",
+    "build.py": "fe64b3a9e52870a11fb808bb5c7d5e3b83132e751550a1b30d192cf5cc31c612",
+    "figures\\01_reference_day.pdf": "d619ba29bcccae5870b29194d2029bfc5aaff2bce223945fe478294d24d1a9ca",
+    "figures\\02_year_and_month.pdf": "bd31ff257ca3f1de59908713c503c6bfeaaac4d95c8293aa0b8005fb7b35f45c",
+    "figures\\06_prices_and_weekdays.pdf": "ca6f9423259dd5033b79ab872e8f8efbaea3844ec3fb43f297b3b91136c43722",
+    "figures\\07_forecast_accuracy.pdf": "dfc8adce768c6e0aa986dbc4fd3d6de850c0d401c9a6584a0b62869f884f2172",
+    "figures\\q1_daily_dispatch.pdf": "232be5ca15389e50f252eb6c6d1d744057f11ed6d4c5e56afb6c0a8088d9ebd0"
+  },
+  "pdf_sha256": "aceb1017c658032008c40a81140473c66d3d4f2f237b00f32233883e10b31d79",
+  "dpi": 120
+}

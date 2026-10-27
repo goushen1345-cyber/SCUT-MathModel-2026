@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "lp_calls": 740,
+  "seconds": 6.544877299980726,
+  "chosen_decay": 0.7,
+  "baseline_decay80_reused": "validation/schedules/weighted-error.npz",
+  "change": "exponential recent-day weights only, forecasts q and operating constraints unchanged",
+  "code_sha256": "d15a87c32b409eaf199d8c327b8ff5d73da67b50c961b866b9549ec875a64e4c"
+}

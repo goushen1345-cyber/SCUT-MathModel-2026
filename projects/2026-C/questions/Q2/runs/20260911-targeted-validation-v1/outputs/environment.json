@@ -1,0 +1,10 @@
+{
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+  "numpy": "2.5.1",
+  "pandas": "3.0.5",
+  "scipy": "1.18.0",
+  "executable": "E:\\Anaconda\\python.exe",
+  "code_sha256": "97a6933a738889c9835f3bb8e334efe849f77c3fa8a1f31e31927c43b94c3e2f",
+  "protocol_sha256": "d5397891d65d9be109bf801cdbf8e5a9f3834522edda93e88dfeeda923da406e",
+  "inherited_core_sha256": "161d4c0e0a8ebf482a5aa52aefbec7cb722998f0c65a8b568fc299b5841be114"
+}

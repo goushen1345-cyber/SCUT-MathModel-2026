@@ -1,0 +1,19 @@
+{
+  "code_sha256": "5ad1b15573d88353659ad5f93c5effb6e399f64d1c76238684d194b148f337b5",
+  "sources": {
+    "analysis\\quantile_sensitivity.csv": "291deefa073e1e46d8d2fa750477313f815a286e521ac608d66e8124a2a39cf6",
+    "analysis\\monthly.csv": "dd15fac170b61cb3f8430f55ea11606cc6897118739b161e7b838ea4ea769c46",
+    "outputs\\verification.json": "16de7c74c1af2b6eb59a32101c815a449355e67c12398aca49954a00ae60fca6"
+  },
+  "outputs": {
+    "01_allowance_sensitivity_and_months.png": "545b5071f444b89305b6984d0852a278972dea96b6c5c2676b9f3620b811a001",
+    "01_allowance_sensitivity_and_months.svg": "c109c9b26f278dc0f914e8809254e33bb1829fa1fbbaaafa12bcec722c5213fd",
+    "01_allowance_sensitivity_and_months.pdf": "dbefef2ba379db19b0bd25d5bf95ff47792bc15eb17c60416cea34fb639a65a6"
+  },
+  "matplotlib": "3.11.1",
+  "font": "SimSun",
+  "font_file": "C:\\Windows\\Fonts\\simsun.ttc",
+  "dpi": 300,
+  "status": "generated_pending_visual_inspection",
+  "not_embedded": true
+}

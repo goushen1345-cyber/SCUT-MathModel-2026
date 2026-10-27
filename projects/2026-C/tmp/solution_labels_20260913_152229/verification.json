@@ -1,0 +1,27 @@
+{
+  "total_pages": 34,
+  "abstract_pages": 1,
+  "body_pages": 30,
+  "appendix_start_page": 32,
+  "appendix_pages": 3,
+  "warnings": [],
+  "protected_files_unchanged": true,
+  "appendix_unchanged": true,
+  "equation_blocks_unchanged": 40,
+  "result_tables_unchanged": true,
+  "figure_files_unchanged": true,
+  "steps_per_question": [
+    3,
+    4,
+    4,
+    3
+  ],
+  "constraints_per_question": [
+    5,
+    3,
+    3,
+    "references previous branches"
+  ],
+  "visual_review": "Final rendered page contact sheets 2-6 inspected: headings, equation refs, body/appendix boundary; no overlaps or clipping.",
+  "deliverable_sha256": "4e589fe0c316e8531ec280b3033af2890c5fb7d59cfbb4a9d98801a9562378a3"
+}

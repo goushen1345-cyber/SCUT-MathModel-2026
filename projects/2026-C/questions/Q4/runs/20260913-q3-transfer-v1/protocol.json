@@ -1,0 +1,37 @@
+{
+  "id": "Q4-Q3-TRANSFER-20260913",
+  "authorization": "你先把对问题三做的深化和建模记录下来，准备后续论文使用，然后再跑问题四",
+  "scope": "Q3 evidence handoff, then Q4-3 only as specified in preceding exchange; Q4-2 retained",
+  "upstream": "Q3/20260912-forecast-risk-v1/EW4_Q60_full",
+  "period": "2025-02-01..2025-12-31;334days",
+  "initial": 8592.693560925925,
+  "comparison": "Replay old Q4-3 P2-full with old price and supply forecasts. Transfer Q3 EW4 learned-prefix load and own margins, refit original full Ridge(alpha10,56-day,weekly) because net forecast is a price feature. Compare quantiles .40/.50/.60/.70/.80 using the same transferred price forecasts. Retain original prices, constraints, settlement and terminal reference. No new scenario model, no future price access.",
+  "validation": "Source hashes; verify replay against all old orders/trajectories; transfer arrays and margins from verified Q3 evidence; independent price features/time cutoffs, saved Ridge prediction and normal equations; all exported physical execution/locked orders/inventory and Decimal billing; monthly/daily/high-price risk and terminal inventory valuation. Same-year selection is not unseen-year validation.",
+  "budget": {
+    "rolling_lp_max": 9000,
+    "price_fits_max": 60,
+    "seconds_max": 1800
+  },
+  "stop": "Deliver verified cost/risk comparison and recommendation; no paper/result4/state cursor replacement, no frozen state.",
+  "state_note": "Formal revision49 cursor is historical and inconsistent with accumulated local research scopes. Preserve it and record current explicit local authorization without inventing freezes or past approvals.",
+  "source_sha256": {
+    "state/state.json": "f16287cf2993f135c8fd892f63e3ba4988dd6cc6c093c4aa9cec98a025150749",
+    "data/prepared-v1/actual_price.csv": "a94fc43685bf5bb00d9d9d6fe2a06d977cc6070d12a248221275c2a926a6b4e9",
+    "data/prepared-v1/day_reference.csv": "e8fef67536b1c65f28ce4aca2c638cff072e7cc85292122993c696df130515b8",
+    "questions/Q4/runs/20260912-three-candidates-v1/run_compare.py": "60078da1b1817a8bd21c36ebb0dc6e7f888c55bae45f44c32324ab2b42b97a05",
+    "questions/Q4/runs/20260912-three-candidates-v1/outputs/supply_inputs.npz": "7c47554fb2ef07bed9f3ef97c4422dd4420e18ad812b199479ba5745ae5dd93f",
+    "questions/Q4/runs/20260912-three-candidates-v1/outputs/price_forecasts.npz": "2bfdc40d3a6525d8e8cbb4586eb6525eaf03481f308f49d91ae72f7b86b20c0e",
+    "questions/Q4/runs/20260912-selected-deepening-v1/outputs/summary.json": "b6c1fb8761b1fa7d2148bc7c12132dcef7a2e386d3d910d018640ff9fac9d97f",
+    "questions/Q4/runs/20260912-selected-deepening-v1/outputs/verification.json": "0e5e27289cf07c1f64d9a4af7ed12b82638b8f295f393dfd88f6e6dba8412fe6",
+    "questions/Q4/runs/20260912-selected-deepening-v1/outputs/strategies/Q4-3-P2-full.npz": "276b92522854192a0b96f9fef58ce6c59ae5960269687fd4c8c8098eb6177e9f",
+    "questions/Q4/runs/20260912-selected-deepening-v1/outputs/strategies/Q4-3-P2-full.daily.csv": "b21fb7ef97d64c8488f699c9a76ae4f1808eb255b2e8eac4b079c05b5f660bbf",
+    "questions/Q3/runs/20260912-forecast-risk-v1/outputs/verification.json": "2180c57fcccb36f927ed7a9f7405dfab85a330d80441a7614f31888a4e1ccac3",
+    "questions/Q3/runs/20260912-forecast-risk-v1/outputs/load_EW4.npz": "a0ce51c93b840e3f7d7c59a905a7527bd8b385176b87a317f451cf5429818c19",
+    "questions/Q3/runs/20260912-final-information-v1/outputs/forecasts.npz": "7f591f5593a46814a85a1689d206ae5f63eb3e218bb685a719d83c526c07fcf0",
+    "questions/Q3/runs/20260912-forecast-risk-v1/outputs/strategies/EW4_Q40_full.margin.npz": "c50ad55115c0e237b3466304a4d5b0f858669743671014a422afc65a158c9bdb",
+    "questions/Q3/runs/20260912-forecast-risk-v1/outputs/strategies/EW4_Q50_full.margin.npz": "759930fdd05fa354e56f02c79385b4cba9def677adab6b057a56430c4e637b72",
+    "questions/Q3/runs/20260912-forecast-risk-v1/outputs/strategies/EW4_Q60_full.margin.npz": "3532e32df37799ca06a9943e3d3f2e12f5cd82761d46f1f1a542bb15df80e2b2",
+    "questions/Q3/runs/20260912-forecast-risk-v1/outputs/strategies/EW4_Q70_full.margin.npz": "143689da2d07c659c47a6dea9b72726fb8d817377275ea554f10a9d6ffc35828",
+    "questions/Q3/runs/20260912-forecast-risk-v1/outputs/strategies/EW4_Q80_full.margin.npz": "ea8428d8e82f40e3c11e9d8112048ff57f50963820e5ab0d8510407e788c583d"
+  }
+}

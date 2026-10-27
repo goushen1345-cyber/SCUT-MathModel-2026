@@ -1,0 +1,28 @@
+{
+  "version": "Q2-targeted-validation-protocol-v1",
+  "authorization": "Q2-ROBUST-053",
+  "user_quote": "按这个方案补充验证，先不写论文。",
+  "scope": "V07 existing-year groups and downside risk; V08 three continuous forecast-error stress scenarios comparing selected recency margin with original equal margin; V09 honest temporal/external-validity assessment. No new model search, retuning, manuscript, final output replacement or Q3.",
+  "baseline_run": "20260911-annual-validation-v1",
+  "protected": "All scientific files in preceding annual delivery_manifest.files; 10 raw materials; prepared inputs; retained Q1 outputs and manuscripts. Old project-record hashes are historical, not asserted as current after authorized record updates.",
+  "dates": "2025-02-01 through2025-12-31,334days; common original Feb1 stock8592.693560925925; original Jan initialization unchanged",
+  "models": {"equal":"OriginalT4,28day/4h grouped signed-error interpolated quantile0.7","recent":"Selected: identical separate4weekday load/7recentPV,28day/4h weighted stepCDF quantile0.7,day decay0.7"},
+  "fixed": "48h planning commits only24h normal orders;terminal reference0.38484;charge/discharge90% each;external power5000kW;internal stock1200..10800;PV direct first;available battery before5p emergency;no sales;actual series and prices unchanged",
+  "scenario_construction": {
+    "scenarios": ["load_underestimate","pv_overestimate","joint_optimism"],
+    "base_residuals": "For historical dayi>=Jan2 compute own past-only4weekday/7day reference forecast, eL=Lactual-Lhat, ePV=Vhat-Vactual in kW. Keep signed full144slot shapes.",
+    "episodes": "BeginFeb1 and every14days thereafter; each lasts3days, followed by11normal-forecast days. Fixed diagnostic calendar, not estimated event frequency. No inventory reset at episodes.",
+    "donor_availability": "At episode startd select a block of3 consecutive complete observed days within [max(1,d-28),d); all donoractual and donorforecasthistory precede d. Selection is shared across two policies, from unperturbed reference residuals, not dependent on their cost.",
+    "donor_rule": "For load require positive sum eL;PV positive sum ePV;joint both positive, preserve same dates and full paired shapes. Score integrated selected component(s) across72h. Sort eligible blocks by(score,start_day); choose nearest-rank90th percentile ceil(0.9*n)-1. If no eligible block use zero perturbation and record it. No multiplying errors or per-slot sign clipping.",
+    "input_change": "During an episode, use successive donor day shapes. Lhat_stress=max(0,Lhat-eL) for active load component and Vhat_stress=max(0,Vhat+ePV) for activePV; otherwise unperturbed. Apply current donor-day shape to both24h forecast horizons without future truth. PV stays0 at clock slots with no positive actualPV in preceding28days. Record raw and clipped realized changes; episode score positive does not mean every slot/day is adverse.",
+    "error_update": "Jan reference residuals initialize history. FromFeb1 each scenario stores errors between actual and its own previously issued perturbed first-day forecasts only after that day completes. Both policies see identical errors; only quantile weighting differs. Never use unperturbed postFeb errors for a perturbed policy.",
+    "interpretation": "Controlled forecast-input disturbance under shared original actual background; compounded on existing prediction errors. Donor blocks are observed but synthetic re-use calendar is artificial. Tests this scenario family, not true weather frequency, independent future-year performance or probabilistic reliability."
+  },
+  "V07": "Group unchanged existing main/equal334day trajectories by natural month, meteorological season and Monday-Friday versus Saturday-Sunday (no statutory holiday claim). Both yearly and grouped ordinary/emergency costs, emergency duration/amount,waste,paired savings. Empiricalworst5% usesceil334*0.05=17days;rank each policy bydaily emergencyfee for its own tail, and rank paired main-minus-equal cost for regret tail;save dates and values.",
+  "V09": "Reuse existing per-origin information verification; group year for adaptation, not randomized split or relabeled independent test. Entire year already informed exploration/family selection. No fresh independent year/site available; do not generate synthetic generalization evidence.",
+  "metrics": "Total bill,ordinary/emergency components,paired saving and sign,monthly and within-episode/recovery distribution,emergency energy/days/longest event,waste,inventory endpoints;all physical residuals and solver gap. Stress-minus-original changes must be reported beside between-policy differences.",
+  "judgment": "No arbitrary pass-percent. Compare same stress on both policies;report all reversals and worst case. A rise versus unstressed is not by itself a failure. No universal robustness or untouched-test claim. A result reversal narrows applicability, does not trigger unapproved retuning.",
+  "budget": {"planned_lp":2004,"hard_lp":2200,"research_seconds_max":1800,"new_fits":0,"single_lp_seconds":10},
+  "deliverables": "Isolated full daily forecasts,scenario source logs and errors,margins,plans,actual trajectories,summary/risk/groupCSV,independent verification and readback of savedCSV,source/output hashes;update existing report/evidence/log/state. Do not replace result2 or author paper prose/PDF.",
+  "stop": "Finish V07-09 and explain evidence/limits; no automatic further scenarios, model modification, freeze,Q3 or paper. Stop affected checks on source/information/physical conflict."
+}

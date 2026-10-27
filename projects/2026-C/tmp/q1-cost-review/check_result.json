@@ -1,0 +1,113 @@
+{
+  "source_mapping_and_export_errors": [],
+  "max_original_residuals": {
+    "storage": "1.34444444444444E-12",
+    "load": "1.283333333333E-13",
+    "pv": "1.66666666666E-13",
+    "grid": "2E-13",
+    "chain": "0",
+    "power": "0",
+    "bounds": "0",
+    "mode": "0"
+  },
+  "max_xml_binary_serialization_delta": "5E-13",
+  "source_values_match_as_binary64": true,
+  "rounding": {
+    "exact_schedule": "35126.84858928962958473370457",
+    "actual_xlsx": "35126.84858928962958473370457",
+    "round_each_cost_to_cents": "35126.80",
+    "round_each_purchase_to_2_places": "35126.8236459999999268939",
+    "round_each_purchase_and_cost": "35126.81",
+    "round_4h_cost_to_cents": "35126.84",
+    "round_hourly_cost_to_cents": "35126.86"
+  },
+  "independent_lp": {
+    "exact_independent_simplex": {
+      "cost": 35126.84858928963,
+      "status": 0,
+      "max_eq_residual": 4.547473508864641e-13,
+      "total_purchase": 59482.69899835391,
+      "max_simultaneous_kwh": 0.0,
+      "soc_first_end": [
+        6000,
+        6000.0
+      ],
+      "grid_difference_l1_to_original": 8.526512829121202e-14
+    },
+    "exact_independent_interior_point": {
+      "cost": 35126.84858928963,
+      "status": 0,
+      "max_eq_residual": 4.547473508864641e-13,
+      "total_purchase": 59482.69899835391,
+      "max_simultaneous_kwh": 0.0,
+      "soc_first_end": [
+        6000,
+        6000.0
+      ],
+      "grid_difference_l1_to_original": 8.526512829121202e-14
+    },
+    "diagnostic_charge_discharge_cap_833_33": {
+      "cost": 35126.849712622985,
+      "status": 0,
+      "max_eq_residual": 4.547473508864641e-13,
+      "total_purchase": 59482.69899835391,
+      "max_simultaneous_kwh": 0.0,
+      "soc_first_end": [
+        6000,
+        6000.0
+      ],
+      "grid_difference_l1_to_original": 0.12666666666316928
+    },
+    "diagnostic_dt_0_166667": {
+      "cost": 35126.93146466148,
+      "status": 0,
+      "max_eq_residual": 4.547473508864641e-13,
+      "total_purchase": 59482.81391041857,
+      "max_simultaneous_kwh": 0.0,
+      "soc_first_end": [
+        6000,
+        6000.0
+      ],
+      "grid_difference_l1_to_original": 0.15032911920511083
+    },
+    "diagnostic_power_inputs_2decimals": {
+      "cost": 35126.84904858025,
+      "status": 0,
+      "max_eq_residual": 9.094947017729282e-13,
+      "total_purchase": 59482.699609053496,
+      "max_simultaneous_kwh": 0.0,
+      "soc_first_end": [
+        6000,
+        6000.0
+      ],
+      "grid_difference_l1_to_original": 0.04555967078235312
+    },
+    "diagnostic_power_inputs_3decimals": {
+      "cost": 35126.849188146916,
+      "status": 0,
+      "max_eq_residual": 4.547473508864641e-13,
+      "total_purchase": 59482.70049999999,
+      "max_simultaneous_kwh": 0.0,
+      "soc_first_end": [
+        6000,
+        6000.0
+      ],
+      "grid_difference_l1_to_original": 0.005201646087840572
+    }
+  },
+  "independent_certificate_check": {
+    "dual_lower_bound": "35126.84858928962918732866693",
+    "primal_minus_dual_yuan": "3.9740503764E-13",
+    "max_stationarity_residual": "1E-16",
+    "dual_sign_violations": 0,
+    "solver_status": 0
+  },
+  "input_sha256": {
+    "data\\raw\\C题\\附件\\附件1.xlsx": "66b87134f5ecccd68184d3539bb1293ef039f9e0fdd955a589b9bfa7f227c377",
+    "questions\\Q1\\runs\\20260911-compare-v1\\outputs\\schedules\\C04.csv": "d48f8ed12d777ebe2a143be42657a9cb5271433ae5d8408a6dcad533eac8fc7c",
+    "questions\\Q1\\runs\\20260911-close-v1\\deliverables\\result1.xlsx": "94580594a07fcbe3544e311cfac7e482bdb12b0f84b8727791d41e6764809924",
+    "questions\\Q1\\runs\\20260911-compare-v1\\outputs\\lp_certificate.json": "89348ce563e2081863e904b5a1a5c3f10dfecc92c125347c0b417d23d99fae8b"
+  },
+  "external_reported_amount": "35126.95 only; no external schedule or accounting supplied",
+  "note": "Diagnostic input changes are not proposed replacements and not actual external provenance."
+}

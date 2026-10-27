@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "final_record_check": true,
+  "source_files_unchanged": 7,
+  "locked_output_files_unchanged": 157,
+  "original_q1_pdf_unchanged": true,
+  "figure_reproduction": "4 of4 exact hashes",
+  "new_pdf_pages": 17,
+  "new_pdf_visual_pages": [
+    14,
+    15,
+    16,
+    17
+  ],
+  "numeric_macros": 18,
+  "state_revision": 35,
+  "new_training_runs": 0,
+  "new_solver_calls": 0,
+  "human_review": false
+}

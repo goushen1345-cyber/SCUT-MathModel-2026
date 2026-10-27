@@ -1,0 +1,24 @@
+{
+  "figures": [
+    "01_cost_and_months",
+    "02_paired_extreme_days"
+  ],
+  "matplotlib": "3.11.1",
+  "font": "C:\\Windows\\Fonts\\simsun.ttc",
+  "dpi": 300,
+  "script_sha256": "17d3e3894ac8913cbff67cb4d89d6607fef0fc374d301254f132869ab536ed88",
+  "sources": {
+    "outputs\\comparison.csv": "f1b8e2f08e9e12098b6c027b43ef82387c327c3a3573a59e6d32956cbb33c806",
+    "interpretation\\month_metrics.csv": "50310b40589a9c8eb95d2def44cb6ba26c385a1bf45c7df88f368376f867bf9a",
+    "interpretation\\summary.json": "89d377bdc66f864ec6ceb9118d5f9c88f68ba32fdc671205ffe50cf17455f309",
+    "interpretation\\paired_extreme_day_trajectories.csv": "f1efab61441c3e6007c670a492148e0d1ef759704fee92fb0253c28fa5ee279a"
+  },
+  "outputs": {
+    "01_cost_and_months.pdf": "f200586a8ae2d4c0b5598f46961d02428c6f31b84e0a2b847f6e113af43a001a",
+    "01_cost_and_months.png": "5e7d7572613ffa8c20e304f3b0f82b3d1c7a59099b0743499c1b8ece113ad055",
+    "02_paired_extreme_days.pdf": "96264f1d7914af6babce65d8c8c9b71dc6563d0c56e711c9a780bf3ca28668a1",
+    "02_paired_extreme_days.png": "e394302a5bc577c8964764c5f3621a13945a7cfe2c1b090a5d6af5c9cd17bc2b"
+  },
+  "visible_text_within_canvas": true,
+  "visual_qa": "pending"
+}

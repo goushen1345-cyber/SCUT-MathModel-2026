@@ -1,0 +1,30 @@
+{
+  "script": "314e44c452f2228a4acd59a281e081667283591adbf8927bea59df0d67a3e123",
+  "summary": "c08de1263b646bbdcec6952e5f5efc5f652d2fad8b36cc8ec29b579f6ac7fea5",
+  "comparison": "d640941ccbb7e07e565b3d6dc8ef25eb57db00aebd5b6555089a79cdbd7f414a",
+  "paired": "af16511379f837727b0bdbe4b525cc54402316f40bbc787a6bcd06c7523fdddf",
+  "selected_schedules": {
+    "03": "64bbf0abb2318e3fc92586c8f9ca2c28a3dc19300ac9b8d32651b03750a896d6",
+    "04": "d48f8ed12d777ebe2a143be42657a9cb5271433ae5d8408a6dcad533eac8fc7c",
+    "10": "b04ae0505b386580f5efdef01cbb5dc14b871a9895034574f713db01c505ddda"
+  },
+  "matplotlib": "3.11.1",
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+  "font": "C:\\Windows\\Fonts\\simsun.ttc",
+  "render_checks": {
+    "01_daily_dispatch": {
+      "visible_text_within_canvas": true,
+      "checked_text_count": 141
+    },
+    "02_matched_rule_comparison": {
+      "visible_text_within_canvas": true,
+      "checked_text_count": 29
+    }
+  },
+  "outputs": {
+    "01_daily_dispatch.pdf": "232be5ca15389e50f252eb6c6d1d744057f11ed6d4c5e56afb6c0a8088d9ebd0",
+    "01_daily_dispatch.png": "79cd1a4bc32b8dd8d69dacfcec8e310b22fdb818b106c689b2db215133d20532",
+    "02_matched_rule_comparison.pdf": "7947e77a03890ee9159a3de45f768de28bf275b813d272aa5889cfd858b3862d",
+    "02_matched_rule_comparison.png": "1a8c7f0b1b93ae3f72d8c2f889414c59c243db9db2cc64d409a5b5992413afdd"
+  }
+}

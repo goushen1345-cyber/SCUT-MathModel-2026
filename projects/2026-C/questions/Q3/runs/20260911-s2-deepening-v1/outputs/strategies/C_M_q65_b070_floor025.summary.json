@@ -1,0 +1,28 @@
+{
+  "label": "C_M_q65_b070_floor025",
+  "family": "allowance_plus_floor",
+  "total_cost": 13182221.11225095,
+  "ordinary_cost": 12992227.484922737,
+  "emergency_cost": 189993.6273282119,
+  "emergency_kwh": 32760.450159425494,
+  "unused_order_kwh": 487051.62781998026,
+  "unused_pv_kwh": 1173351.3978685986,
+  "reduced_kwh": 479338.68493478285,
+  "increased_kwh": 271837.9360927428,
+  "days": 334,
+  "initial": 8592.693560925925,
+  "final": 8532.783987962963,
+  "emergency_days": 170,
+  "lp_calls": 1336,
+  "floor_ratio": 0.25,
+  "release_scale": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "max_residual": 2.6147972675971687e-12,
+  "max_dual_gap": 1.3096723705530167e-10,
+  "trace": "outputs\\strategies\\C_M_q65_b070_floor025.npz",
+  "daily_csv": "outputs\\strategies\\C_M_q65_b070_floor025.daily.csv"
+}

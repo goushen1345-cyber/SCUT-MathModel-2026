@@ -1,0 +1,20 @@
+{
+  "scope": "User-approved abstract only",
+  "pdf_path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\main_摘要更新.pdf",
+  "locked_existing_files": [
+    "main.pdf"
+  ],
+  "pdf_sha256": "55b671f671b0296346586e57604eea430ced11885c126c2397db992ed485267d",
+  "tex_sha256": "6b529c0af1fd084664a1e0058332a914b51b7bd2dedb67b01c9f8e817829c002",
+  "pdf_pages": 46,
+  "abstract_pages": 1,
+  "approved_text_present_in_full": true,
+  "main_tex_unchanged": true,
+  "abstract_stretch": 1.22,
+  "visual_review_pages": [
+    1,
+    2
+  ],
+  "compiler_warnings_checked": true,
+  "human_final_review": false
+}

@@ -1,0 +1,19 @@
+{
+  "status": "completed_and_independently_recalculated",
+  "selected": "M_q60_b070_w28_h03",
+  "selected_parameters": {
+    "history_days": 28,
+    "block_hours": 3,
+    "quantile": 0.6,
+    "date_decay": 0.7,
+    "release_scale": [1, 1, 1, 1],
+    "midnight_order_floor": 0
+  },
+  "selected_cost_yuan": 13146535.488467809,
+  "new_lp_calls": 36072,
+  "new_tree_fits": 0,
+  "verification": "outputs/verification.json",
+  "figure": "figures-v1/01_parameter_interpretability.png",
+  "paper_outline": "../../../../paper_evidence/问题三参数解释与论文框架.md",
+  "boundary": "same-year exploratory selection; no result3, paper prose, Q3 freeze, or Q4"
+}

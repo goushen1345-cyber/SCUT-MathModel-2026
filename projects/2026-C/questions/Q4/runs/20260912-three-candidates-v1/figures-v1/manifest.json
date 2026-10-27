@@ -1,0 +1,76 @@
+{
+  "status": "generated_from_verified_saved_results_no_refit_no_resolve",
+  "script": {
+    "path": "postprocess.py",
+    "sha256": "9cb3ae6ce53dc9a1e572a8e497fe9a26a3168a012cef2f287a49a53322c52b93"
+  },
+  "inputs": [
+    {
+      "path": "outputs\\common_start\\summary.json",
+      "sha256": "cdeb2454c1bb454ce03bc810a84610fc023ddc1e654ee84b8e6eafd63a645864"
+    },
+    {
+      "path": "outputs\\common_start\\comparison.csv",
+      "sha256": "0b5836b4ccf6dbbe448a50d47a938d669a680b76acfc5eb65cb9f1fa394d18d9"
+    },
+    {
+      "path": "outputs\\summary.json",
+      "sha256": "df4a27ce3ac65d4267565f29c1f7c14870d6fc3080adf752ff483452db7fb7ce"
+    },
+    {
+      "path": "outputs\\price_fit_log.jsonl",
+      "sha256": "5c686a00d34fcf4b1dc4cb55be46ccf0d78e71ae1f7ebaef88141436eccd2447"
+    },
+    {
+      "path": "outputs\\verification.json",
+      "sha256": "f131036395f13524ac99915fba962308c954de9a3c32f20f8a752fe07885cf84"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "figures-v1\\01_candidate_costs.pdf",
+      "sha256": "dc030d2783824ec9ace6d2ffac2a220159c70065d78e04c2083b328994e99d4e"
+    },
+    {
+      "path": "figures-v1\\01_candidate_costs.png",
+      "sha256": "771da609ac05abc7ffe54a7052d4726bc3168059fb3558950a2e353cf94ef089"
+    },
+    {
+      "path": "figures-v1\\02_savings_and_price_errors.pdf",
+      "sha256": "99ebafe5b5c83c3162f70142cf6d3fe9c377cefe192aa3603448bcd7fe39c685"
+    },
+    {
+      "path": "figures-v1\\02_savings_and_price_errors.png",
+      "sha256": "e2e014e7b38da62ebc67c83d934d7a4a11ab5ffe9e5ae3dc5f906559e5ebc882"
+    },
+    {
+      "path": "interpretation\\analysis.json",
+      "sha256": "31153e52a24f493fd8e8c030b6cf117649726f9a79906fdf5636bcf86fbf1555"
+    },
+    {
+      "path": "interpretation\\daily_pairwise_common_start.csv",
+      "sha256": "29fb67bf173f25cf16d52e0f262b77d2ef671e715f33b55bf43c9e82afd4e600"
+    },
+    {
+      "path": "interpretation\\monthly_common_start.csv",
+      "sha256": "67f2ff9a1e82088dd676edd334daf49a1759b613c13a8af092e872661c6bdb31"
+    },
+    {
+      "path": "interpretation\\p2_coefficient_stability.csv",
+      "sha256": "b991db25eb18f59c4ba8ccbb5a1cae6eaf1775849100cea57fac93c7073a7c81"
+    },
+    {
+      "path": "interpretation\\p3_split_usage.csv",
+      "sha256": "3d2baecc10c1d21b00446ccfadbb89e4d6886f9e3b62aecf28c22d08ffc577fa"
+    },
+    {
+      "path": "interpretation\\price_forecast_metrics.csv",
+      "sha256": "c9b3fd2bdaa69a87acf9131258c14b6b193430acbfc9743e8242379ba0d41b7a"
+    }
+  ],
+  "figure_notes": {
+    "01_candidate_costs": "Common-start total costs and billed non-ordinary components for P1--P3 in both branches.",
+    "02_savings_and_price_errors": "Monthly savings versus P1 and causal rolling price forecast errors; negative savings are retained."
+  },
+  "boundary": "The charts summarize saved runs; they do not add candidates, refit models, rerun optimization, or prove cross-year generalization."
+}

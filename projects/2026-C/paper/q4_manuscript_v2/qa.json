@@ -1,0 +1,19 @@
+{
+  "scope": "Q4 writing revision only",
+  "pdf_pages": 5,
+  "printed_page_range": "26-30",
+  "continued_numbering": {
+    "section": 8,
+    "tables": "12-14",
+    "figure": 15,
+    "equations": "23-28"
+  },
+  "reference_manuscript_pages_read": 25,
+  "reference_pdf_sha256": "cb6169a1864a364af0cd05d23eb063cf979294fe2f6edd49c7bba33acf22ab0d",
+  "state_sha256": "f16287cf2993f135c8fd892f63e3ba4988dd6cc6c093c4aa9cec98a025150749",
+  "tex_sha256": "e911a171dbb7f9c8cb845e362aac77b43d7e06abb18966c11efc2bf5be82590d",
+  "pdf_sha256": "b12795cc5d3c29a778089bde8fd0476762bed5212c6ad763b14948fa1c37f229",
+  "new_model_fits": 0,
+  "new_optimization_solves": 0,
+  "visual_review": "All five rendered pages checked by the main assistant; not human approval"
+}

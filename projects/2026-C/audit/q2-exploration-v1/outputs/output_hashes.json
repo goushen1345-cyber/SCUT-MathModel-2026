@@ -1,0 +1,18 @@
+{
+  "daily.csv": "4e48b51a3ae1053d7a46b1a0532cd02b7e41700162a90f13a22f0b7348ad2ca9",
+  "error_autocorrelation.csv": "f12f262293a200874902c96811d1e9fa6569a44e4bf86eb4b9a9906ae22f6a87",
+  "fixed_history_references.csv": "61f012e34ea337acb022bd5e0f3f549f9d25c63108276e35aed8746219a48f92",
+  "history_reference_daily.csv": "5cb55fbf3d3b12c2a77ce7e4eb463cc29a11ea395c8e87a8a272e2ffc6c65bbf",
+  "history_reference_metrics.csv": "57a331ec092ff6519be052e403028d61ef327a5cd08274635893d641231f76b9",
+  "intervals.csv": "7a2785b36668473c6e690f79a97b332646ba553c7e953867710389e9584aa885",
+  "lag_correlations.csv": "b24b7886a642a3a1bce85faee2ed4c64580e0adfce22ad382d26d72d58770bba",
+  "month_curves.csv": "cb7afaa17bb9318eea80bb80720a27fca148cd7e6becfbf8fad28192f39c8c41",
+  "monthly.csv": "7c1236e0528f399db97721ebcf7333c817b73781247d9b8f2b8dc912c1d36eae",
+  "net_reference_errors.csv": "eb625aed94b4eb7e78d10d0d57db5139f57dff2276b7a5c21ce10358cbf44a02",
+  "reference_information_audit.csv": "90819fc34cc0c6973b8bd0e144bc05916b15eae4436654010120ac54a771f200",
+  "six_hour_error_windows.csv": "81b9da21d9b6dd3bfb03bd2535b7a448d711f757876e495a9b9903accc39f2d5",
+  "specified_days.csv": "cb920ced0f5a8824d1f03c90d85d859bfd31c45af4946add8a01df3307e5d8f0",
+  "summary.json": "affc960c2c43cde8d3b20fda24e72cf3b7058dfbe41a6a0edef37be985c0ed5e",
+  "weekday.csv": "2d71bb5db94fe78bb071b234170fa71e2aab46e73b6b8914045913c050c8714b",
+  "weekday_curves.csv": "726b0a4dec208f9f1ee2539abef388daa69cb6160432195a009d4b0904c11e70"
+}

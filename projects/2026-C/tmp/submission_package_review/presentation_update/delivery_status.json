@@ -1,0 +1,26 @@
+[
+  {
+    "file": "result1.xlsx",
+    "status": "replaced and verified"
+  },
+  {
+    "file": "result2.xlsx",
+    "status": "replaced and verified"
+  },
+  {
+    "file": "result3.xlsx",
+    "status": "replaced and verified"
+  },
+  {
+    "file": "result4-2.xlsx",
+    "status": "replaced and verified"
+  },
+  {
+    "file": "result4-3.xlsx",
+    "status": "replaced and verified"
+  },
+  {
+    "file": "AI工具使用详情.pdf",
+    "status": "replaced with truthful DeepSeek and Codex report"
+  }
+]

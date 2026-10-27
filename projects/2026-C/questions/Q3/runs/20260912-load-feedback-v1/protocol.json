@@ -1,0 +1,17 @@
+{
+  "authorization": "你现在继续深化问题三的模型，看看能不能继续降低费用",
+  "context": "Continuation of explicitly discussed causal intraday load correction; final baseline13146535.488467809 yuan. Preserve all old results and formal revision49 cursor; record local authorization without inventing freezes.",
+  "hypothesis": "The midnight weekday load forecast ignores observed same-day load bias at6/12/18. Learning how much that bias persists may reduce costly emergency purchases or unnecessary orders.",
+  "fixed": {"period":"2025-02-01..2025-12-31,334days", "initial_kwh":8592.693560925925, "PV":"existing final fusion", "margin":"own causal net-error histories,28days,3h,0.60quantile,0.7decay", "physics_settlement":"unchanged", "correction_target":"only unexecuted current-day load; next-day load unchanged"},
+  "candidates": {
+    "PERSIST_PREFIX": "Use current-day observed mean load residual as additive correction for remaining day. Simple baseline, no fitted slope.",
+    "LEARN_PREFIX": "For each decision clock and future3h clock block, fit a no-intercept slope in[0,1] from prior28complete days' observed-prefix mean residual to future-block mean residual. At least7valid past days, else no correction.",
+    "LEARN_RECENT": "Same learned slope, but predictor is preceding3hours' mean load residual. Captures shorter persistence."
+  },
+  "formula":"Lnew=max(0,Lmidnight+gain*theta*observed_bias). theta=clip(sum(x*y)/sum(x*x),0,1). Zero intercept expresses no update when no observed deviation; bounded slope only transfers historical positive persistence without amplifying or reversing it.",
+  "adaptive_scope":"Run three candidates once on334days. If best beats baseline, test half correction of that candidate as amplitude sensitivity. If none beats baseline, test half correction of the two learned candidates. If any beats baseline after stock-value check, rerun no-new-PV-release information control with winner's load and own margins; zero-only control is unchanged because midnight load and margins are unchanged. No other parameter search.",
+  "validation":"Independent load-coefficient/information-cutoff reconstruction, own residual and exact quantile checks, all saved physical/accounting traces, solver feasibility, baseline source hashes, monthly/daily reversals, terminal inventories and correction-amplitude sensitivity. Same-year exploratory selection, not unseen test.",
+  "selection":"Actual total fee first; also present emergency amount/days, discarded orders, monthly/day failures and terminal stock. Recommend replacement only for verified fee improvement and no physical violation; if reliability worsens materially explain tradeoff, not automatic best claim.",
+  "budget":{"max_new_LP":8500,"max_tree_fits":0,"research_seconds":1800},
+  "stop":"Deliver bounded comparison and recommendation. No paper rewrite, official result replacement, Q4 rerun or automatic freezing."
+}

@@ -1,0 +1,12 @@
+{
+  "all_daily_metrics.csv": "5c1347785e675613a4097e4adec7f84b900f2790dfb7a0cf25ba4b1189195a62",
+  "group_metrics.csv": "697b43eba2793a6f5b15e643bf1f5f2e129f43cf665585308e78553671f23f38",
+  "group_paired.csv": "9a5b43cf82d32febd711d8b7460db239618c0a059804c8091dfb9bf36115b052",
+  "original_emergency_causes.csv": "bbbaac8c14d1dac3c291e1e5ad8bc9d0523df294972f01b8b118a01c7c1ae9a1",
+  "paired_daily.csv": "09978ca89d310d4d8e99c0d5b3246520bc9b641d35934cc49918f2c1c22f0ff2",
+  "scenario_comparison.csv": "3c79fef95ca352a72c75bc078228d747c20d6c3126a84d76d5c4d28af98edd4e",
+  "source_hashes.json": "634f20d6bce91dc8df047f5a130f5bc7dc625cb59b88eb3a76e16bb21b3d5723",
+  "summary.json": "16501a1d9401c54dbb0fe6ce3141cfbcefdfed09f2970f140a59e17d51869926",
+  "tails.json": "ebd1e069cde4c8a8a58c1e13adedafd5084dd90122df52c109216f488a643d09",
+  "tail_dates.csv": "74f985308eed416095ce5be91ed1e08512be1cfd4d4f12de536905ca87dfbb63"
+}

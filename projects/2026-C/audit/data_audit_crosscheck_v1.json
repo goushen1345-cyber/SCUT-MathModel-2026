@@ -1,0 +1,90 @@
+{
+  "method": "Independent standard-library XML reading of XLSX numeric rectangles; no workbook modification",
+  "regions": [
+    {
+      "source": "附件1.xlsx/Sheet1",
+      "range": "B2:B145",
+      "xml_numeric_count": 144,
+      "expected": 144,
+      "bad_cells": [],
+      "counts_match": true,
+      "minmax_match": true,
+      "zeros_match": true,
+      "all_finite_nonnegative": true
+    },
+    {
+      "source": "附件1.xlsx/Sheet1",
+      "range": "C2:C145",
+      "xml_numeric_count": 144,
+      "expected": 144,
+      "bad_cells": [],
+      "counts_match": true,
+      "minmax_match": true,
+      "zeros_match": true,
+      "all_finite_nonnegative": true
+    },
+    {
+      "source": "附件1.xlsx/Sheet1",
+      "range": "D2:D145",
+      "xml_numeric_count": 144,
+      "expected": 144,
+      "bad_cells": [],
+      "counts_match": true,
+      "minmax_match": true,
+      "zeros_match": true,
+      "all_finite_nonnegative": true
+    },
+    {
+      "source": "附件2.xlsx/小区负载",
+      "range": "B2:EO366",
+      "xml_numeric_count": 52560,
+      "expected": 52560,
+      "bad_cells": [],
+      "counts_match": true,
+      "minmax_match": true,
+      "zeros_match": true,
+      "all_finite_nonnegative": true
+    },
+    {
+      "source": "附件2.xlsx/光伏发电实际功率",
+      "range": "B2:EO366",
+      "xml_numeric_count": 52560,
+      "expected": 52560,
+      "bad_cells": [],
+      "counts_match": true,
+      "minmax_match": true,
+      "zeros_match": true,
+      "all_finite_nonnegative": true
+    },
+    {
+      "source": "附件3.xlsx/Sheet1",
+      "range": "C2:Z1461",
+      "xml_numeric_count": 35040,
+      "expected": 35040,
+      "bad_cells": [],
+      "counts_match": true,
+      "minmax_match": true,
+      "zeros_match": true,
+      "all_finite_nonnegative": true
+    },
+    {
+      "source": "附件4.xlsx/Sheet1",
+      "range": "B2:EO366",
+      "xml_numeric_count": 52560,
+      "expected": 52560,
+      "bad_cells": [],
+      "counts_match": true,
+      "minmax_match": true,
+      "zeros_match": true,
+      "all_finite_nonnegative": true
+    }
+  ],
+  "all_checks_match": true,
+  "year_end_forecast_label_check": {
+    "targets_in_2026": 40,
+    "targets_exactly_last_actual_label": 4,
+    "targets_after_last_actual_label": 36,
+    "last_actual_label": "2025-12-31 0:00+1 = 2026-01-01 00:00",
+    "note": "Counts are forecast records across four releases, not unique target hours; no interval interpolation was performed"
+  }
+}

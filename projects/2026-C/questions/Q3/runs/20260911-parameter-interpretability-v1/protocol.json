@@ -1,0 +1,37 @@
+{
+  "version": "Q3-parameter-interpretability-v1",
+  "authorization": "用户要求解决0.7、0.65、28天、4小时等参数的可解释性，并形成问题三论文框架",
+  "purpose": "在既有Q3深化方案上补充历史窗口和时段分组的单因素对照，为论文中的参数解释提供证据",
+  "fixed_settings": {
+    "quantile": 0.65,
+    "date_decay": 0.7,
+    "releases": [0, 6, 12, 18],
+    "evaluation_period": "2025-02-01至2025-12-31，共334天",
+    "forecast_and_dispatch": "沿用已核验的S2融合预报、线性规划和实际结算口径"
+  },
+  "comparisons": [
+    {"history_days": 14, "block_hours": 4},
+    {"history_days": 28, "block_hours": 4, "reuse": "既有主结果"},
+    {"history_days": 56, "block_hours": 4},
+    {"history_days": 28, "block_hours": 1},
+    {"history_days": 28, "block_hours": 2},
+    {"history_days": 28, "block_hours": 3},
+    {"history_days": 28, "block_hours": 6},
+    {"history_days": 14, "block_hours": 2},
+    {"history_days": 56, "block_hours": 2}
+  ],
+  "selection_rule": "比较实际总费用，同时检查普通费用、紧急费用、紧急电量和未接收普通电；不把同年全样本对比表述为跨年泛化验证",
+  "three_hour_parameter_recheck": {
+    "quantiles_at_decay_0.7": [0.60, 0.65, 0.70, 0.75, 0.80],
+    "decays_at_quantile_0.65": [0.7, 0.8, 1.0],
+    "adaptive_refinement": "若0.60优于0.65和0.70，则补查0.55、0.575、0.625，并在0.60下复核0.8和1.0日期权重",
+    "reason": "三小时时段优于原四小时设置后，复核原有分位和日期衰减结论是否仍成立"
+  },
+  "final_policy_recheck": {
+    "release_scales": [[1.0, 0.75, 0.5, 0.25], [1.0, 1.0, 0.75, 0.5], [1.0, 0.5, 0.0, 0.0], [1.0, 0.0, 0.0, 0.0]],
+    "midnight_order_floors": [0.25, 0.5, 0.75, 1.0],
+    "reason": "在最终0.60分位、0.7日期衰减和3小时分组下复核是否应随日内更新撤去准备，以及是否应限制向下改单"
+  },
+  "budget": {"new_lp_calls_max": 37000, "new_tree_fits": 0},
+  "outputs": "隔离保存对照结果、复算核验和一张可用于论文的参数解释图；不修改正式result3，不写论文正文，不进入Q4"
+}

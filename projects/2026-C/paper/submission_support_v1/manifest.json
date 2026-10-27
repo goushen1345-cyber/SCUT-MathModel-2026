@@ -1,0 +1,20 @@
+{
+  "scope": "AI-use disclosure and reference verification; no research rerun",
+  "sources": {
+    "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\submission_support_v1\\AI工具使用声明.tex": "49f69c578298ac7a0248b7d1fa40a39e070b4b770dbf89cf0751ca58711a4cfe",
+    "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\submission_support_v1\\AI工具使用详情.tex": "975438a58a8088677e2ad3a603d5edbcb47e88a3d4ec1f1728d79c7a5321c35a",
+    "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\submission_support_v1\\参考文献_核验版.tex": "af8c1a3a24b08476c3a86a1e196ffc93b8e17e2791d119dec454dbf69245bf56",
+    "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\submission_support_v1\\参考文献_独立页.tex": "f335a9f18a33ff6d146f4e1556272ba06978e990c5d269abb7e5ca7b16db0185",
+    "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\submission_support_v1\\参考文献核查报告.md": "59937708035bcc2d6a1059c8fb22f96d9b5669104c7794a05b03b3fa86af5535",
+    "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\state\\ai_usage_log.md": "3f27e90ddf673a2239c1bdcbdafe5c038acfbdfa6bef07f129d538937d4ac30c"
+  },
+  "outputs": {
+    "AI工具使用详情.pdf": "0759d838bbc91ff1ed6e20ce9b44b507d18e7af90e6179b6fb90617736aff8c7",
+    "参考文献_核验版.pdf": "76d64e95c7513084c84b0eb037a2957ca27422d18fcfbac5e82fa9ffef392f73"
+  },
+  "human_final_review": "not_confirmed",
+  "team_other_AI_usage": "awaiting_user_information",
+  "official_rule": "https://www.mcm.edu.cn/html_cn/node/fef94648f2836ab6cc81586f4c38512b.html",
+  "visual_inspection": "AI inspected all three AI-report pages and one bibliography page; no visible clipping or overlap",
+  "pdf_text_anonymity_check": "No SCUT/Rog/school/account or local filesystem identifiers found"
+}

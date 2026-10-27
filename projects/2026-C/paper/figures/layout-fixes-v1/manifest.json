@@ -1,0 +1,40 @@
+{
+  "scope": "Matplotlib layout corrections only; no fitting or optimization",
+  "source_sha256": {
+    "paper/q3_manuscript_v2/prepare.py": "1eab74f416108da4692de0dcffa4dd5e1ac48d1c2f677e3d259fedc233f2ed9b",
+    "questions/Q1/runs/20260911-compare-v1/present.py": "314e44c452f2228a4acd59a281e081667283591adbf8927bea59df0d67a3e123",
+    "questions/Q1/runs/20260911-compare-v1/outputs/summary.json": "c08de1263b646bbdcec6952e5f5efc5f652d2fad8b36cc8ec29b579f6ac7fea5",
+    "questions/Q3/runs/20260911-parameter-interpretability-v1/plot.py": "653afa8eb48eb04f808614fb3d3d844bef7020f9ce8e7d564f16f01679353433",
+    "questions/Q3/runs/20260911-parameter-interpretability-v1/outputs/comparison.csv": "4895c72eb8e5cc1a8c863fe2cad4abc60a5b86eea314e6561eff6614d464dd26",
+    "questions/Q3/runs/20260911-parameter-interpretability-v1/outputs/verification.json": "24e56a75a3ac198ffaee56796eaa7b09ad6aa80bf9d202c6292bfdc9e98a8b2c",
+    "questions/Q3/runs/20260911-parameter-interpretability-v1/outputs/strategies/M_q60_b070_w28_h03.npz": "e5ae122cdb89decad5dac0b0b0e11160868e923dfec240b9018d6afe572ed251",
+    "questions/Q3/runs/20260911-four-candidates-v1/outputs/sources.npz": "1739b45bf65bb653daa8e9f98e87108746ee339814ef55188488706f85b387b7",
+    "questions/Q1/runs/20260911-compare-v1/outputs/schedules/C03-p07.csv": "64bbf0abb2318e3fc92586c8f9ca2c28a3dc19300ac9b8d32651b03750a896d6",
+    "questions/Q1/runs/20260911-compare-v1/outputs/schedules/C04.csv": "d48f8ed12d777ebe2a143be42657a9cb5271433ae5d8408a6dcad533eac8fc7c",
+    "questions/Q1/runs/20260911-compare-v1/outputs/schedules/C10-p05.csv": "b04ae0505b386580f5efdef01cbb5dc14b871a9895034574f713db01c505ddda"
+  },
+  "sources_unchanged_after_render": true,
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+  "code_sha256": {
+    "build.py": "1f72837518034047cf0a3979417abe3d4c0b3689da9bb5c63833498f29d16341",
+    "draw_dispatch.py": "451e392dbe692b49da05b185039698d340f454f478e69409fefe163cb98846ae",
+    "draw_parameters.py": "34c799afde4468dfdc93239e6e19a009be3e9246210744fb732e84b5351abb9e",
+    "draw_specified_days.py": "fc63de356e448b2bf78e1b97245b10f55bdcc65201290a37b44cb6e1c57f41a9",
+    "prepare_sources.py": "0e7a40f1aa3bd80779cabed9c35081374a8b8adc6e11fae0359bc60973974e46"
+  },
+  "output_sha256": {
+    "01_Q3_specified_days.pdf": "87247de92df5110f6fb1ae60bc4bb9c1d096f933f3f1a32437a6fa7eefedbbe6",
+    "01_Q3_specified_days.png": "67b962625816c9ef5f731e6482b67e33ec81e93649f762923f8345f14017643b",
+    "01_Q3_specified_days_preview.png": "f1e3b3b39e15c4e76f3241a9bfb0765731079eb1aef2af6b4fa924148c40e5a0",
+    "02_Q3_parameter_interpretability.pdf": "41468d90aae717e7bf9f23a517b400a1bfa2401fd114c270af267cbba3cf8878",
+    "02_Q3_parameter_interpretability.png": "61a44f143452e978f96b0d44ca452dd77106686542e6b80773fa57f6043a9acb",
+    "02_Q3_parameter_interpretability.svg": "bab544eab1f0519941d22900a10799bdfa1df62677f93ed25eafa1b770b17840",
+    "02_Q3_parameter_interpretability_preview.png": "0d65d7eb8ab61d62df997b9778d2771a2f4a2e05d308013927605ea7a0b960c9",
+    "03_Q1_daily_dispatch.pdf": "56340e7585ad5dd4989c4f18c1e34a3ce0c9467bb85f79a73b0792a11367b942",
+    "03_Q1_daily_dispatch.png": "220b001b9fb06c5d46ecc6e783fb49b322c679b10953d5ee696ed75dd5d513d4",
+    "03_Q1_daily_dispatch_preview.png": "6040e4eba3b4324f77777fa0285d541cf6b6b72f43feffb7e11780c095397d53"
+  },
+  "png_dpi": 300,
+  "preview_dpi": 140,
+  "previews_rendered_from_pdf": true
+}

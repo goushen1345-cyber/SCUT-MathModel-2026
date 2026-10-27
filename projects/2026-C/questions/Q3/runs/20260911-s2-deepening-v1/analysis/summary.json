@@ -1,0 +1,113 @@
+{
+  "selected": {
+    "label": "M_q65_b070",
+    "family": "allowance_fine",
+    "total_cost": 13177140.135736044,
+    "ordinary_cost": 12986995.53113541,
+    "emergency_cost": 190144.60460063687,
+    "emergency_kwh": 32799.200868117834,
+    "unused_order_kwh": 486500.354238902,
+    "unused_pv_kwh": 1152319.705300284,
+    "reduced_kwh": 500492.5630153819,
+    "increased_kwh": 272219.27142995596,
+    "days": 334,
+    "initial": 8592.693560925925,
+    "final": 8532.783987962963,
+    "emergency_days": 172,
+    "lp_calls": 1336,
+    "floor_ratio": 0.0,
+    "release_scale": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "max_residual": 1.8189894035458565e-12,
+    "max_dual_gap": 1.3096723705530167e-10,
+    "trace": "outputs\\strategies\\M_q65_b070.npz",
+    "daily_csv": "outputs\\strategies\\M_q65_b070.daily.csv",
+    "q": 0.65,
+    "beta": 0.7
+  },
+  "comparison": {
+    "vs_initial_s2": {
+      "total_saving": 911565.5286912173,
+      "saving_pct": 6.470186477050477,
+      "ordinary_change": 223347.66821944714,
+      "emergency_saving": 1134913.1969106616,
+      "emergency_kwh_reduction": 201814.12924261045,
+      "emergency_kwh_reduction_pct": 86.01989032224303,
+      "emergency_days_change": -110,
+      "unused_order_change": 178774.93906796013
+    },
+    "vs_refined_q2": {
+      "total_saving": 406670.705628898,
+      "saving_pct": 2.9937895217925052,
+      "ordinary_change": 7434.958736687899,
+      "emergency_saving": 414105.66436558694
+    }
+  },
+  "monthly": {
+    "cheaper_than_initial_s2": 11,
+    "dearer_than_initial_s2": 0,
+    "cheaper_than_q2": 10,
+    "dearer_than_q2": 1
+  },
+  "daily": {
+    "cheaper_than_initial_s2": 239,
+    "dearer_than_initial_s2": 70,
+    "best_day": {
+      "date": "2025-07-07",
+      "selected_total": 51519.05559682056,
+      "baseline_total": 75321.1250202283,
+      "q2_total": 52215.6245893841,
+      "selected_emergency": 281.7219408720548,
+      "baseline_emergency": 26791.879358356782,
+      "q2_emergency": 292.4713966473204,
+      "saving_vs_baseline": 23802.06942340774,
+      "saving_vs_q2": 696.5689925635379,
+      "month": 7
+    },
+    "worst_day": {
+      "date": "2025-07-30",
+      "selected_total": 53471.23984479414,
+      "baseline_total": 52053.69754448051,
+      "q2_total": 54426.77514020429,
+      "selected_emergency": 0.0,
+      "baseline_emergency": 23.91653981250009,
+      "q2_emergency": 0.0,
+      "saving_vs_baseline": -1417.5423003136311,
+      "saving_vs_q2": 955.5352954101545,
+      "month": 7
+    }
+  },
+  "search": {
+    "lp_calls": 30728,
+    "variants": 23,
+    "parameter_selection": "exploratory on the required year, not untouched external validation"
+  },
+  "verification": {
+    "status": "checks_completed",
+    "counts": {
+      "strategies": 23,
+      "actual_intervals": 1106208,
+      "margin_groups": 14600
+    },
+    "max_errors": {
+      "q0": 0.0,
+      "locked_prefix": 0.0,
+      "decision_state": 0.0,
+      "execution": 0.0,
+      "daily": 1.4551915228366852e-11,
+      "period_cost": 1.862645149230957e-09,
+      "final_state": 0.0,
+      "selected_margin": 0.0
+    },
+    "new_lp_calls": 0,
+    "new_fits": 0,
+    "selected": "M_q65_b070",
+    "selected_cost": 13177140.135736044,
+    "reviewer": "same AI, separate saved-result reconstruction; not human approval",
+    "code_sha256": "92b3839a8c1daa111c97ffe2ca4d9932747ea13471db53a3e3ecb1d01939f27d"
+  }
+}

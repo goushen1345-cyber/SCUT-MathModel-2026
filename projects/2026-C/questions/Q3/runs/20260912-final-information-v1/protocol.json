@@ -1,0 +1,16 @@
+{
+  "authorization": "先补最终模型的三组信息对照，整理两条清楚的论文逻辑；确实还需要降低费用，再试日内负载修正。",
+  "scope": "Only final-policy information controls first; no load correction or parameter search in this batch.",
+  "state_note": "Shared state revision49 still reflects Q1; prior Q3/Q4 work is recorded as explicitly authorized local work in decisions.md. Preserve that cursor and all snapshots; do not invent freezes or approvals. This batch is an isolated Q3 evidence supplement authorized by the current message.",
+  "fixed": {"days": "2025-02-01..2025-12-31", "initial_kwh": 8592.693560925925, "history_days": 28, "block_hours": 3, "quantile": 0.60, "decay": 0.7, "load": "existing causal four-week weekday prediction", "dispatch": "unchanged 48h/remaining-to-next-midnight LP and actual feedback", "settlement": "final ordinary order + half-price net deviation from midnight + actual emergency at 5x"},
+  "arms": {
+    "F0_zero_only": "Final fusion and margin at midnight; normal orders locked all day; physical battery feedback remains active.",
+    "F1_no_new": "Same full intraday feedback and revisions, but only current day midnight official forecast. Recombine available midnight official forecast with current causal seven-day history, refit fusion weights using historical samples subject to the same information restriction. Beyond midnight forecast coverage use historical PV alone. Rebuild margin from this arm's own causal forecast errors.",
+    "F2_full": "Reproduce existing final model with official releases at 0/6/12/18."
+  },
+  "controls": "Same forecast processing algorithm, horizon grouping, parameters, physics and initial state. F1 may use past actual data but never post-midnight official releases, including in historical error learning. F0/F1/F2 midnight predictions and margins must match. Each arm subsequently carries its own actual inventory.",
+  "verification": ["final-model trajectory reproduction", "prepared-data and baseline source hashes", "forecast source-release and realized-target cutoffs", "independent fusion and weighted-quantile reconstruction", "locked prefixes and F0 fixed orders", "independent actual feedback/energy/capacity/power/accounting reconstruction", "monthly/daily differences and terminal inventory"],
+  "budget": {"lp_calls_max": 3200, "tree_fits": 0, "research_seconds_max": 1800},
+  "decision_rule": "Report true cost differences, emergency energy/days, discarded orders, daily/monthly reversals and terminal inventory. Do not require a positive effect or tune to enlarge it. Decide whether further load correction is warranted only after interpreting this batch.",
+  "outputs": "Isolated code, forecast/error/margin caches, all three trajectories, verification and comparison; append existing research/evidence logs. No paper PDF rewrite, official result workbook change or Q4 rerun."
+}

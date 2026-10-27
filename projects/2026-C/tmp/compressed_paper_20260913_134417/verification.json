@@ -1,0 +1,18 @@
+{
+  "original_pages": 42,
+  "compressed_pages": 37,
+  "tables_preserved": 19,
+  "figures": 14,
+  "subsection_counts": {
+    "1": 4,
+    "2": 5,
+    "3": 6,
+    "4": 5
+  },
+  "original_unchanged": true,
+  "warnings": [],
+  "visual_review": "Rendered all 37 final pages and inspected contact sheets; no observed overlaps or clipping. Original font size and line spacing retained.",
+  "delivered_pdf": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\main（压缩版）.pdf",
+  "pdf_sha256": "466a11e7cffb3b9e383ade6d59fd79683307f3a9bcb09876972bf7149fe05815",
+  "original_unchanged_after_delivery": true
+}

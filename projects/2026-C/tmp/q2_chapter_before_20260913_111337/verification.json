@@ -1,0 +1,20 @@
+{
+  "changed_sources": [
+    "sections\\sec_6_q2.tex"
+  ],
+  "preserved_inline_figures_and_tables": 6,
+  "pages": 43,
+  "checked_pages": [
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "pdf_sha256": "3ade202957af776988f7a06d542c7a751a2a4a56f6169d53f4bde63154cd8ee6",
+  "new_model_runs": 0
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "stage": "WAIT_G0",
+  "execution_status": "BLOCKED",
+  "active_question": null,
+  "data_version": null,
+  "pending_gate": {
+    "id": "G0",
+    "plan_version": "G0-analysis-v1",
+    "scope": "GLOBAL",
+    "summary": "全题题意分析已完成。待确认题意、研究顺序与CORE建议，并明确report.md中U01—U07对后续处理/研究有影响的口径。没有进入任何小问。",
+    "allowed_actions": ["只读解释与定位当前题意歧义；当前不处理数据或建模", "G0及相关语义范围明确后，进行只读数据审计并提出G1处理方案"],
+    "budget": "当前仅限题意说明及定位检查；后续拟审计4个数据工作簿和5个模板，无清洗、训练或优化预算",
+    "stop_condition": "当前停在G0；确认后仅到G1处理方案，不自动进行数据处理或开始Q1"
+  },
+  "questions": {
+    "Q1": {"role": "NORMAL", "status": "NOT_STARTED", "validity": "VALID", "depends_on": [], "frozen_version": null, "snapshots": {}},
+    "Q2": {"role": "NORMAL", "status": "NOT_STARTED", "validity": "VALID", "depends_on": [], "frozen_version": null, "snapshots": {}},
+    "Q3": {"role": "NORMAL", "status": "NOT_STARTED", "validity": "VALID", "depends_on": [], "frozen_version": null, "snapshots": {}},
+    "Q4": {"role": "NORMAL", "status": "NOT_STARTED", "validity": "VALID", "depends_on": [], "frozen_version": null, "snapshots": {}}
+  },
+  "authorizations": [],
+  "history": [
+    {
+      "date": "2026-09-10",
+      "from_stage": "GLOBAL",
+      "to_stage": "WAIT_G0",
+      "reason": "当前用户明确请求全题题意分析，依据见decisions.md G0-ANALYSIS-001。核实4问后用既有脚本初始化；完成report.md G0-analysis-v1和只读源结构记录。保留所有小问未开始；无人工G0批准、CORE/依赖选择或数据冻结。新增歧义阻断受影响后续研究，题意分析本身已交付。",
+      "artifacts": ["report.md", "scripts/inspect_problem_sources.py", "tmp/problem-analysis/source_snapshot.json"],
+      "authorization_ref": "用户当前分析请求；非G0通过，详见G0-ANALYSIS-001"
+    }
+  ],
+  "blockers": [
+    {"id": "U01", "scope": "GLOBAL", "summary": "原始时点与模板区间/日界不一致，待明确功率区间语义和输出映射；见report.md第六部分"},
+    {"id": "U02", "scope": "GLOBAL", "summary": "Q2/Q3未来负载与光伏、Q4未来价格的信息可用时点需明确；不得默认未来实际值已知"},
+    {"id": "U03", "scope": "GLOBAL", "summary": "减购退款、多次调整基准及交易时刻电价语义需明确"},
+    {"id": "U04-U06", "scope": "GLOBAL", "summary": "跨日储能与终端条件、效率计量侧、剩余电量和设备操作语义需明确"},
+    {"id": "U07", "scope": "GLOBAL", "summary": "整点预报与10分钟决策间的时间及单位映射需明确；尚未执行转换"}
+  ]
+}

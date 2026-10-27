@@ -1,0 +1,86 @@
+{
+  "all_15_reproduced_identically": true,
+  "checks": [
+    {
+      "file": "fig\\q3_final_monthly.pdf",
+      "equal": true
+    },
+    {
+      "file": "fig\\q3_final_monthly.png",
+      "equal": true
+    },
+    {
+      "file": "fig\\q3_final_days.pdf",
+      "equal": true
+    },
+    {
+      "file": "fig\\q3_final_days.png",
+      "equal": true
+    },
+    {
+      "file": "fig\\q3_final_information.pdf",
+      "equal": true
+    },
+    {
+      "file": "fig\\q3_final_information.png",
+      "equal": true
+    },
+    {
+      "file": "fig\\q3_final_validation.pdf",
+      "equal": true
+    },
+    {
+      "file": "fig\\q3_final_validation.png",
+      "equal": true
+    },
+    {
+      "file": "fig\\q4_final_validation.pdf",
+      "equal": true
+    },
+    {
+      "file": "fig\\q4_final_validation.png",
+      "equal": true
+    },
+    {
+      "file": "tables\\q3_original.tex",
+      "equal": true
+    },
+    {
+      "file": "tables\\q3_final.tex",
+      "equal": true
+    },
+    {
+      "file": "tables\\q3_storage.tex",
+      "equal": true
+    },
+    {
+      "file": "tables\\q3_emergency.tex",
+      "equal": true
+    },
+    {
+      "file": "scripts\\derived_values.json",
+      "equal": true
+    }
+  ],
+  "visual_review": "All five PNGs viewed by figure-support agent; initial marginal labels in two validation figures moved inward and re-viewed. No missing characters, overlap, or clipping observed. Embedded paper pages remain for the main agent to check.",
+  "human_review": false,
+  "table_placement": "Q3 four tables and Q2 emergency table now use [H]; only placement changed, five figures and derived values remain byte-identical.",
+  "placement_only_checks": {
+    "fig\\q3_final_days.pdf": true,
+    "fig\\q3_final_information.pdf": true,
+    "fig\\q3_final_monthly.pdf": true,
+    "fig\\q3_final_validation.pdf": true,
+    "fig\\q4_final_validation.pdf": true,
+    "fig\\q3_final_days.png": true,
+    "fig\\q3_final_information.png": true,
+    "fig\\q3_final_monthly.png": true,
+    "fig\\q3_final_validation.png": true,
+    "fig\\q4_final_validation.png": true,
+    "tables\\q3_emergency.tex": true,
+    "tables\\q3_final.tex": true,
+    "tables\\q3_original.tex": true,
+    "tables\\q3_storage.tex": true,
+    "tables\\q2_emergency.tex": true,
+    "scripts\\derived_values.json": true
+  }
+}

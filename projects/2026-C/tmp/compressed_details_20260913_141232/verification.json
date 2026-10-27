@@ -1,0 +1,19 @@
+{
+  "original_pages": 42,
+  "compressed_pages": 40,
+  "tables_preserved": 26,
+  "figures": 14,
+  "subsection_counts": {
+    "1": 4,
+    "2": 5,
+    "3": 6,
+    "4": 5
+  },
+  "original_unchanged": true,
+  "warnings": [],
+  "deliverable_sha256": "4d6458289d164463e447c9015ac64547c590dc1ac68475f12a5eb2326208b8d5",
+  "main_pages": 37,
+  "appendix_pages": 3,
+  "evaluation_restored_verified": true,
+  "visual_checks": "Final render contact sheets 2,4,6,7 inspected; modified main pages and appendix 38-40 verified."
+}

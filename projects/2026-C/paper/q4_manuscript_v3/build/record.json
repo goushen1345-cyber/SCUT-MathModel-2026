@@ -1,0 +1,44 @@
+{
+  "commands": [
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.exe",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q4_manuscript_v3\\build",
+      "问题四的模型建立与求解_修订稿.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.exe",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q4_manuscript_v3\\build",
+      "问题四的模型建立与求解_修订稿.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xdvipdfmx.exe",
+      "-q",
+      "-o",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q4_manuscript_v3\\问题四的模型建立与求解_修订稿.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q4_manuscript_v3\\build\\问题四的模型建立与求解_修订稿.xdv"
+    ],
+    [
+      "C:\\Users\\Rog\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+      "-r",
+      "110",
+      "-png",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q4_manuscript_v3\\问题四的模型建立与求解_修订稿.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q4_manuscript_v3\\preview\\page"
+    ]
+  ],
+  "input_sha256": {
+    "问题四的模型建立与求解_修订稿.tex": "56474e32c8cec49801728c92c940dd4856a60f0690a43e9ed61e1d1d64a026b0",
+    "figures\\问题四模型检验.pdf": "371d98c48444287e1066c297a7b5da3b544e83e291f26c5bc3424dc86737e043",
+    "build.py": "f933c52973b5cba84d8e8a11adf66610d0bf89c08788e503b3ed0b524fae8f7b"
+  },
+  "pdf_sha256": "e28ed30db062179f0c7a421be78a97dc123a48a8187b28d57efde27bd0193e0d",
+  "scope": "Revised standalone Q4 writing only; numbering continues after supplied 25-page manuscript"
+}

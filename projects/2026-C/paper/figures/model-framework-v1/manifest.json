@@ -1,0 +1,22 @@
+{
+  "tool": "TikZ / XeLaTeX / Poppler",
+  "fonts": [
+    "SimSun",
+    "SimHei",
+    "Times New Roman"
+  ],
+  "sources": {
+    "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\figures\\model-framework-v1\\framework.tex": "3e592302738894258356836d91c373aa273b254ae20f9d452826a2de655f9cf0",
+    "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\figures\\model-framework-v1\\build.py": "3eba30ebfc34f40edb34a9eff91a147aa3dabce3f7dc1498cbf1a767767023d7",
+    "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\complete_manuscript_v1\\q1.tex": "eec223c2e4bf6ca3f49f412098a7fbc6b130b7528fd28af653cd8ed8a2e9cb1a",
+    "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\complete_manuscript_v1\\q2.tex": "46e2baccfb5fcdb76ad9d879d5b7b149e62350360ee0d1fcd5dc897e68239ec3",
+    "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\complete_manuscript_v1\\q3.tex": "a389783679a064978bed97c28493699fc845fc6610334c23e780b241fe1e3895",
+    "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\complete_manuscript_v1\\q4.tex": "2fc0238e75cf98c0fac8c1d8ee5177f6486bcf3357f55d8a97b58ceb8469bfbf"
+  },
+  "outputs": {
+    "四问整体模型框架图.pdf": "9b4b04df817737713e07b987797e5d7b813381dd334bc6bc8ec0bbc9e63148f5",
+    "四问整体模型框架图.png": "9c17afc95db99a051e63262ff5e17184210a6fd0e82f8770d0b7322fe5cb3eee"
+  },
+  "scope": "Existing model structure only; no research or state changes",
+  "png_dpi": 300
+}

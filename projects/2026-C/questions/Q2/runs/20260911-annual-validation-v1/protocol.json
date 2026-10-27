@@ -1,0 +1,24 @@
+{
+  "version": "Q2-annual-validation-v1",
+  "authorization": "Q2-ANNUAL-050",
+  "user_scope": "Complete previous first four steps: annual four-candidate run, diagnosis, necessary deepening/validation, complete independently checked outputs; explain unsupported settings; deliver paper outline only, no prose/PDF authoring, no Q3 or freeze.",
+  "sources": "prepared-v1 actual_power and day_reference unchanged, retained Q1 C04 for Jan1, previous four-candidate batch exact hashes including forecast/model/state metadata",
+  "upstream": "Continue explicitly authorized Q2 work with fixed retained Q1 hashes; do not invent Q1 freeze or remove normal dependency.",
+  "baseline_extension": "Retain original Jan initialization and Feb-Jun trajectories. Continue all4 through Dec31 from own June end inventory and exact training/refit cadence;736 LP. Daily order remains fixed, past-only forecasts. End-year auxiliary Jan1 forecast allowed from past history, no Jan1 actual data used.",
+  "accounting": "365day continuous Jan initialization plus334day official Feb-Dec comparison. Report both totals distinctly; no hindsight parameter backdating or untouched-blind-test claim.",
+  "fixed_parameters": {"T1":[4,7],"T2":100,"T3":5,"T4":0.7,"risk_days":28,"risk_group_hours":4,"planner_hours":48,"terminal_value":"0.9*midnight_price"},
+  "control_clarification": "PV direct first, receive and store usable surplus within physical limits; insufficient locked ordinary plus PV uses feasible battery discharge before emergency. Earlier suggestion to intentionally buy emergency while battery can cover deficit is not adopted: it conflicts with confirmed shortage-only information/operation convention. Derive this restriction explicitly instead of trialing a relaxed-rule candidate.",
+  "validation": [
+    {"id":"Q2-V01","scope":"All4 annual: same initialization, true inherited inventory; independent interval/fee/info/export check","criterion":"Feasibility and correct accounting; retain annual ranking reversals"},
+    {"id":"Q2-V02","scope":"334day T4 quantile0.6/0.8/0.9 against existing0/0.7, same Febstart and history","criterion":"Cost/month/emergency/waste tradeoff, no claimed optimal reliability"},
+    {"id":"Q2-V03","scope":"334day T1/T4 paired24h horizon with terminal value, paired48h no terminal value","criterion":"Check horizon/end-value ranking dependence, unchanged physical rules"},
+    {"id":"Q2-V04","scope":"334day T4 separate risk lookback14/56days and group2/6hours; hold remaining settings","criterion":"Explain memory/group resolution bias-variance and measured sensitivity, no blind claims"},
+    {"id":"Q2-V05","scope":"334day T1 load1week vs4weeks, PV3days vs7days, and recency-weighted history w~0.8^age (both targets separate) vs equal; also risk recency weights with0.8 day decay","criterion":"Small paired evidence for equal weighting and finite window; fixed alternatives not entropy scores"},
+    {"id":"Q2-V06","scope":"At most one evidence-driven adaptive allowance refinement, only after diagnostics; finite setting selection from January or walk-forward completed days; at most two refinement configurations","criterion":"Improve or retain baseline based on sequential cost with no future leakage; preserve failures"}
+  ],
+  "selection": "Rank original4 on whole required334days first. Sensitivity settings are explanatory alternatives, not automatically hindsight-retuned final parameters. If adaptive refinement is selected, its rule must be past-only and independent rolling history; compare full334day behavior and disclose strategy selection on these data. No guarantee of national award or global optimality.",
+  "budget": {"annual_extension_lp":736,"fixed_validation_lp":5010,"refinement_lp_max":2000,"hard_lp_total":8500,"research_seconds_max":3600,"single_lp_seconds":10,"single_fit_seconds":60,"debug_allowance_in_hard_budget":true},
+  "deliverables": "Immutable source/old-output protection, new annual and validation schedules/metrics/parameters/model metadata, independent validation, result2.xlsx in isolated deliverables plus four specified-day tables, human-language report with mathematical/causal justifications, proposed Q2 paper outline appended to existing evidence/report. No new manuscript body or PDF.",
+  "template_mapping": "Rows are civil dates Feb1-Dec31; purchase columns B..EN correspond00:10..23:50, EO corresponds same row date00:00 under confirmed cyclic column order. Output header clarifies EO as00:00-00:10, no misleading+1; raw template read-only. Fourhour battery groups and daily fees use civil day, emergency events contiguous within day. Preserve3 worksheet names and basic layout.",
+  "stop": "Finish authorized first4 and deliver evidence/outline; unresolved physical/data conflict stops affected work; no automatic Q3/freeze/paper drafting. If no improvement retain justified original; sensitivity failures recorded."
+}

@@ -1,0 +1,55 @@
+{
+  "commands": [
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.exe",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q3_manuscript_v1\\build",
+      "问题三的模型建立与求解.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.exe",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q3_manuscript_v1\\build",
+      "问题三的模型建立与求解.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xdvipdfmx.exe",
+      "-q",
+      "-o",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q3_manuscript_v1\\问题三的模型建立与求解.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q3_manuscript_v1\\build\\问题三的模型建立与求解.xdv"
+    ],
+    [
+      "C:\\Users\\Rog\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+      "-r",
+      "120",
+      "-png",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q3_manuscript_v1\\问题三的模型建立与求解.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q3_manuscript_v1\\preview\\page"
+    ]
+  ],
+  "input_sha256": {
+    "chapter.tex": "ffc55fcb8c796ac25a5eff1e926d21e4b6f77f34ab490530958337a47bd7354b",
+    "问题三的模型建立与求解.tex": "9385d126a08cf5ef3c838c3d32019897ccc0958ebfa342f4ed901b9178eac464",
+    "tables\\adjusted_orders.tex": "3330697acad6d6c1969289261dfbc0cf99929c61d6cddd25534fd7f8a34303e7",
+    "tables\\candidates.tex": "362514e2ba8301df63763d74ffab45562df7daf1eaf17c7ec114cf171620a00b",
+    "tables\\emergency.tex": "2e4c18017484f34661c36c9763194cb90a2067ae8a68b6d20da47675751a8772",
+    "tables\\original_orders.tex": "70f55155d5e4d525434bae7dc6ae6b458b5764de7f9ae677210de88880d4ee6b",
+    "tables\\storage.tex": "0acd980a58dfb42d395b23454fcfc5603e4f56f94a242604279bbbd403b1b80a",
+    "figures\\final_monthly.pdf": "fc506bfb13e8bb181b5fdec7bfc86742aa95d733b434d42dba221bf189c0e89a",
+    "figures\\information_value.pdf": "1ec5e9249dd70089431e81b33f3179de212dd9deba77124d18332ebc4519bbcc",
+    "figures\\parameter_interpretability.pdf": "83cc8f41eb43248fa582e1519688d786e0c664fb43b71a6697aef1a5c9cf70a4",
+    "figures\\specified_days.pdf": "9e2ea33a7225c00420ced8b0a6d41201998cf0f8a665db86e5abdc568f808f9a",
+    "prepare.py": "1eab74f416108da4692de0dcffa4dd5e1ac48d1c2f677e3d259fedc233f2ed9b",
+    "build.py": "ed3c2b70e66ecdb5f61344cc3510a44086caf05657e1b1d380a21b1348c643ff",
+    "paper_findings.json": "128470d02de5f484777503adc1bfde2f1f5f271c8b99e028314f2d3a62663666"
+  },
+  "pdf_sha256": "bbd143e090727adfd3ade31eecd363ea229218f8680ea8d3861a4d11a97d835e",
+  "scope": "local Q3 writing only"
+}

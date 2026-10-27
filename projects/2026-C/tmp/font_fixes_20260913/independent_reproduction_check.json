@@ -1,0 +1,115 @@
+{
+  "status": "passed",
+  "copied_files": 11,
+  "input_and_code_hashes_unchanged": true,
+  "all_six_outputs_byte_identical": true,
+  "pdf_page_content_and_dimensions_identical": true,
+  "scope": "Three drawing scripts executed in an independent minimal package. No fitting, optimization, or formal file changes.",
+  "figures": [
+    {
+      "figure": "q1_daily_dispatch",
+      "outputs": [
+        {
+          "extension": "pdf",
+          "generated": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\font_fixes_20260913\\reproduction_package\\reproduced\\plots\\fig\\03_Q1_daily_dispatch.pdf",
+          "paper": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\图像压缩版\\fig\\q1_daily_dispatch.pdf",
+          "generated_sha256": "1f4fead8ee5021c9d70eb12b0c37036cc7398d9244d829220a0e4aee13caa209",
+          "paper_sha256": "1f4fead8ee5021c9d70eb12b0c37036cc7398d9244d829220a0e4aee13caa209",
+          "byte_identical": true,
+          "mediabox_generated": [
+            0.0,
+            0.0,
+            573.144,
+            633.451725
+          ],
+          "mediabox_paper": [
+            0.0,
+            0.0,
+            573.144,
+            633.451725
+          ],
+          "same_mediabox": true,
+          "same_page_content": true
+        },
+        {
+          "extension": "png",
+          "generated": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\font_fixes_20260913\\reproduction_package\\reproduced\\plots\\fig\\03_Q1_daily_dispatch.png",
+          "paper": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\图像压缩版\\fig\\q1_daily_dispatch.png",
+          "generated_sha256": "16c776f00385c6630a5d82991b5d7a99fe20ccc5f7c6a3b2d202e2c130840d19",
+          "paper_sha256": "16c776f00385c6630a5d82991b5d7a99fe20ccc5f7c6a3b2d202e2c130840d19",
+          "byte_identical": true
+        }
+      ]
+    },
+    {
+      "figure": "q3_final_days",
+      "outputs": [
+        {
+          "extension": "pdf",
+          "generated": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\font_fixes_20260913\\reproduction_package\\reproduced\\plots\\fig\\q3_final_days.pdf",
+          "paper": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\图像压缩版\\fig\\q3_final_days.pdf",
+          "generated_sha256": "f025b63f358ac434abd1b320d9f86811e7010080e750e164bc89ecef058c65b4",
+          "paper_sha256": "f025b63f358ac434abd1b320d9f86811e7010080e750e164bc89ecef058c65b4",
+          "byte_identical": true,
+          "mediabox_generated": [
+            0.0,
+            0.0,
+            717.0852734375,
+            512.54
+          ],
+          "mediabox_paper": [
+            0.0,
+            0.0,
+            717.0852734375,
+            512.54
+          ],
+          "same_mediabox": true,
+          "same_page_content": true
+        },
+        {
+          "extension": "png",
+          "generated": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\font_fixes_20260913\\reproduction_package\\reproduced\\plots\\fig\\q3_final_days.png",
+          "paper": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\图像压缩版\\fig\\q3_final_days.png",
+          "generated_sha256": "f7cf98f63492d8ea88d90ba079d82532da73c02fdca81b16029bc75fcce76068",
+          "paper_sha256": "f7cf98f63492d8ea88d90ba079d82532da73c02fdca81b16029bc75fcce76068",
+          "byte_identical": true
+        }
+      ]
+    },
+    {
+      "figure": "q3_final_quantile",
+      "outputs": [
+        {
+          "extension": "pdf",
+          "generated": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\font_fixes_20260913\\reproduction_package\\reproduced\\plots\\fig\\q3_final_quantile.pdf",
+          "paper": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\图像压缩版\\fig\\q3_final_quantile.pdf",
+          "generated_sha256": "a9ed06bfc50c008addff2eb3e35702ca4234ce9cf33a8cd24aeb1d4749122c2e",
+          "paper_sha256": "a9ed06bfc50c008addff2eb3e35702ca4234ce9cf33a8cd24aeb1d4749122c2e",
+          "byte_identical": true,
+          "mediabox_generated": [
+            0.0,
+            0.0,
+            497.99952,
+            260.39952
+          ],
+          "mediabox_paper": [
+            0.0,
+            0.0,
+            497.99952,
+            260.39952
+          ],
+          "same_mediabox": true,
+          "same_page_content": true
+        },
+        {
+          "extension": "png",
+          "generated": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\font_fixes_20260913\\reproduction_package\\reproduced\\plots\\fig\\q3_final_quantile.png",
+          "paper": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\图像压缩版\\fig\\q3_final_quantile.png",
+          "generated_sha256": "1d76e600207b18abe651cb786997ff81c46520db8d0af097e93cec47c1dcb986",
+          "paper_sha256": "1d76e600207b18abe651cb786997ff81c46520db8d0af097e93cec47c1dcb986",
+          "byte_identical": true
+        }
+      ]
+    }
+  ]
+}

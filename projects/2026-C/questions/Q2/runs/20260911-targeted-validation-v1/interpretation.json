@@ -1,0 +1,136 @@
+{
+  "effective_exposure": [
+    {
+      "scenario": "load_underestimate",
+      "effective_event_days": 45,
+      "no_additional_perturbation_days": 289,
+      "skipped_episode_dates": [
+        "2025-02-15",
+        "2025-03-01",
+        "2025-03-15",
+        "2025-03-29",
+        "2025-08-30",
+        "2025-09-13",
+        "2025-09-27",
+        "2025-10-11",
+        "2025-10-25"
+      ],
+      "effective_days_per_month": {
+        "2": 3,
+        "4": 6,
+        "5": 6,
+        "6": 6,
+        "7": 6,
+        "8": 6,
+        "11": 6,
+        "12": 6
+      },
+      "groups": [
+        {
+          "effective_input_perturbation": true,
+          "days": 45,
+          "paired_saving": 224651.22877923417,
+          "worse_days": 20,
+          "max_extra_cost": 19937.1655211688,
+          "meaning": "Not a causal decomposition;different dates and inherited inventories,only identifies when additional input disturbance is active."
+        },
+        {
+          "effective_input_perturbation": false,
+          "days": 289,
+          "paired_saving": 285665.26802995225,
+          "worse_days": 122,
+          "max_extra_cost": 16961.143780139333,
+          "meaning": "Not a causal decomposition;different dates and inherited inventories,only identifies when additional input disturbance is active."
+        }
+      ]
+    },
+    {
+      "scenario": "pv_overestimate",
+      "effective_event_days": 72,
+      "no_additional_perturbation_days": 262,
+      "skipped_episode_dates": [],
+      "effective_days_per_month": {
+        "2": 6,
+        "3": 9,
+        "4": 6,
+        "5": 6,
+        "6": 6,
+        "7": 6,
+        "8": 8,
+        "9": 7,
+        "10": 6,
+        "11": 6,
+        "12": 6
+      },
+      "groups": [
+        {
+          "effective_input_perturbation": true,
+          "days": 72,
+          "paired_saving": 140910.8145776931,
+          "worse_days": 24,
+          "max_extra_cost": 26715.71819347665,
+          "meaning": "Not a causal decomposition;different dates and inherited inventories,only identifies when additional input disturbance is active."
+        },
+        {
+          "effective_input_perturbation": false,
+          "days": 262,
+          "paired_saving": 297600.9639973965,
+          "worse_days": 106,
+          "max_extra_cost": 15467.691811279241,
+          "meaning": "Not a causal decomposition;different dates and inherited inventories,only identifies when additional input disturbance is active."
+        }
+      ]
+    },
+    {
+      "scenario": "joint_optimism",
+      "effective_event_days": 45,
+      "no_additional_perturbation_days": 289,
+      "skipped_episode_dates": [
+        "2025-02-15",
+        "2025-03-01",
+        "2025-03-15",
+        "2025-03-29",
+        "2025-08-30",
+        "2025-09-13",
+        "2025-09-27",
+        "2025-10-11",
+        "2025-10-25"
+      ],
+      "effective_days_per_month": {
+        "2": 3,
+        "4": 6,
+        "5": 6,
+        "6": 6,
+        "7": 6,
+        "8": 6,
+        "11": 6,
+        "12": 6
+      },
+      "groups": [
+        {
+          "effective_input_perturbation": true,
+          "days": 45,
+          "paired_saving": 231170.4429218147,
+          "worse_days": 21,
+          "max_extra_cost": 16232.01693179988,
+          "meaning": "Not a causal decomposition;different dates and inherited inventories,only identifies when additional input disturbance is active."
+        },
+        {
+          "effective_input_perturbation": false,
+          "days": 289,
+          "paired_saving": 262489.60314905876,
+          "worse_days": 124,
+          "max_extra_cost": 15406.839237469452,
+          "meaning": "Not a causal decomposition;different dates and inherited inventories,only identifies when additional input disturbance is active."
+        }
+      ]
+    }
+  ],
+  "original_tail_emergency_fee_reduction_pct": 27.480501097422394,
+  "notes": [
+    "outputs/summary.json event_days_per_scenario72 is the scheduled3day windows,not effective input perturbations;effective load/joint45,PV72.",
+    "Not all signed donor days individually unfavorable;72h selection retains alternating error signs andpairedhistory.",
+    "Comparisons across three scenarios have different realized error magnitudes and exposure,so they do not rank intrinsic load/PV difficulty.",
+    "Original per-policy worst17days may be different dates;paired regret tail separately compares matchingdates."
+  ]
+}

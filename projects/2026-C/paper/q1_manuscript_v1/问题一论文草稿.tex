@@ -1,0 +1,35 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[UTF8,heading=true]{ctex}
+\usepackage[a4paper,left=25mm,right=25mm,top=22mm,bottom=22mm]{geometry}
+\usepackage{fontspec,xeCJK,graphicx,booktabs,tabularx,longtable,array,amsmath,amssymb,tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\usepackage[hidelinks]{hyperref}
+\setmainfont{Times New Roman}
+\setCJKmainfont{SimSun}[BoldFont=SimHei]
+\setCJKsansfont{SimHei}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{3pt}
+\linespread{1.18}
+\setlength{\tabcolsep}{5pt}
+\setlength{\abovecaptionskip}{5pt}
+\emergencystretch=1.5em
+\widowpenalty=10000
+\clubpenalty=10000
+\setcounter{secnumdepth}{3}
+\ctexset{section={format=\Large\bfseries},subsection={format=\large\bfseries},subsubsection={format=\normalsize\bfseries}}
+\graphicspath{{figures/}}
+\makeatletter
+\newenvironment{inlinefigure}{\par\addvspace{9pt}\noindent\begin{minipage}{\linewidth}\def\@captype{figure}\centering}{\end{minipage}\par\addvspace{9pt}}
+\newenvironment{inlinetable}{\par\addvspace{7pt}\noindent\begin{minipage}{\linewidth}\def\@captype{table}\centering\small}{\end{minipage}\par\addvspace{7pt}}
+\makeatother
+\newcommand{\given}{\,|\,}
+\pagestyle{plain}
+\input{result_values.tex}
+\begin{document}
+\begin{center}\Large\bfseries 微网与外部电网电力调控策略\end{center}
+\input{sections/front.tex}
+\input{sections/assumptions.tex}
+\input{sections/symbols.tex}
+\input{sections/data.tex}
+\input{sections/question1.tex}
+\end{document}

@@ -1,0 +1,88 @@
+{
+  "status": "completed",
+  "configurations": [
+    {
+      "name": "quantile60",
+      "q": 0.6
+    },
+    {
+      "name": "quantile80",
+      "q": 0.8
+    },
+    {
+      "name": "quantile90",
+      "q": 0.9
+    },
+    {
+      "name": "horizon24-q0",
+      "q": 0.0,
+      "hours": 24
+    },
+    {
+      "name": "no-terminal-q0",
+      "q": 0.0,
+      "terminal": false
+    },
+    {
+      "name": "horizon24-q70",
+      "q": 0.7,
+      "hours": 24
+    },
+    {
+      "name": "no-terminal-q70",
+      "q": 0.7,
+      "terminal": false
+    },
+    {
+      "name": "error-window14",
+      "q": 0.7,
+      "days": 14
+    },
+    {
+      "name": "error-window56",
+      "q": 0.7,
+      "days": 56
+    },
+    {
+      "name": "error-group2h",
+      "q": 0.7,
+      "group": 2
+    },
+    {
+      "name": "error-group6h",
+      "q": 0.7,
+      "group": 6
+    },
+    {
+      "name": "load1week-no-margin",
+      "q": 0.0,
+      "w": 1
+    },
+    {
+      "name": "pv3days-no-margin",
+      "q": 0.0,
+      "p": 3
+    },
+    {
+      "name": "weighted-history-no-margin",
+      "q": 0.0,
+      "forecast_decay": 0.8
+    },
+    {
+      "name": "weighted-error",
+      "q": 0.7,
+      "risk_decay": 0.8
+    }
+  ],
+  "lp_calls": 5010,
+  "seconds": 34.823880599986296,
+  "initial_kwh": 8592.693560925925,
+  "years": "Feb-Dec334days",
+  "sample_weighting": "forecast newest-to-oldest selected dates0.8^index normalized; residual0.8^calendar_day_age with weighted CDF quantile",
+  "no_hindsight_final_retuning": true,
+  "code": {
+    "validate_variants.py": "54ade7db5bc7f4c855224350783498c3a7d9800ad104c01c7e26ff3084a94788",
+    "core.py": "161d4c0e0a8ebf482a5aa52aefbec7cb722998f0c65a8b568fc299b5841be114",
+    "annual.py": "2b95520baa331e9325b5824bf6e8c673373b5e2f9388740d42fc490dbe5cd939"
+  }
+}

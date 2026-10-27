@@ -1,0 +1,23 @@
+{
+  "sources": [
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\audit\\eda-v1\\monthly_summary.csv",
+      "sha256": "4250c2ee63fbdf5a056ad63fb36c905f590962591b44f1038117f2cc2eec08f1"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\audit\\eda-v1\\weekday_summary.csv",
+      "sha256": "bb69474945b083709b06737944186a4627ac7a58088a7102d5a5deb7467e7da3"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\audit\\eda-v1\\forecast_error_by_lead.csv",
+      "sha256": "0cd344a5a466956df1ca1ce9c55bf6900ce96b372b639d18aff7a526744caea3"
+    }
+  ],
+  "scope": "Saved descriptive statistics re-plotted without altering data or model; monthly and weekday means follow original source-date grouping.",
+  "outputs": [
+    "fig/data_compact.pdf",
+    "fig/data_compact.png",
+    "fig/forecast_compact.pdf",
+    "fig/forecast_compact.png"
+  ]
+}

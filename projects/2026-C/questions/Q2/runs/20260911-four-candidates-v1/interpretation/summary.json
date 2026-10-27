@@ -1,0 +1,55 @@
+{
+  "selected_main": "T4",
+  "selection_scope": "four authorized candidates,Feb-Jun150days,same controller and48h planner",
+  "total_saving_vs_T1": 590169.3357060831,
+  "saving_pct_vs_T1": 9.127820593529165,
+  "ordinary_cost_increase": 268571.410913893,
+  "emergency_cost_reduction": 858740.7466199783,
+  "emergency_energy_reduction": 138727.62765613015,
+  "emergency_energy_reduction_pct": 59.31143301402392,
+  "unused_order_increase": 163052.44406209257,
+  "unused_pv_increase": 46801.005220401334,
+  "final_storage_T4_minus_T1": 1823.8535048941812,
+  "inventory_reference_difference": 701.8917828234768,
+  "improved_days": 89,
+  "worsened_days": 45,
+  "tied_days": 16,
+  "best_day": "2025-06-11",
+  "best_day_saving": 37525.36243714345,
+  "worst_day": "2025-06-29",
+  "worst_day_saving": -6436.007685541968,
+  "monthly_savings": {
+    "2": -5776.567539209267,
+    "3": 6750.592066406505,
+    "4": 20029.63883546181,
+    "5": 175100.23811581673,
+    "6": 394065.4342276093
+  },
+  "selected_history_load_weights": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "selected_history_pv_weights": [
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ],
+  "selected_risk_quantile": 0.7,
+  "risk_history_days": 28,
+  "risk_group_hours": 4,
+  "january_positive_margin_not_better_than_zero": true,
+  "caveats": [
+    "Jul-Dec not simulated",
+    "one controller,forecast features and48h horizon",
+    "no claims that all tree/ridge variants are inferior",
+    "positive margin has lost days and higher unused ordinary/PV",
+    "not all candidate forecasts crossed with all margins",
+    "no entropy weighting"
+  ]
+}

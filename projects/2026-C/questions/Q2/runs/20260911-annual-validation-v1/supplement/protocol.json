@@ -1,0 +1,38 @@
+{
+  "authorization": "Q2-ANNUAL-050",
+  "purpose": "Separate quantile convention from weight contribution; directly check selected-model margin/horizon/terminal sensitivity. Numerical controls, not new candidate family or hindsight parameter selection.",
+  "configurations": [
+    {
+      "name": "equal-step-cdf",
+      "q": 0.7,
+      "decay": 1.0
+    },
+    {
+      "name": "selected-q60",
+      "q": 0.6,
+      "decay": 0.7
+    },
+    {
+      "name": "selected-q80",
+      "q": 0.8,
+      "decay": 0.7
+    },
+    {
+      "name": "selected-horizon24",
+      "q": 0.7,
+      "decay": 0.7,
+      "hours": 24
+    },
+    {
+      "name": "selected-no-terminal",
+      "q": 0.7,
+      "decay": 0.7,
+      "terminal": false
+    }
+  ],
+  "lp_calls_planned": 1670,
+  "prior_new_lp_calls": 6486,
+  "new_total": 8156,
+  "hard_total_unchanged": 8500,
+  "no_retuning_of_selected_model": true
+}

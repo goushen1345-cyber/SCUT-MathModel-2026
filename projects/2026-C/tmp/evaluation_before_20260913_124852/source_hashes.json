@@ -1,0 +1,52 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "99BA4BC81C35FFEACC87EDB4174A030855637006D9C1C3E4810A3C697FDBA90D",
+    "Path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\sections\\sec_0_abstract.tex"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "32B863FB7A5A2FCFA4790B76C0C8B84AB7DFAD0F2929100005CD9579640E1399",
+    "Path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\sections\\sec_1_problem_review.tex"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "9B6AA7C4133E99C7E49355779B337AFF9099EED0F5CDEADD56660870844388C2",
+    "Path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\sections\\sec_2_problem_analysis.tex"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "7D645D4B1D2C25FAF7BF09EEB53694DE815515B5FF093B37FDD96D78D3E75FBB",
+    "Path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\sections\\sec_3_model_assumption.tex"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "47AAA49BFB2FBF88BD193F287E413153E8A49AA0A637E121410B60BEB923643B",
+    "Path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\sections\\sec_4_data_preprocessing.tex"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "DA770F49A62605A2B28D09B989F2A5BC4F5CF6B4965DB165E70B4AE68C354983",
+    "Path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\sections\\sec_5_q1.tex"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "81EEBBFBAD53E2B86A2CCFAA1F8E769D59841EA3148CEFB2B7918FF74155B094",
+    "Path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\sections\\sec_6_q2.tex"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "2341A2409779CC4F10BE5A970E250AEE6908F4A4570722AE21D2C2BF6CC598B0",
+    "Path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\sections\\sec_7_q3.tex"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "485022381231C1D4C215F2F05EB4DC9C42B9428EA4D246CA7CD5438B90B25EC1",
+    "Path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\sections\\sec_8_q4.tex"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "BAD797C47E2D372C1F73FA33C3C86E5A84968DBA3C257421358881A2B90D59F6",
+    "Path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\sections\\sec_9_create.tex"
+  }
+]

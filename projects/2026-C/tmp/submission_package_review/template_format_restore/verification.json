@@ -1,0 +1,32 @@
+[
+  {
+    "file": "result1.xlsx",
+    "status": "updated",
+    "cell_values_and_types_verified_unchanged": true,
+    "template_headers_and_dimensions_verified": true
+  },
+  {
+    "file": "result2.xlsx",
+    "status": "updated",
+    "cell_values_and_types_verified_unchanged": true,
+    "template_headers_and_dimensions_verified": true
+  },
+  {
+    "file": "result3.xlsx",
+    "status": "updated",
+    "cell_values_and_types_verified_unchanged": true,
+    "template_headers_and_dimensions_verified": true
+  },
+  {
+    "file": "result4-2.xlsx",
+    "status": "updated",
+    "cell_values_and_types_verified_unchanged": true,
+    "template_headers_and_dimensions_verified": true
+  },
+  {
+    "file": "result4-3.xlsx",
+    "status": "updated",
+    "cell_values_and_types_verified_unchanged": true,
+    "template_headers_and_dimensions_verified": true
+  }
+]

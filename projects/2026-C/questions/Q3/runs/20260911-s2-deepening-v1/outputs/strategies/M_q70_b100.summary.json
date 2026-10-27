@@ -1,0 +1,28 @@
+{
+  "label": "M_q70_b100",
+  "family": "allowance_stage1",
+  "total_cost": 13412122.936431814,
+  "ordinary_cost": 13101097.774930649,
+  "emergency_cost": 311025.1615011659,
+  "emergency_kwh": 56357.24207687033,
+  "unused_order_kwh": 600055.1287591921,
+  "unused_pv_kwh": 1183258.9481689911,
+  "reduced_kwh": 515662.1130821344,
+  "increased_kwh": 278238.950643393,
+  "days": 334,
+  "initial": 8592.693560925925,
+  "final": 8682.971565833332,
+  "emergency_days": 145,
+  "lp_calls": 1336,
+  "floor_ratio": 0.0,
+  "release_scale": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "max_residual": 1.8189894035458565e-12,
+  "max_dual_gap": 1.3096723705530167e-10,
+  "trace": "outputs\\strategies\\M_q70_b100.npz",
+  "daily_csv": "outputs\\strategies\\M_q70_b100.daily.csv"
+}

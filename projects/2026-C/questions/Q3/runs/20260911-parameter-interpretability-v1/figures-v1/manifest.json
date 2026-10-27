@@ -1,0 +1,19 @@
+{
+  "figure_id": "Q3-F04",
+  "status": "visual_inspection_passed",
+  "source": {
+    "outputs/comparison.csv": "4895c72eb8e5cc1a8c863fe2cad4abc60a5b86eea314e6561eff6614d464dd26",
+    "outputs/verification.json": "24e56a75a3ac198ffaee56796eaa7b09ad6aa80bf9d202c6292bfdc9e98a8b2c"
+  },
+  "code_sha256": "653afa8eb48eb04f808614fb3d3d844bef7020f9ce8e7d564f16f01679353433",
+  "outputs": {
+    "01_parameter_interpretability.png": "8336ac90bc46d6bc29ce0e716dfd0f48d8a242fdfdd566b007a7f49f1cc301b2",
+    "01_parameter_interpretability.svg": "615831329a5ccc84f5cca40a3de9447b986e663d1fdf0295e38e2a74e4722cde",
+    "01_parameter_interpretability.pdf": "83cc8f41eb43248fa582e1519688d786e0c664fb43b71a6697aef1a5c9cf70a4"
+  },
+  "font": "SimSun",
+  "font_file": "C:\\Windows\\Fonts\\simsun.ttc",
+  "dpi": 300,
+  "not_embedded": true,
+  "visual_check": "最终PNG已检查，中文、坐标、单位、选中点和费用差标注均可辨认；尚未嵌入论文。"
+}

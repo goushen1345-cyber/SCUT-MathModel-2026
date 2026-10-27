@@ -1,0 +1,78 @@
+{
+  "appendix_q4_details.tex": {
+    "steps": [],
+    "constraints": []
+  },
+  "sec_0_abstract.tex": {
+    "steps": [],
+    "constraints": []
+  },
+  "sec_1_problem_review.tex": {
+    "steps": [],
+    "constraints": []
+  },
+  "sec_2_problem_analysis.tex": {
+    "steps": [],
+    "constraints": []
+  },
+  "sec_3_model_assumption.tex": {
+    "steps": [],
+    "constraints": []
+  },
+  "sec_4_data_preprocessing.tex": {
+    "steps": [],
+    "constraints": []
+  },
+  "sec_5_q1.tex": {
+    "steps": [
+      "1",
+      "2",
+      "3"
+    ],
+    "constraints": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  "sec_6_q2.tex": {
+    "steps": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "constraints": [
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  "sec_7_q3.tex": {
+    "steps": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "constraints": [
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  "sec_8_q4.tex": {
+    "steps": [
+      "1",
+      "2",
+      "3"
+    ],
+    "constraints": []
+  },
+  "sec_9_create.tex": {
+    "steps": [],
+    "constraints": []
+  }
+}

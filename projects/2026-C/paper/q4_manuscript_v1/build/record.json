@@ -1,0 +1,49 @@
+{
+  "commands": [
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.exe",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q4_manuscript_v1\\build",
+      "问题四的模型建立与求解.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.exe",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q4_manuscript_v1\\build",
+      "问题四的模型建立与求解.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xdvipdfmx.exe",
+      "-q",
+      "-o",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q4_manuscript_v1\\问题四的模型建立与求解.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q4_manuscript_v1\\build\\问题四的模型建立与求解.xdv"
+    ],
+    [
+      "C:\\Users\\Rog\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+      "-r",
+      "110",
+      "-png",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q4_manuscript_v1\\问题四的模型建立与求解.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q4_manuscript_v1\\preview\\page"
+    ]
+  ],
+  "input_sha256": {
+    "问题四的模型建立与求解.tex": "9083b7af7d8df51a037eca0be8bb973df68dcf6232b80b8da6e4387326c399d6",
+    "tables\\selected_days.tex": "917c90a3dd96538f36fcdc82cd52e55b62e27fe20f013bcd15ff739ee9bfa9a9",
+    "figures\\01_price_pattern.pdf": "98cdc9e5e9c0bf434aacf07d793e3d33541adfe6425b24f624ef5810d0e08884",
+    "figures\\02_monthly_comparison.pdf": "6b030177cf9661c1b31d481edfdd8327496accb94b06531d4a3be82b4e491b8b",
+    "figures\\03_validation.pdf": "371d98c48444287e1066c297a7b5da3b544e83e291f26c5bc3424dc86737e043",
+    "prepare.py": "eb7b3d2f0902fc9d2bd8939503f675887dfd2e944919b2380b16161b80b2ad87",
+    "build.py": "4b06347785824ccc603558bb6b443ec8b2b8bb07bf2900380d7a171b0c0db25c",
+    "paper_findings.json": "e4d1e913320ba28d96a7ad9905d5e87b7273c8d1445b701c03a9636f37824d60"
+  },
+  "pdf_sha256": "dc958d25650a8d7fe1ee73c17854f6a878c054b6f82d17bb04166edd5a74eda1",
+  "scope": "Q4 local manuscript; no model run, result workbook or state change"
+}

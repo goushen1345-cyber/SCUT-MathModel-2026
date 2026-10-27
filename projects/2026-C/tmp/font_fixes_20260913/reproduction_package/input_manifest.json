@@ -1,0 +1,68 @@
+[
+  {
+    "relative_path": "code\\fig_q1.py",
+    "source": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\支撑材料\\code\\fig_q1.py",
+    "copy": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\font_fixes_20260913\\reproduction_package\\code\\fig_q1.py",
+    "sha256": "a180445532209222b8638ec6eac871490c7902a38201f56d8d1ec9c5f7a1f245"
+  },
+  {
+    "relative_path": "code\\fig_q3_days.py",
+    "source": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\支撑材料\\code\\fig_q3_days.py",
+    "copy": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\font_fixes_20260913\\reproduction_package\\code\\fig_q3_days.py",
+    "sha256": "0bb90d656adf082be7e7b1330a3beca5614b1c1c1936295d462da8495d4f9d8b"
+  },
+  {
+    "relative_path": "code\\fig_q3_quantile.py",
+    "source": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\支撑材料\\code\\fig_q3_quantile.py",
+    "copy": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\font_fixes_20260913\\reproduction_package\\code\\fig_q3_quantile.py",
+    "sha256": "a413ed39ca526b96f4da4e9be239b7607bb48b27f2f18b79f5614dc0bff0f1d2"
+  },
+  {
+    "relative_path": "results\\Q3.npz",
+    "source": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\支撑材料\\results\\Q3.npz",
+    "copy": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\font_fixes_20260913\\reproduction_package\\results\\Q3.npz",
+    "sha256": "c2abaa84606d778e6221f97148227b2bfdce6c9259ed7b911f299dd6f407b723"
+  },
+  {
+    "relative_path": "figure_inputs\\q3_daily.csv",
+    "source": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\支撑材料\\figure_inputs\\q3_daily.csv",
+    "copy": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\font_fixes_20260913\\reproduction_package\\figure_inputs\\q3_daily.csv",
+    "sha256": "46dd8d7550cf5fb6682ea7a1d9725d2941d7da7a54e9c32303e439077fbeabcb"
+  },
+  {
+    "relative_path": "data\\inputs.npz",
+    "source": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\支撑材料\\data\\inputs.npz",
+    "copy": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\font_fixes_20260913\\reproduction_package\\data\\inputs.npz",
+    "sha256": "95d851124a9c56c68dc075107fbdbd9ca48ff1b20af98e21b4426af112675f55"
+  },
+  {
+    "relative_path": "figure_inputs\\derived_values.json",
+    "source": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\支撑材料\\figure_inputs\\derived_values.json",
+    "copy": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\font_fixes_20260913\\reproduction_package\\figure_inputs\\derived_values.json",
+    "sha256": "4088af4da94b911ca59479eac6f4117fdf27cb345383fa894adc339a755d311c"
+  },
+  {
+    "relative_path": "figure_inputs\\q1\\outputs\\summary.json",
+    "source": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\支撑材料\\figure_inputs\\q1\\outputs\\summary.json",
+    "copy": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\font_fixes_20260913\\reproduction_package\\figure_inputs\\q1\\outputs\\summary.json",
+    "sha256": "f874d3788abb9872ef5c98b3e27216b96f3b7f6b0c45dc7081c17889f4a2e692"
+  },
+  {
+    "relative_path": "figure_inputs\\q1\\outputs\\schedules\\C03-p07.csv",
+    "source": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\支撑材料\\figure_inputs\\q1\\outputs\\schedules\\C03-p07.csv",
+    "copy": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\font_fixes_20260913\\reproduction_package\\figure_inputs\\q1\\outputs\\schedules\\C03-p07.csv",
+    "sha256": "64bbf0abb2318e3fc92586c8f9ca2c28a3dc19300ac9b8d32651b03750a896d6"
+  },
+  {
+    "relative_path": "figure_inputs\\q1\\outputs\\schedules\\C04.csv",
+    "source": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\支撑材料\\figure_inputs\\q1\\outputs\\schedules\\C04.csv",
+    "copy": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\font_fixes_20260913\\reproduction_package\\figure_inputs\\q1\\outputs\\schedules\\C04.csv",
+    "sha256": "d48f8ed12d777ebe2a143be42657a9cb5271433ae5d8408a6dcad533eac8fc7c"
+  },
+  {
+    "relative_path": "figure_inputs\\q1\\outputs\\schedules\\C10-p05.csv",
+    "source": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\支撑材料\\figure_inputs\\q1\\outputs\\schedules\\C10-p05.csv",
+    "copy": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\font_fixes_20260913\\reproduction_package\\figure_inputs\\q1\\outputs\\schedules\\C10-p05.csv",
+    "sha256": "b04ae0505b386580f5efdef01cbb5dc14b871a9895034574f713db01c505ddda"
+  }
+]

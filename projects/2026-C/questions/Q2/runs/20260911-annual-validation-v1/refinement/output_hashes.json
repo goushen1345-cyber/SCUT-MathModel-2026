@@ -1,0 +1,13 @@
+{
+  "comparison.csv": "7de95e69e05052ee56d639b827824dbbd166c561a05d80deea042fe5c877f561",
+  "daily_metrics.csv": "af6fab342cd13014625b487629e659b534abb125b444b86941e502eef441a124",
+  "risk_margins.jsonl": "9d7c6279f34b0cc5ecbdb36836ae5dc115944e4142751b1c62b86891a0dfdc11",
+  "selection.json": "9a054e876d207992fc1c9bd36c4de8353425c0f58046020aaf22b07d6d95063b",
+  "solver_checks.jsonl": "e93f0cddcafc8b338aa69cfd0605e4d02eeabc82baaff212d2a08760db2ac450",
+  "summary.json": "900ee2c79d9928ec1e4b9c4e83ef4d40eb02aae531541de3e09638317302874e",
+  "schedules\\january-error-decay70.npz": "a479f496818b5e47f74470f0d1d96c8aac18626bc227e92457b4aff83747fb7a",
+  "schedules\\january-error-decay80.npz": "ea7cc6f58ff9fe814d903c0d63e75f7ef56b9bae7a4db4ed8cdf7611b4cb0314",
+  "schedules\\january-error-decay90.npz": "b6ca3ed4cbed2861407c7568386cf91cc48ab7d250a84d49f847db80789d5631",
+  "schedules\\sensitivity-error-decay70.npz": "552f2ee1fc667f77a12f09de6e3dcd3a61298d883ebac9079361876cbc752799",
+  "schedules\\sensitivity-error-decay90.npz": "f7ab01c6c121dcc1ed4b150cb81fb6ff92ea948bb568e5a1c5e7edbd6aec14fa"
+}

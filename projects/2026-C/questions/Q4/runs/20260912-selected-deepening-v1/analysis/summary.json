@@ -1,0 +1,45 @@
+{
+  "verification": "verified_by_independent_readback_not_human_review",
+  "Q4-2": {
+    "recommended_version": "P3-leaves31",
+    "saving_vs_P3_full": 6605.5285221114755,
+    "mae_change": -0.0006600936713645061,
+    "top5_mae_change": -0.0017767600960031452,
+    "cheaper_days": 179,
+    "dearer_days": 149,
+    "feature_boundary": "history-only nearly matches total cost but has worse price errors; tree-feature contributions interact and are not causal"
+  },
+  "Q4-3": {
+    "recommended_version": "P2-full",
+    "residual_a10_cost_increase": 759.3184031713754,
+    "residual_a10_emergency_increase_kwh": 150.8443284834284,
+    "freeze_midnight_cost_increase": 274.44895448349416,
+    "omit_12_cost_change": -27.404826844111085,
+    "information_boundary": "release omissions overlap and must not be added; supply and inventory updates remain enabled"
+  },
+  "perfect_price_information": [
+    {
+      "branch": "Q4-2",
+      "selected": "P3-leaves31",
+      "selected_cost": 14248570.873613387,
+      "ideal_cost": 14183025.71173699,
+      "raw_gap": 65545.16187639721,
+      "raw_gap_percent": 0.46001218267987026,
+      "selected_final_kwh": 8692.34252425926,
+      "ideal_final_kwh": 7940.43062287037,
+      "boundary": "unavailable future true prices; last-day beyond-year prices retain selected forecast"
+    },
+    {
+      "branch": "Q4-3",
+      "selected": "P2-full",
+      "selected_cost": 13822901.349092131,
+      "ideal_cost": 13728151.676698444,
+      "raw_gap": 94749.67239368707,
+      "raw_gap_percent": 0.6854543051478125,
+      "selected_final_kwh": 7918.813480370371,
+      "ideal_final_kwh": 5740.845179120371,
+      "boundary": "unavailable future true prices; last-day beyond-year prices retain selected forecast"
+    }
+  ],
+  "cross_year_boundary": "one 2025 rolling year; no external-year generalization"
+}

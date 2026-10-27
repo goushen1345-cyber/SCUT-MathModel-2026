@@ -1,0 +1,64 @@
+{
+  "run_id": "20260912-three-candidates-v1",
+  "authorization": {
+    "id": "Q4-TRIAL-067",
+    "user_quote": "按方案1—3开始比较，方案2作为重点，方案4先保留。",
+    "scope": "实际比较问题四方案1—3；方案4不运行"
+  },
+  "research_scope": {
+    "official_period": "2025-02-01 through 2025-12-31, 334 days",
+    "initialization": "all strategies start 2025-01-01 00:00 at 6000 kWh; the confirmed Q1 C04 order initializes Jan 1; January is retained separately and produces each strategy's Feb 1 state",
+    "branches": {
+      "Q4-2": "midnight plan only; no 06/12/18 order revision",
+      "Q4-3": "midnight original order plus revisions at 06/12/18 for unexecuted intervals; settlement relative to midnight order"
+    },
+    "not_in_scope": [
+      "candidate 4 scenarios or CVaR",
+      "formal result4 workbook filling",
+      "paper writing",
+      "question freeze"
+    ]
+  },
+  "common_model": {
+    "q4_2_supply": "existing Q2 separate forecasts: 4 matching weekdays for load, 7 recent days for PV, 28-day 0.70 net-demand error quantile with 0.70 daily decay and 4-hour groups, 48-hour LP",
+    "q4_3_supply": "existing Q3 fused PV forecast and matching-weekday load, 28-day 0.60 net-demand error quantile with 0.70 daily decay and 3-hour groups, updates at 00/06/12/18",
+    "battery": "charge and discharge efficiencies each 0.90; 1200--10800 kWh internal inventory; 5000 kW charge/discharge power",
+    "actual_execution": "actual load/PV and actual price are revealed causally; actual shortage after order and battery is emergency purchase at five times actual interval price",
+    "time_mapping": "144 ten-minute intervals per day; source_minute modulo 1440 under the confirmed project convention"
+  },
+  "price_candidates": {
+    "P1": "median of up to four prior matching weekdays at the same slot, with recent-history/base-profile fallback; at intraday releases add the median observed same-day level residual",
+    "P2": "rolling 56-day standardized ridge regression, alpha=10, on the known base profile, matching-weekday/recent/lagged prices, calendar, causal supply forecast and observed same-day prefix features; refit every 7 days",
+    "P3": "rolling 56-day histogram gradient boosting, max_leaf_nodes=15, 100 iterations, learning_rate=0.05, min_samples_leaf=50, same causal features and 7-day refit schedule, seed 2026"
+  },
+  "comparison": {
+    "primary": "actual official-period total cost",
+    "secondary": [
+      "ordinary, adjustment and emergency cost",
+      "emergency kWh and days",
+      "unused ordinary order and unused PV",
+      "all-price and top-5%-price forecast MAE",
+      "monthly paired differences and adverse days",
+      "storage feasibility and LP primal-dual checks"
+    ],
+    "selection_boundary": "the required 2025 period is used for model-family comparison and is not described as an untouched cross-year test"
+  },
+  "hard_budget": {
+    "lp_calls": 6200,
+    "price_model_fits": 240,
+    "research_seconds": 1800,
+    "random_seed": 2026,
+    "threads": 1
+  },
+  "source_sha256": {
+    "data/prepared-v1/actual_price.csv": "a94fc43685bf5bb00d9d9d6fe2a06d977cc6070d12a248221275c2a926a6b4e9",
+    "data/prepared-v1/actual_power.csv": "7aa15018b683a494d276b06cf46c7f98897f5ace7cbcf8df87c4b7ffe935c441",
+    "data/prepared-v1/day_reference.csv": "e8fef67536b1c65f28ce4aca2c638cff072e7cc85292122993c696df130515b8",
+    "data/prepared-v1/pv_forecasts.csv": "6c38d11cb6544279278f4dd59d6c4e5756a11709e110919ff311ed03889cc22b",
+    "questions/Q1/runs/20260911-compare-v1/outputs/schedules/C04.csv": "d48f8ed12d777ebe2a143be42657a9cb5271433ae5d8408a6dcad533eac8fc7c",
+    "questions/Q2/runs/20260911-annual-validation-v1/core.py": "161d4c0e0a8ebf482a5aa52aefbec7cb722998f0c65a8b568fc299b5841be114",
+    "questions/Q3/runs/20260911-four-candidates-v1/outputs/sources.npz": "1739b45bf65bb653daa8e9f98e87108746ee339814ef55188488706f85b387b7",
+    "questions/Q3/runs/20260911-four-candidates-v1/outputs/forecasts.npz": "f63519932a9999d95264c02b198bc2ce25c7baa675c11f1b7c61ed3070b925ce",
+    "questions/Q3/runs/20260911-parameter-interpretability-v1/outputs/margins/q60_b070_w28_h03.npz": "bb3b294f1b5ebbf3632858c64fe0ded87884577e39b7c15403b362916f21c179"
+  }
+}

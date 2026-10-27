@@ -1,0 +1,38 @@
+[
+  {
+    "file": "friedman_article.html",
+    "url": "https://projecteuclid.org/journals/annals-of-statistics/volume-29/issue-5/Greedy-function-approximation-A-gradient-boosting-machine/10.1214/aos/1013203451.full",
+    "status": "retrieved",
+    "bytes": 1164
+  },
+  {
+    "file": "energyplan_full.pdf",
+    "url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202203/P020220322582066837126.pdf",
+    "status": "retrieved",
+    "bytes": 790376
+  },
+  {
+    "file": "scipy_highs.html",
+    "url": "https://docs.scipy.org/doc/scipy/reference/optimize.linprog-highs.html",
+    "status": "retrieved",
+    "bytes": 47235
+  },
+  {
+    "file": "forecast_baselines.html",
+    "url": "https://otexts.com/fpp3/simple-methods.html",
+    "status": "retrieved",
+    "bytes": 55223
+  },
+  {
+    "file": "ridge_docs.html",
+    "url": "https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification",
+    "status": "retrieved",
+    "bytes": 241009
+  },
+  {
+    "file": "boosting_docs.html",
+    "url": "https://scikit-learn.org/stable/modules/ensemble.html#gradient-tree-boosting",
+    "status": "retrieved",
+    "bytes": 240119
+  }
+]

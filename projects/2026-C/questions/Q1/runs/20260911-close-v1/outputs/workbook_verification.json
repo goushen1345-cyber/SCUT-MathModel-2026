@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "checks": 7564,
+  "failures": [],
+  "largest_residuals": {
+    "display_rounding": 0.0049166666666,
+    "schedule_value": 0.0,
+    "export_supply": 3.15e-13,
+    "export_end": 3.7673e-12,
+    "block": 4.07e-13,
+    "initial": 0.0,
+    "terminal": 0.0,
+    "total_purchase": 4e-14,
+    "total_cost": 4.1526629543e-13
+  },
+  "total_purchase_kwh": 59482.69899835391,
+  "total_cost_yuan": 35126.84858928963,
+  "source_sha256": "28360e0974e7d6065394a8aba4e14a86773ae0036cc7d3ea1b211b515b03d688",
+  "output_sha256": "94580594a07fcbe3544e311cfac7e482bdb12b0f84b8727791d41e6764809924",
+  "preserved_sheets": [
+    "计划购电量",
+    "充放电量"
+  ],
+  "filled_numeric_cells": 158,
+  "source_unchanged": true,
+  "time_mapping": "template last row -> k1 midnight; first data row -> k2; penultimate -> k144",
+  "visible_style_checked": true,
+  "serialization_note": "Artifact export removed charset/family metadata in 325 cells and normalized empty border sides; effective fonts, alignments, border styles and widths checked unchanged.",
+  "visual_note": "Both sheets and midnight tail rendered and inspected by AI, no clipping; not an interactive Microsoft Excel session.",
+  "validation_scope": "144 purchases checked from saved XLSX with baseline 10-minute charge/discharge evidence; template itself contains only 4-hour charge/discharge totals.",
+  "shift_interpretation": [
+    {
+      "initial_kwh": 1200,
+      "shifted_kwh": 5333.333333333333,
+      "added_purchase_weighted_price": 0.42928749999999993,
+      "removed_purchase_weighted_price": 0.41570312500000006,
+      "first_added_time": "00:00",
+      "last_added_time": "05:30",
+      "first_removed_time": "22:00",
+      "last_removed_time": "23:40"
+    },
+    {
+      "initial_kwh": 10800,
+      "shifted_kwh": 5333.333333333333,
+      "added_purchase_weighted_price": 0.47067499999999995,
+      "removed_purchase_weighted_price": 0.41763125,
+      "first_added_time": "21:50",
+      "last_added_time": "23:50",
+      "first_removed_time": "00:00",
+      "last_removed_time": "05:40"
+    }
+  ]
+}

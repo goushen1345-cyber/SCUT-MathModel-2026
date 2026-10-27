@@ -1,0 +1,11 @@
+{
+  "data/prepared-v1/actual_price.csv": "a94fc43685bf5bb00d9d9d6fe2a06d977cc6070d12a248221275c2a926a6b4e9",
+  "data/prepared-v1/actual_power.csv": "7aa15018b683a494d276b06cf46c7f98897f5ace7cbcf8df87c4b7ffe935c441",
+  "data/prepared-v1/day_reference.csv": "e8fef67536b1c65f28ce4aca2c638cff072e7cc85292122993c696df130515b8",
+  "data/prepared-v1/pv_forecasts.csv": "6c38d11cb6544279278f4dd59d6c4e5756a11709e110919ff311ed03889cc22b",
+  "questions/Q1/runs/20260911-compare-v1/outputs/schedules/C04.csv": "d48f8ed12d777ebe2a143be42657a9cb5271433ae5d8408a6dcad533eac8fc7c",
+  "questions/Q2/runs/20260911-annual-validation-v1/core.py": "161d4c0e0a8ebf482a5aa52aefbec7cb722998f0c65a8b568fc299b5841be114",
+  "questions/Q3/runs/20260911-four-candidates-v1/outputs/sources.npz": "1739b45bf65bb653daa8e9f98e87108746ee339814ef55188488706f85b387b7",
+  "questions/Q3/runs/20260911-four-candidates-v1/outputs/forecasts.npz": "f63519932a9999d95264c02b198bc2ce25c7baa675c11f1b7c61ed3070b925ce",
+  "questions/Q3/runs/20260911-parameter-interpretability-v1/outputs/margins/q60_b070_w28_h03.npz": "bb3b294f1b5ebbf3632858c64fe0ded87884577e39b7c15403b362916f21c179"
+}

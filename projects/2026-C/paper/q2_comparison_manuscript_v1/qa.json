@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "pdf_sha256": "1573964d7b3e6de9208ae19372faab380313df56b090bddd0b96582d40e672da",
+  "pages": 17,
+  "new_section_pages": [
+    15,
+    16,
+    17
+  ],
+  "actual_visual_pages": [
+    10,
+    14,
+    15,
+    16,
+    17
+  ],
+  "prior14_pages_character_positions_and_rendered_pixels_unchanged": true,
+  "text_extraction_difference": "Page10 has5 CMEX10 sum symbols extracted asX by pdfplumber in new font subset. Source identical; inspected page10 sums correct; all14 pages pixels identical at120dpi.",
+  "prior14_pages_visual": "Previously reviewed Q1 manuscript; page14 re-viewed at boundary. Appending preserves existing Q1 end-page whitespace.",
+  "visual_findings": "New pages legible; equations, table4 and figure7 have no clipping/overlap or missing glyphs. Page16 paragraph continues normally on17. New section starts15.",
+  "numeric_macros_verified": 18,
+  "all_page_text_black": true,
+  "text_color_values": [
+    "(0.0,)"
+  ],
+  "all_page_characters_within_canvas": true,
+  "undefined_overfull_missing_glyph_warnings": [],
+  "new_section_has_no_internal_workflow_terms": true,
+  "ai_check_only": true,
+  "human_review": false,
+  "scope": "Local Q2 parameters and comparison draft; no annual/final-paper or official-submission compliance approval."
+}

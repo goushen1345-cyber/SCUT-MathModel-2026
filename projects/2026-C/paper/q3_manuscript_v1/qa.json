@@ -1,0 +1,26 @@
+{
+  "artifact": "问题三的模型建立与求解.pdf",
+  "pages": 9,
+  "paper_size": "A4",
+  "compile_passes": 2,
+  "latex_overfull_boxes": 0,
+  "latex_underfull_boxes": 0,
+  "visual_pages_checked": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "visual_findings": {
+    "text_and_formulas": "clear",
+    "tables": "within_page",
+    "figures": "legible_and_not_cropped",
+    "page_balance": "acceptable_after_parameter_section_reflow"
+  },
+  "pdf_text_checks": {
+    "模型求解": true,
+    "13146535.49": true,
+    "175.51": true,
+    "21.78": true,
+    "0.60": true,
+    "0.7": true,
+    "90元": true
+  },
+  "review_scope": "AI compile, text extraction and visual inspection; not human approval",
+  "research_state_changed": false
+}

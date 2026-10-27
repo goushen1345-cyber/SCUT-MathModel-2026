@@ -1,0 +1,43 @@
+{
+  "lp_calls": 6680,
+  "elapsed": 338.9135992999654,
+  "last": {
+    "normal_cost": 12675951.306805898,
+    "adjustment_cost": 225482.60608825844,
+    "ordinary_cost": 12901433.912894156,
+    "emergency_cost": 213926.18265428673,
+    "total_cost": 13115360.095548443,
+    "order_kwh": 20713073.80808679,
+    "emergency_kwh": 39617.33846939736,
+    "unused_order_kwh": 416375.2989192168,
+    "unused_pv_kwh": 1151986.0311128767,
+    "label": "LEARN_PREFIX_NO_NEW",
+    "kind": "LEARN_PREFIX",
+    "gain": 1.0,
+    "pvkey": "no_new",
+    "days": 334,
+    "initial": 8592.693560925925,
+    "final": 8514.150993631602,
+    "emergency_days": 187,
+    "lp_calls": 1336,
+    "max_residual": 1.8189894035458565e-12,
+    "max_dual_gap": 1.3096723705530167e-10,
+    "load_prediction_mae": [
+      {
+        "hour": 6.0,
+        "old_mae": 163.4726694860279,
+        "new_mae": 120.27252836472053
+      },
+      {
+        "hour": 12.0,
+        "old_mae": 195.0413157123254,
+        "new_mae": 140.29987811997344
+      },
+      {
+        "hour": 18.0,
+        "old_mae": 216.41218126247503,
+        "new_mae": 155.65328347651914
+      }
+    ]
+  }
+}

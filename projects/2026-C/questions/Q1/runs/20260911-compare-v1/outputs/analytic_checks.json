@@ -1,0 +1,71 @@
+[
+  {
+    "name": "single_slot_no_free_initial",
+    "expected_cost": 100.0,
+    "actual": {
+      "cost_yuan": 100.0,
+      "purchase_kwh": 100.0,
+      "charge_kwh": 0.0,
+      "discharge": 0.0,
+      "pv_charge": 0.0,
+      "grid_charge": 0.0,
+      "unused_pv_kwh": 0.0,
+      "loss_kwh": 0.0,
+      "start_kwh": 6000.0,
+      "end_kwh": 6000.0,
+      "min_kwh": 6000.0,
+      "max_kwh": 6000.0,
+      "max_charge_kw": 0.0,
+      "max_discharge_kw": 0.0,
+      "simultaneous_slots": 0,
+      "terminal_projection_slots": 0
+    },
+    "passed": true
+  },
+  {
+    "name": "equal_prices_no_profitable_cycle",
+    "expected_cost": 100.0,
+    "actual": {
+      "cost_yuan": 100.0,
+      "purchase_kwh": 100.0,
+      "charge_kwh": 0.0,
+      "discharge": 0.0,
+      "pv_charge": 0.0,
+      "grid_charge": 0.0,
+      "unused_pv_kwh": 0.0,
+      "loss_kwh": 0.0,
+      "start_kwh": 6000.0,
+      "end_kwh": 6000.0,
+      "min_kwh": 6000.0,
+      "max_kwh": 6000.0,
+      "max_charge_kw": 0.0,
+      "max_discharge_kw": 0.0,
+      "simultaneous_slots": 0,
+      "terminal_projection_slots": 0
+    },
+    "passed": true
+  },
+  {
+    "name": "two_price_cycle_with_81_percent",
+    "expected_cost": 123.45679012345678,
+    "actual": {
+      "cost_yuan": 123.45679012345701,
+      "purchase_kwh": 123.45679012345701,
+      "charge_kwh": 123.45679012345701,
+      "discharge": 100.0,
+      "pv_charge": 0.0,
+      "grid_charge": 123.45679012345701,
+      "unused_pv_kwh": 0.0,
+      "loss_kwh": 23.456790123456813,
+      "start_kwh": 6000.0,
+      "end_kwh": 6000.0,
+      "min_kwh": 6000.0,
+      "max_kwh": 6111.111111111111,
+      "max_charge_kw": 123.45679012345701,
+      "max_discharge_kw": 100.0,
+      "simultaneous_slots": 0,
+      "terminal_projection_slots": 0
+    },
+    "passed": true
+  }
+]

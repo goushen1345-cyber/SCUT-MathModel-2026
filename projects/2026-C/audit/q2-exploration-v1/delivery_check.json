@@ -1,0 +1,22 @@
+{
+  "protected_sources_unchanged": true,
+  "saved_analysis_hashes_match": true,
+  "analysis_script_and_protocol_unchanged": true,
+  "plot_sources_and_script_match": true,
+  "all_12_figure_files_reproduced_identically": true,
+  "actually_inspected_unchanged_four_pngs": true,
+  "actual_visual_inspection": "Final01/04 viewed;02/03/05/06 viewed in identical v3",
+  "local_markdown_links_checked": 7,
+  "state_revision": 33,
+  "q1_retained_unfrozen_q2_dependencies_unchanged": true,
+  "new_solver_calls": 0,
+  "new_fitted_models": 0,
+  "ai_verification_only": true,
+  "paper_pages_with_new_figures_not_created": true,
+  "deliverable_hashes": {
+    "questions\\Q2\\report.md": "2c04ef45e44da1c1883b0d3ac66cc7a5785b9b2d4c0361fe5da9a46465a40788",
+    "paper_evidence\\Q2.md": "d0efb035671286c30592936ce9702c20c5e555f518f298e3210322f13d761523",
+    "paper\\figures\\q2-exploration-v4\\qa.json": "4505203c99f5aebdb14e1b7baf96dc3f360f7d427eea4ba402fd4f9de060eea4",
+    "state\\state.json": "0e5432c2777a418b42f00ff29440522b9ae7a7c9e89e4c6587f224626fdf6041"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "source_and_protected_hashes_match": true,
+  "png_count": 6,
+  "dpi": 300,
+  "reproduction_directory": "tmp/q1-png-reproduction-v1",
+  "all_six_png_hashes_match": true,
+  "visual_qa": {
+    "reviewer": "AI",
+    "viewed_all_six_actual_pngs": true,
+    "diagram_source_page_viewed": 9,
+    "observations": "Labels, legends, axes and all diagram arrows visible; no clipping or surrounding prose in diagram export",
+    "human_review": false
+  },
+  "research_runs": 0,
+  "paper_pdf_or_model_changed": false
+}

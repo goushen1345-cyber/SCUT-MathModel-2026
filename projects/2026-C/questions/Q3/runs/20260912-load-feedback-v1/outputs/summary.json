@@ -1,0 +1,264 @@
+{
+  "status": "computed_pending_verification",
+  "baseline": {
+    "normal_cost": 12691615.38264132,
+    "adjustment_cost": 251869.136309432,
+    "ordinary_cost": 12943484.518950751,
+    "emergency_cost": 203050.96951705834,
+    "total_cost": 13146535.488467809,
+    "order_kwh": 20725951.969916396,
+    "emergency_kwh": 35685.11784540901,
+    "unused_order_kwh": 443358.0957384138,
+    "unused_pv_kwh": 1133209.9626611746,
+    "label": "F2_full",
+    "days": 334,
+    "initial": 8592.693560925925,
+    "final": 8514.40795037037,
+    "emergency_days": 164,
+    "lp_calls": 1336,
+    "max_residual": 1.8189894035458565e-12,
+    "max_dual_gap": 1.3096723705530167e-10
+  },
+  "candidates": [
+    {
+      "normal_cost": 12631077.848786557,
+      "adjustment_cost": 314199.36469365045,
+      "ordinary_cost": 12945277.213480208,
+      "emergency_cost": 139908.0339348399,
+      "total_cost": 13085185.247415049,
+      "order_kwh": 20656624.810768384,
+      "emergency_kwh": 24572.94368369809,
+      "unused_order_kwh": 370268.52456889325,
+      "unused_pv_kwh": 1122673.9577447856,
+      "label": "PERSIST_PREFIX",
+      "kind": "PERSIST_PREFIX",
+      "gain": 1.0,
+      "pvkey": "full",
+      "days": 334,
+      "initial": 8592.693560925925,
+      "final": 8498.76674099537,
+      "emergency_days": 180,
+      "lp_calls": 1336,
+      "max_residual": 1.8189894035458565e-12,
+      "max_dual_gap": 1.3096723705530167e-10,
+      "load_prediction_mae": [
+        {
+          "hour": 6.0,
+          "old_mae": 163.4726694860279,
+          "new_mae": 136.2713079715569
+        },
+        {
+          "hour": 12.0,
+          "old_mae": 195.0413157123254,
+          "new_mae": 149.1553542693548
+        },
+        {
+          "hour": 18.0,
+          "old_mae": 216.41218126247503,
+          "new_mae": 170.39861208227833
+        }
+      ]
+    },
+    {
+      "normal_cost": 12598312.022193974,
+      "adjustment_cost": 291051.117679149,
+      "ordinary_cost": 12889363.139873125,
+      "emergency_cost": 156784.05953657872,
+      "total_cost": 13046147.199409703,
+      "order_kwh": 20638128.76101293,
+      "emergency_kwh": 27935.88946845413,
+      "unused_order_kwh": 354187.00970739836,
+      "unused_pv_kwh": 1118104.8645975036,
+      "label": "LEARN_PREFIX",
+      "kind": "LEARN_PREFIX",
+      "gain": 1.0,
+      "pvkey": "full",
+      "days": 334,
+      "initial": 8592.693560925925,
+      "final": 8514.150993631602,
+      "emergency_days": 189,
+      "lp_calls": 1336,
+      "max_residual": 1.8189894035458565e-12,
+      "max_dual_gap": 1.3096723705530167e-10,
+      "load_prediction_mae": [
+        {
+          "hour": 6.0,
+          "old_mae": 163.4726694860279,
+          "new_mae": 120.27252836472053
+        },
+        {
+          "hour": 12.0,
+          "old_mae": 195.0413157123254,
+          "new_mae": 140.29987811997344
+        },
+        {
+          "hour": 18.0,
+          "old_mae": 216.41218126247503,
+          "new_mae": 155.65328347651914
+        }
+      ]
+    },
+    {
+      "normal_cost": 12587461.086055426,
+      "adjustment_cost": 320424.5469436066,
+      "ordinary_cost": 12907885.63299903,
+      "emergency_cost": 164001.88206929597,
+      "total_cost": 13071887.51506833,
+      "order_kwh": 20642631.298189938,
+      "emergency_kwh": 28989.757976324385,
+      "unused_order_kwh": 355710.8404408806,
+      "unused_pv_kwh": 1120737.1514781984,
+      "label": "LEARN_RECENT",
+      "kind": "LEARN_RECENT",
+      "gain": 1.0,
+      "pvkey": "full",
+      "days": 334,
+      "initial": 8592.693560925925,
+      "final": 8520.068565212445,
+      "emergency_days": 201,
+      "lp_calls": 1336,
+      "max_residual": 1.8189894035458565e-12,
+      "max_dual_gap": 1.4551915228366852e-10,
+      "load_prediction_mae": [
+        {
+          "hour": 6.0,
+          "old_mae": 163.4726694860279,
+          "new_mae": 115.51920433568345
+        },
+        {
+          "hour": 12.0,
+          "old_mae": 195.0413157123254,
+          "new_mae": 152.2896822262187
+        },
+        {
+          "hour": 18.0,
+          "old_mae": 216.41218126247503,
+          "new_mae": 130.38694724803685
+        }
+      ]
+    },
+    {
+      "normal_cost": 12634702.802599711,
+      "adjustment_cost": 266559.2084872999,
+      "ordinary_cost": 12901262.01108701,
+      "emergency_cost": 177555.65127352235,
+      "total_cost": 13078817.662360534,
+      "order_kwh": 20669854.194995075,
+      "emergency_kwh": 31450.678940756246,
+      "unused_order_kwh": 387666.0819772644,
+      "unused_pv_kwh": 1123514.0973427687,
+      "label": "LEARN_PREFIX_HALF",
+      "kind": "LEARN_PREFIX",
+      "gain": 0.5,
+      "pvkey": "full",
+      "days": 334,
+      "initial": 8592.693560925925,
+      "final": 8513.810105125986,
+      "emergency_days": 180,
+      "lp_calls": 1336,
+      "max_residual": 1.8189894035458565e-12,
+      "max_dual_gap": 1.3096723705530167e-10,
+      "load_prediction_mae": [
+        {
+          "hour": 6.0,
+          "old_mae": 163.4726694860279,
+          "new_mae": 136.35600645642842
+        },
+        {
+          "hour": 12.0,
+          "old_mae": 195.0413157123254,
+          "new_mae": 161.87447821321425
+        },
+        {
+          "hour": 18.0,
+          "old_mae": 216.41218126247503,
+          "new_mae": 182.28269076264496
+        }
+      ]
+    }
+  ],
+  "winner": {
+    "normal_cost": 12598312.022193974,
+    "adjustment_cost": 291051.117679149,
+    "ordinary_cost": 12889363.139873125,
+    "emergency_cost": 156784.05953657872,
+    "total_cost": 13046147.199409703,
+    "order_kwh": 20638128.76101293,
+    "emergency_kwh": 27935.88946845413,
+    "unused_order_kwh": 354187.00970739836,
+    "unused_pv_kwh": 1118104.8645975036,
+    "label": "LEARN_PREFIX",
+    "kind": "LEARN_PREFIX",
+    "gain": 1.0,
+    "pvkey": "full",
+    "days": 334,
+    "initial": 8592.693560925925,
+    "final": 8514.150993631602,
+    "emergency_days": 189,
+    "lp_calls": 1336,
+    "max_residual": 1.8189894035458565e-12,
+    "max_dual_gap": 1.3096723705530167e-10,
+    "load_prediction_mae": [
+      {
+        "hour": 6.0,
+        "old_mae": 163.4726694860279,
+        "new_mae": 120.27252836472053
+      },
+      {
+        "hour": 12.0,
+        "old_mae": 195.0413157123254,
+        "new_mae": 140.29987811997344
+      },
+      {
+        "hour": 18.0,
+        "old_mae": 216.41218126247503,
+        "new_mae": 155.65328347651914
+      }
+    ]
+  },
+  "no_new_control": {
+    "normal_cost": 12675951.306805898,
+    "adjustment_cost": 225482.60608825844,
+    "ordinary_cost": 12901433.912894156,
+    "emergency_cost": 213926.18265428673,
+    "total_cost": 13115360.095548443,
+    "order_kwh": 20713073.80808679,
+    "emergency_kwh": 39617.33846939736,
+    "unused_order_kwh": 416375.2989192168,
+    "unused_pv_kwh": 1151986.0311128767,
+    "label": "LEARN_PREFIX_NO_NEW",
+    "kind": "LEARN_PREFIX",
+    "gain": 1.0,
+    "pvkey": "no_new",
+    "days": 334,
+    "initial": 8592.693560925925,
+    "final": 8514.150993631602,
+    "emergency_days": 187,
+    "lp_calls": 1336,
+    "max_residual": 1.8189894035458565e-12,
+    "max_dual_gap": 1.3096723705530167e-10,
+    "load_prediction_mae": [
+      {
+        "hour": 6.0,
+        "old_mae": 163.4726694860279,
+        "new_mae": 120.27252836472053
+      },
+      {
+        "hour": 12.0,
+        "old_mae": 195.0413157123254,
+        "new_mae": 140.29987811997344
+      },
+      {
+        "hour": 18.0,
+        "old_mae": 216.41218126247503,
+        "new_mae": 155.65328347651914
+      }
+    ]
+  },
+  "saving": 100388.28905810602,
+  "reference_adjusted_saving": 100388.19017087467,
+  "lp_calls": 6680,
+  "elapsed_seconds": 338.91682969999965,
+  "protocol_sha256": "0d4e83953d3512ae774cff1ac6c2597d8b2a48563d5879ae3da1c7e9c5ff7c96",
+  "code_sha256": "22a7015b178746d5ce23bbb30600cc75a4cdde3cb2008e6f502096584089b46d"
+}

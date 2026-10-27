@@ -1,0 +1,248 @@
+{
+  "passed": true,
+  "checks": 12191,
+  "failures": [],
+  "largest_residuals": {
+    "raw": 5e-13,
+    "continuity": 0.0,
+    "storage": 1.34444444444e-12,
+    "supply": 1.283333333335e-13,
+    "pv": 1.66666666667e-13,
+    "grid": 3e-13,
+    "charge": 7e-14,
+    "cost": 1.13616091e-13,
+    "loss": 4.333333333341e-14,
+    "terminal": 0.0,
+    "daily_energy": 4.1100166665e-13,
+    "certificate_x": 0.0,
+    "stationarity": 1.1e-16,
+    "primal_dual_gap": 1.22329633307e-12,
+    "certificate_cost": 1.014e-11,
+    "reported": 1.647e-12,
+    "difference_cost": 4.34e-12,
+    "table1": 0.0,
+    "table2": 1.9e-12
+  },
+  "results": [
+    {
+      "initial_kwh": 1200,
+      "cost_yuan": 35199.29858928963,
+      "purchase_kwh": 59482.69899835391,
+      "charge_kwh": 20740.666131687245,
+      "discharge": 16799.939566666668,
+      "unused_pv_kwh": 0.0,
+      "loss_kwh": 3940.726565020577,
+      "grid_charge": 14492.70316502058,
+      "pv_charge": 6247.962966666666,
+      "primal_dual_gap_yuan": 8.0591299974e-13
+    },
+    {
+      "initial_kwh": 6000,
+      "cost_yuan": 35126.84858928963,
+      "purchase_kwh": 59482.69899835391,
+      "charge_kwh": 20740.666131687245,
+      "discharge": 16799.939566666668,
+      "unused_pv_kwh": 0.0,
+      "loss_kwh": 3940.726565020577,
+      "grid_charge": 14492.70316502058,
+      "pv_charge": 6247.962966666666,
+      "primal_dual_gap_yuan": 7.5267133307e-13
+    },
+    {
+      "initial_kwh": 10800,
+      "cost_yuan": 35409.74858928963,
+      "purchase_kwh": 59482.69899835391,
+      "charge_kwh": 20740.666131687245,
+      "discharge": 16799.939566666668,
+      "unused_pv_kwh": 0.0,
+      "loss_kwh": 3940.726565020577,
+      "grid_charge": 14492.70316502058,
+      "pv_charge": 6247.962966666666,
+      "primal_dual_gap_yuan": 1.22329633307e-12
+    }
+  ],
+  "changed_schedules": [
+    {
+      "initial_kwh": 1200,
+      "changed_slots": [
+        {
+          "time": "00:00",
+          "purchase_difference_kwh": 500.0,
+          "price": 0.4276,
+          "cost_difference_yuan": 213.8
+        },
+        {
+          "time": "01:00",
+          "purchase_difference_kwh": 833.3333333333331,
+          "price": 0.4285,
+          "cost_difference_yuan": 357.08333333333326
+        },
+        {
+          "time": "01:20",
+          "purchase_difference_kwh": 833.3333333333333,
+          "price": 0.4302,
+          "cost_difference_yuan": 358.5
+        },
+        {
+          "time": "01:30",
+          "purchase_difference_kwh": 833.333333333333,
+          "price": 0.4279,
+          "cost_difference_yuan": 356.5833333333332
+        },
+        {
+          "time": "02:00",
+          "purchase_difference_kwh": 666.6666666666669,
+          "price": 0.4311,
+          "cost_difference_yuan": 287.40000000000003
+        },
+        {
+          "time": "02:10",
+          "purchase_difference_kwh": 833.3333333333331,
+          "price": 0.4293,
+          "cost_difference_yuan": 357.74999999999994
+        },
+        {
+          "time": "05:30",
+          "purchase_difference_kwh": 833.3333333333333,
+          "price": 0.4301,
+          "cost_difference_yuan": 358.41666666666663
+        },
+        {
+          "time": "22:00",
+          "purchase_difference_kwh": -833.3333333333331,
+          "price": 0.4209,
+          "cost_difference_yuan": -350.74999999999994
+        },
+        {
+          "time": "22:10",
+          "purchase_difference_kwh": -833.3333333333333,
+          "price": 0.3859,
+          "cost_difference_yuan": -321.5833333333333
+        },
+        {
+          "time": "22:30",
+          "purchase_difference_kwh": -833.3333333333333,
+          "price": 0.4198,
+          "cost_difference_yuan": -349.8333333333333
+        },
+        {
+          "time": "22:40",
+          "purchase_difference_kwh": -833.3333333333331,
+          "price": 0.4186,
+          "cost_difference_yuan": -348.83333333333326
+        },
+        {
+          "time": "23:00",
+          "purchase_difference_kwh": -833.3333333333333,
+          "price": 0.4237,
+          "cost_difference_yuan": -353.0833333333333
+        },
+        {
+          "time": "23:30",
+          "purchase_difference_kwh": -833.3333333333331,
+          "price": 0.422,
+          "cost_difference_yuan": -351.66666666666663
+        },
+        {
+          "time": "23:40",
+          "purchase_difference_kwh": -333.3333333333332,
+          "price": 0.424,
+          "cost_difference_yuan": -141.3333333333333
+        }
+      ]
+    },
+    {
+      "initial_kwh": 10800,
+      "changed_slots": [
+        {
+          "time": "00:00",
+          "purchase_difference_kwh": -333.3333333333333,
+          "price": 0.4276,
+          "cost_difference_yuan": -142.53333333333333
+        },
+        {
+          "time": "00:10",
+          "purchase_difference_kwh": -833.3333333333331,
+          "price": 0.4248,
+          "cost_difference_yuan": -353.99999999999994
+        },
+        {
+          "time": "00:20",
+          "purchase_difference_kwh": -833.3333333333331,
+          "price": 0.4245,
+          "cost_difference_yuan": -353.74999999999994
+        },
+        {
+          "time": "00:30",
+          "purchase_difference_kwh": -833.3333333333333,
+          "price": 0.4269,
+          "cost_difference_yuan": -355.75
+        },
+        {
+          "time": "00:40",
+          "purchase_difference_kwh": -833.3333333333334,
+          "price": 0.4272,
+          "cost_difference_yuan": -356.00000000000006
+        },
+        {
+          "time": "00:50",
+          "purchase_difference_kwh": -833.3333333333331,
+          "price": 0.4271,
+          "cost_difference_yuan": -355.91666666666663
+        },
+        {
+          "time": "05:40",
+          "purchase_difference_kwh": -833.3333333333331,
+          "price": 0.3713,
+          "cost_difference_yuan": -309.4166666666666
+        },
+        {
+          "time": "21:50",
+          "purchase_difference_kwh": 666.6666666666667,
+          "price": 0.7764,
+          "cost_difference_yuan": 517.6
+        },
+        {
+          "time": "22:20",
+          "purchase_difference_kwh": 833.3333333333333,
+          "price": 0.4368,
+          "cost_difference_yuan": 364.0
+        },
+        {
+          "time": "22:50",
+          "purchase_difference_kwh": 833.3333333333333,
+          "price": 0.4241,
+          "cost_difference_yuan": 353.41666666666663
+        },
+        {
+          "time": "23:10",
+          "purchase_difference_kwh": 833.3333333333333,
+          "price": 0.4248,
+          "cost_difference_yuan": 354.0
+        },
+        {
+          "time": "23:20",
+          "purchase_difference_kwh": 833.3333333333331,
+          "price": 0.424,
+          "cost_difference_yuan": 353.33333333333326
+        },
+        {
+          "time": "23:40",
+          "purchase_difference_kwh": 500.0,
+          "price": 0.424,
+          "cost_difference_yuan": 212.0
+        },
+        {
+          "time": "23:50",
+          "purchase_difference_kwh": 833.3333333333331,
+          "price": 0.4271,
+          "cost_difference_yuan": 355.91666666666663
+        }
+      ]
+    }
+  ],
+  "checker_sha256": "3cd0559a121cec35cb80365e1dbf8a3f47d769cd5d5d8ef00de0a9d2d366e7b3",
+  "new_solves": 0,
+  "method": "Independent Decimal balance/source/LP certificate checks, no dispatch imports",
+  "limitation": "AI verification; no human validation or annual robustness evidence"
+}

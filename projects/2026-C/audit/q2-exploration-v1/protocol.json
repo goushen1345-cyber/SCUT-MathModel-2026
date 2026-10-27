@@ -1,0 +1,17 @@
+{
+  "version": "Q2-exploration-v1",
+  "authorization": "Q2-EDA-044 / Q2-CAND-045",
+  "scope": "New Q2 descriptive analysis and fixed historical-reference diagnostics, then candidate explanation; no fitted predictor, optimizer, control simulation or result2",
+  "reference_policy": "User-supplied teammate markdown is methods-only; its numbers, figures, tables and computed conclusions are excluded as evidence; no linked external figure/data files used",
+  "data_version": "prepared-v1 unchanged",
+  "sources": ["data/prepared-v1/actual_power.csv", "data/prepared-v1/day_reference.csv"],
+  "excluded_Q2_inputs": ["annex3 forecasts", "annex4 variable prices", "teammate results", "unfrozen Q1 schedule"],
+  "time": "interval start = source_date + source_minute, duration1/6h; 0:00+1 belongs to next actual date; actual series never circularly rotated within source day",
+  "coverage": "Primary complete submission period2025-02-01 to2025-12-31; seasonal description also2025-01-02 to2025-12-31 complete days. Missing2025-01-01 first interval is not filled;2026-01-01 start is not put back into2025",
+  "fixed_history_references": ["previous day", "previous week", "mean previous3 days", "mean previous7 days", "mean previous14 days", "mean previous28 days", "mean previous4 same weekdays"],
+  "diagnostic_protocol": "Each zero-hour reference uses only fully finished prior intervals; fixed methods evaluated throughoutFeb-Dec with first/second half and month groups. No setting selected, trained or tuned. Full-year observations already viewed, not an untouched holdout",
+  "error_continuity": "Two prespecified reference pairs: load lag7/PV mean7, load sameweekday4/PV mean7. Net error is actual(L-PV)-reference(L-PV), without clipping. Within-day autocorrelation and1/3/6h signed cumulative errors; overlapping windows are not independent samples",
+  "physical_checks": "PV direct supply, surplus and positive net demand at each10min; shared5000kW charge limit; power-only unavoidable PV spill lower bound. These are derived input quantities, not simulated spill or emergency purchases",
+  "budget": "One descriptive/diagnostic batch and independent verification; at most6 code figures,300dpi PNG plus vectorPDF; no optimization/fit or grid tuning",
+  "stop": "Deliver findings, limitations, four-view candidate space and finite proposed trial plan; no auto model choice, freeze, Q2 trial or Q3 work"
+}

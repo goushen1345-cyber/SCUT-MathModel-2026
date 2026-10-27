@@ -1,0 +1,15 @@
+{
+  "version": "Q1-close-plan-v1",
+  "authorization": "Q1-CLOSE-030",
+  "base_run": "20260911-compare-v1",
+  "new_initial_kwh": [1200,10800],
+  "baseline_initial_kwh": 6000,
+  "terminal_rule": "Each scenario ends at its own initial energy; 6000 remains the main result",
+  "scope": "Only change initial and terminal energy. Reuse the baseline LP implementation and all other physical, economic and time conventions.",
+  "verification_energy_tolerance_kwh": 0.00001,
+  "verification_cost_tolerance_yuan": 0.0001,
+  "budget": "Two new LP solves; independent Decimal physical and certificate checks; one result1 workbook using baseline saved results; no new rules or annual experiments",
+  "outputs": "Two schedules and LP certificates, three-point sensitivity and six specified 10-minute / six four-hour summaries, original-template result1, readback checks and paper outline",
+  "claims": "Reoptimized schedules at three fixed initial conditions; not robustness of one unchanged plan, not continuous-range insensitivity or annual performance",
+  "stop": "Deliver verified results and Q1 paper outline, wait before writing prose or freezing / entering another question"
+}

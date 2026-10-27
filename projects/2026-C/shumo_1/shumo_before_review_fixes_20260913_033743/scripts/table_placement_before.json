@@ -1,0 +1,66 @@
+{
+  "fig\\q3_final_days.pdf": {
+    "sha256": "5b155f3ce3772503484d5be96e7883e86c4a00df51e3b0acfe448c8af794076c",
+    "text": null
+  },
+  "fig\\q3_final_information.pdf": {
+    "sha256": "83326710906348d550fc05fd283cd63c2d87413489b4b80ac9446f59664668a8",
+    "text": null
+  },
+  "fig\\q3_final_monthly.pdf": {
+    "sha256": "ba3acc2a5e360018424dd87b8ec37795d79982805f39007f83d6f69b7b8b4295",
+    "text": null
+  },
+  "fig\\q3_final_validation.pdf": {
+    "sha256": "75bcb035b458aa0b6bee52922f2fe8fd99ea319246c545a6a08886106fda2686",
+    "text": null
+  },
+  "fig\\q4_final_validation.pdf": {
+    "sha256": "171646f1020c317c44302341d610e0a23209031a58095ce57a9fe7ca2481e7aa",
+    "text": null
+  },
+  "fig\\q3_final_days.png": {
+    "sha256": "c3e298647a11aa979604d3ad653f6a6c62c2b14416604a9eac5ea1e4c1a6ba4e",
+    "text": null
+  },
+  "fig\\q3_final_information.png": {
+    "sha256": "2570f56c2b6722c051a839eaf6a26d2fc8e8164ab37e321779d4dae3356f4cc4",
+    "text": null
+  },
+  "fig\\q3_final_monthly.png": {
+    "sha256": "e6755c65cc1615b4889a1885af3daa410be2a691f35ff2568db49fe895d37e6b",
+    "text": null
+  },
+  "fig\\q3_final_validation.png": {
+    "sha256": "9f058c9e576b777403b78df16cbd87f0ae45797cebcdceb67ff1db97d95d56e7",
+    "text": null
+  },
+  "fig\\q4_final_validation.png": {
+    "sha256": "df8aa761bf249b0fb504a82fe0a71b70126586840bd24da6631d67ac1f5dcaec",
+    "text": null
+  },
+  "tables\\q3_emergency.tex": {
+    "sha256": "8674ad973eb02b7eab6981b7c7b46b060d0ea9ea42928f437ad1dc90b36c3bd2",
+    "text": "% Generated from saved final Q3 trajectories. Do not hand-edit numbers.\n\\begin{table}[htbp]\n\\centering\n\\caption{指定日期发生紧急购电的时段及电量}\n\\label{tab:q3_emergency}\n\\small\n\\setlength{\\tabcolsep}{5pt}\n\\begin{tabular}{llr}\n\\toprule\n日期 & 时间段 & 紧急购电量/kWh \\\\\n\\midrule\n3月20日 & 10:00--10:10 & 6.12 \\\\\n & 20:40--20:50 & 12.42 \\\\\n6月21日 & 无 & 0.00 \\\\\n9月23日 & 09:40--09:50 & 4.35 \\\\\n & 09:50--10:00 & 13.98 \\\\\n & 20:30--20:40 & 6.38 \\\\\n & 20:40--20:50 & 58.51 \\\\\n & 21:00--21:10 & 65.38 \\\\\n & 21:10--21:20 & 28.13 \\\\\n & 21:20--21:30 & 2.38 \\\\\n & 21:30--21:40 & 34.04 \\\\\n & 21:40--21:50 & 20.86 \\\\\n & 21:50--22:00 & 8.51 \\\\\n12月21日 & 08:00--08:10 & 22.46 \\\\\n & 10:50--11:00 & 51.03 \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}\n"
+  },
+  "tables\\q3_final.tex": {
+    "sha256": "25e40465fd3d57dd0da19b78f13cadfed6005ce0066af5f106212e0d65b450a7",
+    "text": "% Generated from saved final Q3 trajectories. Do not hand-edit numbers.\n\\begin{table}[htbp]\n\\centering\n\\caption{指定日期调整后订单及全天费用（时段订单单位为kWh）}\n\\label{tab:q3_final_order}\n\\small\n\\setlength{\\tabcolsep}{5pt}\n\\begin{tabular}{lrrrr}\n\\toprule\n项目 & 3月20日 & 6月21日 & 9月23日 & 12月21日 \\\\\n\\midrule\n10:00--10:10 & 0.00 & 0.00 & 0.00 & 0.00 \\\\\n12:00--12:10 & 574.44 & 0.00 & 422.94 & 985.17 \\\\\n14:00--14:10 & 0.00 & 0.00 & 0.00 & 0.00 \\\\\n16:00--16:10 & 480.78 & 71.01 & 443.64 & 827.19 \\\\\n18:00--18:10 & 722.54 & 415.06 & 810.48 & 727.30 \\\\\n20:00--20:10 & 0.00 & 0.00 & 0.00 & 0.00 \\\\\n\\midrule\n全天原计划购电量/kWh & 62950.87 & 40273.79 & 67565.05 & 94803.82 \\\\\n全天最终普通订单/kWh & 62434.82 & 40006.24 & 67338.24 & 95848.96 \\\\\n全天紧急购电量/kWh & 18.54 & 0.00 & 242.51 & 73.49 \\\\\n普通结算费用/元 & 39514.95 & 22010.94 & 42247.91 & 62215.35 \\\\\n紧急购电费用/元 & 117.15 & 0.00 & 1277.76 & 334.35 \\\\\n全天总费用/元 & 39632.09 & 22010.94 & 43525.66 & 62549.70 \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}\n"
+  },
+  "tables\\q3_original.tex": {
+    "sha256": "b685536ff52362f5d422252a1a88de49e7af0a6a2ecec541026e9e97d9dd954f",
+    "text": "% Generated from saved final Q3 trajectories. Do not hand-edit numbers.\n\\begin{table}[htbp]\n\\centering\n\\caption{指定日期零点原计划的部分时段购电量（kWh）}\n\\label{tab:q3_original_order}\n\\small\n\\setlength{\\tabcolsep}{5pt}\n\\begin{tabular}{lrrrr}\n\\toprule\n时间段 & 3月20日 & 6月21日 & 9月23日 & 12月21日 \\\\\n\\midrule\n10:00--10:10 & 0.00 & 0.00 & 0.00 & 0.00 \\\\\n12:00--12:10 & 568.44 & 0.00 & 424.94 & 957.12 \\\\\n14:00--14:10 & 0.00 & 0.00 & 0.00 & 0.00 \\\\\n16:00--16:10 & 480.78 & 115.62 & 443.64 & 798.21 \\\\\n18:00--18:10 & 722.54 & 426.86 & 810.48 & 727.22 \\\\\n20:00--20:10 & 0.00 & 0.00 & 0.00 & 0.00 \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}\n"
+  },
+  "tables\\q3_storage.tex": {
+    "sha256": "aa485c2ef00421574f73531093fb735614448918d2aa0295ea2f705ef7b55cc2",
+    "text": "% Generated from saved final Q3 trajectories. Do not hand-edit numbers.\n\\begin{table}[htbp]\n\\centering\n\\caption{指定日期的实际充放电及日首尾储电量（kWh）}\n\\label{tab:q3_storage}\n\\small\n\\setlength{\\tabcolsep}{5pt}\n\\begin{tabular}{llrrrr}\n\\toprule\n时间段 & 项目 & 3月20日 & 6月21日 & 9月23日 & 12月21日 \\\\\n\\midrule\n00:00--04:00 & 充电 & 1510.42 & 267.18 & 2048.71 & 1958.12 \\\\\n & 放电 & 238.58 & 302.32 & 61.89 & 239.38 \\\\\n04:00--08:00 & 充电 & 1034.68 & 536.17 & 529.10 & 1617.46 \\\\\n & 放电 & 5467.56 & 1753.56 & 6328.62 & 793.91 \\\\\n08:00--12:00 & 充电 & 4061.01 & 10134.27 & 4352.49 & 4419.79 \\\\\n & 放电 & 3259.44 & 0.00 & 2369.61 & 8608.93 \\\\\n12:00--16:00 & 充电 & 6377.03 & 299.24 & 6833.50 & 8730.87 \\\\\n & 放电 & 254.72 & 0.00 & 417.27 & 2012.03 \\\\\n16:00--20:00 & 充电 & 147.87 & 83.04 & 94.47 & 0.95 \\\\\n & 放电 & 4675.69 & 5205.83 & 5101.73 & 4983.07 \\\\\n20:00--24:00 & 充电 & 4148.71 & 8559.86 & 8245.77 & 8334.82 \\\\\n & 放电 & 3749.74 & 3041.10 & 3620.94 & 3624.47 \\\\\n\\midrule\n0:00 & 内部储电量 & 8871.16 & 2971.14 & 8609.68 & 8695.56 \\\\\n24:00 & 内部储电量 & 4816.54 & 9415.36 & 8614.36 & 8738.25 \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}\n"
+  },
+  "tables\\q2_emergency.tex": {
+    "sha256": "a4c5d40ee6d35a370245c37aebca028d43ff69ddc4169eb74e2a08d5aeb7b3fc",
+    "text": "% Restored from verified Q2 selected_execution.csv.gz; no model rerun.\n\\begin{table}[htbp]\n\\centering\n\\caption{问题二指定日期发生紧急购电的时段及电量}\n\\label{tab:q2_emergency_purchase}\n\\begin{tabular}{llr}\n\\toprule\n日期 & 时间段 & 紧急购电量/kWh \\\\\n\\midrule\n3月20日 & 20:40--20:50 & 329.52 \\\\\n9月23日 & 20:30--20:40 & 6.38 \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}\n"
+  },
+  "scripts\\derived_values.json": {
+    "sha256": "4088af4da94b911ca59479eac6f4117fdf27cb345383fa894adc339a755d311c",
+    "text": null
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "status": "generated_from_verified_results_no_fit_no_solve",
+  "script": {
+    "path": "analyze_results.py",
+    "sha256": "f310a1ec0a5c6757f376fbf34a4706888ef6cfe54b35d414022e41a4e0271879"
+  },
+  "inputs": [
+    {
+      "path": "outputs\\summary.json",
+      "sha256": "b6c1fb8761b1fa7d2148bc7c12132dcef7a2e386d3d910d018640ff9fac9d97f"
+    },
+    {
+      "path": "outputs\\verification.json",
+      "sha256": "0e5e27289cf07c1f64d9a4af7ed12b82638b8f295f393dfd88f6e6dba8412fe6"
+    },
+    {
+      "path": "data\\prepared-v1\\actual_price.csv",
+      "sha256": "a94fc43685bf5bb00d9d9d6fe2a06d977cc6070d12a248221275c2a926a6b4e9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis\\consecutive_high_price_blocks.csv",
+      "sha256": "fc7c1bbff1f2d7bd1424889ef6a8440ec5a72c64c176fb1c1c4ec4adf6b29e25"
+    },
+    {
+      "path": "analysis\\daily_paired_comparison.csv",
+      "sha256": "626ab97f80adb286247a13a1db56a4a6584bcb095a4e8e112e054df93e8f54c3"
+    },
+    {
+      "path": "analysis\\high_price_interval_risk.csv",
+      "sha256": "a76a7ed3415b208cd34476e3c5a1b8052a78fd82614d99c1f43c043c3b36bd5e"
+    },
+    {
+      "path": "analysis\\monthly_paired_comparison.csv",
+      "sha256": "6585faecb5e0aac92d48759143accfe0777fbfbeb096f53e9bb3a25a0a81b6da"
+    },
+    {
+      "path": "analysis\\perfect_price_information_gap.csv",
+      "sha256": "a9aa83bf32ff7fb06480fd46b47822ba98349859646228f28386c570025ebf80"
+    },
+    {
+      "path": "analysis\\q42_feature_parameter_comparison.csv",
+      "sha256": "0e4f23ef9adbc03a4bbfbfe25aa8ea70587e99fffb3f2aa7716b8f497d83eff5"
+    },
+    {
+      "path": "analysis\\q43_price_update_value.csv",
+      "sha256": "7b74ac5da79aa7621591df3818971d16a9b75f6dde9dd90a2f19233737832c3b"
+    },
+    {
+      "path": "analysis\\q43_structure_comparison.csv",
+      "sha256": "c5ecac5b53d3bf555ecc1dcbae9d455d02ca79b082d7fa6a17c9f0ccbc7f9f21"
+    },
+    {
+      "path": "analysis\\summary.json",
+      "sha256": "1deae5b22f49772bbd7964793fc41f60fbb3d469aa228cbd38cb9e39f04d611c"
+    },
+    {
+      "path": "analysis\\terminal_inventory_valuation.csv",
+      "sha256": "e003482c35f17e07b9333380e6aa1348c8faf0521d5645d2e8afd9358a4067cb"
+    },
+    {
+      "path": "figures-v1\\01_deepening_validation.pdf",
+      "sha256": "bf716168601658f4b4bf93aaf8e401998316e1d8ef37ecee90030ca43426bb27"
+    },
+    {
+      "path": "figures-v1\\01_deepening_validation.png",
+      "sha256": "5c35db60b9645f763a9cf20d74d0e69466b8d64b7224792ce14c06aeccf070a3"
+    },
+    {
+      "path": "figures-v1\\02_terminal_value_and_information_gap.pdf",
+      "sha256": "0e70f839f4d9632cef1a6817308147b9eb8d4d4c29a28d2a12549eb8bdf1288e"
+    },
+    {
+      "path": "figures-v1\\02_terminal_value_and_information_gap.png",
+      "sha256": "c3ea9d7e6049d6dc7b1d26e6dedcc9f61c8ac86a633e2b6a0c4535b7a42ef6c4"
+    }
+  ],
+  "boundary": "Observed 2025 results and explicit perfect-price information references only; no candidate 4, refitting or optimization added."
+}

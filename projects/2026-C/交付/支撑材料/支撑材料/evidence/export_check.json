@@ -1,0 +1,54 @@
+{
+  "Q1": {
+    "total_cost": 35126.84858928963,
+    "order_kwh": 59482.69899835391
+  },
+  "Q2": {
+    "days": 334,
+    "slots": 48096,
+    "storage_groups": 2004,
+    "emergency_events": 261,
+    "total_cost": 13583810.841364942,
+    "normal_cost": 12979560.572398718,
+    "adjustment_cost": 0.0,
+    "emergency_cost": 604250.2689662238,
+    "energy_balance_max_error": 2.2737367544323206e-13,
+    "storage_max_error": 9.094947017729282e-13
+  },
+  "Q3": {
+    "days": 334,
+    "slots": 48096,
+    "storage_groups": 2004,
+    "emergency_events": 319,
+    "total_cost": 13014172.325013366,
+    "normal_cost": 12572280.982668025,
+    "adjustment_cost": 280616.15556198894,
+    "emergency_cost": 161275.18678334932,
+    "energy_balance_max_error": 2.2737367544323206e-13,
+    "storage_max_error": 9.094947017729282e-13
+  },
+  "Q4-2": {
+    "days": 334,
+    "slots": 48096,
+    "storage_groups": 2004,
+    "emergency_events": 272,
+    "total_cost": 14248570.873613387,
+    "normal_cost": 13613522.324716672,
+    "adjustment_cost": 0.0,
+    "emergency_cost": 635048.548896716,
+    "energy_balance_max_error": 2.2737367544323206e-13,
+    "storage_max_error": 9.094947017729282e-13
+  },
+  "Q4-3": {
+    "days": 334,
+    "slots": 48096,
+    "storage_groups": 2004,
+    "emergency_events": 339,
+    "total_cost": 13695929.700337432,
+    "normal_cost": 13212221.004366716,
+    "adjustment_cost": 299775.4745556675,
+    "emergency_cost": 183933.22141504733,
+    "energy_balance_max_error": 2.2737367544323206e-13,
+    "storage_max_error": 9.094947017729282e-13
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "january_cost": {
+    "0.7": 1248348.0683353955,
+    "0.8": 1250274.7782508775,
+    "0.9": 1251741.6217055458
+  },
+  "chosen_decay": 0.7,
+  "chosen_after": "2025-01-31 24:00",
+  "criterion": "ordinary plus emergency cost Jan8-31",
+  "scope": "only three decay settings under q0.7 and same history; recency family motivated by later diagnostics, so no independent-final-test claim"
+}

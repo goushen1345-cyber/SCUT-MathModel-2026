@@ -1,0 +1,90 @@
+{
+  "scope": "7.1 prose revision and necessary typesetting only",
+  "pdf_sha256": "a30abdceffc48d0193941074afc33c792bc5df10df2cff7e32914413327f9175",
+  "source_sha256": "2f24285e4fb7359d405e876886e523bb77f1d22039d6411096ca32cc18723f2d",
+  "checks": {
+    "remaining_body_unchanged": true,
+    "old_tex_unchanged": true,
+    "old_pdf_unchanged": true,
+    "state_unchanged": true,
+    "state_view_unchanged": true,
+    "raw_unchanged": true,
+    "source_figures_unchanged": true,
+    "no_glyph_overflow_or_reference_warnings": true,
+    "black_text_and_no_clipping": true
+  },
+  "pages": [
+    {
+      "page": 1,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "nonblack_characters": 0,
+      "outside_page_characters": 0,
+      "preview_sha256": "d2d9e7272627cae68709581b66705cc2a74659309a51309de85fada15dd27ba9"
+    },
+    {
+      "page": 2,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "nonblack_characters": 0,
+      "outside_page_characters": 0,
+      "preview_sha256": "bcdf6bd218b51ce86e1fc6c60a3c424a5f44de831566ce3e889ff210a3f18059"
+    },
+    {
+      "page": 3,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "nonblack_characters": 0,
+      "outside_page_characters": 0,
+      "preview_sha256": "299f2eb082e118b894b138663c5d81be1a2cfd6d942befa2449611efbda5f93f"
+    },
+    {
+      "page": 4,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "nonblack_characters": 0,
+      "outside_page_characters": 0,
+      "preview_sha256": "19e763935d9b1ea4610cd94e33204d25cbcc53201c7a40b1b5e3ebf9ba970da6"
+    },
+    {
+      "page": 5,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "nonblack_characters": 0,
+      "outside_page_characters": 0,
+      "preview_sha256": "f2c937d65f4665e1892d07a7d14294311a65aa6bc3a893d811234ef7f5a52b09"
+    }
+  ],
+  "visual_inspection": {
+    "reviewer": "primary AI",
+    "pages_viewed": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "findings": [
+      "First two figures now fit alongside preceding text; labels readable at actual size.",
+      "All figures complete and in source reading order.",
+      "Last two paragraphs kept intact on final page; remaining space is natural draft ending."
+    ],
+    "human_approval": false
+  },
+  "figure_pages": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

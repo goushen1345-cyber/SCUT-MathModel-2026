@@ -1,0 +1,9 @@
+{
+ "reason":"Independent check identified floating summation ambiguity at exact weighted-CDF thresholds: at batch9, alpha0.5 beta0.7, exact half cumulative was represented on different sides by sum/cumsum. This is arithmetic, not a change of risk method.",
+ "authorization":"062 allows implementation debugging and necessary rechecks within existing budget",
+ "correction":"Use exact integer age weights (beta rational7/10 or9/10; alpha rational5/10,7/10,9/10) to certify the first CDF crossing; floating cumulative only locates an initial index. Verify by independent high-precision Decimal accumulation.",
+ "preserve":"Original code, margins, summary and verification failure saved here; original nine positive-margin calibration traces retained under their old names.",
+ "affected":"Rebuild nine margin caches; rerun nine positive-margin January settings under suffixed names; recompute January selection. Existing annual strategies unaffected if zero remains selected; if selection changes, execute corresponding previously authorized annual candidate within remaining budget.",
+ "budget":"Existing12000LP/200tree-fits/3600s ceiling; expected864 extra calibration LP, no refitting trees.",
+ "claims":"No final validation conclusion until exact arithmetic and affected comparisons are checked. No assumption changes or new candidates."
+}

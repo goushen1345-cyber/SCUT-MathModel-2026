@@ -1,0 +1,129 @@
+{
+  "period": "2025-02-01 to 2025-12-31",
+  "days": 334,
+  "recommendation": "S2_fused, initial main candidate only",
+  "fused_vs_raw": {
+    "saving": 86425.06703573691,
+    "saving_pct": 0.6096950262610881,
+    "ordinary_saving": 135924.44761062786,
+    "emergency_extra": 49499.38057489041,
+    "cheaper_days": 235,
+    "dearer_days": 99,
+    "equal_days": 0,
+    "cheaper_months": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dearer_months": [
+      10,
+      11,
+      12
+    ],
+    "best_day": {
+      "date": "2025-08-25",
+      "S1_raw_total_cost": 54235.37853545857,
+      "S1_raw_ordinary_cost": 53074.04939055769,
+      "S1_raw_emergency_cost": 1161.329144900883,
+      "S2_fused_total_cost": 50240.126520128,
+      "S2_fused_ordinary_cost": 49079.66682093267,
+      "S2_fused_emergency_cost": 1160.4596991953265,
+      "S3_tree_total_cost": 51218.26742577705,
+      "S3_tree_ordinary_cost": 49965.55016484946,
+      "S3_tree_emergency_cost": 1252.717260927585,
+      "S4_margin_total_cost": 50240.126520128,
+      "S4_margin_ordinary_cost": 49079.66682093267,
+      "S4_margin_emergency_cost": 1160.4596991953265,
+      "I0_zero_only_total_cost": 58466.5372326406,
+      "I0_zero_only_ordinary_cost": 58062.19010947394,
+      "I0_zero_only_emergency_cost": 404.34712316666514,
+      "I1_no_new_forecast_total_cost": 58102.4980020312,
+      "I1_no_new_forecast_ordinary_cost": 56941.16885713032,
+      "I1_no_new_forecast_emergency_cost": 1161.329144900883,
+      "saving_fused_vs_raw": 3995.252015330574,
+      "saving_tree_vs_raw": 3017.111109681522,
+      "saving_total_intraday": 4231.158697182029,
+      "saving_new_forecasts": 3867.119466572629,
+      "month": 8
+    },
+    "worst_day": {
+      "date": "2025-11-06",
+      "S1_raw_total_cost": 49169.25396834384,
+      "S1_raw_ordinary_cost": 46776.84914788009,
+      "S1_raw_emergency_cost": 2392.40482046374,
+      "S2_fused_total_cost": 52227.06269960405,
+      "S2_fused_ordinary_cost": 46111.55590806731,
+      "S2_fused_emergency_cost": 6115.506791536738,
+      "S3_tree_total_cost": 51376.34314919178,
+      "S3_tree_ordinary_cost": 46203.35548409056,
+      "S3_tree_emergency_cost": 5172.987665101215,
+      "S4_margin_total_cost": 52227.06269960405,
+      "S4_margin_ordinary_cost": 46111.55590806731,
+      "S4_margin_emergency_cost": 6115.506791536738,
+      "I0_zero_only_total_cost": 54031.71235609841,
+      "I0_zero_only_ordinary_cost": 44508.2021753867,
+      "I0_zero_only_emergency_cost": 9523.51018071171,
+      "I1_no_new_forecast_total_cost": 51707.90065525833,
+      "I1_no_new_forecast_ordinary_cost": 45287.00572031181,
+      "I1_no_new_forecast_emergency_cost": 6420.894934946521,
+      "saving_fused_vs_raw": -3057.8087312602147,
+      "saving_tree_vs_raw": -2207.0891808479428,
+      "saving_total_intraday": 4862.458387754574,
+      "saving_new_forecasts": 2538.6466869144933,
+      "month": 11
+    }
+  },
+  "fusion_weights": {
+    "mean": 0.663258737097623,
+    "median": 0.7775166248189797,
+    "min": 0.0,
+    "max": 1.0,
+    "mean_daytime_hourly_task_weight": 0.4694906351622526,
+    "median_daytime_hourly_task_weight": 0.4151188913903126,
+    "fallback_counts": {
+      "0": 3752,
+      "2": 1592
+    },
+    "raw_fallback_insufficient_records": 0,
+    "raw_fallback_degenerate_denominator": 1592,
+    "note": "All 5344 group updates; daytime figures repeat each group over its actual 1-24h target tasks. Not one universal coefficient."
+  },
+  "information_value": {
+    "total_intraday": 1972832.7220196016,
+    "feedback_and_adjustment": 1755056.6090577133,
+    "new_forecasts": 217776.1129618883,
+    "new_forecasts_pct": 1.5130794308325852,
+    "scope": "raw-forecast strategy only; differences conditional on this ordered control design, not independent additive causal effects"
+  },
+  "q2_context": {
+    "q2_total": 13583810.841364942,
+    "q3_total": 14088705.664427262,
+    "extra": 504894.8230623193,
+    "extra_pct": 3.7168864390015655,
+    "ordinary_saving": 215912.70948275924,
+    "emergency_extra": 720807.5325450746,
+    "q2_final": 8569.760859259259,
+    "q3_final": 8498.507669675926,
+    "scope": "Q2 family refined after annual diagnosis; Q3 initial January-selected batch. Not an isolated test of information value."
+  },
+  "numeric_correction": {
+    "max_calibration_cost_change": 0.0,
+    "annual_traces_unchanged": true
+  },
+  "new_fits": 0,
+  "new_lp_calls": 0,
+  "verification": {
+    "hourly_forecasts": 35040,
+    "tree_fits": 104,
+    "prepared_error_records": 341063,
+    "margin_groups": 14600,
+    "actual_intervals": 285408,
+    "plans_readback": 6926,
+    "unique_strategies": 18
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "sources": [
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q3\\runs\\20260912-forecast-risk-v1\\outputs\\strategies\\EW4_Q60_full.daily.csv",
+      "sha256": "46dd8d7550cf5fb6682ea7a1d9725d2941d7da7a54e9c32303e439077fbeabcb"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q3\\runs\\20260912-forecast-risk-v1\\outputs\\strategies\\EW4_Q60_full.npz",
+      "sha256": "c2abaa84606d778e6221f97148227b2bfdce6c9259ed7b911f299dd6f407b723"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q3\\runs\\20260911-four-candidates-v1\\outputs\\sources.npz",
+      "sha256": "1739b45bf65bb653daa8e9f98e87108746ee339814ef55188488706f85b387b7"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q4\\runs\\20260913-q3-transfer-v1\\outputs\\supply.npz",
+      "sha256": "a81c4ae718aec2202d3e28edfb09ca3ed1e9ce7f3e1e69cfcad0202650a7c4b9"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q4\\runs\\20260912-selected-deepening-v1\\outputs\\strategies\\Q4-2-P3-leaves31.daily.csv",
+      "sha256": "6232fc2f19040f4d501e65ca78e6f742305cc4ecf12e1016b75e7cb67ae45b3d"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q4\\runs\\20260912-selected-deepening-v1\\outputs\\strategies\\Q4-2-P3-leaves31.npz",
+      "sha256": "783ba4df970dfd85e18109f41af1c22a9741d18dcb377962b58c36e0c0b2dc88"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q4\\runs\\20260913-q3-transfer-v1\\outputs\\strategies\\EW4_P2_Q60.daily.csv",
+      "sha256": "a72927b398c7fa5e6c7dbb98cb9a583379e0ce4bd8260d2c58109068e04c1016"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q4\\runs\\20260913-q3-transfer-v1\\outputs\\strategies\\EW4_P2_Q60.npz",
+      "sha256": "4bb384c714060a10996b1d00f8417ee1545dcfde6a9fe9c1824b7f4e7c05bc71"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\tables\\q3_emergency.tex",
+      "sha256": "9522961807cddfdbf6f99f6e7bdfea13349e7d60eac7d7a0e67df06aaa28e124"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\tables\\q4_specified_dates.tex",
+      "sha256": "ae69bb7c13d1cd806ab339c68b86b04c1c504b78099205642302fdd67a06c1a8"
+    }
+  ],
+  "checks": [
+    {
+      "branch": "Q3",
+      "date": "2025-03-20",
+      "emergency_kwh": 18.536216485371547,
+      "emergency_cost": 117.14538515936576
+    },
+    {
+      "branch": "Q3",
+      "date": "2025-06-21",
+      "emergency_kwh": 0.0,
+      "emergency_cost": 0.0
+    },
+    {
+      "branch": "Q3",
+      "date": "2025-09-23",
+      "emergency_kwh": 242.50774119025377,
+      "emergency_cost": 1277.755257062367
+    },
+    {
+      "branch": "Q3",
+      "date": "2025-12-21",
+      "emergency_kwh": 73.49435980896402,
+      "emergency_cost": 334.3473729296446
+    },
+    {
+      "branch": "四-2",
+      "date": "2025-03-20",
+      "total_cost": 41909.16049901098,
+      "ordinary_cost": 39732.295059394746,
+      "adjustment_cost": 0.0,
+      "emergency_cost": 2176.865439616231
+    },
+    {
+      "branch": "四-2",
+      "date": "2025-06-21",
+      "total_cost": 20358.11030071854,
+      "ordinary_cost": 20358.11030071854,
+      "adjustment_cost": 0.0,
+      "emergency_cost": 0.0
+    },
+    {
+      "branch": "四-2",
+      "date": "2025-09-23",
+      "total_cost": 44700.97375591351,
+      "ordinary_cost": 44634.70111456351,
+      "adjustment_cost": 0.0,
+      "emergency_cost": 66.27264135000013
+    },
+    {
+      "branch": "四-2",
+      "date": "2025-12-21",
+      "total_cost": 71357.71031928826,
+      "ordinary_cost": 71357.71031928826,
+      "adjustment_cost": 0.0,
+      "emergency_cost": 0.0
+    },
+    {
+      "branch": "四-3",
+      "date": "2025-03-20",
+      "total_cost": 40429.9206278453,
+      "ordinary_cost": 39625.050913326275,
+      "adjustment_cost": 702.8164345719284,
+      "emergency_cost": 102.05327994709899
+    },
+    {
+      "branch": "四-3",
+      "date": "2025-06-21",
+      "total_cost": 20343.613860833073,
+      "ordinary_cost": 20194.8963342,
+      "adjustment_cost": 148.71752663307484,
+      "emergency_cost": 0.0
+    },
+    {
+      "branch": "四-3",
+      "date": "2025-09-23",
+      "total_cost": 45166.056444846115,
+      "ordinary_cost": 43396.17407780223,
+      "adjustment_cost": 432.8144821804167,
+      "emergency_cost": 1337.0678848634727
+    },
+    {
+      "branch": "四-3",
+      "date": "2025-12-21",
+      "total_cost": 72209.09778805048,
+      "ordinary_cost": 70814.67149184893,
+      "adjustment_cost": 1068.395797487416,
+      "emergency_cost": 326.030498714121
+    }
+  ],
+  "scope": "saved result aggregation and independent bill checks; no model run"
+}

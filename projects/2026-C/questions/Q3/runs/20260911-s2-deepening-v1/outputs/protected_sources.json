@@ -1,0 +1,8 @@
+{
+  "questions\\Q3\\runs\\20260911-four-candidates-v1\\outputs\\summary.json": "f504a027eda93a594771269eb13a3c99a4658d1c5c15d1107ea4bb1e7fb57ecc",
+  "questions\\Q3\\runs\\20260911-four-candidates-v1\\outputs\\verification.json": "06ea5ef5237ff7170ca486b608485eed50f1063f53b7e246a02c499b73bd54a7",
+  "questions\\Q3\\runs\\20260911-four-candidates-v1\\outputs\\sources.npz": "1739b45bf65bb653daa8e9f98e87108746ee339814ef55188488706f85b387b7",
+  "questions\\Q3\\runs\\20260911-four-candidates-v1\\outputs\\forecasts.npz": "f63519932a9999d95264c02b198bc2ce25c7baa675c11f1b7c61ed3070b925ce",
+  "questions\\Q3\\runs\\20260911-four-candidates-v1\\outputs\\error_records.npz": "34161fd5111a98b8ff6f290f46fdc28151df6c63e404d221d91b9f9b074b00e0",
+  "questions\\Q3\\runs\\20260911-four-candidates-v1\\core.py": "e2638e5becbe6e62c539edf181102623ec82a90a07f5555396f31d921c8fc376"
+}

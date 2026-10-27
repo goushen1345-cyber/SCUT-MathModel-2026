@@ -1,0 +1,184 @@
+{
+  "scope": "manuscript_consistency_checks_not_new_scientific_validation",
+  "page_count": 14,
+  "source_matches": {
+    "paper\\front_matter_v1\\front_matter.tex": true,
+    "paper\\data_chapter_v3\\data_chapter.tex": true,
+    "questions\\Q1\\runs\\20260911-close-v1\\outputs\\summary.json": true,
+    "questions\\Q1\\runs\\20260911-compare-v1\\outputs\\summary.json": true,
+    "questions\\Q1\\runs\\20260911-compare-v1\\outputs\\interpretation.json": true,
+    "paper\\figures\\eda-v2\\01_reference_day.pdf": true,
+    "paper\\figures\\eda-v2\\02_year_and_month.pdf": true,
+    "paper\\figures\\eda-v2\\06_prices_and_weekdays.pdf": true,
+    "paper\\figures\\eda-v2\\07_forecast_accuracy.pdf": true,
+    "questions\\Q1\\runs\\20260911-compare-v1\\figures-v4\\01_daily_dispatch.pdf": true
+  },
+  "numbers_from_saved_results": {
+    "DischargeC": true,
+    "ChargeA": true,
+    "BuyFourteen": true,
+    "LowInitialDelta": true,
+    "BuyEighteen": true,
+    "ReserveCost": true,
+    "ChargeE": true,
+    "MainCost": true,
+    "BuyTwenty": true,
+    "ChargeD": true,
+    "PeakRulePurchase": true,
+    "DischargeA": true,
+    "LowInitialCost": true,
+    "ChargeB": true,
+    "RuleSavingPct": true,
+    "ReserveSavingPct": true,
+    "EveningState": true,
+    "BuyTwelve": true,
+    "HighInitialDelta": true,
+    "RuleSaving": true,
+    "DischargeB": true,
+    "DischargeF": true,
+    "RuleCost": true,
+    "HighInitialCost": true,
+    "HighInitialPct": true,
+    "ChargeF": true,
+    "MainCharge": true,
+    "BuyTen": true,
+    "ReserveSaving": true,
+    "MainDischarge": true,
+    "BuySixteen": true,
+    "LowInitialPct": true,
+    "DischargeD": true,
+    "DischargeE": true,
+    "ExtraPurchase": true,
+    "ChargeC": true,
+    "MainPurchase": true
+  },
+  "state_unchanged": true,
+  "state_sha256": "3216d997f1bf13725d1ae346b754900ea1fe8cfab2993cfe56c45ecce91c68f5",
+  "research_stage": "WAIT_D",
+  "model_frozen": false,
+  "new_research_runs": 0,
+  "page_geometry": [
+    {
+      "page": 1,
+      "characters": 1031,
+      "min_x": 70.86599999999993,
+      "max_x": 532.2895727999999,
+      "min_top": 61.91961420000007,
+      "max_bottom": 811.7713656
+    },
+    {
+      "page": 2,
+      "characters": 1192,
+      "min_x": 70.866,
+      "max_x": 532.2882027000002,
+      "min_top": 63.05148320000001,
+      "max_bottom": 811.7713656
+    },
+    {
+      "page": 3,
+      "characters": 1260,
+      "min_x": 70.86599999999993,
+      "max_x": 524.4204079999998,
+      "min_top": 63.95008310000003,
+      "max_bottom": 811.7713656
+    },
+    {
+      "page": 4,
+      "characters": 1014,
+      "min_x": 70.86599999999997,
+      "max_x": 533.2860999999999,
+      "min_top": 63.95008310000003,
+      "max_bottom": 811.7713656
+    },
+    {
+      "page": 5,
+      "characters": 612,
+      "min_x": 70.86599999999999,
+      "max_x": 532.3754755000001,
+      "min_top": 61.75161420000006,
+      "max_bottom": 811.7713656
+    },
+    {
+      "page": 6,
+      "characters": 778,
+      "min_x": 70.866,
+      "max_x": 524.4166964000002,
+      "min_top": 63.95008310000003,
+      "max_bottom": 811.7713656
+    },
+    {
+      "page": 7,
+      "characters": 850,
+      "min_x": 70.86599999999999,
+      "max_x": 532.2931,
+      "min_top": 63.95008310000003,
+      "max_bottom": 811.7713656
+    },
+    {
+      "page": 8,
+      "characters": 945,
+      "min_x": 70.86599999999999,
+      "max_x": 524.4188438,
+      "min_top": 63.95008310000003,
+      "max_bottom": 811.7713656
+    },
+    {
+      "page": 9,
+      "characters": 852,
+      "min_x": 70.86599999999999,
+      "max_x": 532.2996714999999,
+      "min_top": 61.91961420000007,
+      "max_bottom": 811.7713656
+    },
+    {
+      "page": 10,
+      "characters": 994,
+      "min_x": 70.86599999999993,
+      "max_x": 532.3032525,
+      "min_top": 63.95008310000003,
+      "max_bottom": 811.7713656
+    },
+    {
+      "page": 11,
+      "characters": 1328,
+      "min_x": 70.86599999999993,
+      "max_x": 532.2979168,
+      "min_top": 63.95008310000003,
+      "max_bottom": 811.7713656
+    },
+    {
+      "page": 12,
+      "characters": 1012,
+      "min_x": 70.86599999999987,
+      "max_x": 532.2930999999999,
+      "min_top": 66.92108310000003,
+      "max_bottom": 811.7713656
+    },
+    {
+      "page": 13,
+      "characters": 842,
+      "min_x": 70.86599999999981,
+      "max_x": 524.4193627,
+      "min_top": 83.47988166860011,
+      "max_bottom": 811.7713656
+    },
+    {
+      "page": 14,
+      "characters": 266,
+      "min_x": 70.866,
+      "max_x": 524.4187727000001,
+      "min_top": 63.95008310000003,
+      "max_bottom": 811.7713656
+    }
+  ],
+  "nonblack_text": [],
+  "latex_layout_errors": [],
+  "report_link_count": 13,
+  "report_character_count": 11983,
+  "pdf_sha256": "aceb1017c658032008c40a81140473c66d3d4f2f237b00f32233883e10b31d79",
+  "report_sha256": "65482852242ef69983a3294452f0b5324aa074a84d0d1a55db2d9cb6419b3a1c",
+  "visual_review": "AI inspected rendered pages 1-14; corrected energy labels/routes and reduced avoidable result-page whitespace; rechecked affected pages 9-14. Not human review.",
+  "known_build_warnings": "Local LaTeX requested/newer release messages and CJK font redefinition warnings; successful build, no missing characters or unresolved references.",
+  "limits": "Current manuscript ends at Q1; no abstract, later-question models/results, whole-paper conclusion or submission-ready claim. Last page partial because authorized content ends here.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+}

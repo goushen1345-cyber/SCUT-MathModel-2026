@@ -1,0 +1,215 @@
+{
+  "dpi": 300,
+  "figures": [
+    {
+      "figure_id": "EDA-F01",
+      "png": "图1_代表日供需与电价的时间错配.png",
+      "png_sha256": "7a28881e99ce8c6313a845e58afc63d8dcc0aac16a767eee9b6bd0e2bf305ab5",
+      "pixels": [
+        2130,
+        2430
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "source_pdf": "paper\\q1_manuscript_v1\\figures\\01_reference_day.pdf",
+      "source_pdf_sha256": "d619ba29bcccae5870b29194d2029bfc5aaff2bce223945fe478294d24d1a9ca",
+      "original_source": "paper\\figures\\eda-v2\\01_reference_day.pdf",
+      "original_source_sha256": "d619ba29bcccae5870b29194d2029bfc5aaff2bce223945fe478294d24d1a9ca",
+      "crop_pdf_points": null,
+      "command": [
+        "C:\\Users\\Rog\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+        "-f",
+        "1",
+        "-l",
+        "1",
+        "-r",
+        "300",
+        "-singlefile",
+        "-png",
+        "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q1_manuscript_v1\\figures\\01_reference_day.pdf",
+        "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\q1-png-reproduction-v1\\图1_代表日供需与电价的时间错配"
+      ]
+    },
+    {
+      "figure_id": "EDA-F02",
+      "png": "图2_负载光伏与电价的年内变化.png",
+      "png_sha256": "56f0fc5b34d92d7c56af829096cdbfafbd48b2b0981acf3cdda9ca24a546c170",
+      "pixels": [
+        2130,
+        2430
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "source_pdf": "paper\\q1_manuscript_v1\\figures\\02_year_and_month.pdf",
+      "source_pdf_sha256": "bd31ff257ca3f1de59908713c503c6bfeaaac4d95c8293aa0b8005fb7b35f45c",
+      "original_source": "paper\\figures\\eda-v2\\02_year_and_month.pdf",
+      "original_source_sha256": "bd31ff257ca3f1de59908713c503c6bfeaaac4d95c8293aa0b8005fb7b35f45c",
+      "crop_pdf_points": null,
+      "command": [
+        "C:\\Users\\Rog\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+        "-f",
+        "1",
+        "-l",
+        "1",
+        "-r",
+        "300",
+        "-singlefile",
+        "-png",
+        "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q1_manuscript_v1\\figures\\02_year_and_month.pdf",
+        "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\q1-png-reproduction-v1\\图2_负载光伏与电价的年内变化"
+      ]
+    },
+    {
+      "figure_id": "EDA-F06",
+      "png": "图3_星期用电差异与电价波动.png",
+      "png_sha256": "5823a9b95f564015d633ed9bac83efe0b47a39d45be68c209e7df8f8bf676d01",
+      "pixels": [
+        2130,
+        2340
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "source_pdf": "paper\\q1_manuscript_v1\\figures\\06_prices_and_weekdays.pdf",
+      "source_pdf_sha256": "ca6f9423259dd5033b79ab872e8f8efbaea3844ec3fb43f297b3b91136c43722",
+      "original_source": "paper\\figures\\eda-v2\\06_prices_and_weekdays.pdf",
+      "original_source_sha256": "ca6f9423259dd5033b79ab872e8f8efbaea3844ec3fb43f297b3b91136c43722",
+      "crop_pdf_points": null,
+      "command": [
+        "C:\\Users\\Rog\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+        "-f",
+        "1",
+        "-l",
+        "1",
+        "-r",
+        "300",
+        "-singlefile",
+        "-png",
+        "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q1_manuscript_v1\\figures\\06_prices_and_weekdays.pdf",
+        "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\q1-png-reproduction-v1\\图3_星期用电差异与电价波动"
+      ]
+    },
+    {
+      "figure_id": "EDA-F07",
+      "png": "图4_光伏预报误差与更新效果.png",
+      "png_sha256": "6d31c400ad60a6d58079ef630ed38b7470c3f6278153a15d986ac4cd165f3a78",
+      "pixels": [
+        2130,
+        2010
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "source_pdf": "paper\\q1_manuscript_v1\\figures\\07_forecast_accuracy.pdf",
+      "source_pdf_sha256": "dfc8adce768c6e0aa986dbc4fd3d6de850c0d401c9a6584a0b62869f884f2172",
+      "original_source": "paper\\figures\\eda-v2\\07_forecast_accuracy.pdf",
+      "original_source_sha256": "dfc8adce768c6e0aa986dbc4fd3d6de850c0d401c9a6584a0b62869f884f2172",
+      "crop_pdf_points": null,
+      "command": [
+        "C:\\Users\\Rog\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+        "-f",
+        "1",
+        "-l",
+        "1",
+        "-r",
+        "300",
+        "-singlefile",
+        "-png",
+        "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q1_manuscript_v1\\figures\\07_forecast_accuracy.pdf",
+        "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\q1-png-reproduction-v1\\图4_光伏预报误差与更新效果"
+      ]
+    },
+    {
+      "figure_id": "Q1-F03",
+      "png": "图5_问题一电量分配关系.png",
+      "png_sha256": "a9df69c10d2784ab89d831254c332581d6fb0bea909ce06d8e0b2ac7afcb109f",
+      "pixels": [
+        1589,
+        613
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "source_pdf": "paper\\q1_manuscript_v1\\问题一论文草稿.pdf",
+      "source_pdf_sha256": "aceb1017c658032008c40a81140473c66d3d4f2f237b00f32233883e10b31d79",
+      "original_source": "paper\\q1_manuscript_v1\\figures\\energy_paths.tex",
+      "original_source_sha256": "cc2a2cc3b76cccf70f3304fa6fb45c1ec99d11be4f565b1df2aa161fcd4699b2",
+      "crop_pdf_points": [
+        106,
+        493,
+        487,
+        640
+      ],
+      "command": [
+        "C:\\Users\\Rog\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+        "-f",
+        "9",
+        "-l",
+        "9",
+        "-r",
+        "300",
+        "-x",
+        "441",
+        "-y",
+        "2054",
+        "-W",
+        "1589",
+        "-H",
+        "613",
+        "-singlefile",
+        "-png",
+        "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q1_manuscript_v1\\问题一论文草稿.pdf",
+        "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\q1-png-reproduction-v1\\图5_问题一电量分配关系"
+      ]
+    },
+    {
+      "figure_id": "Q1-F01",
+      "png": "图6_三种策略的购电与储能安排.png",
+      "png_sha256": "c4f1d1ce9a106784b0f1a17f9f2dac0753412a3869ab55a3c9e52e180401b5c5",
+      "pixels": [
+        2460,
+        2550
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "source_pdf": "paper\\q1_manuscript_v1\\figures\\q1_daily_dispatch.pdf",
+      "source_pdf_sha256": "232be5ca15389e50f252eb6c6d1d744057f11ed6d4c5e56afb6c0a8088d9ebd0",
+      "original_source": "questions\\Q1\\runs\\20260911-compare-v1\\figures-v4\\01_daily_dispatch.pdf",
+      "original_source_sha256": "232be5ca15389e50f252eb6c6d1d744057f11ed6d4c5e56afb6c0a8088d9ebd0",
+      "crop_pdf_points": null,
+      "command": [
+        "C:\\Users\\Rog\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+        "-f",
+        "1",
+        "-l",
+        "1",
+        "-r",
+        "300",
+        "-singlefile",
+        "-png",
+        "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q1_manuscript_v1\\figures\\q1_daily_dispatch.pdf",
+        "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\tmp\\q1-png-reproduction-v1\\图6_三种策略的购电与储能安排"
+      ]
+    }
+  ],
+  "protected_sha256": {
+    "paper\\q1_manuscript_v1\\问题一论文草稿.pdf": "aceb1017c658032008c40a81140473c66d3d4f2f237b00f32233883e10b31d79",
+    "paper\\q1_manuscript_v1\\问题一论文草稿.tex": "b0ea76eaf691ad4c4655e5e9b4622e3b353b5b59323fcfa48a5e68fde9ff60d1",
+    "paper\\q1_manuscript_v1\\figures\\energy_paths.tex": "cc2a2cc3b76cccf70f3304fa6fb45c1ec99d11be4f565b1df2aa161fcd4699b2",
+    "questions\\Q1\\runs\\20260911-close-v1\\deliverables\\result1.xlsx": "94580594a07fcbe3544e311cfac7e482bdb12b0f84b8727791d41e6764809924"
+  },
+  "script_sha256": "b0565b6664be768f5a8e99feadf488f2be064095c27e18d905eaabd2989def65",
+  "renderer": "C:\\Users\\Rog\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+  "rendering": "Existing vector PDFs rasterized with Poppler; figure5 uses its reviewed region in page9, not a low-resolution screenshot",
+  "source_models_or_data_changed": false,
+  "visual_qa": "pending actual PNG inspection"
+}

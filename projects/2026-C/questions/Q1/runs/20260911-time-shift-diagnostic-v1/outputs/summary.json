@@ -1,0 +1,88 @@
+{
+  "created_utc": "2026-09-11T07:49:20.611933+00:00",
+  "authorization": "Q1-TIME-DIAG-040",
+  "protocol": "Q1-time-shift-diagnostic-v1",
+  "lp_evaluations": 1,
+  "original_fee": "35126.84858928962958473370457",
+  "alternative_fee": "35126.94858928962959139037123",
+  "difference_yuan": "0.10000000000000665666666",
+  "relative_difference_percent": "0.0002846825263752729863418203316",
+  "alternative_metrics": {
+    "cost_yuan": 35126.94858928963,
+    "purchase_kwh": 59482.69899835391,
+    "charge_kwh": 20740.666131687245,
+    "discharge": 16799.939566666668,
+    "pv_charge": 6247.962966666666,
+    "grid_charge": 14492.70316502058,
+    "unused_pv_kwh": 0.0,
+    "loss_kwh": 3940.726565020577,
+    "start_kwh": 6000.0,
+    "end_kwh": 6000.0,
+    "min_kwh": 1200.0,
+    "max_kwh": 10800.0,
+    "max_charge_kw": 5000.0,
+    "max_discharge_kw": 4293.9182,
+    "simultaneous_slots": 0,
+    "terminal_projection_slots": 0
+  },
+  "original_totals": {
+    "purchase_kwh": 59482.69899835391,
+    "charge_kwh": 20740.666131687245,
+    "discharge": 16799.939566666668,
+    "loss_kwh": 3940.726565020577,
+    "unused_pv_kwh": 0.0
+  },
+  "source_aligned_changed_purchase_rows": [
+    {
+      "source_row": "10",
+      "source_time_label": "01:30:00",
+      "original_start": "01:30",
+      "alternative_start": "01:20",
+      "original_purchase_kwh": 577.82805,
+      "alternative_purchase_kwh": 911.1613833333333,
+      "purchase_delta_kwh": 333.33333333333337,
+      "original_state_start": 10050.0,
+      "alternative_state_start": 9750.0,
+      "original_state_end": 10050.0,
+      "alternative_state_end": 10050.0,
+      "cost_delta_yuan": 142.63333333333333
+    },
+    {
+      "source_row": "145",
+      "source_time_label": "0:00+1",
+      "original_start": "00:00",
+      "alternative_start": "23:50",
+      "original_purchase_kwh": 907.4543166666665,
+      "alternative_purchase_kwh": 574.1209833333332,
+      "purchase_delta_kwh": -333.33333333333326,
+      "original_state_start": 6000.0,
+      "alternative_state_start": 6000.0,
+      "original_state_end": 6300.0,
+      "alternative_state_end": 6000.0,
+      "cost_delta_yuan": -142.53333333333327
+    }
+  ],
+  "solver_status": 0,
+  "solver_seconds": 0.0059637000085785985,
+  "environment": {
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+    "executable": "E:\\Anaconda\\python.exe",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "protected_sha256": {
+    "data\\raw\\C题\\附件\\附件1.xlsx": "66b87134f5ecccd68184d3539bb1293ef039f9e0fdd955a589b9bfa7f227c377",
+    "data\\prepared-v1\\day_reference.csv": "e8fef67536b1c65f28ce4aca2c638cff072e7cc85292122993c696df130515b8",
+    "questions\\Q1\\runs\\20260911-compare-v1\\compare.py": "e6155fa606f3ed4f631fa26db1bfa9ee6d9570c29ce31b5d9e743c978b5ccf58",
+    "questions\\Q1\\runs\\20260911-compare-v1\\protocol.json": "451977c3e2cd8ad1c810ce6d69f5127cde4e20aaf5e82954c6ee38901e7bd7af",
+    "questions\\Q1\\runs\\20260911-compare-v1\\outputs\\schedules\\C04.csv": "d48f8ed12d777ebe2a143be42657a9cb5271433ae5d8408a6dcad533eac8fc7c",
+    "questions\\Q1\\runs\\20260911-compare-v1\\outputs\\lp_certificate.json": "89348ce563e2081863e904b5a1a5c3f10dfecc92c125347c0b417d23d99fae8b",
+    "questions\\Q1\\runs\\20260911-close-v1\\deliverables\\result1.xlsx": "94580594a07fcbe3544e311cfac7e482bdb12b0f84b8727791d41e6764809924",
+    "paper\\q1_manuscript_v1\\问题一论文草稿.pdf": "aceb1017c658032008c40a81140473c66d3d4f2f237b00f32233883e10b31d79"
+  },
+  "script_sha256": "5e0f12588807fc2d72d5e18b1adbfe43bf75c4c9942e39cf155e271e0268e62f",
+  "protocol_sha256": "0afed7c70fddd0aeea2b502b48ceefe2feaf27ac06bba74ef8172630fa296566",
+  "adopted_mapping_changed": false,
+  "limitations": "One alternative interpretation only; not proof of original or external interpretation; original artifacts unchanged"
+}

@@ -1,0 +1,18 @@
+{
+  "changed_sources": [
+    "sections/sec_0_abstract.tex",
+    "sections/sec_4_data_preprocessing.tex",
+    "sections/sec_5_q1.tex",
+    "sections/sec_6_q2.tex",
+    "sections/sec_7_q3.tex",
+    "sections/sec_8_q4.tex",
+    "sections/sec_9_create.tex"
+  ],
+  "pages": 42,
+  "formulas_and_tables_unchanged": true,
+  "figure_files_and_main_layout_unchanged": true,
+  "visual_review": "All edited passages and final pagination checked; abstract one page; last-page orphan removed",
+  "compilation": "Stable references; no overfull boxes or missing characters",
+  "pdf_sha256": "993f73e2f89f6f3f8adcadc319d1d0d7933266b1d64007b21b01b9bc874e69d8",
+  "review_status": "AI editing and layout verification, not human final approval"
+}

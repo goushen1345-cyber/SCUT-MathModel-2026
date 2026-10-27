@@ -1,0 +1,21 @@
+{
+  "normal_cost": 12575798.926262587,
+  "adjustment_cost": 283117.46949178935,
+  "ordinary_cost": 12858916.395754376,
+  "emergency_cost": 178498.70496318123,
+  "total_cost": 13037415.100717558,
+  "emergency_kwh": 31721.27632353705,
+  "unused_order_kwh": 330694.0401532919,
+  "unused_pv_kwh": 1105192.6536204524,
+  "label": "W2_Q60_full",
+  "family": "W2",
+  "q": 0.6,
+  "pvkey": "full",
+  "zero": false,
+  "initial": 8592.693560925925,
+  "final": 8486.678892415028,
+  "emergency_days": 195,
+  "lp_calls": 1336,
+  "max_residual": 1.8189894035458565e-12,
+  "max_dual_gap": 1.4551915228366852e-10
+}

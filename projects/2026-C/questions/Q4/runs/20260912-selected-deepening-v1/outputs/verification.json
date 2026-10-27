@@ -1,0 +1,43 @@
+{
+  "status": "verified_by_independent_readback_not_human_review",
+  "research_recomputed": {
+    "price_fits": 0,
+    "lp_calls": 0
+  },
+  "checked": {
+    "strategies": 18,
+    "days": 6012,
+    "intervals": 865728,
+    "saved_solver_records": 14362,
+    "saved_price_models": 490,
+    "saved_forecast_calls": 7348
+  },
+  "max_residuals": {
+    "storage": 9.094947017729282e-13,
+    "balance": 2.2737367544323206e-13,
+    "unused_order": 0.0,
+    "unused_pv": 0.0,
+    "prefix": 0.0,
+    "daily_cost": 2.9103830456733704e-11,
+    "aggregate_cost": 1.862645149230957e-09
+  },
+  "source_sha256": {
+    "questions/Q4/runs/20260912-three-candidates-v1/run_compare.py": "60078da1b1817a8bd21c36ebb0dc6e7f888c55bae45f44c32324ab2b42b97a05",
+    "questions/Q4/runs/20260912-three-candidates-v1/outputs/price_forecasts.npz": "2bfdc40d3a6525d8e8cbb4586eb6525eaf03481f308f49d91ae72f7b86b20c0e",
+    "questions/Q4/runs/20260912-three-candidates-v1/outputs/supply_inputs.npz": "7c47554fb2ef07bed9f3ef97c4422dd4420e18ad812b199479ba5745ae5dd93f",
+    "questions/Q4/runs/20260912-three-candidates-v1/outputs/common_start/summary.json": "cdeb2454c1bb454ce03bc810a84610fc023ddc1e654ee84b8e6eafd63a645864",
+    "questions/Q4/runs/20260912-three-candidates-v1/outputs/common_start/Q4-2-P3.npz": "65839abdb50216bb616695af27b998d426d730c1da5ce506611b4d1628eef2ad",
+    "questions/Q4/runs/20260912-three-candidates-v1/outputs/common_start/Q4-2-P3.daily.csv": "4d453100814c5066ee37f92ac340fd8c84281e44c1b177546836769056e9ee3c",
+    "questions/Q4/runs/20260912-three-candidates-v1/outputs/common_start/Q4-2-P2.npz": "c8ac080f9d5e058cb95296b2ce86d9f846b3974473485aea3791d5bd92cb223e",
+    "questions/Q4/runs/20260912-three-candidates-v1/outputs/common_start/Q4-2-P2.daily.csv": "0c7aa990bffa7c187f267c72ff254bd6105e459eca0a2962cdaf993e50208c3b",
+    "questions/Q4/runs/20260912-three-candidates-v1/outputs/common_start/Q4-3-P2.npz": "276b92522854192a0b96f9fef58ce6c59ae5960269687fd4c8c8098eb6177e9f",
+    "questions/Q4/runs/20260912-three-candidates-v1/outputs/common_start/Q4-3-P2.daily.csv": "18822eac3804e0369669daa9f670bfb9114b5f63cc9020ab940ba4416e0b0cef",
+    "questions/Q4/runs/20260912-three-candidates-v1/outputs/common_start/Q4-3-P3.npz": "5da48bc4efaf6b7bc4754aa115be0d166e4033c86d0e0396eea22252705d151b",
+    "questions/Q4/runs/20260912-three-candidates-v1/outputs/common_start/Q4-3-P3.daily.csv": "6bfca7bf2b7235a1d7e27f9328f0767ab5358854a19c9592f99c4f0311e3f978",
+    "data/prepared-v1/actual_price.csv": "a94fc43685bf5bb00d9d9d6fe2a06d977cc6070d12a248221275c2a926a6b4e9"
+  },
+  "protocol_sha256": "5a749419ce1e3e72c19582b470d211e5b35086e15209c6989583ddc594edc861",
+  "run_code_sha256": "f1ecfcae6405e9b8573cedcca33fdb7a6308c89ac1cc5aa0712621ddc369265f",
+  "verification_code_sha256": "11b20e2fcc8e3cba467acebfeb8ece05e8299e2e041762ffe75eea928a733102",
+  "boundary": "Checks saved arithmetic, physical feasibility, billing, order locking, causal training cutoffs, source hashes and budgets. Perfect-price strategies are explicitly non-executable references. No cross-year or human validation is claimed."
+}

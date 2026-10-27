@@ -1,0 +1,185 @@
+{
+  "scope": "local writing revision only",
+  "checks": {
+    "preserved_files": true,
+    "raw_preserved": true,
+    "prepared_preserved": true,
+    "figure_sources_preserved": true,
+    "rounding_consistent": true,
+    "sample_counts_consistent": true,
+    "requested_title": true,
+    "no_tables_or_workflow_terms": true,
+    "no_layout_or_glyph_warnings": true,
+    "all_text_black_and_within_page": true,
+    "fonts_embedded": true
+  },
+  "preserved_files": {
+    "state/state.json": true,
+    "state/state.md": true,
+    "paper/data_chapter_v2/data_chapter.tex": true,
+    "paper/data_chapter_v2/data_chapter.pdf": true,
+    "audit/eda-v1/summary.json": true,
+    "audit/eda-v1/supplementary.json": true,
+    "paper/front_matter_v1/front_matter.tex": true,
+    "paper/front_matter_v1/front_matter.pdf": true
+  },
+  "raw_preserved": {
+    "data/raw/C题/C题.pdf": true,
+    "data/raw/C题/附件/附件1.xlsx": true,
+    "data/raw/C题/附件/附件2.xlsx": true,
+    "data/raw/C题/附件/附件3.xlsx": true,
+    "data/raw/C题/附件/附件4.xlsx": true,
+    "data/raw/C题/附件/附件5/result1.xlsx": true,
+    "data/raw/C题/附件/附件5/result2.xlsx": true,
+    "data/raw/C题/附件/附件5/result3.xlsx": true,
+    "data/raw/C题/附件/附件5/result4-2.xlsx": true,
+    "data/raw/C题/附件/附件5/result4-3.xlsx": true
+  },
+  "prepared_preserved": {
+    "actual_power.csv": true,
+    "actual_price.csv": true,
+    "day_reference.csv": true,
+    "manifest.json": true,
+    "pv_forecasts.csv": true,
+    "README.md": true
+  },
+  "figure_sources_preserved": {},
+  "editorial_rounding": [
+    {
+      "claim": "day_surplus",
+      "source": 2117.5253000000002,
+      "display": 2100,
+      "precision": 100,
+      "consistent": true
+    },
+    {
+      "claim": "day_net_load_peak",
+      "source": 4956.4995,
+      "display": 5000,
+      "precision": 100,
+      "consistent": true
+    },
+    {
+      "claim": "december_net_load",
+      "source": 3177.46900031362,
+      "display": 3180,
+      "precision": 10,
+      "consistent": true
+    },
+    {
+      "claim": "may_net_load",
+      "source": 1595.1753561379928,
+      "display": 1600,
+      "precision": 10,
+      "consistent": true
+    },
+    {
+      "claim": "weekday_difference_percent",
+      "source": 36.81755113143659,
+      "display": 36.8,
+      "precision": 0.1,
+      "consistent": true
+    },
+    {
+      "claim": "initial_mae",
+      "source": 378.7941262149868,
+      "display": 379,
+      "precision": 1,
+      "consistent": true
+    },
+    {
+      "claim": "updated_mae",
+      "source": 116.3034142446732,
+      "display": 116,
+      "precision": 1,
+      "consistent": true
+    },
+    {
+      "claim": "mae_reduction_percent",
+      "source": 69.29640504017094,
+      "display": 69,
+      "precision": 1,
+      "consistent": true
+    },
+    {
+      "claim": "worse_percent",
+      "source": 17.42877663394781,
+      "display": 17.4,
+      "precision": 0.1,
+      "consistent": true
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "nonblack_characters": 0,
+      "outside_page_characters": 0,
+      "preview_sha256": "ab9d16e132cfe7dd71c6b38cd5f0363e0e96962214a1e92b61f639d5fdbe9f21"
+    },
+    {
+      "page": 2,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "nonblack_characters": 0,
+      "outside_page_characters": 0,
+      "preview_sha256": "aee3c6e9a52b52f6bb5718ea33a42e41ef463d6b03d1f700b2723bba26404bfb"
+    },
+    {
+      "page": 3,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "nonblack_characters": 0,
+      "outside_page_characters": 0,
+      "preview_sha256": "6240551e616e71af1af726f034633e9afb7dc1789b37f6c7a6e50925c2c9f48a"
+    },
+    {
+      "page": 4,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "nonblack_characters": 0,
+      "outside_page_characters": 0,
+      "preview_sha256": "e9cfbb6ffc1b1da938ed1b1b7dae4581389275fc782f450bd8ae2f8d3da1ff97"
+    }
+  ],
+  "fonts_embedded": {
+    "/ZMQFHJ+TimesNewRomanPS-BoldMT": true,
+    "/WXIXIK+SimHei": true,
+    "/JRDQJC+SimSun": true,
+    "/VOMMUU+TimesNewRomanPSMT": true,
+    "/FQDPEQ+SimSun": true,
+    "/CNWBDT+SimSun": true,
+    "/EBEJYE+SimSun": true,
+    "/BTFTLB+SimSun": true,
+    "/NWAFOJ+SimSun": true,
+    "/SGELNJ+SimSun": true,
+    "/GGKKPM+SimSun": true,
+    "/CJXZJO+SimSun": true
+  },
+  "pdf_sha256": "a8a7fff17066f5925da3b4358aa6a63318660ccf96549fafa4836d2544da8c43",
+  "source_sha256": "6ea6123a4b6aa5e290778ade9025a58f96809482d8e8a445a5a0e5993a0bddaa",
+  "visual_inspection": {
+    "reviewer": "primary AI",
+    "pages_viewed": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "findings": [
+      "All actual pages viewed after final reflow.",
+      "Figures intact, readable labels, units and captions; 7.4 diagnostic paragraph now intact.",
+      "No stranded final paragraph, empty page, clipping or overlap."
+    ],
+    "human_approval": false
+  }
+}

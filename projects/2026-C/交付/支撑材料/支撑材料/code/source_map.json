@@ -1,0 +1,167 @@
+[
+  {
+    "file": "questions/Q1/runs/20260911-compare-v1/compare.py",
+    "symbol": "arrays",
+    "sha256": "80610e1779234997382ef64ef1dca478877caa5ead72743dee7556b2969dd207"
+  },
+  {
+    "file": "questions/Q1/runs/20260911-compare-v1/compare.py",
+    "symbol": "terminal_bands",
+    "sha256": "bbeb41a82e3ba54afe776288a50626adf1d29c3858ecd69feca5ff3156858a3d"
+  },
+  {
+    "file": "questions/Q1/runs/20260911-compare-v1/compare.py",
+    "symbol": "rule",
+    "sha256": "44f71e8f986aae5c5d4b41858a0fd8cfa406b2c9af28a666ed95650ed998314f"
+  },
+  {
+    "file": "questions/Q1/runs/20260911-compare-v1/compare.py",
+    "symbol": "solve_lp",
+    "sha256": "9cd17d6e6891a9fb8db3b64217d0e494990fb1fa3d738e0a52e4d4c8f96ef5a5"
+  },
+  {
+    "file": "questions/Q1/runs/20260911-compare-v1/compare.py",
+    "symbol": "schedule",
+    "sha256": "b8b033ced4e89a7f89dc2fa4b2411fef52e45a4895d46abc6853fa100833a9cd"
+  },
+  {
+    "file": "questions/Q1/runs/20260911-compare-v1/compare.py",
+    "symbol": "metrics",
+    "sha256": "727bf710accc4a518ccca705faab2bc0fad740444db6b27281d92456a03254d4"
+  },
+  {
+    "file": "questions/Q2/runs/20260911-annual-validation-v1/core.py",
+    "symbol": "Data",
+    "sha256": "9a3aec00f58b767ce6ab71eaed5e79e07007a6bd5808d806dda3f269e05ccfd1"
+  },
+  {
+    "file": "questions/Q2/runs/20260911-annual-validation-v1/core.py",
+    "symbol": "Forecasts",
+    "sha256": "af6824c324e82e2e14b1bda5e46efd2cb7c58f71e431255091672402f752c0ba"
+  },
+  {
+    "file": "questions/Q2/runs/20260911-annual-validation-v1/core.py",
+    "symbol": "Planner",
+    "sha256": "5938362adcb63925ff0315a386aa98fb0d9a9c032c8a606a5ca13d5f39eac2c6"
+  },
+  {
+    "file": "questions/Q2/runs/20260911-annual-validation-v1/core.py",
+    "symbol": "execute",
+    "sha256": "a65c348f50af47562b7d4c01ef29a2592544465e75ff76d8dcc3923c6258a612"
+  },
+  {
+    "file": "questions/Q2/runs/20260911-annual-validation-v1/core.py",
+    "symbol": "metrics",
+    "sha256": "1da83282b86ad533cd77fe49a97631704503db8da8aae8d2f4e988f786bdb087"
+  },
+  {
+    "file": "questions/Q2/runs/20260911-annual-validation-v1/annual.py",
+    "symbol": "Risk",
+    "sha256": "c1b711e6224eea0704f29be161914212ae100b96d638d746cf17538e5ab038c7"
+  },
+  {
+    "file": "questions/Q3/runs/20260911-four-candidates-v1/core.py",
+    "symbol": "history_and_features",
+    "sha256": "fee9a94dd2fac826a27f1ed7cef0aa6d39524d02ec4fedf522f2680dce22f7ec"
+  },
+  {
+    "file": "questions/Q3/runs/20260911-four-candidates-v1/core.py",
+    "symbol": "build_fusion",
+    "sha256": "f63cacd0e262a1d6c9fa6cd75b04b105a507292aeab9351f401f8f15ac04b334"
+  },
+  {
+    "file": "questions/Q3/runs/20260911-four-candidates-v1/core.py",
+    "symbol": "to_intervals",
+    "sha256": "d0f01100958355699e24918c2f449b0e1b1fdb5bee668cbaca7446edb5005e4d"
+  },
+  {
+    "file": "questions/Q3/runs/20260911-four-candidates-v1/core.py",
+    "symbol": "Planner",
+    "sha256": "1684d5b75e8da6425423c1614c12d22e982914331cbe093390de301d5be56b85"
+  },
+  {
+    "file": "questions/Q3/runs/20260911-four-candidates-v1/core.py",
+    "symbol": "execute_block",
+    "sha256": "df0ff217e867babb35e22dc953d85c88bbd1259405b034335aec4ade5470a98c"
+  },
+  {
+    "file": "questions/Q3/runs/20260911-s2-deepening-v1/deepen.py",
+    "symbol": "Planner",
+    "sha256": "db3d98dbb3a740cb657bbee271b6fe07f5c3382b7c992425b14f9b1a4728835e"
+  },
+  {
+    "file": "questions/Q3/runs/20260911-s2-deepening-v1/deepen.py",
+    "symbol": "exact_quantile",
+    "sha256": "309eb2cae3c19d37d19e6c88c115341fe64fbe0955f92cf33e099734f18201ed"
+  },
+  {
+    "file": "questions/Q3/runs/20260912-load-feedback-v1/run.py",
+    "symbol": "make_load",
+    "sha256": "a754fdcc4282c49a015f2e098a10a11c50dc89d4081a0345dca8e95c7c464545"
+  },
+  {
+    "file": "questions/Q3/runs/20260912-load-feedback-v1/run.py",
+    "symbol": "errors_for",
+    "sha256": "2061c0ef26cbc67133e224db25bc7d110995c3cde52c036f86fe12b5f8ddc5bd"
+  },
+  {
+    "file": "questions/Q3/runs/20260912-forecast-risk-v1/run.py",
+    "symbol": "midnight",
+    "sha256": "536c79d394112c7b88e9a8fe9712375339401c7bad2aecb7c5d685ef0179c9c3"
+  },
+  {
+    "file": "questions/Q3/runs/20260912-forecast-risk-v1/run.py",
+    "symbol": "group_index",
+    "sha256": "02345ae5f53fd64abb6ed6b3db91c38ccf44a629520391820491a8f247a66f03"
+  },
+  {
+    "file": "questions/Q3/runs/20260912-forecast-risk-v1/run.py",
+    "symbol": "quantile",
+    "sha256": "bb3d6513b6f1264cf7220d10ec08a0a8250a6b7d429bd778865d4f409f1a4cae"
+  },
+  {
+    "file": "questions/Q4/runs/20260912-three-candidates-v1/run_compare.py",
+    "symbol": "Q2Risk",
+    "sha256": "5da4009e3418ef5be3bf03c1e578534ad72097be9d567af60bdcaaa9c82430b1"
+  },
+  {
+    "file": "questions/Q4/runs/20260912-three-candidates-v1/run_compare.py",
+    "symbol": "PriceFeatures",
+    "sha256": "68f01521e3bc734d5f99976531304af5aa529d04998508a9285abdc3502a03bd"
+  },
+  {
+    "file": "questions/Q4/runs/20260912-three-candidates-v1/run_compare.py",
+    "symbol": "PriceModels",
+    "sha256": "3df81c33bf5cc493ea3670858589e5fad36008658a50670add6d5c58a55a8eda"
+  },
+  {
+    "file": "questions/Q4/runs/20260912-three-candidates-v1/run_compare.py",
+    "symbol": "Q42Planner",
+    "sha256": "dcd22eb2f789a8e93b7ea0a81f680f38c9d87e3b6e169e7be9d0b6c2363eb29b"
+  },
+  {
+    "file": "questions/Q4/runs/20260912-three-candidates-v1/run_compare.py",
+    "symbol": "Q43Planner",
+    "sha256": "5e368908c3fa9c428f5ef76f453818b9c46d8431d583f97a84197e59822dd086"
+  },
+  {
+    "file": "questions/Q4/runs/20260912-three-candidates-v1/run_compare.py",
+    "symbol": "execute_block",
+    "sha256": "04e7890286d2f9082a2ea070a0ff0c852c62c54c2c8dd053e697e4ef7c5dcea0"
+  },
+  {
+    "file": "questions/Q4/runs/20260912-selected-deepening-v1/run_deepening.py",
+    "symbol": "ForecastEngine",
+    "sha256": "e4217c87d81ef3c819be3d2154e6d6d4535f87f331fedfe85ef5ee52697434b3"
+  },
+  {
+    "file": "questions/Q4/runs/20260913-q3-transfer-v1/run.py",
+    "symbol": "Features",
+    "sha256": "2d5ed44c148cfc8379f0e85f76a90e5f97533cb434575255f94e93849a1a93e4"
+  },
+  {
+    "file": "questions/Q4/runs/20260913-q3-transfer-v1/run.py",
+    "symbol": "Prices",
+    "sha256": "15d98b1d1d610d2e007758d97b8eeecea81f2542f5d60585dbc70e93b675a122"
+  }
+]

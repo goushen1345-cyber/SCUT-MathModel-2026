@@ -1,0 +1,41 @@
+{
+  "commands": [
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.EXE",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\front_matter_v1\\build",
+      "front_matter.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.EXE",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\front_matter_v1\\build",
+      "front_matter.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xdvipdfmx.EXE",
+      "-q",
+      "-o",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\front_matter_v1\\front_matter.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\front_matter_v1\\build\\front_matter.xdv"
+    ],
+    [
+      "C:\\Users\\Rog\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.EXE",
+      "-r",
+      "120",
+      "-png",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\front_matter_v1\\front_matter.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\front_matter_v1\\preview\\page"
+    ]
+  ],
+  "source_sha256": "d35546cdf2ab0611199eb0a378f4b4e86b1d4bee86b9e9ac46185e53b2f539f5",
+  "pdf_sha256": "2ed4a253a91ac89101e36d74a9aaf92bf6be96dc724c29bffa7cee54b1cae200",
+  "dpi": 120,
+  "scope": "typesetting_only"
+}

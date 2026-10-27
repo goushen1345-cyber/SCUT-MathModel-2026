@@ -1,0 +1,468 @@
+--- before/sections\sec_4_data_preprocessing.tex
++++ after/sections\sec_4_data_preprocessing.tex
+@@ -11,11 +11,11 @@
+ \begin{enumerate}
+ \item \textbf{数据质量检查。}
+ 首先检查附件1—4中的缺失值、非数值项、异常取值及时间对应关系。
+-核查后，输入数据不存在需要填补的缺失值。光伏数据中的零值主要对应夜间无发电情况，因此予以保留。对于较大或较小的负载、光伏和电价值，经原始附件核对后也不作删除或修改。
++原表已有记录未发现空单元格，但按调度区间展开后，全年实测序列缺少1月1日0:00对应的首段，启动处理见第6.5节。光伏数据中的零值主要对应夜间无发电情况，因此予以保留。对于较大或较小的负载、光伏和电价值，经原始附件核对后也不作删除或修改。
+ 
+ \item \textbf{时间与数据格式统一。}
+ 统一日期和时间格式，并按照“日期—时间”建立负载、光伏和电价之间的对应关系。
+-针对“0:00+1”等特殊时间标签，按照其真实时间含义进行映射，避免数据错位。对于光伏预报，同时保留预报发布时间和目标时刻，不同发布时间的预报不相互覆盖。
++调度中将采样值作为从该时刻开始的10分钟区间的代表值。“0:00+1”在连续实测序列中归入次日，不移回当天；问题一的循环代表日则将末行零点移至首段。描述性统计沿用原表日期分组，与上述调度映射分别处理。对于光伏预报，同时保留预报发布时间和目标时刻，不同发布时间的预报不相互覆盖。
+ 
+ \item \textbf{数据结构整理。}
+ 将原始宽表整理为逐时记录形式，便于不同附件按相同时刻进行匹配。
+@@ -26,7 +26,7 @@
+ \begin{equation}
+ E = P \times \frac{1}{6}
+ \end{equation}
+-转换为相应时段电量。由于各变量均具有明确的物理意义，本文不进行标准化或归一化处理。最后将整理后的数据与原始附件逐项核对，确保数据数值及对应关系未发生改变。
++转换为相应时段电量。供需平衡和储能调度保留物理单位，不作标准化；后文岭回归仅对预测特征按当前训练集进行标准化。最后将整理后的数据与原始附件逐项核对，确保数据数值及对应关系未发生改变。
+ \end{enumerate}
+ 
+ 
+@@ -61,7 +61,7 @@
+ \begin{figure}[H]
+     \centering
+     \includegraphics[width=0.8\textwidth]{fig/tsxfx_2.png}
+-    \caption{代表日供需与电价的时间错配}
++    \caption{负载、光伏与电价的年内变化}
+     \label{fig:tsxfx_2}
+ \end{figure}
+ 
+@@ -82,7 +82,7 @@
+ \begin{figure}[H]
+     \centering
+     \includegraphics[width=0.8\textwidth]{fig/tsxfx_3.png}
+-    \caption{代表日供需与电价的时间错配}
++    \caption{负载的周重复特征与电价的跨日波动}
+     \label{fig:tsxfx_3}
+ \end{figure}
+ 
+@@ -92,7 +92,7 @@
+ 
+ 因此，在利用历史信息判断未来负载时，\textbf{同一星期位置的历史数据具有较强参考价值}，不能只根据前一天的数据进行简单外推。
+     
+-光伏则表现不同。虽然始光伏序列在不同日期之间具有较高相似性，但在扣除各月相同时刻的平均日内轮廓后，其一周相关性接近于零。
++光伏则表现不同。虽然原始光伏序列在不同日期之间具有较高相似性，但在扣除各月相同时刻的平均日内轮廓后，其一周相关性接近于零。
+ 这说明光伏曲线的相似主要来自“白天高、夜间低”的共同日内形状，而不是稳定的星期周期。
+ 
+ 另一方面，图\ref{fig:tsxfx_3}(a)给出了全年相同时刻电价的第10至第90百分位范围。可以看到，即使处于相同的日内时刻，不同日期的实际电价仍存在明显差异。
+@@ -107,7 +107,7 @@
+ \begin{figure}[H]
+     \centering
+     \includegraphics[width=0.8\textwidth]{fig/tsxfx_4.png}
+-    \caption{代表日供需与电价的时间错配}
++    \caption{光伏预报提前量与日内更新的误差比较}
+     \label{fig:tsxfx_4}
+ \end{figure}
+ 
+--- before/sections\sec_5_q1.tex
++++ after/sections\sec_5_q1.tex
+@@ -30,6 +30,8 @@
+ \[
+ k=1,2,\ldots,144,\qquad \Delta t=\frac{1}{6}\text{ h}.
+ \]
++
++其中第1段为0:00--0:10，第144段为23:50--24:00。附件1按原时间标签重排后，末行零点对应第1段，首行0:10对应第2段；结果填写时再按模板标签对应回原位置。
+ 
+ 第 \(k\) 个时段的负载电量和光伏电量分别为
+ \begin{equation}
+@@ -125,12 +127,12 @@
+ 储能设备最大充电功率和放电功率均为 \(5000\,\mathrm{kW}\)。每个调度时段为10分钟，因此单个时段的充电量和放电量均不能超过 \(833.33\,\mathrm{kWh}\)：
+ 
+ \begin{equation}
+-x_k+y_k\leq833.33,\qquad
+-z_k\leq833.33.
++x_k+y_k\leq5000\Delta t,\qquad
++z_k\leq5000\Delta t.
+ \label{eq:q1_power_constraint}
+ \end{equation}
+ 
+-该约束限制的是储能设备的充放电能力，不限制外网直接向小区负载供电。
++计算采用精确的$5000\Delta t=5000/6$ kWh，833.33仅为显示近似值。该约束限制储能充放电能力，不限制外网直接供给负载。
+ 
+ \textbf{3）储电量变化与容量约束}
+ 
+@@ -171,7 +173,7 @@
+ 
+ 上述目标函数和约束均为线性关系，因此可直接采用线性规划求解。模型每个时段包含 \(x_k\)、\(y_k\)、\(z_k\) 和 \(S_k\) 四个连续变量，全天共576个连续变量，各时段通过储电量递推关系相互连接。
+ 
+-在本题电价为正、外网能够直接供给负载的条件下，同一时段同时充电和放电只会增加储能损耗，因此无需额外设置0--1变量限制充放电状态。
++本题无需额外设置0--1变量区分充放电。若某段同时充放电，由$z_k>0$可知存在负载缺口，该段没有富余光伏，充电只能来自外网。取$\delta=\min(x_k,z_k/0.81)>0$，将充电减少$\delta$、放电减少$0.81\delta$，不足的负载改由外网直供。内部储电变化仍相同，因为$0.9\delta-0.81\delta/0.9=0$，各项功率限制也仍满足；总购电却减少$0.19\delta$。电价为正时费用严格下降，所以最优解不会保留这种同时充放电。
+ 
+ 本文采用 Python 中 SciPy 的 \texttt{linprog} 接口调用 HiGHS 求解器。主要计算步骤如下：
+ 
+@@ -189,7 +191,7 @@
+     \item \textbf{光伏空间预留策略：}在峰谷策略基础上，为后续富余光伏预留储能空间。
+ \end{itemize}
+ 
+-两种规则均考察27组参数组合，其中低价门槛分别取电价的15\%、25\%、35\%分位，高价门槛取65\%、75\%、85\%分位，目标储电量取6000、8400和10800 kWh，并分别选择已考察组合中费用最低的方案与线性规划比较。
++两种规则均考察27组参数组合，其中低价门槛分别取电价的15\%、25\%、35\%分位，高价门槛取65\%、75\%、85\%分位，目标储电量取6000、8400和10800 kWh，并分别选择已考察组合中费用最低的方案与线性规划比较。两种规则均保证日末恢复6000 kWh，恢复库存所需的购电全部计入费用。
+ 
+ %====================
+ \subsection{求解结果与分析}
+@@ -278,7 +280,7 @@
+ 
+ \begin{figure}[H]
+     \centering
+-    \includegraphics[width=0.95\textwidth]{fig/q1_daily_dispatch.pdf}
++    \includegraphics[width=0.88\textwidth]{fig/q1_daily_dispatch.pdf}
+     \caption{三种策略在相同代表日下的购电与储能安排}
+     \label{fig:q1_2}
+ \end{figure}
+@@ -305,7 +307,7 @@
+ \[
+ 1.34\times10^{-12}\ \mathrm{kWh},
+ \]
+-求解费用与对应下界的最大差值约为
++另利用HiGHS返回的对偶乘子，从原模型独立重算费用下界，并核对乘子符号及对偶可行性。求解费用与该下界的最大差值约为
+ \[
+ 1.22\times10^{-12}\ \text{元}.
+ \]
+--- before/sections\sec_6_q2.tex
++++ after/sections\sec_6_q2.tex
+@@ -38,7 +38,7 @@
+ 
+ 即负载主要利用周重复规律，光伏主要利用近期发电水平。历史记录不足时，只对当时已经存在的数据取平均。
+ 
+-为保证每天0:00制定计划时不使用未来信息，式\eqref{eq:q2_forecast}只使用当日零点以前已经发生的数据。虽然附件2保存了全年实际负载和光伏，但当天及之后的真实值均不参与当天预测；本问也不使用问题三才引入的附件3光伏预报。
++为保证每天0:00制定计划时不使用未来信息，式\eqref{eq:q2_forecast}只使用当日零点以前已经发生的数据。虽然附件2保存了全年实际负载和光伏，但当天及之后的真实值均不参与当天预测；本问也不使用问题三才引入的附件3光伏预报。48小时规划中的次日负载按次日的星期位置选取历史，次日光伏仍取当前零点以前最近7天的同刻均值，不将当天尚未发生的实测值代入。
+ 
+ 
+ \subsection{基于近期误差的准备量}
+@@ -112,7 +112,7 @@
+ 
+ 其中，$\alpha$控制准备程度，$\beta$控制历史误差随时间的衰减速度，两者含义不同。准备量$b_{d,k}$被加入预测净需求，由后续优化模型统一安排，并不意味着每个时段直接多购买固定数量的电。
+ 
+-为避免参数选择与最终全年评价混用，本文将两者分开处理：参数在前期历史数据比较中确定，2--12月的完整运行结果用于最终评价和灵敏度检验，而不再反向调整模型参数。
++近期加权方法的引入参考了全年误差诊断，具体衰减参数再用1月份数据作有限比较。因此，2--12月结果用于本年度的方案比较与检验，不作为完全独立的留出评价；各日预测仍只使用决策时已知的数据。
+ 
+ 
+ \subsection{购电与储能优化模型}
+@@ -243,7 +243,7 @@
+ \leq
+ 5000\Delta t
+ =
+-833.33\ \mathrm{kWh}.
++\frac{5000}{6}\ \mathrm{kWh}.
+ \label{eq:q2_charge_limit}
+ \end{equation}
+ 
+@@ -340,7 +340,7 @@
+ 由此，每天在零点制定计划，日内先用储能吸收偏差，必要时紧急购电，
+ 再将剩余库存传递至下一天，形成连续的调度过程。
+ 
+-全年运行从2025年1月1日0:00的6000 kWh开始。首日没有更早历史，因此采用问题一得到的购电安排启动。随后利用逐日积累的历史数据滚动更新预测和准备量。1月份用于完成启动及参数选择，2月1日起进入题目要求的正式统计范围；此时储电量由1月份连续运行承接，而不是重新设置为6000 kWh。
++运行从1月1日0:00的6000 kWh开始，首日采用问题一的购电安排。实际序列缺少首个0:00--0:10区间，仅该段借用附件1零点供需作启动参考，不作为实测值或预测训练标签；此后使用附件2的连续实测数据。1月份按统一启动规则逐日积累历史并衔接库存，另用于前期参数比较。2月1日得到8592.69 kWh，作为各候选以及问题三、四的共同初始库存；之后每套策略分别沿用自身前一天的余电，不再重置。
+ 
+ 
+ \subsection{参数依据与方案比较}
+@@ -349,7 +349,7 @@
+ 
+ 因此，本文比较了历史分项预测、岭回归、提升树以及加入误差准备后的多种方案。各方案使用相同的电价、储能设备、起始状态、规划长度和实际供电规则。
+ 
+-预测窗口通过前期数据比较确定为负载4周、光伏7天，并取$\alpha=0.7$、$\beta=0.7$。
++前期比较保留负载4周、光伏7天的预测窗口及$\alpha=0.7$。引入近期加权后，在1月8--31日比较$\beta=0.7,0.8,0.9$，取费用最低的0.7。该取值下，历史日权重约每1.94天减半，按权重集中程度折算约相当于5.67天等权信息，能较快反映近期变化。继续减小会更依赖少数日期，易受异常波动牵动；但小于0.7的取值未作全年实跑，不能据此断言更小一定更差。
+ 
+ 其中，岭回归和提升树主要以提高预测精度为目标，并未直接考虑预测误差在不同电价与储能状态下造成的经济损失。因此，预测误差较小并不一定意味着最终购电费用更低。相比之下，近期加权准备直接针对缺口低估可能引起的高价紧急购电风险。
+ 
+@@ -571,6 +571,6 @@
+ 
+ 因此，\textbf{准备程度并不是越高越好}。准备不足会增加昂贵的紧急购电，而准备过多又会提高普通购电成本。在本文实际检验的参数范围内，$\alpha=\beta=0.7$的综合费用较低，但不能据此认为其是所有连续参数取值中的唯一最优解。
+ 
+-进一步逐段检查表明，最终方案仍有部分日期发生紧急购电。这并不意味着模型失效，而是说明储能设备只能在其容量和功率范围内缓冲预测误差；当电池已经达到最低库存或受到放电功率限制时，紧急购电仍不可避免。
+-
+-已有连续偏差情景检验中，近期加权方案相对于等权准备仍保持一定费用优势，但该结果仅基于本题一个年份及有限情景，因此只能说明模型在当前数据条件下具有一定稳定性，不能直接推广到其他年份或其他微网。
++规划长度也存在费用与风险的取舍。将48小时缩为24小时，费用反而降低3215.61元，但最长连续紧急补购由200分钟增至340分钟，期末储电量也明显减少。因此保留48小时，主要是为了减弱临近午夜时过早用尽余电的倾向，并非因为它在费用上严格占优。
++
++此外，从此前历史误差中选取连续3天的不利片段，分别构造持续低估负载、高估光伏及两者叠加的情景，并保持实际供需不变。三类情景下，近期加权方案相对等权准备的总费用仍低3.09\%--3.52\%，但自身费用均有所增加，说明其能够缓冲持续偏差，不能消除风险。部分日期没有符合条件的历史片段，检验只覆盖本年度有限情景，尚不能据此证明跨年适用性。
+--- before/sections\sec_7_q3.tex
++++ after/sections\sec_7_q3.tex
+@@ -183,7 +183,11 @@
+ \end{equation}
+ 例如，100~kWh订单在1元/kWh时减至80~kWh，结算为 $80+10=90$ 元。
+ 同一时段多次调整，只比较最后订单与零点订单的净变化，重叠部分不重复收费。
+-该式也包含未能接收的普通订单费用，不能只按实际使用量结算。
++该式也包含未能接收的普通订单费用，不能只按实际使用量结算。记$e_t^{\mathrm{act}}$为实际运行中电池仍无法补足的紧急购电量，则实际总费用为
++\[
++C_{\mathrm{act}}=C_{\mathrm{ord}}+5\sum_t p_t e_t^{\mathrm{act}},
++\]
++其中求和只覆盖实际执行的时段。它与规划中用于权衡风险的预计紧急购电量$e_t$不同，最终账单按实际补购计费。
+ 
+ \subsubsection*{（4）目标函数}
+ 
+@@ -221,7 +225,7 @@
+ 多余电量在容量和充电功率允许时储存，无法利用的部分不产生售电收益。
+ 日末按最终订单完成结算，实际剩余电量传递至下一天。
+ 
+-费用评价期为2025年2月1日至12月31日，共334天。
++费用评价期为2025年2月1日至12月31日，共334天，起始库存沿用第6.5节的8592.69 kWh。
+ 各日连续运行，完整方案每天求解4次，共完成1336次滚动线性规划。
+ 
+ \subsection{候选方案比较与最终模型选择}
+--- before/sections\sec_8_q4.tex
++++ after/sections\sec_8_q4.tex
+@@ -12,7 +12,7 @@
+ 
+ \subsection{波动电价预测}
+ 
+-历史电价具有较稳定的日内规律和周重复特征，但同一时刻在不同日期仍有变化。预测输入包括典型日内电价、过去同星期同刻价格、近期价格、星期与季节位置，以及当时预测的净负载。日内分支还加入当天已发生价格相对历史同刻水平的偏差。这样既保留价格曲线的基本形状，也能反映当天价格整体偏高或偏低的情况。
++历史电价具有较稳定的日内规律和周重复特征，但同一时刻在不同日期仍有变化。预测输入包括附件1的日内电价、最近四周同星期同刻的价格中位数、最近7天同刻中位数、上周同刻价格，以及星期、季节位置和预测净负载。同星期历史不足时，改用近期同刻价格。日内再将当天已发生价格减去历史同刻基准，取差值中位数表示当天整体偏高或偏低的程度，并加入最后一个已结束时段的偏差。为区分短时波动与持续变化，还分别加入按6小时、1小时时间尺度指数衰减的偏差特征；这些当天偏差只用于当天剩余时段，零点时取零。
+ 
+ 其中，净负载由各分支自己的负载预测减去光伏预测得到。历史训练样本也按当时能够获得的信息构造，实际价格只有发生后才能作为训练目标或日内反馈。
+ 
+@@ -49,11 +49,11 @@
+ \lambda_p=10.
+ \end{equation}
+ 
+-其中，$p_i$为训练样本的实际电价，$\mathbf{z}_i$为标准化后的特征，$\beta_0$和$\boldsymbol{\beta}$分别为截距与回归系数。标准化所需的均值和标准差仅由当前训练窗口计算。预测时使用
++其中，$p_i$为训练样本的实际电价，$\mathbf{z}_i$为标准化后的特征，$\beta_0$和$\boldsymbol{\beta}$分别为截距与回归系数。标准化所需的均值和标准差仅由当前训练窗口计算。$\lambda_p=10$沿用候选比较时的固定设置，未通过后续检验证明为最优正则参数。预测时使用
+ \begin{equation}
+ \hat p_{t|\tau}=\max\left\{0.001,\,\beta_0+\mathbf{z}_{t|\tau}^{\mathrm T}\boldsymbol{\beta}\right\},
+ \end{equation}
+-其中$\tau$沿用问题三的决策时点记号，$t$为待预测时段。下限用于避免回归外推产生非正电价。
++其中$\tau$沿用问题三的决策时点记号，$t$为待预测时段。下限用于避免回归外推产生非正电价；提升树及历史参照的预测也统一保留这一正下限。
+ 
+ 两类价格模型均每7天训练一次，使用最近56天已经发生的数据；历史不足56天时使用已有样本。日内各时点更新模型输入和预测结果，无需每天重新拟合四次模型。
+ 
+@@ -102,13 +102,13 @@
+ 零点决策时$\mathcal A_0$为空，次日辅助订单也不收调整费。
+ 第一项衡量购电费用，第二项衡量改变零点订单的代价，末项保留电池对后续用电的价值。
+ 
+-已经执行的订单不再修改。同一时段经过多次调整时，只按最终订单与零点原计划之间的净变化结算一次。规划使用预测电价，实际账单使用执行时段的真实电价，两者分别用于事前决策与事后结算。
++已经执行的订单不再修改。同一时段经过多次调整时，只按最终订单与零点原计划之间的净变化结算一次。规划使用预测电价；最终普通购电费、调整费和紧急购电费均按对应执行时段的实际电价结算。
+ 
+ 供需平衡、储电递推、$1200$--$10800\ \mathrm{kWh}$容量限制、$5000\ \mathrm{kW}$充放电功率限制及各$90\%$的充放电效率均沿用前文。实际日末储电量继续传递至次日，不再要求每日首尾相等。
+ 
+ \subsection{模型求解与方案选择}
+ 
+-给定供需预测和价格预测后，两条分支均为线性规划，采用HiGHS求解。按时间顺序模拟2025年2月1日至12月31日的334天。每次决策读取真实当前储电量，求得订单后执行至下一决策时点，再更新供需与储电状态。
++给定供需预测和价格预测后，两条分支均为线性规划，采用HiGHS求解。各策略均从第6.5节的共同库存8592.69 kWh出发，按时间顺序模拟2025年2月1日至12月31日的334天。每次决策读取真实当前储电量，求得订单后执行至下一决策时点，再更新供需与储电状态。
+ 
+ 为比较价格模型，在各分支内固定供需预测、设备参数和初始储电量，只改变价格预测方法，结果见表\ref{tab:q4_price_comparison}。
+ 
+@@ -166,6 +166,10 @@
+ 
+ 这一差额反映两套完整策略的差异，包含供需判断、价格预测和订单调整的共同作用，不能全部归因于日内价格更新。波动电价也不只是改变账单上的单价：它会改变提前购电是否合算，进而影响日末储电量和后续日期的运行。
+ 
++四个指定日期的结果见表\ref{tab:q4_specified_dates}。普通订单、紧急补购和日末余电共同反映各日实际安排，费用包含普通购电、调整及紧急购电。
++\input{tables/q4_specified_dates.tex}
++问题四-3在3月20日费用较低，但9月23日和12月21日反而较高。这说明全年节省不等于每日都省钱，日内调整的效果仍取决于当天的预测偏差和可用库存。
++
+ \subsection{模型检验}
+ 
+ 利用实际供需逐10分钟复核供需平衡、储电递推、容量与功率限制，并按真实电价重新计算费用。
+@@ -183,7 +187,7 @@
+ 
+ \subsubsection*{（1）提升树复杂度检验}
+ 
+-图\ref{fig:q4_model_test}(a)以15叶模型为参照。7叶模型费用略有增加，31叶模型减少约6606元。较多的叶节点能够刻画更细的价格差异，因此在本题比较的三种复杂度下，选择31叶模型。不过，它仍有部分日期和月份费用高于15叶模型，这一选择依据的是全年总费用。
++图\ref{fig:q4_model_test}(a)以15叶模型为参照。7叶模型费用略有增加，31叶模型减少约6606元。较多的叶节点能够刻画更细的价格差异，因此在本题比较的三种复杂度下，选择31叶模型。为排除少留期末电量造成的表面节费，按实际电价的5\%、50\%、95\%分位对期末可放电量估值，31叶仍比15叶节省5890.24--6423.72元，费用排序未改变。不过，部分日期和月份仍更贵，这一选择依据的是全年总费用。
+ 
+ \subsubsection*{（2）误差准备与补购风险}
+ 
+@@ -191,4 +195,4 @@
+ 
+ 这一选择并未追求最少的紧急补购。例如，将分位提高至0.70，可进一步降低紧急购电量，但全年总费用会增加约4.41万元。本文以总费用最低为目标，因此保留0.60；若实际运行更重视减少临时补购，则需要接受更高的普通购电费用。
+ 
+-所选策略在188天发生紧急补购，全年补购电量约3.22万$\mathrm{kWh}$。这些缺口由外网及时补足，模拟中负载得到满足，但电池本身不能消除所有供需偏差。上述参数比较来自同一年度数据，结论适用于本题给定样本，尚不能保证在其他年份或每一天都保持优势。
++所选策略在188天发生紧急补购，全年补购电量约3.22万$\mathrm{kWh}$。这些缺口由外网及时补足，模拟中负载得到满足，但电池本身不能消除所有供需偏差。在实际电价最高的5\%区间，问题四-3仍补购约1.07万kWh，说明高价风险尚未消除。上述参数比较来自同一年度数据，结论适用于本题给定样本，尚不能保证在其他年份或每一天都保持优势。
+--- before/tables\q3_emergency.tex
++++ after/tables\q3_emergency.tex
+@@ -1,29 +1,29 @@
+-% Generated from saved final Q3 trajectories. Do not hand-edit numbers.
++% Generated from saved trajectories by scripts/restore_review_tables.py.
+ \begin{table}[H]
+ \centering
+-\caption{指定日期发生紧急购电的时段及电量}
++\caption{指定日期紧急购电的时段、电量及费用}
+ \label{tab:q3_emergency}
+ \small
+ \setlength{\tabcolsep}{5pt}
+-\begin{tabular}{llr}
++\begin{tabular}{llrr}
+ \toprule
+-日期 & 时间段 & 紧急购电量/kWh \\
++日期 & 时间段 & 紧急购电量/kWh & 费用/元 \\
+ \midrule
+-3月20日 & 10:00--10:10 & 6.12 \\
+- & 20:40--20:50 & 12.42 \\
+-6月21日 & 无 & 0.00 \\
+-9月23日 & 09:40--09:50 & 4.35 \\
+- & 09:50--10:00 & 13.98 \\
+- & 20:30--20:40 & 6.38 \\
+- & 20:40--20:50 & 58.51 \\
+- & 21:00--21:10 & 65.38 \\
+- & 21:10--21:20 & 28.13 \\
+- & 21:20--21:30 & 2.38 \\
+- & 21:30--21:40 & 34.04 \\
+- & 21:40--21:50 & 20.86 \\
+- & 21:50--22:00 & 8.51 \\
+-12月21日 & 08:00--08:10 & 22.46 \\
+- & 10:50--11:00 & 51.03 \\
++3月20日 & 10:00--10:10 & 6.12 & 30.53 \\
++ & 20:40--20:50 & 12.42 & 86.62 \\
++6月21日 & 无 & 0.00 & 0.00 \\
++9月23日 & 09:40--09:50 & 4.35 & 20.48 \\
++ & 09:50--10:00 & 13.98 & 66.88 \\
++ & 20:30--20:40 & 6.38 & 43.00 \\
++ & 20:40--20:50 & 58.51 & 408.19 \\
++ & 21:00--21:10 & 65.38 & 305.04 \\
++ & 21:10--21:20 & 28.13 & 127.56 \\
++ & 21:20--21:30 & 2.38 & 11.15 \\
++ & 21:30--21:40 & 34.04 & 159.48 \\
++ & 21:40--21:50 & 20.86 & 102.94 \\
++ & 21:50--22:00 & 8.51 & 33.03 \\
++12月21日 & 08:00--08:10 & 22.46 & 130.48 \\
++ & 10:50--11:00 & 51.03 & 203.87 \\
+ \bottomrule
+ \end{tabular}
+ \end{table}
+--- before/tables\q4_specified_dates.tex
++++ after/tables\q4_specified_dates.tex
+@@ -0,0 +1,27 @@
++% Generated from saved trajectories by scripts/restore_review_tables.py.
++\begin{table}[H]
++\centering
++\caption{问题四两条分支的指定日期结果}
++\label{tab:q4_specified_dates}
++\small
++\setlength{\tabcolsep}{5pt}
++\begin{tabular}{llrrrr}
++\toprule
++分支 & 日期 & 普通订单/kWh & 紧急购电/kWh & 日末储电/kWh & 总费用/元 \\
++\midrule
++四-2 & 3月20日 & 62329.63 & 329.13 & 1376.30 & 41909.16 \\
++四-2 & 6月21日 & 42375.21 & 0.00 & 10380.22 & 20358.11 \\
++四-2 & 9月23日 & 68066.93 & 10.23 & 2592.35 & 44700.97 \\
++四-2 & 12月21日 & 94612.77 & 0.00 & 9798.14 & 71357.71 \\
++\midrule
++四-3 & 3月20日 & 61627.63 & 16.86 & 1386.88 & 40429.92 \\
++四-3 & 6月21日 & 42677.14 & 0.00 & 10800.00 & 20343.61 \\
++四-3 & 9月23日 & 66331.89 & 247.01 & 2815.47 & 45166.06 \\
++四-3 & 12月21日 & 93273.34 & 51.32 & 8176.08 & 72209.10 \\
++\bottomrule
++\end{tabular}
++\par\smallskip
++\begin{minipage}{0.96\textwidth}
++\small 注：普通订单为全天最终订单之和；总费用按实际电价计算，包含普通购电、调整与紧急购电。
++\end{minipage}
++\end{table}
+--- before/scripts\restore_review_tables.py
++++ after/scripts\restore_review_tables.py
+@@ -0,0 +1,94 @@
++"""Reproduce the two review tables using saved trajectories; no model is run."""
++from pathlib import Path
++import argparse, hashlib, json
++import numpy as np
++import pandas as pd
++
++HERE = Path(__file__).resolve().parent
++PROJECT = HERE.parents[2]
++parser = argparse.ArgumentParser()
++parser.add_argument('--output-root', type=Path, default=HERE.parent)
++OUT = parser.parse_args().output_root.resolve()
++(OUT/'tables').mkdir(parents=True, exist_ok=True)
++(OUT/'scripts').mkdir(parents=True, exist_ok=True)
++inputs=[]
++def readcsv(p):
++    inputs.append(p)
++    return pd.read_csv(p, float_precision='round_trip')
++def readnpz(p):
++    inputs.append(p)
++    return dict(np.load(p))
++def num(x):
++    return f'{0 if abs(x)<0.0005 else x:.2f}'
++def clock(k):
++    return f'{k//6:02d}:{k%6*10:02d}'
++def table(filename, caption, label, cols, rows, spec, note=''):
++    parts=[r'% Generated from saved trajectories by scripts/restore_review_tables.py.',
++           r'\begin{table}[H]',r'\centering',r'\caption{'+caption+'}',r'\label{'+label+'}',
++           r'\small',r'\setlength{\tabcolsep}{5pt}',r'\begin{tabular}{'+spec+'}',
++           r'\toprule',' & '.join(cols)+r' \\',r'\midrule']
++    parts += [row if isinstance(row,str) else ' & '.join(row)+r' \\' for row in rows]
++    parts += [r'\bottomrule',r'\end{tabular}']
++    if note: parts += [r'\par\smallskip',r'\begin{minipage}{0.96\textwidth}',r'\small '+note,r'\end{minipage}']
++    parts += [r'\end{table}','']
++    p=OUT/'tables'/filename
++    p.write_text('\n'.join(parts),encoding='utf-8')
++    return p
++
++dates=['2025-03-20','2025-06-21','2025-09-23','2025-12-21']
++names=['3月20日','6月21日','9月23日','12月21日']
++q3=PROJECT/'questions/Q3/runs/20260912-forecast-risk-v1/outputs/strategies'
++d3=readcsv(q3/'EW4_Q60_full.daily.csv')
++z3=readnpz(q3/'EW4_Q60_full.npz')
++price=readnpz(PROJECT/'questions/Q3/runs/20260911-four-candidates-v1/outputs/sources.npz')['price']
++rows=[]
++checks=[]
++for date,name in zip(dates,names):
++    i=int(d3.index[d3.date==date][0])
++    e=z3['execution'][i,:,8]
++    costs=5*price*e
++    assert abs(e.sum()-d3.loc[i,'emergency_kwh'])<1e-6
++    assert abs(costs.sum()-d3.loc[i,'emergency_cost'])<1e-6
++    ks=np.flatnonzero(e>1e-6)
++    for j,k in enumerate(ks):
++        rows.append([name if j==0 else '',clock(k)+'--'+clock(k+1),num(e[k]),num(costs[k])])
++    if not len(ks): rows.append([name,'无','0.00','0.00'])
++    checks.append({'branch':'Q3','date':date,'emergency_kwh':float(e.sum()),'emergency_cost':float(costs.sum())})
++outputs=[table('q3_emergency.tex','指定日期紧急购电的时段、电量及费用','tab:q3_emergency',
++               ['日期','时间段','紧急购电量/kWh','费用/元'],rows,'llrr')]
++
++q42=PROJECT/'questions/Q4/runs/20260912-selected-deepening-v1/outputs/strategies/Q4-2-P3-leaves31'
++q43=PROJECT/'questions/Q4/runs/20260913-q3-transfer-v1/outputs/strategies/EW4_P2_Q60'
++q4price=readnpz(PROJECT/'questions/Q4/runs/20260913-q3-transfer-v1/outputs/supply.npz')['price']
++rows=[]
++for branch,path,expected in [('四-2',q42,14248570.87),('四-3',q43,13695929.70)]:
++    df=readcsv(path.with_suffix('.daily.csv'))
++    z=readnpz(path.with_suffix('.npz'))
++    assert len(df)==334 and abs(df.total_cost.sum()-expected)<0.01
++    assert abs(df.iloc[0]['initial']-8592.693560925925)<1e-6
++    for date,name in zip(dates,names):
++        i=int(df.index[df.date==date][0]); day=int(df.loc[i,'day']); ex=z['execution'][i]
++        order=z['order'][i] if 'order' in z else z['versions'][i,-1]
++        ordinary=float(q4price[day]@order)
++        emergency=float(5*q4price[day]@ex[:,8])
++        adjustment=0. if 'order' in z else float(.5*q4price[day]@abs(order-z['q0'][i]))
++        assert abs(ordinary-df.loc[i,'ordinary_cost'])<1e-6
++        assert abs(adjustment-df.loc[i,'adjustment_cost'])<1e-6
++        assert abs(emergency-df.loc[i,'emergency_cost'])<1e-6
++        assert abs(ordinary+adjustment+emergency-df.loc[i,'total_cost'])<1e-6
++        assert abs(order.sum()-df.loc[i,'order_kwh'])<1e-6
++        assert abs(ex[:,8].sum()-df.loc[i,'emergency_kwh'])<1e-6
++        assert abs(ex[-1,1]-df.loc[i,'final'])<1e-6
++        rows.append([branch,name,num(order.sum()),num(ex[:,8].sum()),num(ex[-1,1]),num(df.loc[i,'total_cost'])])
++        checks.append({'branch':branch,'date':date,'total_cost':float(df.loc[i,'total_cost']),
++                       'ordinary_cost':ordinary,'adjustment_cost':adjustment,'emergency_cost':emergency})
++    if branch=='四-2':rows.append(r'\midrule')
++outputs.append(table('q4_specified_dates.tex','问题四两条分支的指定日期结果','tab:q4_specified_dates',
++                    ['分支','日期','普通订单/kWh','紧急购电/kWh','日末储电/kWh','总费用/元'],rows,'llrrrr',
++                    '注：普通订单为全天最终订单之和；总费用按实际电价计算，包含普通购电、调整与紧急购电。'))
++sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
++manifest={'sources':[{'path':str(p),'sha256':sha(p)} for p in inputs],
++          'outputs':[{'path':str(p),'sha256':sha(p)} for p in outputs],
++          'checks':checks,'scope':'saved result aggregation and independent bill checks; no model run'}
++(OUT/'scripts/review_tables_manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),'utf-8')
++print(json.dumps({'tables':[str(p) for p in outputs],'checked_dates':len(checks)},ensure_ascii=False))
+--- before/scripts\update_result_figures.py
++++ after/scripts\update_result_figures.py
+@@ -190,12 +190,12 @@
+ rows=[];details={}
+ for date,i,name in zip(dates,ids,head[1:]):
+     ex=z['execution'][i];ks=np.flatnonzero(ex[:,8]>1e-6)
+-    for j,k in enumerate(ks): rows.append([name if j==0 else '',interval(int(k)),n(ex[k,8])])
+-    if not len(ks):rows.append([name,'无','0.00'])
++    for j,k in enumerate(ks): rows.append([name if j==0 else '',interval(int(k)),n(ex[k,8]),n(5*np.load(SRC)['price'][k]*ex[k,8])])
++    if not len(ks):rows.append([name,'无','0.00','0.00'])
+     details[date]={**{k:float(df.loc[i,k]) for k in ('initial','final','ordinary_cost','emergency_cost','total_cost','emergency_kwh')},
+         'q0_total_kwh':float(z['q0'][i].sum()),'qfinal_total_kwh':float(z['versions'][i,-1].sum()),
+         'emergency_intervals':[{'slot':int(k),'time':interval(int(k)),'emergency_kwh':float(ex[k,8]),'storage_start_kwh':float(ex[k,0]),'storage_end_kwh':float(ex[k,1]),'discharge_kwh':float(ex[k,7]),'limitation':'power' if ex[k,7]>=5000/6-1e-6 else 'energy'} for k in ks]}
+-table('q3_emergency.tex','指定日期发生紧急购电的时段及电量','tab:q3_emergency',['日期','时间段','紧急购电量/kWh'],rows,'llr')
++table('q3_emergency.tex','指定日期紧急购电的时段、电量及费用','tab:q3_emergency',['日期','时间段','紧急购电量/kWh','费用/元'],rows,'llrr')
+ 
+ derived={'date_results':details,'monthly':[{'month':int(i),**{c:float(row[c]) for c in ['ordinary_cost','emergency_cost','total_cost']}} for i,row in monthly.iterrows()],
+  'q3_final':s3['winner'],'q3_information':info,'q3_load_comparison':loadrows,'q3_quantile_comparison':qrows,

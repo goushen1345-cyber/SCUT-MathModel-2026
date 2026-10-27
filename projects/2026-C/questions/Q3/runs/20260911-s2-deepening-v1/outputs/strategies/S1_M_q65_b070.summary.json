@@ -1,0 +1,28 @@
+{
+  "label": "S1_M_q65_b070",
+  "family": "release_scaled_allowance",
+  "total_cost": 13588645.081180245,
+  "ordinary_cost": 12849140.532131936,
+  "emergency_cost": 739504.5490483093,
+  "emergency_kwh": 120326.21407372029,
+  "unused_order_kwh": 400113.20304285287,
+  "unused_pv_kwh": 1139628.9906862166,
+  "reduced_kwh": 681880.1714314783,
+  "increased_kwh": 199798.55708891954,
+  "days": 334,
+  "initial": 8592.693560925925,
+  "final": 8522.248081712964,
+  "emergency_days": 240,
+  "lp_calls": 1336,
+  "floor_ratio": 0.0,
+  "release_scale": [
+    1,
+    0.75,
+    0.5,
+    0.25
+  ],
+  "max_residual": 1.8189894035458565e-12,
+  "max_dual_gap": 1.3096723705530167e-10,
+  "trace": "outputs\\strategies\\S1_M_q65_b070.npz",
+  "daily_csv": "outputs\\strategies\\S1_M_q65_b070.daily.csv"
+}

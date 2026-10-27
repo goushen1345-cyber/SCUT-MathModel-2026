@@ -1,0 +1,16 @@
+{
+  "scope": "read verified Q3 results only",
+  "source_sha256": {
+    "questions\\Q3\\runs\\20260911-four-candidates-v1\\outputs\\summary.json": "f504a027eda93a594771269eb13a3c99a4658d1c5c15d1107ea4bb1e7fb57ecc",
+    "questions\\Q3\\runs\\20260911-four-candidates-v1\\outputs\\verification.json": "06ea5ef5237ff7170ca486b608485eed50f1063f53b7e246a02c499b73bd54a7",
+    "questions\\Q3\\runs\\20260911-four-candidates-v1\\outputs\\sources.npz": "1739b45bf65bb653daa8e9f98e87108746ee339814ef55188488706f85b387b7",
+    "questions\\Q3\\runs\\20260911-four-candidates-v1\\interpretation\\findings.json": "9be9d1c7ce006dabf318546d74c830b228fc2ce623072582ffcf499eaa9186d2",
+    "questions\\Q3\\runs\\20260911-four-candidates-v1\\figures-v1\\02_information_value.pdf": "1ec5e9249dd70089431e81b33f3179de212dd9deba77124d18332ebc4519bbcc",
+    "questions\\Q3\\runs\\20260911-parameter-interpretability-v1\\outputs\\summary.json": "0254c7fd8c5d16a1f7e96e1fe10c9803ee4ba56514d321de75a13a85daa51686",
+    "questions\\Q3\\runs\\20260911-parameter-interpretability-v1\\outputs\\verification.json": "24e56a75a3ac198ffaee56796eaa7b09ad6aa80bf9d202c6292bfdc9e98a8b2c",
+    "questions\\Q3\\runs\\20260911-parameter-interpretability-v1\\outputs\\strategies\\M_q60_b070_w28_h03.npz": "e5ae122cdb89decad5dac0b0b0e11160868e923dfec240b9018d6afe572ed251",
+    "questions\\Q3\\runs\\20260911-parameter-interpretability-v1\\outputs\\strategies\\M_q60_b070_w28_h03.daily.csv": "05685148dce49f8bdbe270eda59ae06131cf82e204d797dbb8af8c81d6e7968c",
+    "questions\\Q3\\runs\\20260911-parameter-interpretability-v1\\figures-v1\\01_parameter_interpretability.pdf": "83cc8f41eb43248fa582e1519688d786e0c664fb43b71a6697aef1a5c9cf70a4",
+    "questions\\Q2\\runs\\20260911-annual-validation-v1\\delivery_data\\summary.json": "8ea80b90a324f0a02aa06d6b15a81fc8f7225d4be7d6bf14a8703bb653cd6245"
+  }
+}

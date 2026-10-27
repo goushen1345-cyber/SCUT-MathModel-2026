@@ -1,0 +1,26 @@
+{
+  "status": "trial_comparison_delivered_waiting_user_main_choice",
+  "authorization": "Q3-TRIAL-062",
+  "record": "Q3-COMPARISON-063",
+  "recommendation": "S2_fused as initial main candidate; not selected by user",
+  "period_days": 334,
+  "candidate4": "zero margin selected in January; exact alias of S2_fused",
+  "candidate5": "not run",
+  "source_summary_sha256": "f504a027eda93a594771269eb13a3c99a4658d1c5c15d1107ea4bb1e7fb57ecc",
+  "summary_pending_note": "Immutable solver-end snapshot predates final independent read-back; verification.json records subsequent completion.",
+  "verification_sha256": "06ea5ef5237ff7170ca486b608485eed50f1063f53b7e246a02c499b73bd54a7",
+  "protected_files_unchanged": 20,
+  "budget": {
+    "lp_calls": 7796,
+    "tree_fits": 104,
+    "elapsed_seconds": 158.3862318000174
+  },
+  "previous_failure": "Floating weighted-CDF equality corrected; original failure and caches preserved. Nine January costs unchanged; annual traces unchanged.",
+  "numeric_correction_sha256": "3822b200fd44e1e15181b8fdbdce982492239a75db7e9f64d0f114c1cc8b4061",
+  "figures_qa_sha256": "80345ddcd1cf59d14621eb832ed6f062a4a1f84d275d1c74b73f637e9d51ae0d",
+  "findings_sha256": "9be9d1c7ce006dabf318546d74c830b228fc2ce623072582ffcf499eaa9186d2",
+  "code_sha256": "680af9257adb86bce003bb2f16ad26720408a5f2e626ff0c1bc97af2b43be6d4",
+  "important_limit": "Q3 initial best still costs 504894.82 yuan more than refined Q2; no automatic refinement, final selection, paper, official workbook, freeze or Q4.",
+  "human_approval": false,
+  "independent_agent_review": false
+}

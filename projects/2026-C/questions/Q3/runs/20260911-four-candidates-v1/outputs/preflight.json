@@ -1,0 +1,106 @@
+[
+  {
+    "demand": 80,
+    "original": 100.0,
+    "final": 80.0,
+    "bill": 90.0,
+    "expected": 90,
+    "check": {
+      "n": 1,
+      "f": 1,
+      "initial": 1200.0,
+      "objective": 90.0,
+      "residual": 0.0,
+      "dual_gap": 0.0,
+      "simultaneous": 0,
+      "seconds": 0.0033931999932974577,
+      "status": 0
+    }
+  },
+  {
+    "demand": 90,
+    "original": 100.0,
+    "final": 90.0,
+    "bill": 95.0,
+    "expected": 95,
+    "check": {
+      "n": 1,
+      "f": 1,
+      "initial": 1200.0,
+      "objective": 95.0,
+      "residual": 0.0,
+      "dual_gap": 0.0,
+      "simultaneous": 0,
+      "seconds": 0.0016175999771803617,
+      "status": 0
+    }
+  },
+  {
+    "demand": 120,
+    "original": 100.0,
+    "final": 120.0,
+    "bill": 130.0,
+    "expected": 130,
+    "check": {
+      "n": 1,
+      "f": 1,
+      "initial": 1200.0,
+      "objective": 130.0,
+      "residual": 0.0,
+      "dual_gap": 0.0,
+      "simultaneous": 0,
+      "seconds": 0.0012392000062391162,
+      "status": 0
+    }
+  },
+  {
+    "demand": 0,
+    "original": 100.0,
+    "final": 0.0,
+    "bill": 50.0,
+    "expected": 50,
+    "check": {
+      "n": 1,
+      "f": 1,
+      "initial": 1200.0,
+      "objective": 50.0,
+      "residual": 0.0,
+      "dual_gap": 0.0,
+      "simultaneous": 0,
+      "seconds": 0.001131500001065433,
+      "status": 0
+    }
+  },
+  {
+    "fixed": 0.0,
+    "emergency": 100.0,
+    "unreceived": 0.0,
+    "check": {
+      "n": 1,
+      "f": 1,
+      "initial": 1200.0,
+      "objective": 550.0,
+      "residual": 0.0,
+      "dual_gap": 0.0,
+      "simultaneous": 0,
+      "seconds": 0.0011733000283129513,
+      "status": 0
+    }
+  },
+  {
+    "fixed": 200.0,
+    "emergency": 0.0,
+    "unreceived": 100.0,
+    "check": {
+      "n": 1,
+      "f": 1,
+      "initial": 1200.0,
+      "objective": 250.0,
+      "residual": 0.0,
+      "dual_gap": 0.0,
+      "simultaneous": 0,
+      "seconds": 0.0012774000060744584,
+      "status": 0
+    }
+  }
+]

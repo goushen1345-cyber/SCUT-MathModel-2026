@@ -1,0 +1,49 @@
+{
+  "source_directory": "audit\\q2-exploration-v1\\outputs",
+  "script_sha256": "86eee96fa7165e2437cac30f87391b6d87a3630fc5f4d5abba1bccb9f186a3da",
+  "source_sha256": {
+    "daily.csv": "4e48b51a3ae1053d7a46b1a0532cd02b7e41700162a90f13a22f0b7348ad2ca9",
+    "error_autocorrelation.csv": "f12f262293a200874902c96811d1e9fa6569a44e4bf86eb4b9a9906ae22f6a87",
+    "fixed_history_references.csv": "61f012e34ea337acb022bd5e0f3f549f9d25c63108276e35aed8746219a48f92",
+    "history_reference_daily.csv": "5cb55fbf3d3b12c2a77ce7e4eb463cc29a11ea395c8e87a8a272e2ffc6c65bbf",
+    "history_reference_metrics.csv": "57a331ec092ff6519be052e403028d61ef327a5cd08274635893d641231f76b9",
+    "intervals.csv": "7a2785b36668473c6e690f79a97b332646ba553c7e953867710389e9584aa885",
+    "lag_correlations.csv": "b24b7886a642a3a1bce85faee2ed4c64580e0adfce22ad382d26d72d58770bba",
+    "monthly.csv": "7c1236e0528f399db97721ebcf7333c817b73781247d9b8f2b8dc912c1d36eae",
+    "month_curves.csv": "cb7afaa17bb9318eea80bb80720a27fca148cd7e6becfbf8fad28192f39c8c41",
+    "net_reference_errors.csv": "eb625aed94b4eb7e78d10d0d57db5139f57dff2276b7a5c21ce10358cbf44a02",
+    "reference_information_audit.csv": "90819fc34cc0c6973b8bd0e144bc05916b15eae4436654010120ac54a771f200",
+    "six_hour_error_windows.csv": "81b9da21d9b6dd3bfb03bd2535b7a448d711f757876e495a9b9903accc39f2d5",
+    "specified_days.csv": "cb920ced0f5a8824d1f03c90d85d859bfd31c45af4946add8a01df3307e5d8f0",
+    "weekday.csv": "2d71bb5db94fe78bb071b234170fa71e2aab46e73b6b8914045913c050c8714b",
+    "weekday_curves.csv": "726b0a4dec208f9f1ee2539abef388daa69cb6160432195a009d4b0904c11e70"
+  },
+  "matplotlib": "3.11.1",
+  "font": "C:\\Windows\\Fonts\\simsun.ttc",
+  "figures": [
+    "01_monthly_supply",
+    "02_weekday_structure",
+    "03_storage_limits",
+    "04_history_references",
+    "05_error_continuity",
+    "06_specified_days"
+  ],
+  "dpi": 300,
+  "output_sha256": {
+    "01_monthly_supply.pdf": "501f83a766dbec7337dbe7abf077113459784dc2b530c7c573c9f14cf1057821",
+    "01_monthly_supply.png": "07470f7b78962840495ccf6142756e753e6f3db12ab3c07520735b305bb88eaf",
+    "02_weekday_structure.pdf": "29b77a9417e9b80a239b1549b9991d32da6566ef553e48907f1bab6ca663b2a4",
+    "02_weekday_structure.png": "5c14f60bff25c0c3c7b30743583c82460a9d548b67ea8e467d0c1ae470ae7d7f",
+    "03_storage_limits.pdf": "1e8a48ffea5db4e43e2ca8a420cf328353a987d9f96c0ffb2edcda86fb48fd92",
+    "03_storage_limits.png": "a04123343460cb103e49444fcc331446df70348e7f818628bc72e96b48eaea88",
+    "04_history_references.pdf": "943c0d1738a26eeee6ee5986cb093d61379920a10178d836d70f2ecb6a5cd87f",
+    "04_history_references.png": "797820b8a6e543e0f89b658491a8b6420afd6afccecf38f3bd596f17be9e662c",
+    "05_error_continuity.pdf": "713570c5590769fbe5440398cf452cd5679efd4b23f8d7c8902bb0a6ab8f0930",
+    "05_error_continuity.png": "52fceebf0ca67afe0caa4df8fbdf44da39e69998b0adecac271c9b237ab641b6",
+    "06_specified_days.pdf": "ce7584826aedb7849bc61d43904fcccd039487e9900c235ddcd8a24d80fc1cda",
+    "06_specified_days.png": "356fa76a84194cf8e79b42232c075664dc3744f9acb8144f685715f9fc456c7a"
+  },
+  "all_text_within_canvas": true,
+  "visual_qa": "pending actual inspection",
+  "models_run": 0
+}

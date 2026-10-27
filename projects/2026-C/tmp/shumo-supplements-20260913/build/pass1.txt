@@ -1,0 +1,120 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex.fmt)
+entering extended mode
+(main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(C:\Program Files\Latex\tex/latex/ctex\ctexart.cls
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+(C:\Program Files\Latex\tex/latex/ctex/config\ctexbackend.cfg)
+(C:\Program Files\Latex\tex/latex/l3kernel\expl3.sty
+(C:\Program Files\Latex\tex/latex/l3backend\l3backend-xetex.def))
+Document Class: ctexart 2026/07/01 v2.6.1 Chinese adapter for class article (CT
+EX)
+(C:\Program Files\Latex\tex/latex/ctex\ctexhook.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+) (C:\Program Files\Latex\tex/latex/ctex\ctexpatch.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+) (C:\Program Files\Latex\tex/latex/base\fix-cm.sty
+(C:\Program Files\Latex\tex/latex/base\ts1enc.def))
+(C:\Program Files\Latex\tex/latex/ctex/config\ctexopts.cfg)
+(C:\Program Files\Latex\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Program Files\Latex\tex/latex/base\size12.clo))
+(C:\Program Files\Latex\tex/latex/ctex/engine\ctex-engine-xetex.def
+(C:\Program Files\Latex\tex/xelatex/xecjk\xeCJK.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+(C:\Program Files\Latex\tex/latex/l3packages/xtemplate\xtemplate.sty)
+(C:\Program Files\Latex\tex/latex/fontspec\fontspec.sty
+(C:\Program Files\Latex\tex/latex/l3packages/xparse\xparse.sty)
+(C:\Program Files\Latex\tex/latex/fontspec\fontspec-xetex.sty
+(C:\Program Files\Latex\tex/latex/base\fontenc.sty)
+(C:\Program Files\Latex\tex/latex/fontspec\fontspec.cfg)))
+(C:\Program Files\Latex\tex/xelatex/xecjk\xeCJK.cfg)))
+(C:\Program Files\Latex\tex/latex/zhnumber\zhnumber.sty
+(C:\Program Files\Latex\tex/latex/zhnumber\zhnumber-utf8.cfg))
+(C:\Program Files\Latex\tex/latex/ctex/scheme\ctex-scheme-chinese-article.def
+(C:\Program Files\Latex\tex/latex/ctex/config\ctex-name-utf8.cfg))
+(C:\Program Files\Latex\tex/latex/ctex/fontset\ctex-fontset-windows.def))
+(C:\Program Files\Latex\tex/latex/ctex/config\ctex.cfg)
+(C:\Program Files\Latex\tex/latex/geometry\geometry.sty
+(C:\Program Files\Latex\tex/latex/graphics\keyval.sty)
+(C:\Program Files\Latex\tex/generic/iftex\ifvtex.sty
+(C:\Program Files\Latex\tex/generic/iftex\iftex.sty))
+(C:\Program Files\Latex\tex/latex/geometry\geometry.cfg))
+(C:\Program Files\Latex\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\Latex\tex/latex/amsmath\amstext.sty
+(C:\Program Files\Latex\tex/latex/amsmath\amsgen.sty))
+(C:\Program Files\Latex\tex/latex/amsmath\amsbsy.sty)
+(C:\Program Files\Latex\tex/latex/amsmath\amsopn.sty))
+(C:\Program Files\Latex\tex/latex/amsfonts\amssymb.sty
+(C:\Program Files\Latex\tex/latex/amsfonts\amsfonts.sty))
+(C:\Program Files\Latex\tex/latex/booktabs\booktabs.sty)
+(C:\Program Files\Latex\tex/latex/graphics\graphicx.sty
+(C:\Program Files\Latex\tex/latex/graphics\graphics.sty
+(C:\Program Files\Latex\tex/latex/graphics\trig.sty)
+(C:\Program Files\Latex\tex/latex/graphics-cfg\graphics.cfg)
+(C:\Program Files\Latex\tex/latex/graphics-def\xetex.def)))
+(C:\Program Files\Latex\tex/latex/float\float.sty)
+(C:\Program Files\Latex\tex/latex/caption\caption.sty
+(C:\Program Files\Latex\tex/latex/caption\caption3.sty))
+(C:\Program Files\Latex\tex/latex/caption\subcaption.sty)
+(C:\Program Files\Latex\tex/latex/fancyhdr\fancyhdr.sty)
+(C:\Program Files\Latex\tex/latex/enumitem\enumitem.sty)
+(C:\Program Files\Latex\tex/latex/hyperref\hyperref.sty
+(C:\Program Files\Latex\tex/latex/kvsetkeys\kvsetkeys.sty)
+(C:\Program Files\Latex\tex/generic/kvdefinekeys\kvdefinekeys.sty)
+(C:\Program Files\Latex\tex/generic/pdfescape\pdfescape.sty
+(C:\Program Files\Latex\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Program Files\Latex\tex/generic/pdftexcmds\pdftexcmds.sty
+(C:\Program Files\Latex\tex/generic/infwarerr\infwarerr.sty)))
+(C:\Program Files\Latex\tex/latex/hycolor\hycolor.sty)
+(C:\Program Files\Latex\tex/latex/hyperref\nameref.sty
+(C:\Program Files\Latex\tex/latex/refcount\refcount.sty)
+(C:\Program Files\Latex\tex/generic/gettitlestring\gettitlestring.sty
+(C:\Program Files\Latex\tex/latex/kvoptions\kvoptions.sty)))
+(C:\Program Files\Latex\tex/latex/etoolbox\etoolbox.sty)
+(C:\Program Files\Latex\tex/generic/stringenc\stringenc.sty)
+(C:\Program Files\Latex\tex/latex/hyperref\pd1enc.def)
+(C:\Program Files\Latex\tex/generic/intcalc\intcalc.sty)
+(C:\Program Files\Latex\tex/latex/hyperref\puenc.def)
+(C:\Program Files\Latex\tex/latex/url\url.sty)
+(C:\Program Files\Latex\tex/generic/bitset\bitset.sty
+(C:\Program Files\Latex\tex/generic/bigintcalc\bigintcalc.sty)))
+(C:\Program Files\Latex\tex/latex/hyperref\hxetex.def
+(C:\Program Files\Latex\tex/latex/rerunfilecheck\rerunfilecheck.sty
+(C:\Program Files\Latex\tex/generic/uniquecounter\uniquecounter.sty)))
+(main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(main.out) (main.out) (sections/sec_0_abstract.tex
+(C:\Program Files\Latex\tex/latex/amsfonts\umsa.fd)
+(C:\Program Files\Latex\tex/latex/amsfonts\umsb.fd)
+
+LaTeX Warning: No \author given.
+
+[1]) (sections/sec_1_problem_review.tex [2])
+(sections/sec_2_problem_analysis.tex [3] [4])
+(sections/sec_3_model_assumption.tex [5] [6])
+(sections/sec_4_data_preprocessing.tex [7] [8] [9] [10] [11] [12])
+(sections/sec_5_q1.tex [13] [14] [15] [16] [17] [18] [19] [20])
+(sections/sec_6_q2.tex [21] [22] [23] [24] [25] [26] [27] [28] [29] [30]
+[31] [32]) (sections/sec_7_q3.tex [33] [34] [35] [36] [37] [38] [39] [40]
+[41] [42] [43] [44] [45] [46]) (sections/sec_8_q4.tex [47] [48] [49] [50]
+[51] [52]) (sections/sec_9_create.tex [53] [54]) [55] (main.aux) )
+Output written on E:\Projects\SCUT-MathModel-2026\projects\2026-C\tmp\shumo-sup
+plements-20260913\build\main.pdf (55 pages).
+Transcript written on E:\Projects\SCUT-MathModel-2026\projects\2026-C\tmp\shumo
+-supplements-20260913\build\main.log.

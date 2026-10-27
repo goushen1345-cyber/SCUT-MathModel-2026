@@ -1,0 +1,28 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[UTF8,heading=true]{ctex}
+\usepackage[a4paper,left=25mm,right=25mm,top=22mm,bottom=22mm]{geometry}
+\usepackage{fontspec,xeCJK,graphicx,booktabs,array,amsmath,amssymb}
+\usepackage[hidelinks]{hyperref}
+\setmainfont{Times New Roman}
+\setCJKmainfont{SimSun}[BoldFont=SimHei]
+\setCJKsansfont{SimHei}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{3pt}
+\linespread{1.18}
+\setlength{\tabcolsep}{6pt}
+\setlength{\abovecaptionskip}{5pt}
+\emergencystretch=1.5em
+\widowpenalty=10000\clubpenalty=10000
+\ctexset{section={format=\Large\bfseries},subsection={format=\large\bfseries},subsubsection={format=\normalsize\bfseries}}
+\graphicspath{{figures/}}
+\makeatletter
+\newcommand{\tableinput}[1]{\@@input #1 }
+\newenvironment{inlinefigure}{\par\addvspace{8pt}\noindent\begin{minipage}{\linewidth}\def\@captype{figure}\centering}{\end{minipage}\par\addvspace{8pt}}
+\newenvironment{inlinetable}{\par\addvspace{7pt}\noindent\begin{minipage}{\linewidth}\def\@captype{table}\centering\small}{\end{minipage}\par\addvspace{7pt}}
+\makeatother
+\setcounter{secnumdepth}{2}
+\pagestyle{plain}
+\begin{document}
+\section*{问题二的模型建立与求解}
+\input{chapter.tex}
+\end{document}

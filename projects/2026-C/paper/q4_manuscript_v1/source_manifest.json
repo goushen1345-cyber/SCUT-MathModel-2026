@@ -1,0 +1,37 @@
+{
+  "scope": "Existing results only; no new research",
+  "inputs": {
+    "audit\\q4-price-exploration-v1\\outputs\\intraday_profile.csv": "f475f86aa745019d9517dda09debf2ec07ff1e4cc1e46f669a263e8c0580aac9",
+    "audit\\q4-price-exploration-v1\\outputs\\summary.json": "72c8502a1c048e152fc7a7d150d4a1b99a995c9cace02893570396f7ab122a69",
+    "questions\\Q3\\runs\\20260911-parameter-interpretability-v1\\outputs\\margins\\q60_b070_w28_h03.npz": "bb3b294f1b5ebbf3632858c64fe0ded87884577e39b7c15403b362916f21c179",
+    "questions\\Q4\\runs\\20260912-selected-deepening-v1\\analysis\\consecutive_high_price_blocks.csv": "fc7c1bbff1f2d7bd1424889ef6a8440ec5a72c64c176fb1c1c4ec4adf6b29e25",
+    "questions\\Q4\\runs\\20260912-selected-deepening-v1\\analysis\\high_price_interval_risk.csv": "a76a7ed3415b208cd34476e3c5a1b8052a78fd82614d99c1f43c043c3b36bd5e",
+    "questions\\Q4\\runs\\20260912-selected-deepening-v1\\analysis\\perfect_price_information_gap.csv": "a9aa83bf32ff7fb06480fd46b47822ba98349859646228f28386c570025ebf80",
+    "questions\\Q4\\runs\\20260912-selected-deepening-v1\\analysis\\q42_feature_parameter_comparison.csv": "0e4f23ef9adbc03a4bbfbfe25aa8ea70587e99fffb3f2aa7716b8f497d83eff5",
+    "questions\\Q4\\runs\\20260912-selected-deepening-v1\\analysis\\q43_price_update_value.csv": "7b74ac5da79aa7621591df3818971d16a9b75f6dde9dd90a2f19233737832c3b",
+    "questions\\Q4\\runs\\20260912-selected-deepening-v1\\analysis\\q43_structure_comparison.csv": "c5ecac5b53d3bf555ecc1dcbae9d455d02ca79b082d7fa6a17c9f0ccbc7f9f21",
+    "questions\\Q4\\runs\\20260912-selected-deepening-v1\\analysis\\terminal_inventory_valuation.csv": "e003482c35f17e07b9333380e6aa1348c8faf0521d5645d2e8afd9358a4067cb",
+    "questions\\Q4\\runs\\20260912-selected-deepening-v1\\outputs\\strategies\\Q4-2-P3-leaves31.daily.csv": "6232fc2f19040f4d501e65ca78e6f742305cc4ecf12e1016b75e7cb67ae45b3d",
+    "questions\\Q4\\runs\\20260912-selected-deepening-v1\\outputs\\strategies\\Q4-3-P2-full.daily.csv": "b21fb7ef97d64c8488f699c9a76ae4f1808eb255b2e8eac4b079c05b5f660bbf",
+    "questions\\Q4\\runs\\20260912-selected-deepening-v1\\outputs\\verification.json": "0e5e27289cf07c1f64d9a4af7ed12b82638b8f295f393dfd88f6e6dba8412fe6",
+    "questions\\Q4\\runs\\20260912-selected-deepening-v1\\run_deepening.py": "f1ecfcae6405e9b8573cedcca33fdb7a6308c89ac1cc5aa0712621ddc369265f",
+    "questions\\Q4\\runs\\20260912-selected-deepening-v1\\validation_report.md": "fa9dfc8dd40236fdfb78b9be736c23a9b95d22212f354c4dcd4a80473327026b",
+    "questions\\Q4\\runs\\20260912-three-candidates-v1\\interpretation\\p2_coefficient_stability.csv": "b991db25eb18f59c4ba8ccbb5a1cae6eaf1775849100cea57fac93c7073a7c81",
+    "questions\\Q4\\runs\\20260912-three-candidates-v1\\interpretation\\price_forecast_metrics.csv": "c9b3fd2bdaa69a87acf9131258c14b6b193430acbfc9743e8242379ba0d41b7a",
+    "questions\\Q4\\runs\\20260912-three-candidates-v1\\outputs\\common_start\\Q4-2-P3.daily.csv": "4d453100814c5066ee37f92ac340fd8c84281e44c1b177546836769056e9ee3c",
+    "questions\\Q4\\runs\\20260912-three-candidates-v1\\outputs\\common_start\\Q4-3-P3.daily.csv": "6bfca7bf2b7235a1d7e27f9328f0767ab5358854a19c9592f99c4f0311e3f978",
+    "questions\\Q4\\runs\\20260912-three-candidates-v1\\outputs\\common_start\\summary.json": "cdeb2454c1bb454ce03bc810a84610fc023ddc1e654ee84b8e6eafd63a645864",
+    "questions\\Q4\\runs\\20260912-three-candidates-v1\\run_compare.py": "60078da1b1817a8bd21c36ebb0dc6e7f888c55bae45f44c32324ab2b42b97a05",
+    "state\\state.json": "f16287cf2993f135c8fd892f63e3ba4988dd6cc6c093c4aa9cec98a025150749"
+  },
+  "outputs": {
+    "figures\\01_price_pattern.pdf": "98cdc9e5e9c0bf434aacf07d793e3d33541adfe6425b24f624ef5810d0e08884",
+    "figures\\01_price_pattern.png": "cd50cad10c94b242fe9f60b391d5c6a16b63386645dff031567605b97061ece7",
+    "figures\\02_monthly_comparison.pdf": "6b030177cf9661c1b31d481edfdd8327496accb94b06531d4a3be82b4e491b8b",
+    "figures\\02_monthly_comparison.png": "e5ef440fd4d9dbb145ac8ca5bd9f513a55d9fb704f66fcbe14638895069c237c",
+    "figures\\03_validation.pdf": "371d98c48444287e1066c297a7b5da3b544e83e291f26c5bc3424dc86737e043",
+    "figures\\03_validation.png": "270003016e29350979b491deb7d5a12ed82518ec85a8dcf0b80ea10dac13c05f"
+  },
+  "code_sha256": "eb7b3d2f0902fc9d2bd8939503f675887dfd2e944919b2380b16161b80b2ad87",
+  "matplotlib": "3.11.1"
+}

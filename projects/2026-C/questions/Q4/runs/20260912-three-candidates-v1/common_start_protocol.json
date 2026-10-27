@@ -1,0 +1,14 @@
+{
+  "purpose": "Fair-selection control discovered after the continuous run: remove unequal Feb-1 inventory from the official-period candidate comparison",
+  "authorization_basis": "Q4-TRIAL-067 requires a fair comparison of P1--P3",
+  "input": "saved causal price forecasts and saved common Q2/Q3 supply inputs from the completed main run",
+  "period": "2025-02-01 through 2025-12-31",
+  "common_initial_storage_kwh": 8592.693560925925,
+  "reason_for_value": "the previously verified common January path used by the existing Q2/Q3 official-period comparisons",
+  "branches": ["Q4-2", "Q4-3"],
+  "candidates": ["P1", "P2", "P3"],
+  "new_price_fits": 0,
+  "hard_budget": {"lp_calls": 5200, "seconds": 900},
+  "selection_rule": "use this same-start official-period result for candidate ranking; retain the original Jan-1 continuous run as a practical initialization sensitivity result",
+  "not_in_scope": ["retuning", "candidate 4", "result4 export", "paper writing"]
+}

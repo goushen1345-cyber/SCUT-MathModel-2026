@@ -1,0 +1,35 @@
+\section{符号说明}
+以$d$表示日期，以$k$表示当天的10分钟区间。第$k$段为$[(k-1)\Delta t,k\Delta t)$，$k=1,\ldots,144$，$\Delta t=1/6$ h。$S_{d,0}$为当天零点储电量，$S_{d,k}$为第$k$段结束时的储电量，一天共对应145个状态边界。问题一只考虑一个代表日，以下模型中省略日期下标$d$。
+
+功率、时段电量和库存分别表示供用电速率、该段累计电量及边界时刻的剩余电量。三者的主要符号与单位列于表\ref{tab:symbols}；决策量的电量流向在问题一模型中进一步说明。
+
+{\small\renewcommand{\arraystretch}{1.18}
+\begin{longtable}{>{\centering\arraybackslash}p{3.0cm}>{\raggedright\arraybackslash}p{8.2cm}>{\centering\arraybackslash}p{3.3cm}}
+\caption{主要符号及其含义}\label{tab:symbols}\\
+\toprule 符号 & 含义 & 单位或取值 \\ \midrule
+\endfirsthead
+\multicolumn{3}{c}{表\thetable\quad 主要符号及其含义（续）}\\
+\toprule 符号 & 含义 & 单位或取值 \\ \midrule
+\endhead
+\bottomrule\endfoot
+$d,\ k$ & 日期下标、日内时段索引 & $k=1,\ldots,144$\\
+$\Delta t$ & 一个调度时段的长度 & $1/6$ h\\
+$L_{d,k},\ P^{\mathrm{PV}}_{d,k}$ & 小区负载功率、光伏功率 & kW\\
+$E^{\mathrm L}_{d,k},\ E^{\mathrm{PV}}_{d,k}$ & 负载电量、光伏电量；由相应功率乘$\Delta t$得到 & kWh\\
+$p_{d,k}$ & 对应供电时段的电价 & 元/kWh\\
+$m_{d,k}$ & 光伏直接供给负载的电量 & kWh\\
+$n_{d,k},\ r_{d,k}$ & 光伏直供后的负载缺口、光伏富余电量 & kWh\\
+$x_{d,k}$ & 外网购电中送入储能设备的电量 & kWh\\
+$y_{d,k}$ & 送入储能设备的光伏电量 & kWh\\
+$z_{d,k}$ & 储能设备输出给负载的电量 & kWh\\
+$S_{d,k}$ & 第$k$段结束时的电池内部储电量 & kWh\\
+$q_{d,k}$ & 外网购电总量；问题一中由电量分配关系确定 & kWh\\
+$E^{\mathrm{ch}}_{d,k},\ E^{\mathrm{dis}}_{d,k}$ & 外侧总充电量$x_{d,k}+y_{d,k}$、总放电量$z_{d,k}$ & kWh\\
+$w_{d,k}$ & 未被负载或电池利用的光伏电量 & kWh\\
+$S_0$ & 问题一初始储电量，主方案取6000 & kWh\\
+$S_{\mathrm{cap}}$ & 设备额定最大容量 & 12000 kWh\\
+$S_{\min},\ S_{\max}$ & 允许运行的储电量下限、上限 & 1200、10800 kWh\\
+$P_{\max}$ & 外侧充电或放电功率上限 & 5000 kW\\
+$\eta_{\mathrm c},\ \eta_{\mathrm d}$ & 充电效率、放电效率 & 均为0.90\\
+$C$ & 问题一全天普通购电费用 & 元\\
+\end{longtable}}

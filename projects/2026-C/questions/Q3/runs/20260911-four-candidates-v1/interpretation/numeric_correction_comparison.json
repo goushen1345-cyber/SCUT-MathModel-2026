@@ -1,0 +1,56 @@
+[
+  {
+    "label": "S4_a0.5_b1_exact",
+    "old_cost": 1223825.1988417944,
+    "new_cost": 1223825.1988417944,
+    "difference": 0.0
+  },
+  {
+    "label": "S4_a0.5_b0.9_exact",
+    "old_cost": 1225515.4043812805,
+    "new_cost": 1225515.4043812805,
+    "difference": 0.0
+  },
+  {
+    "label": "S4_a0.5_b0.7_exact",
+    "old_cost": 1226737.1515808876,
+    "new_cost": 1226737.1515808876,
+    "difference": 0.0
+  },
+  {
+    "label": "S4_a0.7_b1_exact",
+    "old_cost": 1293661.7592634927,
+    "new_cost": 1293661.7592634927,
+    "difference": 0.0
+  },
+  {
+    "label": "S4_a0.7_b0.9_exact",
+    "old_cost": 1270027.8938315567,
+    "new_cost": 1270027.8938315567,
+    "difference": 0.0
+  },
+  {
+    "label": "S4_a0.7_b0.7_exact",
+    "old_cost": 1254252.395042682,
+    "new_cost": 1254252.395042682,
+    "difference": 0.0
+  },
+  {
+    "label": "S4_a0.9_b1_exact",
+    "old_cost": 1490714.1584142472,
+    "new_cost": 1490714.1584142472,
+    "difference": 0.0
+  },
+  {
+    "label": "S4_a0.9_b0.9_exact",
+    "old_cost": 1398256.2983871175,
+    "new_cost": 1398256.2983871175,
+    "difference": 0.0
+  },
+  {
+    "label": "S4_a0.9_b0.7_exact",
+    "old_cost": 1328701.9679163555,
+    "new_cost": 1328701.9679163555,
+    "difference": 0.0
+  }
+]

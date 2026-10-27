@@ -1,0 +1,19 @@
+{
+  "normal_cost": 12760163.43145528,
+  "adjustment_cost": 151040.20504754919,
+  "ordinary_cost": 12911203.63650283,
+  "emergency_cost": 260812.38398147142,
+  "total_cost": 13172016.0204843,
+  "order_kwh": 20792530.290479973,
+  "emergency_kwh": 47587.1867673951,
+  "unused_order_kwh": 498461.7471302333,
+  "unused_pv_kwh": 1164305.202060489,
+  "label": "F1_no_new",
+  "days": 334,
+  "initial": 8592.693560925925,
+  "final": 8514.40795037037,
+  "emergency_days": 170,
+  "lp_calls": 1336,
+  "max_residual": 4.774847184307873e-12,
+  "max_dual_gap": 1.3096723705530167e-10
+}

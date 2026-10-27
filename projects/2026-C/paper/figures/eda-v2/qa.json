@@ -1,0 +1,72 @@
+{
+  "reproduction_binary_identical": {
+    "01_reference_day.pdf": true,
+    "01_reference_day.png": true,
+    "02_year_and_month.pdf": true,
+    "02_year_and_month.png": true,
+    "03_monthly_intraday.pdf": true,
+    "03_monthly_intraday.png": true,
+    "04_daily_weekly_patterns.pdf": true,
+    "04_daily_weekly_patterns.png": true,
+    "05_net_load_calendar.pdf": true,
+    "05_net_load_calendar.png": true,
+    "06_prices_and_weekdays.pdf": true,
+    "06_prices_and_weekdays.png": true,
+    "07_forecast_accuracy.pdf": true,
+    "07_forecast_accuracy.png": true,
+    "eda_figures.pdf": true
+  },
+  "pages": [
+    {
+      "page": 1,
+      "out_of_page": [],
+      "nonblack_text": [],
+      "width_pt": 511.2,
+      "height_pt": 583.2
+    },
+    {
+      "page": 2,
+      "out_of_page": [],
+      "nonblack_text": [],
+      "width_pt": 511.2,
+      "height_pt": 583.2
+    },
+    {
+      "page": 3,
+      "out_of_page": [],
+      "nonblack_text": [],
+      "width_pt": 511.2,
+      "height_pt": 583.2
+    },
+    {
+      "page": 4,
+      "out_of_page": [],
+      "nonblack_text": [],
+      "width_pt": 511.2,
+      "height_pt": 460.8
+    },
+    {
+      "page": 5,
+      "out_of_page": [],
+      "nonblack_text": [],
+      "width_pt": 511.2,
+      "height_pt": 554.4
+    },
+    {
+      "page": 6,
+      "out_of_page": [],
+      "nonblack_text": [],
+      "width_pt": 511.2,
+      "height_pt": 561.6
+    },
+    {
+      "page": 7,
+      "out_of_page": [],
+      "nonblack_text": [],
+      "width_pt": 511.2,
+      "height_pt": 482.4
+    }
+  ],
+  "scientific_check": "audit/eda-v1/verification.json",
+  "visual_status": "AI viewed all 7 final PDF pages via Poppler render; labels, legends, bounds checked; no human review; not yet embedded in manuscript"
+}

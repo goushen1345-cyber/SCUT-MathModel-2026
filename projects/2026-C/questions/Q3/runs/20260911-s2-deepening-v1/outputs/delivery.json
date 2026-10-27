@@ -1,0 +1,25 @@
+{
+  "status": "deepening_results_delivered",
+  "authorization": "Q3-DEEPEN-064",
+  "selected": "M_q65_b070",
+  "selected_cost_yuan": 13177140.135736044,
+  "saving_vs_initial_s2_yuan": 911565.5286912173,
+  "saving_vs_refined_q2_yuan": 406670.705628898,
+  "selected_parameters": {
+    "error_quantile": 0.65,
+    "daily_error_weight_decay": 0.7,
+    "history_days": 28,
+    "target_group_hours": 4,
+    "allowance_at_release_hours": [0, 6, 12, 18],
+    "reduction_floor": 0
+  },
+  "budget": {
+    "new_lp_calls": 30728,
+    "new_tree_fits": 0,
+    "research_seconds": 318.0883996000048
+  },
+  "verification": "outputs/verification.json checks all 23 saved strategies and 1106208 actual intervals; no new solves",
+  "selection_limit": "Parameters were explored on the required 334-day period; this is not an untouched external test.",
+  "not_done": ["paper prose", "result3 workbook", "freeze", "Q4", "scenario optimization"],
+  "human_review": false
+}

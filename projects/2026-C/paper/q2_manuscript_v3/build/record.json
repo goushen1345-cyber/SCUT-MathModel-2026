@@ -1,0 +1,52 @@
+{
+  "commands": [
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.exe",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q2_manuscript_v3\\build",
+      "问题二的模型建立与求解.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.exe",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q2_manuscript_v3\\build",
+      "问题二的模型建立与求解.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xdvipdfmx.exe",
+      "-q",
+      "-o",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q2_manuscript_v3\\问题二的模型建立与求解.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q2_manuscript_v3\\build\\问题二的模型建立与求解.xdv"
+    ],
+    [
+      "C:\\Users\\Rog\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+      "-r",
+      "115",
+      "-png",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q2_manuscript_v3\\问题二的模型建立与求解.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q2_manuscript_v3\\preview\\page"
+    ]
+  ],
+  "input_sha256": {
+    "chapter.tex": "7c3b12396d5946cf72d455d6e37bcfba0b4e87a50955cbc803c03edb7760fa35",
+    "问题二的模型建立与求解.tex": "217b8ef9da8b9d922422ecb50ae56654e0a3044c1e73ffe6ff88d670ee27ddc4",
+    "tables\\comparison.tex": "972c9b2f78763a08805cacd88e231918d3b9e494ea11968028dae619c471da1e",
+    "tables\\emergency.tex": "0c3217a8ef96f1e72c97fa017021ef5369f27d0f298d77019ae91ed67b661059",
+    "tables\\purchase.tex": "9a8b0e58ac50647b6c70a4a40511ba4850550c9d94ca26f254f485acd314ac6d",
+    "tables\\storage.tex": "d8da0283cd59d97e7d187f6eea300bb70ac725c0d08d0e333cffe39f9a4c9317",
+    "figures\\monthly_cost.pdf": "9ac30ac8a75ff661c88a6c0ff7179f2932fdd81c86003589eec376e50f3ab7e2",
+    "figures\\sensitivity.pdf": "a1a945ab50935b913ede1311621aa6117df1f8dcf768cfedfa12ae49fb055b22",
+    "figures\\specified_days.pdf": "01d1108f22660d2611b3b409663218dfb16a64f89159f8355d35b9f4841504ac",
+    "prepare.py": "24a7de54e52e4dd07c1ece0f0c227fd72084b4950e6c21e96643759ab80fb1fc",
+    "build.py": "59f3b24ce521c96210eb6ec3d6d969298cfcaf6e69f3cabe0718511b55c2088a"
+  },
+  "pdf_sha256": "118cfe67eebd8d8a4ae8ef09090c710b2435e2eeb1015dcd1e05454c50ee1aef",
+  "scope": "local writing only"
+}

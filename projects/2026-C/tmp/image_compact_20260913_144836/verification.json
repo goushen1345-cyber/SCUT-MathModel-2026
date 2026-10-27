@@ -1,0 +1,20 @@
+{
+  "total_pages": 34,
+  "abstract_pages": 1,
+  "body_pages": 30,
+  "appendix_start_page": 32,
+  "appendix_pages": 3,
+  "warnings": [],
+  "protected_files_unchanged": true,
+  "appendix_unchanged": true,
+  "figure_count": 9,
+  "preserved_model_equation_blocks": 40,
+  "unchanged_result_table_bodies": 24,
+  "symbol_rows_preserved": 22,
+  "initial_storage_values_retained_in_text": true,
+  "evaluation_chapter_text_unchanged": true,
+  "visual_review": "All 34 final pages rendered; all six contact sheets inspected. No overlaps or cropping found; references and appendix link resolved.",
+  "deliverable": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\main(图像压缩版）.pdf",
+  "deliverable_sha256": "315abf316d21e430241fd8f98868c41609be46162ebf558850cb18f4b0bf710e",
+  "references": "No bibliography in inherited source; not added in this figure-compression task."
+}

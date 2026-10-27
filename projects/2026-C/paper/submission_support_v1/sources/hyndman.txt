@@ -1,0 +1,375 @@
+ 
+ 
+ 
+
+   
+   
+   Forecasting: Principles and Practice (3rd ed) 
+   
+   
+
+   
+   
+   
+   
+  
+
+   
+   
+   
+   
+   
+
+
+
+
+   
+   
+   
+  
+  
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+
+
+ 
+
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+
+ 
+
+
+
+   
+
+     
+       
+
+ 
+  Forecasting: Principles and Practice  
+
+  
+    Preface  
+     1  Getting started 
+ 
+     1.1  What can be forecast?  
+     1.2  Forecasting, goals and planning  
+     1.3  Determining what to forecast  
+     1.4  Forecasting data and methods  
+     1.5  Some case studies  
+     1.6  The basic steps in a forecasting task  
+     1.7  The statistical forecasting perspective  
+     1.8  Exercises  
+     1.9  Further reading  
+  
+     2  Time series graphics 
+ 
+     2.1   tsibble  objects  
+     2.2  Time plots  
+     2.3  Time series patterns  
+     2.4  Seasonal plots  
+     2.5  Seasonal subseries plots  
+     2.6  Scatterplots  
+     2.7  Lag plots  
+     2.8  Autocorrelation  
+     2.9  White noise  
+     2.10  Exercises  
+     2.11  Further reading  
+  
+     3  Time series decomposition 
+ 
+     3.1  Transformations and adjustments  
+     3.2  Time series components  
+     3.3  Moving averages  
+     3.4  Classical decomposition  
+     3.5  Methods used by official statistics agencies  
+     3.6  STL decomposition  
+     3.7  Exercises  
+     3.8  Further reading  
+  
+     4  Time series features 
+ 
+     4.1  Some simple statistics  
+     4.2  ACF features  
+     4.3  STL Features  
+     4.4  Other features  
+     4.5  Exploring Australian tourism data  
+     4.6  Exercises  
+     4.7  Further reading  
+  
+     5  The forecaster’s toolbox 
+ 
+     5.1  A tidy forecasting workflow  
+     5.2  Some simple forecasting methods  
+     5.3  Fitted values and residuals  
+     5.4  Residual diagnostics  
+     5.5  Distributional forecasts and prediction intervals  
+     5.6  Forecasting using transformations  
+     5.7  Forecasting with decomposition  
+     5.8  Evaluating point forecast accuracy  
+     5.9  Evaluating distributional forecast accuracy  
+     5.10  Time series cross-validation  
+     5.11  Exercises  
+     5.12  Further reading  
+  
+     6  Judgmental forecasts 
+ 
+     6.1  Beware of limitations  
+     6.2  Key principles  
+     6.3  The Delphi method  
+     6.4  Forecasting by analogy  
+     6.5  Scenario forecasting  
+     6.6  New product forecasting  
+     6.7  Judgmental adjustments  
+     6.8  Further reading  
+  
+     7  Time series regression models 
+ 
+     7.1  The linear model  
+     7.2  Least squares estimation  
+     7.3  Evaluating the regression model  
+     7.4  Some useful predictors  
+     7.5  Selecting predictors  
+     7.6  Forecasting with regression  
+     7.7  Nonlinear regression  
+     7.8  Correlation, causation and forecasting  
+     7.9  Matrix formulation  
+     7.10  Exercises  
+     7.11  Further reading  
+  
+     8  Exponential smoothing 
+ 
+     8.1  Simple exponential smoothing  
+     8.2  Methods with trend  
+     8.3  Methods with seasonality  
+     8.4  A taxonomy of exponential smoothing methods  
+     8.5  Innovations state space models for exponential smoothing  
+     8.6  Estimation and model selection  
+     8.7  Forecasting with ETS models  
+     8.8  Exercises  
+     8.9  Further reading  
+  
+     9  ARIMA models 
+ 
+     9.1  Stationarity and differencing  
+     9.2  Backshift notation  
+     9.3  Autoregressive models  
+     9.4  Moving average models  
+     9.5  Non-seasonal ARIMA models  
+     9.6  Estimation and order selection  
+     9.7  ARIMA modelling in  fable   
+     9.8  Forecasting  
+     9.9  Seasonal ARIMA models  
+     9.10  ARIMA vs ETS  
+     9.11  Exercises  
+     9.12  Further reading  
+  
+     10  Dynamic regression models 
+ 
+     10.1  Estimation  
+     10.2  Regression with ARIMA errors using  fable   
+     10.3  Forecasting  
+     10.4  Stochastic and deterministic trends  
+     10.5  Dynamic harmonic regression  
+     10.6  Lagged predictors  
+     10.7  Exercises  
+     10.8  Further reading  
+  
+     11  Forecasting hierarchical and grouped time series 
+ 
+     11.1  Hierarchical and grouped time series  
+     11.2  Single level approaches  
+     11.3  Forecast reconciliation  
+     11.4  Forecasting Australian domestic tourism  
+     11.5  Reconciled distributional forecasts  
+     11.6  Forecasting Australian prison population  
+     11.7  Exercises  
+     11.8  Further reading  
+  
+     12  Advanced forecasting methods 
+ 
+     12.1  Complex seasonality  
+     12.2  Prophet model  
+     12.3  Vector autoregressions  
+     12.4  Neural network models  
+     12.5  Bootstrapping and bagging  
+     12.6  Exercises  
+     12.7  Further reading  
+  
+     13  Some practical forecasting issues 
+ 
+     13.1  Weekly, daily and sub-daily data  
+     13.2  Time series of counts  
+     13.3  Ensuring forecasts stay within limits  
+     13.4  Forecast combinations  
+     13.5  Prediction intervals for aggregates  
+     13.6  Backcasting  
+     13.7  Very long and very short time series  
+     13.8  Forecasting on training and test sets  
+     13.9  Dealing with outliers and missing values  
+     13.10  Further reading  
+  
+    Appendix: Using R  
+    Appendix: For instructors  
+    Appendix: Reviews  
+    Translations  
+    About the authors  
+    Buy a print version  
+    Help and feedback  
+    Changelog  
+    Bibliography  
+  
+  Published by OTexts™ with bookdown  
+
+ 
+
+       
+     
+
+     
+       
+         
+           
+               Forecasting: Principles and Practice  (3rd ed)  
+           
+         
+
+         
+           
+
+             
+ 
+ Forecasting: Principles and Practice  (3rd ed)  
+  Rob J Hyndman and George Athanasopoulos  
+ 
+Monash University, Australia 
+ 
+ 
+ 
+ Preface   
+ 
+
+ 
+ 
+ 
+ 
+ Buy a print version 
+ 
+ 
+ Welcome to our online textbook on forecasting. 
+ This textbook is intended to provide a comprehensive introduction to forecasting methods and to present enough information about each method for readers to be able to use them sensibly. We don’t attempt to give a thorough discussion of the theoretical details behind each method, although the references at the end of each chapter will fill in many of those details. 
+ The book is written for three audiences: (1) people finding themselves doing forecasting in business when they may not have had any formal training in the area; (2) undergraduate students studying business; (3) MBA students doing a forecasting elective. We use it ourselves for masters students and third-year undergraduate students at Monash University, Australia. 
+ For most sections, we only assume that readers are familiar with introductory statistics, and with high-school algebra. There are a couple of sections that also require knowledge of matrices, but these are flagged. 
+ At the end of each chapter we provide a list of “further reading”. In general, these lists comprise suggested textbooks that provide a more advanced or detailed treatment of the subject. Where there is no suitable textbook, we suggest journal articles that provide more information. 
+ We use R throughout the book and we intend students to learn how to forecast with R. R is free and available on almost every operating system. It is a wonderful tool for all statistical analysis, not just for forecasting. See the  Using R appendix  for instructions on installing and using R. 
+ All R examples in the book assume you have loaded the  fpp3  package first: 
+       library (fpp3)    
+  #> ── Attaching packages ──────────────────────────────── fpp3 1.0.3 ──
+#> ✔ tibble      3.3.1     ✔ tsibble     1.2.0
+#> ✔ dplyr       1.2.1     ✔ tsibbledata 0.4.1
+#> ✔ tidyr       1.3.2     ✔ ggtime      0.2.0
+#> ✔ lubridate   1.9.5     ✔ feasts      0.5.0
+#> ✔ ggplot2     4.0.3     ✔ fable       0.5.0
+#> ── Conflicts ───────────────────────────────────── fpp3_conflicts ──
+#> ✖ lubridate::date()    masks base::date()
+#> ✖ dplyr::filter()      masks stats::filter()
+#> ✖ tsibble::intersect() masks base::intersect()
+#> ✖ tsibble::interval()  masks lubridate::interval()
+#> ✖ dplyr::lag()         masks stats::lag()
+#> ✖ tsibble::setdiff()   masks base::setdiff()
+#> ✖ tsibble::union()     masks base::union()  
+ This will load the relevant data sets, and attach several packages as listed above. These include several   tidyverse   packages, and packages to handle time series and forecasting in a “tidy” framework. 
+ The above output also shows the package versions we have used in compiling this edition of the book. Some examples in the book will not work with earlier versions of the packages. 
+ Finally, the output lists some conflicts showing which function will be preferenced when a function of the same name is in multiple packages. 
+ The book is different from other forecasting textbooks in several ways. 
+ 
+ It is free and online, making it accessible to a wide audience. 
+ It uses R, which is free, open-source, and extremely powerful software. 
+ The online version is continuously updated. You don’t have to wait until the next edition for errors to be removed or new methods to be discussed. We will update the book frequently. 
+ There are dozens of real data examples taken from our own consulting practice. We have worked with hundreds of businesses and organisations helping them with forecasting issues, and this experience has contributed directly to many of the examples given here, as well as guiding our general philosophy of forecasting. 
+ We emphasise graphical methods more than most forecasters. We use graphs to explore the data, analyse the validity of the models fitted and present the forecasting results. 
+ 
+ 
+ Changes in the third edition   
+ The most important change in edition 3 of the book is that we use the  tsibble  and  fable  packages rather than the  forecast  package. This allows us to integrate closely with the  tidyverse  collection of packages. As a consequence, we have replaced many examples to take advantage of the new facilities. 
+ We have also added some new material on time series features, and reorganised the content so Chapters  2 – 4  discuss exploratory analysis of time series, before we introduce any forecasting methods. This is because we should first have a good understanding of our time series, their patterns and characteristics, before we attempt to build any models and produce any forecasts. 
+ In the online version of the book, we have included some videos at the start of most sections. These are intended to complement the written material in each section. You can view the  entire playlist on YouTube . 
+ Helpful readers of the earlier versions of the book let us know of any typos or errors they had found. These were updated immediately online. No doubt we have introduced some new mistakes, and we will correct them online as soon as they are spotted. Please continue to  let us know  about such things. 
+ If you have questions about using the R packages discussed in this book, or about forecasting in general, please ask on the  OTexts discussion forum . 
+   
+ Happy forecasting! 
+ Rob J Hyndman and George Athanasopoulos 
+ May 2021 
+ 
+ To cite the online version of this book, please use the following: 
+ 
+ Hyndman, R.J., & Athanasopoulos, G. (2021)  Forecasting: principles and practice , 3rd edition, OTexts: Melbourne, Australia. OTexts.com/fpp3. Accessed on  <current date> . 
+ 
+   
+ 
+ This online version of the book was last updated on 23 July 2026. 
+ The print version of the book ( available from Amazon ) was last updated on 31 May 2021. 
+ 
+
+ 
+ 
+             
+
+           
+         
+       
+
+    
+     
+   
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+ 

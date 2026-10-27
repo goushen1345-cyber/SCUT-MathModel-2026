@@ -1,0 +1,519 @@
+{
+  "schema_version": 1,
+  "revision": 23,
+  "stage": "DEEPEN_PLAN",
+  "execution_status": "ACTIVE",
+  "active_question": "Q1",
+  "data_version": "prepared-v1",
+  "pending_gate": null,
+  "questions": {
+    "Q1": {
+      "role": "NORMAL",
+      "status": "ACTIVE",
+      "validity": "VALID",
+      "depends_on": [],
+      "frozen_version": null,
+      "snapshots": {}
+    },
+    "Q2": {
+      "role": "NORMAL",
+      "status": "NOT_STARTED",
+      "validity": "VALID",
+      "depends_on": [
+        {
+          "question": "Q1",
+          "version": null
+        }
+      ],
+      "frozen_version": null,
+      "snapshots": {}
+    },
+    "Q3": {
+      "role": "NORMAL",
+      "status": "NOT_STARTED",
+      "validity": "VALID",
+      "depends_on": [],
+      "frozen_version": null,
+      "snapshots": {}
+    },
+    "Q4": {
+      "role": "NORMAL",
+      "status": "NOT_STARTED",
+      "validity": "VALID",
+      "depends_on": [],
+      "frozen_version": null,
+      "snapshots": {}
+    }
+  },
+  "authorizations": [
+    {
+      "id": "G0-INIT-003",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "scope": "GLOBAL",
+      "plan_version": "G0-analysis-v2",
+      "user_quote": "那就这么办，到时候用问题一的方案用做第二问1月1号的购买结构",
+      "message_ref": "本聊天当前用户消息；对G0-analysis-v2首日问题连续解释后，确认Q2借用Q1方案启动，记录于v3第8.7节；仅该局部选择，不是G0整体通过或执行授权",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "G0-SURPLUS-004",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "scope": "GLOBAL",
+      "plan_version": "G0-analysis-v3",
+      "user_quote": "那就这么办",
+      "message_ref": "本聊天当前消息，紧接并确认上一回复的唯一明确余电处置方案：实际收到的余电允许时储存，最终用不掉存不下记未利用、不计售电收入、不重复计费；详见decisions.md G0-SURPLUS-004，仅局部口径确认",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "G0-SETTLE-005",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "scope": "GLOBAL",
+      "plan_version": "G0-analysis-v4",
+      "user_quote": "第三问的购电计划采用：举例说，原计划100 kWh、单价1元，减至80：若退20元再收10元违约费，相关费用为90元  ，这个方案吧，然后调整时相较于0点做的计划",
+      "message_ref": "本聊天当前消息，仅确认退款+违约费及零点比较基准；见G0-SETTLE-005，不代表多次现金流规则或G0整体通过",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "G0-OVERLAP-006",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "scope": "GLOBAL",
+      "plan_version": "G0-analysis-v5",
+      "user_quote": "重叠的部分就只算一次就行了吧",
+      "message_ref": "本聊天当前消息，仅记录同一时段重叠调减不重复收费的明确含义；恢复购买后旧费退否仍待澄清，非完整结算或G0批准",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "G0-PRICE-007",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "scope": "GLOBAL",
+      "plan_version": "G0-analysis-v6",
+      "user_quote": "问题4的电价不能提前知道",
+      "message_ref": "本聊天当前消息，确认Q4两分支未来真实价格不可提前知道，详见G0-PRICE-007；非模型选择、训练或G0整体批准",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "G0-DETAIL-008",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "scope": "GLOBAL",
+      "plan_version": "G0-analysis-v7",
+      "user_quote": "1. 不用解决，到时候填数据的时候注意一下就好了\n2. 充放各百分之90\n3. 你给我推荐\n4. 除开存不下来的电全送来，另一个给我推荐\n5. 除了问题1就是第二天沿用前一天剩下的储存电量不就行了",
+      "message_ref": "本聊天当前五项回复；仅已选口径及暂缓安排，结算/模板要求推荐不等于批准，见G0-DETAIL-008",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "G0-CONFIRM-009",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "scope": "GLOBAL",
+      "plan_version": "G0-analysis-v8",
+      "user_quote": "那就这么来，把这些也定下来吧",
+      "message_ref": "本聊天当前消息，紧接上一回复三项明确推荐：最终订单统一结算、供电时段定价、调整表最终总量；见G0-CONFIRM-009，仅口径选择，非G0整体或研究执行批准",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "DATA-AUDIT-010",
+      "from_stage": "WAIT_G0",
+      "to_stage": "DATA_PLAN",
+      "scope": "GLOBAL",
+      "plan_version": "G0-analysis-v9",
+      "user_quote": "G0是干啥的，以后别跟我讲这种黑话，直接开始下一阶段",
+      "message_ref": "本聊天当前明确指令；下一阶段已解释为只读数据检查及处理方案，见DATA-AUDIT-010；延期语义不视为自动解决，未授权清洗或建模",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "DATA-PREP-012",
+      "from_stage": "WAIT_G1",
+      "to_stage": "DATA_EXEC",
+      "scope": "GLOBAL",
+      "plan_version": "Data-plan-v1",
+      "user_quote": "那就按照你的方案整理数据吧",
+      "message_ref": "本聊天当前明确批准Data-plan-v1四表整理和逐值核验，见DATA-PREP-012；不包括数值清洗、插值、冻结或建模",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "DATA-EDA-015",
+      "from_stage": "WAIT_G2",
+      "to_stage": "WAIT_G2",
+      "scope": "GLOBAL",
+      "plan_version": "EDA-v1",
+      "user_quote": "现在进行数据探索性分析，现在已经查明的是部分数据存在周期性和季节性，现在调用skills进行数据探索性分析，并用人话详细解释一遍发现的规律等等，构思论文需要画的图表并把图画出来",
+      "message_ref": "本聊天2026-09-11当前用户请求，范围和停止条件见decisions.md DATA-EDA-015",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "DATA-ADOPT-020",
+      "from_stage": "WAIT_G2",
+      "to_stage": "READY",
+      "scope": "GLOBAL",
+      "plan_version": "EDA-v1-delivery",
+      "user_quote": "采用现有整理数据，并开始问题一的建模准备",
+      "message_ref": "本聊天当前用户明确采用现有整理数据；见decisions.md DATA-ADOPT-020。只采纳来源版本，不表示未执行时段映射等已确认或人类逐值核验。",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "Q1-PREP-021",
+      "from_stage": "READY",
+      "to_stage": "CANDIDATES",
+      "scope": "Q1",
+      "plan_version": "Q1-preparation-entry-v1",
+      "user_quote": "采用现有整理数据，并开始问题一的建模准备",
+      "message_ref": "本聊天当前消息明确承接上一轮解释的准备范围：电量关系、候选及试跑计划，完成停下，暂不求解；见decisions.md Q1-PREP-021。",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "Q1-CANDIDATES-023",
+      "from_stage": "WAIT_A",
+      "to_stage": "WAIT_A",
+      "scope": "Q1",
+      "plan_version": "Q1-candidate-space-v2",
+      "user_quote": "你现在先把所有候选列出来，不一定要这么多，但是要多考虑一些方案",
+      "message_ref": "本聊天当前明确扩大候选讨论请求；见decisions.md Q1-CANDIDATES-023。只授权候选解释及相应记录，不是试跑批准。",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "TIME-INDEX-024",
+      "from_stage": "WAIT_A",
+      "to_stage": "WAIT_A",
+      "scope": "GLOBAL",
+      "plan_version": "time-index-v1",
+      "user_quote": "那这三个问题就按照现在这样明确下来并记录，现在你要为我推荐这4种方案的候选选哪个，第一种方案我们已经决定选3了",
+      "message_ref": "本聊天当前消息确认上一回复的时间顺序/日期归属、k与Δt、日下标d方案；见decisions.md TIME-INDEX-024，仅记录非执行数据变换。",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "Q1-SELECT-025",
+      "from_stage": "WAIT_A",
+      "to_stage": "WAIT_A",
+      "scope": "Q1",
+      "plan_version": "Q1-selection-v3",
+      "user_quote": "那这三个问题就按照现在这样明确下来并记录，现在你要为我推荐这4种方案的候选选哪个，第一种方案我们已经决定选3了",
+      "message_ref": "本聊天当前消息明确第一类候选03，其余请求推荐；见decisions.md Q1-SELECT-025。不视为试跑、其他三类已选或设备计量建议批准。",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "Q1-TRIAL-026",
+      "from_stage": "WAIT_A",
+      "to_stage": "TRIAL",
+      "scope": "Q1",
+      "plan_version": "Q1-selection-v3",
+      "user_quote": "那现在就按照实际比较优先围绕 **3、4、10** 展开，你现在实际开始跑，然后用人话输出一份比较结果报告，分析哪个模型效果更好，并把这一过程记录下来，后续论文可能要提到模型对比，不能你实际跑了很多，到时候论文用不上",
+      "message_ref": "本聊天当前明确执行授权；协议细化见runs/20260911-compare-v1/protocol.json及decisions.md Q1-TRIAL-026，只试跑03/04/10至比较交付。",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "Q1-MAIN-028",
+      "from_stage": "WAIT_B",
+      "to_stage": "DEEPEN_PLAN",
+      "scope": "Q1",
+      "plan_version": "Q1-comparison-v1",
+      "user_quote": "那就是用线性规划，现在评估目前的建模水平，是否需要继续深化模型，还是直接进入问题二就可以了",
+      "message_ref": "本聊天当前用户明确选线性规划并要求评估深化必要性；不包含新实验、冻结或进入Q2授权。",
+      "confirmed_by": "user"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-09-10",
+      "from_stage": "GLOBAL",
+      "to_stage": "WAIT_G0",
+      "reason": "当前用户明确请求全题题意分析，依据见decisions.md G0-ANALYSIS-001。核实4问后用既有脚本初始化；完成report.md G0-analysis-v1和只读源结构记录。保留所有小问未开始；无人工G0批准、CORE/依赖选择或数据冻结。新增歧义阻断受影响后续研究，题意分析本身已交付。",
+      "artifacts": [
+        "report.md",
+        "scripts/inspect_problem_sources.py",
+        "tmp/problem-analysis/source_snapshot.json"
+      ],
+      "authorization_ref": "用户当前分析请求；非G0通过，详见G0-ANALYSIS-001"
+    },
+    {
+      "date": "2026-09-10",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "reason": "本正式工作聊天按真实G0阅读请求补充G0-analysis-v2；发现其他任务写入后暂停共享修改，确认其完成再顺序接续，保留既有报告与历史。完整读取三页PDF及21工作表，仅记录结构和语义，不作全面数据审计或研究执行。Q2历史信息边界沿用用户明确口径；Q4价格可知性及其余关键语义仍待确认。保持所有小问未开始、无数据版本、无G0批准或冻结。",
+      "artifacts": [
+        "report.md",
+        "audit/g0_structure_v2.json",
+        "state/decisions.md",
+        "state/ai_usage_log.md",
+        "state/README.md"
+      ],
+      "authorization_ref": "G0-READ-002：仅完整阅读、解释与记录授权，非G0通过"
+    },
+    {
+      "date": "2026-09-10",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "reason": "记录用户对Q2首日启动的明确选择，缩小U04待定范围并新增Q2依赖Q1（版本为空）；不将局部语义选择当成G0通过或模拟授权。",
+      "authorization_ref": "G0-INIT-003，仅首日初始化口径确认",
+      "artifacts": [
+        "report.md",
+        "state/decisions.md",
+        "state/ai_usage_log.md"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "reason": "依据用户确认记录余电未利用与费用口径，缩小U06；保留合同实际交付等未定事项。未批准G0整体或研究执行，问级状态与依赖不变。",
+      "authorization_ref": "G0-SURPLUS-004",
+      "artifacts": [
+        "report.md",
+        "state/decisions.md",
+        "state/ai_usage_log.md",
+        "state/README.md"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "reason": "记录用户两项Q3结算选择，缩小U03范围；保留多次结算及价格时点歧义，不开展研究或跨问。",
+      "authorization_ref": "G0-SETTLE-005",
+      "artifacts": [
+        "report.md",
+        "state/decisions.md",
+        "state/ai_usage_log.md",
+        "state/README.md"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "reason": "记录重叠调减不重复计费，保留旧费退否等未定项，不推进研究。",
+      "authorization_ref": "G0-OVERLAP-006",
+      "artifacts": [
+        "report.md",
+        "state/decisions.md",
+        "state/ai_usage_log.md"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "reason": "依据用户明确选择解决U02未来电价可知性并移除该未决阻断；保留Q4两分支原权限及所有其他未明项，不推进研究。",
+      "authorization_ref": "G0-PRICE-007",
+      "artifacts": [
+        "report.md",
+        "state/decisions.md",
+        "state/ai_usage_log.md",
+        "state/README.md"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "reason": "记录用户明确效率/接收/跨日选择及时间暂缓；提出未批准的结算和模板建议，未推进G0或研究。",
+      "authorization_ref": "G0-DETAIL-008",
+      "artifacts": [
+        "report.md",
+        "state/decisions.md",
+        "state/ai_usage_log.md",
+        "state/README.md"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "reason": "按真实用户确认将8.12三项建议转为已选择，关闭U03/U08语义未决项并保留历史；未启动研究或推进G0。",
+      "authorization_ref": "G0-CONFIRM-009",
+      "artifacts": [
+        "report.md",
+        "state/decisions.md",
+        "state/ai_usage_log.md",
+        "state/README.md"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "from_stage": "WAIT_G0",
+      "to_stage": "DATA_PLAN",
+      "reason": "用户明确要求直接进入已说明的数据检查阶段，允许不依赖延期口径的只读质量审计及处理方案。保留影响未来计算的未决项，研究问未开始；以后聊天不用内部阶段代号。",
+      "authorization_ref": "DATA-AUDIT-010",
+      "artifacts": [
+        "state/decisions.md"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "from_stage": "DATA_PLAN",
+      "to_stage": "WAIT_G1",
+      "reason": "完成用户授权的只读质量审计并形成Data-plan-v1。4输入工作簿5表全部193152数值完整，模板16表无结果；openpyxl与独立XML读取一致，原件未变。尚未获批处理，保留延期语义及问级未开始状态。",
+      "authorization_ref": "DATA-AUDIT-010；本次交付DATA-PLAN-011不是处理批准",
+      "artifacts": [
+        "report.md",
+        "scripts/audit_source_data.py",
+        "audit/data_audit_v1.json",
+        "audit/data_audit_crosscheck_v1.json",
+        "state/decisions.md",
+        "state/ai_usage_log.md"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "from_stage": "WAIT_G1",
+      "to_stage": "DATA_EXEC",
+      "reason": "用户明确批准P01—P04，在新目录整理保留原值的来源表并核验，保留延期语义，仅执行独立于其的格式转换。",
+      "authorization_ref": "DATA-PREP-012",
+      "artifacts": [
+        "state/decisions.md"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "from_stage": "DATA_EXEC",
+      "to_stage": "WAIT_G2",
+      "reason": "完成获批P01—P04：生成四CSV及说明，独立XML核验193152数值和全部来源日期/时间键一致，原件不变；待用户确认prepared-v1，保持未冻结及全部小问未开始。",
+      "authorization_ref": "DATA-PREP-012；核验记录DATA-VERIFY-013不是用户冻结授权",
+      "artifacts": [
+        "data/prepared-v1/manifest.json",
+        "data/prepared-v1/README.md",
+        "audit/prepared_v1_verification.json",
+        "scripts/prepare_source_tables.py",
+        "scripts/verify_prepared_tables.py",
+        "report.md",
+        "state/decisions.md",
+        "state/ai_usage_log.md"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "from_stage": "WAIT_G2",
+      "to_stage": "WAIT_G2",
+      "reason": "登记用户新增全局EDA与代码图授权，源数据未冻结且不变更版本；保持原数据确认点和延期语义，只执行不依赖其的描述分析。",
+      "authorization_ref": "DATA-EDA-015",
+      "artifacts": [
+        "state/decisions.md",
+        "report.md",
+        "scripts/explore_data.py"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "from_stage": "WAIT_G2",
+      "to_stage": "WAIT_G2",
+      "reason": "完成已授权全局EDA及七类代码图，独立计算与复现/视觉检查已做；未改变数据版本和小问状态，等待用户决定后续范围。",
+      "authorization_ref": "DATA-EDA-015；DATA-EDA-016是交付记录而非用户批准",
+      "artifacts": [
+        "audit/eda-v1/summary.json",
+        "audit/eda-v1/verification.json",
+        "paper/figures/eda-v2/manifest.json",
+        "paper/figures/eda-v2/qa.json",
+        "paper_evidence/figure_registry.md",
+        "report.md"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "from_stage": "WAIT_G2",
+      "to_stage": "READY",
+      "reason": "用户明确采用prepared-v1；10原件、4CSV和README哈希核对一致。原U01/U04-U06/U07未解决，保留并将阻断范围定位到相关实际计算，见Q1/report第3节；不阻止明确授权的来源采用与条件准备，未删除历史或批准新口径。",
+      "authorization_ref": "DATA-ADOPT-020",
+      "artifacts": [
+        "state/decisions.md",
+        "questions/Q1/report.md",
+        "data/prepared-v1/manifest.json"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "from_stage": "READY",
+      "to_stage": "CANDIDATES",
+      "reason": "依据用户明确授权进入Q1建模准备。仅Q1设为活动问，无上游冻结依赖；Q2—Q4保持未开始。不因准备授权确认计量/模式建议或开始求解。",
+      "authorization_ref": "Q1-PREP-021",
+      "artifacts": [
+        "questions/Q1/report.md",
+        "state/decisions.md"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "from_stage": "CANDIDATES",
+      "to_stage": "WAIT_A",
+      "reason": "完成已授权的条件电量账、四视角候选筛选、具体计量/模式/初态建议及公平试跑计划。没有运行、选型或新语义批准；计算前未决细节保留在Q1/report第3、6节及本确认点，不代为确认。",
+      "authorization_ref": "Q1-PREP-021；Q1-PREP-022为交付而非试跑批准",
+      "artifacts": [
+        "questions/Q1/report.md",
+        "report.md",
+        "state/decisions.md",
+        "state/ai_usage_log.md"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "from_stage": "WAIT_A",
+      "to_stage": "WAIT_A",
+      "reason": "按用户要求扩展四视角候选，替换过早收缩的待确认名单。当前候选空间v2无实跑预算；保留旧未获批计划和所有未确认设备/时间语义。来源数据及其他问状态不变。",
+      "authorization_ref": "Q1-CANDIDATES-023",
+      "artifacts": [
+        "questions/Q1/report.md",
+        "report.md",
+        "state/decisions.md",
+        "state/ai_usage_log.md"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "from_stage": "WAIT_A",
+      "to_stage": "WAIT_A",
+      "reason": "按用户真实确认记录时间与日期下标方案、第一类候选03；对另三类给出建议，未代为选定。来源数据保持prepared-v1，无实际变换或新研究结果；状态继续等待候选选择。",
+      "authorization_ref": "TIME-INDEX-024；Q1-SELECT-025",
+      "artifacts": [
+        "state/decisions.md",
+        "questions/Q1/report.md",
+        "report.md",
+        "paper_evidence/data.md",
+        "state/ai_usage_log.md"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "from_stage": "WAIT_A",
+      "to_stage": "TRIAL",
+      "reason": "用户明确开始03/04/10实际比较；运行前登记共同工作假设、时间映射、有限相同参数预算、独立核验及论文交接。无其他小问/主模型/冻结批准。",
+      "authorization_ref": "Q1-TRIAL-026",
+      "artifacts": [
+        "questions/Q1/runs/20260911-compare-v1/protocol.json",
+        "questions/Q1/report.md",
+        "state/decisions.md"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "from_stage": "TRIAL",
+      "to_stage": "WAIT_B",
+      "reason": "完成明确授权的03/04/10实跑、独立来源/物理/费用/原对偶核验、一次复现和真实图文交接。04成本最低且推荐作为初始主模型，尚无用户选型。规则未改善组合、工作假设和未证泛化均保留。",
+      "authorization_ref": "Q1-TRIAL-026；Q1-TRIAL-027仅交付记录",
+      "artifacts": [
+        "questions/Q1/runs/20260911-compare-v1/comparison_report.md",
+        "questions/Q1/runs/20260911-compare-v1/delivery_manifest.json",
+        "questions/Q1/report.md",
+        "questions/Q1/experiments.md",
+        "paper_evidence/Q1.md",
+        "paper_evidence/figure_registry.md"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "from_stage": "WAIT_B",
+      "to_stage": "DEEPEN_PLAN",
+      "reason": "记录用户选择04线性规划为Q1初始主模型，基于既有比较评估成熟度并设计有限收尾方案，不执行新增验证。",
+      "authorization_ref": "Q1-MAIN-028",
+      "artifacts": [
+        "questions/Q1/report.md",
+        "paper_evidence/Q1.md",
+        "state/decisions.md"
+      ]
+    }
+  ],
+  "blockers": []
+}

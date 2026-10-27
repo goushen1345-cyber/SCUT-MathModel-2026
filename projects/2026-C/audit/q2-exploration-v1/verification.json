@@ -1,0 +1,23 @@
+{
+  "raw_numeric_values_checked": 105120,
+  "timestamp_mappings_checked": 52560,
+  "submission_intervals": 48096,
+  "independent_decimal_totals": {
+    "load_kwh": "37007843.78591666665850000004",
+    "pv_kwh": "19068889.99428333333986633920",
+    "direct_pv_kwh": "16010730.07808333333056633929",
+    "positive_net_kwh": "20997113.70783333332793366057",
+    "surplus_kwh": "3058159.916200000009300000014",
+    "power_spill_lower_bound_kwh": "16297.05148333333391666666670",
+    "grid_required_by_power_kwh": "287684.3296333333331408686335"
+  },
+  "all_fixed_reference_values_checked": 673344,
+  "max_reference_difference_kw": 3.637978807091713e-12,
+  "all_6h_windows_checked": 72812,
+  "max_window_difference_kwh": 1.0459189070388675e-11,
+  "past_only_information": true,
+  "source_and_output_hashes_match": true,
+  "ai_verification_only": true,
+  "solver_calls": 0,
+  "fitted_models": 0
+}

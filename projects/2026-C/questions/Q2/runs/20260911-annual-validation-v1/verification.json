@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "counts": {
+    "actual": 1024848,
+    "planned": 1771776,
+    "forecast_values": 3543552,
+    "fits": 104
+  },
+  "maximum_absolute_errors": {
+    "source": 0.0,
+    "forecast": 5.4569682106375694e-12,
+    "margin": 7.567280135845067e-13,
+    "balance": 2.2737367544323206e-13,
+    "storage": 0.0,
+    "plan": 1.8189894035458565e-12,
+    "fees": 3.725290298461914e-09,
+    "features": 3.637978807091713e-12
+  },
+  "max_ridge_relative_equation_residual": 3.322587535486952e-14,
+  "solver_calls_checked": 6486,
+  "decimal_annual_totals": {
+    "T1": {
+      "ordinary": "12185750.54569892266058478647",
+      "emergency": "3747020.845138136836566326982",
+      "total": "15932771.39083705949715111345"
+    },
+    "T2": {
+      "ordinary": "12102708.71511898367540004561",
+      "emergency": "4468813.835485141484602980342",
+      "total": "16571522.55060412516000302595"
+    },
+    "T3": {
+      "ordinary": "12182524.68856628535977117687",
+      "emergency": "3437062.503086398861983050921",
+      "total": "15619587.19165268422175422779"
+    },
+    "T4": {
+      "ordinary": "12959857.21095054439190162589",
+      "emergency": "1070514.981551697938131147755",
+      "total": "14030372.19250224233003277364"
+    }
+  },
+  "source_previous_output_new_output_hashes": true,
+  "causal_information_and_refit_cadence": true,
+  "separate_load_pv_models": true,
+  "all_daily_orders_locked_and_civil_dates_continuous": true,
+  "new_solves": 0,
+  "new_fits": 0,
+  "human_review": false,
+  "proves": "Numerical/information and accounting consistency under stated model; not unseen-year generalization."
+}

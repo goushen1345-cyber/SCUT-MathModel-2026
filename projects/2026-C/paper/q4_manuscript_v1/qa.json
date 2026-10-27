@@ -1,0 +1,25 @@
+{
+  "scope": "writing QA only",
+  "pdf_pages": 8,
+  "page_text_lengths": [
+    1259,
+    1479,
+    1359,
+    1213,
+    1497,
+    1178,
+    1368,
+    477
+  ],
+  "inputs_checked": 22,
+  "figures_checked": 6,
+  "state_unchanged": true,
+  "state_sha256": "f16287cf2993f135c8fd892f63e3ba4988dd6cc6c093c4aa9cec98a025150749",
+  "primary_totals_match_saved_evidence": true,
+  "pdf_sha256": "dc958d25650a8d7fe1ee73c17854f6a878c054b6f82d17bb04166edd5a74eda1",
+  "report_sha256": "0d7057f82f525fc4da94ec7d69baac4afe3a0c9fd08002ae2beda2f2b3a54328",
+  "no_overfull_or_missing_glyph_or_undefined_reference": true,
+  "visual_review": "See visual_qa.md for actual assistant page inspection; no human approval implied",
+  "new_model_fits": 0,
+  "new_optimization_solves": 0
+}

@@ -1,0 +1,8 @@
+{
+  "changed_entries": 120,
+  "max_margin_change": 7.637900000000172,
+  "new_tree_fits": 0,
+  "new_lp_calls": 0,
+  "method": "exact decimal rational weight crossing",
+  "original": "margins.npz preserved in numeric-correction-v1"
+}

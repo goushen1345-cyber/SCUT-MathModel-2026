@@ -1,0 +1,89 @@
+{
+  "commands": [
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.exe",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\complete_manuscript_v1\\build",
+      "完整论文.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.exe",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\complete_manuscript_v1\\build",
+      "完整论文.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.exe",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\complete_manuscript_v1\\build",
+      "完整论文.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xdvipdfmx.exe",
+      "-q",
+      "-o",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\complete_manuscript_v1\\完整论文.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\complete_manuscript_v1\\build\\完整论文.xdv"
+    ],
+    [
+      "C:\\Users\\Rog\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+      "-r",
+      "110",
+      "-png",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\complete_manuscript_v1\\完整论文.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\complete_manuscript_v1\\preview\\page"
+    ]
+  ],
+  "input_sha256": {
+    "abstract.tex": "ac8ef92e80e2d914ac4cf3f4feb712ae3ab6a1362b9ce2915020e9d81450eed6",
+    "assumptions_symbols.tex": "5aaa6d11bf428b0033c36c432679a92aa19495dfd0a28e769afb9e567bdcbf55",
+    "back.tex": "e42dec61b4605a472942aedb5abc77783f854b2f77d3e88e8767af7cfcbceba2",
+    "data.tex": "27d297dadc35c268214fc7a2e3a063b4ffa378ded5477e3c43c51a088e36f4d7",
+    "front.tex": "e60de55de2197683cf439b9650eb9c045b6f35642cb2469544313d0b38e37450",
+    "q1.tex": "eec223c2e4bf6ca3f49f412098a7fbc6b130b7528fd28af653cd8ed8a2e9cb1a",
+    "q2.tex": "46e2baccfb5fcdb76ad9d879d5b7b149e62350360ee0d1fcd5dc897e68239ec3",
+    "q3.tex": "a389783679a064978bed97c28493699fc845fc6610334c23e780b241fe1e3895",
+    "q4.tex": "2fc0238e75cf98c0fac8c1d8ee5177f6486bcf3357f55d8a97b58ceb8469bfbf",
+    "result_values.tex": "b4fd149de9aa5faa1d1f9568929bd2d45f7e5ff4fc0087328aa117826ac64df1",
+    "完整论文.tex": "eecd391ef00824413a5f29df09f9c174e34f32a0c2fd5813968aa5d5ce506ce7",
+    "q1_figures\\01_reference_day.pdf": "d619ba29bcccae5870b29194d2029bfc5aaff2bce223945fe478294d24d1a9ca",
+    "q1_figures\\02_year_and_month.pdf": "bd31ff257ca3f1de59908713c503c6bfeaaac4d95c8293aa0b8005fb7b35f45c",
+    "q1_figures\\06_prices_and_weekdays.pdf": "ca6f9423259dd5033b79ab872e8f8efbaea3844ec3fb43f297b3b91136c43722",
+    "q1_figures\\07_forecast_accuracy.pdf": "dfc8adce768c6e0aa986dbc4fd3d6de850c0d401c9a6584a0b62869f884f2172",
+    "q1_figures\\q1_daily_dispatch.pdf": "232be5ca15389e50f252eb6c6d1d744057f11ed6d4c5e56afb6c0a8088d9ebd0",
+    "q2_figures\\monthly_cost.pdf": "9ac30ac8a75ff661c88a6c0ff7179f2932fdd81c86003589eec376e50f3ab7e2",
+    "q2_figures\\sensitivity.pdf": "a1a945ab50935b913ede1311621aa6117df1f8dcf768cfedfa12ae49fb055b22",
+    "q2_figures\\specified_days.pdf": "01d1108f22660d2611b3b409663218dfb16a64f89159f8355d35b9f4841504ac",
+    "q3_figures\\final_monthly.pdf": "fc506bfb13e8bb181b5fdec7bfc86742aa95d733b434d42dba221bf189c0e89a",
+    "q3_figures\\information_value.pdf": "1ec5e9249dd70089431e81b33f3179de212dd9deba77124d18332ebc4519bbcc",
+    "q3_figures\\parameter_interpretability.pdf": "83cc8f41eb43248fa582e1519688d786e0c664fb43b71a6697aef1a5c9cf70a4",
+    "q3_figures\\specified_days.pdf": "9e2ea33a7225c00420ced8b0a6d41201998cf0f8a665db86e5abdc568f808f9a",
+    "q4_figures\\问题四模型检验.pdf": "371d98c48444287e1066c297a7b5da3b544e83e291f26c5bc3424dc86737e043",
+    "figures\\微网系统示意图.png": "a831d0d029856f3a9cb5e590c1c4418248eb74d4bfe4bdd99ada38361ddc86df",
+    "q2_figures\\monthly_cost.png": "1d17d54fc67da81b660840986d7df08504c08ba68031d4dbed618656c986741c",
+    "q2_figures\\sensitivity.png": "45e00e73a45a2b275b8c12e6f1e479d4088c7c0ac2af7ebf45d0dfefc10340be",
+    "q2_figures\\specified_days.png": "9183178074e16e96a75ddf6cee77e8aea4af66e90164f399c48673f495a3857e",
+    "q3_figures\\final_monthly.png": "4810dc06ccac2b867c76c2593bb73e49d3ba8a991eae2cc80317278a47ccee4b",
+    "q3_figures\\information_value.png": "25d34b8279fb79c84d4472ad5500058e7643f1aebd58f0885fb1cddab59d24af",
+    "q3_figures\\parameter_interpretability.png": "8336ac90bc46d6bc29ce0e716dfd0f48d8a242fdfdd566b007a7f49f1cc301b2",
+    "q3_figures\\specified_days.png": "9867d67ce1d63d496120a7a9e925827efc93bdac52bc9c567485caa1547fed0a",
+    "q4_figures\\问题四模型检验.png": "270003016e29350979b491deb7d5a12ed82518ec85a8dcf0b80ea10dac13c05f",
+    "q1_figures\\问题一论文草稿png\\图1_代表日供需与电价的时间错配.png": "7a28881e99ce8c6313a845e58afc63d8dcc0aac16a767eee9b6bd0e2bf305ab5",
+    "q1_figures\\问题一论文草稿png\\图2_负载光伏与电价的年内变化.png": "56f0fc5b34d92d7c56af829096cdbfafbd48b2b0981acf3cdda9ca24a546c170",
+    "q1_figures\\问题一论文草稿png\\图3_星期用电差异与电价波动.png": "5823a9b95f564015d633ed9bac83efe0b47a39d45be68c209e7df8f8bf676d01",
+    "q1_figures\\问题一论文草稿png\\图4_光伏预报误差与更新效果.png": "6d31c400ad60a6d58079ef630ed38b7470c3f6278153a15d986ac4cd165f3a78",
+    "q1_figures\\问题一论文草稿png\\图5_问题一电量分配关系.png": "a9df69c10d2784ab89d831254c332581d6fb0bea909ce06d8e0b2ac7afcb109f",
+    "q1_figures\\问题一论文草稿png\\图6_三种策略的购电与储能安排.png": "c4f1d1ce9a106784b0f1a17f9f2dac0753412a3869ab55a3c9e52e180401b5c5"
+  },
+  "pdf_sha256": "f37094482bdb431aa889d589ea7f4a3cb5b7a4cdfeb50fd2b3002291f511c0ba",
+  "scope": "Complete paper assembled from the current Q1-Q4 sections, front/back sections, and user-supplied microgrid illustration"
+}

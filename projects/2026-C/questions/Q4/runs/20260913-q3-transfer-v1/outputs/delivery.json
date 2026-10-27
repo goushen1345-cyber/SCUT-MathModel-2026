@@ -1,0 +1,23 @@
+{
+  "status": "verified_recommendation_not_frozen",
+  "upstream": "Q3 EW4_Q60_full",
+  "q43_recommended": "EW4_P2_Q60",
+  "cost": 13695929.700337432,
+  "saving": 126971.64875469916,
+  "saving_percent": 0.9185600442922822,
+  "Q42": "unchanged",
+  "paper": "not_modified; Q3 and Q4-3 pending coherent update",
+  "formal_state": "unchanged historical revision49; explicit scope in decisions log",
+  "sha256": {
+    "questions\\Q4\\runs\\20260913-q3-transfer-v1\\protocol.json": "037162e9baaa0dbed1234eaf8859a387a3b82a1e6d32c53983259da02a9b2b5c",
+    "questions\\Q4\\runs\\20260913-q3-transfer-v1\\run.py": "7bf546e016251dc82a83f5097d97c8098e3a9ca1a8e9cee68543f501572c49c1",
+    "questions\\Q4\\runs\\20260913-q3-transfer-v1\\verify.py": "153385f4886500e850722315b12a8248ea957729bd608092beaf84cfb9a278ba",
+    "questions\\Q4\\runs\\20260913-q3-transfer-v1\\outputs\\summary.json": "47ccd1d3af5b10244a1099c9cf24abb11e263a05bb0b747c332c6852d2fdb49a",
+    "questions\\Q4\\runs\\20260913-q3-transfer-v1\\outputs\\verification.json": "95aea2f4acfeb040aee52e4dd57c76cee2d4a053772400f2af3fadb722d5c0fa",
+    "questions\\Q4\\runs\\20260913-q3-transfer-v1\\outputs\\comparison.csv": "82fa652d9963e0372ab4cf8ae507ac7122cf411a783876654706b1b89fbd1e4e",
+    "questions\\Q4\\runs\\20260913-q3-transfer-v1\\outputs\\supply.npz": "a81c4ae718aec2202d3e28edfb09ca3ed1e9ce7f3e1e69cfcad0202650a7c4b9",
+    "questions\\Q4\\runs\\20260913-q3-transfer-v1\\outputs\\prices.npz": "e75cdc9ab2d9bd87b425e28e1a2249dbd93b18deb28ec204513f18d972a42f0d",
+    "questions\\Q4\\runs\\20260913-q3-transfer-v1\\outputs\\strategies\\EW4_P2_Q60.npz": "4bb384c714060a10996b1d00f8417ee1545dcfde6a9fe9c1824b7f4e7c05bc71",
+    "questions\\Q4\\runs\\20260913-q3-transfer-v1\\outputs\\strategies\\EW4_P2_Q60.daily.csv": "a72927b398c7fa5e6c7dbb98cb9a583379e0ce4bd8260d2c58109068e04c1016"
+  }
+}

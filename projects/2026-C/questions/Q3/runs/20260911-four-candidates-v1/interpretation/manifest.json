@@ -1,0 +1,25 @@
+{
+  "code_sha256": "8e5a4884fb08e9ff592da249b6021f5ab9a55a0b41a692ef80fff9ed3c2cee90",
+  "sources": {
+    "questions\\Q3\\runs\\20260911-four-candidates-v1\\outputs\\summary.json": "f504a027eda93a594771269eb13a3c99a4658d1c5c15d1107ea4bb1e7fb57ecc",
+    "questions\\Q3\\runs\\20260911-four-candidates-v1\\outputs\\verification.json": "06ea5ef5237ff7170ca486b608485eed50f1063f53b7e246a02c499b73bd54a7",
+    "questions\\Q3\\runs\\20260911-four-candidates-v1\\outputs\\sources.npz": "1739b45bf65bb653daa8e9f98e87108746ee339814ef55188488706f85b387b7",
+    "questions\\Q3\\runs\\20260911-four-candidates-v1\\outputs\\forecasts.npz": "f63519932a9999d95264c02b198bc2ce25c7baa675c11f1b7c61ed3070b925ce",
+    "questions\\Q2\\runs\\20260911-annual-validation-v1\\delivery_data\\summary.json": "8ea80b90a324f0a02aa06d6b15a81fc8f7225d4be7d6bf14a8703bb653cd6245"
+  },
+  "outputs": {
+    "annual_comparison.csv": "a0fc39d042d9af90b450c44fa9c053424baad6ebed402a3faf47b059d8fcbbdf",
+    "best_and_worst_days.csv": "4f662780d74f91644da7ad0d0605c6f3f7455df13f78d3de7fcaf25716c7188b",
+    "execution_diagnostics.csv": "89c6f674e90c4bfe683581623c2f46b4cf1053936d2c2e86e5c1dadea93acd9d",
+    "findings.json": "9be9d1c7ce006dabf318546d74c830b228fc2ce623072582ffcf499eaa9186d2",
+    "fusion_weights.csv": "8583861b84351e0124257285731d925e6755ec4b983ec3198f9f6946fe0a18c1",
+    "fusion_weight_groups.csv": "56712cb405f75bc23a7c4ba388d0c777a5b9cf26bcb3c4bc9833cae46f0d04a4",
+    "january_comparison.csv": "4913f586b293de2d8251aed43660282f6d9c8165284ce85b9fc6a90752257baf",
+    "monthly_comparison.csv": "a08fd4a1b8968a7037757e76c453aad91aab99e4b00c9e680f30d7be0c9b1c02",
+    "numeric_correction_comparison.json": "3822b200fd44e1e15181b8fdbdce982492239a75db7e9f64d0f114c1cc8b4061",
+    "paired_daily.csv": "ccb481c344b533257e7ca97b1e67580adbed04ff78f6f9c42fe30c13468a4d1b",
+    "pv_error_metrics.csv": "e22b87d63eef8eaac6c89010ac402ec40d524e5a3d3a3238d3f5969915cfa0e9"
+  },
+  "error_definition": "prediction minus actual power, kW; fixed daytime 06:00 inclusive to18:00 exclusive; hourly forecasts overlap, executed intervals counted once",
+  "no_training_or_solving": true
+}

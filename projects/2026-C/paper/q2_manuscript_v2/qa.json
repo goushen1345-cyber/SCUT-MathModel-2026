@@ -1,0 +1,28 @@
+{
+  "source_files_unchanged": 19,
+  "pdf_pages": 8,
+  "values_crosschecked": 171,
+  "figures_reproduced_identically": 6,
+  "black_text_colors": [
+    "(0.0,)"
+  ],
+  "out_of_page_characters": [],
+  "layout_reference_errors": false,
+  "q1_report_links_checked": 17,
+  "pdf_sha256": "2aa5ef1a4391ae6a6ff923600028f1cc699e7c63006fdd702204711d75bdb86f",
+  "rendered_pages": {
+    "page-1.png": "7d94ef9cdd5940fa11ec929743be0019ea32e7617be2c14a16de0c4cfe2cb931",
+    "page-2.png": "90e3e9835e3ceb5a8eac367b697b49c38c4c0d5bdd17bdfd8ea18a5c61c0bad2",
+    "page-3.png": "6e4bbde693b16ae3fa6d78a02f7cfc04949a070cd0da88bc91c8ce938e7e2fa5",
+    "page-4.png": "77ba9e769e67ca85143aa37404ba9734e1c336a60704a97d8f88fd598f47faf5",
+    "page-5.png": "0e34360a59b0000fe2f928acaff21db83c6bd3451675dc7537101beeea6343f7",
+    "page-6.png": "94f4c1b1665175b54b91285936b080a52abcb7549098b2361a0faeb44e0ad6c7",
+    "page-7.png": "d16c1167213e5589754004795b256d118d497329c9d5fabe2bb660e82e031803",
+    "page-8.png": "d4e54d7474f653925f63f1016a995f5912bc8b80cf855a34fd723b6a65e533f8"
+  },
+  "pages_needing_visual_recheck": [],
+  "new_solves": 0,
+  "new_fits": 0,
+  "review_type": "AI source and visual checks, not human approval",
+  "warnings": "MiKTeX release/font redefinition warnings; no missing glyphs or overflow. pandas optional numexpr version warning during drawing."
+}

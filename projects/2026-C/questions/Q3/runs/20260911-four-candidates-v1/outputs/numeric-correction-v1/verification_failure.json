@@ -1,0 +1,24 @@
+{
+  "error": "AssertionError",
+  "message": "('margin_quantile', 0.7292777777777957)",
+  "counts": {},
+  "max_errors": {
+    "actual_source": 0,
+    "forecast_source": 0,
+    "historical_PV": 3.637978807091713e-12,
+    "historical_hourly_PV": 3.637978807091713e-12,
+    "anchor": 0,
+    "load_reference": 1.8189894035458565e-12,
+    "fusion_weight": 7.771561172376096e-16,
+    "fusion_hourly": 3.637978807091713e-12,
+    "tree_features": 3.637978807091713e-12,
+    "saved_tree_prediction": 0,
+    "interval_raw": 3.637978807091713e-12,
+    "interval_fused": 3.637978807091713e-12,
+    "interval_tree7": 3.637978807091713e-12,
+    "interval_tree15": 3.637978807091713e-12,
+    "old_version_only": 3.637978807091713e-12,
+    "own_as_issued_errors": 0,
+    "margin_quantile": 0.7292777777777957
+  }
+}

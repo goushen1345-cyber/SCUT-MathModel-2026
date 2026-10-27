@@ -1,0 +1,6 @@
+﻿strategy,emergency_slots,emergency_at_storage_lower_bound,emergency_at_discharge_limit,actual_simultaneous_charge_discharge,min_storage,max_storage,six_hour_end_inventory_mae_from_plan_kwh,next_six_hour_inventory_mae_from_plan_kwh
+S1_raw,2113,1711,402,0,1200,10800,745.26134177197116,395.51628066828187
+S2_fused,2194,1792,402,0,1200,10800,748.48227413826646,398.73563880357329
+S3_tree,2284,1879,405,0,1200,10800,771.29670779898493,406.98602803777726
+I0_zero_only,3112,2732,380,0,1200,10800,523.2758613182242,344.67734704400124
+I1_no_new_forecast,2257,1886,371,0,1200,10800,921.70885378255582,485.06299889548785

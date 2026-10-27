@@ -1,0 +1,131 @@
+{
+  "savings": {
+    "03_to_04": {
+      "yuan": 3149.7923058668093,
+      "percent": 8.229019663701438
+    },
+    "10_to_04": {
+      "yuan": 2817.5014614021056,
+      "percent": 7.425351752337479
+    },
+    "03_to_10": {
+      "yuan": 332.2908444647037,
+      "percent": 0.8681295868539814
+    }
+  },
+  "events": {
+    "03": {
+      "first_minimum_after_16_hour": 20.0,
+      "state_at_20": 1200.0,
+      "peak_purchase_kwh": 715.6530333333333,
+      "peak_discharge_kwh": 0.0,
+      "mean_purchase_price": 0.6628859984877788,
+      "cost_04_08": 8201.040654375,
+      "cost_20_24": 14763.56874381
+    },
+    "04": {
+      "first_minimum_after_16_hour": 20.833333333333332,
+      "state_at_20": 5168.125722222223,
+      "peak_purchase_kwh": 0.0,
+      "peak_discharge_kwh": 715.6530333333333,
+      "mean_purchase_price": 0.5905389160344205,
+      "cost_04_08": 3445.7363244116664,
+      "cost_20_24": 9872.624184323333
+    },
+    "10": {
+      "first_minimum_after_16_hour": 19.833333333333332,
+      "state_at_20": 1200.0,
+      "peak_purchase_kwh": 715.6530333333333,
+      "peak_discharge_kwh": 0.0,
+      "mean_purchase_price": 0.6535260153344403,
+      "cost_04_08": 8201.040654375,
+      "cost_20_24": 14763.56874381
+    }
+  },
+  "paired": {
+    "paired_improved": 18,
+    "paired_worsened": 0,
+    "paired_tied": 9,
+    "matched_at_03_best": {
+      "param_index": 7,
+      "cost_03": 38276.64089515644,
+      "cost_10": 38276.64089515644,
+      "saving_yuan": 0.0,
+      "unused_reduction_kwh": 0.0
+    }
+  },
+  "price_peak": {
+    "time": "20:40",
+    "price": 1.3952
+  },
+  "extra_grid_04_vs03_kwh": 1740.2802680205714,
+  "extra_loss_04_vs03_kwh": 1740.2802680205773,
+  "paired_detail_at_10_best": {
+    "param_index": "5",
+    "cost_03": "38365.05421914667",
+    "cost_10": "37944.35005069173",
+    "saving_yuan": "420.7041684549331",
+    "unused_reduction_kwh": "990.1158267489682"
+  },
+  "reproduction": {
+    "input_mapping.csv": true,
+    "comparison.csv": true,
+    "paired_comparison.csv": true,
+    "four_hour_summary.csv": true,
+    "schedules\\C03-p01.csv": true,
+    "schedules\\C03-p02.csv": true,
+    "schedules\\C03-p03.csv": true,
+    "schedules\\C03-p04.csv": true,
+    "schedules\\C03-p05.csv": true,
+    "schedules\\C03-p06.csv": true,
+    "schedules\\C03-p07.csv": true,
+    "schedules\\C03-p08.csv": true,
+    "schedules\\C03-p09.csv": true,
+    "schedules\\C03-p10.csv": true,
+    "schedules\\C03-p11.csv": true,
+    "schedules\\C03-p12.csv": true,
+    "schedules\\C03-p13.csv": true,
+    "schedules\\C03-p14.csv": true,
+    "schedules\\C03-p15.csv": true,
+    "schedules\\C03-p16.csv": true,
+    "schedules\\C03-p17.csv": true,
+    "schedules\\C03-p18.csv": true,
+    "schedules\\C03-p19.csv": true,
+    "schedules\\C03-p20.csv": true,
+    "schedules\\C03-p21.csv": true,
+    "schedules\\C03-p22.csv": true,
+    "schedules\\C03-p23.csv": true,
+    "schedules\\C03-p24.csv": true,
+    "schedules\\C03-p25.csv": true,
+    "schedules\\C03-p26.csv": true,
+    "schedules\\C03-p27.csv": true,
+    "schedules\\C04.csv": true,
+    "schedules\\C10-p01.csv": true,
+    "schedules\\C10-p02.csv": true,
+    "schedules\\C10-p03.csv": true,
+    "schedules\\C10-p04.csv": true,
+    "schedules\\C10-p05.csv": true,
+    "schedules\\C10-p06.csv": true,
+    "schedules\\C10-p07.csv": true,
+    "schedules\\C10-p08.csv": true,
+    "schedules\\C10-p09.csv": true,
+    "schedules\\C10-p10.csv": true,
+    "schedules\\C10-p11.csv": true,
+    "schedules\\C10-p12.csv": true,
+    "schedules\\C10-p13.csv": true,
+    "schedules\\C10-p14.csv": true,
+    "schedules\\C10-p15.csv": true,
+    "schedules\\C10-p16.csv": true,
+    "schedules\\C10-p17.csv": true,
+    "schedules\\C10-p18.csv": true,
+    "schedules\\C10-p19.csv": true,
+    "schedules\\C10-p20.csv": true,
+    "schedules\\C10-p21.csv": true,
+    "schedules\\C10-p22.csv": true,
+    "schedules\\C10-p23.csv": true,
+    "schedules\\C10-p24.csv": true,
+    "schedules\\C10-p25.csv": true,
+    "schedules\\C10-p26.csv": true,
+    "schedules\\C10-p27.csv": true
+  }
+}

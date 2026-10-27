@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "supplement": {
+    "lp_calls": 1670,
+    "actual_intervals": 240480,
+    "planned_intervals": 432864,
+    "forecast_values": 865728,
+    "maximum_absolute_errors": {
+      "source": 0.0,
+      "forecast": 3.637978807091713e-12,
+      "margin": 7.567280135845067e-13,
+      "balance": 2.2737367544323206e-13,
+      "storage": 0.0,
+      "plan": 1.8189894035458565e-12,
+      "fees": 1.862645149230957e-09,
+      "features": 0.0
+    },
+    "costs": [
+      {
+        "variant": "equal-step-cdf",
+        "cost": 14029194.789409304
+      },
+      {
+        "variant": "selected-q60",
+        "cost": 13747402.351901982
+      },
+      {
+        "variant": "selected-q80",
+        "cost": 13614446.225573312
+      },
+      {
+        "variant": "selected-horizon24",
+        "cost": 13580595.232378509
+      },
+      {
+        "variant": "selected-no-terminal",
+        "cost": 13583810.841364944
+      }
+    ]
+  },
+  "saved_xlsx": {
+    "sha256": "b59048816109bad41d2d21cf01474c0b5a6459be257cd639dde32ed99e3f3251",
+    "plan_values": 48096,
+    "dates": 334,
+    "four_hour_charge_discharge_groups": 2004,
+    "endpoint_states": 668,
+    "emergency_rows": 439,
+    "positive_emergency_events": 261,
+    "ordinary_fee_decimal": "12979560.57239872049949453457",
+    "emergency_fee_decimal": "604250.268966223858265259745",
+    "total_fee_decimal": "13583810.84136494435775979432",
+    "midnight_same_civil_date": true,
+    "source_previous_outputs_unchanged": true
+  },
+  "new_solves": 0,
+  "new_fits": 0,
+  "human_review": false
+}

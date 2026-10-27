@@ -1,0 +1,31 @@
+{
+  "title": "融合多源预测的微网经济调度与线性优化研究",
+  "pages": 34,
+  "abstract_pages": 1,
+  "body_pages": 30,
+  "appendix_pages": 3,
+  "changed_chapters": [
+    "sec_0_abstract.tex",
+    "sec_2_problem_analysis.tex",
+    "sec_4_data_preprocessing.tex",
+    "sec_5_q1.tex",
+    "sec_6_q2.tex",
+    "sec_7_q3.tex",
+    "sec_8_q4.tex",
+    "sec_9_create.tex"
+  ],
+  "abstract_body_unchanged": true,
+  "main_tex_unchanged": true,
+  "unchanged_figure_and_table_asset_files": 38,
+  "unchanged_formula_environments": 39,
+  "inline_table_bodies_unchanged": true,
+  "limitations_and_promotion_unchanged": true,
+  "key_total_costs_unchanged": true,
+  "author_we_occurrences": 2,
+  "no_overfull_missing_char_or_unresolved_reference": true,
+  "environment_notices": "Existing LaTeX release and CJK font-family redefinition warnings only",
+  "pdf_sha256": "99727942ad1232f71ab2b893ba6704f7d3e23ab57455bc46d83fcf15d80122a9",
+  "visual_check": "All final pages rendered; final pages 1,9,16,17,18,24,31 inspected in detail. Independent read-only check of final pages 11,12,23,29,30 found no sentence interruptions, overlap or clipping. Primary agent additionally inspected final contact sheets covering all 34 pages; protected background and framework figures and appendix boundary intact.",
+  "delivered_pdf": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\main(图像压缩版）.pdf",
+  "copied_pdf_hash_verified": true
+}

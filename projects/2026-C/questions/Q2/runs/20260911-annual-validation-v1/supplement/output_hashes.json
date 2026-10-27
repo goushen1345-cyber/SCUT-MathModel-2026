@@ -1,0 +1,13 @@
+{
+  "comparison.csv": "594652badc62292d7ee0f28480c9f5b44418a510acaa6a654925675cd34b2fbf",
+  "daily_metrics.csv": "5dcd9200e67205829fdcdf072730377a7090db4a070df332f32c0e0c0fe3229c",
+  "protocol.json": "9a2196ebb37285ef0ed90e88b50099d7f1968c7aac5cea9d1264922d26c7158c",
+  "risk_margins.jsonl": "a69aab81bce73b2a758ca69c953c0f85bef8ae2f54d19d7517139bcfad05ba9b",
+  "solver_checks.jsonl": "9644751aa9dba3587a915fe99a4c8b72600c22bd2b9b03153411ef48be229258",
+  "summary.json": "10468b20d8261585d8dccfdb215790956c8d8819fbba41b657d2e8d8b5c4d24e",
+  "schedules\\equal-step-cdf.npz": "830de256dc3f041d2ffb95e88ba3ef91a7882d8e466fa1ac9d9a91707abea311",
+  "schedules\\selected-horizon24.npz": "9b4c9d9575bf04ef2d76fb2e1dec123445d938994bbcaacd07057ca8e330c18d",
+  "schedules\\selected-no-terminal.npz": "c42dc44771bce24ec298d3dc2071b4a0457329620aa40b9f2aca074c4dfbfac4",
+  "schedules\\selected-q60.npz": "ef12483f68e397f8680758f705997adba9f44d80ea93018e0193012e9ccf6ab4",
+  "schedules\\selected-q80.npz": "824c51e73287742eb967dccc8d743167d24133bb7a909a36b5d2caa1b4bac346"
+}

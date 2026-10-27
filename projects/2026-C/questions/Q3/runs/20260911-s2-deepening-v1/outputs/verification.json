@@ -1,0 +1,24 @@
+{
+  "status": "checks_completed",
+  "counts": {
+    "strategies": 23,
+    "actual_intervals": 1106208,
+    "margin_groups": 14600
+  },
+  "max_errors": {
+    "q0": 0.0,
+    "locked_prefix": 0.0,
+    "decision_state": 0.0,
+    "execution": 0.0,
+    "daily": 1.4551915228366852e-11,
+    "period_cost": 1.862645149230957e-09,
+    "final_state": 0.0,
+    "selected_margin": 0.0
+  },
+  "new_lp_calls": 0,
+  "new_fits": 0,
+  "selected": "M_q65_b070",
+  "selected_cost": 13177140.135736044,
+  "reviewer": "same AI, separate saved-result reconstruction; not human approval",
+  "code_sha256": "92b3839a8c1daa111c97ffe2ca4d9932747ea13471db53a3e3ecb1d01939f27d"
+}

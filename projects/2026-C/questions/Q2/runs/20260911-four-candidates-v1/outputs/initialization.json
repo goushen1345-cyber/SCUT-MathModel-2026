@@ -1,0 +1,9 @@
+{
+  "jan1_initial": 6000.0,
+  "jan8_initial": 8087.864448950618,
+  "feb1_initial": 8592.693560925925,
+  "first_interval_reference_flagged": true,
+  "jan1_order_source": "retained Q1 C04",
+  "common_policy_after_day1": "T1-w1-p3",
+  "no_daily_reset": true
+}

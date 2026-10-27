@@ -1,0 +1,2684 @@
+[
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 31,
+    "episode_start": "2025-02-01",
+    "eligible_blocks": 5,
+    "nearest_rank_1based": 5,
+    "source_start_day": 4,
+    "source_start": "2025-01-05",
+    "source_end": "2025-01-07",
+    "source_score_kwh": 55296.48217972222,
+    "donor_load_error_kwh": 55296.48217972222,
+    "donor_pv_error_kwh": 781.9374055555555,
+    "records": [
+      {
+        "day": 31,
+        "date": "2025-02-01",
+        "source_day": 4,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 23005.031365277773,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 32,
+        "date": "2025-02-02",
+        "source_day": 5,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 17601.97265333333,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 33,
+        "date": "2025-02-03",
+        "source_day": 6,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 14689.47816111111,
+        "realized_pv_overestimate_kwh": 0.0
+      }
+    ]
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 45,
+    "episode_start": "2025-02-15",
+    "eligible_blocks": 0,
+    "nearest_rank_1based": null,
+    "source_start_day": null,
+    "source_start": null,
+    "source_end": null,
+    "source_score_kwh": 0.0,
+    "donor_load_error_kwh": 0.0,
+    "donor_pv_error_kwh": 0.0,
+    "records": []
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 59,
+    "episode_start": "2025-03-01",
+    "eligible_blocks": 0,
+    "nearest_rank_1based": null,
+    "source_start_day": null,
+    "source_start": null,
+    "source_end": null,
+    "source_score_kwh": 0.0,
+    "donor_load_error_kwh": 0.0,
+    "donor_pv_error_kwh": 0.0,
+    "records": []
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 73,
+    "episode_start": "2025-03-15",
+    "eligible_blocks": 0,
+    "nearest_rank_1based": null,
+    "source_start_day": null,
+    "source_start": null,
+    "source_end": null,
+    "source_score_kwh": 0.0,
+    "donor_load_error_kwh": 0.0,
+    "donor_pv_error_kwh": 0.0,
+    "records": []
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 87,
+    "episode_start": "2025-03-29",
+    "eligible_blocks": 0,
+    "nearest_rank_1based": null,
+    "source_start_day": null,
+    "source_start": null,
+    "source_end": null,
+    "source_score_kwh": 0.0,
+    "donor_load_error_kwh": 0.0,
+    "donor_pv_error_kwh": 0.0,
+    "records": []
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 101,
+    "episode_start": "2025-04-12",
+    "eligible_blocks": 1,
+    "nearest_rank_1based": 1,
+    "source_start_day": 90,
+    "source_start": "2025-04-01",
+    "source_end": "2025-04-03",
+    "source_score_kwh": 458.4685583333333,
+    "donor_load_error_kwh": 458.4685583333333,
+    "donor_pv_error_kwh": 5078.749716666669,
+    "records": [
+      {
+        "day": 101,
+        "date": "2025-04-12",
+        "source_day": 90,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 204.05855000000125,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 102,
+        "date": "2025-04-13",
+        "source_day": 91,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 239.74366666666606,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 103,
+        "date": "2025-04-14",
+        "source_day": 92,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 14.666341666665934,
+        "realized_pv_overestimate_kwh": 0.0
+      }
+    ]
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 115,
+    "episode_start": "2025-04-26",
+    "eligible_blocks": 7,
+    "nearest_rank_1based": 7,
+    "source_start_day": 110,
+    "source_start": "2025-04-21",
+    "source_end": "2025-04-23",
+    "source_score_kwh": 1470.2385791666668,
+    "donor_load_error_kwh": 1470.2385791666668,
+    "donor_pv_error_kwh": -6313.628728571431,
+    "records": [
+      {
+        "day": 115,
+        "date": "2025-04-26",
+        "source_day": 110,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 1185.9372291666675,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 116,
+        "date": "2025-04-27",
+        "source_day": 111,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 45.09779583333269,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 117,
+        "date": "2025-04-28",
+        "source_day": 112,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 239.2035541666668,
+        "realized_pv_overestimate_kwh": 0.0
+      }
+    ]
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 129,
+    "episode_start": "2025-05-10",
+    "eligible_blocks": 15,
+    "nearest_rank_1based": 14,
+    "source_start_day": 124,
+    "source_start": "2025-05-05",
+    "source_end": "2025-05-07",
+    "source_score_kwh": 9744.968154166665,
+    "donor_load_error_kwh": 9744.968154166665,
+    "donor_pv_error_kwh": 569.0722904761911,
+    "records": [
+      {
+        "day": 129,
+        "date": "2025-05-10",
+        "source_day": 124,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 2873.9630166666648,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 130,
+        "date": "2025-05-11",
+        "source_day": 125,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 3537.680058333334,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 131,
+        "date": "2025-05-12",
+        "source_day": 126,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 3333.3250791666674,
+        "realized_pv_overestimate_kwh": 0.0
+      }
+    ]
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 143,
+    "episode_start": "2025-05-24",
+    "eligible_blocks": 23,
+    "nearest_rank_1based": 21,
+    "source_start_day": 121,
+    "source_start": "2025-05-02",
+    "source_end": "2025-05-04",
+    "source_score_kwh": 9260.004291666668,
+    "donor_load_error_kwh": 9260.004291666668,
+    "donor_pv_error_kwh": 6668.05590952381,
+    "records": [
+      {
+        "day": 143,
+        "date": "2025-05-24",
+        "source_day": 121,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 2985.093204166667,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 144,
+        "date": "2025-05-25",
+        "source_day": 122,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 2763.0468541666673,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 145,
+        "date": "2025-05-26",
+        "source_day": 123,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 3511.8642333333337,
+        "realized_pv_overestimate_kwh": 0.0
+      }
+    ]
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 157,
+    "episode_start": "2025-06-07",
+    "eligible_blocks": 25,
+    "nearest_rank_1based": 23,
+    "source_start_day": 152,
+    "source_start": "2025-06-02",
+    "source_end": "2025-06-04",
+    "source_score_kwh": 23631.341454166668,
+    "donor_load_error_kwh": 23631.341454166668,
+    "donor_pv_error_kwh": 16227.393811904767,
+    "records": [
+      {
+        "day": 157,
+        "date": "2025-06-07",
+        "source_day": 152,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 7950.477858333333,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 158,
+        "date": "2025-06-08",
+        "source_day": 153,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 7602.840125,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 159,
+        "date": "2025-06-09",
+        "source_day": 154,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 8078.023470833333,
+        "realized_pv_overestimate_kwh": 0.0
+      }
+    ]
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 171,
+    "episode_start": "2025-06-21",
+    "eligible_blocks": 25,
+    "nearest_rank_1based": 23,
+    "source_start_day": 153,
+    "source_start": "2025-06-03",
+    "source_end": "2025-06-05",
+    "source_score_kwh": 24054.792225,
+    "donor_load_error_kwh": 24054.792225,
+    "donor_pv_error_kwh": 14801.40161666667,
+    "records": [
+      {
+        "day": 171,
+        "date": "2025-06-21",
+        "source_day": 153,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 7602.840125,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 172,
+        "date": "2025-06-22",
+        "source_day": 154,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 8078.023470833333,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 173,
+        "date": "2025-06-23",
+        "source_day": 155,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 8373.928629166667,
+        "realized_pv_overestimate_kwh": 0.0
+      }
+    ]
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 185,
+    "episode_start": "2025-07-05",
+    "eligible_blocks": 24,
+    "nearest_rank_1based": 22,
+    "source_start_day": 180,
+    "source_start": "2025-06-30",
+    "source_end": "2025-07-02",
+    "source_score_kwh": 25967.25229583333,
+    "donor_load_error_kwh": 25967.25229583333,
+    "donor_pv_error_kwh": -14388.648819047623,
+    "records": [
+      {
+        "day": 185,
+        "date": "2025-07-05",
+        "source_day": 180,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": -1844.2577666666668,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 186,
+        "date": "2025-07-06",
+        "source_day": 181,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 14086.111408333332,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 187,
+        "date": "2025-07-07",
+        "source_day": 182,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 13725.398654166667,
+        "realized_pv_overestimate_kwh": 0.0
+      }
+    ]
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 199,
+    "episode_start": "2025-07-19",
+    "eligible_blocks": 24,
+    "nearest_rank_1based": 22,
+    "source_start_day": 183,
+    "source_start": "2025-07-03",
+    "source_end": "2025-07-05",
+    "source_score_kwh": 42456.61374166667,
+    "donor_load_error_kwh": 42456.61374166667,
+    "donor_pv_error_kwh": -13174.317983333334,
+    "records": [
+      {
+        "day": 199,
+        "date": "2025-07-19",
+        "source_day": 183,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 14024.151320833334,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 200,
+        "date": "2025-07-20",
+        "source_day": 184,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 14422.650720833335,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 201,
+        "date": "2025-07-21",
+        "source_day": 185,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 14009.8117,
+        "realized_pv_overestimate_kwh": 0.0
+      }
+    ]
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 213,
+    "episode_start": "2025-08-02",
+    "eligible_blocks": 23,
+    "nearest_rank_1based": 21,
+    "source_start_day": 187,
+    "source_start": "2025-07-07",
+    "source_end": "2025-07-09",
+    "source_score_kwh": 34841.1076125,
+    "donor_load_error_kwh": 34841.1076125,
+    "donor_pv_error_kwh": -6052.361742857145,
+    "records": [
+      {
+        "day": 213,
+        "date": "2025-08-02",
+        "source_day": 187,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 14436.237816666668,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 214,
+        "date": "2025-08-03",
+        "source_day": 188,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 10462.877633333335,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 215,
+        "date": "2025-08-04",
+        "source_day": 189,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 9941.9921625,
+        "realized_pv_overestimate_kwh": 0.0
+      }
+    ]
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 227,
+    "episode_start": "2025-08-16",
+    "eligible_blocks": 9,
+    "nearest_rank_1based": 9,
+    "source_start_day": 199,
+    "source_start": "2025-07-19",
+    "source_end": "2025-07-21",
+    "source_score_kwh": 16099.210554166666,
+    "donor_load_error_kwh": 16099.210554166666,
+    "donor_pv_error_kwh": 2586.346669047619,
+    "records": [
+      {
+        "day": 227,
+        "date": "2025-08-16",
+        "source_day": 199,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 6141.7077500000005,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 228,
+        "date": "2025-08-17",
+        "source_day": 200,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 5298.397074999998,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 229,
+        "date": "2025-08-18",
+        "source_day": 201,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 4659.105729166667,
+        "realized_pv_overestimate_kwh": 0.0
+      }
+    ]
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 241,
+    "episode_start": "2025-08-30",
+    "eligible_blocks": 0,
+    "nearest_rank_1based": null,
+    "source_start_day": null,
+    "source_start": null,
+    "source_end": null,
+    "source_score_kwh": 0.0,
+    "donor_load_error_kwh": 0.0,
+    "donor_pv_error_kwh": 0.0,
+    "records": []
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 255,
+    "episode_start": "2025-09-13",
+    "eligible_blocks": 0,
+    "nearest_rank_1based": null,
+    "source_start_day": null,
+    "source_start": null,
+    "source_end": null,
+    "source_score_kwh": 0.0,
+    "donor_load_error_kwh": 0.0,
+    "donor_pv_error_kwh": 0.0,
+    "records": []
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 269,
+    "episode_start": "2025-09-27",
+    "eligible_blocks": 0,
+    "nearest_rank_1based": null,
+    "source_start_day": null,
+    "source_start": null,
+    "source_end": null,
+    "source_score_kwh": 0.0,
+    "donor_load_error_kwh": 0.0,
+    "donor_pv_error_kwh": 0.0,
+    "records": []
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 283,
+    "episode_start": "2025-10-11",
+    "eligible_blocks": 0,
+    "nearest_rank_1based": null,
+    "source_start_day": null,
+    "source_start": null,
+    "source_end": null,
+    "source_score_kwh": 0.0,
+    "donor_load_error_kwh": 0.0,
+    "donor_pv_error_kwh": 0.0,
+    "records": []
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 297,
+    "episode_start": "2025-10-25",
+    "eligible_blocks": 0,
+    "nearest_rank_1based": null,
+    "source_start_day": null,
+    "source_start": null,
+    "source_end": null,
+    "source_score_kwh": 0.0,
+    "donor_load_error_kwh": 0.0,
+    "donor_pv_error_kwh": 0.0,
+    "records": []
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 311,
+    "episode_start": "2025-11-08",
+    "eligible_blocks": 3,
+    "nearest_rank_1based": 3,
+    "source_start_day": 308,
+    "source_start": "2025-11-05",
+    "source_end": "2025-11-07",
+    "source_score_kwh": 767.0092000000014,
+    "donor_load_error_kwh": 767.0092000000014,
+    "donor_pv_error_kwh": 3606.025952380953,
+    "records": [
+      {
+        "day": 311,
+        "date": "2025-11-08",
+        "source_day": 308,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 278.5761583333344,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 312,
+        "date": "2025-11-09",
+        "source_day": 309,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 385.86234583333385,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 313,
+        "date": "2025-11-10",
+        "source_day": 310,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 102.57069583333305,
+        "realized_pv_overestimate_kwh": 0.0
+      }
+    ]
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 325,
+    "episode_start": "2025-11-22",
+    "eligible_blocks": 14,
+    "nearest_rank_1based": 13,
+    "source_start_day": 322,
+    "source_start": "2025-11-19",
+    "source_end": "2025-11-21",
+    "source_score_kwh": 1037.0271041666704,
+    "donor_load_error_kwh": 1037.0271041666704,
+    "donor_pv_error_kwh": 3181.4920571428574,
+    "records": [
+      {
+        "day": 325,
+        "date": "2025-11-22",
+        "source_day": 322,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 474.5553083333352,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 326,
+        "date": "2025-11-23",
+        "source_day": 323,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 492.8991125000013,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 327,
+        "date": "2025-11-24",
+        "source_day": 324,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 69.57268333333354,
+        "realized_pv_overestimate_kwh": 0.0
+      }
+    ]
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 339,
+    "episode_start": "2025-12-06",
+    "eligible_blocks": 20,
+    "nearest_rank_1based": 18,
+    "source_start_day": 336,
+    "source_start": "2025-12-03",
+    "source_end": "2025-12-05",
+    "source_score_kwh": 21328.623591666663,
+    "donor_load_error_kwh": 21328.623591666663,
+    "donor_pv_error_kwh": 2624.0638571428567,
+    "records": [
+      {
+        "day": 339,
+        "date": "2025-12-06",
+        "source_day": 336,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 6824.466666666667,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 340,
+        "date": "2025-12-07",
+        "source_day": 337,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 7716.6979624999985,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 341,
+        "date": "2025-12-08",
+        "source_day": 338,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 6787.458962500001,
+        "realized_pv_overestimate_kwh": 0.0
+      }
+    ]
+  },
+  {
+    "scenario": "load_underestimate",
+    "episode_start_day": 353,
+    "episode_start": "2025-12-20",
+    "eligible_blocks": 23,
+    "nearest_rank_1based": 21,
+    "source_start_day": 337,
+    "source_start": "2025-12-04",
+    "source_end": "2025-12-06",
+    "source_score_kwh": 21697.74049583333,
+    "donor_load_error_kwh": 21697.74049583333,
+    "donor_pv_error_kwh": 2837.751328571427,
+    "records": [
+      {
+        "day": 353,
+        "date": "2025-12-20",
+        "source_day": 337,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 7716.6979624999985,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 354,
+        "date": "2025-12-21",
+        "source_day": 338,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 6787.458962500001,
+        "realized_pv_overestimate_kwh": 0.0
+      },
+      {
+        "day": 355,
+        "date": "2025-12-22",
+        "source_day": 339,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 7193.5835708333325,
+        "realized_pv_overestimate_kwh": 0.0
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 31,
+    "episode_start": "2025-02-01",
+    "eligible_blocks": 5,
+    "nearest_rank_1based": 5,
+    "source_start_day": 4,
+    "source_start": "2025-01-05",
+    "source_end": "2025-01-07",
+    "source_score_kwh": 781.9374055555555,
+    "donor_load_error_kwh": 55296.48217972222,
+    "donor_pv_error_kwh": 781.9374055555555,
+    "records": [
+      {
+        "day": 31,
+        "date": "2025-02-01",
+        "source_day": 4,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": -756.5173750000007
+      },
+      {
+        "day": 32,
+        "date": "2025-02-02",
+        "source_day": 5,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": -161.0143833333328
+      },
+      {
+        "day": 33,
+        "date": "2025-02-03",
+        "source_day": 6,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 1699.4691638888883
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 45,
+    "episode_start": "2025-02-15",
+    "eligible_blocks": 3,
+    "nearest_rank_1based": 3,
+    "source_start_day": 34,
+    "source_start": "2025-02-04",
+    "source_end": "2025-02-06",
+    "source_score_kwh": 2555.680938095238,
+    "donor_load_error_kwh": -13704.95095,
+    "donor_pv_error_kwh": 2555.680938095238,
+    "records": [
+      {
+        "day": 45,
+        "date": "2025-02-15",
+        "source_day": 34,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 1721.6361047619055
+      },
+      {
+        "day": 46,
+        "date": "2025-02-16",
+        "source_day": 35,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 986.0740309523808
+      },
+      {
+        "day": 47,
+        "date": "2025-02-17",
+        "source_day": 36,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": -152.02919761904795
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 59,
+    "episode_start": "2025-03-01",
+    "eligible_blocks": 2,
+    "nearest_rank_1based": 2,
+    "source_start_day": 34,
+    "source_start": "2025-02-04",
+    "source_end": "2025-02-06",
+    "source_score_kwh": 2555.680938095238,
+    "donor_load_error_kwh": -13704.95095,
+    "donor_pv_error_kwh": 2555.680938095238,
+    "records": [
+      {
+        "day": 59,
+        "date": "2025-03-01",
+        "source_day": 34,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 1721.6361047619055
+      },
+      {
+        "day": 60,
+        "date": "2025-03-02",
+        "source_day": 35,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 986.0740309523809
+      },
+      {
+        "day": 61,
+        "date": "2025-03-03",
+        "source_day": 36,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 8,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": -151.97043095238143
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 73,
+    "episode_start": "2025-03-15",
+    "eligible_blocks": 5,
+    "nearest_rank_1based": 5,
+    "source_start_day": 59,
+    "source_start": "2025-03-01",
+    "source_end": "2025-03-03",
+    "source_score_kwh": 15223.57704761905,
+    "donor_load_error_kwh": -10704.465325,
+    "donor_pv_error_kwh": 15223.57704761905,
+    "records": [
+      {
+        "day": 73,
+        "date": "2025-03-15",
+        "source_day": 59,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 12,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 3290.013895238096
+      },
+      {
+        "day": 74,
+        "date": "2025-03-16",
+        "source_day": 60,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 12,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 6480.337723809524
+      },
+      {
+        "day": 75,
+        "date": "2025-03-17",
+        "source_day": 61,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 16,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 5454.145254761906
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 87,
+    "episode_start": "2025-03-29",
+    "eligible_blocks": 4,
+    "nearest_rank_1based": 4,
+    "source_start_day": 59,
+    "source_start": "2025-03-01",
+    "source_end": "2025-03-03",
+    "source_score_kwh": 15223.57704761905,
+    "donor_load_error_kwh": -10704.465325,
+    "donor_pv_error_kwh": 15223.57704761905,
+    "records": [
+      {
+        "day": 87,
+        "date": "2025-03-29",
+        "source_day": 59,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 3289.8967023809532
+      },
+      {
+        "day": 88,
+        "date": "2025-03-30",
+        "source_day": 60,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 6480.025878571429
+      },
+      {
+        "day": 89,
+        "date": "2025-03-31",
+        "source_day": 61,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 5453.654466666668
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 101,
+    "episode_start": "2025-04-12",
+    "eligible_blocks": 4,
+    "nearest_rank_1based": 4,
+    "source_start_day": 89,
+    "source_start": "2025-03-31",
+    "source_end": "2025-04-02",
+    "source_score_kwh": 7433.67435952381,
+    "donor_load_error_kwh": -209.0323458333315,
+    "donor_pv_error_kwh": 7433.67435952381,
+    "records": [
+      {
+        "day": 101,
+        "date": "2025-04-12",
+        "source_day": 89,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 733.929504761904
+      },
+      {
+        "day": 102,
+        "date": "2025-04-13",
+        "source_day": 90,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 3199.5683690476203
+      },
+      {
+        "day": 103,
+        "date": "2025-04-14",
+        "source_day": 91,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 8,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 3500.2323976190487
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 115,
+    "episode_start": "2025-04-26",
+    "eligible_blocks": 5,
+    "nearest_rank_1based": 5,
+    "source_start_day": 89,
+    "source_start": "2025-03-31",
+    "source_end": "2025-04-02",
+    "source_score_kwh": 7433.67435952381,
+    "donor_load_error_kwh": -209.0323458333315,
+    "donor_pv_error_kwh": 7433.67435952381,
+    "records": [
+      {
+        "day": 115,
+        "date": "2025-04-26",
+        "source_day": 89,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 12,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 734.3478499999983
+      },
+      {
+        "day": 116,
+        "date": "2025-04-27",
+        "source_day": 90,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 12,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 3200.1374404761905
+      },
+      {
+        "day": 117,
+        "date": "2025-04-28",
+        "source_day": 91,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 14,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 3500.672873809525
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 129,
+    "episode_start": "2025-05-10",
+    "eligible_blocks": 10,
+    "nearest_rank_1based": 9,
+    "source_start_day": 121,
+    "source_start": "2025-05-02",
+    "source_end": "2025-05-04",
+    "source_score_kwh": 6668.05590952381,
+    "donor_load_error_kwh": 9260.004291666668,
+    "donor_pv_error_kwh": 6668.05590952381,
+    "records": [
+      {
+        "day": 129,
+        "date": "2025-05-10",
+        "source_day": 121,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 8067.4155666666675
+      },
+      {
+        "day": 130,
+        "date": "2025-05-11",
+        "source_day": 122,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 1182.9793119047615
+      },
+      {
+        "day": 131,
+        "date": "2025-05-12",
+        "source_day": 123,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": -2582.3389690476183
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 143,
+    "episode_start": "2025-05-24",
+    "eligible_blocks": 13,
+    "nearest_rank_1based": 12,
+    "source_start_day": 121,
+    "source_start": "2025-05-02",
+    "source_end": "2025-05-04",
+    "source_score_kwh": 6668.05590952381,
+    "donor_load_error_kwh": 9260.004291666668,
+    "donor_pv_error_kwh": 6668.05590952381,
+    "records": [
+      {
+        "day": 143,
+        "date": "2025-05-24",
+        "source_day": 121,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 12,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 8067.630335714286
+      },
+      {
+        "day": 144,
+        "date": "2025-05-25",
+        "source_day": 122,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 12,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 1183.3225928571421
+      },
+      {
+        "day": 145,
+        "date": "2025-05-26",
+        "source_day": 123,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 12,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": -2581.8969500000007
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 157,
+    "episode_start": "2025-06-07",
+    "eligible_blocks": 12,
+    "nearest_rank_1based": 11,
+    "source_start_day": 150,
+    "source_start": "2025-05-31",
+    "source_end": "2025-06-02",
+    "source_score_kwh": 19536.598809523814,
+    "donor_load_error_kwh": 15392.233266666664,
+    "donor_pv_error_kwh": 19536.598809523814,
+    "records": [
+      {
+        "day": 157,
+        "date": "2025-06-07",
+        "source_day": 150,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 2,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 2209.7040595238086
+      },
+      {
+        "day": 158,
+        "date": "2025-06-08",
+        "source_day": 151,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 10925.097697619049
+      },
+      {
+        "day": 159,
+        "date": "2025-06-09",
+        "source_day": 152,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 6401.797085714287
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 171,
+    "episode_start": "2025-06-21",
+    "eligible_blocks": 20,
+    "nearest_rank_1based": 18,
+    "source_start_day": 150,
+    "source_start": "2025-05-31",
+    "source_end": "2025-06-02",
+    "source_score_kwh": 19536.598809523814,
+    "donor_load_error_kwh": 15392.233266666664,
+    "donor_pv_error_kwh": 19536.598809523814,
+    "records": [
+      {
+        "day": 171,
+        "date": "2025-06-21",
+        "source_day": 150,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 2209.7040261904754
+      },
+      {
+        "day": 172,
+        "date": "2025-06-22",
+        "source_day": 151,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 10925.097697619049
+      },
+      {
+        "day": 173,
+        "date": "2025-06-23",
+        "source_day": 152,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 6401.797085714287
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 185,
+    "episode_start": "2025-07-05",
+    "eligible_blocks": 12,
+    "nearest_rank_1based": 11,
+    "source_start_day": 173,
+    "source_start": "2025-06-23",
+    "source_end": "2025-06-25",
+    "source_score_kwh": 7262.498411904765,
+    "donor_load_error_kwh": 2696.188779166667,
+    "donor_pv_error_kwh": 7262.498411904765,
+    "records": [
+      {
+        "day": 185,
+        "date": "2025-07-05",
+        "source_day": 173,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 2,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": -2120.7703142857135
+      },
+      {
+        "day": 186,
+        "date": "2025-07-06",
+        "source_day": 174,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 7336.879414285715
+      },
+      {
+        "day": 187,
+        "date": "2025-07-07",
+        "source_day": 175,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 2046.4178833333328
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 199,
+    "episode_start": "2025-07-19",
+    "eligible_blocks": 7,
+    "nearest_rank_1based": 7,
+    "source_start_day": 174,
+    "source_start": "2025-06-24",
+    "source_end": "2025-06-26",
+    "source_score_kwh": 8137.254864285715,
+    "donor_load_error_kwh": 2505.756445833335,
+    "donor_pv_error_kwh": 8137.254864285715,
+    "records": [
+      {
+        "day": 199,
+        "date": "2025-07-19",
+        "source_day": 174,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 7336.879414285715
+      },
+      {
+        "day": 200,
+        "date": "2025-07-20",
+        "source_day": 175,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 2,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 2046.4178857142851
+      },
+      {
+        "day": 201,
+        "date": "2025-07-21",
+        "source_day": 176,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": -1246.0424333333324
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 213,
+    "episode_start": "2025-08-02",
+    "eligible_blocks": 16,
+    "nearest_rank_1based": 15,
+    "source_start_day": 206,
+    "source_start": "2025-07-26",
+    "source_end": "2025-07-28",
+    "source_score_kwh": 6895.079395238095,
+    "donor_load_error_kwh": 4683.0193625,
+    "donor_pv_error_kwh": 6895.079395238095,
+    "records": [
+      {
+        "day": 213,
+        "date": "2025-08-02",
+        "source_day": 206,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 1079.0874500000002
+      },
+      {
+        "day": 214,
+        "date": "2025-08-03",
+        "source_day": 207,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 992.2357642857143
+      },
+      {
+        "day": 215,
+        "date": "2025-08-04",
+        "source_day": 208,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 4823.756180952381
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 227,
+    "episode_start": "2025-08-16",
+    "eligible_blocks": 16,
+    "nearest_rank_1based": 15,
+    "source_start_day": 206,
+    "source_start": "2025-07-26",
+    "source_end": "2025-07-28",
+    "source_score_kwh": 6895.079395238095,
+    "donor_load_error_kwh": 4683.0193625,
+    "donor_pv_error_kwh": 6895.079395238095,
+    "records": [
+      {
+        "day": 227,
+        "date": "2025-08-16",
+        "source_day": 206,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 1079.0874499999995
+      },
+      {
+        "day": 228,
+        "date": "2025-08-17",
+        "source_day": 207,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 992.2357642857146
+      },
+      {
+        "day": 229,
+        "date": "2025-08-18",
+        "source_day": 208,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 12,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 4824.0687761904765
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 241,
+    "episode_start": "2025-08-30",
+    "eligible_blocks": 15,
+    "nearest_rank_1based": 14,
+    "source_start_day": 230,
+    "source_start": "2025-08-19",
+    "source_end": "2025-08-21",
+    "source_score_kwh": 8999.645361904762,
+    "donor_load_error_kwh": -7447.625895833332,
+    "donor_pv_error_kwh": 8999.645361904762,
+    "records": [
+      {
+        "day": 241,
+        "date": "2025-08-30",
+        "source_day": 230,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 16,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 224.76249523809497
+      },
+      {
+        "day": 242,
+        "date": "2025-08-31",
+        "source_day": 231,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 16,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 7184.175454761906
+      },
+      {
+        "day": 243,
+        "date": "2025-09-01",
+        "source_day": 232,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 16,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 1592.3460999999995
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 255,
+    "episode_start": "2025-09-13",
+    "eligible_blocks": 18,
+    "nearest_rank_1based": 17,
+    "source_start_day": 231,
+    "source_start": "2025-08-20",
+    "source_end": "2025-08-22",
+    "source_score_kwh": 10067.840149999998,
+    "donor_load_error_kwh": -5931.009983333334,
+    "donor_pv_error_kwh": 10067.840149999998,
+    "records": [
+      {
+        "day": 255,
+        "date": "2025-09-13",
+        "source_day": 231,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 16,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 7185.053811904763
+      },
+      {
+        "day": 256,
+        "date": "2025-09-14",
+        "source_day": 232,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 16,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 1593.0125619047615
+      },
+      {
+        "day": 257,
+        "date": "2025-09-15",
+        "source_day": 233,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 16,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 1292.9179523809505
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 269,
+    "episode_start": "2025-09-27",
+    "eligible_blocks": 20,
+    "nearest_rank_1based": 18,
+    "source_start_day": 260,
+    "source_start": "2025-09-18",
+    "source_end": "2025-09-20",
+    "source_score_kwh": 9283.164799999999,
+    "donor_load_error_kwh": -21209.81206666667,
+    "donor_pv_error_kwh": 9283.164799999999,
+    "records": [
+      {
+        "day": 269,
+        "date": "2025-09-27",
+        "source_day": 260,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 2236.274659523808
+      },
+      {
+        "day": 270,
+        "date": "2025-09-28",
+        "source_day": 261,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 2,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 4126.761871428571
+      },
+      {
+        "day": 271,
+        "date": "2025-09-29",
+        "source_day": 262,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 16,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 2920.5570119047625
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 283,
+    "episode_start": "2025-10-11",
+    "eligible_blocks": 20,
+    "nearest_rank_1based": 18,
+    "source_start_day": 268,
+    "source_start": "2025-09-26",
+    "source_end": "2025-09-28",
+    "source_score_kwh": 8013.44427857143,
+    "donor_load_error_kwh": -10998.934516666668,
+    "donor_pv_error_kwh": 8013.44427857143,
+    "records": [
+      {
+        "day": 283,
+        "date": "2025-10-11",
+        "source_day": 268,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 3682.378028571429
+      },
+      {
+        "day": 284,
+        "date": "2025-10-12",
+        "source_day": 269,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 1654.3524690476206
+      },
+      {
+        "day": 285,
+        "date": "2025-10-13",
+        "source_day": 270,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 2676.713780952381
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 297,
+    "episode_start": "2025-10-25",
+    "eligible_blocks": 20,
+    "nearest_rank_1based": 18,
+    "source_start_day": 291,
+    "source_start": "2025-10-19",
+    "source_end": "2025-10-21",
+    "source_score_kwh": 9532.093611904762,
+    "donor_load_error_kwh": -4325.104991666667,
+    "donor_pv_error_kwh": 9532.093611904762,
+    "records": [
+      {
+        "day": 297,
+        "date": "2025-10-25",
+        "source_day": 291,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 2867.550654761903
+      },
+      {
+        "day": 298,
+        "date": "2025-10-26",
+        "source_day": 292,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 2783.55302857143
+      },
+      {
+        "day": 299,
+        "date": "2025-10-27",
+        "source_day": 293,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 3880.9899285714287
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 311,
+    "episode_start": "2025-11-08",
+    "eligible_blocks": 25,
+    "nearest_rank_1based": 23,
+    "source_start_day": 291,
+    "source_start": "2025-10-19",
+    "source_end": "2025-10-21",
+    "source_score_kwh": 9532.093611904762,
+    "donor_load_error_kwh": -4325.104991666667,
+    "donor_pv_error_kwh": 9532.093611904762,
+    "records": [
+      {
+        "day": 311,
+        "date": "2025-11-08",
+        "source_day": 291,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 14,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 2868.3826357142843
+      },
+      {
+        "day": 312,
+        "date": "2025-11-09",
+        "source_day": 292,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 16,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 2784.90965952381
+      },
+      {
+        "day": 313,
+        "date": "2025-11-10",
+        "source_day": 293,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 16,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 3882.826921428572
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 325,
+    "episode_start": "2025-11-22",
+    "eligible_blocks": 25,
+    "nearest_rank_1based": 23,
+    "source_start_day": 302,
+    "source_start": "2025-10-30",
+    "source_end": "2025-11-01",
+    "source_score_kwh": 6668.1657976190445,
+    "donor_load_error_kwh": -726.9896791666679,
+    "donor_pv_error_kwh": 6668.1657976190445,
+    "records": [
+      {
+        "day": 325,
+        "date": "2025-11-22",
+        "source_day": 302,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 337.38084999999927
+      },
+      {
+        "day": 326,
+        "date": "2025-11-23",
+        "source_day": 303,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 4377.470290476189
+      },
+      {
+        "day": 327,
+        "date": "2025-11-24",
+        "source_day": 304,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 1953.3146571428579
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 339,
+    "episode_start": "2025-12-06",
+    "eligible_blocks": 26,
+    "nearest_rank_1based": 24,
+    "source_start_day": 333,
+    "source_start": "2025-11-30",
+    "source_end": "2025-12-02",
+    "source_score_kwh": 8182.346102380953,
+    "donor_load_error_kwh": 15187.744562499998,
+    "donor_pv_error_kwh": 8182.346102380953,
+    "records": [
+      {
+        "day": 339,
+        "date": "2025-12-06",
+        "source_day": 333,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 3488.6541214285717
+      },
+      {
+        "day": 340,
+        "date": "2025-12-07",
+        "source_day": 334,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 1576.398023809524
+      },
+      {
+        "day": 341,
+        "date": "2025-12-08",
+        "source_day": 335,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 3117.2939571428574
+      }
+    ]
+  },
+  {
+    "scenario": "pv_overestimate",
+    "episode_start_day": 353,
+    "episode_start": "2025-12-20",
+    "eligible_blocks": 24,
+    "nearest_rank_1based": 22,
+    "source_start_day": 333,
+    "source_start": "2025-11-30",
+    "source_end": "2025-12-02",
+    "source_score_kwh": 8182.346102380953,
+    "donor_load_error_kwh": 15187.744562499998,
+    "donor_pv_error_kwh": 8182.346102380953,
+    "records": [
+      {
+        "day": 353,
+        "date": "2025-12-20",
+        "source_day": 333,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 3488.654121428571
+      },
+      {
+        "day": 354,
+        "date": "2025-12-21",
+        "source_day": 334,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 1576.398023809524
+      },
+      {
+        "day": 355,
+        "date": "2025-12-22",
+        "source_day": 335,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 0.0,
+        "realized_pv_overestimate_kwh": 3117.2939571428565
+      }
+    ]
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 31,
+    "episode_start": "2025-02-01",
+    "eligible_blocks": 3,
+    "nearest_rank_1based": 3,
+    "source_start_day": 4,
+    "source_start": "2025-01-05",
+    "source_end": "2025-01-07",
+    "source_score_kwh": 56078.41958527777,
+    "donor_load_error_kwh": 55296.48217972222,
+    "donor_pv_error_kwh": 781.9374055555555,
+    "records": [
+      {
+        "day": 31,
+        "date": "2025-02-01",
+        "source_day": 4,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 23005.031365277773,
+        "realized_pv_overestimate_kwh": -756.5173750000007
+      },
+      {
+        "day": 32,
+        "date": "2025-02-02",
+        "source_day": 5,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 17601.97265333333,
+        "realized_pv_overestimate_kwh": -161.0143833333328
+      },
+      {
+        "day": 33,
+        "date": "2025-02-03",
+        "source_day": 6,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 14689.47816111111,
+        "realized_pv_overestimate_kwh": 1699.4691638888883
+      }
+    ]
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 45,
+    "episode_start": "2025-02-15",
+    "eligible_blocks": 0,
+    "nearest_rank_1based": null,
+    "source_start_day": null,
+    "source_start": null,
+    "source_end": null,
+    "source_score_kwh": 0.0,
+    "donor_load_error_kwh": 0.0,
+    "donor_pv_error_kwh": 0.0,
+    "records": []
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 59,
+    "episode_start": "2025-03-01",
+    "eligible_blocks": 0,
+    "nearest_rank_1based": null,
+    "source_start_day": null,
+    "source_start": null,
+    "source_end": null,
+    "source_score_kwh": 0.0,
+    "donor_load_error_kwh": 0.0,
+    "donor_pv_error_kwh": 0.0,
+    "records": []
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 73,
+    "episode_start": "2025-03-15",
+    "eligible_blocks": 0,
+    "nearest_rank_1based": null,
+    "source_start_day": null,
+    "source_start": null,
+    "source_end": null,
+    "source_score_kwh": 0.0,
+    "donor_load_error_kwh": 0.0,
+    "donor_pv_error_kwh": 0.0,
+    "records": []
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 87,
+    "episode_start": "2025-03-29",
+    "eligible_blocks": 0,
+    "nearest_rank_1based": null,
+    "source_start_day": null,
+    "source_start": null,
+    "source_end": null,
+    "source_score_kwh": 0.0,
+    "donor_load_error_kwh": 0.0,
+    "donor_pv_error_kwh": 0.0,
+    "records": []
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 101,
+    "episode_start": "2025-04-12",
+    "eligible_blocks": 1,
+    "nearest_rank_1based": 1,
+    "source_start_day": 90,
+    "source_start": "2025-04-01",
+    "source_end": "2025-04-03",
+    "source_score_kwh": 5537.218275000002,
+    "donor_load_error_kwh": 458.4685583333333,
+    "donor_pv_error_kwh": 5078.749716666669,
+    "records": [
+      {
+        "day": 101,
+        "date": "2025-04-12",
+        "source_day": 90,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 204.05855000000125,
+        "realized_pv_overestimate_kwh": 3199.5683690476194
+      },
+      {
+        "day": 102,
+        "date": "2025-04-13",
+        "source_day": 91,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 2,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 239.74366666666606,
+        "realized_pv_overestimate_kwh": 3500.1765738095237
+      },
+      {
+        "day": 103,
+        "date": "2025-04-14",
+        "source_day": 92,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 4,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 14.666341666665934,
+        "realized_pv_overestimate_kwh": -1620.9949404761908
+      }
+    ]
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 115,
+    "episode_start": "2025-04-26",
+    "eligible_blocks": 1,
+    "nearest_rank_1based": 1,
+    "source_start_day": 90,
+    "source_start": "2025-04-01",
+    "source_end": "2025-04-03",
+    "source_score_kwh": 5537.218275000002,
+    "donor_load_error_kwh": 458.4685583333333,
+    "donor_pv_error_kwh": 5078.749716666669,
+    "records": [
+      {
+        "day": 115,
+        "date": "2025-04-26",
+        "source_day": 90,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 12,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 204.05855000000133,
+        "realized_pv_overestimate_kwh": 3200.1374404761914
+      },
+      {
+        "day": 116,
+        "date": "2025-04-27",
+        "source_day": 91,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 14,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 239.74366666666606,
+        "realized_pv_overestimate_kwh": 3500.717314285714
+      },
+      {
+        "day": 117,
+        "date": "2025-04-28",
+        "source_day": 92,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 16,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 14.666341666665934,
+        "realized_pv_overestimate_kwh": -1620.5337642857146
+      }
+    ]
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 129,
+    "episode_start": "2025-05-10",
+    "eligible_blocks": 6,
+    "nearest_rank_1based": 6,
+    "source_start_day": 120,
+    "source_start": "2025-05-01",
+    "source_end": "2025-05-03",
+    "source_score_kwh": 17093.036113690476,
+    "donor_load_error_kwh": 8507.085870833334,
+    "donor_pv_error_kwh": 8585.950242857143,
+    "records": [
+      {
+        "day": 129,
+        "date": "2025-05-10",
+        "source_day": 120,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 2758.9458125,
+        "realized_pv_overestimate_kwh": -664.4446357142862
+      },
+      {
+        "day": 130,
+        "date": "2025-05-11",
+        "source_day": 121,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 2985.093204166667,
+        "realized_pv_overestimate_kwh": 8067.4155666666675
+      },
+      {
+        "day": 131,
+        "date": "2025-05-12",
+        "source_day": 122,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 2763.046854166667,
+        "realized_pv_overestimate_kwh": 1182.9793119047613
+      }
+    ]
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 143,
+    "episode_start": "2025-05-24",
+    "eligible_blocks": 10,
+    "nearest_rank_1based": 9,
+    "source_start_day": 121,
+    "source_start": "2025-05-02",
+    "source_end": "2025-05-04",
+    "source_score_kwh": 15928.060201190478,
+    "donor_load_error_kwh": 9260.004291666668,
+    "donor_pv_error_kwh": 6668.05590952381,
+    "records": [
+      {
+        "day": 143,
+        "date": "2025-05-24",
+        "source_day": 121,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 12,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 2985.093204166667,
+        "realized_pv_overestimate_kwh": 8067.630335714286
+      },
+      {
+        "day": 144,
+        "date": "2025-05-25",
+        "source_day": 122,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 12,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 2763.0468541666673,
+        "realized_pv_overestimate_kwh": 1183.3225928571421
+      },
+      {
+        "day": 145,
+        "date": "2025-05-26",
+        "source_day": 123,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 12,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 3511.8642333333337,
+        "realized_pv_overestimate_kwh": -2581.8969500000007
+      }
+    ]
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 157,
+    "episode_start": "2025-06-07",
+    "eligible_blocks": 11,
+    "nearest_rank_1based": 10,
+    "source_start_day": 154,
+    "source_start": "2025-06-04",
+    "source_end": "2025-06-06",
+    "source_score_kwh": 43331.91817380952,
+    "donor_load_error_kwh": 24616.75025,
+    "donor_pv_error_kwh": 18715.167923809524,
+    "records": [
+      {
+        "day": 157,
+        "date": "2025-06-07",
+        "source_day": 154,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 8078.023470833333,
+        "realized_pv_overestimate_kwh": 4638.316252380952
+      },
+      {
+        "day": 158,
+        "date": "2025-06-08",
+        "source_day": 155,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 8373.928629166667,
+        "realized_pv_overestimate_kwh": 4975.804890476189
+      },
+      {
+        "day": 159,
+        "date": "2025-06-09",
+        "source_day": 156,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 8164.79815,
+        "realized_pv_overestimate_kwh": 9101.046780952382
+      }
+    ]
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 171,
+    "episode_start": "2025-06-21",
+    "eligible_blocks": 19,
+    "nearest_rank_1based": 18,
+    "source_start_day": 155,
+    "source_start": "2025-06-05",
+    "source_end": "2025-06-07",
+    "source_score_kwh": 45569.90657023809,
+    "donor_load_error_kwh": 24833.202475,
+    "donor_pv_error_kwh": 20736.704095238096,
+    "records": [
+      {
+        "day": 171,
+        "date": "2025-06-21",
+        "source_day": 155,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 8373.928629166667,
+        "realized_pv_overestimate_kwh": 4975.80489047619
+      },
+      {
+        "day": 172,
+        "date": "2025-06-22",
+        "source_day": 156,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 8164.79815,
+        "realized_pv_overestimate_kwh": 9101.046780952382
+      },
+      {
+        "day": 173,
+        "date": "2025-06-23",
+        "source_day": 157,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 8294.475695833333,
+        "realized_pv_overestimate_kwh": 6659.852423809523
+      }
+    ]
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 185,
+    "episode_start": "2025-07-05",
+    "eligible_blocks": 11,
+    "nearest_rank_1based": 10,
+    "source_start_day": 161,
+    "source_start": "2025-06-11",
+    "source_end": "2025-06-13",
+    "source_score_kwh": 23349.62870238095,
+    "donor_load_error_kwh": 16716.51385,
+    "donor_pv_error_kwh": 6633.114852380951,
+    "records": [
+      {
+        "day": 185,
+        "date": "2025-07-05",
+        "source_day": 161,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 5946.8625624999995,
+        "realized_pv_overestimate_kwh": 4453.254397619046
+      },
+      {
+        "day": 186,
+        "date": "2025-07-06",
+        "source_day": 162,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 2,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 5689.769708333333,
+        "realized_pv_overestimate_kwh": 372.87788095238096
+      },
+      {
+        "day": 187,
+        "date": "2025-07-07",
+        "source_day": 163,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 4,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 5079.881579166668,
+        "realized_pv_overestimate_kwh": 1807.5691809523803
+      }
+    ]
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 199,
+    "episode_start": "2025-07-19",
+    "eligible_blocks": 6,
+    "nearest_rank_1based": 6,
+    "source_start_day": 190,
+    "source_start": "2025-07-10",
+    "source_end": "2025-07-12",
+    "source_score_kwh": 33037.84110357144,
+    "donor_load_error_kwh": 30008.355658333337,
+    "donor_pv_error_kwh": 3029.485445238097,
+    "records": [
+      {
+        "day": 199,
+        "date": "2025-07-19",
+        "source_day": 190,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 9651.742945833334,
+        "realized_pv_overestimate_kwh": -2240.719247619048
+      },
+      {
+        "day": 200,
+        "date": "2025-07-20",
+        "source_day": 191,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 10048.940683333334,
+        "realized_pv_overestimate_kwh": 3976.145392857144
+      },
+      {
+        "day": 201,
+        "date": "2025-07-21",
+        "source_day": 192,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 10307.672029166666,
+        "realized_pv_overestimate_kwh": 1294.0593000000006
+      }
+    ]
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 213,
+    "episode_start": "2025-08-02",
+    "eligible_blocks": 14,
+    "nearest_rank_1based": 13,
+    "source_start_day": 189,
+    "source_start": "2025-07-09",
+    "source_end": "2025-07-11",
+    "source_score_kwh": 30467.023305952385,
+    "donor_load_error_kwh": 29642.67579166667,
+    "donor_pv_error_kwh": 824.3475142857154,
+    "records": [
+      {
+        "day": 213,
+        "date": "2025-08-02",
+        "source_day": 189,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 9941.9921625,
+        "realized_pv_overestimate_kwh": -911.0786309523814
+      },
+      {
+        "day": 214,
+        "date": "2025-08-03",
+        "source_day": 190,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 9651.742945833334,
+        "realized_pv_overestimate_kwh": -2240.719247619048
+      },
+      {
+        "day": 215,
+        "date": "2025-08-04",
+        "source_day": 191,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 10048.940683333334,
+        "realized_pv_overestimate_kwh": 3976.145392857143
+      }
+    ]
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 227,
+    "episode_start": "2025-08-16",
+    "eligible_blocks": 9,
+    "nearest_rank_1based": 9,
+    "source_start_day": 199,
+    "source_start": "2025-07-19",
+    "source_end": "2025-07-21",
+    "source_score_kwh": 18685.557223214284,
+    "donor_load_error_kwh": 16099.210554166666,
+    "donor_pv_error_kwh": 2586.346669047619,
+    "records": [
+      {
+        "day": 227,
+        "date": "2025-08-16",
+        "source_day": 199,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 4,
+        "realized_load_underestimate_kwh": 6141.7077500000005,
+        "realized_pv_overestimate_kwh": -465.4320452380957
+      },
+      {
+        "day": 228,
+        "date": "2025-08-17",
+        "source_day": 200,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 4,
+        "realized_load_underestimate_kwh": 5298.397074999998,
+        "realized_pv_overestimate_kwh": 705.3644666666669
+      },
+      {
+        "day": 229,
+        "date": "2025-08-18",
+        "source_day": 201,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 4,
+        "realized_load_underestimate_kwh": 4659.105729166667,
+        "realized_pv_overestimate_kwh": 2346.413835714286
+      }
+    ]
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 241,
+    "episode_start": "2025-08-30",
+    "eligible_blocks": 0,
+    "nearest_rank_1based": null,
+    "source_start_day": null,
+    "source_start": null,
+    "source_end": null,
+    "source_score_kwh": 0.0,
+    "donor_load_error_kwh": 0.0,
+    "donor_pv_error_kwh": 0.0,
+    "records": []
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 255,
+    "episode_start": "2025-09-13",
+    "eligible_blocks": 0,
+    "nearest_rank_1based": null,
+    "source_start_day": null,
+    "source_start": null,
+    "source_end": null,
+    "source_score_kwh": 0.0,
+    "donor_load_error_kwh": 0.0,
+    "donor_pv_error_kwh": 0.0,
+    "records": []
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 269,
+    "episode_start": "2025-09-27",
+    "eligible_blocks": 0,
+    "nearest_rank_1based": null,
+    "source_start_day": null,
+    "source_start": null,
+    "source_end": null,
+    "source_score_kwh": 0.0,
+    "donor_load_error_kwh": 0.0,
+    "donor_pv_error_kwh": 0.0,
+    "records": []
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 283,
+    "episode_start": "2025-10-11",
+    "eligible_blocks": 0,
+    "nearest_rank_1based": null,
+    "source_start_day": null,
+    "source_start": null,
+    "source_end": null,
+    "source_score_kwh": 0.0,
+    "donor_load_error_kwh": 0.0,
+    "donor_pv_error_kwh": 0.0,
+    "records": []
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 297,
+    "episode_start": "2025-10-25",
+    "eligible_blocks": 0,
+    "nearest_rank_1based": null,
+    "source_start_day": null,
+    "source_start": null,
+    "source_end": null,
+    "source_score_kwh": 0.0,
+    "donor_load_error_kwh": 0.0,
+    "donor_pv_error_kwh": 0.0,
+    "records": []
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 311,
+    "episode_start": "2025-11-08",
+    "eligible_blocks": 3,
+    "nearest_rank_1based": 3,
+    "source_start_day": 304,
+    "source_start": "2025-11-01",
+    "source_end": "2025-11-03",
+    "source_score_kwh": 6039.846675595237,
+    "donor_load_error_kwh": 136.04722083333158,
+    "donor_pv_error_kwh": 5903.7994547619055,
+    "records": [
+      {
+        "day": 311,
+        "date": "2025-11-08",
+        "source_day": 304,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": -4.777108333333217,
+        "realized_pv_overestimate_kwh": 1953.3146571428579
+      },
+      {
+        "day": 312,
+        "date": "2025-11-09",
+        "source_day": 305,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 195.22252916666716,
+        "realized_pv_overestimate_kwh": 1877.4642928571432
+      },
+      {
+        "day": 313,
+        "date": "2025-11-10",
+        "source_day": 306,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": -54.39820000000221,
+        "realized_pv_overestimate_kwh": 2073.0205047619042
+      }
+    ]
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 325,
+    "episode_start": "2025-11-22",
+    "eligible_blocks": 14,
+    "nearest_rank_1based": 13,
+    "source_start_day": 311,
+    "source_start": "2025-11-08",
+    "source_end": "2025-11-10",
+    "source_score_kwh": 6618.516798214286,
+    "donor_load_error_kwh": 972.5376458333341,
+    "donor_pv_error_kwh": 5645.979152380952,
+    "records": [
+      {
+        "day": 325,
+        "date": "2025-11-22",
+        "source_day": 311,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 16,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 190.5140624999999,
+        "realized_pv_overestimate_kwh": 316.86637619047474
+      },
+      {
+        "day": 326,
+        "date": "2025-11-23",
+        "source_day": 312,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 16,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 120.37335833333441,
+        "realized_pv_overestimate_kwh": 1860.4854071428574
+      },
+      {
+        "day": 327,
+        "date": "2025-11-24",
+        "source_day": 313,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 16,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 661.6502249999998,
+        "realized_pv_overestimate_kwh": 3469.8854642857145
+      }
+    ]
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 339,
+    "episode_start": "2025-12-06",
+    "eligible_blocks": 20,
+    "nearest_rank_1based": 18,
+    "source_start_day": 336,
+    "source_start": "2025-12-03",
+    "source_end": "2025-12-05",
+    "source_score_kwh": 23952.68744880952,
+    "donor_load_error_kwh": 21328.623591666663,
+    "donor_pv_error_kwh": 2624.0638571428567,
+    "records": [
+      {
+        "day": 339,
+        "date": "2025-12-06",
+        "source_day": 336,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 4,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 6824.466666666667,
+        "realized_pv_overestimate_kwh": 1741.2225333333342
+      },
+      {
+        "day": 340,
+        "date": "2025-12-07",
+        "source_day": 337,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 4,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 7716.6979624999985,
+        "realized_pv_overestimate_kwh": 140.85038095237996
+      },
+      {
+        "day": 341,
+        "date": "2025-12-08",
+        "source_day": 338,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 6787.458962500001,
+        "realized_pv_overestimate_kwh": 741.9910499999997
+      }
+    ]
+  },
+  {
+    "scenario": "joint_optimism",
+    "episode_start_day": 353,
+    "episode_start": "2025-12-20",
+    "eligible_blocks": 21,
+    "nearest_rank_1based": 19,
+    "source_start_day": 337,
+    "source_start": "2025-12-04",
+    "source_end": "2025-12-06",
+    "source_score_kwh": 24535.49182440476,
+    "donor_load_error_kwh": 21697.74049583333,
+    "donor_pv_error_kwh": 2837.751328571427,
+    "records": [
+      {
+        "day": 353,
+        "date": "2025-12-20",
+        "source_day": 337,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 7716.6979624999985,
+        "realized_pv_overestimate_kwh": 140.85035238095125
+      },
+      {
+        "day": 354,
+        "date": "2025-12-21",
+        "source_day": 338,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 6787.458962500001,
+        "realized_pv_overestimate_kwh": 741.9910499999997
+      },
+      {
+        "day": 355,
+        "date": "2025-12-22",
+        "source_day": 339,
+        "load_clipped_slots": 0,
+        "pv_clipped_slots": 0,
+        "night_support_blocked_slots": 0,
+        "realized_load_underestimate_kwh": 7193.5835708333325,
+        "realized_pv_overestimate_kwh": 1954.909926190476
+      }
+    ]
+  }
+]

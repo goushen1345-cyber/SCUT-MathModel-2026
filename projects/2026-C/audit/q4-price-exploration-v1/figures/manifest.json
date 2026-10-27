@@ -1,0 +1,19 @@
+{
+  "scope": "descriptive plots from verified attachment 4 and prepared-v1; no forecasting or optimization",
+  "script_sha256": "452be1633cc8a0e15aacb279d3592b641c0613b06659b06cf80a708c40a59b66",
+  "source_sha256": {
+    "actual_price.csv": "a94fc43685bf5bb00d9d9d6fe2a06d977cc6070d12a248221275c2a926a6b4e9",
+    "actual_power.csv": "7aa15018b683a494d276b06cf46c7f98897f5ace7cbcf8df87c4b7ffe935c441",
+    "day_reference.csv": "e8fef67536b1c65f28ce4aca2c638cff072e7cc85292122993c696df130515b8",
+    "附件4.xlsx": "20e9c93aeab5e8e21ae4dd15587f9e190f7408692504c1319598461cd654fe71"
+  },
+  "matplotlib": "3.11.1",
+  "font": "SimSun",
+  "dpi": 300,
+  "outputs": {
+    "figures\\01_price_structure.pdf": "b75e69d26aafe93163b2046a9ec75cbe35c6e4df9600ce92922fa069bbc62293",
+    "figures\\01_price_structure.png": "6be691b9964cf9c314c72dd772c2b3a5ed2f25146e3f88578161c6b41af221b4",
+    "figures\\02_price_predictability.pdf": "1cffa4ee2025b245812609f8968f63be83955a466c316fd4e373ccc776c63c58",
+    "figures\\02_price_predictability.png": "6b9383ac7f3e6ded89b00f028f4735563a1da5d3e4ae0fa2c7fc01b12c557ad7"
+  }
+}

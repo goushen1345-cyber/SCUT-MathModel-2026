@@ -1,0 +1,10 @@
+{
+  "status": "solved_relaxation",
+  "cost": 12226840.073561173,
+  "dual_lower_bound": 12226840.073561227,
+  "duality_gap": 5.4016709327697754e-08,
+  "residual": 1.8189894035458565e-12,
+  "final": 1200.0,
+  "elapsed": 1.4873138000257313,
+  "meaning": "omniscient all-horizon ordinary-price physical relaxation; not executable and not future-leaking research candidate"
+}

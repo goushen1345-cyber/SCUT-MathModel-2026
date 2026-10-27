@@ -1,0 +1,13 @@
+{
+ "authorization":"能不能继续深化模型看看还能不能再低呢，百分之0.6还是太低了",
+ "purpose":"Improve latest13046147.20yuan Q3 through recency of midnight weekday load forecast and matched preparation; quantify remaining theoretical room without using future data for real plans.",
+ "state_note":"Explicit local Q3 deepening; preserve revision49 formal cursor and all prior versions, no invented freeze.",
+ "fixed":{"period":"2025-02-01..2025-12-31,334days","initial":8592.693560925925,"PV":"existing final causal fusion","intraday_load":"previously selected learned day-prefix correction, own coefficients rebuilt against new midnight forecasts","preparation":"own forecast errors,28days,3h groups,0.7date decay","physics_and_settlement":"unchanged"},
+ "stage1":"Compare last1same-weekday, last2same-weekday mean, last4same-weekday geometrically weighted by0.5 per week. Keep preparation quantile0.60. Four-week unweighted latest baseline reused. No yesterday-only model.",
+ "stage2":"On best validated stage1 load family including baseline, evaluate quantiles0.40,0.50,0.70,0.80;0.60 already available. If0.40 wins add0.30; if0.80 wins add0.90. No other grid search.",
+ "stage3":"If fee improvement remains after terminal valuation, evaluate one joint alternative that combines strongest stage1 recency choice with best quantile only if not already computed. Then evaluate same winner with no post-midnight official PV release and midnight-only normal orders to retain information-value evidence.",
+ "lower_bound":"One all334day perfect-actual-supply deterministic LP, ordinary prices only, no revision/emergency premium, same physical limits and initial storage, final storage allowed down to1200. This relaxes causal and contracting restrictions; result is an optimistic physical-cost lower bound, never a deployable model. Solver primal/dual and limits checked; time limit180seconds.",
+ "validation":"Source hashes, independent midnight and day-prefix prediction reconstruction, exact own-history quantiles and time cutoffs, all physical trajectories and Decimal bills, solver feasibility, daily/monthly risk reversals, terminal valuation. Whole year reused for selection, not an untouched test.",
+ "budget":{"new_rolling_LP_max":15000,"large_hindsight_LP_max":1,"research_seconds_max":1800,"tree_fits":0},
+ "stop":"Complete bounded search, independent verification and recommendation. No paper/result3/Q4 replacement or freezing; do not seek a predetermined percent."
+}

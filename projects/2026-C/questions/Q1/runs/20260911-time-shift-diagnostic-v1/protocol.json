@@ -1,0 +1,12 @@
+{
+  "version": "Q1-time-shift-diagnostic-v1",
+  "authorization": "Q1-TIME-DIAG-040",
+  "purpose": "User-requested isolated alternative timing diagnostic, NOT a replacement of adopted mapping or main model",
+  "source": "prepared-v1/day_reference.csv, cross-checked against raw annex1.xlsx",
+  "alternative_mapping": "Excel rows 2 through 145 in original row order correspond to slots 00:00-00:10 through 23:50-24:00; price, load and PV move together; no row dropped or duplicated",
+  "reference_mapping": "Existing C04: rows 145,2,...,144 correspond to slots 00:00-00:10,...,23:50-24:00",
+  "unchanged_conditions": "Existing LP code and parameters; dt=1/6 hour, initial=terminal=6000 kWh, limits1200/10800, external charge/discharge5000 kW, both efficiencies0.9, PV direct first, no sale income",
+  "budget": "One new LP with existing60-second solve limit; reuse original baseline; independent raw-cell Decimal accounting, physical checks and dual certificate checks; no parameter search",
+  "outputs": "Isolated input_mapping.csv, schedule.csv, lp_certificate.json, comparison_by_source_row.csv, summary.json, verification.json, input/output fingerprints",
+  "stop": "Explain cost and schedule differences; preserve adopted mapping, raw/prepared data, original result1, original runs and paper; no Q2 runs or freeze"
+}

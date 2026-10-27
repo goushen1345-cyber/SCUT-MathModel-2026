@@ -1,0 +1,23 @@
+\documentclass{standalone}
+\usepackage[UTF8]{ctex}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\begin{document}
+% Q1 energy-path definition: report 12.2, 15; external-side kWh.
+\begin{tikzpicture}[>=Stealth, node distance=16mm, every node/.style={font=\small},
+  box/.style={draw=black,rounded corners=2pt,minimum width=23mm,minimum height=10mm,align=center},
+  lab/.style={fill=white,inner sep=2pt}]
+\node[box] (grid) at (0,1.25) {外部电网};
+\node[box] (pv) at (0,-1.25) {光伏发电};
+\node[box] (battery) at (5,0) {储能设备\\$S_{k-1}\longrightarrow S_k$};
+\node[box] (load) at (10,1.25) {小区负载};
+\node[box] (waste) at (10,-1.25) {未利用光伏};
+\draw[->] (grid.east) -- node[lab,above] {$n_k-z_k$} (load.west);
+\draw[->] (grid.south east) -- node[lab,above,sloped] {$x_k$} (battery.north west);
+\draw[->] (pv.north east) -- node[lab,above,sloped] {$y_k$} (battery.south west);
+\draw[->] (battery.north east) -- node[lab,below,sloped] {$z_k$} (load.south west);
+\draw[->] (pv.south) -- (0,-2.65) -- node[lab,below] {$m_k$：光伏直供} (11.9,-2.65) -- (11.9,1.25) -- (load.east);
+\draw[->] (pv.east) -- node[lab,pos=.70,above] {$w_k=r_k-y_k$} (waste.west);
+\end{tikzpicture}
+
+\end{document}

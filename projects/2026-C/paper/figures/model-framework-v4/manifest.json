@@ -1,0 +1,19 @@
+{
+  "tool": "TikZ / XeLaTeX / Poppler",
+  "fonts": [
+    "SimSun",
+    "SimHei",
+    "Times New Roman"
+  ],
+  "sources": {
+    "E:/Projects/SCUT-MathModel-2026/projects/2026-C/paper/figures/model-framework-v4/framework.tex": "b6ac7c0062369690c3795b011670749c7a9586c0e5b3dc4d29e5c1d964fb6d80",
+    "E:/Projects/SCUT-MathModel-2026/projects/2026-C/paper/figures/model-framework-v4/build.py": "aa8405a9d019a95a4f92007e4117b6ec1221c82a661563ddf9c6c3325799a868",
+    "E:/Projects/SCUT-MathModel-2026/projects/2026-C/paper/figures/model-framework-v3/framework.tex": "9398bc9b258e1c9bcc6caf0ed9ca3de67ed55ddaa5a73d717aaa11f3f657bbc2"
+  },
+  "outputs": {
+    "四问整体模型框架图.pdf": "af2586a35f6d92bb1de4217f13d46b91105c2839e2d7f0deba5e13539a90e437",
+    "四问整体模型框架图.png": "703d65b3ce05a32c9dd6c9e79350de2ad6c3098c6b4ed2591b0fd936b0b0932f"
+  },
+  "scope": "Existing model structure only; no research or state changes",
+  "png_dpi": 300
+}

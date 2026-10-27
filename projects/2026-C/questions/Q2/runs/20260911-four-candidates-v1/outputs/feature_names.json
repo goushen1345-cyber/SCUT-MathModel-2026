@@ -1,0 +1,23 @@
+[
+  "time_sin1",
+  "time_cos1",
+  "time_sin2",
+  "time_cos2",
+  "weekday_0",
+  "weekday_1",
+  "weekday_2",
+  "weekday_3",
+  "weekday_4",
+  "weekday_5",
+  "weekday_6",
+  "horizon_day",
+  "year_sin",
+  "year_cos",
+  "recent_slot_last",
+  "recent_slot_mean3",
+  "recent_slot_mean7",
+  "matching_week1",
+  "matching_week4",
+  "last_daily_level",
+  "recent7_daily_level"
+]

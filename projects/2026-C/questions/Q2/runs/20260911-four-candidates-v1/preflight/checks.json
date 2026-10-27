@@ -1,0 +1,57 @@
+{
+  "hand_cases": {
+    "full_battery_unused_order_still_paid": true,
+    "minimum_storage_emergency_at5p": true,
+    "capacity_limit_and_pv_priority": true,
+    "charging_power_limit": true,
+    "no_energy": true,
+    "surplus_only": true,
+    "constant_load_empty": true
+  },
+  "solver_checks": [
+    {
+      "case": "no_energy",
+      "status": 0,
+      "seconds": 0.011135899985674769,
+      "eq_residual": 0.0,
+      "inequality_residual": 0.0,
+      "bound_residual": 0.0,
+      "primal_dual_gap": 0.0,
+      "simultaneous_slots": 0,
+      "objective": -5400.0,
+      "initial_storage": 6000.0,
+      "terminal_storage": 6000.0,
+      "terminal_value": 0.9
+    },
+    {
+      "case": "surplus_only",
+      "status": 0,
+      "seconds": 0.007769500021822751,
+      "eq_residual": 0.0,
+      "inequality_residual": 0.0,
+      "bound_residual": 0.0,
+      "primal_dual_gap": 0.0,
+      "simultaneous_slots": 0,
+      "objective": -9720.0,
+      "initial_storage": 6000.0,
+      "terminal_storage": 10800.0,
+      "terminal_value": 0.9
+    },
+    {
+      "case": "constant_load_empty",
+      "status": 0,
+      "seconds": 0.007248300011269748,
+      "eq_residual": 0.0,
+      "inequality_residual": 0.0,
+      "bound_residual": 0.0,
+      "primal_dual_gap": 0.0,
+      "simultaneous_slots": 0,
+      "objective": 94919.99999999999,
+      "initial_storage": 1200.0,
+      "terminal_storage": 1200.0,
+      "terminal_value": 0.9
+    }
+  ],
+  "lp_calls": 3,
+  "new_training": 0
+}

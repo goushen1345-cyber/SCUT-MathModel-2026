@@ -1,0 +1,103 @@
+{
+  "comparison_basis": {
+    "period": [
+      "2025-02-01",
+      "2025-12-31"
+    ],
+    "common_initial_kwh": 8592.693560925925,
+    "price_models_refit": 0,
+    "lp_calls_in_common_start_control": 5010,
+    "independent_verification": "verified_by_independent_readback_not_human_review"
+  },
+  "branches": {
+    "Q4-2": {
+      "P1": {
+        "total_cost": 14272199.465256244,
+        "ordinary_cost": 13633853.717116475,
+        "adjustment_cost": 0.0,
+        "emergency_cost": 638345.7481397679,
+        "emergency_kwh": 97728.89242911896,
+        "unused_order_kwh": 806881.7881840478,
+        "unused_pv_kwh": 1324563.0862955274,
+        "emergency_days": 153
+      },
+      "P2": {
+        "total_cost": 14266367.17666253,
+        "ordinary_cost": 13621614.479655977,
+        "adjustment_cost": 0.0,
+        "emergency_cost": 644752.6970065552,
+        "emergency_kwh": 99205.19044834751,
+        "unused_order_kwh": 818259.8588719601,
+        "unused_pv_kwh": 1323431.3672835412,
+        "emergency_days": 154
+      },
+      "P3": {
+        "total_cost": 14255176.402135499,
+        "ordinary_cost": 13616344.809891313,
+        "adjustment_cost": 0.0,
+        "emergency_cost": 638831.5922441859,
+        "emergency_kwh": 98725.98397041307,
+        "unused_order_kwh": 809927.1311614232,
+        "unused_pv_kwh": 1325563.8961616168,
+        "emergency_days": 155
+      },
+      "P2_vs_P1": {
+        "saving_yuan": 5832.288593713194,
+        "saving_percent": 0.04086467967261191
+      },
+      "P3_vs_P2": {
+        "saving_yuan": 11190.774527031928,
+        "saving_percent": 0.07844165503701758,
+        "emergency_kwh_change": -479.2064779344364,
+        "emergency_days_change": 1
+      }
+    },
+    "Q4-3": {
+      "P1": {
+        "total_cost": 13837845.315519044,
+        "ordinary_cost": 13341901.670754101,
+        "adjustment_cost": 262417.34724868415,
+        "emergency_cost": 233526.2975162598,
+        "emergency_kwh": 40144.52366998594,
+        "unused_order_kwh": 402414.7109125866,
+        "unused_pv_kwh": 1136416.2914749866,
+        "emergency_days": 169
+      },
+      "P2": {
+        "total_cost": 13822901.349092131,
+        "ordinary_cost": 13327163.049660876,
+        "adjustment_cost": 268515.8216733264,
+        "emergency_cost": 227222.47775792936,
+        "emergency_kwh": 38733.80126976044,
+        "unused_order_kwh": 408198.6892768707,
+        "unused_pv_kwh": 1127863.624228149,
+        "emergency_days": 167
+      },
+      "P3": {
+        "total_cost": 13820628.119205007,
+        "ordinary_cost": 13323711.785322389,
+        "adjustment_cost": 265079.52393477823,
+        "emergency_cost": 231836.8099478421,
+        "emergency_kwh": 40116.1200565154,
+        "unused_order_kwh": 403258.78466108436,
+        "unused_pv_kwh": 1131955.2752532628,
+        "emergency_days": 169
+      },
+      "P2_vs_P1": {
+        "saving_yuan": 14943.966426912695,
+        "saving_percent": 0.10799344902456123
+      },
+      "P3_vs_P2": {
+        "saving_yuan": 2273.229887124151,
+        "saving_percent": 0.016445388921721947,
+        "emergency_kwh_change": 1382.3187867549568,
+        "emergency_days_change": 2
+      }
+    }
+  },
+  "interpretation_boundary": [
+    "P2 coefficients summarize rolling associations after standard ridge fitting; correlated curve features prevent a causal reading of any one coefficient.",
+    "P3 split counts and gain shares only show where the fitted trees split; they do not prove causal contribution.",
+    "All results are an in-year rolling comparison on 2025 data and do not establish cross-year generalization."
+  ]
+}

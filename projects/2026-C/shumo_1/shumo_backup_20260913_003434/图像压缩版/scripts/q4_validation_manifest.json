@@ -1,0 +1,5 @@
+{
+  "source": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\scripts\\derived_values.json",
+  "sha256": "4088af4da94b911ca59479eac6f4117fdf27cb345383fa894adc339a755d311c",
+  "change": "axis label 全年费用 -> 评价期费用; existing numbers unchanged"
+}

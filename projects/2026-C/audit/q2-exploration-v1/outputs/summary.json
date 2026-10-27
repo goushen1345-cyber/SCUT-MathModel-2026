@@ -1,0 +1,181 @@
+{
+  "version": "Q2-exploration-v1",
+  "created_utc": "2026-09-11T08:15:24.192465+00:00",
+  "scope": "Independently computed local Q2 EDA and fixed-history diagnostic; no optimization, fitted model, or selection",
+  "time": {
+    "first_start": "2025-01-01 00:10:00",
+    "last_start": "2026-01-01 00:00:00",
+    "raw_records": 52560,
+    "missing_start": "2025-01-01 00:00",
+    "first_partial_day_intervals": 143,
+    "excluded_nextyear_intervals": 1,
+    "complete_days": 364
+  },
+  "submission_period": {
+    "days": 334,
+    "intervals": 48096,
+    "load_kwh": 37007843.78591666,
+    "pv_kwh": 19068889.994283333,
+    "direct_pv_kwh": 16010730.078083334,
+    "positive_net_kwh": 20997113.707833335,
+    "surplus_kwh": 3058159.9162,
+    "power_spill_lower_bound_kwh": 16297.051483333335,
+    "grid_required_by_power_kwh": 287684.3296333334,
+    "pv_to_load_ratio": 0.5152661718038272,
+    "direct_load_fraction": 0.4326307193335111,
+    "surplus_intervals": 9830,
+    "surplus_days": 317,
+    "days_surplus_above_one_fill": 97,
+    "surplus_above_charge_limit_intervals": 241,
+    "net_above_discharge_limit_intervals": 3013,
+    "max_surplus_kw": 6601.9911,
+    "max_net_kw": 6687.7481,
+    "min_load_kw": 1995.7176,
+    "max_load_kw": 7978.8849,
+    "max_pv_kw": 10216.2
+  },
+  "complete_day_description": {
+    "days": 364,
+    "intervals": 52416,
+    "load_kwh": 40396725.25125,
+    "pv_kwh": 20215991.82931667,
+    "direct_pv_kwh": 17095770.826083332,
+    "positive_net_kwh": 23300954.425166667,
+    "surplus_kwh": 3120221.003233333,
+    "power_spill_lower_bound_kwh": 16297.051483333335,
+    "grid_required_by_power_kwh": 333668.70704999997,
+    "pv_to_load_ratio": 0.5004364018019288,
+    "direct_load_fraction": 0.4231969477663127,
+    "surplus_intervals": 10130,
+    "surplus_days": 330,
+    "days_surplus_above_one_fill": 97,
+    "surplus_above_charge_limit_intervals": 241,
+    "net_above_discharge_limit_intervals": 3435,
+    "max_surplus_kw": 6601.9911,
+    "max_net_kw": 6687.7481,
+    "min_load_kw": 1995.7176,
+    "max_load_kw": 7978.8849,
+    "max_pv_kw": 10216.2
+  },
+  "daily_lags": {
+    "load_kwh": {
+      "1": 0.370994846055983,
+      "7": 0.987959365558055
+    },
+    "pv_kwh": {
+      "1": 0.9640052489410473,
+      "7": 0.9288738505271754
+    }
+  },
+  "reference_errors": {
+    "week1_pv7": {
+      "mae_kw": 273.3468446660251,
+      "bias_kw": 0.8081411076656184,
+      "load_pv_error_corr": -0.0005363146634633447,
+      "cumulative": {
+        "1h": {
+          "count": 46426,
+          "q50_kwh": -6.64529880952378,
+          "q90_kwh": 386.77693571428586,
+          "q95_kwh": 598.7098374999998,
+          "q99_kwh": 1009.3825553571431,
+          "max_kwh": 2269.256445238095,
+          "min_kwh": -1880.9496214285728
+        },
+        "3h": {
+          "count": 42418,
+          "q50_kwh": -23.298415476189774,
+          "q90_kwh": 1050.3028569047642,
+          "q95_kwh": 1680.7732853571417,
+          "q99_kwh": 2739.4239229047666,
+          "max_kwh": 5953.959669047618,
+          "min_kwh": -5326.1102142857135
+        },
+        "6h": {
+          "count": 36406,
+          "q50_kwh": -44.31927023809501,
+          "q90_kwh": 1943.637128571428,
+          "q95_kwh": 3013.614189285714,
+          "q99_kwh": 5004.067246428568,
+          "max_kwh": 10259.901373809524,
+          "min_kwh": -8464.443735714285
+        }
+      }
+    },
+    "week4_pv7": {
+      "mae_kw": 284.8994097718254,
+      "bias_kw": -2.159867430466452,
+      "load_pv_error_corr": 0.0006715315050427807,
+      "cumulative": {
+        "1h": {
+          "count": 46426,
+          "q50_kwh": -9.11049821428611,
+          "q90_kwh": 443.7275264880951,
+          "q95_kwh": 605.5285354166673,
+          "q99_kwh": 989.1622915178573,
+          "max_kwh": 2289.0746452380945,
+          "min_kwh": -1750.0664410714298
+        },
+        "3h": {
+          "count": 42418,
+          "q50_kwh": -25.475961607143063,
+          "q90_kwh": 1239.9927047619046,
+          "q95_kwh": 1681.1259919940485,
+          "q99_kwh": 2726.224293952386,
+          "max_kwh": 5970.788925,
+          "min_kwh": -5113.324197023812
+        },
+        "6h": {
+          "count": 36406,
+          "q50_kwh": -38.722949702381584,
+          "q90_kwh": 2269.5220907738103,
+          "q95_kwh": 3101.8164427083348,
+          "q99_kwh": 5096.660688660645,
+          "max_kwh": 10335.496823809528,
+          "min_kwh": -8283.51123571429
+        }
+      }
+    }
+  },
+  "storage": {
+    "min_kwh": 1200,
+    "max_kwh": 10800,
+    "usable_internal_kwh": 9600,
+    "one_fill_external_kwh": 10666.666666666666,
+    "usable_load_side_full_kwh": 8640.0,
+    "usable_load_side_initial6000_kwh": 4320.0,
+    "full_discharge_at5000_hours": 1.728,
+    "eta_charge": 0.9,
+    "eta_discharge": 0.9
+  },
+  "information_audit": {
+    "reference_records": 2338,
+    "max_history_available_after_decision": false,
+    "annex3_used": false,
+    "annex4_used": false,
+    "teammate_computed_data_or_figures_used": false
+  },
+  "limitations": [
+    "Whole-year exploratory diagnostics; no untouched holdout claim",
+    "No real controller/orders/SOC path: surplus is not spill and reference error is not emergency power",
+    "Overlapping error windows not independent; full-year quantiles cannot be used at past decisions",
+    "Jan1 first slot remains missing; no simulation initialization choice made"
+  ],
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "source_sha256": {
+    "data\\prepared-v1\\actual_power.csv": "7aa15018b683a494d276b06cf46c7f98897f5ace7cbcf8df87c4b7ffe935c441",
+    "data\\prepared-v1\\day_reference.csv": "e8fef67536b1c65f28ce4aca2c638cff072e7cc85292122993c696df130515b8",
+    "data\\raw\\C题\\附件\\附件1.xlsx": "66b87134f5ecccd68184d3539bb1293ef039f9e0fdd955a589b9bfa7f227c377",
+    "data\\raw\\C题\\附件\\附件2.xlsx": "2e95fd446bfafa0d8c59577b5c2e2ea8b3f1def20dde54a3062556f4da9b4c72",
+    "questions\\Q1\\runs\\20260911-compare-v1\\outputs\\schedules\\C04.csv": "d48f8ed12d777ebe2a143be42657a9cb5271433ae5d8408a6dcad533eac8fc7c",
+    "questions\\Q1\\runs\\20260911-close-v1\\deliverables\\result1.xlsx": "94580594a07fcbe3544e311cfac7e482bdb12b0f84b8727791d41e6764809924",
+    "paper\\q1_manuscript_v1\\问题一论文草稿.pdf": "aceb1017c658032008c40a81140473c66d3d4f2f237b00f32233883e10b31d79"
+  },
+  "script_sha256": "61dbbfa9e51d26aa2982d8e1ced165100db91670dbc824108dece9718d14e173",
+  "protocol_sha256": "06d720a9a005ce8f36d565889f5087b0fb01eac8a22bb6ce75ce10761eeeb5d1"
+}

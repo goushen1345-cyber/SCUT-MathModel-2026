@@ -1,0 +1,15 @@
+{
+  "changed_sources": [
+    "sections\\sec_4_data_preprocessing.tex"
+  ],
+  "pages": 45,
+  "pdf_sha256": "515b4cfe77357fe4dcb4595216a1bea9bd28c93580bc6915e1f4b41cf66c8eb1",
+  "checked_pages": [
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "backup": "projects\\2026-C\\tmp\\data_chapter_before_20260913_103222"
+}

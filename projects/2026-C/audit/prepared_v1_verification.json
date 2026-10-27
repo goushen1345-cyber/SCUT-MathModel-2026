@@ -1,0 +1,44 @@
+{
+  "verified_at": "2026-09-10T23:32:31.825865+08:00",
+  "method": "Independent XLSX XML reader; all saved CSV numeric strings and source keys checked, no builder imports",
+  "candidate": "data/prepared-v1",
+  "manifest_sha256": "092f02f27b47c03940470b8698bd671cd081e5bd7979d89c5e40a9dc62e3882c",
+  "verifier_script_sha256": "bb5255b1f15369de6fcd83b2ca5afc1e76dcc7a9048e2978e1e467edad00a7dc",
+  "row_counts": {
+    "day_reference.csv": 144,
+    "actual_power.csv": 52560,
+    "actual_price.csv": 52560,
+    "pv_forecasts.csv": 35040
+  },
+  "source_numeric_cells_checked": 193152,
+  "numeric_changes": 0,
+  "duplicate_or_missing_source_numeric_cells": 0,
+  "original_files_unchanged": 10,
+  "all_source_numeric_texts_exact": true,
+  "all_date_time_labels_and_joins_checked": true,
+  "midnight_labels_retained": {
+    "day_reference.csv": 1,
+    "actual_power.csv": 365,
+    "actual_price.csv": 365
+  },
+  "inherited_date_source_rows": 1095,
+  "forecast_batches": 1460,
+  "forecast_target_labels_in_2026": 40,
+  "forecast_records_without_actual_target_label": 36,
+  "zero_counts_preserved_by_source": {
+    "annex1": 55,
+    "annex2_load": 0,
+    "annex2_pv": 23540,
+    "annex4": 0,
+    "annex3": 17525
+  },
+  "passed": true,
+  "human_verification": "not performed",
+  "data_frozen": false,
+  "limitations": [
+    "source labels only; physical interval meaning not selected",
+    "hourly interpolation and energy conversion not performed",
+    "CSV information-role labels do not enforce causal model access",
+    "no validation of physical measurement truth or forecast skill"
+  ]
+}

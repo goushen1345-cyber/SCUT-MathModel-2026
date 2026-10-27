@@ -1,0 +1,22 @@
+{
+  "max_residual_kwh": {
+    "source": "7E-14",
+    "storage": "1.34444444444444E-12",
+    "load": "1.283333333333E-13",
+    "pv": "1.66666666666E-13",
+    "grid": "2E-13",
+    "power": "0",
+    "bounds": "0",
+    "mode": "0",
+    "nonnegative": "0",
+    "chain": "0"
+  },
+  "decimal_fee": "35126.94858928962959139037123",
+  "baseline_decimal_fee": "35126.84858928962958473370457",
+  "decimal_dual_lower_bound": "35126.94858928962915362033359",
+  "primal_minus_dual": "4.3777003764E-13",
+  "stationarity_residual": "1E-16",
+  "source_rows_complete": true,
+  "protected_files_unchanged": true,
+  "ai_check_only": true
+}

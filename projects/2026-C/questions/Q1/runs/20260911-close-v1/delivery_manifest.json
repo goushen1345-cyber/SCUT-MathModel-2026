@@ -1,0 +1,33 @@
+{
+  "version": "Q1-close-v1",
+  "authorization": "Q1-CLOSE-030",
+  "purpose": "Reproducible delivery inventory, not model freeze",
+  "files": {
+    "close.py": "99cb1fde3b723352cdd30a93987caa7e62175cca9519a3840a57e3fdccb402d9",
+    "deliverables/result1.xlsx": "94580594a07fcbe3544e311cfac7e482bdb12b0f84b8727791d41e6764809924",
+    "deliverables/result1.xlsx.inspect.ndjson": "a0b13b26e33321486f5080c3f6c14c0ad36770dd144105410932c810bc09d451",
+    "outputs/certificate_10800.json": "fb9d304987ddabc46e1df2bf6f50ec176ff71af1eee16177a526efd41a7b6e60",
+    "outputs/certificate_1200.json": "e89832b606fdc959457937923b8ac45d0621935811ae2c1c7e8104f067f66075",
+    "outputs/export_payload.json": "a32b3db778303852a976bcb4c6e028045b2868de9a31b08b205c9b12348bdc99",
+    "outputs/input_mapping.csv": "648b19f1e93484c2b7a766ecf28269445951982711673e6533f4f49c40c928de",
+    "outputs/schedules/initial_10800.csv": "78e4f4298cda377f0f573498ab09e68a664cd2d71ddff7bb5892bf6e04cbdb76",
+    "outputs/schedules/initial_1200.csv": "017ec27c8c4ee318c44a9ffb61800910253950727554a179bddbf8f84f85ab16",
+    "outputs/sensitivity.csv": "eda02cf3d02d1dcf2bb3a80f04b164827b1baebeb536ba9bd148f6275016a774",
+    "outputs/summary.json": "355d923bfad48f6d5efc0f3e2f733a75b49a4f4c094464f6995315257c3ee251",
+    "outputs/table1_selected_purchase.csv": "db9c786280ea64007c8c764845d662a260b8cb16d8c5ad5278ed4b9baa45b6f6",
+    "outputs/table2_four_hour.csv": "f0b76c26ea4cc063e0375353018ad0f8682770382fabe304274c60d487daddf1",
+    "outputs/verification.json": "5ddc84135fa96fffd0f6fbbd5e3931ad86b9311a45d61e873d9bee3323e3ff7e",
+    "outputs/workbook_inspection.json": "9c6dc3d3c3582c1cad927eb7613a03a57f01c0a980b4585b96059bf3d8984490",
+    "outputs/workbook_verification.json": "e60508d239605d6365c86de0ce45c7c9e64e9a8c358252186e7494d7f0cb424d",
+    "previews/result_midnight.png": "788912f725265808f6efca99bc63d7170a8422064ab2d440912b58515db2b0cc",
+    "previews/result_purchase.png": "9c29f3f72cba15e3bf161ea8c7e924f621672e234f1872b8a52f98d18eff162c",
+    "previews/result_storage.png": "fe47c8e0d816e6e39493deb1cf4400567a0802d39cbd6110922c2c8f1448139c",
+    "previews/source_purchase.png": "096155f3bc8152ef3a7a598d935868e55243106e53dcafd8e7739d5964f46222",
+    "previews/source_storage.png": "1a1c5bf0e8caeeb46f9b722b32fc70ca5588f56cc7f5e8c37f11cc0567ae775f",
+    "protocol.json": "9eb3cf3d76d4bdf851be36078fa5c9a1b154b95944d36c348889bad661cc88ce",
+    "README.md": "ea6b09059ebd60c9b46f8f1a1c6315ad2da89c4ae49afc2db2509f10818b858e",
+    "verify_close.py": "3cd0559a121cec35cb80365e1dbf8a3f47d769cd5d5d8ef00de0a9d2d366e7b3",
+    "verify_workbook.py": "80c458ce8fc86ae23e1684a879dfa3e752adfa0e16711936403ba4fe1c786c65",
+    "workbook.mjs": "1c77ecdbb6a74335cabd601e00018938b7a201911d41616aedf6aba51a2efc42"
+  }
+}

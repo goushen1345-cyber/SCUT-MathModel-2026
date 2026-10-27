@@ -1,0 +1,19 @@
+{
+  "figure_version": "q2-exploration-v4",
+  "actual_png_visual_inspection": true,
+  "inspected_final_pngs": ["01_monthly_supply", "04_history_references"],
+  "other_four_pngs_identical_to_actually_inspected_v3": true,
+  "legend_overlays_corrected": ["01_monthly_supply", "04_history_references"],
+  "all_visible_text_within_canvas": true,
+  "out_of_view_ticks_not_actually_drawn_excluded_from_canvas_check": true,
+  "reproduction_directory": "tmp/q2-figure-reproduction-v1",
+  "all_six_png_and_six_pdf_hashes_match_reproduction": true,
+  "all_text_black": true,
+  "inserted_paper_page_inspection": false,
+  "human_review_claimed": false,
+  "data_verification": "audit/q2-exploration-v1/verification.json",
+  "solver_calls": 0,
+  "fitted_models": 0,
+  "failures_preserved": ["restricted runtime pyexpat access failure", "v1 layout rectangle height caused out of canvas title", "v2 canvas check included ticks outside axis range", "v3 legend overlays corrected in v4"],
+  "nonfatal_environment_warning": "Anaconda pandas numexpr version warning; plotting reads saved CSV summaries and no models are fitted"
+}

@@ -1,0 +1,3 @@
+﻿branch,selected,selected_cost,ideal_cost,raw_gap,raw_gap_percent,selected_final_kwh,ideal_final_kwh,boundary
+Q4-2,P3-leaves31,14248570.873613387,14183025.71173699,65545.16187639721,0.46001218267987026,8692.34252425926,7940.43062287037,unavailable future true prices; last-day beyond-year prices retain selected forecast
+Q4-3,P2-full,13822901.349092131,13728151.676698444,94749.67239368707,0.6854543051478125,7918.813480370371,5740.845179120371,unavailable future true prices; last-day beyond-year prices retain selected forecast

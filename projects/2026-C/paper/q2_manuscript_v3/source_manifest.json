@@ -1,0 +1,24 @@
+{
+  "scope": "read existing results only",
+  "source_sha256": {
+    "questions\\Q2\\runs\\20260911-annual-validation-v1\\delivery_data\\summary.json": "8ea80b90a324f0a02aa06d6b15a81fc8f7225d4be7d6bf14a8703bb653cd6245",
+    "questions\\Q2\\runs\\20260911-annual-validation-v1\\delivery_data\\selected_monthly.csv": "a4b98b0ccdadfcdcf3fe4bc0dc2b86fd46845ec8245f2dd00216197b4b58460b",
+    "questions\\Q2\\runs\\20260911-annual-validation-v1\\delivery_data\\selected_execution.csv.gz": "fdf18ad222afeb58436d12814e994c841bd1ecb828bddfe7b6335ca45a714bf0",
+    "questions\\Q2\\runs\\20260911-annual-validation-v1\\delivery_data\\paired_days.csv": "118cd307ddd39067cac743cd02cd2899fa3cb790c7d9fb491fdbffea9d2276c1",
+    "questions\\Q2\\runs\\20260911-annual-validation-v1\\annual\\comparison.csv": "36e7804b137386055bdc7c47ea98fc70f81854009c00fd73df8e76ce50f41da1",
+    "questions\\Q2\\runs\\20260911-annual-validation-v1\\refinement\\comparison.csv": "7de95e69e05052ee56d639b827824dbbd166c561a05d80deea042fe5c877f561",
+    "questions\\Q2\\runs\\20260911-annual-validation-v1\\validation\\comparison.csv": "f6237074a65bf609dca6990e707e8752cf73c3f19ff6dbc0656564ebef627db6",
+    "questions\\Q2\\runs\\20260911-annual-validation-v1\\supplement\\comparison.csv": "594652badc62292d7ee0f28480c9f5b44418a510acaa6a654925675cd34b2fbf",
+    "questions\\Q2\\runs\\20260911-annual-validation-v1\\delivery_data\\specified_table1.csv": "370983bf4f839525ad5d1da23b4374e6d584289b8811fe0339ca557dcf8abc1c",
+    "questions\\Q2\\runs\\20260911-annual-validation-v1\\delivery_data\\specified_table2.csv": "d35f8006acf7c70abc1a8485b2fe319dcc18aa7990824b15c8938ce93d0c6fa1",
+    "questions\\Q2\\runs\\20260911-annual-validation-v1\\delivery_data\\specified_table3.csv": "aa7c0f06e95a2d3af39cd0e1d0a87aaf0b8776e41b1f35fc70c8ba03eac6f4e7",
+    "questions\\Q2\\runs\\20260911-targeted-validation-v1\\analysis\\scenario_comparison.csv": "3c79fef95ca352a72c75bc078228d747c20d6c3126a84d76d5c4d28af98edd4e",
+    "questions\\Q2\\runs\\20260911-targeted-validation-v1\\analysis\\tails.json": "ebd1e069cde4c8a8a58c1e13adedafd5084dd90122df52c109216f488a643d09",
+    "questions\\Q2\\runs\\20260911-targeted-validation-v1\\analysis\\group_paired.csv": "9a5b43cf82d32febd711d8b7460db239618c0a059804c8091dfb9bf36115b052",
+    "questions\\Q2\\runs\\20260911-annual-validation-v1\\deliverables\\result2.xlsx": "b59048816109bad41d2d21cf01474c0b5a6459be257cd639dde32ed99e3f3251",
+    "data\\prepared-v1\\actual_power.csv": "7aa15018b683a494d276b06cf46c7f98897f5ace7cbcf8df87c4b7ffe935c441",
+    "data\\prepared-v1\\day_reference.csv": "e8fef67536b1c65f28ce4aca2c638cff072e7cc85292122993c696df130515b8",
+    "questions\\Q1\\runs\\20260911-close-v1\\outputs\\summary.json": "355d923bfad48f6d5efc0f3e2f733a75b49a4f4c094464f6995315257c3ee251",
+    "questions\\Q1\\runs\\20260911-compare-v1\\outputs\\schedules\\C04.csv": "d48f8ed12d777ebe2a143be42657a9cb5271433ae5d8408a6dcad533eac8fc7c"
+  }
+}

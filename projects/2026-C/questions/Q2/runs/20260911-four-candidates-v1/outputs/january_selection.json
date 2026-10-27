@@ -1,0 +1,15 @@
+{
+  "selected": {
+    "T1": [
+      4,
+      7
+    ],
+    "T2": 100,
+    "T3": 5,
+    "T4": 0.7
+  },
+  "criterion": "January actual ordinary+emergency bill",
+  "selected_after": "2025-01-31 24:00",
+  "common_initial_storage": 8087.864448950618,
+  "disclosure": "January hyperparameter replays are hypothetical trajectories; annual EDA already observed"
+}

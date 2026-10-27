@@ -1,0 +1,241 @@
+{
+  "scenario_comparisons": [
+    {
+      "scenario": "joint_optimism",
+      "equal_cost": 14541808.243177362,
+      "recent_cost": 14048148.197106488,
+      "saving": 493660.04607087374,
+      "saving_pct": 3.3947638272735867,
+      "better_days": 189,
+      "worse_days": 145,
+      "same_days": 0,
+      "worst_extra_cost": 16232.01693179988,
+      "worst_date": "2025-06-22",
+      "equal_cost_change_vs_original": 511436.0506751202,
+      "recent_cost_change_vs_original": 464337.35574154556
+    },
+    {
+      "scenario": "load_underestimate",
+      "equal_cost": 14510458.098672211,
+      "recent_cost": 14000141.601863023,
+      "saving": 510316.4968091883,
+      "saving_pct": 3.5168875671532733,
+      "better_days": 192,
+      "worse_days": 142,
+      "same_days": 0,
+      "worst_extra_cost": 19937.1655211688,
+      "worst_date": "2025-08-02",
+      "equal_cost_change_vs_original": 480085.9061699696,
+      "recent_cost_change_vs_original": 416330.7604980804
+    },
+    {
+      "scenario": "original",
+      "equal_cost": 14030372.192502242,
+      "recent_cost": 13583810.841364942,
+      "saving": 446561.3511372991,
+      "saving_pct": 3.182818994466442,
+      "better_days": 195,
+      "worse_days": 135,
+      "same_days": 4,
+      "worst_extra_cost": 19484.147558711324,
+      "worst_date": "2025-06-24",
+      "equal_cost_change_vs_original": 0.0,
+      "recent_cost_change_vs_original": 0.0
+    },
+    {
+      "scenario": "pv_overestimate",
+      "equal_cost": 14173661.084860835,
+      "recent_cost": 13735149.306285746,
+      "saving": 438511.7785750888,
+      "saving_pct": 3.0938497537765444,
+      "better_days": 200,
+      "worse_days": 130,
+      "same_days": 4,
+      "worst_extra_cost": 26715.71819347665,
+      "worst_date": "2025-06-22",
+      "equal_cost_change_vs_original": 143288.89235859364,
+      "recent_cost_change_vs_original": 151338.4649208039
+    }
+  ],
+  "original_tail_risk": [
+    {
+      "scenario": "original",
+      "policy": "equal",
+      "tail_kind": "daily_emergency_cost",
+      "count": 17,
+      "mean": 33220.580637034356,
+      "maximum": 74783.28933241557,
+      "dates": [
+        "2025-06-01",
+        "2025-06-02",
+        "2025-07-06",
+        "2025-06-03",
+        "2025-06-05",
+        "2025-06-04",
+        "2025-04-28",
+        "2025-12-02",
+        "2025-06-06",
+        "2025-12-01",
+        "2025-03-02",
+        "2025-12-06",
+        "2025-08-20",
+        "2025-07-03",
+        "2025-12-03",
+        "2025-12-04",
+        "2025-03-03"
+      ]
+    },
+    {
+      "scenario": "original",
+      "policy": "recent",
+      "tail_kind": "daily_emergency_cost",
+      "count": 17,
+      "mean": 24091.39861050404,
+      "maximum": 72674.16252617387,
+      "dates": [
+        "2025-06-01",
+        "2025-04-28",
+        "2025-06-24",
+        "2025-06-02",
+        "2025-08-20",
+        "2025-07-06",
+        "2025-07-03",
+        "2025-07-01",
+        "2025-12-01",
+        "2025-12-02",
+        "2025-10-29",
+        "2025-03-02",
+        "2025-04-09",
+        "2025-05-26",
+        "2025-05-01",
+        "2025-07-02",
+        "2025-04-01"
+      ]
+    },
+    {
+      "scenario": "original",
+      "policy": "recent-minus-equal",
+      "tail_kind": "paired_extra_cost",
+      "count": 17,
+      "mean": 5221.016466782846,
+      "maximum": 19484.147558711324,
+      "dates": [
+        "2025-06-24",
+        "2025-07-01",
+        "2025-05-26",
+        "2025-06-08",
+        "2025-08-12",
+        "2025-05-20",
+        "2025-08-20",
+        "2025-07-02",
+        "2025-07-28",
+        "2025-07-03",
+        "2025-09-10",
+        "2025-03-04",
+        "2025-06-12",
+        "2025-07-10",
+        "2025-11-09",
+        "2025-07-13",
+        "2025-10-29"
+      ]
+    }
+  ],
+  "original_groups": [
+    {
+      "dimension": "season",
+      "group": "autumn",
+      "days_equal": 91,
+      "total_cost_equal": 3531527.157297688,
+      "total_cost_recent": 3510112.6099944822,
+      "saving": 21414.54730320582,
+      "saving_pct": 0.6063820650211892
+    },
+    {
+      "dimension": "season",
+      "group": "spring",
+      "days_equal": 92,
+      "total_cost_equal": 3122726.209837217,
+      "total_cost_recent": 3061580.272621429,
+      "saving": 61145.937215787824,
+      "saving_pct": 1.9580947257933083
+    },
+    {
+      "dimension": "season",
+      "group": "summer",
+      "days_equal": 92,
+      "total_cost_equal": 4405308.106536283,
+      "total_cost_recent": 4158995.1309002284,
+      "saving": 246312.97563605476,
+      "saving_pct": 5.591276925003113
+    },
+    {
+      "dimension": "season",
+      "group": "winter",
+      "days_equal": 59,
+      "total_cost_equal": 2970810.718831055,
+      "total_cost_recent": 2853122.827848804,
+      "saving": 117687.89098225068,
+      "saving_pct": 3.961473891159183
+    },
+    {
+      "dimension": "day_type",
+      "group": "Mon-Fri",
+      "days_equal": 238,
+      "total_cost_equal": 10508138.254012635,
+      "total_cost_recent": 10186257.322526393,
+      "saving": 321880.9314862415,
+      "saving_pct": 3.063158513006128
+    },
+    {
+      "dimension": "day_type",
+      "group": "Sat-Sun",
+      "days_equal": 96,
+      "total_cost_equal": 3522233.938489607,
+      "total_cost_recent": 3397553.518838551,
+      "saving": 124680.41965105617,
+      "saving_pct": 3.539810865161365
+    }
+  ],
+  "stress_exposure": [
+    {
+      "scenario": "load_underestimate",
+      "episodes": 24,
+      "zero_donor_episodes": 9,
+      "perturbed_days": 45,
+      "load_clipped_48h_slots": 0,
+      "pv_clipped_48h_slots": 0,
+      "night_mask_48h_slots": 0,
+      "realized_load_underestimate_kwh": 288110.88003805553,
+      "realized_pv_overestimate_kwh": 0.0,
+      "positive_net_shift_days": 44
+    },
+    {
+      "scenario": "pv_overestimate",
+      "episodes": 24,
+      "zero_donor_episodes": 0,
+      "perturbed_days": 72,
+      "load_clipped_48h_slots": 0,
+      "pv_clipped_48h_slots": 308,
+      "night_mask_48h_slots": 0,
+      "realized_load_underestimate_kwh": 0.0,
+      "realized_pv_overestimate_kwh": 211281.26021031747,
+      "positive_net_shift_days": 64
+    },
+    {
+      "scenario": "joint_optimism",
+      "episodes": 24,
+      "zero_donor_episodes": 9,
+      "perturbed_days": 45,
+      "load_clipped_48h_slots": 0,
+      "pv_clipped_48h_slots": 146,
+      "night_mask_48h_slots": 12,
+      "realized_load_underestimate_kwh": 260032.16699222222,
+      "realized_pv_overestimate_kwh": 95734.61931031746,
+      "positive_net_shift_days": 43
+    }
+  ],
+  "definition": "Fixed365-day inherited trajectory;official334day statistics. Winter isFeb+Dec,Mon-Fri not legalholidaycalendar;tail mean empirical17days,not probability guarantee.",
+  "generalization": "Daily forecasts are past-only as previously independently verified. Year participated in exploration and strategy-family selection;season groups and synthetic stress are not independent-year/site tests.",
+  "new_lp_calls": 0,
+  "new_fits": 0
+}

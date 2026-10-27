@@ -1,0 +1,90 @@
+{
+  "scope": "Q2 separate forecast,weights/parameters and verified150day comparison; not a completeQ2/finalpaper",
+  "old_manuscript_unchanged": "aceb1017c658032008c40a81140473c66d3d4f2f237b00f32233883e10b31d79",
+  "source_sha256": {
+    "paper\\q1_manuscript_v1\\result_values.tex": "b4fd149de9aa5faa1d1f9568929bd2d45f7e5ff4fc0087328aa117826ac64df1",
+    "paper\\q1_manuscript_v1\\sections\\assumptions.tex": "7a0cd87f6cad6793e510ddb17fdf1af1a276542ebab7d137d60f762f81e53b50",
+    "paper\\q1_manuscript_v1\\sections\\data.tex": "27d297dadc35c268214fc7a2e3a063b4ffa378ded5477e3c43c51a088e36f4d7",
+    "paper\\q1_manuscript_v1\\sections\\front.tex": "d667b36b3b81c87bf16dd80351d965b384f6cec54e2c5849d95d2dddc79ac70d",
+    "paper\\q1_manuscript_v1\\sections\\question1.tex": "06f7376e0e3ecb95d959b39cd3853bb818288e263dbd34917eee8e98dbdfb742",
+    "paper\\q1_manuscript_v1\\sections\\symbols.tex": "f4c5c7509b2834842c41382d8b16864427acb6f6daa5cd509660d2688240a913",
+    "paper\\q1_manuscript_v1\\figures\\01_reference_day.pdf": "d619ba29bcccae5870b29194d2029bfc5aaff2bce223945fe478294d24d1a9ca",
+    "paper\\q1_manuscript_v1\\figures\\02_year_and_month.pdf": "bd31ff257ca3f1de59908713c503c6bfeaaac4d95c8293aa0b8005fb7b35f45c",
+    "paper\\q1_manuscript_v1\\figures\\06_prices_and_weekdays.pdf": "ca6f9423259dd5033b79ab872e8f8efbaea3844ec3fb43f297b3b91136c43722",
+    "paper\\q1_manuscript_v1\\figures\\07_forecast_accuracy.pdf": "dfc8adce768c6e0aa986dbc4fd3d6de850c0d401c9a6584a0b62869f884f2172",
+    "paper\\q1_manuscript_v1\\figures\\q1_daily_dispatch.pdf": "232be5ca15389e50f252eb6c6d1d744057f11ed6d4c5e56afb6c0a8088d9ebd0",
+    "paper\\q1_manuscript_v1\\figures\\energy_paths.tex": "cc2a2cc3b76cccf70f3304fa6fb45c1ec99d11be4f565b1df2aa161fcd4699b2",
+    "paper\\q1_manuscript_v1\\问题一论文草稿.tex": "b0ea76eaf691ad4c4655e5e9b4622e3b353b5b59323fcfa48a5e68fde9ff60d1",
+    "questions\\Q2\\runs\\20260911-four-candidates-v1\\paper_section.tex": "d6c442b21bdc5cedcfa1539016f233418e10310ef9b4a101f3c606db35c641b2",
+    "questions\\Q2\\runs\\20260911-four-candidates-v1\\figures-v2\\01_cost_and_months.pdf": "f200586a8ae2d4c0b5598f46961d02428c6f31b84e0a2b847f6e113af43a001a"
+  },
+  "numeric_macros": {
+    "QTwoInitialStorage": 8592.693560925925,
+    "QTwoOrdinaryIncrease": 26.857141091389302,
+    "QTwoEmergencyReduction": 85.87407466199784,
+    "QTwoSaving": 59.01693357060831,
+    "QTwoSavingPct": 9.127820593529165,
+    "QTwoStorageDifference": 1823.8535048941812,
+    "QTwoBaseOrdinary": 500.72086300775885,
+    "QTwoBaseEmergency": 145.84019684092203,
+    "QTwoBaseTotal": 646.5610598486808,
+    "QTwoRidgeOrdinary": 496.3802737666012,
+    "QTwoRidgeEmergency": 178.66964337066207,
+    "QTwoRidgeTotal": 675.0499171372634,
+    "QTwoTreeOrdinary": 500.482922317278,
+    "QTwoTreeEmergency": 141.52460645209408,
+    "QTwoTreeTotal": 642.0075287693721,
+    "QTwoRiskOrdinary": 527.5780040991482,
+    "QTwoRiskEmergency": 59.96612217892419,
+    "QTwoRiskTotal": 587.5441262780724
+  },
+  "comparison_sha256": "f1b8e2f08e9e12098b6c027b43ef82387c327c3a3573a59e6d32956cbb33c806",
+  "commands": [
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.exe",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q2_comparison_manuscript_v1\\build",
+      "论文草稿_含问题二候选比较.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.exe",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q2_comparison_manuscript_v1\\build",
+      "论文草稿_含问题二候选比较.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xdvipdfmx.exe",
+      "-q",
+      "-o",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q2_comparison_manuscript_v1\\论文草稿_含问题二候选比较.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q2_comparison_manuscript_v1\\build\\论文草稿_含问题二候选比较.xdv"
+    ],
+    [
+      "C:\\Users\\Rog\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+      "-r",
+      "120",
+      "-png",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q2_comparison_manuscript_v1\\论文草稿_含问题二候选比较.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\q2_comparison_manuscript_v1\\preview\\page"
+    ]
+  ],
+  "pdf_sha256": "1573964d7b3e6de9208ae19372faab380313df56b090bddd0b96582d40e672da",
+  "new_tex_sha256": {
+    "q2_values.tex": "d8e18d63ef53d76740d3af4f828414915ddebace362a9cd0f2d0d155ceb42d43",
+    "result_values.tex": "b4fd149de9aa5faa1d1f9568929bd2d45f7e5ff4fc0087328aa117826ac64df1",
+    "论文草稿_含问题二候选比较.tex": "6261ee1936571ef5db496e3b34156bd0e533159eaafbcc9f87f63a67082cfa91",
+    "figures\\energy_paths.tex": "cc2a2cc3b76cccf70f3304fa6fb45c1ec99d11be4f565b1df2aa161fcd4699b2",
+    "sections\\assumptions.tex": "7a0cd87f6cad6793e510ddb17fdf1af1a276542ebab7d137d60f762f81e53b50",
+    "sections\\data.tex": "27d297dadc35c268214fc7a2e3a063b4ffa378ded5477e3c43c51a088e36f4d7",
+    "sections\\front.tex": "d667b36b3b81c87bf16dd80351d965b384f6cec54e2c5849d95d2dddc79ac70d",
+    "sections\\question1.tex": "06f7376e0e3ecb95d959b39cd3853bb818288e263dbd34917eee8e98dbdfb742",
+    "sections\\question2_comparison.tex": "d6c442b21bdc5cedcfa1539016f233418e10310ef9b4a101f3c606db35c641b2",
+    "sections\\symbols.tex": "f4c5c7509b2834842c41382d8b16864427acb6f6daa5cd509660d2688240a913"
+  }
+}

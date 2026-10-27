@@ -1,0 +1,121 @@
+{
+  "status": "passed",
+  "actual_intervals_checked": 135792,
+  "planned_intervals_checked": 271296,
+  "forecast_values_recomputed": 542592,
+  "fitted_models_information_checked": 136,
+  "max_feature_difference": 3.637978807091713e-12,
+  "max_prediction_difference_kw": 7.275957614183426e-12,
+  "max_ridge_normal_equation_relative_residual": 1.4693345404989935e-14,
+  "actual_constraint_residuals": {
+    "actual_load_balance": 2.2737367544323206e-13,
+    "actual_storage_update": 9.094947017729282e-13,
+    "grid_split": 1.0125233984581428e-13,
+    "contract_split": 1.1368683772161603e-13,
+    "pv_split": 0.0
+  },
+  "max_plan_equation_residual": 1.0231815394945443e-12,
+  "max_risk_margin_difference_kwh": 0.0,
+  "max_decimal_total_difference_yuan": 9.313225746154785e-10,
+  "decimal_costs": {
+    "initialization/common": {
+      "ordinary": "1525912.086781659369009314764",
+      "emergency": "600022.69195683871656719220",
+      "total": "2125934.778738498085576506964"
+    },
+    "tuning/T1-w1-p3": {
+      "ordinary": "1178833.8242449425323329102",
+      "emergency": "96019.58168156734879236770",
+      "total": "1274853.40592650988112527790"
+    },
+    "tuning/T1-w1-p7": {
+      "ordinary": "1186486.2059537696097618426",
+      "emergency": "65308.20423013258457455100",
+      "total": "1251794.41018390219433639360"
+    },
+    "tuning/T1-w4-p3": {
+      "ordinary": "1182742.8181809248738785268",
+      "emergency": "75179.13934197634672124280",
+      "total": "1257921.95752290122059976960"
+    },
+    "tuning/T1-w4-p7": {
+      "ordinary": "1190397.8712401048807679104",
+      "emergency": "47733.70345795508972843340",
+      "total": "1238131.57469805997049634380"
+    },
+    "tuning/T2-1": {
+      "ordinary": "1634789.61080284390668432818",
+      "emergency": "1492482.72939088738363945500",
+      "total": "3127272.34019373129032378318"
+    },
+    "tuning/T2-10": {
+      "ordinary": "1435648.29279499632743039601",
+      "emergency": "1047985.88576213186683366725",
+      "total": "2483634.17855712819426406326"
+    },
+    "tuning/T2-100": {
+      "ordinary": "1403472.495718056158870358581",
+      "emergency": "332711.36152218328974581440",
+      "total": "1736183.857240239448616172981"
+    },
+    "tuning/T3-3": {
+      "ordinary": "1245485.29195954795774934564",
+      "emergency": "155140.77712658862332481745",
+      "total": "1400626.06908613658107416309"
+    },
+    "tuning/T3-5": {
+      "ordinary": "1247543.6789441291036583325",
+      "emergency": "134432.23249929783206543300",
+      "total": "1381975.91144342693572376550"
+    },
+    "tuning/T3-7": {
+      "ordinary": "1245964.7083791349780171042",
+      "emergency": "137975.42151043412694412780",
+      "total": "1383940.12988956910496123200"
+    },
+    "tuning/T4-q70": {
+      "ordinary": "1255559.46599944857612983190",
+      "emergency": "3123.4601491457996393070",
+      "total": "1258682.92614859437576913890"
+    },
+    "tuning/T4-q80": {
+      "ordinary": "1318099.37113768642222723505",
+      "emergency": "2198.6041651538365545950",
+      "total": "1320297.97530284025878183005"
+    },
+    "tuning/T4-q90": {
+      "ordinary": "1472358.19703046331149661218",
+      "emergency": "2198.6041651538365545950",
+      "total": "1474556.80119561714805120718"
+    },
+    "comparison/T1": {
+      "ordinary": "5007208.630077588455479613937",
+      "emergency": "1458401.9684092200828311906025",
+      "total": "6465610.5984868085383108045395"
+    },
+    "comparison/T2": {
+      "ordinary": "4963802.737666012266132109780",
+      "emergency": "1786696.433706620838842130885",
+      "total": "6750499.171372633104974240665"
+    },
+    "comparison/T3": {
+      "ordinary": "5004829.22317278074099866177",
+      "emergency": "1415246.064520940928588799080",
+      "total": "6420075.287693721669587460850"
+    },
+    "comparison/T4": {
+      "ordinary": "5275780.040991481544051350867",
+      "emergency": "599661.221789241863954484200",
+      "total": "5875441.262780723408005835067"
+    }
+  },
+  "past_only_features_training_and_risk": true,
+  "all_orders_match_committed_plans": true,
+  "same_comparison_start_continuous_storage": true,
+  "separate_load_pv_models": true,
+  "source_and_output_hashes_match": true,
+  "new_fits": 0,
+  "new_solver_calls": 0,
+  "ai_verification_only": true,
+  "q2_annual_robustness_not_claimed": true
+}

@@ -1,0 +1,33 @@
+{
+  "scope": "Approved Q3 text revision and overall framework insertion after problem analysis",
+  "changed_existing_files": [
+    "sections/sec_2_problem_analysis.tex",
+    "sections/sec_7_q3.tex"
+  ],
+  "all_other_tracked_sources_tables_figures_unchanged": true,
+  "pdf_pages": 44,
+  "framework_page": 5,
+  "q3_pages": [
+    27,
+    37
+  ],
+  "visual_review_pages": [
+    4,
+    5,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37
+  ],
+  "compile_checks": "Stable references, no overfull boxes or missing characters",
+  "research_data_or_state_changed": false,
+  "review_status": "AI visual and compilation checks; not human approval",
+  "pdf_sha256": "f72a0c4c44487ee047e76421ad41def965c02cbd06c32ea3103974802b1e1ae2"
+}

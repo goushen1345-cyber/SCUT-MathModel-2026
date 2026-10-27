@@ -1,0 +1,25 @@
+{
+  "status": "ai_visual_check_complete_not_human_review",
+  "checked_on": "2026-09-12",
+  "files": [
+    {
+      "path": "01_deepening_validation.png",
+      "checks": [
+        "four panels are complete and not cropped",
+        "Chinese labels, units, legends and zero/reference lines are readable",
+        "positive and negative cost changes are visually distinguishable"
+      ],
+      "result": "pass"
+    },
+    {
+      "path": "02_terminal_value_and_information_gap.png",
+      "checks": [
+        "both branches are complete and not cropped",
+        "axes, units, legends and perfect-price reference lines are readable",
+        "terminal-value trends match the saved valuation table"
+      ],
+      "result": "pass"
+    }
+  ],
+  "boundary": "Visual inspection by the main AI only. Figures have not been embedded in a paper and have not been reviewed by a human."
+}

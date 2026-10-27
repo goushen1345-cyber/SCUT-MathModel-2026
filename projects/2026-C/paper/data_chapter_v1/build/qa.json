@@ -1,0 +1,216 @@
+{
+  "scope": "AI local writing and rendered-page check; no human approval, no research transition",
+  "date": "2026-09-11",
+  "source_sha256": "5342b5a82ce229ddaf73909b1dad938ec1c0d563d2a8c46dd2b205ca06322546",
+  "pdf_sha256": "1232131bdb43d3e7affe0c28bc8f9df4f5c73031b115a7b309446ba9e16aeb23",
+  "evidence_versions": [
+    "prepared-v1",
+    "EDA-v1",
+    "eda-v2"
+  ],
+  "evidence_file_sha256": {
+    "audit/eda-v1/summary.json": "fe19d0d6f5ff3ddcfcbd2997603cf65d5d9113a52ba99cde7d443ed3799ba18a",
+    "audit/eda-v1/verification.json": "89e7a28531e263e8b48b1192605d3a284e5f5e23c13356992e31157dc9ef4543",
+    "audit/eda-v1/supplementary.json": "90dba4a532b6e4cbad545eb3b4a199b8e45eeb8e5f03d47b4fac91adb1eca8f7",
+    "audit/prepared_v1_verification.json": "c64fde5fe1d3ce17f6c233ff4123467d35ee582122c0233e5a27144050a7cd58",
+    "paper/figures/eda-v2/manifest.json": "6868b2aa98669d8fa43c433ecc231f6d96741f07e2954604e007c712f559e2b3",
+    "paper/figures/eda-v2/qa.json": "79b58ebc18b0beb9af9e20dbbc346a816b7cf9defb24c515ac2fcc2a7cdb1e19"
+  },
+  "checks": {
+    "all_expected_sections": true,
+    "no_tables": true,
+    "no_workflow_terms_in_body": true,
+    "four_existing_figures": true,
+    "no_missing_glyphs_or_overflow_or_unresolved_refs": true,
+    "state_and_prior_manuscript_unchanged": true,
+    "raw_sources_unchanged": true,
+    "prepared_sources_unchanged": true,
+    "all_text_black_and_inside_pages": true,
+    "fonts_embedded": true
+  },
+  "preserved": {
+    "state/state.json": {
+      "sha256": "6ee4fccf2155eb05c205d272fc7acd75e980f3f50f42e37a00ac4f31fab71669",
+      "unchanged": true
+    },
+    "state/state.md": {
+      "sha256": "c83affca5fa777548624474957907e87a89c9c14a72060d357f704a216bf1b91",
+      "unchanged": true
+    },
+    "paper/front_matter_v1/front_matter.tex": {
+      "sha256": "d35546cdf2ab0611199eb0a378f4b4e86b1d4bee86b9e9ac46185e53b2f539f5",
+      "unchanged": true
+    },
+    "paper/front_matter_v1/front_matter.pdf": {
+      "sha256": "2ed4a253a91ac89101e36d74a9aaf92bf6be96dc724c29bffa7cee54b1cae200",
+      "unchanged": true
+    }
+  },
+  "raw_checks": {
+    "data/raw/C题/C题.pdf": true,
+    "data/raw/C题/附件/附件1.xlsx": true,
+    "data/raw/C题/附件/附件2.xlsx": true,
+    "data/raw/C题/附件/附件3.xlsx": true,
+    "data/raw/C题/附件/附件4.xlsx": true,
+    "data/raw/C题/附件/附件5/result1.xlsx": true,
+    "data/raw/C题/附件/附件5/result2.xlsx": true,
+    "data/raw/C题/附件/附件5/result3.xlsx": true,
+    "data/raw/C题/附件/附件5/result4-2.xlsx": true,
+    "data/raw/C题/附件/附件5/result4-3.xlsx": true
+  },
+  "prepared_checks": {
+    "actual_power.csv": true,
+    "actual_price.csv": true,
+    "day_reference.csv": true,
+    "manifest.json": true,
+    "pv_forecasts.csv": true,
+    "README.md": true
+  },
+  "pages": [
+    {
+      "page": 1,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "character_count": 913,
+      "nonblack_characters": 0,
+      "outside_page_characters": 0,
+      "preview_sha256": "9cb2ed068ecdad532fc68d0416c082df6ca2bf75afb8a7dcdbd785f8efc1c5f4"
+    },
+    {
+      "page": 2,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "character_count": 627,
+      "nonblack_characters": 0,
+      "outside_page_characters": 0,
+      "preview_sha256": "b5fc1ec62a8be765048b83d26433bb52390e9a0cfbe5d2e92eaabd460eed5ad2"
+    },
+    {
+      "page": 3,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "character_count": 748,
+      "nonblack_characters": 0,
+      "outside_page_characters": 0,
+      "preview_sha256": "4d2db2fc42a3a75e0225fb5c6b4008c6da93bfaeb373f2f21f093b3ed2896c56"
+    },
+    {
+      "page": 4,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "character_count": 783,
+      "nonblack_characters": 0,
+      "outside_page_characters": 0,
+      "preview_sha256": "020e182b81f6f97141f8ec5329cbe2087420f516ca3e5c533387f06aa3aec229"
+    },
+    {
+      "page": 5,
+      "size_pt": [
+        595.28,
+        841.89
+      ],
+      "character_count": 850,
+      "nonblack_characters": 0,
+      "outside_page_characters": 0,
+      "preview_sha256": "ed33c4acb71121f4b61f0d4301ae47dc170d2e83c767080f48e5618a4ae51600"
+    }
+  ],
+  "visual_inspection": {
+    "reviewer": "primary AI",
+    "reviewed_pdf_sha256": "1232131bdb43d3e7affe0c28bc8f9df4f5c73031b115a7b309446ba9e16aeb23",
+    "all_pages_viewed": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "findings": [
+      "All 5 final Poppler-rendered pages actually viewed.",
+      "Figures 1-4 are complete, legible, and immediately followed by their relevant discussion.",
+      "Final layout has no isolated continuation page or paragraph interrupted by a deferred figure.",
+      "Page 1 leaves space before the full intact figure on page 2; no clipping, overlap, or stray blank pages."
+    ],
+    "prior_issues_fixed": [
+      "Initial 7-page build had nearly empty pages 5 and 7.",
+      "Ordinary float flow then detached figures from their explanatory text; replaced with intact inline blocks and tightened prose."
+    ]
+  },
+  "not_performed": [
+    "new statistics or training",
+    "policy optimization or economic benefit evaluation",
+    "hourly-to-ten-minute interpolation or energy integration",
+    "human verification or final submission compliance review"
+  ],
+  "fonts": {
+    "/IHQVOX+TimesNewRomanPS-BoldMT": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/NYHCDX+SimHei": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/GYALRX+SimSun": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/HSZOUS+TimesNewRomanPSMT": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/FQDPEQ+SimSun": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/CNWBDT+SimSun": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/EBEJYE+SimSun": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/BTFTLB+SimSun": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/PCPMWG+CMSY10": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/OYKFXU+CMR10": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/RDQHSZ+CMMI10": {
+      "subtype": "/Type1",
+      "embedded": true
+    },
+    "/NWAFOJ+SimSun": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/SGELNJ+SimSun": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/GGKKPM+SimSun": {
+      "subtype": "/Type0",
+      "embedded": true
+    },
+    "/CJXZJO+SimSun": {
+      "subtype": "/Type0",
+      "embedded": true
+    }
+  },
+  "font_check_method": "Read font descriptors and nested figure resources with pypdf; pdffonts executable unavailable."
+}

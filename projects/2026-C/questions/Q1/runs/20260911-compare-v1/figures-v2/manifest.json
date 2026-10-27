@@ -1,0 +1,20 @@
+{
+  "script": "92ad4741b7265522e5c656c52a1ddb815d56cb047815993d4f6529e6d5968f41",
+  "summary": "c08de1263b646bbdcec6952e5f5efc5f652d2fad8b36cc8ec29b579f6ac7fea5",
+  "comparison": "d640941ccbb7e07e565b3d6dc8ef25eb57db00aebd5b6555089a79cdbd7f414a",
+  "paired": "af16511379f837727b0bdbe4b525cc54402316f40bbc787a6bcd06c7523fdddf",
+  "selected_schedules": {
+    "03": "64bbf0abb2318e3fc92586c8f9ca2c28a3dc19300ac9b8d32651b03750a896d6",
+    "04": "d48f8ed12d777ebe2a143be42657a9cb5271433ae5d8408a6dcad533eac8fc7c",
+    "10": "b04ae0505b386580f5efdef01cbb5dc14b871a9895034574f713db01c505ddda"
+  },
+  "matplotlib": "3.11.1",
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+  "font": "C:\\Windows\\Fonts\\simsun.ttc",
+  "outputs": {
+    "01_daily_dispatch.pdf": "8df9a86326687fef3db62a671be1d328fd35e38d120d8150f585aa88cd06816a",
+    "01_daily_dispatch.png": "3e5732468e0b10d7e7d5d38cfd219f853ca31548ea1be43fd37395235b1bda77",
+    "02_matched_rule_comparison.pdf": "89e45af036ff0651b19b3deb151453da84c2d7cca21958b51afd2447c35db4dd",
+    "02_matched_rule_comparison.png": "38d6472ec4e9080a236f1ac02d24684afbe26bcd6d5353b465e3873894dc12e3"
+  }
+}

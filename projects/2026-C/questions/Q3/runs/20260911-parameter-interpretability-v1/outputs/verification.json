@@ -1,0 +1,24 @@
+{
+  "status": "checks_completed",
+  "counts": {
+    "strategies": 27,
+    "actual_intervals": 1298592,
+    "margin_groups": 18980
+  },
+  "max_errors": {
+    "q0": 0.0,
+    "locked_prefix": 0.0,
+    "decision_state": 0.0,
+    "execution": 0.0,
+    "daily": 1.4551915228366852e-11,
+    "period_cost": 1.862645149230957e-09,
+    "final_state": 0.0,
+    "selected_margin": 0.0
+  },
+  "new_lp_calls": 0,
+  "new_fits": 0,
+  "selected": "M_q60_b070_w28_h03",
+  "selected_cost": 13146535.488467809,
+  "reviewer": "same AI, independent saved-trace reconstruction; not human approval",
+  "code_sha256": "9d251169acb516ef59ba6c8c00ecf21c0eb6ac5140b6531927cb0931eac5acc1"
+}

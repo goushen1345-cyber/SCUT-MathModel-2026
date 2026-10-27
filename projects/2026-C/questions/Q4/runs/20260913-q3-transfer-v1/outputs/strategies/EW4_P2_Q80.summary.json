@@ -1,0 +1,22 @@
+{
+  "ordinary_cost": 13560338.362074208,
+  "adjustment_cost": 329449.94268409925,
+  "ordinary_settlement_cost": 13889788.304758307,
+  "emergency_cost": 39909.424943956765,
+  "total_cost": 13929697.729702264,
+  "order_kwh": 20978143.438551314,
+  "emergency_kwh": 6713.437728309759,
+  "unused_order_kwh": 605440.9540223568,
+  "unused_pv_kwh": 1225651.1972095543,
+  "label": "EW4_P2_Q80",
+  "initial": 8592.693560925925,
+  "final": 8088.207435013481,
+  "days": 334,
+  "emergency_days": 73,
+  "price_mae": 0.044389680806731426,
+  "price_rmse": 0.05887365806380039,
+  "top5_price_mae": 0.0648677491351006,
+  "evening_price_mae": 0.0462554243397559,
+  "price_bias": 0.0004280809265012719,
+  "top5_threshold": 1.3246
+}

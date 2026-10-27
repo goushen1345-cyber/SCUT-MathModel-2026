@@ -1,0 +1,46 @@
+{
+  "input_hashes_unchanged": true,
+  "copied_pdf_hashes_identical": true,
+  "figures": [
+    {
+      "name": "q3_final_days",
+      "mediabox_bp": [
+        0.0,
+        0.0,
+        717.0852734375,
+        512.54
+      ],
+      "inserted_width_pt": 399.08,
+      "raw_font_sizes_pt": [
+        15.5,
+        16.0,
+        17.0
+      ],
+      "approx_final_font_sizes_pt": [
+        8.626,
+        8.904,
+        9.461
+      ]
+    },
+    {
+      "name": "q3_final_quantile",
+      "mediabox_bp": [
+        0.0,
+        0.0,
+        497.99952,
+        260.39952
+      ],
+      "inserted_width_pt": 290.24,
+      "raw_font_sizes_pt": [
+        15.0,
+        15.5
+      ],
+      "approx_final_font_sizes_pt": [
+        8.742,
+        9.034
+      ]
+    }
+  ],
+  "actual_png_review": "Both figures viewed; no missing text, clipped labels, or legend overlap observed. Final main-paper pages to be checked by root agent.",
+  "scope": "Only plot typography/layout; scientific inputs and traces unchanged."
+}

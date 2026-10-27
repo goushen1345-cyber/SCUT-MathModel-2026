@@ -1,0 +1,24 @@
+{
+  "status": "ai_visual_check_complete_not_human_review",
+  "images": [
+    {
+      "file": "01_candidate_costs.png",
+      "size_px": [
+        3328,
+        1320
+      ],
+      "sha256": "771da609ac05abc7ffe54a7052d4726bc3168059fb3558950a2e353cf94ef089",
+      "visual_check": "AI viewed full PNG; Chinese labels, units, legends, signs and boundaries are readable; no visible clipping."
+    },
+    {
+      "file": "02_savings_and_price_errors.png",
+      "size_px": [
+        3328,
+        1350
+      ],
+      "sha256": "e2e014e7b38da62ebc67c83d934d7a4a11ab5ffe9e5ae3dc5f906559e5ebc882",
+      "visual_check": "AI viewed full PNG; Chinese labels, units, legends, signs and boundaries are readable; no visible clipping."
+    }
+  ],
+  "pdf_boundary": "PDFs are code-identical exports from the same figures but have not been embedded in a manuscript page."
+}

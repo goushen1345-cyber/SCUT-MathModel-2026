@@ -1,0 +1,28 @@
+{
+  "label": "R_floor025",
+  "family": "reduction_floor",
+  "total_cost": 14091351.257848084,
+  "ordinary_cost": 12767434.725536702,
+  "emergency_cost": 1323916.53231138,
+  "emergency_kwh": 234396.764563631,
+  "unused_order_kwh": 307281.8653979468,
+  "unused_pv_kwh": 1114742.22736235,
+  "reduced_kwh": 314366.10255297524,
+  "increased_kwh": 545923.7432916597,
+  "days": 334,
+  "initial": 8592.693560925925,
+  "final": 8498.507669675926,
+  "emergency_days": 281,
+  "lp_calls": 1336,
+  "floor_ratio": 0.25,
+  "release_scale": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "max_residual": 2.6147972675971687e-12,
+  "max_dual_gap": 1.3096723705530167e-10,
+  "trace": "outputs\\strategies\\R_floor025.npz",
+  "daily_csv": "outputs\\strategies\\R_floor025.daily.csv"
+}

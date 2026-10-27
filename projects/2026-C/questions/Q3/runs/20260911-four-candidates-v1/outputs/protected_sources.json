@@ -1,0 +1,22 @@
+{
+  "data\\prepared-v1\\day_reference.csv": "e8fef67536b1c65f28ce4aca2c638cff072e7cc85292122993c696df130515b8",
+  "data\\prepared-v1\\actual_power.csv": "7aa15018b683a494d276b06cf46c7f98897f5ace7cbcf8df87c4b7ffe935c441",
+  "data\\prepared-v1\\pv_forecasts.csv": "6c38d11cb6544279278f4dd59d6c4e5756a11709e110919ff311ed03889cc22b",
+  "data\\raw\\C题\\C题.pdf": "2c098f6ae9dd47ae965aebdec3b9facf3de6c173f999783c1012c08fc5fb9d2d",
+  "data\\raw\\C题\\附件\\附件1.xlsx": "66b87134f5ecccd68184d3539bb1293ef039f9e0fdd955a589b9bfa7f227c377",
+  "data\\raw\\C题\\附件\\附件2.xlsx": "2e95fd446bfafa0d8c59577b5c2e2ea8b3f1def20dde54a3062556f4da9b4c72",
+  "data\\raw\\C题\\附件\\附件3.xlsx": "8a61b06c52bd0d639a1cc37c61a7d9f5b75edcbca718f64c1bd3498ec9f9d843",
+  "data\\raw\\C题\\附件\\附件4.xlsx": "20e9c93aeab5e8e21ae4dd15587f9e190f7408692504c1319598461cd654fe71",
+  "data\\raw\\C题\\附件\\附件5\\result1.xlsx": "28360e0974e7d6065394a8aba4e14a86773ae0036cc7d3ea1b211b515b03d688",
+  "data\\raw\\C题\\附件\\附件5\\result2.xlsx": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47",
+  "data\\raw\\C题\\附件\\附件5\\result3.xlsx": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc",
+  "data\\raw\\C题\\附件\\附件5\\result4-2.xlsx": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47",
+  "data\\raw\\C题\\附件\\附件5\\result4-3.xlsx": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc",
+  "questions\\Q1\\runs\\20260911-compare-v1\\outputs\\schedules\\C04.csv": "d48f8ed12d777ebe2a143be42657a9cb5271433ae5d8408a6dcad533eac8fc7c",
+  "questions\\Q2\\runs\\20260911-four-candidates-v1\\core.py": "34d788c89771132ea6e160aad849ec2520ed0398157aaf8b19cbd01a4c7e4110",
+  "questions\\Q2\\runs\\20260911-four-candidates-v1\\outputs\\initialization.json": "7244cf83badafa9515f7cf94430ee0e4cf62f7b19f118baca7dd89e82f6992b3",
+  "questions\\Q2\\runs\\20260911-annual-validation-v1\\delivery_data\\summary.json": "8ea80b90a324f0a02aa06d6b15a81fc8f7225d4be7d6bf14a8703bb653cd6245",
+  "questions\\Q2\\runs\\20260911-annual-validation-v1\\delivery_data\\selected_daily.csv": "b8cc5033e8ecf44b3391a76847a303650bcd40a86331755b7d58a90790682269",
+  "paper\\q2_manuscript_v2\\chapter.tex": "a9750aa1589f646348392da0159ae292c8213a3f2044da0aa54381890ca9d2e4",
+  "paper\\q2_manuscript_v2\\问题二的模型建立与求解.pdf": "2aa5ef1a4391ae6a6ff923600028f1cc699e7c63006fdd702204711d75bdb86f"
+}

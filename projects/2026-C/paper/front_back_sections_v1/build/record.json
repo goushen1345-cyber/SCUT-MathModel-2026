@@ -1,0 +1,43 @@
+{
+  "commands": [
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.exe",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\front_back_sections_v1\\build",
+      "摘要_问题分析_模型评价与参考文献.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.exe",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\front_back_sections_v1\\build",
+      "摘要_问题分析_模型评价与参考文献.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xdvipdfmx.exe",
+      "-q",
+      "-o",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\front_back_sections_v1\\摘要_问题分析_模型评价与参考文献.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\front_back_sections_v1\\build\\摘要_问题分析_模型评价与参考文献.xdv"
+    ],
+    [
+      "C:\\Users\\Rog\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+      "-r",
+      "120",
+      "-png",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\front_back_sections_v1\\摘要_问题分析_模型评价与参考文献.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\front_back_sections_v1\\preview\\page"
+    ]
+  ],
+  "input_sha256": {
+    "摘要_问题分析_模型评价与参考文献.tex": "9a4481326610fb0c2e4a1bd684348d4fcce7bdf811fe46ce753b8577a929d21b",
+    "build.py": "31f3b0f49ee0d56a356b56b6b04a8a0aff5bdb74ad44ea75789bf663ddd8db9b"
+  },
+  "pdf_sha256": "861247af925a652282a3448c593d83d5bc81477aa46ccc54502dc20808f892fe",
+  "scope": "Standalone abstract, four-problem analysis, model evaluation, and consolidated references"
+}

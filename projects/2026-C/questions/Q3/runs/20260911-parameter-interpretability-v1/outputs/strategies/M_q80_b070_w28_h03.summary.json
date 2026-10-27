@@ -1,0 +1,28 @@
+{
+  "label": "M_q80_b070_w28_h03",
+  "family": "three_hour_parameter_recheck",
+  "total_cost": 13336557.476186462,
+  "ordinary_cost": 13275916.02870617,
+  "emergency_cost": 60641.4474802927,
+  "emergency_kwh": 10712.77937419876,
+  "unused_order_kwh": 717984.3030219765,
+  "unused_pv_kwh": 1244445.0350628067,
+  "reduced_kwh": 663574.6897178903,
+  "increased_kwh": 221244.09851252454,
+  "days": 334,
+  "initial": 8592.693560925925,
+  "final": 8637.11658240741,
+  "emergency_days": 64,
+  "lp_calls": 1336,
+  "floor_ratio": 0.0,
+  "release_scale": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "max_residual": 1.8189894035458565e-12,
+  "max_dual_gap": 1.6007106751203537e-10,
+  "trace": "outputs\\strategies\\M_q80_b070_w28_h03.npz",
+  "daily_csv": "outputs\\strategies\\M_q80_b070_w28_h03.daily.csv"
+}

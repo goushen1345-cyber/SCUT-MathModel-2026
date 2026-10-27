@@ -1,0 +1,157 @@
+{
+  "pages": 91,
+  "abstract_pages": 1,
+  "body_pages_including_references": 30,
+  "appendix_pages": 60,
+  "all_fonts_embedded": true,
+  "font_resource_count": 32,
+  "font_resources": {
+    "/EPFTQI+SimHei": {
+      "embedded": true,
+      "subtype": "/Type0"
+    },
+    "/ZREVQQ+SimSun": {
+      "embedded": true,
+      "subtype": "/Type0"
+    },
+    "/HZQKUL+TimesNewRomanPSMT": {
+      "embedded": true,
+      "subtype": "/Type0"
+    },
+    "/UOQBCQ+TimesNewRomanPS-BoldMT": {
+      "embedded": true,
+      "subtype": "/Type0"
+    },
+    "/LUCSNX+SimHei": {
+      "embedded": true,
+      "subtype": "/Type0"
+    },
+    "/FFETDF+SimSun": {
+      "embedded": true,
+      "subtype": "/Type0"
+    },
+    "/ECWTEF+TimesNewRomanPS-BoldMT": {
+      "embedded": true,
+      "subtype": "/Type0"
+    },
+    "/CJLFAB+NewTXMI": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/SQRYZA+txmiaX": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/AGDPBN+LMRoman12-Regular": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/SJDWAH+LMRoman9-Regular": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/EZLEIF+LMRoman10-Regular": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/MEBJQH+txsys": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/NMPIZD+NewTXMI7": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/GQVCKK+LMRoman8-Regular": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/ETSPYY+SimSun": {
+      "embedded": true,
+      "subtype": "/Type0"
+    },
+    "/FZQWZC+SimSun": {
+      "embedded": true,
+      "subtype": "/Type0"
+    },
+    "/DDFIXY+SimSun": {
+      "embedded": true,
+      "subtype": "/Type0"
+    },
+    "/FRLFSE+SimSun": {
+      "embedded": true,
+      "subtype": "/Type0"
+    },
+    "/NAPMFF+txexs": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/UHUXSZ+LMMono12-Regular-Identity-H": {
+      "embedded": true,
+      "subtype": "/Type0"
+    },
+    "/GPSCBC+SimSun": {
+      "embedded": true,
+      "subtype": "/Type0"
+    },
+    "/CFNSGS+SimSun": {
+      "embedded": true,
+      "subtype": "/Type0"
+    },
+    "/DXNNFM+LMRomanDemi10-Regular": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/MPVSUL+SimSun": {
+      "embedded": true,
+      "subtype": "/Type0"
+    },
+    "/DVWTEA+TimesNewRomanPSMT": {
+      "embedded": true,
+      "subtype": "/Type0"
+    },
+    "/GMMPGI+SimSun": {
+      "embedded": true,
+      "subtype": "/Type0"
+    },
+    "/FAYTNE+TimesNewRomanPSMT": {
+      "embedded": true,
+      "subtype": "/Type0"
+    },
+    "/UKHJPL+LMRoman7-Regular": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/XVCXYE+NewTXBMI": {
+      "embedded": true,
+      "subtype": "/Type1"
+    },
+    "/DQAYOH+LMMono10-Regular-Identity-H": {
+      "embedded": true,
+      "subtype": "/Type0"
+    },
+    "/VVMOAD+Consolas": {
+      "embedded": true,
+      "subtype": "/Type0"
+    }
+  },
+  "unresolved_references": false,
+  "bibliography_targets": {
+    "cite.carbonplan": 31,
+    "cite.dantzig": 31,
+    "cite.energyplan": 31,
+    "cite.friedman": 31,
+    "cite.hoerl": 31,
+    "cite.huangfu": 31,
+    "cite.hyndman": 31,
+    "cite.pedregosa": 31,
+    "cite.virtanen": 31
+  },
+  "source_files_unchanged": true,
+  "appendix_pixels_unchanged": true,
+  "body_pages_different_from_previous_verified_render": [
+    1
+  ],
+  "bytes": 2412966,
+  "sha256": "623fda4dc7e4c93b300f631a855be1475cefb8fdd8c3ea0a77ef45b7515eaf1e"
+}

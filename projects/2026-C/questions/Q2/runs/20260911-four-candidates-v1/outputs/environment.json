@@ -1,0 +1,15 @@
+{
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+  "numpy": "2.5.1",
+  "pandas": "3.0.5",
+  "scipy": "1.18.0",
+  "sklearn": "1.9.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "threads": 1,
+  "random_seed": 2026,
+  "protocol_sha256": "d4c89acbcaac5190bcfbeb094ee10c9cff3a9b0bf33b46ef33c5a2aedf8b0fbe",
+  "code_sha256": {
+    "core.py": "34d788c89771132ea6e160aad849ec2520ed0398157aaf8b19cbd01a4c7e4110",
+    "run_compare.py": "58a08d050d62ce3b503a404ecd7316eac39fdde8a3b017b8ed9b0a78a5ce7217"
+  }
+}

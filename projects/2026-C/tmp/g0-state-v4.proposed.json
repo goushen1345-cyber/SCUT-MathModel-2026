@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "revision": 4,
+  "stage": "WAIT_G0",
+  "execution_status": "BLOCKED",
+  "active_question": null,
+  "data_version": null,
+  "pending_gate": {
+    "id": "G0",
+    "plan_version": "G0-analysis-v4",
+    "scope": "GLOBAL",
+    "summary": "G0阅读已完成；已确认Q2借Q1方案启动1月1日并连续运行，以及实际余电无法利用时不计售电收入、不重复计费的口径，见report.md 8.7—8.8。合同是否全部交付等剩余语义、CORE及G0整体仍待确认，所有小问未开始。",
+    "allowed_actions": [
+      "只读解释与定位当前题意歧义，维护本轮真实阅读记录；不处理数据或建模",
+      "后续只读数据审计及G1方案须待用户明确确认相应范围，本轮不执行"
+    ],
+    "budget": "本轮仅限三页题面、四个数据工作簿及五个结果模板的完整阅读和必要结构检查；无清洗、EDA、训练、优化、结果填写或论文写作预算",
+    "stop_condition": "停在G0题意确认点等待用户明确回复；不将本次阅读请求当作G0通过，不自动开始后续阶段"
+  },
+  "questions": {
+    "Q1": {
+      "role": "NORMAL",
+      "status": "NOT_STARTED",
+      "validity": "VALID",
+      "depends_on": [],
+      "frozen_version": null,
+      "snapshots": {}
+    },
+    "Q2": {
+      "role": "NORMAL",
+      "status": "NOT_STARTED",
+      "validity": "VALID",
+      "depends_on": [
+        {
+          "question": "Q1",
+          "version": null
+        }
+      ],
+      "frozen_version": null,
+      "snapshots": {}
+    },
+    "Q3": {
+      "role": "NORMAL",
+      "status": "NOT_STARTED",
+      "validity": "VALID",
+      "depends_on": [],
+      "frozen_version": null,
+      "snapshots": {}
+    },
+    "Q4": {
+      "role": "NORMAL",
+      "status": "NOT_STARTED",
+      "validity": "VALID",
+      "depends_on": [],
+      "frozen_version": null,
+      "snapshots": {}
+    }
+  },
+  "authorizations": [
+    {
+      "id": "G0-INIT-003",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "scope": "GLOBAL",
+      "plan_version": "G0-analysis-v2",
+      "user_quote": "那就这么办，到时候用问题一的方案用做第二问1月1号的购买结构",
+      "message_ref": "本聊天当前用户消息；对G0-analysis-v2首日问题连续解释后，确认Q2借用Q1方案启动，记录于v3第8.7节；仅该局部选择，不是G0整体通过或执行授权",
+      "confirmed_by": "user"
+    },
+    {
+      "id": "G0-SURPLUS-004",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "scope": "GLOBAL",
+      "plan_version": "G0-analysis-v3",
+      "user_quote": "那就这么办",
+      "message_ref": "本聊天当前消息，紧接并确认上一回复的唯一明确余电处置方案：实际收到的余电允许时储存，最终用不掉存不下记未利用、不计售电收入、不重复计费；详见decisions.md G0-SURPLUS-004，仅局部口径确认",
+      "confirmed_by": "user"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-09-10",
+      "from_stage": "GLOBAL",
+      "to_stage": "WAIT_G0",
+      "reason": "当前用户明确请求全题题意分析，依据见decisions.md G0-ANALYSIS-001。核实4问后用既有脚本初始化；完成report.md G0-analysis-v1和只读源结构记录。保留所有小问未开始；无人工G0批准、CORE/依赖选择或数据冻结。新增歧义阻断受影响后续研究，题意分析本身已交付。",
+      "artifacts": [
+        "report.md",
+        "scripts/inspect_problem_sources.py",
+        "tmp/problem-analysis/source_snapshot.json"
+      ],
+      "authorization_ref": "用户当前分析请求；非G0通过，详见G0-ANALYSIS-001"
+    },
+    {
+      "date": "2026-09-10",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "reason": "本正式工作聊天按真实G0阅读请求补充G0-analysis-v2；发现其他任务写入后暂停共享修改，确认其完成再顺序接续，保留既有报告与历史。完整读取三页PDF及21工作表，仅记录结构和语义，不作全面数据审计或研究执行。Q2历史信息边界沿用用户明确口径；Q4价格可知性及其余关键语义仍待确认。保持所有小问未开始、无数据版本、无G0批准或冻结。",
+      "artifacts": [
+        "report.md",
+        "audit/g0_structure_v2.json",
+        "state/decisions.md",
+        "state/ai_usage_log.md",
+        "state/README.md"
+      ],
+      "authorization_ref": "G0-READ-002：仅完整阅读、解释与记录授权，非G0通过"
+    },
+    {
+      "date": "2026-09-10",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "reason": "记录用户对Q2首日启动的明确选择，缩小U04待定范围并新增Q2依赖Q1（版本为空）；不将局部语义选择当成G0通过或模拟授权。",
+      "authorization_ref": "G0-INIT-003，仅首日初始化口径确认",
+      "artifacts": [
+        "report.md",
+        "state/decisions.md",
+        "state/ai_usage_log.md"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "from_stage": "WAIT_G0",
+      "to_stage": "WAIT_G0",
+      "reason": "依据用户确认记录余电未利用与费用口径，缩小U06；保留合同实际交付等未定事项。未批准G0整体或研究执行，问级状态与依赖不变。",
+      "authorization_ref": "G0-SURPLUS-004",
+      "artifacts": [
+        "report.md",
+        "state/decisions.md",
+        "state/ai_usage_log.md",
+        "state/README.md"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "id": "U01",
+      "scope": "GLOBAL",
+      "summary": "输入时点、10分钟物理区间及模板日界疑似偏移，待确认代表方式与输出映射；见report.md 8.5"
+    },
+    {
+      "id": "U02",
+      "scope": "GLOBAL",
+      "summary": "Q4未来价格是否提前可知仍未明确。Q2仅使用此前历史、Q3仅使用当时已发布预报按用户口径保留，不得偷看未来实际值"
+    },
+    {
+      "id": "U03",
+      "scope": "GLOBAL",
+      "summary": "Q3调减原款退款、多次调整结算基准及交易时刻电价语义需明确"
+    },
+    {
+      "id": "U04-U06",
+      "scope": "GLOBAL",
+      "summary": "已确认Q2首日启动、连续衔接及实际余电无法利用时的处置费用；其他分支初始化、期末条件、效率计量侧、设备响应、合同量是否全部交付/能否不接收仍待明确，见report.md 8.7—8.8"
+    },
+    {
+      "id": "U07",
+      "scope": "GLOBAL",
+      "summary": "整点光伏预报到10分钟区间功率及电量的映射需明确，尚未执行转换"
+    },
+    {
+      "id": "U08",
+      "scope": "GLOBAL",
+      "summary": "调整模板填最终总量还是增减量、三次调整历史与费用汇总如何对应需明确；原模板未填写"
+    }
+  ]
+}

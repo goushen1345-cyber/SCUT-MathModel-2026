@@ -1,0 +1,12 @@
+{
+  "questions\\Q3\\runs\\20260911-four-candidates-v1\\outputs\\sources.npz": "1739b45bf65bb653daa8e9f98e87108746ee339814ef55188488706f85b387b7",
+  "questions\\Q3\\runs\\20260911-four-candidates-v1\\outputs\\forecasts.npz": "f63519932a9999d95264c02b198bc2ce25c7baa675c11f1b7c61ed3070b925ce",
+  "questions\\Q3\\runs\\20260912-load-feedback-v1\\run.py": "22a7015b178746d5ce23bbb30600cc75a4cdde3cb2008e6f502096584089b46d",
+  "questions\\Q3\\runs\\20260912-load-feedback-v1\\verify.py": "7d9290c11dfee337279c8c31e812d454d50254ce525d0ff1e708c3b4632620fd",
+  "questions\\Q3\\runs\\20260912-load-feedback-v1\\outputs\\verification.json": "f799277b152eb8a1e6053620b54b7b107ab3c20e60c90cf3841c22c86b1e5f40",
+  "questions\\Q3\\runs\\20260912-load-feedback-v1\\outputs\\strategies\\LEARN_PREFIX.summary.json": "85abde7f8d30a5bd572b92fc07a4edfee4aae4047742a619736956e52d77f794",
+  "questions\\Q3\\runs\\20260912-load-feedback-v1\\outputs\\strategies\\LEARN_PREFIX.npz": "358efc475ef2af3bc95dc2cfe2e09ed810739799abcfd5928cae2aa0a8e14554",
+  "state\\state.json": "f16287cf2993f135c8fd892f63e3ba4988dd6cc6c093c4aa9cec98a025150749",
+  "questions\\Q3\\runs\\20260911-s2-deepening-v1\\deepen.py": "9749c5a33225e7217d79a336db5f3ed36f87db0d4f3100a12c22c3f33a2708c0",
+  "questions\\Q3\\runs\\20260911-four-candidates-v1\\core.py": "e2638e5becbe6e62c539edf181102623ec82a90a07f5555396f31d921c8fc376"
+}

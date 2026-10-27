@@ -1,0 +1,307 @@
+{
+  "status": "verified_by_AI_not_human_approval",
+  "counts": {
+    "strategies": 5,
+    "actual_intervals": 240480,
+    "regression_groups": 21900,
+    "margin_groups": 94900
+  },
+  "max_errors": {
+    "load_prediction": 9.094947017729282e-13,
+    "next_day_unchanged": 0,
+    "observed_prefix": 0,
+    "regression_coefficient": 7.771561172376096e-16,
+    "own_net_error": 0,
+    "own_preparation": 0,
+    "zero_plan": 0,
+    "locked_prefix": 0,
+    "decision_stock": 0,
+    "execution": 0,
+    "balance": 2.2737367544323206e-13,
+    "daily_cost": 1.4551915228366852e-11,
+    "cross_day": 0,
+    "total_bill": 1.862645149230957e-09,
+    "terminal_stock": 0
+  },
+  "candidate_analysis": {
+    "PERSIST_PREFIX": {
+      "saving": 61350.24105275981,
+      "percent": 0.46666470498312257,
+      "cheaper_days": 192,
+      "costlier_days": 142,
+      "tied_days": 0,
+      "monthly_saving": {
+        "2": -4006.752721243931,
+        "3": -2450.0788765103644,
+        "4": -1212.2399737182714,
+        "5": 3215.988710574018,
+        "6": 10849.786461033265,
+        "7": 31019.72129884033,
+        "8": 2508.4604164567572,
+        "9": 39872.08668295583,
+        "10": 2369.5770229428563,
+        "11": 697.663128125263,
+        "12": -21513.97109669437
+      },
+      "max_saving": 12609.284875023404,
+      "max_saving_date": "2025-07-01",
+      "max_increase": 3062.620803710037,
+      "max_increase_date": "2025-12-03",
+      "terminal_stock_difference": -15.641209375000471,
+      "saving_with_terminal_reference": 61344.221689743936,
+      "max_emergency_interval_kwh": 847.7435333333333,
+      "max_emergency_day_kwh": 1660.4526326235864,
+      "longest_emergency_minutes": 100,
+      "max_daily_cost": 70984.32626587524
+    },
+    "LEARN_PREFIX": {
+      "saving": 100388.28905810602,
+      "percent": 0.7636102237442481,
+      "cheaper_days": 211,
+      "costlier_days": 123,
+      "tied_days": 0,
+      "monthly_saving": {
+        "2": -1450.4241218902134,
+        "3": -222.5229439943978,
+        "4": -1016.8763330079983,
+        "5": 2531.938883095496,
+        "6": 14468.073917251357,
+        "7": 34764.83796942104,
+        "8": 2440.174492922237,
+        "9": 37142.828503757744,
+        "10": 2707.1689140507006,
+        "11": 191.82397710190344,
+        "12": 8831.265799399192
+      },
+      "max_saving": 12941.259714573163,
+      "max_saving_date": "2025-07-01",
+      "max_increase": 1737.3828522150434,
+      "max_increase_date": "2025-02-16",
+      "terminal_stock_difference": -0.25695673876907676,
+      "saving_with_terminal_reference": 100388.19017087467,
+      "max_emergency_interval_kwh": 847.7435333333333,
+      "max_emergency_day_kwh": 3202.986159286977,
+      "longest_emergency_minutes": 100,
+      "max_daily_cost": 73529.21797932134
+    },
+    "LEARN_RECENT": {
+      "saving": 74647.97339947894,
+      "percent": 0.5678147939809727,
+      "cheaper_days": 185,
+      "costlier_days": 149,
+      "tied_days": 0,
+      "monthly_saving": {
+        "2": -3531.361039422296,
+        "3": -2348.0141622419524,
+        "4": -1113.633562469855,
+        "5": 5206.690379403539,
+        "6": 16357.068465122942,
+        "7": 28055.195981290115,
+        "8": -5505.6430289081,
+        "9": 23933.73613946527,
+        "10": 6757.423313761457,
+        "11": -2388.27086730293,
+        "12": 9224.781780783134
+      },
+      "max_saving": 13045.755339631709,
+      "max_saving_date": "2025-07-01",
+      "max_increase": 4208.102237655905,
+      "max_increase_date": "2025-09-15",
+      "terminal_stock_difference": 5.66061484207421,
+      "saving_with_terminal_reference": 74650.15183049477,
+      "max_emergency_interval_kwh": 847.7435333333333,
+      "max_emergency_day_kwh": 3207.3115411017397,
+      "longest_emergency_minutes": 100,
+      "max_daily_cost": 73249.74609964265
+    },
+    "LEARN_PREFIX_HALF": {
+      "saving": 67717.82610727474,
+      "percent": 0.5151001658701418,
+      "cheaper_days": 217,
+      "costlier_days": 117,
+      "tied_days": 0,
+      "monthly_saving": {
+        "2": 538.8582936332095,
+        "3": 1346.7691387844734,
+        "4": -532.9699004390695,
+        "5": 1172.7731907287525,
+        "6": 8438.687240437339,
+        "7": 21515.756778232975,
+        "8": 3096.9152390624804,
+        "9": 24429.14295336913,
+        "10": 1565.039477660397,
+        "11": 307.19345828296355,
+        "12": 5839.660237523527
+      },
+      "max_saving": 7319.388515650862,
+      "max_saving_date": "2025-07-01",
+      "max_increase": 1183.0166726020325,
+      "max_increase_date": "2025-02-16",
+      "terminal_stock_difference": -0.5978452443850983,
+      "saving_with_terminal_reference": 67717.59603251089,
+      "max_emergency_interval_kwh": 847.7435333333333,
+      "max_emergency_day_kwh": 3195.7257025555123,
+      "longest_emergency_minutes": 100,
+      "max_daily_cost": 73149.70955432318
+    },
+    "LEARN_PREFIX_NO_NEW": {
+      "saving": 31175.392919365317,
+      "percent": 0.2371377078524794,
+      "cheaper_days": 162,
+      "costlier_days": 172,
+      "tied_days": 0,
+      "monthly_saving": {
+        "2": -8102.998385190753,
+        "3": -6020.380979204207,
+        "4": -7070.08409685464,
+        "5": -3807.194892175514,
+        "6": -1379.6885296005094,
+        "7": 33570.61805558853,
+        "8": 4309.574505962581,
+        "9": 34995.815396590595,
+        "10": -12263.153843303284,
+        "11": -7103.9989706415545,
+        "12": 4046.8846581968974
+      },
+      "max_saving": 14575.581751601632,
+      "max_saving_date": "2025-07-01",
+      "max_increase": 6693.98170558126,
+      "max_increase_date": "2025-06-11",
+      "terminal_stock_difference": -0.25695673876907676,
+      "saving_with_terminal_reference": 31175.29403213397,
+      "max_emergency_interval_kwh": 847.7435333333333,
+      "max_emergency_day_kwh": 2473.0569588050002,
+      "longest_emergency_minutes": 100,
+      "max_daily_cost": 71682.69534612933
+    }
+  },
+  "coefficient_summary": {
+    "PERSIST_PREFIX": [
+      {
+        "hour": 6.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "zero_fraction": 0.0,
+        "one_fraction": 1.0
+      },
+      {
+        "hour": 12.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "zero_fraction": 0.0,
+        "one_fraction": 1.0
+      },
+      {
+        "hour": 18.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "zero_fraction": 0.0,
+        "one_fraction": 1.0
+      }
+    ],
+    "LEARN_PREFIX": [
+      {
+        "hour": 6.0,
+        "mean": 0.661252251778462,
+        "median": 0.8803954231143785,
+        "zero_fraction": 0.05239520958083832,
+        "one_fraction": 0.4301397205588822
+      },
+      {
+        "hour": 12.0,
+        "mean": 0.6885280222985687,
+        "median": 1.0,
+        "zero_fraction": 0.07709580838323353,
+        "one_fraction": 0.5299401197604791
+      },
+      {
+        "hour": 18.0,
+        "mean": 0.6937425542564486,
+        "median": 1.0,
+        "zero_fraction": 0.05389221556886228,
+        "one_fraction": 0.5643712574850299
+      }
+    ],
+    "LEARN_RECENT": [
+      {
+        "hour": 6.0,
+        "mean": 0.5987891291987312,
+        "median": 0.6949861267293398,
+        "zero_fraction": 0.10229540918163672,
+        "one_fraction": 0.3587824351297405
+      },
+      {
+        "hour": 12.0,
+        "mean": 0.5822061916286736,
+        "median": 0.6769757520791672,
+        "zero_fraction": 0.15119760479041916,
+        "one_fraction": 0.4086826347305389
+      },
+      {
+        "hour": 18.0,
+        "mean": 0.6982585379543408,
+        "median": 0.9172107023266799,
+        "zero_fraction": 0.04790419161676647,
+        "one_fraction": 0.28892215568862273
+      }
+    ],
+    "LEARN_PREFIX_HALF": [
+      {
+        "hour": 6.0,
+        "mean": 0.661252251778462,
+        "median": 0.8803954231143785,
+        "zero_fraction": 0.05239520958083832,
+        "one_fraction": 0.4301397205588822
+      },
+      {
+        "hour": 12.0,
+        "mean": 0.6885280222985687,
+        "median": 1.0,
+        "zero_fraction": 0.07709580838323353,
+        "one_fraction": 0.5299401197604791
+      },
+      {
+        "hour": 18.0,
+        "mean": 0.6937425542564486,
+        "median": 1.0,
+        "zero_fraction": 0.05389221556886228,
+        "one_fraction": 0.5643712574850299
+      }
+    ],
+    "LEARN_PREFIX_NO_NEW": [
+      {
+        "hour": 6.0,
+        "mean": 0.661252251778462,
+        "median": 0.8803954231143785,
+        "zero_fraction": 0.05239520958083832,
+        "one_fraction": 0.4301397205588822
+      },
+      {
+        "hour": 12.0,
+        "mean": 0.6885280222985687,
+        "median": 1.0,
+        "zero_fraction": 0.07709580838323353,
+        "one_fraction": 0.5299401197604791
+      },
+      {
+        "hour": 18.0,
+        "mean": 0.6937425542564486,
+        "median": 1.0,
+        "zero_fraction": 0.05389221556886228,
+        "one_fraction": 0.5643712574850299
+      }
+    ]
+  },
+  "updated_information_comparison": {
+    "zero_only_cost": 13593704.507693037,
+    "no_new_cost": 13115360.095548443,
+    "full_cost": 13046147.199409703,
+    "new_PV_saving": 69212.8961387407,
+    "new_PV_saving_percent": 0.5277239483667142,
+    "cheaper_days": 206,
+    "costlier_days": 128,
+    "terminal_stock_difference": 0.0
+  },
+  "new_lp_calls": 0,
+  "code_sha256": "7d9290c11dfee337279c8c31e812d454d50254ce525d0ff1e708c3b4632620fd"
+}

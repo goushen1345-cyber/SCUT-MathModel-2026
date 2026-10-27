@@ -1,0 +1,85 @@
+\documentclass{article}
+\usepackage[paperwidth=198mm,paperheight=154mm,margin=3mm]{geometry}
+\usepackage[UTF8]{ctex}
+\usepackage{fontspec,amsmath,tikz}
+\setmainfont{Times New Roman}
+\setCJKmainfont{SimSun}[BoldFont=SimHei]
+\usetikzlibrary{arrows.meta}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\linespread{1.0}\selectfont
+\begin{document}
+\centering
+\begin{tikzpicture}[x=1cm,y=1cm,
+ every node/.style={font=\fontsize{10}{13}\selectfont,align=center,inner sep=3pt,text=black},
+ panel/.style={draw=black,line width=.9pt,fill=white},
+ box/.style={draw=black,line width=.6pt,fill=white,minimum height=1cm,text width=3.7cm,font=\fontsize{10}{13}\selectfont\bfseries},
+ core/.style={box,line width=1.15pt},
+ arr/.style={-{Stealth[length=1.7mm,width=1.3mm]},line width=.7pt},
+ head/.style={font=\fontsize{11}{14}\selectfont\bfseries,anchor=west},
+ note/.style={font=\fontsize{9}{12}\selectfont}]
+\path[use as bounding box] (0,.3) rectangle (19.1,14.9);
+
+% Labels remaining after the five requested screenshot deletions are centered.
+\draw[panel] (0,12.55) rectangle (19.1,14.9);
+\draw[panel] (0,8.95) rectangle (19.1,11.85);
+\draw[panel] (0,5.35) rectangle (19.1,8.25);
+\draw[panel] (0,.3) rectangle (19.1,4.65);
+\foreach \yt in {14.9,11.85,8.25,4.65}{\draw[line width=.5pt] (0,\yt-.72)--(19.1,\yt-.72);}
+
+\node[head] at (.27,14.53) {问题一\quad 全时段电量流线性规划};
+\node[box] (a1) at (2.35,13.37) {已知代表日};
+\node[box] (a2) at (7.12,13.37) {供需分解};
+\node[core] (a3) at (11.91,13.37) {全时段线性规划};
+\node[box] (a4) at (16.7,13.37) {当天最低购电费};
+\foreach \from/\to in {a1/a2,a2/a3,a3/a4}{\draw[arr] (\from.east)--(\to.west);}
+
+\draw[arr] (9.55,12.55)--(9.55,11.85);
+\node[note,fill=white,anchor=east] at (9.30,12.20) {继承供需与储能约束};
+\node[note,fill=white,anchor=west] at (9.80,12.20) {新增：供需未知、跨日运行与紧急购电};
+
+\node[head] at (.27,11.48) {问题二\quad 周期预测—近期加权准备—跨日线性规划};
+\node[box] (b1) at (2.35,10.30) {零点可用信息};
+\node[box] (b2) at (7.12,10.30) {负载、光伏分别预测};
+\node[box] (b3) at (11.91,10.30) {近期加权误差准备};
+\node[core] (b4) at (16.7,10.30) {跨日线性规划};
+\foreach \from/\to in {b1/b2,b2/b3,b3/b4}{\draw[arr] (\from.east)--(\to.west);}
+\node[draw,line width=.5pt,text width=17.8cm,minimum height=.57cm,font=\fontsize{10}{13}\selectfont\bfseries] (bex) at (9.55,9.40) {
+在供需不确定时，降低普通购电与紧急购电的总费用};
+\draw[arr] (b4.east)--(18.9,10.30)--(18.9,9.40)--(bex.east);
+
+\draw[arr] (9.55,8.95)--(9.55,8.25);
+\node[note,fill=white,anchor=east] at (9.30,8.60) {继承负载预测、误差准备与跨日储能};
+\node[note,fill=white,anchor=west] at (9.80,8.60) {新增：光伏预报更新、有代价的改单};
+
+\node[head] at (.27,7.88) {问题三\quad 历史融合预报—动态安全准备—日内滚动规划};
+\node[box] (c1) at (2.35,6.70) {0、6、12、18点新预报};
+\node[box] (c2) at (7.12,6.70) {历史融合光伏预报};
+\node[box] (c3) at (11.91,6.70) {动态安全准备};
+\node[core] (c4) at (16.7,6.70) {日内滚动线性规划};
+\foreach \from/\to in {c1/c2,c2/c3,c3/c4}{\draw[arr] (\from.east)--(\to.west);}
+\node[draw,line width=.5pt,text width=17.8cm,minimum height=.57cm,font=\fontsize{10}{13}\selectfont\bfseries] (cex) at (9.55,5.80) {
+降低普通、调整与紧急购电的总费用，并评价日内光伏预报的价值};
+\draw[arr] (c4.east)--(18.9,6.70)--(18.9,5.80)--(cex.east);
+
+\draw[arr] (9.55,5.35)--(9.55,4.65);
+\node[note,fill=white,anchor=east] at (9.30,5.0) {分别扩展问题二、问题三的调度结构};
+\node[note,fill=white,anchor=west] at (9.80,5.0) {新增：未来电价未知};
+
+\node[head,font=\fontsize{10.5}{14}\selectfont\bfseries] at (.27,4.28) {问题四\quad 梯度提升树—零点线性规划 / 岭回归—日内调整线性规划};
+\node[anchor=west,font=\fontsize{10}{13}\selectfont\bfseries] at (.27,3.59) {问题四-2：沿用问题二的决策权限};
+\node[box] (d1) at (2.35,2.86) {零点以前的历史信息};
+\node[core] (d2) at (7.12,2.86) {梯度提升树预测电价};
+\node[core] (d3) at (11.91,2.86) {零点线性规划};
+\node[box] (d4) at (16.7,2.86) {一次订电方案};
+\foreach \from/\to in {d1/d2,d2/d3,d3/d4}{\draw[arr] (\from.east)--(\to.west);}
+\draw[dashed,line width=.5pt] (.27,2.17)--(18.83,2.17);
+\node[anchor=west,font=\fontsize{10}{13}\selectfont\bfseries] at (.27,1.88) {问题四-3：沿用问题三的决策权限};
+\node[box] (e1) at (2.35,1.15) {历史与当日新增信息};
+\node[core] (e2) at (7.12,1.15) {岭回归预测电价};
+\node[core] (e3) at (11.91,1.15) {日内调整线性规划};
+\node[box] (e4) at (16.7,1.15) {日内调整方案};
+\foreach \from/\to in {e1/e2,e2/e3,e3/e4}{\draw[arr] (\from.east)--(\to.west);}
+\end{tikzpicture}
+\end{document}
+

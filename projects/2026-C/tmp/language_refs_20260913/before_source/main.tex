@@ -1,0 +1,133 @@
+% !TEX program = xelatex
+\documentclass[12pt,a4paper,UTF8]{ctexart}
+
+\usepackage{amsmath,amssymb}
+\usepackage{newtxmath}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{fvextra}
+\usepackage{url}
+\usepackage{graphicx}
+\graphicspath{{fig/}{./fig/}}
+\usepackage{float}
+\usepackage[section]{placeins}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[hidelinks]{hyperref}
+
+% 西文 Times，中文宋体/黑体，对齐 C132 一类国赛 Word 稿
+\setmainfont{Times New Roman}
+\setsansfont{Times New Roman}
+\setCJKmonofont{SimSun}
+% 宋体无真粗体；正文和 \songti 的 \textbf 中文都改走黑体
+\setCJKmainfont[BoldFont=SimHei]{SimSun}
+\setCJKsansfont{SimHei}
+\setCJKfamilyfont{zhsong}[BoldFont=SimHei]{SimSun}
+
+% 四边约 2.5cm；下边略留页码
+\geometry{a4paper,left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm,footskip=1.15cm}
+
+% 小四 12pt + 固定约 20 磅行距
+\setstretch{1.38}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0pt}
+% Keep the original body type, line spacing and page margins; trim only float gaps.
+\setlength{\textfloatsep}{10pt plus 2pt minus 2pt}
+\setlength{\intextsep}{8pt plus 2pt minus 2pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.8}
+\setlength{\emergencystretch}{2em}
+
+\ctexset{
+  autoindent = true,
+  punct = kaiming,
+  section = {
+    format = {\zihao{4}\heiti\centering},
+    name = {,、},
+    number = \chinese{section},
+    aftername = {},
+    beforeskip = 1.15em,
+    afterskip = 0.75em,
+    indent = 0pt,
+  },
+  subsection = {
+    format = {\zihao{-4}\heiti\raggedright},
+    aftername = \quad,
+    beforeskip = 0.85em,
+    afterskip = 0.45em,
+    indent = 0pt,
+  },
+  subsubsection = {
+    format = {\zihao{-4}\heiti\raggedright},
+    beforeskip = 0.6em,
+    afterskip = 0.35em,
+    indent = 0pt,
+  },
+}
+
+% 摘要二字与节标题同为四号黑体；正文小四宋体
+\renewenvironment{abstract}{%
+  \vspace{1.15em}
+  {\centering\zihao{4}\heiti 摘\quad 要\par}
+  \vspace{0.55em}
+  \zihao{-4}
+  \setlength{\parindent}{2em}%
+}{%
+  \par\vspace{0.7em}%
+}
+
+\captionsetup{
+  font={small},
+  labelsep=quad,
+  skip=6pt,
+}
+
+\makeatletter
+\renewcommand{\@maketitle}{%
+  \newpage
+  \null
+  \vskip 0.6em%
+  \begin{center}%
+    {\zihao{-2}\heiti \@title \par}%
+  \end{center}%
+  \vskip 0.4em}
+\makeatother
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\zihao{5}\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[C]{\zihao{5}\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+\setlist[enumerate]{topsep=0pt,partopsep=0pt,itemsep=0pt,parsep=0pt,leftmargin=2em}
+\setlist[itemize]{topsep=0pt,partopsep=0pt,itemsep=0pt,parsep=0pt,leftmargin=2em}
+
+\begin{document}
+
+\input{sections/sec_0_abstract.tex}
+\newpage
+\input{sections/sec_1_problem_review.tex}
+\input{sections/sec_2_problem_analysis.tex}
+\input{sections/sec_3_model_assumption.tex}
+\input{sections/sec_4_data_preprocessing.tex}
+\input{sections/sec_5_q1.tex}
+\input{sections/sec_6_q2.tex}
+\input{sections/sec_7_q3.tex}
+\input{sections/sec_8_q4.tex}
+\input{sections/sec_9_create.tex}
+\clearpage
+\input{sections/appendix_q4_details.tex}
+\input{sections/appendix_support.tex}
+
+\end{document}

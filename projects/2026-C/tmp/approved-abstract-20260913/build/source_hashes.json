@@ -1,0 +1,19 @@
+{
+  "main.tex": "54c02a5eba1225cbb6b2ac13bae567e3b237293e397a2e0b83e311a39165174e",
+  "sections\\sec_0_abstract.tex": "dc0e73a733cc5254ba30c0ab032e9ca57f662a6254666e2129e59438886251dc",
+  "sections\\sec_1_problem_review.tex": "32b863fb7a5a2fcfa4790b76c0c8b84ab7dfad0f2929100005cd9579640e1399",
+  "sections\\sec_2_problem_analysis.tex": "9b6aa7c4133e99c7e49355779b337aff9099eed0f5cdeadd56660870844388c2",
+  "sections\\sec_3_model_assumption.tex": "7d645d4b1d2c25faf7bf09eeb53694de815515b5ff093b37fdd96d78d3e75fbb",
+  "sections\\sec_4_data_preprocessing.tex": "b82ea87a676bfdad89f4034fc174f5cff70c5b57aa7c984a4d34c9f5a09d4be7",
+  "sections\\sec_5_q1.tex": "d95ae7f358705e5fda731a52928cdfef09b46789fcb661f5c61ea04c970a82a7",
+  "sections\\sec_6_q2.tex": "346ea980bad484096c3850fe1367ca1e8d8a94a390797e68cbf7a513742727c5",
+  "sections\\sec_7_q3.tex": "9a8100f16722eaddca41a1ef291c4e43564c7588982cbb63e6ffbdfaab346fd8",
+  "sections\\sec_8_q4.tex": "d1dfdb81eda5fc18ded5afa04f389533a51e9641c42d193bfd5aceb36463cd27",
+  "sections\\sec_9_create.tex": "825eb8c6d42e0c6ef74c135ce31322369bf714073a78fcbc2a986b5a115e7890",
+  "tables\\q2_emergency.tex": "5f0b1a8897ea7b099e1baa8c355e19470c47e43545364c6a8000c3295d371b65",
+  "tables\\q3_emergency.tex": "9522961807cddfdbf6f99f6e7bdfea13349e7d60eac7d7a0e67df06aaa28e124",
+  "tables\\q3_final.tex": "e7e948d133af0b16d62d1ead3c63409155054ca60e076ad1ff141b2def6592b8",
+  "tables\\q3_original.tex": "e894dca50c8ec72627c7d3c4093a5b32b81247247b92ea1c971ee2096dd29e7d",
+  "tables\\q3_storage.tex": "d8f0dd3b5a5e5a7fd2bc862aed2cd098c6bd017f912e834072f0daa51d8a1e77",
+  "tables\\q4_specified_dates.tex": "ae69bb7c13d1cd806ab339c68b86b04c1c504b78099205642302fdd67a06c1a8"
+}

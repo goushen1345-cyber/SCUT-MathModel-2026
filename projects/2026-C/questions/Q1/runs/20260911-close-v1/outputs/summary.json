@@ -1,0 +1,220 @@
+{
+  "plan": "Q1-close-plan-v1",
+  "new_lp_solves": 2,
+  "baseline_reused": true,
+  "sensitivity": [
+    {
+      "initial_kwh": 1200,
+      "cost_yuan": 35199.29858928963,
+      "purchase_kwh": 59482.69899835391,
+      "charge_kwh": 20740.666131687245,
+      "discharge": 16799.939566666668,
+      "pv_charge": 6247.962966666666,
+      "grid_charge": 14492.70316502058,
+      "unused_pv_kwh": 0.0,
+      "loss_kwh": 3940.726565020577,
+      "start_kwh": 1200.0,
+      "end_kwh": 1200.0,
+      "min_kwh": 1200.0,
+      "max_kwh": 10800.0,
+      "max_charge_kw": 5000.0,
+      "max_discharge_kw": 4293.9182,
+      "simultaneous_slots": 0,
+      "terminal_projection_slots": 0,
+      "cost_difference_yuan": 72.45000000000437,
+      "cost_difference_pct": 0.2062524903588825,
+      "state_at_20h_kwh": 5168.125722222223,
+      "purchase_at_price_peak_kwh": 0.0,
+      "changed_purchase_slots": 14,
+      "purchase_l1_difference_kwh": 10666.666666666666
+    },
+    {
+      "initial_kwh": 6000,
+      "cost_yuan": 35126.84858928963,
+      "purchase_kwh": 59482.69899835391,
+      "charge_kwh": 20740.666131687245,
+      "discharge": 16799.939566666668,
+      "pv_charge": 6247.962966666666,
+      "grid_charge": 14492.70316502058,
+      "unused_pv_kwh": 0.0,
+      "loss_kwh": 3940.726565020577,
+      "start_kwh": 6000.0,
+      "end_kwh": 6000.0,
+      "min_kwh": 1200.0,
+      "max_kwh": 10800.0,
+      "max_charge_kw": 5000.0,
+      "max_discharge_kw": 4293.9182,
+      "simultaneous_slots": 0,
+      "terminal_projection_slots": 0.0,
+      "cost_difference_yuan": 0.0,
+      "cost_difference_pct": 0.0,
+      "state_at_20h_kwh": 5168.125722222223,
+      "purchase_at_price_peak_kwh": 0.0,
+      "changed_purchase_slots": 0,
+      "purchase_l1_difference_kwh": 0.0
+    },
+    {
+      "initial_kwh": 10800,
+      "cost_yuan": 35409.74858928963,
+      "purchase_kwh": 59482.69899835391,
+      "charge_kwh": 20740.666131687245,
+      "discharge": 16799.939566666668,
+      "pv_charge": 6247.962966666666,
+      "grid_charge": 14492.70316502058,
+      "unused_pv_kwh": 0.0,
+      "loss_kwh": 3940.726565020577,
+      "start_kwh": 10800.0,
+      "end_kwh": 10800.0,
+      "min_kwh": 1200.0,
+      "max_kwh": 10800.0,
+      "max_charge_kw": 5000.0,
+      "max_discharge_kw": 4293.9182,
+      "simultaneous_slots": 0,
+      "terminal_projection_slots": 0,
+      "cost_difference_yuan": 282.90000000000146,
+      "cost_difference_pct": 0.8053668671156089,
+      "state_at_20h_kwh": 5168.125722222223,
+      "purchase_at_price_peak_kwh": 0.0,
+      "changed_purchase_slots": 14,
+      "purchase_l1_difference_kwh": 10666.666666666666
+    }
+  ],
+  "table1": [
+    {
+      "start": "10:00",
+      "end": "10:10",
+      "purchase_kwh": 0.0
+    },
+    {
+      "start": "12:00",
+      "end": "12:10",
+      "purchase_kwh": 486.40289999999993
+    },
+    {
+      "start": "14:00",
+      "end": "14:10",
+      "purchase_kwh": 0.0
+    },
+    {
+      "start": "16:00",
+      "end": "16:10",
+      "purchase_kwh": 394.9314833333333
+    },
+    {
+      "start": "18:00",
+      "end": "18:10",
+      "purchase_kwh": 636.9826166666667
+    },
+    {
+      "start": "20:00",
+      "end": "20:10",
+      "purchase_kwh": 0.0
+    }
+  ],
+  "table2": [
+    {
+      "start": "00:00",
+      "end": "04:00",
+      "charge_kwh": 4500.0,
+      "discharge_kwh": 0.0,
+      "purchase_kwh": 18467.85933333333,
+      "cost_yuan": 7945.142465151666,
+      "pv_charge_kwh": 0.0,
+      "grid_charge_kwh": 4500.0,
+      "state_start": 6000.0,
+      "state_end": 10050.0
+    },
+    {
+      "start": "04:00",
+      "end": "08:00",
+      "charge_kwh": 833.3333333333333,
+      "discharge_kwh": 5947.41975,
+      "purchase_kwh": 7896.117399999999,
+      "cost_yuan": 3445.7363244116664,
+      "pv_charge_kwh": 0.0,
+      "grid_charge_kwh": 833.3333333333333,
+      "state_start": 10050.0,
+      "state_end": 4191.755833333333
+    },
+    {
+      "start": "08:00",
+      "end": "12:00",
+      "charge_kwh": 3954.6309547325154,
+      "discharge_kwh": 2121.4184333333333,
+      "purchase_kwh": 1274.5726047325156,
+      "cost_yuan": 596.4108575345088,
+      "pv_charge_kwh": 2680.05835,
+      "grid_charge_kwh": 1274.5726047325156,
+      "state_start": 4191.755833333333,
+      "state_end": 5393.792100000004
+    },
+    {
+      "start": "12:00",
+      "end": "16:00",
+      "charge_kwh": 6119.3685102880645,
+      "discharge_kwh": 91.1013833333335,
+      "purchase_kwh": 3901.465276954732,
+      "cost_yuan": 2137.0446393401235,
+      "pv_charge_kwh": 3567.904616666666,
+      "grid_charge_kwh": 2551.4638936213987,
+      "state_start": 5393.792100000004,
+      "state_end": 10800.0
+    },
+    {
+      "start": "16:00",
+      "end": "20:00",
+      "charge_kwh": 0.0,
+      "discharge_kwh": 5068.68685,
+      "purchase_kwh": 10814.4582,
+      "cost_yuan": 11129.890118528332,
+      "pv_charge_kwh": 0.0,
+      "grid_charge_kwh": 0.0,
+      "state_start": 10800.0,
+      "state_end": 5168.125722222223
+    },
+    {
+      "start": "20:00",
+      "end": "24:00",
+      "charge_kwh": 5333.333333333333,
+      "discharge_kwh": 3571.31315,
+      "purchase_kwh": 17128.226183333332,
+      "cost_yuan": 9872.624184323333,
+      "pv_charge_kwh": 0.0,
+      "grid_charge_kwh": 5333.333333333333,
+      "state_start": 5168.125722222223,
+      "state_end": 6000.0
+    }
+  ],
+  "main_totals": {
+    "cost_yuan": 35126.84858928963,
+    "purchase_kwh": 59482.69899835391,
+    "charge_kwh": 20740.666131687245,
+    "discharge": 16799.939566666668,
+    "pv_charge": 6247.962966666666,
+    "grid_charge": 14492.70316502058,
+    "unused_pv_kwh": 0.0,
+    "loss_kwh": 3940.726565020577,
+    "start_kwh": 6000.0,
+    "end_kwh": 6000.0,
+    "min_kwh": 1200.0,
+    "max_kwh": 10800.0,
+    "max_charge_kw": 5000.0,
+    "max_discharge_kw": 4293.9182,
+    "simultaneous_slots": 0,
+    "terminal_projection_slots": 0.0
+  },
+  "environment": {
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0"
+  },
+  "source_hashes": {
+    "questions\\Q1\\runs\\20260911-compare-v1\\compare.py": "e6155fa606f3ed4f631fa26db1bfa9ee6d9570c29ce31b5d9e743c978b5ccf58",
+    "questions\\Q1\\runs\\20260911-compare-v1\\protocol.json": "451977c3e2cd8ad1c810ce6d69f5127cde4e20aaf5e82954c6ee38901e7bd7af",
+    "questions\\Q1\\runs\\20260911-compare-v1\\outputs\\schedules\\C04.csv": "d48f8ed12d777ebe2a143be42657a9cb5271433ae5d8408a6dcad533eac8fc7c",
+    "questions\\Q1\\runs\\20260911-compare-v1\\outputs\\verification.json": "dfe961a89e79328f2763c80062cdcb589dc1bcdbf02ec88e40c6dd335f3d0c3d",
+    "questions\\Q1\\runs\\20260911-close-v1\\protocol.json": "9eb3cf3d76d4bdf851be36078fa5c9a1b154b95944d36c348889bad661cc88ce",
+    "questions\\Q1\\runs\\20260911-close-v1\\close.py": "99cb1fde3b723352cdd30a93987caa7e62175cca9519a3840a57e3fdccb402d9"
+  }
+}

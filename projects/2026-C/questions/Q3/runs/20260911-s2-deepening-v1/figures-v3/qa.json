@@ -1,0 +1,18 @@
+{
+  "status": "source_reproduction_and_visual_checks_completed",
+  "source_figure": "01_allowance_sensitivity_and_months.png/.svg/.pdf",
+  "reproduction": "projects/2026-C/tmp/q3-s2-deepening-figure-reproduction-v1",
+  "binary_identical": {
+    "png": true,
+    "svg": true,
+    "pdf": true,
+    "manifest": true
+  },
+  "actual_visual_inspection": {
+    "assessor": "primary AI, not human review",
+    "file": "01_allowance_sensitivity_and_months.png",
+    "findings": "Chinese text, units, legend, total labels and all monthly bars are readable; no overlap or clipping; all months are retained; ordinary and emergency costs use distinct colors and black text."
+  },
+  "not_checked": ["manuscript embedded page", "human reader review"],
+  "no_new_research": true
+}

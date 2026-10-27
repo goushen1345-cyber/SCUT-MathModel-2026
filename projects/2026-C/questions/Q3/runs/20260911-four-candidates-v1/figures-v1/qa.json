@@ -1,0 +1,24 @@
+{
+  "status": "source_and_reproduction_checks_completed",
+  "outputs_identical": {
+    "01_candidate_costs_and_months.png": true,
+    "01_candidate_costs_and_months.svg": true,
+    "01_candidate_costs_and_months.pdf": true,
+    "02_information_value.png": true,
+    "02_information_value.svg": true,
+    "02_information_value.pdf": true
+  },
+  "reproduction_path": "tmp\\q3-trial-figure-reproduction-v1",
+  "actual_visual_inspection": {
+    "assessor": "primary AI; not human review",
+    "files": [
+      "01_candidate_costs_and_months.png",
+      "02_information_value.png"
+    ],
+    "findings": "Readable Chinese labels, units and legends; negative months retained; S4 alias identified; information-control scope stated; no clipping seen.",
+    "vector_pages_separately_rendered": false,
+    "manuscript_embedded": false,
+    "human_timed_test": false
+  },
+  "no_new_fit_or_optimization": true
+}

@@ -1,0 +1,48 @@
+{
+  "scope": "local_manuscript_typesetting_only",
+  "commands": [
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.EXE",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\data_chapter_v1\\build",
+      "data_chapter.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xelatex.EXE",
+      "--disable-installer",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-no-pdf",
+      "-output-directory=E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\data_chapter_v1\\build",
+      "data_chapter.tex"
+    ],
+    [
+      "C:\\Program Files\\Latex\\miktex\\bin\\x64\\xdvipdfmx.EXE",
+      "-q",
+      "-o",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\data_chapter_v1\\data_chapter.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\data_chapter_v1\\build\\data_chapter.xdv"
+    ],
+    [
+      "C:\\Users\\Rog\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.EXE",
+      "-r",
+      "120",
+      "-png",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\data_chapter_v1\\data_chapter.pdf",
+      "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\paper\\data_chapter_v1\\preview\\page"
+    ]
+  ],
+  "input_sha256": {
+    "data_chapter_v1\\data_chapter.tex": "5342b5a82ce229ddaf73909b1dad938ec1c0d563d2a8c46dd2b205ca06322546",
+    "data_chapter_v1\\build.py": "2faad64c2af5d5dabecea337f75e94b54ff53f67eff2add9a2c8987c9281d65f",
+    "figures\\eda-v2\\01_reference_day.pdf": "d619ba29bcccae5870b29194d2029bfc5aaff2bce223945fe478294d24d1a9ca",
+    "figures\\eda-v2\\02_year_and_month.pdf": "bd31ff257ca3f1de59908713c503c6bfeaaac4d95c8293aa0b8005fb7b35f45c",
+    "figures\\eda-v2\\06_prices_and_weekdays.pdf": "ca6f9423259dd5033b79ab872e8f8efbaea3844ec3fb43f297b3b91136c43722",
+    "figures\\eda-v2\\07_forecast_accuracy.pdf": "dfc8adce768c6e0aa986dbc4fd3d6de850c0d401c9a6584a0b62869f884f2172"
+  },
+  "pdf_sha256": "1232131bdb43d3e7affe0c28bc8f9df4f5c73031b115a7b309446ba9e16aeb23",
+  "dpi": 120
+}

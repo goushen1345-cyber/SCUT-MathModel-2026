@@ -1,0 +1,440 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(完整论文.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(C:\Program Files\Latex\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Program Files\Latex\tex/latex/base\size11.clo))
+(C:\Program Files\Latex\tex/latex/ctex\ctex.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+(C:\Program Files\Latex\tex/latex/l3kernel\expl3.sty
+(C:\Program Files\Latex\tex/latex/l3backend\l3backend-xetex.def))
+(C:\Program Files\Latex\tex/latex/ctex\ctexhook.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+) (C:\Program Files\Latex\tex/latex/ctex\ctexpatch.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+) (C:\Program Files\Latex\tex/latex/base\fix-cm.sty
+(C:\Program Files\Latex\tex/latex/base\ts1enc.def))
+(C:\Program Files\Latex\tex/latex/ctex/config\ctexopts.cfg)
+(C:\Program Files\Latex\tex/latex/ctex/engine\ctex-engine-xetex.def
+(C:\Program Files\Latex\tex/xelatex/xecjk\xeCJK.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+(C:\Program Files\Latex\tex/latex/l3packages/xtemplate\xtemplate.sty)
+(C:\Program Files\Latex\tex/latex/fontspec\fontspec.sty
+(C:\Program Files\Latex\tex/latex/l3packages/xparse\xparse.sty)
+(C:\Program Files\Latex\tex/latex/fontspec\fontspec-xetex.sty
+(C:\Program Files\Latex\tex/latex/base\fontenc.sty)
+(C:\Program Files\Latex\tex/latex/fontspec\fontspec.cfg)))
+(C:\Program Files\Latex\tex/xelatex/xecjk\xeCJK.cfg)))
+(C:\Program Files\Latex\tex/latex/zhnumber\zhnumber.sty
+(C:\Program Files\Latex\tex/latex/zhnumber\zhnumber-utf8.cfg))
+(C:\Program Files\Latex\tex/latex/ctex/heading\ctex-heading-article.def
+(C:\Program Files\Latex\tex/latex/ctex/scheme\ctex-scheme-chinese-article.def
+(C:\Program Files\Latex\tex/latex/ctex/config\ctex-name-utf8.cfg)))
+(C:\Program Files\Latex\tex/latex/ctex/fontset\ctex-fontset-windows.def))
+(C:\Program Files\Latex\tex/latex/ctex/config\ctex.cfg)
+(C:\Program Files\Latex\tex/latex/geometry\geometry.sty
+(C:\Program Files\Latex\tex/latex/graphics\keyval.sty)
+(C:\Program Files\Latex\tex/generic/iftex\ifvtex.sty
+(C:\Program Files\Latex\tex/generic/iftex\iftex.sty))
+(C:\Program Files\Latex\tex/latex/geometry\geometry.cfg))
+(C:\Program Files\Latex\tex/latex/graphics\graphicx.sty
+(C:\Program Files\Latex\tex/latex/graphics\graphics.sty
+(C:\Program Files\Latex\tex/latex/graphics\trig.sty)
+(C:\Program Files\Latex\tex/latex/graphics-cfg\graphics.cfg)
+(C:\Program Files\Latex\tex/latex/graphics-def\xetex.def)))
+(C:\Program Files\Latex\tex/latex/booktabs\booktabs.sty)
+(C:\Program Files\Latex\tex/latex/tools\tabularx.sty
+(C:\Program Files\Latex\tex/latex/tools\array.sty))
+(C:\Program Files\Latex\tex/latex/tools\longtable.sty)
+(C:\Program Files\Latex\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\Latex\tex/latex/amsmath\amstext.sty
+(C:\Program Files\Latex\tex/latex/amsmath\amsgen.sty))
+(C:\Program Files\Latex\tex/latex/amsmath\amsbsy.sty)
+(C:\Program Files\Latex\tex/latex/amsmath\amsopn.sty))
+(C:\Program Files\Latex\tex/latex/amsfonts\amssymb.sty
+(C:\Program Files\Latex\tex/latex/amsfonts\amsfonts.sty))
+(C:\Program Files\Latex\tex/latex/pgf/frontendlayer\tikz.sty
+(C:\Program Files\Latex\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Program Files\Latex\tex/latex/pgf/utilities\pgfrcs.sty
+(C:\Program Files\Latex\tex/generic/pgf/utilities\pgfutil-common.tex)
+(C:\Program Files\Latex\tex/generic/pgf/utilities\pgfutil-latex.def)
+(C:\Program Files\Latex\tex/generic/pgf/utilities\pgfrcs.code.tex
+(C:\Program Files\Latex\tex/generic/pgf\pgf.revision.tex)))
+(C:\Program Files\Latex\tex/latex/pgf/basiclayer\pgfcore.sty
+(C:\Program Files\Latex\tex/latex/pgf/systemlayer\pgfsys.sty
+(C:\Program Files\Latex\tex/generic/pgf/systemlayer\pgfsys.code.tex
+(C:\Program Files\Latex\tex/generic/pgf/utilities\pgfkeys.code.tex
+(C:\Program Files\Latex\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.t
+ex)) (C:\Program Files\Latex\tex/generic/pgf/systemlayer\pgf.cfg)
+(C:\Program Files\Latex\tex/generic/pgf/systemlayer\pgfsys-xetex.def
+(C:\Program Files\Latex\tex/generic/pgf/systemlayer\pgfsys-dvipdfmx.def
+(C:\Program Files\Latex\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def))))
+(C:\Program Files\Latex\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex))
+(C:\Program Files\Latex\tex/latex/xcolor\xcolor.sty
+(C:\Program Files\Latex\tex/latex/graphics-cfg\color.cfg)
+(C:\Program Files\Latex\tex/latex/graphics\mathcolor.ltx))
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcore.code.tex
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmath.code.tex
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathutil.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathparser.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfunctions.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfunctions.trigonometric.cod
+e.tex)
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfunctions.comparison.code.t
+ex) (C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfunctions.base.code.tex
+) (C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfunctions.integerarithmetic
+s.code.tex) (C:\Program Files\Latex\tex/generic/pgf/math\pgfmathcalc.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmathfloat.code.tex))
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfint.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.te
+x) (C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+) (C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcoretransformations.code.
+tex) (C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorequick.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.t
+ex) (C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+) (C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex)))
+(C:\Program Files\Latex\tex/generic/pgf/modules\pgfmoduleshapes.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/modules\pgfmoduleplot.code.tex)
+(C:\Program Files\Latex\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty)
+(C:\Program Files\Latex\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty))
+(C:\Program Files\Latex\tex/latex/pgf/utilities\pgffor.sty
+(C:\Program Files\Latex\tex/latex/pgf/utilities\pgfkeys.sty
+(C:\Program Files\Latex\tex/generic/pgf/utilities\pgfkeys.code.tex))
+(C:\Program Files\Latex\tex/latex/pgf/math\pgfmath.sty
+(C:\Program Files\Latex\tex/generic/pgf/math\pgfmath.code.tex))
+(C:\Program Files\Latex\tex/generic/pgf/utilities\pgffor.code.tex))
+(C:\Program Files\Latex\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+(C:\Program Files\Latex\tex/generic/pgf/libraries\pgflibraryplothandlers.code.t
+ex) (C:\Program Files\Latex\tex/generic/pgf/modules\pgfmodulematrix.code.tex)
+(C:\Program Files\Latex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrar
+ytopaths.code.tex)))
+(C:\Program Files\Latex\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.te
+x)
+(C:\Program Files\Latex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrar
+ypositioning.code.tex) (C:\Program Files\Latex\tex/latex/hyperref\hyperref.sty
+(C:\Program Files\Latex\tex/latex/kvsetkeys\kvsetkeys.sty)
+(C:\Program Files\Latex\tex/generic/kvdefinekeys\kvdefinekeys.sty)
+(C:\Program Files\Latex\tex/generic/pdfescape\pdfescape.sty
+(C:\Program Files\Latex\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Program Files\Latex\tex/generic/pdftexcmds\pdftexcmds.sty
+(C:\Program Files\Latex\tex/generic/infwarerr\infwarerr.sty)))
+(C:\Program Files\Latex\tex/latex/hycolor\hycolor.sty)
+(C:\Program Files\Latex\tex/latex/hyperref\nameref.sty
+(C:\Program Files\Latex\tex/latex/refcount\refcount.sty)
+(C:\Program Files\Latex\tex/generic/gettitlestring\gettitlestring.sty
+(C:\Program Files\Latex\tex/latex/kvoptions\kvoptions.sty)))
+(C:\Program Files\Latex\tex/latex/etoolbox\etoolbox.sty)
+(C:\Program Files\Latex\tex/generic/stringenc\stringenc.sty)
+(C:\Program Files\Latex\tex/latex/hyperref\pd1enc.def)
+(C:\Program Files\Latex\tex/generic/intcalc\intcalc.sty)
+(C:\Program Files\Latex\tex/latex/hyperref\puenc.def)
+(C:\Program Files\Latex\tex/latex/url\url.sty)
+(C:\Program Files\Latex\tex/generic/bitset\bitset.sty
+(C:\Program Files\Latex\tex/generic/bigintcalc\bigintcalc.sty)))
+(C:\Program Files\Latex\tex/latex/hyperref\hxetex.def
+(C:\Program Files\Latex\tex/latex/rerunfilecheck\rerunfilecheck.sty
+(C:\Program Files\Latex\tex/generic/uniquecounter\uniquecounter.sty)))
+
+Package xeCJK Warning: Redefining CJKfamily `\CJKrmdefault' (SimSun(0)).
+
+
+Package xeCJK Warning: Redefining CJKfamily `\CJKsfdefault' (Microsoft YaHei).
+
+(result_values.tex)
+No file 完整论文.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(abstract.tex) [1] (front.tex [2] [3]) (assumptions_symbols.tex [4]
+(C:\Program Files\Latex\tex/latex/amsfonts\umsa.fd)
+(C:\Program Files\Latex\tex/latex/amsfonts\umsb.fd)
+
+LaTeX Warning: Reference `tab:symbols' on page 5 undefined on input line 20.
+
+ignored error: Infinite glue shrinkage found in box being split [5]) (data.tex
+
+LaTeX Warning: Reference `fig:reference' on page 6 undefined on input line 11.
+
+[6]
+
+LaTeX Warning: Reference `fig:annual' on page 7 undefined on input line 25.
+
+[7]
+
+LaTeX Warning: Reference `fig:prices' on page 8 undefined on input line 39.
+
+[8]
+
+LaTeX Warning: Reference `fig:prices' on page 9 undefined on input line 49.
+
+
+LaTeX Warning: Reference `fig:forecast' on page 9 undefined on input line 53.
+
+[9]) (q1.tex [10]
+
+LaTeX Warning: Reference `fig:energy_paths' on page 11 undefined on input line 
+27.
+
+(q1_figures/energy_paths.tex) [11]
+
+LaTeX Warning: Reference `eq:pv_first' on page 12 undefined on input line 60.
+
+
+LaTeX Warning: Reference `eq:purchase' on page 12 undefined on input line 60.
+
+
+LaTeX Warning: Reference `eq:soc' on page 12 undefined on input line 87.
+
+
+LaTeX Warning: Reference `eq:pv_first' on page 12 undefined on input line 96.
+
+
+LaTeX Warning: Reference `eq:objective' on page 12 undefined on input line 106.
+
+
+
+LaTeX Warning: Reference `eq:balance' on page 12 undefined on input line 106.
+
+
+LaTeX Warning: Reference `eq:cyclic' on page 12 undefined on input line 106.
+
+[12]
+
+LaTeX Warning: Reference `tab:purchase' on page 13 undefined on input line 118.
+
+
+
+LaTeX Warning: Reference `tab:storage' on page 13 undefined on input line 118.
+
+[13]
+
+LaTeX Warning: Reference `fig:dispatch' on page 14 undefined on input line 158.
+
+
+[14] [15]) (q2.tex
+
+LaTeX Warning: Reference `eq:q2-forecast' on page 16 undefined on input line 24
+.
+
+[16]
+
+LaTeX Warning: Reference `eq:q2-order' on page 17 undefined on input line 67.
+
+[17]
+
+LaTeX Warning: Reference `eq:q2-order' on page 18 undefined on input line 94.
+
+
+LaTeX Warning: Reference `eq:q2-bounds' on page 18 undefined on input line 94.
+
+
+LaTeX Warning: Reference `eq:q2-storage' on page 18 undefined on input line 111
+.
+
+[18]
+
+LaTeX Warning: Reference `tab:q2-compare' on page 19 undefined on input line 13
+1.
+
+(q2_tables/comparison.tex) [19]
+
+LaTeX Warning: Reference `fig:q2-monthly' on page 20 undefined on input line 15
+0.
+
+
+LaTeX Warning: Reference `tab:q2-purchase' on page 20 undefined on input line 1
+57.
+
+(q2_tables/purchase.tex) [20]
+
+LaTeX Warning: Reference `tab:q2-storage' on page 21 undefined on input line 16
+6.
+
+(q2_tables/storage.tex)
+
+LaTeX Warning: Reference `tab:q2-emergency' on page 21 undefined on input line 
+175.
+
+(q2_tables/emergency.tex)
+
+LaTeX Warning: Reference `fig:q2-days' on page 21 undefined on input line 184.
+
+[21]
+
+LaTeX Warning: Reference `fig:q2-sensitivity' on page 22 undefined on input lin
+e 193.
+
+[22]
+
+LaTeX Warning: Reference `eq:q2-objective' on page 23 undefined on input line 2
+00.
+
+) (q3.tex [23]
+
+LaTeX Warning: Reference `eq:q3-weight' on page 24 undefined on input line 32.
+
+[24]
+
+LaTeX Warning: Reference `eq:q3-net' on page 25 undefined on input line 70.
+
+[25]
+
+LaTeX Warning: Reference `eq:q3-bill' on page 26 undefined on input line 114.
+
+
+LaTeX Warning: Reference `eq:q3-net' on page 26 undefined on input line 118.
+
+
+LaTeX Warning: Reference `eq:q3-absolute' on page 26 undefined on input line 11
+8.
+
+
+LaTeX Warning: Reference `tab:q3-candidates' on page 26 undefined on input line
+ 131.
+
+(q3_tables/candidates.tex) [26]
+
+LaTeX Warning: Reference `fig:q3-monthly' on page 27 undefined on input line 14
+6.
+
+
+LaTeX Warning: Reference `tab:q3-original' on page 27 undefined on input line 1
+54.
+
+
+LaTeX Warning: Reference `tab:q3-adjusted' on page 27 undefined on input line 1
+54.
+
+(q3_tables/original_orders.tex) [27] (q3_tables/adjusted_orders.tex)
+
+LaTeX Warning: Reference `tab:q3-storage' on page 28 undefined on input line 17
+1.
+
+(q3_tables/storage.tex) [28]
+
+LaTeX Warning: Reference `tab:q3-emergency' on page 29 undefined on input line 
+180.
+
+
+LaTeX Warning: Reference `fig:q3-days' on page 29 undefined on input line 180.
+
+(q3_tables/emergency.tex) [29]
+
+LaTeX Warning: Reference `fig:q3-value' on page 30 undefined on input line 198.
+
+
+[30]
+
+LaTeX Warning: Reference `fig:q3-parameter' on page 31 undefined on input line 
+208.
+
+[31]
+
+LaTeX Warning: Reference `eq:q3-objective' on page 32 undefined on input line 2
+17.
+
+) (q4.tex [32] [33]
+
+LaTeX Warning: Reference `eq:ridge' on page 34 undefined on input line 69.
+
+[34]
+
+LaTeX Warning: Reference `tab:q4compare' on page 35 undefined on input line 91.
+
+
+
+LaTeX Warning: Reference `tab:q4result' on page 35 undefined on input line 117.
+
+
+
+LaTeX Warning: Reference `tab:q4days' on page 35 undefined on input line 137.
+
+[35]
+
+LaTeX Warning: Reference `fig:q4check' on page 36 undefined on input line 163.
+
+
+LaTeX Warning: Reference `fig:q4check' on page 36 undefined on input line 165.
+
+[36]) (back.tex
+
+LaTeX Warning: Citation `dantzig' on page 37 undefined on input line 5.
+
+
+LaTeX Warning: Citation `hyndman' on page 37 undefined on input line 7.
+
+
+LaTeX Warning: Citation `friedman' on page 37 undefined on input line 11.
+
+
+LaTeX Warning: Citation `hoerl' on page 37 undefined on input line 11.
+
+
+LaTeX Warning: Citation `virtanen' on page 37 undefined on input line 13.
+
+
+LaTeX Warning: Citation `pedregosa' on page 37 undefined on input line 13.
+
+
+LaTeX Warning: Citation `huangfu' on page 37 undefined on input line 13.
+
+[37]
+
+LaTeX Warning: Citation `carbonplan' on page 38 undefined on input line 27.
+
+
+LaTeX Warning: Citation `energyplan' on page 38 undefined on input line 27.
+
+[38]) [39]
+(E:\Projects\SCUT-MathModel-2026\projects\2026-C\paper\complete_manuscript_v1\b
+uild\完整论文.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `完整论文.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+Output written on E:\Projects\SCUT-MathModel-2026\projects\2026-C\paper\complet
+e_manuscript_v1\build\完整论文.xdv (39 pages, 630184 bytes).
+Transcript written on E:\Projects\SCUT-MathModel-2026\projects\2026-C\paper\com
+plete_manuscript_v1\build\完整论文.log.

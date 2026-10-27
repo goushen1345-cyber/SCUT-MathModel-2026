@@ -1,0 +1,124 @@
+{
+  "kind": "Existing result aggregation and figure/table rendering only",
+  "source_script": {
+    "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\scripts\\update_result_figures.py",
+    "sha256": "8469a7122ab3f1192c2da25107042c8e08ac51af543de71815481dda21823ea7"
+  },
+  "inputs": [
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q3\\runs\\20260912-forecast-risk-v1\\outputs\\summary.json",
+      "sha256": "c6c9784e0b96dc1ec3d58ea1e9ddae38fa3716a08fe7953ece737f4c79aaadae"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q4\\runs\\20260913-q3-transfer-v1\\outputs\\summary.json",
+      "sha256": "47ccd1d3af5b10244a1099c9cf24abb11e263a05bb0b747c332c6852d2fdb49a"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q3\\runs\\20260912-forecast-risk-v1\\outputs\\verification.json",
+      "sha256": "2180c57fcccb36f927ed7a9f7405dfab85a330d80441a7614f31888a4e1ccac3"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q4\\runs\\20260913-q3-transfer-v1\\outputs\\verification.json",
+      "sha256": "95aea2f4acfeb040aee52e4dd57c76cee2d4a053772400f2af3fadb722d5c0fa"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q3\\runs\\20260912-forecast-risk-v1\\outputs\\strategies\\EW4_Q60_full.npz",
+      "sha256": "c2abaa84606d778e6221f97148227b2bfdce6c9259ed7b911f299dd6f407b723"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q3\\runs\\20260912-forecast-risk-v1\\outputs\\strategies\\EW4_Q60_full.daily.csv",
+      "sha256": "46dd8d7550cf5fb6682ea7a1d9725d2941d7da7a54e9c32303e439077fbeabcb"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q3\\runs\\20260911-four-candidates-v1\\outputs\\sources.npz",
+      "sha256": "1739b45bf65bb653daa8e9f98e87108746ee339814ef55188488706f85b387b7"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q3\\runs\\20260912-load-feedback-v1\\outputs\\strategies\\LEARN_PREFIX.summary.json",
+      "sha256": "85abde7f8d30a5bd572b92fc07a4edfee4aae4047742a619736956e52d77f794"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\questions\\Q4\\runs\\20260912-selected-deepening-v1\\outputs\\comparison.csv",
+      "sha256": "69debd5bfc55ae79bd03d9560b64ace75b8b3c01350d95a1b465ff32736d6281"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\scripts\\reproduction_check\\fig\\q3_final_monthly.pdf",
+      "sha256": "ba3acc2a5e360018424dd87b8ec37795d79982805f39007f83d6f69b7b8b4295"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\scripts\\reproduction_check\\fig\\q3_final_monthly.png",
+      "sha256": "e6755c65cc1615b4889a1885af3daa410be2a691f35ff2568db49fe895d37e6b"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\scripts\\reproduction_check\\fig\\q3_final_days.pdf",
+      "sha256": "5b155f3ce3772503484d5be96e7883e86c4a00df51e3b0acfe448c8af794076c"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\scripts\\reproduction_check\\fig\\q3_final_days.png",
+      "sha256": "c3e298647a11aa979604d3ad653f6a6c62c2b14416604a9eac5ea1e4c1a6ba4e"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\scripts\\reproduction_check\\fig\\q3_final_information.pdf",
+      "sha256": "83326710906348d550fc05fd283cd63c2d87413489b4b80ac9446f59664668a8"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\scripts\\reproduction_check\\fig\\q3_final_information.png",
+      "sha256": "2570f56c2b6722c051a839eaf6a26d2fc8e8164ab37e321779d4dae3356f4cc4"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\scripts\\reproduction_check\\fig\\q3_final_validation.pdf",
+      "sha256": "75bcb035b458aa0b6bee52922f2fe8fd99ea319246c545a6a08886106fda2686"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\scripts\\reproduction_check\\fig\\q3_final_validation.png",
+      "sha256": "9f058c9e576b777403b78df16cbd87f0ae45797cebcdceb67ff1db97d95d56e7"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\scripts\\reproduction_check\\fig\\q4_final_validation.pdf",
+      "sha256": "171646f1020c317c44302341d610e0a23209031a58095ce57a9fe7ca2481e7aa"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\scripts\\reproduction_check\\fig\\q4_final_validation.png",
+      "sha256": "df8aa761bf249b0fb504a82fe0a71b70126586840bd24da6631d67ac1f5dcaec"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\scripts\\reproduction_check\\tables\\q3_original.tex",
+      "sha256": "e894dca50c8ec72627c7d3c4093a5b32b81247247b92ea1c971ee2096dd29e7d"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\scripts\\reproduction_check\\tables\\q3_final.tex",
+      "sha256": "e7e948d133af0b16d62d1ead3c63409155054ca60e076ad1ff141b2def6592b8"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\scripts\\reproduction_check\\tables\\q3_storage.tex",
+      "sha256": "d8f0dd3b5a5e5a7fd2bc862aed2cd098c6bd017f912e834072f0daa51d8a1e77"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\scripts\\reproduction_check\\tables\\q3_emergency.tex",
+      "sha256": "ae09f053bcd051b2d03d963931936c030cd7d96c2e33d8e9018cf3ba40ab98e7"
+    },
+    {
+      "path": "E:\\Projects\\SCUT-MathModel-2026\\projects\\2026-C\\shumo_1\\shumo_backup_20260913_003434\\scripts\\reproduction_check\\scripts\\derived_values.json",
+      "sha256": "4088af4da94b911ca59479eac6f4117fdf27cb345383fa894adc339a755d311c"
+    }
+  ],
+  "environment": {
+    "python": "3.13.5",
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "font": "Times New Roman + SimSun"
+  },
+  "reproduce": "E:/Anaconda/python.exe -X utf8 scripts/update_result_figures.py --output-root <empty directory>",
+  "checks": {
+    "334_days": true,
+    "chronological_array_dates": true,
+    "daily_total_matches_summary": true,
+    "emergency_total_matches_summary": true,
+    "storage_cross_day_continuity": true,
+    "actual_render_visual_review": "pending",
+    "embedded_paper_pages": "root agent to check"
+  }
+}

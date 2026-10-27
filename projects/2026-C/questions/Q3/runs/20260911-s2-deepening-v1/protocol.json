@@ -1,0 +1,45 @@
+{
+  "version": "Q3-S2-deepening-v1",
+  "authorization": "Q3-DEEPEN-064",
+  "user_quote": "选方案2作为基础，直接深化后开始跑，深化要尽量省钱，先跑出结果就行了，不用输出多余的东西或者做多余的动作，当然，可能要放到论文里的png可以生成",
+  "base": "Q3-trial-v1 S2_fused; forecast blending, load forecast, physical constraints, actual execution and settlement unchanged",
+  "problem_found": "S2 costs 504894.82 yuan more than refined Q2 because ordinary settlement is 215912.71 lower but emergency cost is 720807.53 higher",
+  "single_deepening_direction": "use only past realized errors to add a recency-weighted net-demand allowance; also test limiting downward revisions relative to the midnight order",
+  "allowance": {
+    "error": "((actual_load-actual_pv)-(as-issued_fused_load-as-issued_fused_pv))/6 kWh",
+    "history_days": 28,
+    "group": "release hour x target four-hour block x official-forecast or historical-tail segment",
+    "quantiles_stage1": [0.6, 0.7, 0.8],
+    "decays_stage1": [0.7, 0.8, 1.0],
+    "adaptive_refinement": "after stage1, add at most three adjacent quantiles around its best value, under the best decay; all are reported as exploratory full-year selection",
+    "release_scaling_after_stage1": [[1.0, 0.75, 0.5, 0.25], [1.0, 1.0, 0.75, 0.5], [1.0, 0.5, 0.0, 0.0], [1.0, 0.0, 0.0, 0.0]]
+  },
+  "reduction_floor": {
+    "meaning": "for unexecuted same-day intervals, final ordinary order cannot fall below rho times its midnight order; increases remain allowed",
+    "ratios": [0.25, 0.5, 0.75, 1.0],
+    "comparison": "test without allowance, then combine each ratio with the best allowance from stage1"
+  },
+  "evaluation": {
+    "period": "2025-02-01 through 2025-12-31, 334 days",
+    "initial_storage_kwh": 8592.693560925925,
+    "criterion": "minimum actual total settlement; also retain ordinary, emergency, unused order, unused PV, daily and monthly counterexamples",
+    "baseline": "existing verified S2_fused trace, not solved again",
+    "selection_status": "exploratory tuning on the required year, not an untouched external test"
+  },
+  "budget": {
+    "new_lp_calls_max": 35000,
+    "new_tree_fits": 0,
+    "research_seconds_max": 1800,
+    "single_lp_seconds": 10
+  },
+  "checks": [
+    "no future actual values in margins",
+    "q0 immutable and executed prefixes locked",
+    "inventory, power and supply constraints",
+    "actual causal execution reconstructed independently",
+    "ordinary and emergency fees independently recomputed",
+    "all failed or non-improving variants retained"
+  ],
+  "outputs": "isolated run results, concise comparison and only useful code-generated PNG; no paper prose, result3 workbook, freeze or Q4",
+  "stop": "deliver best actual result and its limits; do not start another model family or scenario optimization"
+}

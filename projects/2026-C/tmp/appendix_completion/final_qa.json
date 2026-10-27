@@ -1,0 +1,17 @@
+{
+  "pages": 91,
+  "bytes": 2396010,
+  "abstract_pages": 1,
+  "body_pages": 30,
+  "appendix_pages": 60,
+  "original_34_pages_text_and_pixels_identical": true,
+  "source_files": 20,
+  "support_files": 86,
+  "all_code_read_directly_from_unchanged_sources": true,
+  "continuous_page_numbers": true,
+  "a4": true,
+  "no_missing_glyphs_or_overflow": true,
+  "delivery_status": "target replaced",
+  "pdf_sha256": "d9adec057be1fd51d62f311080d9ebd5bee62a48a4b5f03bf4439b787223eee3",
+  "visual_review": "all new pages 35-91 inspected; original 34 pages pixel-identical"
+}

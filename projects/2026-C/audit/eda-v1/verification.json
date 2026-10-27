@@ -1,0 +1,409 @@
+{
+  "raw_workbooks_read": [
+    "附件2.xlsx",
+    "附件4.xlsx"
+  ],
+  "checks": [
+    {
+      "name": "load_kw_mean",
+      "independent": 4626.033670125571,
+      "recorded": 4626.033670125571,
+      "ok": true
+    },
+    {
+      "name": "load_kw_lag_24",
+      "independent": 0.6792228203357933,
+      "recorded": 0.6792228203357933,
+      "ok": true
+    },
+    {
+      "name": "load_kw_lag_168",
+      "independent": 0.9854841731589501,
+      "recorded": 0.9854841731589503,
+      "ok": true
+    },
+    {
+      "name": "pv_actual_kw_mean",
+      "independent": 2311.785709096271,
+      "recorded": 2311.7857090962707,
+      "ok": true
+    },
+    {
+      "name": "pv_actual_kw_lag_24",
+      "independent": 0.9923139365019293,
+      "recorded": 0.9923139365019306,
+      "ok": true
+    },
+    {
+      "name": "pv_actual_kw_lag_168",
+      "independent": 0.9903393354144856,
+      "recorded": 0.9903393354144868,
+      "ok": true
+    },
+    {
+      "name": "price_yuan_per_kwh_mean",
+      "independent": 0.7661976046423136,
+      "recorded": 0.7661976046423136,
+      "ok": true
+    },
+    {
+      "name": "price_yuan_per_kwh_lag_24",
+      "independent": 0.9335388576734354,
+      "recorded": 0.933538857673437,
+      "ok": true
+    },
+    {
+      "name": "price_yuan_per_kwh_lag_168",
+      "independent": 0.9820369555202604,
+      "recorded": 0.9820369555202604,
+      "ok": true
+    },
+    {
+      "name": "net_load_kw_mean",
+      "independent": 2314.2479610293,
+      "recorded": 2314.2479610293,
+      "ok": true
+    },
+    {
+      "name": "net_load_kw_lag_24",
+      "independent": 0.8806201487035162,
+      "recorded": 0.8806201487035166,
+      "ok": true
+    },
+    {
+      "name": "net_load_kw_lag_168",
+      "independent": 0.9808934372989159,
+      "recorded": 0.9808934372989154,
+      "ok": true
+    },
+    {
+      "name": "month_1_load_kw",
+      "independent": 4725.773469153226,
+      "recorded": 4725.773469153226,
+      "ok": true
+    },
+    {
+      "name": "month_1_pv_actual_kw",
+      "independent": 1589.1838943548387,
+      "recorded": 1589.1838943548387,
+      "ok": true
+    },
+    {
+      "name": "month_1_price_yuan_per_kwh",
+      "independent": 0.8596107750896057,
+      "recorded": 0.8596107750896057,
+      "ok": true
+    },
+    {
+      "name": "month_2_load_kw",
+      "independent": 4516.8965253224205,
+      "recorded": 4516.8965253224205,
+      "ok": true
+    },
+    {
+      "name": "month_2_pv_actual_kw",
+      "independent": 1966.4803466517858,
+      "recorded": 1966.4803466517858,
+      "ok": true
+    },
+    {
+      "name": "month_2_price_yuan_per_kwh",
+      "independent": 0.7695711805555556,
+      "recorded": 0.7695711805555556,
+      "ok": true
+    },
+    {
+      "name": "month_3_load_kw",
+      "independent": 4355.698995407706,
+      "recorded": 4355.698995407706,
+      "ok": true
+    },
+    {
+      "name": "month_3_pv_actual_kw",
+      "independent": 2304.1967555331544,
+      "recorded": 2304.1967555331544,
+      "ok": true
+    },
+    {
+      "name": "month_3_price_yuan_per_kwh",
+      "independent": 0.7255331989247312,
+      "recorded": 0.7255331989247311,
+      "ok": true
+    },
+    {
+      "name": "month_4_load_kw",
+      "independent": 4392.976799050925,
+      "recorded": 4392.976799050925,
+      "ok": true
+    },
+    {
+      "name": "month_4_pv_actual_kw",
+      "independent": 2701.6856893287036,
+      "recorded": 2701.6856893287036,
+      "ok": true
+    },
+    {
+      "name": "month_4_price_yuan_per_kwh",
+      "independent": 0.6988464120370371,
+      "recorded": 0.698846412037037,
+      "ok": true
+    },
+    {
+      "name": "month_5_load_kw",
+      "independent": 4401.677752688172,
+      "recorded": 4401.677752688172,
+      "ok": true
+    },
+    {
+      "name": "month_5_pv_actual_kw",
+      "independent": 2806.502396550179,
+      "recorded": 2806.502396550179,
+      "ok": true
+    },
+    {
+      "name": "month_5_price_yuan_per_kwh",
+      "independent": 0.6912003360215054,
+      "recorded": 0.6912003360215053,
+      "ok": true
+    },
+    {
+      "name": "month_6_load_kw",
+      "independent": 4800.372629444444,
+      "recorded": 4800.372629444444,
+      "ok": true
+    },
+    {
+      "name": "month_6_pv_actual_kw",
+      "independent": 2369.8265653009257,
+      "recorded": 2369.8265653009257,
+      "ok": true
+    },
+    {
+      "name": "month_6_price_yuan_per_kwh",
+      "independent": 0.7662756712962963,
+      "recorded": 0.7662756712962963,
+      "ok": true
+    },
+    {
+      "name": "month_7_load_kw",
+      "independent": 5337.258656070789,
+      "recorded": 5337.258656070789,
+      "ok": true
+    },
+    {
+      "name": "month_7_pv_actual_kw",
+      "independent": 2723.254275,
+      "recorded": 2723.254275,
+      "ok": true
+    },
+    {
+      "name": "month_7_price_yuan_per_kwh",
+      "independent": 0.8300811827956989,
+      "recorded": 0.8300811827956989,
+      "ok": true
+    },
+    {
+      "name": "month_8_load_kw",
+      "independent": 5045.177050336021,
+      "recorded": 5045.177050336021,
+      "ok": true
+    },
+    {
+      "name": "month_8_pv_actual_kw",
+      "independent": 2915.9930929883512,
+      "recorded": 2915.9930929883512,
+      "ok": true
+    },
+    {
+      "name": "month_8_price_yuan_per_kwh",
+      "independent": 0.7864659722222221,
+      "recorded": 0.7864659722222221,
+      "ok": true
+    },
+    {
+      "name": "month_9_load_kw",
+      "independent": 4535.910432824075,
+      "recorded": 4535.910432824075,
+      "ok": true
+    },
+    {
+      "name": "month_9_pv_actual_kw",
+      "independent": 2607.5995060879627,
+      "recorded": 2607.5995060879627,
+      "ok": true
+    },
+    {
+      "name": "month_9_price_yuan_per_kwh",
+      "independent": 0.7202801851851852,
+      "recorded": 0.7202801851851852,
+      "ok": true
+    },
+    {
+      "name": "month_10_load_kw",
+      "independent": 4347.019491330645,
+      "recorded": 4347.019491330645,
+      "ok": true
+    },
+    {
+      "name": "month_10_pv_actual_kw",
+      "independent": 2364.313051769713,
+      "recorded": 2364.313051769713,
+      "ok": true
+    },
+    {
+      "name": "month_10_price_yuan_per_kwh",
+      "independent": 0.7202710573476703,
+      "recorded": 0.7202710573476703,
+      "ok": true
+    },
+    {
+      "name": "month_11_load_kw",
+      "independent": 4337.671346689815,
+      "recorded": 4337.671346689815,
+      "ok": true
+    },
+    {
+      "name": "month_11_pv_actual_kw",
+      "independent": 1854.376335601852,
+      "recorded": 1854.376335601852,
+      "ok": true
+    },
+    {
+      "name": "month_11_price_yuan_per_kwh",
+      "independent": 0.7610268287037038,
+      "recorded": 0.7610268287037036,
+      "ok": true
+    },
+    {
+      "name": "month_12_load_kw",
+      "independent": 4691.305896191756,
+      "recorded": 4691.305896191756,
+      "ok": true
+    },
+    {
+      "name": "month_12_pv_actual_kw",
+      "independent": 1513.8368958781361,
+      "recorded": 1513.8368958781361,
+      "ok": true
+    },
+    {
+      "name": "month_12_price_yuan_per_kwh",
+      "independent": 0.8617168234767025,
+      "recorded": 0.8617168234767025,
+      "ok": true
+    },
+    {
+      "name": "weekday_0",
+      "independent": 5162.540201442307,
+      "recorded": 5162.540201442307,
+      "ok": true
+    },
+    {
+      "name": "weekday_1",
+      "independent": 5172.680314863782,
+      "recorded": 5172.680314863782,
+      "ok": true
+    },
+    {
+      "name": "weekday_2",
+      "independent": 5171.497756381027,
+      "recorded": 5171.497756381027,
+      "ok": true
+    },
+    {
+      "name": "weekday_3",
+      "independent": 5168.024295953525,
+      "recorded": 5168.024295953525,
+      "ok": true
+    },
+    {
+      "name": "weekday_4",
+      "independent": 3263.826748290598,
+      "recorded": 3263.826748290598,
+      "ok": true
+    },
+    {
+      "name": "weekday_5",
+      "independent": 3266.9676717815173,
+      "recorded": 3266.9676717815173,
+      "ok": true
+    },
+    {
+      "name": "weekday_6",
+      "independent": 5166.209008199787,
+      "recorded": 5166.209008199787,
+      "ok": true
+    },
+    {
+      "name": "surplus_fraction",
+      "independent": 0.19273211567732115,
+      "recorded": 0.19273211567732115,
+      "ok": true
+    },
+    {
+      "name": "all_n",
+      "independent": 6570,
+      "recorded": 6570,
+      "ok": true
+    },
+    {
+      "name": "all_initial_mae",
+      "independent": 240.82542849315067,
+      "recorded": 240.82542849315067,
+      "ok": true
+    },
+    {
+      "name": "all_latest_mae",
+      "independent": 73.94206412480973,
+      "recorded": 73.94206412480973,
+      "ok": true
+    },
+    {
+      "name": "all_worse_fraction",
+      "independent": 0.11080669710806697,
+      "recorded": 0.11080669710806697,
+      "ok": true
+    },
+    {
+      "name": "actual_positive_n",
+      "independent": 4177,
+      "recorded": 4177,
+      "ok": true
+    },
+    {
+      "name": "actual_positive_initial_mae",
+      "independent": 378.7941262149868,
+      "recorded": 378.7941262149868,
+      "ok": true
+    },
+    {
+      "name": "actual_positive_latest_mae",
+      "independent": 116.3034142446732,
+      "recorded": 116.3034142446732,
+      "ok": true
+    },
+    {
+      "name": "actual_positive_worse_fraction",
+      "independent": 0.1742877663394781,
+      "recorded": 0.1742877663394781,
+      "ok": true
+    }
+  ],
+  "all_ok": true,
+  "weekday_date_note": "2025-01-01 is Wednesday; source calendar preserved, no weekday shift.",
+  "reference_vs_annual_same_label": {
+    "load_kw": {
+      "max_abs": 5.0410958920110716e-05,
+      "mae": 2.8485540348634055e-05
+    },
+    "pv_actual_kw": {
+      "max_abs": 0.04310438356164384,
+      "mae": 0.0009049181887578202
+    },
+    "price_yuan_per_kwh": {
+      "max_abs": 5.150684931509719e-05,
+      "mae": 2.5534627092855934e-05
+    }
+  },
+  "not_proven": "Neither data-generation provenance nor causal explanations or future forecasting accuracy."
+}
